@@ -16,6 +16,8 @@
 			"backgrounds",
 			"races",
 			"psionics",
+			"creatures",
+			"monsters",
 			"crafting"
 		],
 "packs": [
@@ -25,6 +27,38 @@
 				"system": "dnd5e",
 				"path": "packs/kccc-backgrounds.db",
 				"entity": "Item",
+				"module": "kibbles-compendium-of-craft-and-creation"
+			},
+			{
+				"name": "kccc-feats",
+				"label": "KCCC Feats",
+				"system": "dnd5e",
+				"path": "packs/kccc-feats.db",
+				"entity": "Item",
+				"module": "kibbles-compendium-of-craft-and-creation"
+			},
+			{
+				"name": "kccc-spells",
+				"label": "KCCC Spells",
+				"system": "dnd5e",
+				"path": "packs/kccc-spells.db",
+				"entity": "Item",
+				"module": "kibbles-compendium-of-craft-and-creation"
+			},
+			{
+				"name": "kccc-subclasses",
+				"label": "KCCC Subclasses",
+				"system": "dnd5e",
+				"path": "packs/kccc-subclasses.db",
+				"entity": "Item",
+				"module": "kibbles-compendium-of-craft-and-creation"
+			},
+				"name": "kccc-monsters",
+				"label": "KCCC Monsters",
+				"system": "dnd5e",
+				"path": "packs/kccc-monsters.db",
+				"type": "Actor",
+				"entity": "Actor",
 				"module": "kibbles-compendium-of-craft-and-creation"
 			}
 		],
