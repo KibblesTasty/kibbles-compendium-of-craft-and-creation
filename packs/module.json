@@ -3,11 +3,11 @@
 "title": "Kibbles' Compendium of Craft and Creation",
 "description": "The FoundryVTT module for Kibbles' Compendium of Craft and Creation, an expansion for 5e with Psionics, Crafting, and more",
 "author": "KibblesTasty",
-"version": "0.8.2",
+"version": "0.8.3",
 "minimumCoreVersion": "0.6.0",
 "compatibleCoreVersion": "9",
 "manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/releases/download/archive/module.json",
-"download": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/releases/download/archive/kibbles-compendium-of-craft-and-creation-archive.zip",
+"download": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/releases/download/archive/kibbles-compendium-of-craft-and-creation-main.zip",
 "keywords" : [
 			"subclasses",
 			"spells",
@@ -50,6 +50,14 @@
 				"label": "KCCC Spells",
 				"system": "dnd5e",
 				"path": "./packs/kccc-spells.db",
+				"entity": "Item",
+				"module": "kibbles-compendium-of-craft-and-creation"
+			},
+			{
+				"name": "kccc-races",
+				"label": "KCCC Races",
+				"system": "dnd5e",
+				"path": "./packs/kccc-races.db",
 				"entity": "Item",
 				"module": "kibbles-compendium-of-craft-and-creation"
 			},
