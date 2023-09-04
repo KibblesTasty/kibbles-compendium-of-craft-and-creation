@@ -1,124 +1,125 @@
 {
-"name": "kibbles-compendium-of-craft-and-creation",
-"title": "Kibbles' Compendium of Craft and Creation",
-"description": "The FoundryVTT module for Kibbles' Compendium of Craft and Creation, an expansion for 5e with Psionics, Crafting, and more",
-"author": "KibblesTasty",
-"version": "1.0.2",
-"minimumCoreVersion": "0.6.0",
-"compatibility": {
+  "name": "kibbles-compendium-of-craft-and-creation",
+  "title": "Kibbles' Compendium of Craft and Creation",
+  "description": "The FoundryVTT module for Kibbles' Compendium of Craft and Creation, an expansion for 5e with Psionics, Crafting, and more",
+  "author": "KibblesTasty",
+  "version": "1.0.2",
+  "minimumCoreVersion": "0.6.0",
+  "esmodules": ["index.mjs"],
+  "compatibility": {
     "minimum": "10",
     "verified": "11"
   },
-"manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/releases/download/archive/module.json",
-"download": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/releases/download/archive/kibbles-compendium-of-craft-and-creation-main.zip",
-"keywords" : [
-			"subclasses",
-			"spells",
-			"feats",
-			"classes",
-			"backgrounds",
-			"races",
-			"psionics",
-			"creatures",
-			"monsters",
-			"crafting"
-		],
-"packs": [
-			{
-				"name": "kccc-backgrounds",
-				"label": "KCCC Backgrounds",
-				"system": "dnd5e",
-				"path": "./packs/kccc-backgrounds.db",
-				"type": "Item",
-				"entity": "Item",
-				"module": "kibbles-compendium-of-craft-and-creation"
-			},
-			{
-				"name": "kccc-feats",
-				"label": "KCCC Feats",
-				"system": "dnd5e",
-				"path": "./packs/kccc-feats.db",
-				"type": "Item",
-				"entity": "Item",
-				"module": "kibbles-compendium-of-craft-and-creation"
-			},
-			{
-				"name": "kccc-subclasses",
-				"label": "KCCC Subclasses",
-				"system": "dnd5e",
-				"path": "./packs/kccc-subclasses.db",
-				"type": "Item",
-				"entity": "Item",
-				"module": "kibbles-compendium-of-craft-and-creation"
-			},
-			{
-				"name": "kccc-classes",
-				"label": "KCCC Classes",
-				"system": "dnd5e",
-				"path": "./packs/kccc-classes.db",
-				"type": "Item",
-				"entity": "Item",
-				"module": "kibbles-compendium-of-craft-and-creation"
-			},
-			{
-				"name": "kccc-spells",
-				"label": "KCCC Spells",
-				"system": "dnd5e",
-				"path": "./packs/kccc-spells.db",
-				"type": "Item",
-				"entity": "Item",
-				"module": "kibbles-compendium-of-craft-and-creation"
-			},
-			{
-				"name": "kccc-items",
-				"label": "KCCC Items",
-				"system": "dnd5e",
-				"path": "./packs/kccc-items.db",
-				"type": "Item",
-				"entity": "Item",
-				"module": "kibbles-compendium-of-craft-and-creation"
-			},
-			{
-				"name": "kccc-races",
-				"label": "KCCC Races",
-				"system": "dnd5e",
-				"path": "./packs/kccc-races.db",
-				"type": "Item",
-				"entity": "Item",
-				"module": "kibbles-compendium-of-craft-and-creation"
-			},
-			{
-				"name": "kccc-crafting-materials",
-				"label": "KCCC Crafting Materials",
-				"system": "dnd5e",
-				"path": "./packs/kccc-crafting-materials.db",
-				"type": "Item",
-				"entity": "Item",
-				"module": "kibbles-compendium-of-craft-and-creation"
-			},
-			{
-				"name": "kccc-monsters",
-				"label": "KCCC Monsters",
-				"system": "dnd5e",
-				"path": "./packs/kccc-monsters.db",
-				"type": "Actor",
-				"entity": "Actor",
-				"module": "kibbles-compendium-of-craft-and-creation"
-			},
-			{
-				"name": "kccc-roll-tables",
-				"label": "KCCC Roll Tables",
-				"system": "dnd5e",
-				"path": "./packs/kccc-roll-tables.db",
-				"type": "RollTable",
-				"entity": "RollTable",
-				"module": "kibbles-compendium-of-craft-and-creation"
-			}
-		],
-"authors": [
-			{
-			  "name": "KibblesTasty",
-			  "url": "https://kthomebrew.com"
-			}
-		]
+  "manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/releases/download/archive/module.json",
+  "download": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/releases/download/archive/kibbles-compendium-of-craft-and-creation-main.zip",
+  "keywords": [
+    "subclasses",
+    "spells",
+    "feats",
+    "classes",
+    "backgrounds",
+    "races",
+    "psionics",
+    "creatures",
+    "monsters",
+    "crafting"
+  ],
+  "packs": [
+    {
+      "name": "kccc-backgrounds",
+      "label": "KCCC Backgrounds",
+      "system": "dnd5e",
+      "path": "./packs/kccc-backgrounds.db",
+      "type": "Item",
+      "entity": "Item",
+      "module": "kibbles-compendium-of-craft-and-creation"
+    },
+    {
+      "name": "kccc-feats",
+      "label": "KCCC Feats",
+      "system": "dnd5e",
+      "path": "./packs/kccc-feats.db",
+      "type": "Item",
+      "entity": "Item",
+      "module": "kibbles-compendium-of-craft-and-creation"
+    },
+    {
+      "name": "kccc-subclasses",
+      "label": "KCCC Subclasses",
+      "system": "dnd5e",
+      "path": "./packs/kccc-subclasses.db",
+      "type": "Item",
+      "entity": "Item",
+      "module": "kibbles-compendium-of-craft-and-creation"
+    },
+    {
+      "name": "kccc-classes",
+      "label": "KCCC Classes",
+      "system": "dnd5e",
+      "path": "./packs/kccc-classes.db",
+      "type": "Item",
+      "entity": "Item",
+      "module": "kibbles-compendium-of-craft-and-creation"
+    },
+    {
+      "name": "kccc-spells",
+      "label": "KCCC Spells",
+      "system": "dnd5e",
+      "path": "./packs/kccc-spells.db",
+      "type": "Item",
+      "entity": "Item",
+      "module": "kibbles-compendium-of-craft-and-creation"
+    },
+    {
+      "name": "kccc-items",
+      "label": "KCCC Items",
+      "system": "dnd5e",
+      "path": "./packs/kccc-items.db",
+      "type": "Item",
+      "entity": "Item",
+      "module": "kibbles-compendium-of-craft-and-creation"
+    },
+    {
+      "name": "kccc-races",
+      "label": "KCCC Races",
+      "system": "dnd5e",
+      "path": "./packs/kccc-races.db",
+      "type": "Item",
+      "entity": "Item",
+      "module": "kibbles-compendium-of-craft-and-creation"
+    },
+    {
+      "name": "kccc-crafting-materials",
+      "label": "KCCC Crafting Materials",
+      "system": "dnd5e",
+      "path": "./packs/kccc-crafting-materials.db",
+      "type": "Item",
+      "entity": "Item",
+      "module": "kibbles-compendium-of-craft-and-creation"
+    },
+    {
+      "name": "kccc-monsters",
+      "label": "KCCC Monsters",
+      "system": "dnd5e",
+      "path": "./packs/kccc-monsters.db",
+      "type": "Actor",
+      "entity": "Actor",
+      "module": "kibbles-compendium-of-craft-and-creation"
+    },
+    {
+      "name": "kccc-roll-tables",
+      "label": "KCCC Roll Tables",
+      "system": "dnd5e",
+      "path": "./packs/kccc-roll-tables.db",
+      "type": "RollTable",
+      "entity": "RollTable",
+      "module": "kibbles-compendium-of-craft-and-creation"
+    }
+  ],
+  "authors": [
+    {
+      "name": "KibblesTasty",
+      "url": "https://kthomebrew.com"
+    }
+  ]
 }
