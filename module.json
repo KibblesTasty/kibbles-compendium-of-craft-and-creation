@@ -6,6 +6,13 @@
   "version": "1.0.2",
   "minimumCoreVersion": "0.6.0",
   "esmodules": ["index.mjs"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
   "compatibility": {
     "minimum": "10",
     "verified": "11"
