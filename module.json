@@ -6,28 +6,24 @@
   "author": "KibblesTasty",
   "version": "1.2.0",
   "esmodules": ["index.mjs"],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    }
-  ],
+  "languages": [{
+    "lang": "en",
+    "name": "English",
+    "path": "lang/en.json"
+  }],
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "12"
   },
   "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "3",
-          "verified": "3.0.2"
-        }
+    "systems": [{
+      "id": "dnd5e",
+      "type": "system",
+      "compatibility": {
+        "minimum": "3",
+        "verified": "3.2.1"
       }
-    ]
+    }]
   },
   "manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/releases/download/archive/module.json",
   "download": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/releases/download/archive/kibbles-compendium-of-craft-and-creation-main.zip",
@@ -43,8 +39,7 @@
     "monsters",
     "crafting"
   ],
-  "packs": [
-    {
+  "packs": [{
       "name": "kccc-backgrounds",
       "label": "KCCC Backgrounds",
       "system": "dnd5e",
@@ -135,10 +130,38 @@
       "module": "kibbles-compendium-of-craft-and-creation"
     }
   ],
-  "authors": [
-    {
-      "name": "KibblesTasty",
-      "url": "https://kthomebrew.com"
-    }
-  ]
+  "packFolders": [{
+    "name": "KibblesTasty",
+    "sorting": "a",
+    "color": "#4169E1",
+    "folders": [{
+      "name": "KCCC",
+      "sorting": "a",
+      "color": "#663399",
+      "packs": ["kccc-roll-tables"],
+      "folders": [{
+          "name": "Character Features",
+          "sorting": "a",
+          "color": "#592d86",
+          "packs": ["kccc-backgrounds", "kccc-feats", "kccc-subclasses", "kccc-classes", "kccc-races"]
+        },
+        {
+          "name": "Items & Spells",
+          "sorting": "a",
+          "color": "#4d2673",
+          "packs": ["kccc-spells", "kccc-items", "kccc-crafting-materials"]
+        },
+        {
+          "name": "Monsters",
+          "sorting": "a",
+          "color": "#402060",
+          "packs": ["kccc-monsters"]
+        }
+      ]
+    }]
+  }],
+  "authors": [{
+    "name": "KibblesTasty",
+    "url": "https://kthomebrew.com"
+  }]
 }
