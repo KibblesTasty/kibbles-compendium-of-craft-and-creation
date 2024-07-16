@@ -1,0 +1,119 @@
+name: Construct CR 11-16
+img: icons/creatures/magical/construct-stone-earth-gray.webp
+description: >-
+  If a material is found, to successfully harvest it, you will need to roll a
+  [[/roll 1d20+@skills.arc.total # Harvesting Check]]{Intelligence (Arcana)}
+  ability check with a <b>DC of 12</b>
+results:
+  - _id: NlsPNbGpFVmoXvn9
+    type: 2
+    text: Esoteric Parts
+    img: icons/commodities/tech/coil-steel-grey.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: V249bkKTTvMoyjCn
+    weight: 1
+    range:
+      - 1
+      - 30
+    drawn: false
+    flags: {}
+    rangeL: 1
+    rangeH: 30
+    _key: '!tables.results!mbRwEYOSGX56kdpC.NlsPNbGpFVmoXvn9'
+  - _id: 42XbV62km1NbF9aj
+    type: 0
+    text: >-
+      [[/r 1d4]]
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.V249bkKTTvMoyjCn]{Esoteric
+      Parts}
+    weight: 1
+    range:
+      - 31
+      - 60
+    drawn: false
+    flags: {}
+    img: icons/commodities/tech/coil-steel-grey.webp
+    rangeL: 31
+    rangeH: 60
+    _key: '!tables.results!mbRwEYOSGX56kdpC.42XbV62km1NbF9aj'
+  - _id: XEBUzavS4WhAkxWX
+    type: 2
+    text: Uncommon Arcane Essence
+    img: icons/commodities/gems/gem-rough-ball-purple.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: 8sFuEHlAoHAjJHPA
+    weight: 1
+    range:
+      - 61
+      - 80
+    drawn: false
+    flags: {}
+    rangeL: 61
+    rangeH: 80
+    _key: '!tables.results!mbRwEYOSGX56kdpC.XEBUzavS4WhAkxWX'
+  - _id: NYeKT3BikGtOy0rd
+    type: 2
+    text: Rare Arcane Essence
+    img: icons/commodities/biological/organ-heart-black.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: S1IlBZUhshluk9TA
+    weight: 1
+    range:
+      - 81
+      - 90
+    drawn: false
+    flags: {}
+    rangeL: 81
+    rangeH: 90
+    _key: '!tables.results!mbRwEYOSGX56kdpC.NYeKT3BikGtOy0rd'
+  - _id: h2oh6pQoACtaK871
+    type: 2
+    text: Rare Arcane Essence
+    img: icons/commodities/biological/organ-heart-black.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: S1IlBZUhshluk9TA
+    weight: 1
+    range:
+      - 91
+      - 99
+    drawn: false
+    flags: {}
+    rangeL: 91
+    rangeH: 99
+    _key: '!tables.results!mbRwEYOSGX56kdpC.h2oh6pQoACtaK871'
+  - _id: FrcWv7zQFoTOuz2I
+    type: 2
+    text: Very Rare Arcane Essence
+    img: icons/commodities/gems/gem-faceted-rough-blue.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: lArgF71EYaBV5oQe
+    weight: 1
+    range:
+      - 100
+      - 100
+    drawn: false
+    flags: {}
+    rangeL: 100
+    rangeH: 100
+    _key: '!tables.results!mbRwEYOSGX56kdpC.FrcWv7zQFoTOuz2I'
+formula: 1d100
+replacement: true
+displayRoll: true
+folder: qAZYGUUkTX9PyMez
+sort: 1200000
+flags:
+  core:
+    sourceId: RollTable.rlyqGgLYtIWBzvKi
+_id: mbRwEYOSGX56kdpC
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693870747280
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!tables!mbRwEYOSGX56kdpC'
+

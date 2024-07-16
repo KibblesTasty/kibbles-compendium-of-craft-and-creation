@@ -1,0 +1,122 @@
+name: 'Upgrade: Assume Control'
+type: feat
+img: icons/commodities/tech/levers-colored.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 32200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.rnjNO79i6WUPhhzl
+_id: W2yeGBG0kUgHjaFw
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Emergency Protocol)</em></p>
+
+      <p>You expand the control available to your armor’s sentience. You can set
+      additional conditions when your armor will take control of your movement
+      and actions, and it can maintain this control for up to 1 minute.</p>
+
+      <p>While acting in this mode, it can take any action you could take
+      (including attacking), but can only cast spells granted by Upgrades. It
+      uses your ability scores.</p>
+
+      <p>The triggering event can be a preset condition, a verbal command, or a
+      specified time. Your armor is immune to the charmed, blinded, frightened,
+      paralyzed, and poisoned conditions, and doesn’t suffer from exhaustion,
+      ignoring these effects if you are under them.</p>
+
+      <p>If you have Warplate, it can act in this way even when you are not
+      wearing it (or are dead). When doing so, it uses the game statistics of
+      animated armor with the following modifications: It has an intelligence of
+      12 and it can cast any spells that come from Upgrades with a DC equal to
+      your spell save DC.</p>
+
+      <p>This counts as a use of your Emergency Protocol, and it can’t control
+      the armor again (in either way) until you finish a short or long rest.</p>
+
+      <p>In non-combat situations in which you are not wearing your armor, your
+      armor’s sentience can exert a lesser control of the armor to move it about
+      and perform simple tasks. During this time it has the statistics of an
+      unseen servant, though it looks like your suit of armor. Its ability to do
+      this is not limited, but it takes 1 minute to assume this kind of control
+      of your armor, and it can only do so while you are not wearing it. If
+      reduced to zero hit points, the armor is incapacitated until you repair it
+      during a long rest, but it can still serve as armor.</p>
+    chat: ''
+    unidentified: ''
+  source: Warsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warsmith 9
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!W2yeGBG0kUgHjaFw'
+

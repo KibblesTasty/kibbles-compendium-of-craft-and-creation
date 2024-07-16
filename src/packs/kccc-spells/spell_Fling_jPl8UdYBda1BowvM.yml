@@ -1,0 +1,169 @@
+name: Fling
+type: spell
+img: icons/magic/sonic/projectile-shock-wave-blue.webp
+effects: []
+folder: O6hZgRZFkj4UG3IA
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value:
+        - true
+        - true
+        - true
+      altValue:
+        - true
+        - true
+        - true
+      context:
+        '0': Falling
+        '1': Flinging
+        '2': Colliding
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.Mye18hqn0WMjJXbo
+_id: jPl8UdYBda1BowvM
+system:
+  description:
+    value: >-
+      <p>You manipulate gravity around one large or smaller creature. The target
+      creature makes a Strength saving throw. On failure, you can fling them 40
+      feet straight up or 20 feet in any direction.</p>
+
+      <p>If you fling them straight up they immediately fall, taking [[/r 4d6]]
+      damage falling damage, and fall prone. If you fling them any other
+      direction, they take [[/r 2d6]] damage and fall prone. If their movement
+      would be stopped early by a creature or object, both the target and
+      creature or object takes [[/r 3d6]] bludgeoning damage.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Casting Compendium
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 4d6
+        - bludgeoning
+      - - 2d6
+        - bludgeoning
+      - - 3d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  level: 2
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886428
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!jPl8UdYBda1BowvM'
+

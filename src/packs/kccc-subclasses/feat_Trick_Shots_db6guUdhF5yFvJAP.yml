@@ -1,0 +1,115 @@
+name: Trick Shots
+type: feat
+img: icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp
+data:
+  description:
+    value: >-
+      <p>At 3rd level, you gain the ability to create special pieces of
+      ammunition. You can have a number of these special shots equal to your
+      proficiency bonus, recreating expended ones during a short or long
+      rest.</p>
+
+      <p>The DC for your Trick Shots is equal to your spell save DC.</p>
+
+      <p>You can select from the following options for your special shots. You
+      can make multiple copies of one shot, or select multiple different shots,
+      as long as the total equals your proficiency bonus. You can swap out any
+      unspent ones for other options during a short or long rest.</p>
+
+      <ul>
+
+      <li><strong>Binding Shot. </strong>Instead of doing damage, this shot
+      turns into a net when striking the target. The net gains additional hit
+      points equal to your Ranger level.</li>
+
+      <li><strong>Flash Shot. </strong>When this shot hits a target, it emits a
+      brilliant flash of light. The target and creatures within 15 feet of the
+      target must make a Dexterity saving throw or become blinded until the
+      start of your next turn.</li>
+
+      <li><strong>Explosive Shot. </strong>When this shot hits a target, it
+      emits an explosion. The target and creatures within 10 feet of the target
+      must make a Dexterity saving throw or take 1d6 fire damage and 1d6 thunder
+      damage.</li>
+
+      <li><strong>Guided Shot. </strong>When fired, this shot tracks its target.
+      This attack is made with advantage, and ignores cover, including complete
+      cover, as long as there is a path to the target you are aware of that
+      requires the shot to travel less than the maximum range of the weapon
+      used.</li>
+
+      <li><strong>Rocket Shot. </strong>The attack’s range is doubled, and on a
+      hit the target takes an extra 1d12 damage from the attack.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Specialist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Specialist 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.xpdeyvr8ll12qjM4
+_id: db6guUdhF5yFvJAP
+_key: '!items!db6guUdhF5yFvJAP'
+

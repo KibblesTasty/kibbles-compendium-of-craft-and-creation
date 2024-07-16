@@ -1,0 +1,137 @@
+_id: goySxFLnQjVOpVG3
+name: Soul Investiture
+type: feat
+img: icons/magic/unholy/hands-cloud-light-pink.webp
+effects:
+  - _id: tqthYH6GOtm1jEwn
+    changes:
+      - key: data.bonuses.abilities.save
+        mode: 2
+        value: '-1d4'
+        priority: 20
+      - key: data.bonuses.mwak.attack
+        mode: 2
+        value: '-1d4'
+        priority: 20
+      - key: data.bonuses.msak.attack
+        mode: 2
+        value: '-1d4'
+        priority: 20
+      - key: data.bonuses.rsak.attack
+        mode: 2
+        value: '-1d4'
+        priority: 20
+      - key: data.bonuses.rwak.attack
+        mode: 2
+        value: '-1d4'
+        priority: 20
+      - key: data.bonuses.mwak.damage
+        mode: 2
+        value: +1d6
+        priority: 20
+    disabled: true
+    duration:
+      startTime: null
+      rounds: 1
+    icon: icons/magic/unholy/hands-cloud-light-pink.webp
+    label: Soul Investiture
+    origin: Compendium.world.kccc-classes.goySxFLnQjVOpVG3
+    transfer: true
+    flags: {}
+    tint: null
+    _key: '!items.effects!goySxFLnQjVOpVG3.tqthYH6GOtm1jEwn'
+folder: 0WY2lfr2O03sVH68
+sort: 41600000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.zkY54eYQjM8jDgC1
+system:
+  description:
+    value: >-
+      <p>Due to your unique bond to your Forbidden Artifact, as a bonus action
+      you can feed part of your soul into the weapon to empower it, weakening
+      you and empowering it. While weakened in this way, you are under the
+      effect of the bane spell. While empowered, the weapon deals an extra 1d6
+      necrotic damage on hit.</p>
+
+      <p>You can make a DC 10 Charisma saving throw as an action to reclaim the
+      invested soul, ending the investiture on success. If you finish a long
+      rest while your soul is invested into the weapon, the number of Hit Dice
+      you regain is halved.</p>
+    chat: ''
+    unidentified: ''
+  source: Cursesmith
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cursesmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!goySxFLnQjVOpVG3'
+

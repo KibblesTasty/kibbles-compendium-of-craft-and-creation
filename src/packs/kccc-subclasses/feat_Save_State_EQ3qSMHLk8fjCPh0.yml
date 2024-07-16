@@ -1,0 +1,88 @@
+name: Save State
+type: feat
+img: icons/commodities/tech/dial-meter-gauge-blue.webp
+data:
+  description:
+    value: >-
+      <p>Starting at 10th level, as a bonus action you can cause your
+      Contraption to record your existence. Record your hit points, location,
+      and any conditions you are affected by. At the start of your next turn,
+      your current hit points, location, and conditions are returned to the
+      saved state in a flash of light. If you die while having your save state,
+      you can make a DC 15 Charisma saving throw (making the check as if you
+      were alive) when the start of your next turn would have been. On success,
+      you return as normal. On failure, you remain dead.</p>
+
+      <p>Once you use this, you can’t use this again until you finish a long
+      rest.</p>
+    chat: ''
+    unidentified: ''
+  source: The Ancient Intelligence
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: The Ancient Intelligence 10
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.wnAZalo310FBXCF1
+_id: EQ3qSMHLk8fjCPh0
+_key: '!items!EQ3qSMHLk8fjCPh0'
+

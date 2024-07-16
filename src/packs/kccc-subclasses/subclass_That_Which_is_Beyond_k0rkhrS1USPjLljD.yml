@@ -1,0 +1,202 @@
+name: That Which is Beyond
+type: subclass
+img: icons/creatures/magical/spirit-fear-energy-pink.webp
+data:
+  description:
+    value: >-
+      <h2 style="border-bottom:1px solid var(--color-underline-header)">That
+      Which Is Beyond</h2>
+
+      <p>Your patron is defined by its sheer incomprehensibility to the mortal
+      mind, an existence that is the very anathema of sanity itself, where any
+      attempt to truly describe its nature is the gibbering of a mad man.</p>
+
+      <p>The most tame examples of these may have names or euphemisms that
+      mortals know them as, while others may be concepts that most mortal minds
+      remain blissfully incapable of knowing the existence of.</p>
+
+      <p>The patron need not be aware of your existence or invested in it for
+      their power to have affected you, fundamentally warping your mind and
+      granting you powers. Most that would have this opportunity have their mind
+      shattered, left tattered and insane by the experience, but you’ve managed
+      to hang onto some semblance of sanity and wield the power grafted into
+      your mind.</p>
+
+      <p>1st:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.VKvFuWwIVbJMJNxG]{That
+      Which Is Beyond Expanded Spells}</p>
+
+      <p>1st:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.4rOL0ygvmWw5xteY]{Opened
+      Mind}</p>
+
+      <p>1st:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.ryJXt06d4zintCMK]{Psychic
+      Onslaught}</p>
+
+      <p>6th:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.Y6q350WHGcEjgyJ1]{Gibbering
+      Terror}</p>
+
+      <p>6th:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.SZBNRWiZyNy4smJH]{Alien
+      Mind}</p>
+
+      <p>10th:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.15b7QZl69uKkPdUO]{Rebound
+      Intrusion}</p>
+
+      <p>14th:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.3M57NjUfAUkJOYB1]{Unleashed
+      Psyche}</p>
+
+      <p><strong>That Which is Beyond Invocations:</strong></p>
+
+      <p>7th:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.Fb4LhpW192fCCyJd]{Psionic
+      Intrusion}</p>
+
+      <h3><strong>That Which Is Beyond Quirks</strong></h3>
+
+      <p>The following are some optional quirks for a player who has formed a
+      pact with That Which Is Beyond. You can optionally roll or select a quirk
+      that suits your character.</p>
+
+      <table style="width:100%" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center;width:11.2946%"><strong>d6</strong></td>
+
+      <td style="text-align:center;width:88.7054%"><strong>Quirks</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:11.2946%">1</td>
+
+      <td style="text-align:center;width:88.7054%">You reply to your familiar or
+      patron’s telepathic messages out loud.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:11.2946%">2</td>
+
+      <td style="text-align:center;width:88.7054%">You have a deep and abiding
+      fear of stars.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:11.2946%">3</td>
+
+      <td style="text-align:center;width:88.7054%">You expect to find eldritch
+      horrors under every rock.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:11.2946%">4</td>
+
+      <td style="text-align:center;width:88.7054%">You have elaborate theories
+      about the impending end of the material plane.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:11.2946%">5</td>
+
+      <td style="text-align:center;width:88.7054%">You refer to the gods as "the
+      new ones"</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:11.2946%">6</td>
+
+      <td style="text-align:center;width:88.7054%">Sometimes even you aren’t
+      sure you’re talking to when you’re talking to yourself.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  identifier: that-which-is-beyond
+  classIdentifier: warlock
+  advancement:
+    - _id: 8fm14qebxhp55y39
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.VKvFuWwIVbJMJNxG
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.4rOL0ygvmWw5xteY
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.ryJXt06d4zintCMK
+        optional: false
+      value: {}
+      level: 1
+    - _id: so0comlibsrpnsj0
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Y6q350WHGcEjgyJ1
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.SZBNRWiZyNy4smJH
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: cl3biyg6bjlner5x
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.15b7QZl69uKkPdUO
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: 04nqlzj4ath8a53e
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.3M57NjUfAUkJOYB1
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core:
+    sourceId: Item.5iE8wNWoTKEXj4rN
+_id: k0rkhrS1USPjLljD
+_key: '!items!k0rkhrS1USPjLljD'
+

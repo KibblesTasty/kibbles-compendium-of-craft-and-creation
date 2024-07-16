@@ -1,0 +1,90 @@
+name: 'Upgrade: Cleansing Fires'
+type: feat
+img: icons/magic/fire/flame-burning-earth-orange.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 43800000
+flags:
+  core:
+    sourceId: Item.S7L4JLMU4wD9WV5Y
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+_id: jIoEbN6vO4NrbJVf
+system:
+  description:
+    value: "<p>You engrave your arcane focus with the tenets of purging flame. You learn the following spells at the following levels. These spells are inventor spells for you, and do not count against your spells known.</p>\n<table style=\"width:100%\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center;width:45.3341%\"><strong>Inventor Level</strong></td>\n<td style=\"text-align:center;width:54.6659%\"><strong>Spells</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:45.3341%\">Cantrip</td>\n<td style=\"text-align:center;width:54.6659%\">@Compendium[dnd5e.spells.eCPQuQkIabFKTl9u]{Produce Flame}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:45.3341%\">3rd</td>\n<td style=\"text-align:center;width:54.6659%\">@Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]{Burning Hands}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:45.3341%\">5th</td>\n<td style=\"text-align:center;width:54.6659%\">@Compendium[dnd5e.spells.7u2obDvuvtZBkTfq]{Scorching Ray}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:45.3341%\">9th</td>\n<td style=\"text-align:center;width:54.6659%\">@Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Fireball}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:45.3341%\">13th</td>\n<td style=\"text-align:center;width:54.6659%\">@Compendium[dnd5e.spells.X3DrXgxjwI2dvkD6]{Wall of Fire}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:45.3341%\">17th</td>\n<td style=\"text-align:center;width:54.6659%\">@Compendium[dnd5e.spells.5e1xTohkzqFqbYH4]{Flame Strike}</td>\n</tr>\n</tbody>\n</table>\n<p>You can cast @Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]{Burning Hands} without expending a spell slot, after which you must finish a long rest before you can cast it without expending a spell slot again. Starting at 5th level, you can choose to cast scorching ray without expending a spell slot instead.</p>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: Relicsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Relicsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!jIoEbN6vO4NrbJVf'
+

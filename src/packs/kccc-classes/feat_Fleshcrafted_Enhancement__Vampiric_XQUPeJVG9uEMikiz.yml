@@ -1,0 +1,99 @@
+name: 'Fleshcrafted Enhancement: Vampiric'
+type: feat
+img: icons/creatures/abilities/fangs-teeth-bite.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 33300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.7phIIXE2c4GOfMRv
+_id: XQUPeJVG9uEMikiz
+system:
+  description:
+    value: >-
+      <p><strong>Qualified Mutations:</strong> Extra Fangs</p>
+
+      <p><strong>Effect: </strong>Once per turn, on your turn, when dealing
+      damage with your Extra Fangs, you can drain the life from your victim
+      adding 1d4 necrotic damage. If the target is a living creature over CR
+      1/4, you regain hit points equal to the necrotic damage dealt.</p>
+
+      <p><strong>Empowered Effect:</strong> You add your Constitution modifier
+      to the hit points regained.</p>
+    chat: ''
+    unidentified: ''
+  source: Fleshsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fleshcrafted Enhancement
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!XQUPeJVG9uEMikiz'
+

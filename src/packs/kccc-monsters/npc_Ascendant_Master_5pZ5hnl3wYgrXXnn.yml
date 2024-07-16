@@ -1,0 +1,4997 @@
+_id: 5pZ5hnl3wYgrXXnn
+name: Ascendant Master
+type: npc
+img: >-
+  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Electrokinetic.png
+data:
+  abilities:
+    str:
+      value: 20
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 20
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 20
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 20
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 20
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 20
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+  attributes:
+    ac:
+      flat: null
+      calc: custom
+      formula: '18'
+    hp:
+      value: 199
+      min: 0
+      max: 199
+      temp: 0
+      tempmax: 0
+      formula: 21d8 + 105
+    init:
+      value: 0
+      bonus: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 30
+      swim: 0
+      walk: 30
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 0
+      tremorsense: 0
+      truesight: 120
+      units: ft
+      special: ''
+    spellcasting: int
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: Lawful Neutral
+    race: ''
+    type:
+      value: humanoid
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 16
+    spellLevel: 0
+    xp:
+      value: 10
+    source: KCCC
+  traits:
+    size: med
+    di:
+      value: []
+      custom: ''
+    dr:
+      value:
+        - cold
+        - fire
+        - physical
+        - psychic
+      custom: ''
+    dv:
+      value: []
+      custom: ''
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - aarakocra
+        - abyssal
+        - aquan
+        - auran
+        - celestial
+        - common
+        - deep
+        - draconic
+        - druidic
+        - dwarvish
+        - elvish
+        - giant
+        - gith
+        - gnoll
+        - gnomish
+        - goblin
+        - halfling
+        - ignan
+        - infernal
+        - orc
+        - primordial
+        - sylvan
+        - terran
+        - cant
+        - undercommon
+      custom: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 1
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 1
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 1
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 1
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 1
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 1
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 1
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 1
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 1
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 1
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 1
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 1
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 1
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 3
+      max: 3
+    legres:
+      value: 3
+      max: 3
+    lair:
+      value: false
+      initiative: 0
+token:
+  name: Ascendant Master
+  img: >-
+    https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Electrokinetic.png
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  scale: 1
+  mirrorX: false
+  mirrorY: false
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  vision: false
+  dimSight: 0
+  brightSight: 0
+  sightAngle: 0
+  light:
+    alpha: 0.5
+    angle: 0
+    bright: 0
+    coloration: 1
+    dim: 0
+    gradual: true
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+  disposition: -1
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: ''
+  flags:
+    splatter:
+      bloodColor: ''
+  randomImg: false
+  tint: null
+  x: null
+  'y': null
+  elevation: null
+items:
+  - _id: MyPPCFnwOz0OwmV7
+    name: Legendary Resistance (3/Day)
+    type: feat
+    img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Legendary Resistance (3/Day).</strong> If the master fails
+          a saving throw, it can choose to succeed instead.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: special
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 3
+        max: '3'
+        per: day
+      consume:
+        type: attribute
+        target: resources.legres.value
+        amount: 1
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.MyPPCFnwOz0OwmV7'
+  - _id: BS4rKLR3SSgXyVHI
+    name: Innate Spellcasting (Psionics)
+    type: feat
+    img: icons/magic/perception/orb-eye-scrying.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Innate Spellcasting (Psionics)</strong>. The master’s
+          innate spellcasting ability is Intelligence (spell save DC 18, +10 to
+          hit with spell attacks). It can innately cast the following spells,
+          requiring no components:</p>
+
+          <p>At will: <em>alter self, blur(C), fighten<sup>K</sup>, command,
+          compelled query<sup>K</sup>, counterspell, enlarge/reduce(C), fly(C),
+          haste(C), jump, suggestion, thunderwave, unlocked
+          potential<sup>K</sup></em></p>
+
+          <p>3/day each:<em> banishment, harm, mind blast<sup>K</sup>, orbital
+          stones<sup>K</sup>, spatial manipulation<sup>K</sup>, wall of
+          force</em></p>
+
+          <p>1/day each: <em>astral projection, feeblemind, foresight*, mind
+          blank*, plane shift, teleport, time stop</em></p>
+
+          <p>*The master casts these spells on itself before combat.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 25000
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.BS4rKLR3SSgXyVHI'
+  - _id: 6YawXFKIgh6dvhbF
+    name: Astral Projection
+    type: spell
+    img: icons/magic/control/debuff-energy-hold-levitate-teal-blue.webp
+    data:
+      description:
+        value: >-
+          <p>You and up to eight willing creatures within range project your
+          astral bodies into the Astral Plane (the spell fails and the casting
+          is wasted if you are already on that plane). The material body you
+          leave behind is unconscious and in a state of suspended animation, it
+          doesn't need food or air and doesn't age.</p><p>Your astral body
+          resembles your mortal form in almost every way, replicating your game
+          statistics and possessions. The principal difference is the addition
+          of a silvery cord that extends from between your shoulder blades and
+          trails behind you, fading to invisibility after 1 foot. This cord is
+          your tether to your material body. As long as the tether remains
+          intact, you can find your way home. If the cord is cut-something that
+          can happen only when an effect specifically states that it does-your
+          soul and body are separated, killing you instantly.</p><p>Your astral
+          form can freely travel through the Astral Plane and can pass through
+          portals there leading to any other plane. If you enter a new plane or
+          return to the plane you were on when casting this spell, your body and
+          possessions are transported along the silver cord, allowing you to
+          re-enter your body as you enter the new plane. Your astral form is a
+          separate incarnation. Any damage or other effects that apply to it
+          have no effect on your physical body, nor do they persist when you
+          return to it.</p><p>The spell ends for you and your companions when
+          you use your action to dismiss it. When the spell ends, the affected
+          creature returns to its physical body, and it awakens.</p><p>The spell
+          might also end early for you or one of your companions. A successful
+          dispel magic spell used against an astral or physical body ends the
+          spell for that creature. If a creature's original body or its astral
+          form drops to 0 hit points, the spell ends for that creature. If the
+          spell ends and the silver cord is intact, the cord pulls the
+          creature's astral form back to its body, ending its state of suspended
+          animation.</p><p>If you are returned to your body prematurely, your
+          companions remain in their astral forms and must find their own way
+          back to their bodies, usually by dropping to 0 hit points.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 215
+      activation:
+        type: hour
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: spec
+      target:
+        value: 9
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 10
+        long: 0
+        units: ft
+      uses:
+        value: 1
+        max: '1'
+        per: day
+      consume:
+        type: charges
+        target: 6YawXFKIgh6dvhbF
+        amount: 1
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      level: 9
+      school: nec
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+      materials:
+        value: >-
+          For each creature you affect with this spell, you must provide one
+          jacinth worth at least 1,000 gp and one ornately carved bar of silver
+          worth at least 100 gp, all of which the spell consumes
+        consumed: true
+        cost: 1100
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.TIoadMIsUKD4edXi
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.6YawXFKIgh6dvhbF'
+  - _id: H4A5jhVuh9dgDe3D
+    name: Feeblemind
+    type: spell
+    img: icons/magic/light/explosion-star-large-teal-purple.webp
+    data:
+      description:
+        value: >-
+          <p>You blast the mind of a creature that you can see within range,
+          attempting to shatter its intellect and personality. The target takes
+          4d6 psychic damage and must make an Intelligence saving
+          throw.</p><p>On a failed save, the creature's Intelligence and
+          Charisma scores become 1. The creature can't cast Spells, activate
+          Magic Items, understand language, or communicate in any intelligible
+          way. The creature can, however, identify its friends, follow them, and
+          even protect them.</p><p>At the end of every 30 days, the creature can
+          repeat its saving throw against this spell. If it succeeds on its
+          saving throw, the spell ends.</p><p>The spell can also be ended by
+          Greater Restoration, heal, or wish.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 239
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 150
+        long: 0
+        units: ft
+      uses:
+        value: 1
+        max: '1'
+        per: day
+      consume:
+        type: charges
+        target: H4A5jhVuh9dgDe3D
+        amount: 1
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 4d6
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: int
+        dc: null
+        scaling: spell
+      level: 8
+      school: enc
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+      materials:
+        value: A handful of clay, crystal, glass, or mineral spheres
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.hYCrN82dMJFuJODB
+      betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.H4A5jhVuh9dgDe3D'
+  - _id: 1xYnF1KLq54V0VeR
+    name: Foresight
+    type: spell
+    img: icons/magic/perception/eye-ringed-glow-angry-large-teal.webp
+    data:
+      description:
+        value: >-
+          <p>You touch a willing creature and bestow a limited ability to see
+          into the immediate future. For the Duration, the target can't be
+          surprised and has advantage on Attack rolls, Ability Checks, and
+          Saving Throws. Additionally, other creatures have disadvantage on
+          attack rolls against the target for the duration.</p><p>This spell
+          immediately ends if you cast it again before its Duration ends.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 244
+      activation:
+        type: minute
+        cost: 1
+        condition: ''
+      duration:
+        value: 8
+        units: hour
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 1
+        max: '1'
+        per: day
+      consume:
+        type: charges
+        target: 1xYnF1KLq54V0VeR
+        amount: 1
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      level: 9
+      school: div
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+      materials:
+        value: A hummingbird feather
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.6HEEhLdJz32TL4Js
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.1xYnF1KLq54V0VeR'
+  - _id: pvTYzGsQHHCGK95R
+    name: Mind Blank
+    type: spell
+    img: icons/magic/air/air-burst-spiral-large-blue.webp
+    data:
+      description:
+        value: >-
+          <p>Until the spell ends, one willing creature you touch is immune to
+          psychic damage, any effect that would sense its emotions or read its
+          thoughts, Divination Spells, and the Charmed condition. The spell even
+          foils Wish spells and Spells or Effects of similar power used to
+          affect the target's mind or to gain information about the target.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 259
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 24
+        units: hour
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 1
+        max: '1'
+        per: day
+      consume:
+        type: charges
+        target: pvTYzGsQHHCGK95R
+        amount: 1
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      level: 8
+      school: abj
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.bllEWfm9xfEKynhv
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.pvTYzGsQHHCGK95R'
+  - _id: IuaCYjtpvAvRONZm
+    name: Plane Shift
+    type: spell
+    img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
+    data:
+      description:
+        value: >-
+          <p>You and up to eight willing creatures who link hands in a circle
+          are transported to a different plane of existence. You can specify a
+          target destination in general terms, such as the City of Brass on the
+          Elemental Plane of Fire or the palace of Dispater on the second level
+          of the Nine Hells, and you appear in or near that destination. If you
+          are trying to reach the City of Brass, for example, you might arrive
+          in its Street of Steel, before its Gate of Ashes, or looking at the
+          city from across the Sea of Fire, at the DM's
+          discretion.</p><p>Alternatively, if you know the sigil sequence of a
+          teleportation circle on another plane of existence, this spell can
+          take you to that circle. If the teleportation circle is too small to
+          hold all the creatures you transported, they appear in the closest
+          unoccupied spaces next to the circle.</p><p>You can use this spell to
+          banish an unwilling creature to another plane. Choose a creature
+          within your reach and make a melee spell attack against it. On a hit,
+          the creature must make a Charisma saving throw. If the creature fails
+          this save, it is transported to a random location on the plane of
+          existence you specify. A creature so transported must find its own way
+          back to your current plane of existence.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 266
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 8
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 1
+        max: '1'
+        per: day
+      consume:
+        type: charges
+        target: IuaCYjtpvAvRONZm
+        amount: 1
+      ability: ''
+      actionType: msak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: cha
+        dc: null
+        scaling: spell
+      level: 7
+      school: con
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+      materials:
+        value: >-
+          A forked, metal rod worth at least 250 gp, attuned to a particular
+          plane of existence
+        consumed: false
+        cost: 250
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.J6Jpw5XzB5aTeqnz
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickAttack:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.IuaCYjtpvAvRONZm'
+  - _id: TRBHIQhVSbhBuDeC
+    name: Teleport
+    type: spell
+    img: icons/magic/symbols/runes-star-pentagon-magenta.webp
+    data:
+      description:
+        value: >-
+          <p>This spell instantly transports you and up to eight willing
+          creatures of your choice that you can see within range, or a single
+          object that you can see within range, to a destination you select. If
+          you target an object, it must be able to fit entirely inside a 10-foot
+          cube, and it can't be held or carried by an unwilling
+          creature.</p><p>The destination you choose must be known to you, and
+          it must be on the same plane of existence as you. Your familiarity
+          with the destination determines whether you arrive there successfully.
+          The DM rolls d100 and consults the table.</p>
+
+          <table border="1">
+
+          <tbody>
+
+          <tr>
+
+          <td><strong>Familiarity</strong></td>
+
+          <td><strong>Mishap</strong></td>
+
+          <td><strong>Similar Area</strong></td>
+
+          <td><strong>Off Target</strong></td>
+
+          <td><strong>On Target</strong></td>
+
+          </tr>
+
+          <tr>
+
+          <td>Permanent circle</td>
+
+          <td>-</td>
+
+          <td>-</td>
+
+          <td>-</td>
+
+          <td>01-100</td>
+
+          </tr>
+
+          <tr>
+
+          <td>Associated object</td>
+
+          <td>-</td>
+
+          <td>-</td>
+
+          <td>-</td>
+
+          <td>01-100</td>
+
+          </tr>
+
+          <tr>
+
+          <td>Very familiar</td>
+
+          <td>01-05</td>
+
+          <td>06-13</td>
+
+          <td>14-24</td>
+
+          <td>25-100</td>
+
+          </tr>
+
+          <tr>
+
+          <td>Seen casually</td>
+
+          <td>01-33</td>
+
+          <td>34-43</td>
+
+          <td>44-53</td>
+
+          <td>54-100</td>
+
+          </tr>
+
+          <tr>
+
+          <td>Viewed once</td>
+
+          <td>01-43</td>
+
+          <td>44-53</td>
+
+          <td>54-73</td>
+
+          <td>74-100</td>
+
+          </tr>
+
+          <tr>
+
+          <td>Description</td>
+
+          <td>01-43</td>
+
+          <td>44-53</td>
+
+          <td>54-73</td>
+
+          <td>74-100</td>
+
+          </tr>
+
+          <tr>
+
+          <td>False destination</td>
+
+          <td>01-50</td>
+
+          <td>51-100</td>
+
+          <td>-</td>
+
+          <td>-</td>
+
+          </tr>
+
+          </tbody>
+
+          </table>
+
+          <p><strong>Familiarity</strong>. "Permanent circle" means a permanent
+          Teleportation Circle whose sigil sequence you know. "Associated
+          object" means that you possess an object taken from the desired
+          destination within the last six months, such as a book from a wizard's
+          library, bed linen from a royal suite, or a chunk of marble from a
+          lich's Secret tomb.</p><p>"Very familiar" is a place you have been
+          very often, a place you have carefully studied, or a place you can see
+          when you cast the spell. "Seen casually" is someplace you have seen
+          more than once but with which you aren't very familiar. "Viewed once"
+          is a place you have seen once, possibly using magic. "Description" is
+          a place whose location and appearance you know through someone else's
+          description, perhaps from a map.</p><p>"False destination" is a place
+          that doesn't exist. Perhaps you tried to scry an enemy's sanctum but
+          instead viewed an illusion, or you are attempting to teleport to a
+          familiar location that no longer exists.</p><p><strong>On
+          Target</strong>. You and your group (or the target object) appear
+          where you want to.</p><p><strong>Off Target</strong>. You and your
+          group (or the target object) appear a random distance away from the
+          destination in a random direction. Distance off target is 1d10 × 1d10
+          percent of the distance that was to be traveled. For example, if you
+          tried to travel 120 miles, landed off target, and rolled a 5 and 3 on
+          the two d10s, then you would be off target by 15 percent, or 18 miles.
+          The DM determines the direction off target randomly by rolling a d8
+          and designating 1 as north, 2 as northeast, 3 as east, and so on
+          around the points of the compass. If you were teleporting to a coastal
+          city and wound up 18 miles out at sea, you could be in
+          trouble.</p><p><strong>Similar Area</strong>. You and your group (or
+          the target object) wind up in a different area that's visually or
+          thematically similar to the target area. If you are heading for your
+          home laboratory, for example, you might wind up in another wizard's
+          laboratory or in an alchemical supply shop that has many of the same
+          tools and implements as your laboratory. Generally, you appear in the
+          closest similar place, but since the spell has no range limit, you
+          could conceivably wind up anywhere on the
+          plane.</p><p><strong>Mishap</strong>. The spell's unpredictable magic
+          results in a difficult journey. Each teleporting creature (or the
+          target object) takes 3d10 force damage, and the DM rerolls on the
+          table to see where you wind up (multiple mishaps can occur, dealing
+          damage each time).</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 281
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 9
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 10
+        long: 0
+        units: ft
+      uses:
+        value: 1
+        max: '1'
+        per: day
+      consume:
+        type: charges
+        target: TRBHIQhVSbhBuDeC
+        amount: 1
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: 1d100
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      level: 7
+      school: con
+      components:
+        value: ''
+        vocal: true
+        somatic: false
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.L4J89JXqbKs6puEV
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.TRBHIQhVSbhBuDeC'
+  - _id: unlv6wyrjHetR4MD
+    name: Time Stop
+    type: spell
+    img: icons/magic/time/clock-stopwatch-white-blue.webp
+    data:
+      description:
+        value: >-
+          <p>You briefly stop the flow of time for everyone but yourself. No
+          time passes for other creatures, while you take 1d4 + 1 turns in a
+          row, during which you can use Actions and move as normal.</p><p>This
+          spell ends if one of the Actions you use during this period, or any
+          Effects that you create during this period, affects a creature other
+          than you or an object being worn or carried by someone other than you.
+          In addition, the spell ends if you move to a place more than 1,000
+          feet from the location where you cast it.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 283
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 1
+        max: '1'
+        per: day
+      consume:
+        type: charges
+        target: unlv6wyrjHetR4MD
+        amount: 1
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: 1d4+1
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      level: 9
+      school: trs
+      components:
+        value: ''
+        vocal: true
+        somatic: false
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.JYuRBwxpoFhXduvD
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.unlv6wyrjHetR4MD'
+  - _id: eLPeCamTpi5DHrnu
+    name: Banishment
+    type: spell
+    img: icons/magic/control/energy-stream-link-spiral-teal.webp
+    data:
+      description:
+        value: >-
+          <p>You attempt to send one creature that you can see within range to
+          another plane of existence. The target must succeed on a Charisma
+          saving throw or be banished.</p><p>If the target is native to the
+          plane of existence you're on, you banish the target to a harmless
+          demiplane. While there, the target is incapacitated. The target
+          remains there until the spell ends, at which point the target
+          reappears in the space it left or in the nearest unoccupied space if
+          that space is occupied.</p><p>If the target is native to a different
+          plane of existence than the one you're on, the target is banished with
+          a faint popping noise, returning to its home plane. If the spell ends
+          before 1 minute has passed, the target reappears in the space it left
+          or in the nearest unoccupied space if that space is occupied.
+          Otherwise, the target doesn't return.</p><p><strong>At Higher
+          Levels.</strong> When you cast this spell using a spell slot of 5th
+          level or higher, you can target one additional creature for each slot
+          level above 4th.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 217
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: 0
+        units: ft
+      uses:
+        value: 3
+        max: '3'
+        per: day
+      consume:
+        type: charges
+        target: eLPeCamTpi5DHrnu
+        amount: 1
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: cha
+        dc: 0
+        scaling: spell
+        value: ''
+      level: 4
+      school: abj
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+      materials:
+        value: An item distasteful to the target
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: -50000
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.pxpb2eOB6bv4phAf
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.eLPeCamTpi5DHrnu'
+  - _id: lh6yWKx1WS5AdYec
+    name: Harm
+    type: spell
+    img: icons/magic/unholy/strike-beam-blood-large-red-purple.webp
+    data:
+      description:
+        value: >-
+          <p>You unleash a virulent disease on a creature that you can see
+          within range. The target must make a Constitution saving throw. On a
+          failed save, it takes 14d6 necrotic damage, or half as much damage on
+          a successful save. The damage can't reduce the target's Hit Points
+          below 1. If the target fails the saving throw, its hit point maximum
+          is reduced for 1 Hour by an amount equal to the necrotic damage it
+          took. Any effect that removes a disease allows a creature's hit point
+          maximum to return to normal before that time passes.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 249
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: 0
+        units: ft
+      uses:
+        value: 3
+        max: '3'
+        per: day
+      consume:
+        type: charges
+        target: lh6yWKx1WS5AdYec
+        amount: 1
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 14d6
+            - necrotic
+        versatile: ''
+      formula: ''
+      save:
+        ability: con
+        dc: null
+        scaling: spell
+      level: 6
+      school: nec
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 50001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.tMH6Ivn4GmE1naMj
+      betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.lh6yWKx1WS5AdYec'
+  - _id: V03ftwZIySC5nKaQ
+    name: Mind Blast
+    type: spell
+    img: icons/magic/death/skull-energy-light-purple.webp
+    data:
+      description:
+        value: >-
+          <p>You emit a blast of psychic energy. Each creature in a 60-foot cone
+          must make an Intelligence saving throw. A creature takes [[/r 6d8]]
+          psychic damage and is stunned until the end of their next turn on a
+          failed save. A creature takes half as much damage and is not stunned
+          on a successful save.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 60
+        width: null
+        units: ft
+        type: cone
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 3
+        max: '3'
+        per: day
+      consume:
+        type: charges
+        target: V03ftwZIySC5nKaQ
+        amount: 1
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 6d8
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: int
+        dc: null
+        scaling: spell
+      level: 6
+      school: evo
+      components:
+        value: ''
+        vocal: false
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+      core:
+        sourceId: Item.174E4qSP7AFptqlu
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.V03ftwZIySC5nKaQ'
+  - _id: 346sEUZ4k9yoodpd
+    name: Orbital Stones
+    type: spell
+    img: icons/magic/earth/projectile-boulder-dust.webp
+    data:
+      description:
+        value: >-
+          <p>You lift three inanimate Small or Medium sized rocks or similar
+          objects from within 10 feet of you, causing them to defy gravity and
+          slowly circle you. With all three stones orbiting, you have three
+          quarters cover. With at least one stone remaining, you have half
+          cover.</p>
+
+          <p>As a bonus action while at least one stone remains in orbit, you
+          can magically fling a stone at target within 60 feet. Make a ranged
+          spell attack roll. On hit, the target takes [[/r 3d10]] bludgeoning
+          damage and is knocked backward 5 feet.</p>
+        chat: ''
+        unidentified: ''
+      source: Kibbles' Generic Elemental Spells
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: 3
+        max: '3'
+        per: day
+      consume:
+        type: charges
+        target: 346sEUZ4k9yoodpd
+        amount: 1
+      ability: ''
+      actionType: rsak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 3d10
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 4
+      school: trs
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: true
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        critRange:
+          value: null
+          type: String
+        critDamage:
+          value: ''
+          type: String
+        quickDesc:
+          value: true
+          altValue: true
+          type: Boolean
+        quickProperties:
+          value: true
+          altValue: true
+          type: Boolean
+        quickVersatile:
+          value: false
+          altValue: false
+          type: Boolean
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+          type: Boolean
+        quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickAttack:
+          value: true
+          altValue: true
+          type: Boolean
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+          type: Array
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.C05PnMUfe46ypjxM
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.346sEUZ4k9yoodpd'
+  - _id: PveZKMypM32Jscrd
+    name: Spatial Manipulation
+    type: spell
+    img: icons/magic/control/energy-stream-link-white.webp
+    data:
+      description:
+        value: >-
+          <p>You can swap the position two creatures you can see within range.
+          An unwilling creature can make a Charisma saving throw, preventing the
+          swap on success.</p>
+
+          <p><em><strong>At Higher Levels.</strong></em> When you cast this
+          spell using a spell slot of 6th level or higher, you can swap an
+          additional set of creatures of each level about 5th.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 2
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 120
+        long: null
+        units: ft
+      uses:
+        value: 3
+        max: '3'
+        per: day
+      consume:
+        type: charges
+        target: PveZKMypM32Jscrd
+        amount: 1
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: cha
+        dc: null
+        scaling: spell
+      level: 5
+      school: con
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+      core:
+        sourceId: Item.LaSLr2jUZGvTwlzs
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.PveZKMypM32Jscrd'
+  - _id: KS1CsEOQ97IP6SYX
+    name: Wall of Force
+    type: spell
+    img: icons/magic/light/beam-rays-magenta-large.webp
+    data:
+      description:
+        value: >-
+          <p>An invisible wall of force springs into existence at a point you
+          choose within range. The wall appears in any orientation you choose,
+          as a horizontal or vertical barrier or at an angle. It can be free
+          floating or resting on a solid surface. You can form it into a
+          hemispherical dome or a sphere with a radius of up to 10 feet, or you
+          can shape a flat surface made up of ten 10-foot-by-10-foot panels.
+          Each panel must be contiguous with another panel. In any form, the
+          wall is 1/4 inch thick. It lasts for the Duration. If the wall cuts
+          through a creature's space when it appears, the creature is pushed to
+          one side of the wall (your choice which side).</p><p>Nothing can
+          physically pass through the wall. It is immune to all damage and can't
+          be dispelled by Dispel Magic. A Disintegrate spell destroys the wall
+          instantly, however. The wall also extends into the Ethereal Plane,
+          blocking ethereal travel through the wall.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 285
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      target:
+        value: 100
+        width: null
+        units: ft
+        type: wall
+      range:
+        value: 120
+        long: 0
+        units: ft
+      uses:
+        value: 3
+        max: '3'
+        per: day
+      consume:
+        type: charges
+        target: KS1CsEOQ97IP6SYX
+        amount: 1
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      level: 5
+      school: evo
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+      materials:
+        value: A pinch of powder made by crushing clear gemstone
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: -100000
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.o9ZCvuD2B1OTcubb
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickTemplate:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.KS1CsEOQ97IP6SYX'
+  - _id: 6AqBCDqPxZh4TsVr
+    name: Alter Self
+    type: spell
+    img: icons/magic/control/debuff-energy-hold-green.webp
+    data:
+      description:
+        value: "<p>You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.</p><p><strong>Aquatic Adaptation.\_</strong>You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.</p><p><strong>Change Appearance.\_</strong>You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.</p><p><strong>Natural Weapons.\_</strong>You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.</p>"
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 211
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: hour
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      level: 2
+      school: trs
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: true
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.8RTDOt80u8aBv9qx
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.6AqBCDqPxZh4TsVr'
+  - _id: bWmxFXiXMSdAj3ms
+    name: Blur
+    type: spell
+    img: icons/magic/air/air-burst-spiral-blue-gray.webp
+    data:
+      description:
+        value: >-
+          <p>Your body becomes blurred, shifting and wavering to all who can see
+          you. For the duration, any creature has disadvantage on attack rolls
+          against you. An attacker is immune to this effect if it doesn't rely
+          on sight, as with blindsight, or can see through illusions, as with
+          truesight.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 219
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      level: 2
+      school: ill
+      components:
+        value: ''
+        vocal: true
+        somatic: false
+        material: false
+        ritual: false
+        concentration: true
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.UDUnlfPsOAbq2RSE
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.bWmxFXiXMSdAj3ms'
+  - _id: wG1Swc7MDzDKxy6c
+    name: Frighten
+    type: spell
+    img: icons/magic/death/undead-ghost-scream-teal.webp
+    data:
+      description:
+        value: >-
+          <p>You invoke a sudden fear within a creature you can see within
+          range. The target creature must succeed a Wisdom saving throw, or
+          become frightened for the duration. The frightened target can repeat
+          the saving throw at the end of each of its turns, ending the effect on
+          itself on a success.</p>
+
+          <p><em><strong>At Higher Levels.</strong></em> When you cast this
+          spell using a 2nd level or higher, you can target one additional
+          creature for each slot above 1st.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: null
+        scaling: spell
+      level: 1
+      school: ill
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: true
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+      core:
+        sourceId: Item.1T9mITbTC0Qdgom3
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.wG1Swc7MDzDKxy6c'
+  - _id: V4SHG5HNhOihXkjy
+    name: Command
+    type: spell
+    img: icons/magic/fire/explosion-fireball-small-purple.webp
+    data:
+      description:
+        value: "<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.</p><p>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you by the fastest available means.</p><p><strong>Grovel.</strong> The target falls prone and then ends its turn.</p><p><strong>Halt.</strong> The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p><p><strong>Higher Levels.\_</strong>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>"
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 223
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: round
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: 0
+        units: ft
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: null
+        scaling: spell
+      level: 1
+      school: enc
+      components:
+        value: ''
+        vocal: true
+        somatic: false
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.arzCrMRgcNiQuh43
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.V4SHG5HNhOihXkjy'
+  - _id: KGHxFTenUsru6fe8
+    name: Compelled Query
+    type: spell
+    img: icons/magic/control/hypnosis-mesmerism-eye.webp
+    data:
+      description:
+        value: >-
+          <p>You focus your telepathic powers on a creature and ask it a simple
+          question. It must make an Intelligence saving throw, or it conjures a
+          short mental thought or image that answers your question to the best
+          of its ability that you can perceive telepathically. A creature gains
+          a +5 to the saving throw against this spell for each time it has been
+          used on them in the past 24 hours.</p>
+        chat: ''
+        unidentified: ''
+      source: Kibbles' Psionics
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 30
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: enc
+      components:
+        value: ''
+        vocal: false
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          type: Boolean
+          value: true
+          altValue: true
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
+        quickDamage:
+          type: Array
+          value: []
+          altValue: []
+          context: []
+        quickVersatile:
+          type: Boolean
+          value: false
+          altValue: false
+        quickProperties:
+          type: Boolean
+          value: true
+          altValue: true
+        quickCharges:
+          type: Boolean
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickOther:
+          type: Boolean
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.5XnwpQz8nrYbMVAr
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.KGHxFTenUsru6fe8'
+  - _id: 0CNGP0VK4AeKFxY1
+    name: Counterspell
+    type: spell
+    img: icons/skills/melee/strike-blade-hooked-orange-blue.webp
+    data:
+      description:
+        value: "<p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><p><strong>Higher Levels.\_</strong>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p>"
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 228
+      activation:
+        type: reaction
+        cost: 1
+        condition: >-
+          which you take when you see a creature within 60 feet of you casting a
+          spell
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: 0
+        units: ft
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: 1d20 + @mod
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      level: 3
+      school: abj
+      components:
+        value: ''
+        vocal: false
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: level
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.Ek45cBpVXvJdv1Qy
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.0CNGP0VK4AeKFxY1'
+  - _id: a10eQakq4RABhAj0
+    name: Enlarge/Reduce
+    type: spell
+    img: icons/magic/control/energy-stream-link-large-blue.webp
+    data:
+      description:
+        value: >-
+          <p>You cause a creature or an object you can see within range to grow
+          larger or smaller for the Duration. Choose either a creature or an
+          object that is neither worn nor carried. If the target is unwilling,
+          it can make a Constitution saving throw. On a success, the spell has
+          no effect.</p><p>If the target is a creature, everything it is wearing
+          and carrying changes size with it. Any item dropped by an affected
+          creature returns to normal size at
+          once.</p><p><strong>Enlarge</strong>. The target's size doubles in all
+          dimensions, and its weight is multiplied by eight. This growth
+          increases its size by one category—from Medium to Large, for example.
+          If there isn't enough room for the target to double its size, the
+          creature or object attains the maximum possible size in the space
+          available. Until the spell ends, the target also has advantage on
+          Strength Checks and Strength Saving Throws. The target's Weapons also
+          grow to match its new size. While these Weapons are enlarged, the
+          target's attacks with them deal 1d4 extra
+          damage.</p><p><strong>Reduce</strong>. The target's size is halved in
+          all dimensions, and its weight is reduced to one-eighth of normal.
+          This reduction decreases its size by one category—from Medium to
+          Small, for example. Until the spell ends, the target also has
+          disadvantage on Strength Checks and Strength Saving Throws. The
+          target's Weapons also shrink to match its new size. While these
+          Weapons are reduced, the target's attacks with them deal 1d4 less
+          damage (this can't reduce the damage below 1).</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 237
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 30
+        long: 0
+        units: ft
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: con
+        dc: null
+        scaling: spell
+      level: 2
+      school: trs
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+      materials:
+        value: A pinch of powdered iron
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.WahI41a3goVUg0x1
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.a10eQakq4RABhAj0'
+  - _id: NxAlQgbaSNWk2kt8
+    name: Fly
+    type: spell
+    img: icons/magic/control/energy-stream-link-white.webp
+    data:
+      description:
+        value: >-
+          <p>You touch a willing creature. The target gains a flying speed of 60
+          feet for the Duration. When the spell ends, the target falls if it is
+          still aloft, unless it can stop the fall.</p><p><strong>At Higher
+          Levels.</strong> When you cast this spell using a spell slot of 4th
+          level or higher, you can target one additional creature for each slot
+          level above 3rd.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 243
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      level: 3
+      school: trs
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+      materials:
+        value: A wing feather from any bird
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: level
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.yfbK8gZqESlaoY5t
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.NxAlQgbaSNWk2kt8'
+  - _id: JElPO411ytdydXzW
+    name: Haste
+    type: spell
+    img: icons/magic/control/buff-flight-wings-runes-purple.webp
+    data:
+      description:
+        value: >-
+          <p>Choose a willing creature that you can see within range. Until the
+          spell ends, the target's speed is doubled, it gains a +2 bonus to AC,
+          it has advantage on Dexterity Saving Throws, and it gains an
+          additional action on each of its turns. That action can be used only
+          to take the Attack (one weapon attack only), Dash, Disengage, Hide, or
+          Use an Object action.</p><p>When the spell ends, the target can't move
+          or take Actions until after its next turn, as a wave of lethargy
+          sweeps over it.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 250
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 30
+        long: 0
+        units: ft
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      level: 3
+      school: trs
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+      materials:
+        value: A shaving of licorice root
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.Szvk5FEVQW3uhJi5
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.JElPO411ytdydXzW'
+  - _id: uQUXsksOpBA15uEj
+    name: Jump
+    type: spell
+    img: icons/magic/control/debuff-energy-hold-blue-yellow.webp
+    data:
+      description:
+        value: >-
+          <p>You touch a creature. The creature's jump distance is tripled until
+          the spell ends.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 254
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+        value: ''
+      level: 1
+      school: trs
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+      materials:
+        value: A grasshopper's hind leg
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.ZrTc23tToJ0JpH2h
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.uQUXsksOpBA15uEj'
+  - _id: nt09ZZZBcf5YaKpK
+    name: Suggestion
+    type: spell
+    img: icons/magic/air/air-burst-spiral-pink.webp
+    data:
+      description:
+        value: >-
+          <p>You suggest a course of activity (limited to a sentence or two) and
+          magically influence a creature you can see within range that can hear
+          and understand you. Creatures that can't be charmed are immune to this
+          effect. The suggestion must be worded in such a manner as to make the
+          course of action sound reasonable. Asking the creature to stab itself,
+          throw itself onto a spear, immolate itself, or do some other obviously
+          harmful act ends the spell.</p><p>The target must make a Wisdom saving
+          throw. On a failed save, it pursues the course of action you described
+          to the best of its ability. The suggested course of action can
+          continue for the entire duration. If the suggested activity can be
+          completed in a shorter time, the spell ends when the subject finishes
+          what it was asked to do.</p><p>You can also specify conditions that
+          will trigger a special activity during the duration. For example, you
+          might suggest that a knight give her warhorse to the first beggar she
+          meets. If the condition isn't met before the spell expires, the
+          activity isn't performed.</p><p>If you or any of your companions
+          damage the target, the spell ends.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 279
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 8
+        units: hour
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 30
+        long: 0
+        units: ft
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 0
+        scaling: spell
+      level: 2
+      school: enc
+      components:
+        value: ''
+        vocal: true
+        somatic: false
+        material: true
+        ritual: false
+        concentration: true
+      materials:
+        value: A snake's tongue and either a bit of honeycomb or a drop of sweet oil
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.zMAWdyc8UVb37BK4
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.nt09ZZZBcf5YaKpK'
+  - _id: jfcGl6r2KF7eZrxN
+    name: Thunderwave
+    type: spell
+    img: icons/magic/lightning/bolt-forked-teal.webp
+    data:
+      description:
+        value: >-
+          <p>A wave of thunderous force sweeps out from you. Each creature in a
+          15-foot cube originating from you must make a Constitution saving
+          throw. On a failed save, a creature takes 2d8 thunder damage and is
+          pushed 10 feet away from you. On a successful save, the creature takes
+          half as much damage and isn't pushed.</p><p>In addition, unsecured
+          objects that are completely within the area of effect are
+          automatically pushed 10 feet away from you by the spell's effect, and
+          the spell emits a thunderous boom audible out to 300
+          feet.</p><p><strong>Higher Levels.</strong> When you cast this spell
+          using a spell slot of 2nd level or higher, the damage increases by 1d8
+          for each slot level above 1st.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 282
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 15
+        width: null
+        units: ft
+        type: cube
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 2d8
+            - thunder
+        versatile: ''
+      formula: ''
+      save:
+        ability: con
+        dc: 0
+        scaling: spell
+      level: 1
+      school: evo
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d8
+      attunement: null
+    effects: []
+    folder: null
+    sort: 100001
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.WTbOQBsarsL1LuXJ
+      betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickTemplate:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.jfcGl6r2KF7eZrxN'
+  - _id: 6jL04hLAMpLtkI0R
+    name: Unlocked Potential
+    type: spell
+    img: icons/magic/unholy/strike-body-life-soul-purple.webp
+    data:
+      description:
+        value: >-
+          <p>You unlock the potential of a creature's mind, allowing it to fully
+          reach its limits. For the duration, once per turn the creature can add
+          [[/r 1d4]] to any attack roll, damage roll, or saving throw it makes.
+          Each time it adds the additional 1d4, it takes 1 psychic damage as it
+          pushes beyond its natural limitations.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d4
+            - ''
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: trs
+      components:
+        value: ''
+        vocal: false
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+      core:
+        sourceId: Item.FIKY5OXZVg6UMtTv
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.6jL04hLAMpLtkI0R'
+  - _id: RlEAuhFDGOlvkxT6
+    name: Perfect Focus
+    type: feat
+    img: icons/magic/holy/meditation-chi-focus-blue.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Perfect Focus.</strong> The master can concentrate on two
+          spells at once. It has advantage Constitution saving throws made to
+          maintain concentration on a spell.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.RlEAuhFDGOlvkxT6'
+  - _id: VUQGyndI7VCvigYZ
+    name: State of Mind
+    type: feat
+    img: icons/magic/holy/meditation-chi-focus-blue.webp
+    data:
+      description:
+        value: >-
+          <p><strong>State of Mind</strong>. The master can hold its breath
+          indefinitely, and it ignores the effects of extreme heat and cold. The
+          master doesn’t require sleep.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.VUQGyndI7VCvigYZ'
+  - _id: A7UPqGvcRB7dMaBx
+    name: Unfettered Movement
+    type: feat
+    img: icons/skills/movement/feet-winged-sandals-tan.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Unfettered Movement</strong>. The master is always under
+          the effects of a <em>freedom of movement</em> spell.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.A7UPqGvcRB7dMaBx'
+  - _id: PDDMncYKu1IxwNhj
+    name: 'Bloodied: Inner World'
+    type: feat
+    img: icons/magic/time/day-night-sunset-sunrise.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Inner World</strong>. When the master is bloodied (reduced
+          to less than half of their maximum hit points), it enters its inner
+          world, drawing all creatures within 120 feet of it into this world.
+          Until the master dies, any creature that enters within 120 feet of it
+          is automatically pulled into its inner world.</p>
+
+          <p>Spells and attacks can’t cross from the Material Plane into the
+          inner world, and creatures must succeed on a DC 18 Charisma saving
+          throw to leave the inner world from its outer boundary. Creatures
+          can’t see into the inner world from the outside, or vice versa.</p>
+
+          <p>While in the inner world, the master has resistance to all damage,
+          its spells don’t require concentration, and each creature of its
+          choice takes 7 ([[/r 2d6]]) psychic damage at the start of the each of
+          the master’s turns. If the master dies, the inner world breaks,
+          freeing all creatures inside it.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: special
+        cost: 1
+        condition: The master is reduced to half hit points.
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 120
+        width: null
+        units: ft
+        type: sphere
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 1
+        max: '1'
+        per: day
+      consume:
+        type: charges
+        target: PDDMncYKu1IxwNhj
+        amount: 1
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.PDDMncYKu1IxwNhj'
+  - _id: nAQMGb3j9nzkCat0
+    name: Palm Strike
+    type: weapon
+    img: icons/skills/social/wave-halt-stop.webp
+    data:
+      description:
+        value: >-
+          <p><em><strong>Palm Strike</strong>. Melee Weapon Attack: </em>+10 to
+          hit, reach 5 ft., one target. <em>Hit:</em> [[/r 1]] bludgeoning
+          damage. At the start of the target’s next turn, it must make a DC 18
+          Charisma saving throw, taking 65 ([[/r 10d12]]) psychic damage on a
+          failed save, or half as much damage on a successful one.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 5
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - '1'
+            - bludgeoning
+          - - 10d12
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: cha
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+            '1': ''
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+        quickSave:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.nAQMGb3j9nzkCat0'
+  - _id: RKbMORL8bC2Bh78I
+    name: Enhancing Surge
+    type: feat
+    img: icons/magic/life/cross-area-circle-green-white.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Enhancing Surge.</strong> The master gains 23 ([[/r 4d8 +
+          5]]) temporary hit points, and it ends one condition or magical effect
+          on itself.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: heal
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 4d8 + 5
+            - temphp
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.RKbMORL8bC2Bh78I'
+  - _id: 5jnfAfdmVPkoe3z8
+    name: Telekinetic Touch
+    type: weapon
+    img: icons/magic/movement/trail-streak-impact-blue.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Telekinetic Touch</strong>. One creature of the master’s
+          choice within 60 feet of it must make a DC 18 Strength saving throw.
+          On a failed save, the target takes 27 ([[/r 4d10 + 5]]) bludgeoning
+          damage, and the master chooses to either knock the target prone or
+          push it up to 10 feet in a direction of the master’s choice.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 4d10 + 5
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: str
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.5jnfAfdmVPkoe3z8'
+  - _id: QJ9fkjrZQk6uDLpU
+    name: Telepathic Touch
+    type: weapon
+    img: icons/magic/control/hypnosis-mesmerism-eye.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Telepathic Touch.</strong> One creature of the master’s
+          choice within 60 feet of it must make a DC 18 Intelligence saving
+          throw. On a failed save, the target takes 23 ([[/r 4d8 + 5]]) psychic
+          damage, and it has disadvantage on all attack rolls against the master
+          until the end of its next turn.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 4d8 + 5
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: int
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.QJ9fkjrZQk6uDLpU'
+  - _id: slaYzcpSJ7ubnJCU
+    name: Tranquil Presence
+    type: feat
+    img: icons/magic/holy/yin-yang-balance-symbol.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Tranquil Presence</strong>. When a creature makes an attack
+          against the master, the master forces that creature to make a DC 18
+          Wisdom saving throw. On failed save, the attacker must choose a new
+          target within range of its attack or lose the attack.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: reaction
+        cost: 1
+        condition: The master is targeted by an attack.
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: cha
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.slaYzcpSJ7ubnJCU'
+  - _id: 9eCSaLSxFrFwS0eb
+    name: Legendary Actions
+    type: feat
+    img: icons/skills/melee/weapons-crossed-swords-teal.webp
+    data:
+      description:
+        value: >-
+          <p>Legendary Actions</p>
+
+          <p>The master can take 3 legendary actions, choosing from the options
+          below. Only one legendary action option can be used at a time and only
+          at the end of another creature’s turn. The master regains spent
+          legendary actions at the start of its turn.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: 3
+        max: '3'
+        per: day
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+          altValue:
+            use: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.9eCSaLSxFrFwS0eb'
+  - _id: 8a32EFrNYuWgpBPt
+    name: Psionic Power
+    type: feat
+    img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Psionic Power. </strong>The master uses its Enhancing
+          Surge, Telepathic Touch, or Telekenetic Touch.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 1
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 40625
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.8a32EFrNYuWgpBPt'
+  - _id: 4jPEeXbxrPtDica5
+    name: Psionic Spell
+    type: feat
+    img: icons/magic/control/hypnosis-mesmerism-eye-tan.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Psionic Spell.</strong> The master casts one of its at will
+          spells from its Innate Spellcasting trait.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 1
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 37500
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.4jPEeXbxrPtDica5'
+  - _id: ngEvwXoMSesWkLh1
+    name: Teleport
+    type: feat
+    img: icons/magic/control/energy-stream-link-white.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Teleport</strong>. The master magically teleports itself,
+          along with any equipment it is wearing or carrying, up to 120 feet to
+          an unoccupied space it can see.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+      range:
+        value: 120
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 1
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 43750
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+    _key: '!actors.items!5pZ5hnl3wYgrXXnn.ngEvwXoMSesWkLh1'
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core:
+    sourceId: Actor.xtgBz4EVVCHP0a2K
+_key: '!actors!5pZ5hnl3wYgrXXnn'
+

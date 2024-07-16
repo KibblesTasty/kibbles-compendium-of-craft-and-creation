@@ -1,0 +1,97 @@
+_id: wQ8wDnxHz2wOn8mh
+name: 'Talent: Telepathic Link'
+type: feat
+img: icons/skills/social/diplomacy-handshake-gray.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 57200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.S9cTGZTtPGlScX6x
+system:
+  description:
+    value: >-
+      <p>Your Telepathic Communication gains an unlimited range as long as you
+      have communicated with the creature within the last day, and the target
+      willingly maintains the link. However, it takes an action to focus to
+      communicate over distance if you can’t see the target (or for the target
+      to communicate with you if they can’t see you). You can maintain a link
+      with a number of people equal to your Intelligence modifier in this way.
+      You can convey as much in a turn as you could by speaking normally.</p>
+    chat: ''
+    unidentified: ''
+  source: Telepathy
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Telepathy 2
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!wQ8wDnxHz2wOn8mh'
+

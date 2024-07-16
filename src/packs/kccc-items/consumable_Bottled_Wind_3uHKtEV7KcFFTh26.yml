@@ -1,0 +1,94 @@
+name: Bottled Wind
+type: consumable
+img: >-
+  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%201.png
+data:
+  description:
+    value: >-
+      <p>As an action, you can open this casting gust without verbal or somatic
+      components. Alternatively, you can breath from it, letting out only a
+      little bit at a time, breathing directly from the bottle, but each time
+      you must make a DC 5 athletics checks. On failure, you cast gust as above
+      and all the air is lost. You can get 10 minutes of breathable air from one
+      bottle.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    autoDestroy: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.OuvNL69KiFCXd8U3
+_id: 3uHKtEV7KcFFTh26
+_key: '!items!3uHKtEV7KcFFTh26'
+

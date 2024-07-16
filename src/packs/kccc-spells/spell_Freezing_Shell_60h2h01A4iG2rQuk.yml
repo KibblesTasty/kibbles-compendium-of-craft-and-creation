@@ -1,0 +1,129 @@
+name: Freezing Shell
+type: spell
+img: icons/magic/water/barrier-ice-wall-explosion.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+        '1': When Hit
+      value:
+        '0': true
+        '1': true
+      altValue:
+        '0': true
+        '1': true
+  core:
+    sourceId: Item.beZ9D2iBbiYpfZ13
+_id: 60h2h01A4iG2rQuk
+system:
+  description:
+    value: >-
+      <p>A freezing shell shrouds you, covering you and your gear. You gain 5
+      temporary hit points for the duration. If a creature hits you with a melee
+      attack while you have these hit points, the creature takes 5 cold
+      damage.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell slot of 2nd level or higher, both the temporary hit points
+      and the cold damage increase by 5 for each slot level above 1st.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '5'
+        - temphp
+      - - '5'
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 5d1
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886191
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!60h2h01A4iG2rQuk'
+

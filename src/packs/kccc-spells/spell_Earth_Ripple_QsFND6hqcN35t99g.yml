@@ -1,0 +1,177 @@
+name: Earth Ripple
+type: spell
+img: icons/magic/earth/barrier-stone-explosion-debris.webp
+effects: []
+folder: O6hZgRZFkj4UG3IA
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value:
+        - true
+        - true
+        - true
+      altValue:
+        - true
+        - true
+        - true
+      context:
+        '0': Sink
+        '1': Slam
+        '2': Impale
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.93DSoBE2YBGu38jr
+_id: QsFND6hqcN35t99g
+system:
+  description:
+    value: >-
+      <p>You cause the earth to deform and ripple, a target creature within 10
+      feet of the ground must make a Dexterity saving throw or suffer one of the
+      following effects (your choice):</p>
+
+      <ul>
+
+      <li>It is pulled into the earth, taking [[/r 1d8]] bludgeoning damage and
+      reducing its movement speed to zero until a creature spends an action to
+      dig it free.</li>
+
+      <li>It is slammed 5 feet in a direction of your choice by a wave of earth,
+      taking [[/r 2d8]] bludgeoning damage and being knocked prone.</li>
+
+      <li>It is impaled by a spike of earth, taking [[/r 4d8]] piercing
+      damage.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Casting Compendium
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 1d8
+        - bludgeoning
+      - - 2d8
+        - bludgeoning
+      - - 4d8
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  level: 2
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886323
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!QsFND6hqcN35t99g'
+

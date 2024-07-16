@@ -1,0 +1,94 @@
+_id: 80Dp8MhxhGwNLk3W
+name: 'Upgrade: Weapon Improvement'
+type: feat
+img: icons/weapons/guns/gun-blunderbuss-gold.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 8400000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ts52DMvwqIa0sdeu
+system:
+  description:
+    value: >-
+      <p>Your Stormforged Weapon gains a +1 to attack and damage rolls. This
+      doesn’t stack with any benefit gained from Arcane Retrofit, and this
+      upgrade can be replaced as part of applying a bonus to your Stormforged
+      Weapon via Arcane Retrofit.</p>
+    chat: ''
+    unidentified: ''
+  source: Thundersmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Thundersmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!80Dp8MhxhGwNLk3W'
+

@@ -1,0 +1,111 @@
+_id: BtAuoNkAJfuCqBWz
+name: 'Upgrade: Salvation’s Shield'
+type: feat
+img: icons/magic/holy/barrier-shield-winged-cross.webp
+effects:
+  - _id: SyWf6S251Uoq0Cyw
+    changes:
+      - key: data.attributes.ac.bonus
+        mode: 2
+        value: '+2'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+    icon: icons/magic/holy/barrier-shield-winged-cross.webp
+    label: Salvation's Shield
+    origin: Compendium.world.kccc-classes.BtAuoNkAJfuCqBWz
+    transfer: true
+    flags: {}
+    tint: null
+    _key: '!items.effects!BtAuoNkAJfuCqBWz.SyWf6S251Uoq0Cyw'
+folder: 0WY2lfr2O03sVH68
+sort: 12200000
+flags:
+  core:
+    sourceId: Item.mKa6RH02KzMIcf59
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Relic Lantern)</em></p>
+
+      <p>While carrying the relic lantern in your hand, you are under the effect
+      of the @Compendium[dnd5e.spells.jZ6JNykRtdQ90MOo]{Shield of Faith}
+      spell.</p>
+    chat: ''
+    unidentified: ''
+  source: Relicsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Relicsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!BtAuoNkAJfuCqBWz'
+

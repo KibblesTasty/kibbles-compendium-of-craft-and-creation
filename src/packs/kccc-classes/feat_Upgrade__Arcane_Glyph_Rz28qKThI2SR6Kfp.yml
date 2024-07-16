@@ -1,0 +1,90 @@
+name: 'Upgrade: Arcane Glyph'
+type: feat
+img: icons/magic/symbols/runes-star-blue%20.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 28500000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.s3RzmTfneBbxia3Y
+_id: Rz28qKThI2SR6Kfp
+system:
+  description:
+    value: "<p>You learn how to translate a spell you know with a range of self into a glyph that can be marked on a creature or piece of armor. As a special 1 minute ritual, you can cast a spell you know with a casting time of 1 action, casting the spell as normal.\_ The spell doesn’t take immediate effect, but instead becomes imbued as a special glyph on a creature or armor you are touching. This glyph has no passive effect, but when activated with an action, it casts the stored spell as if the creature the glyph was marked on cast the spell.</p>\n<p>Alternatively, the creature marked with this glyph or wearing armor marked with this glyph that is aware of its presence can use this glyph to cast the spell marked within as if they cast the spell stored using a magical item. The casting uses your spellcasting ability, spell attack, and spell save DC.</p>\n<p>The glyph immediately fades after the spell has been cast (the spell lasts as normal). The glyph fades when the Runesmith that marked it finishes a long rest.</p>"
+    chat: ''
+    unidentified: ''
+  source: Runesmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Runesmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!Rz28qKThI2SR6Kfp'
+

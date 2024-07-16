@@ -1,0 +1,103 @@
+name: Aberration CR 17+
+img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
+description: >-
+  If a material is found, to successfully harvest it, you will need to roll a
+  [[/roll 1d20+@skills.arc.total # Harvesting Check]]{Intelligence (Arcana)}
+  ability check with a <b>DC of 15</b>
+results:
+  - _id: pmHbU7Etye2oNlkf
+    type: 2
+    text: Rare Reactive Reagent
+    img: icons/consumables/plants/flax-leaves-spiked-bundle-orange.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: xeD32SGuo6SLnJKt
+    weight: 1
+    range:
+      - 10
+      - 30
+    drawn: false
+    flags: {}
+    rangeL: 10
+    rangeH: 30
+    _key: '!tables.results!nMSTKhpkTjBS6bqj.pmHbU7Etye2oNlkf'
+  - _id: SslhtH9fXYSdDkOh
+    type: 0
+    text: >-
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.p5HZZNzoMp7sYJ4C]{Very
+      Rare Psionic Essence}
+    weight: 1
+    range:
+      - 31
+      - 50
+    drawn: false
+    flags: {}
+    img: icons/commodities/gems/gem-faceted-rough-purple.webp
+    rangeL: 31
+    rangeH: 50
+    _key: '!tables.results!nMSTKhpkTjBS6bqj.SslhtH9fXYSdDkOh'
+  - _id: IEsiWMZcDPzYsHkh
+    type: 2
+    text: Very Rare Arcane Essence
+    img: icons/commodities/gems/gem-faceted-rough-blue.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: lArgF71EYaBV5oQe
+    weight: 1
+    range:
+      - 51
+      - 89
+    drawn: false
+    flags: {}
+    rangeL: 51
+    rangeH: 89
+    _key: '!tables.results!nMSTKhpkTjBS6bqj.IEsiWMZcDPzYsHkh'
+  - _id: 6BEWjqINDbNlwhle
+    type: 2
+    text: Legendary Arcane Essence
+    img: icons/magic/light/explosion-star-large-pink.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: cmqAAsT3MvGXRIhG
+    weight: 1
+    range:
+      - 90
+      - 94
+    drawn: false
+    flags: {}
+    rangeL: 90
+    rangeH: 94
+    _key: '!tables.results!nMSTKhpkTjBS6bqj.6BEWjqINDbNlwhle'
+  - _id: lzXeuDrpBm8VAOFL
+    type: 0
+    text: >-
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.piv96ZUmguZ7nVNI]{Legendary
+      Psionic Essence}
+    weight: 1
+    range:
+      - 95
+      - 100
+    drawn: false
+    flags: {}
+    img: icons/commodities/stone/ore-chunk-purple-brown.webp
+    rangeL: 95
+    rangeH: 100
+    _key: '!tables.results!nMSTKhpkTjBS6bqj.lzXeuDrpBm8VAOFL'
+formula: 1d100
+replacement: true
+displayRoll: true
+folder: qAZYGUUkTX9PyMez
+sort: 1900000
+flags:
+  core:
+    sourceId: RollTable.rlyqGgLYtIWBzvKi
+_id: nMSTKhpkTjBS6bqj
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693870747280
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!tables!nMSTKhpkTjBS6bqj'
+

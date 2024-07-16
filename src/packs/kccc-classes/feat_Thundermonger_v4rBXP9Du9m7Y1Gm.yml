@@ -1,0 +1,113 @@
+_id: v4rBXP9Du9m7Y1Gm
+name: Thundermonger
+type: feat
+img: icons/magic/lightning/bolt-strike-explosion-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 55900000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.nQEGFPbgnlJBRY0y
+system:
+  description:
+    value: >-
+      <p>At 3rd level, the elemental might of your weapon is so powerful its
+      strikes deal bonus thunder damage.</p>
+
+      <p>When you hit a target with your Stormforged Weapon, you can deal an
+      extra 1d6 thunder damage. After discharging this bonus damage, you can’t
+      deal this bonus damage again until the start of your next turn.</p>
+
+      <p>This extra damage increases by 1d6 when you reach certain levels in
+      this class: 5th level (2d6), 7th level (3d6), 9th level (4d6), 11th level
+      (5d6), 13th level (6d6), 15th level (7d6), 17th level (8d6), and 19th
+      level (9d6).</p>
+    chat: ''
+    unidentified: ''
+  source: Thundersmith
+  activation:
+    type: none
+    cost: 1
+    condition: >-
+      Once per turn, on your turn, when you hit a creature with your Stromforged
+      weapon.
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Thundersmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!v4rBXP9Du9m7Y1Gm'
+

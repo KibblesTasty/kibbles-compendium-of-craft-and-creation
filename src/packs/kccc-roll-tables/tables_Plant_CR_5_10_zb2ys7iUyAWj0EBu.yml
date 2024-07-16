@@ -1,0 +1,104 @@
+name: Plant CR 5-10
+img: icons/magic/nature/tree-animated-strike.webp
+description: >-
+  If a material is found, to successfully harvest it, you will need to roll a
+  [[/roll 1d20+@skills.nat.total # Harvesting Check]]{Wisdom (Nature)} ability
+  check with a <b>DC of 10</b>
+results:
+  - _id: 3g3hWtxC0vayYFct
+    type: 2
+    text: Common Poisonous Reagent
+    img: icons/commodities/materials/bowl-powder-pink.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: 9vVyV3bTBjAvktqD
+    weight: 5
+    range:
+      - 1
+      - 30
+    drawn: false
+    flags: {}
+    rangeL: 1
+    rangeH: 30
+    _key: '!tables.results!zb2ys7iUyAWj0EBu.3g3hWtxC0vayYFct'
+  - _id: oDh4nmG7aZCb2sfC
+    type: 2
+    text: Uncommon Poisonous Reagent
+    img: icons/commodities/biological/tail-spiked-green.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: 5bgfoiOWZydLskRB
+    weight: 1
+    range:
+      - 31
+      - 60
+    drawn: false
+    flags: {}
+    rangeL: 31
+    rangeH: 60
+    _key: '!tables.results!zb2ys7iUyAWj0EBu.oDh4nmG7aZCb2sfC'
+  - _id: vaXrSJNl2u3Fg0jQ
+    type: 0
+    text: >-
+      [[/r 1d4]]
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.lg9FrHWcwS66fbVB]{Uncommon
+      Curative Reagent}
+    weight: 1
+    range:
+      - 61
+      - 80
+    drawn: false
+    flags: {}
+    img: icons/commodities/materials/bowl-liquid-white.webp
+    rangeL: 61
+    rangeH: 80
+    _key: '!tables.results!zb2ys7iUyAWj0EBu.vaXrSJNl2u3Fg0jQ'
+  - _id: 6dLdAxLmFyeoTCSo
+    type: 2
+    text: Uncommon Primal Essence
+    img: icons/commodities/gems/gem-oval-red.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: tVxOYNqfvlHNsGlZ
+    weight: 1
+    range:
+      - 81
+      - 90
+    drawn: false
+    flags: {}
+    rangeL: 81
+    rangeH: 90
+    _key: '!tables.results!zb2ys7iUyAWj0EBu.6dLdAxLmFyeoTCSo'
+  - _id: NBhLBXhq4332mgpq
+    type: 2
+    text: Uncommon Primal Essence
+    img: icons/commodities/gems/gem-oval-red.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: tVxOYNqfvlHNsGlZ
+    weight: 1
+    range:
+      - 91
+      - 100
+    drawn: false
+    flags: {}
+    rangeL: 91
+    rangeH: 100
+    _key: '!tables.results!zb2ys7iUyAWj0EBu.NBhLBXhq4332mgpq'
+formula: 1d100
+replacement: true
+displayRoll: true
+folder: qAZYGUUkTX9PyMez
+sort: 100025
+flags:
+  core:
+    sourceId: RollTable.rlyqGgLYtIWBzvKi
+_id: zb2ys7iUyAWj0EBu
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693870754013
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!tables!zb2ys7iUyAWj0EBu'
+

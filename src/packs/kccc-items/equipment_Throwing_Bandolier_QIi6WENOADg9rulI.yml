@@ -1,0 +1,106 @@
+name: Throwing Bandolier
+type: equipment
+img: icons/equipment/waist/belt-buckle-square-red.webp
+data:
+  description:
+    value: >-
+      <p>This is a quick access bandolier that can hold weapons with the thrown
+      property. It can be configured to hold 2 javalins, handaxes, or light
+      hammers, or 4 daggers or darts. Weapons held in it can drawn as part of
+      making an attack with them without using an object interaction to draw
+      them as long as you have a free hand to draw them.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  quantity: 1
+  weight: 2
+  price: 20
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: null
+    type: trinket
+    dex: null
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: true
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.tv1e6syr4KFHXiPa
+_id: QIi6WENOADg9rulI
+_key: '!items!QIi6WENOADg9rulI'
+

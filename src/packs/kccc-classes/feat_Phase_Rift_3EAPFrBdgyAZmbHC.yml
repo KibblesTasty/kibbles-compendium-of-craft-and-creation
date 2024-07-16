@@ -1,0 +1,132 @@
+name: Phase Rift
+type: feat
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 2700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.AoHE4896ClLEIaew
+_id: 3EAPFrBdgyAZmbHC
+system:
+  description:
+    value: >-
+      <p>You step through space, traveling up to 10 feet in a straight line
+      leaving a spatial tear behind. You can pass through creatures but can’t
+      pass through objects, buildings or terrain more than 4 inches thick. Any
+      creature in the path of this tear must make a Dexterity saving throw or
+      take [[/r 1d8]] force damage.</p>
+
+      <p>You can spend psi points up to your per use limit to add the following
+      modifiers to Phase Rift (you can add multiple modifiers). The points must
+      be spent when choosing the target of the power.</p>
+
+      <p><strong>Blurring (1–3 psi point):</strong> You gain an illusory
+      duplicate, as per the mirror image spell. You gain 1 duplicate per psi
+      point spent (up to a maximum of 3). One remaining image fades at the start
+      of each of your turns.</p>
+
+      <p><strong>Disruptive (1+ psi points):</strong> Each target that fails
+      their saving throw takes an extra 1d8 force damage for each point
+      spent.</p>
+
+      <p><strong>Echoing (2 psi points): </strong>You immediately use Phase Rift
+      again with the same action.</p>
+
+      <p><strong>Ethereal (2 psi points):</strong> You can pass through solid
+      objects, buildings, and terrain as long as you end your Phase Rift in a
+      space you can occupy. If your Phase Rift would end inside a space you
+      can’t occupy, the power fails.</p>
+
+      <p><strong>Long (1–3 psi points): </strong>You can travel an additional 10
+      feet for each point spent.</p>
+    chat: ''
+    unidentified: ''
+  source: Transposition
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: 10
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Transposition 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!3EAPFrBdgyAZmbHC'
+

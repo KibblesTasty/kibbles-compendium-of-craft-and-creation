@@ -1,0 +1,111 @@
+_id: dzNKHqpJVH6M1Jhp
+name: 'Upgrade: Reinforced Armor'
+type: feat
+img: icons/equipment/chest/breastplate-gorget-steel.webp
+effects:
+  - _id: 996T4Hj4mL013Xwf
+    changes:
+      - key: data.attributes.ac.bonus
+        mode: 2
+        value: '+1'
+        priority: 20
+    disabled: false
+    duration:
+      rounds: 0
+      startTime: null
+    icon: icons/equipment/chest/breastplate-gorget-steel.webp
+    label: 'Upgrade: Reinforced Armor'
+    origin: Compendium.world.kccc-classes.dzNKHqpJVH6M1Jhp
+    transfer: true
+    flags: {}
+    tint: null
+    _key: '!items.effects!dzNKHqpJVH6M1Jhp.996T4Hj4mL013Xwf'
+folder: 0WY2lfr2O03sVH68
+sort: 38700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.bkjJN3pWRy1OtMOK
+system:
+  description:
+    value: >-
+      <p><em>You can apply this upgrade up to 3 times.</em></p>
+
+      <p>You reinforce the structure and materials that make up your Warsmith’s
+      armor. Your Warsmith’s Armor’s Armor Class (AC) increases by 1.</p>
+    chat: ''
+    unidentified: ''
+  source: Warsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!dzNKHqpJVH6M1Jhp'
+

@@ -1,0 +1,128 @@
+_id: JNxNWDuQ3HJaNqGD
+name: Unleashed Mind
+type: subclass
+img: icons/magic/symbols/circled-gem-pink.webp
+effects: []
+folder: 1FRdPSG4JXRH5ikM
+sort: 0
+flags:
+  core:
+    sourceId: Item.HbO6GiscfYxKXx0S
+system:
+  description:
+    value: >-
+      <h2>Unleashed Mind</h2>
+
+      <p>An Unleashed Mind’s power is most often an innate force they struggle
+      to understand or control, a reflection of their state of mind and mood
+      projected onto the world around them, often to devastating results. The
+      life of an Unleashed Psion is frequently their journey to control their
+      unruly powers... or one of embracing the destructive powers fully.</p>
+
+      <p>What the wellspring of their innate power is varies: they could be a
+      psionic race, born under the influence of distant twisted powers, warped
+      by fey blood, or a herald of something more sinister brushing against the
+      material world. Sometimes their power will show itself in simple
+      applications, but most often their power becomes known and feared when
+      their temper flares.</p>
+
+      <p>Their alignment frequently depends on the approach to their powers they
+      have taken. An Unleashed Psion who emphasizes control and restraint,
+      keeping their emotions from running wild and their powers from running
+      rampant will most often be lawful, following strict personal codes. On the
+      other hand, an Unleashed Psion who lets their power run rampant will
+      almost always be chaotic in nature, acting on impulse... with great
+      emphasis.</p>
+
+      <p>1st Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.eqtXoFfy2ht1vjmw]{Unshackled
+      Power}
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.CfDJqyWcthOzPlI7]{Overwhelming
+      Power}</p>
+
+      <p>3rd Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.qlI6WV7zeJOAZggS]{Rampaging
+      Power}</p>
+
+      <p>6th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.LN3iejXbKb8X3NA1]{Empowered
+      Psionics}</p>
+
+      <p>10th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.StLx5aNWyW4RUtK2]{Uncontrollable
+      Mind}</p>
+
+      <p>14th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.CHVwK9pLHmfTqZmQ]{Unstoppable
+      Rampage}</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  identifier: unleashed-mind
+  classIdentifier: psion
+  advancement:
+    - _id: 4fbn69p7a75z6b14
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.eqtXoFfy2ht1vjmw
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.CfDJqyWcthOzPlI7
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.3CunKcMvbfKwAORU
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.gjLwogVhuUrKHW2n
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.M1tMkGG7XCY8P9Bl
+        optional: false
+      value: {}
+      level: 1
+    - _id: 88hod3z91s252rts
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.qlI6WV7zeJOAZggS
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: joe1mexgkuk6ta8a
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.LN3iejXbKb8X3NA1
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: py60p8ozxafeapxy
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.CHVwK9pLHmfTqZmQ
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857267301
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!JNxNWDuQ3HJaNqGD'
+

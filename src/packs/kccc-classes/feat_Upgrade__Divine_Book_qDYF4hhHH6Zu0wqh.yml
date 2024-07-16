@@ -1,0 +1,94 @@
+name: 'Upgrade: Divine Book'
+type: feat
+img: icons/sundries/books/book-backed-silver-gold.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 51300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.5X0smEAeX1yOTfio
+_id: qDYF4hhHH6Zu0wqh
+system:
+  description:
+    value: >-
+      <p>You can read from this book to cast
+      @Compendium[dnd5e.spells.MOEmz9N0j0QPkKEE]{Prayer of Healing}. You can
+      cast it this way without expending a spell slot once, after which it
+      requires a spell slot as normal until you complete a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Relicsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Relicsmith 5
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!qDYF4hhHH6Zu0wqh'
+

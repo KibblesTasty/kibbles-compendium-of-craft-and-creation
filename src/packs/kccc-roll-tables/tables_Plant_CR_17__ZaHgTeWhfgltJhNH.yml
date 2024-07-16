@@ -1,0 +1,104 @@
+name: Plant CR 17+
+img: icons/magic/nature/tree-animated-strike.webp
+description: >-
+  If a material is found, to successfully harvest it, you will need to roll a
+  [[/roll 1d20+@skills.nat.total # Harvesting Check]]{Wisdom (Nature)} ability
+  check with a <b>DC of 15</b>
+results:
+  - _id: puWqesp5dYUFfhsg
+    type: 0
+    text: >-
+      [[/r 1d4]]
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.pQUrnlI00BpWabwY]{Rare
+      Poisonous Reagent}
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    flags: {}
+    img: icons/consumables/plants/tearthumb-dried-halberd-leaf-brown.webp
+    rangeL: 1
+    rangeH: 1
+    _key: '!tables.results!ZaHgTeWhfgltJhNH.puWqesp5dYUFfhsg'
+  - _id: L2lXB6E9qhgoT8t0
+    type: 2
+    text: Rare Primal Essence
+    img: icons/commodities/biological/organ-heart-red.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: 6XHUZG8QuRzyZMZi
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    flags: {}
+    rangeL: 2
+    rangeH: 2
+    _key: '!tables.results!ZaHgTeWhfgltJhNH.L2lXB6E9qhgoT8t0'
+  - _id: sUlnDhYTuMgAX6mL
+    type: 2
+    text: Very Rare Primal Essence
+    img: icons/commodities/gems/gem-faceted-rough-red.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: LTSnm0dSlIlBGnkx
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    flags: {}
+    rangeL: 3
+    rangeH: 3
+    _key: '!tables.results!ZaHgTeWhfgltJhNH.sUlnDhYTuMgAX6mL'
+  - _id: NpmtnF3iMxzmdKAy
+    type: 2
+    text: Legendary Primal Essence
+    img: icons/commodities/bones/horn-engraved-vines-grey.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: OXuIJWXIz5z3pDxh
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    flags: {}
+    rangeL: 4
+    rangeH: 4
+    _key: '!tables.results!ZaHgTeWhfgltJhNH.NpmtnF3iMxzmdKAy'
+  - _id: doQl7jnVi6omF4Yn
+    type: 2
+    text: Legendary Primal Essence
+    img: icons/commodities/bones/horn-engraved-vines-grey.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: OXuIJWXIz5z3pDxh
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    flags: {}
+    rangeL: 5
+    rangeH: 5
+    _key: '!tables.results!ZaHgTeWhfgltJhNH.doQl7jnVi6omF4Yn'
+formula: 1d100
+replacement: true
+displayRoll: true
+folder: qAZYGUUkTX9PyMez
+sort: 100049
+flags:
+  core:
+    sourceId: RollTable.rlyqGgLYtIWBzvKi
+_id: ZaHgTeWhfgltJhNH
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693870753550
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!tables!ZaHgTeWhfgltJhNH'
+

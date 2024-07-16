@@ -1,0 +1,992 @@
+_id: A6FitrXhQ5WHqyS6
+name: Nightmare Stalker
+type: npc
+img: >-
+  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/NightmareStalker.png
+data:
+  abilities:
+    str:
+      value: 18
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 14
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 16
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 12
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 14
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 10
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+  attributes:
+    ac:
+      flat: null
+      calc: custom
+      formula: '15'
+    hp:
+      value: 60
+      min: 0
+      max: 60
+      temp: null
+      tempmax: 0
+      formula: 8d8 + 24
+    init:
+      value: 0
+      bonus: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 40
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 120
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: Mindsight 60 ft
+    spellcasting: int
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: chaotic evil
+    race: ''
+    type:
+      value: aberration
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 4
+    spellLevel: 0
+    xp:
+      value: 10
+    source: KCCC
+  traits:
+    size: med
+    di:
+      value:
+        - psychic
+      custom: ''
+    dr:
+      value:
+        - acid
+        - cold
+      custom: ''
+    dv:
+      value: []
+      custom: ''
+    ci:
+      value:
+        - charmed
+        - exhaustion
+        - frightened
+      custom: ''
+    languages:
+      value:
+        - deep
+      custom: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 1
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 2
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+token:
+  name: Nightmare Stalker
+  img: >-
+    https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/NightmareStalker.png
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  scale: 1
+  mirrorX: false
+  mirrorY: false
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  vision: false
+  dimSight: 120
+  brightSight: 0
+  sightAngle: 0
+  light:
+    alpha: 0.5
+    angle: 0
+    bright: 0
+    coloration: 1
+    dim: 0
+    gradual: true
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+  disposition: -1
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: ''
+  flags:
+    splatter:
+      bloodColor: ''
+  randomImg: false
+  tint: null
+  x: null
+  'y': null
+  elevation: null
+items:
+  - _id: YjQaVRBZD7g4f1Mx
+    name: Lurker
+    type: feat
+    img: icons/magic/perception/silhouette-stealth-shadow.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Lurker.</strong> The stalker can add twice its proficiency
+          bonus to Dexterity (Stealth) checks (included above).</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!A6FitrXhQ5WHqyS6.YjQaVRBZD7g4f1Mx'
+  - _id: WuJXPBpNYVjnXgIN
+    name: Shroud of Terror
+    type: feat
+    img: icons/creatures/unholy/demon-winged-cyclops-drooling.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Shroud of Terror.</strong> The stalker is invisible to any
+          creature that is frightened of it.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!A6FitrXhQ5WHqyS6.WuJXPBpNYVjnXgIN'
+  - _id: MJO97OJZaMkWyJx1
+    name: Soul Eater
+    type: feat
+    img: icons/magic/death/undead-ghost-strike-white.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Soul Eater. </strong>If a creature is killed by the
+          stalker, it is forever trapped within the stalker, locked in endless
+          nightmares. The stalker gains access to memories the creature had in
+          life. It gains 1 additional Hit Die and its Intelligence and Wisdom
+          scores increase by 1 (to a maximum of 20) for each soul it has
+          consumed. Consumed souls can only be freed by the wish spell or by
+          killing the stalker.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!A6FitrXhQ5WHqyS6.MJO97OJZaMkWyJx1'
+  - _id: UPvOC5C0OkAt329p
+    name: Stalk Nightmare
+    type: feat
+    img: icons/magic/death/skull-cattle-totem-glow-red.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Stalk Nightmare.</strong> As an action, the stalker can
+          enter the dream of a sleeping creature within 1 mile of it. That
+          target must make DC 12 Wisdom saving throw. On failed save, the target
+          takes 7 ([[/r 2d6]]) psychic damage, and its hit point maximum is
+          reduced by the same amount. This reduction lasts until the stalker
+          dies. The target receives a brief terrifying vision of the stalker,
+          revealing where it is. Whether the saving throw succeeds or fails, the
+          target can’t be affected by this ability again for the next 24
+          hours.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1
+        long: null
+        units: mi
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 2d6
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 12
+        scaling: flat
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _key: '!actors.items!A6FitrXhQ5WHqyS6.UPvOC5C0OkAt329p'
+  - _id: WA3f81jUSIOew2Dq
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Multiattack. </strong>The stalker uses its Project
+          Nightmare and then makes a bite attack.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: 0
+    effects: []
+    folder: null
+    sort: -200000
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core:
+        sourceId: Item.094090din8bu19vk
+    _key: '!actors.items!A6FitrXhQ5WHqyS6.WA3f81jUSIOew2Dq'
+  - _id: cXiQH6mVz7SdZJHa
+    name: Bite
+    type: weapon
+    img: icons/creatures/abilities/mouth-teeth-rows-red.webp
+    data:
+      description:
+        value: >-
+          <p><em><strong>Bite.</strong> Melee Weapon Attack:</em> +5 to hit,
+          reach 5 ft., one target. <em>Hit:</em> 8 (1d8 + 4) piercing damage
+          plus 3 (1d6) psychic damage.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 5
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d8 + @mod
+            - piercing
+          - - 1d6
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+            '1': ''
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+    _key: '!actors.items!A6FitrXhQ5WHqyS6.cXiQH6mVz7SdZJHa'
+  - _id: cD1gsbUzRZqb3QVo
+    name: Project Nightmare
+    type: feat
+    img: icons/magic/death/projectile-skull-fire-purple.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Project Nightmare. </strong>The stalker taps into the
+          nightmares of a creature it can see within 120 feet of it and creates
+          an illusory manifestation of the target’s deepest fears, visible only
+          to that creature. The target must make a DC 12 Wisdom saving throw. On
+          a failed save, the target takes 16 ([[/r 3d10]]) psychic damage and
+          becomes frightened for 1 minute. The creature can repeat the save at
+          the end of each of its turns, ending the effect on itself on a
+          success.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 120
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 3d10
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 12
+        scaling: flat
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _key: '!actors.items!A6FitrXhQ5WHqyS6.cD1gsbUzRZqb3QVo'
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core:
+    sourceId: Actor.53GtSqrYSXGZ8QVF
+_key: '!actors!A6FitrXhQ5WHqyS6'
+

@@ -1,0 +1,124 @@
+_id: krzuzlX1aFc6OsiC
+name: 'Thesis of Flesh: Perfection of Creation'
+type: feat
+img: icons/creatures/mammals/bat-giant-tattered-purple.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 45400000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.WTQkLHMncujOtR63
+system:
+  description:
+    value: >-
+      <p>Why let the gods have all the fun? You’ve created life. When you take
+      this path, you gain the Adorable Critter upgrade, and it doesn’t count
+      against your upgrade total.</p>
+
+      <p>Your Adorable Critter gains temporary hit points equal to your Inventor
+      level + your Intelligence modifier each time you finish a short or long
+      rest. Your Adorable Critter gains a natural weapon dealing 1d6 + your
+      Intelligence modifier piercing damage, though as normal it can’t
+      independently take the Attack action. You can apply any upgrade you take
+      to your Adorable Critter instead of yourself.</p>
+
+      <p>As an action, you can cause your Adorable Critter to move up to 10 feet
+      and take the Attack action using your spell attack modifier to hit.
+      (requiring no action from the familiar). Additionally, you can also do
+      this as a bonus action a number of times equal to your Inventor level and
+      you regain all uses at the end of a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Fleshsmith
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '@classes.inventor.levels'
+    per: lr
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: 1
+  ability: int
+  actionType: msak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fleshsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!krzuzlX1aFc6OsiC'
+

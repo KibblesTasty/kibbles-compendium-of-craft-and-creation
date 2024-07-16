@@ -1,0 +1,114 @@
+_id: C4grZlhFeDhpyIyw
+name: Healing Draught
+type: feat
+img: icons/consumables/potions/vial-cork-red.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 12600000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.rxwyauVokAtDJ8TP
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you can produce an instant reaction that provides
+      potent magical healing. A creature can use its action to consume this
+      draught or administer it to another creature within 5 feet of it before
+      the start of your next turn, causing the target to regain 1d8 hit points.
+      If you have the Practiced Quaff feature, you can consume a Healing Draught
+      as part of the bonus action used to make it.</p>
+
+      <p>A creature can benefit from a number of these draughts up to its
+      Constitution modifier (minimum of 1), after which they provide no benefit
+      to that creature until it finishes a long rest. A Healing Draught that
+      isn’t consumed before the start of your next turn loses its potency.</p>
+
+      <p>The number of hit points the draught restores increases by 1d8 when you
+      reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+    chat: ''
+    unidentified: ''
+  source: Potionsmith
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Potionsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!C4grZlhFeDhpyIyw'
+

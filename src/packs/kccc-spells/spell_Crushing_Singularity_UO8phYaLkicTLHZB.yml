@@ -1,0 +1,164 @@
+name: Crushing Singularity
+type: spell
+img: icons/magic/movement/portal-vortex-orange.webp
+effects: []
+folder: 3C2eSjufkNJJHedg
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value:
+        - true
+      altValue:
+        - true
+      context:
+        '0': ''
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.XHMWskteaLL8cPt2
+_id: UO8phYaLkicTLHZB
+system:
+  description:
+    value: >-
+      <p>You create an overwhelming gravitational singularity at a point within
+      range that lasts until the start of your next turn. When you cast this
+      spell, any creature within 15 feet of the point must make a Strength
+      saving throw. Creatures that fail their saving throw are moved to the
+      closest available space adjacent to the singularity and take [[/r 3d6]]
+      bludgeoning damage, and an additional [[/r 1d6]] bludgeoning damage for
+      each other creature that fails the saving throw, up to a maximum of [[/r
+      6d6]] bludgeoning damage.</p>
+
+      <p>While within 15 feet of the singularity, moving away from the
+      singularity requires twice as much movement. If a creature ends its turn
+      within 15 feet of the singularity, it must make a Strength saving throw.
+      On failure, they take [[/r 2d6]] bludgeoning damage are dragged back to
+      the closest available spot to the center of the singularity.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Casting Compendium
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 3d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  level: 3
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886342
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!UO8phYaLkicTLHZB'
+

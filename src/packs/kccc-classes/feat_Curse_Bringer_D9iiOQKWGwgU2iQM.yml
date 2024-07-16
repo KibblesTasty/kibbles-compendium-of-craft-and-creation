@@ -1,0 +1,182 @@
+_id: D9iiOQKWGwgU2iQM
+name: Curse Bringer
+type: feat
+img: icons/magic/unholy/strike-hand-glow-pink.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 13800000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+    quickSave:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.bYjP8TyhFyawlVJr
+system:
+  description:
+    value: >-
+      <p>You can force your soul's burdens onto others. When you make an attack
+      roll while under the effect of bane, if you hit the creature after rolling
+      a 3 or 4 on the d4 from bane, the target suffers the effect of bane until
+      the end of your next turn. This effect is extended to the end of your
+      subsequent next turn if you hit them your Forbidden Artifact again while
+      they are afflicted (regardless of the roll of the bane die)</p>
+
+      <p>Additionally, when you suffer the effect of any curse of one of the
+      upgrades granted by this class, as a reaction, you can force another
+      creature within 30 feet to make a Charisma saving throw against your spell
+      save DC or suffer the same effect. You can do this a number of times equal
+      to your proficiency bonus, regaining all uses on a long rest.</p>
+
+      <p>When you select this path, you learn the following spells at the
+      following levels. These spells do not count against your spells known, and
+      are Inventor spells for you.</p>
+
+      <table style="width:403px;border-top:1px solid
+      var(--color-border-light-tertiary);border-bottom:1px solid
+      var(--color-border-light-tertiary)" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center;width:129.047px"><strong>Inventor
+      Level</strong></td>
+
+      <td style="text-align:center;width:268.953px"><strong>Spell</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:129.047px">3rd</td>
+
+      <td
+      style="text-align:center;width:268.953px">@Compendium[dnd5e.spells.95K2aUhAGV9qXjnf]{Bane}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:129.047px">5th</td>
+
+      <td
+      style="text-align:center;width:268.953px">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.6cFfHnF9WfDGESQV]{Disorient}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:129.047px">9th</td>
+
+      <td
+      style="text-align:center;width:268.953px">@Compendium[dnd5e.spells.pO4zGe5LmFIYqJiL]{Bestow
+      Curse}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:129.047px">13th</td>
+
+      <td
+      style="text-align:center;width:268.953px">@Compendium[dnd5e.spells.BYNvBJzHcF5VJhXw]{Phantasmal
+      Killer}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:129.047px">17th</td>
+
+      <td
+      style="text-align:center;width:268.953px">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.Y1JG6RgBaHe6t1XV]{Killing
+      Curse}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: Cursesmith
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: 2
+    max: '@prof'
+    per: lr
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: 1
+  ability: int
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cursesmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!D9iiOQKWGwgU2iQM'
+

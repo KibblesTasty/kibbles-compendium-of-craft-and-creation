@@ -1,0 +1,128 @@
+name: Trary’s Terrific Transposition
+type: spell
+img: icons/containers/bags/coinpouch-gold-red.webp
+effects: []
+folder: 3C2eSjufkNJJHedg
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.rRRdUgpT5KLsjDoS
+_id: J2thHKyU0JTBsb5R
+system:
+  description:
+    value: >-
+      <p>You weave an enchantment that conjures compresses all objects of your
+      choice within range into a the satchel or bag used in casting the spell.
+      The contents become harmlessly compressed and stored in an magical state
+      of miniaturized suspension within the container. The weight of
+      miniaturized stored items is the weight of the item divided by one
+      hundred. The bag can store all items that fit in the radius when the spell
+      is cast, but can’t store any individual item larger than Medium. Items
+      can’t be individually removed from the bag, but the process can be
+      reversed by casting the spell again, at which point all items are
+      deposited from the bag in the arrangement they were before being
+      stored.</p>
+
+      <p>If the bag is destroyed or placed into an interdimensional space, the
+      contents of the bag are instantly emptied onto the ground in a chaotic
+      manner, each item taking [[/r 4d4]] force damage, but dealing no damage to
+      anything else. If the bag is broken, the key used as a material in casting
+      the spell breaks.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: minute
+    cost: 10
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: sphere
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 3
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: true
+    concentration: false
+    value: ''
+  materials:
+    value: >-
+      V, S, M (an ornate brass key worth at least 100 gp, and a satchel or bag
+      worth at least 1 sp)
+    consumed: false
+    cost: 100
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886260
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!J2thHKyU0JTBsb5R'
+

@@ -1,0 +1,87 @@
+name: Elementally Fortifying Feast
+type: consumable
+img: icons/consumables/meat/shank-glowing-purple-blue.webp
+data:
+  description:
+    value: "<p><em>Food (feast), rare</em></p>\n<p>Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. The magical properties of the meal confer the following special benefits:</p>\n<table style=\"width:100%\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width:23.522%;text-align:center\"><strong>Element</strong></td>\n<td style=\"width:76.478%;text-align:center\"><strong>Benefit</strong></td>\n</tr>\n<tr>\n<td style=\"width:23.522%;text-align:center\">Cold</td>\n<td style=\"width:76.478%;text-align:center\">Advantage on saves against cold climates and resistance to cold damage.</td>\n</tr>\n<tr>\n<td style=\"width:23.522%;text-align:center\">Fire</td>\n<td style=\"width:76.478%;text-align:center\">Advantage on saves against hot climates and resistance to fire damage.</td>\n</tr>\n<tr>\n<td style=\"width:23.522%;text-align:center\">Lightning</td>\n<td style=\"width:76.478%;text-align:center\">Advantage on Constituation saving throws against the stunned condition and resistance to lightning damage</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<p>These benefits fade after 24 hours. You can’t gain the benefits of another feast until these benefits fade and you are no longer satiated.</p>"
+    chat: ''
+    unidentified: ''
+  source: KCCC - Cooking
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: food
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.f5TKyLN2BpD5j7gL
+_id: U2xlpluIE3CHGXXC
+_key: '!items!U2xlpluIE3CHGXXC'
+

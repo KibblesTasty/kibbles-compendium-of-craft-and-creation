@@ -1,0 +1,101 @@
+name: 'Channel Divinity: Turn the Aberrant'
+type: feat
+img: icons/magic/control/silhouette-hold-change-green.webp
+data:
+  description:
+    value: >-
+      <p><strong>Turn the Aberrant.</strong> As an action, you can make any
+      aberration or undead, provided that it’s within 30 feet and that can see
+      or hear you, make a Wisdom saving throw. If the creature fails its saving
+      throw, it is turned for 1 minute or until it takes damage. A turned
+      creature must spend its turns trying to move as far away from you as it
+      can, and it can’t willingly move to a space within 30 feet of you. It also
+      can’t take reactions. For its action, it can use only the Dash action or
+      try to escape from an effect that prevents it from moving. If there’s
+      nowhere to move, the creature can use the Dodge action.</p>
+
+      <p>If the creature’s true form is concealed by an illusion, shapeshifting,
+      or other effect, that form is revealed while it is turned.</p>
+    chat: ''
+    unidentified: ''
+  source: Oath of Sanity
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  target:
+    value: 30
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  requirements: Oath of Sanity 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.k72o0MYHZlHnAJNN
+_id: xPXZbOMTyRcbkcHq
+_key: '!items!xPXZbOMTyRcbkcHq'
+

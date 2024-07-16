@@ -1,0 +1,168 @@
+name: Tornado
+type: spell
+img: icons/magic/air/wind-tornado-funnel-gray.webp
+effects: []
+folder: z5vyiu5PscQs2W9P
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      value: null
+      type: String
+    critDamage:
+      value: ''
+      type: String
+    quickDesc:
+      value: true
+      altValue: true
+      type: Boolean
+    quickProperties:
+      value: true
+      altValue: true
+      type: Boolean
+    quickVersatile:
+      value: false
+      altValue: false
+      type: Boolean
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+      type: Boolean
+    quickFlavor:
+      value: true
+      altValue: true
+      type: Boolean
+    quickCharges:
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+      type: Boolean
+    quickTemplate:
+      value: true
+      altValue: true
+      type: Boolean
+    quickSave:
+      value: true
+      altValue: true
+      type: Boolean
+    quickDamage:
+      context:
+        '0': ''
+        '1': Falling Damage
+      value:
+        - true
+        - true
+      altValue:
+        - true
+        - true
+      type: Array
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.QuRrQFnPGrB68aoZ
+_id: hbrArEjwGETB66hX
+system:
+  description:
+    value: >-
+      <p>A whirling tornado erupts, filling a 20-foot-radius, 40-foot-high
+      cylinder centered on a point within range.</p>
+
+      <p>Any creature that starts its turn within the tornado must make a
+      Strength saving throw. On a failed save, the creature takes [[/r 4d8]]
+      bludgeoning damage and is pushed 10 feet away and 40 feet up. On a
+      successful save, the creature takes half as much damage and isn't
+      pushed.</p>
+
+      <p>As a bonus action, you can move the tornado up to 30 feet in any
+      direction. Any ranged weapon attack against a target within 20 feet of the
+      tornado has disadvantage, and any ranged attack that passes through it
+      automatically misses.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Generic Elemental Spells
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ''
+    type: cylinder
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 4d8
+        - bludgeoning
+      - - 4d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  level: 5
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886422
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!hbrArEjwGETB66hX'
+

@@ -1,0 +1,126 @@
+_id: F2n6Vo1Ie0MkeCtL
+name: Telepathic Intrusion
+type: feat
+img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 15900000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.OuIO6xFBnhxpYM0F
+system:
+  description:
+    value: >-
+      <p>You assault the mind of a creature you can see directly. The target
+      must succeed on a Wisdom saving throw, or take 1d8 psychic damage. If the
+      target fails the saving throw, it has disadvantage on attacks made against
+      you until the start of your next turn. You can choose to deal no damage to
+      the creature when it fails its saving throw.</p>
+
+      <p>You can spend Psi Points up to your per use limit to add the following
+      modifiers to Telepathic Intrusion (you can add multiple modifiers). The
+      points must be spent when choosing the target of the power.</p>
+
+      <p><strong>Meddling (2 psi points):</strong> You make one creature
+      invisible to the target creature or cause the creature to see something
+      that is not there with the effect of minor illusion until the start of
+      your next turn if it fails its saving throw.</p>
+
+      <p><strong>Overwhelming (3 psi points):</strong> The target is stunned
+      until the end of its next turn if it fails its saving throw.</p>
+
+      <p><strong>Rending (1+ psi points):</strong> The target takes 1d8 psychic
+      damage for each additional point spent on a failed save.</p>
+
+      <p><strong>Terrifying (1 psi point):</strong> The target is frightened of
+      you until the end of your next turn if it fails its saving throw.</p>
+    chat: ''
+    unidentified: ''
+  source: Telepathy
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Telepathy 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!F2n6Vo1Ie0MkeCtL'
+

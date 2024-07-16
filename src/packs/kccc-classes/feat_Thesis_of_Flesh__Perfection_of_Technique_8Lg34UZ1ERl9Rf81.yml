@@ -1,0 +1,109 @@
+_id: 8Lg34UZ1ERl9Rf81
+name: 'Thesis of Flesh: Perfection of Technique'
+type: feat
+img: icons/tools/hand/saw-surgical-steel-grey.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 8700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.qZi7Bul4TPmE4w8k
+system:
+  description:
+    value: >-
+      <p>Others may call themselves “flesh smiths” or “flesh crafters”, but you
+      are a flesh artist. Flaying, dicing, deboning, you’ve mastered it all.
+      When you select this thesis option, you gain proficiency with martial
+      weapons and gain the Flaying Hook upgrade, and it doesn’t count against
+      your upgrade total. You can integrate your Flaying Hook into another
+      weapon, attaching its heavy chain to the hilt of your weapon, allowing you
+      to attack with either weapon, and being considered to be wielding both
+      when wielding one. Any magical bonus to attack and damage rolls the
+      attached weapon is also applied to the Flaying Hook (if higher).</p>
+
+      <p>When you use your Flaying Hook to pull a target or pull yourself toward
+      a target, you can use your bonus action to make a single weapon attack
+      against it. You can do this a number of times equal to your Inventor level
+      and you regain all uses at the end of a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Fleshsmith
+  activation:
+    type: bonus
+    cost: 1
+    condition: When you use your flaying hook
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '@classes.inventor.levels'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fleshsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!8Lg34UZ1ERl9Rf81'
+

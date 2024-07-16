@@ -1,0 +1,75 @@
+name: Gadgeteer
+type: subclass
+img: icons/tools/fishing/hook-multi-steel-brown.webp
+data:
+  description:
+    value: "<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Gadgeteer</h2>\n<p>Swinging from a grappling hook before dropping a smoke bomb, rigging a stubborn lock to blow, or rejiggering traps to spring on those that set them, the Gadgeteer lives by fast paced innovation and thinking outside the box on the fly... sometimes literally.</p>\n<p>Specializing tools that let themselves get in and out of trouble, they don’t fight fair, relying on things that go \"boom\", \"zap\" or \"whirr\". They live on the edge of their own explosions, though often rewriting the story in later retellings that they doffed their darkened goggles as they walked away slowly, omitting the singed seat of their trousers and yelping.</p>\n<h3><strong>Gadget DC</strong></h3>\n<p>Your gadgets are a combination of innovative mechanical parts and magic. You use your Intelligence for gadget-based effects when they refer to a spell attack roll or spell save DC.</p>\n<p>Gadget DC = 8 + your proficiency bonus + your Intelligence modifier</p>\n<p>Gadget modifier = your proficiency bonus + your Intelligence modifier</p>\n<p>3rd Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.qMjbsb6zODmvDuye]{Tinker’s Knack}</p>\n<p>3rd Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.1PPNNlXM1os5Lldd]{Grappling Hook}</p>\n<p>3rd Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.jFSBq9RJyKB6w0Wb]{Pyrotechnic Gadgets}</p>\n<p>9th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.vDqdqipsArM2gK5A]{Clever Inventions}</p>\n<p>9th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.bZtravaIF5CLEkHq]{Among the Blasts}</p>\n<p>13th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.jue0PtIRykLZiyqy]{Deadly Surprise}</p>\n<p>17th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.wc7uGSRaI60gnEGF]{Ultimate Improvisation}</p>\n<h3><strong>Gadgeteer Quirks</strong></h3>\n<p>The following are some optional quirks for a player of the Gadgeteer You can optionally roll or select a quirk that suits your character.</p>\n<table style=\"width:100%\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center;width:15.5131%\"><strong>d6</strong></td>\n<td style=\"text-align:center;width:84.4869%\"><strong>Quirk</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:15.5131%\">1</td>\n<td style=\"text-align:center;width:84.4869%\">You have no fear of heights.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:15.5131%\">2</td>\n<td style=\"text-align:center;width:84.4869%\">Everything can be improved.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:15.5131%\">3</td>\n<td style=\"text-align:center;width:84.4869%\">Plans are for after you get caught.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:15.5131%\">4</td>\n<td style=\"text-align:center;width:84.4869%\">You use smoke bombs to escape awkward conversations.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:15.5131%\">5</td>\n<td style=\"text-align:center;width:84.4869%\">Walking is for chumps that don’t have grappling hooks.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:15.5131%\">6</td>\n<td style=\"text-align:center;width:84.4869%\">For some reason everywhere you’ve lived too long has exploded. Strange that.</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  identifier: gadgeteer
+  classIdentifier: rogue
+  advancement:
+    - _id: ytfpfow5semuidfl
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.qMjbsb6zODmvDuye
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.1PPNNlXM1os5Lldd
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.jFSBq9RJyKB6w0Wb
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: do5p9gyg16wljrjl
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.bZtravaIF5CLEkHq
+        optional: false
+      value: {}
+      level: 9
+      title: ''
+      icon: ''
+    - _id: i4ls0x8b1qtx1ki7
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.jue0PtIRykLZiyqy
+        optional: false
+      value: {}
+      level: 13
+      title: ''
+      icon: ''
+    - _id: ygzb3phn7u5br2oy
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.wc7uGSRaI60gnEGF
+        optional: false
+      value: {}
+      level: 17
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core:
+    sourceId: Item.MmBJ797QEERvP6Dn
+_id: GbFqIk3behJQBszs
+_key: '!items!GbFqIk3behJQBszs'
+

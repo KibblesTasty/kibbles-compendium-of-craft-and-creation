@@ -1,0 +1,177 @@
+name: Planar Collision
+type: feat
+img: icons/magic/fire/orbs-silhouette-sun.webp
+data:
+  description:
+    value: >-
+      <p>At 18th level you can draw planes together causing them to smash
+      together with devastating results. Select a plane to intersect the one you
+      are on, you can’t select the plane you are currently on. As an action, you
+      can spend 5 sorcery points to cause the planar intersection to occur at a
+      point you can see within 120 feet, causing effects to occur based on the
+      table below in a 30-foot-radius sphere around the chosen point. The effect
+      lasts for a number of rounds equal to your Charisma modifier.</p>
+
+      <table style="width:100%" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center;width:22.1288%"><strong>Plane</strong></td>
+
+      <td style="text-align:center;width:77.8712%"><strong>Effect</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:22.1288%">Shadow</td>
+
+      <td style="text-align:center;width:77.8712%">The area is plunged into
+      darkness and can’t be illuminated by natural or magical means.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:22.1288%">Fey</td>
+
+      <td style="text-align:center;width:77.8712%">Magic in the area goes
+      haywire. A creature that casts a spell in the area or that targets a point
+      within the area must succeed a Charisma saving throw when casting a spell,
+      or a random spell from their spell list of that level or lower is cast (at
+      the level of the spell they were trying to cast). Damage and healing dice
+      are maximized for spells cast in the area.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:22.1288%">Fire</td>
+
+      <td style="text-align:center;width:77.8712%">The area is incinerated by
+      fire. Creatures that end their turn within the area take 10d10 fire
+      damage. This damage ignores resistance.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:22.1288%">Ice</td>
+
+      <td style="text-align:center;width:77.8712%">The area freezes over.
+      Creatures that end their turn within the area must make a Constitution
+      saving throw or take 3d12 cold damage and become stunned frozen in ice
+      until the end of their next turn.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:22.1288%">Earth</td>
+
+      <td style="text-align:center;width:77.8712%">The area becomes filled with
+      stone and earth, shoving all creatures out of it outward from the center.
+      If this would trap them into a wall they take 3d12 bludgeoning damage and
+      are shoved to the closest free space.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:22.1288%">Radiant</td>
+
+      <td style="text-align:center;width:77.8712%">All creatures that end their
+      turn in the area take 6d6 radiant damage. All living creatures that end
+      their turn in the area are healed for 3d6 hit points.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:22.1288%">Beyond</td>
+
+      <td style="text-align:center;width:77.8712%">All creatures that end their
+      turn within the area must make a Wisdom saving throw or take 3d12 psychic
+      damage and be affected by the effects of the confusion spell.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>Once you use this ability, you can’t use it again until you finish a
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.MVlHLWlwQb7QyM8T
+_id: oKBCLMhOZg6RrFHg
+_key: '!items!oKBCLMhOZg6RrFHg'
+

@@ -1,0 +1,115 @@
+_id: KqIkzUg8gndKlpAB
+name: Poisonous Gas
+type: feat
+img: icons/magic/air/fog-gas-smoke-swirling-green.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 21000000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.V9PZHxEY10pkTWsR
+system:
+  description:
+    value: >-
+      <p>As an action, you can produce an instant reaction, tossing a quick
+      combination of reagents at a point within 20 feet of you, which causes
+      noxious fumes to erupt in a 10-foot-radius sphere centered on that point.
+      Each creature in that area must succeed on a Constitution saving throw
+      against your spell save DC or take 1d4 poison damage and become poisoned
+      until the end of its next turn.</p>
+
+      <p>The damage increases by 1d4 when you reach 5th level (2d4), 11th level
+      (3d4), and 17th level (4d4).</p>
+    chat: ''
+    unidentified: ''
+  source: Potionsmith
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: 20
+    long: 60
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: int
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: int
+  type:
+    value: ''
+    subtype: ''
+  requirements: Potionsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!KqIkzUg8gndKlpAB'
+

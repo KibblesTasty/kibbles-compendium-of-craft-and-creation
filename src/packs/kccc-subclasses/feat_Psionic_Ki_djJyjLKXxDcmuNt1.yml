@@ -1,0 +1,92 @@
+name: Psionic Ki
+type: feat
+img: icons/magic/symbols/chevron-elipse-circle-blue.webp
+data:
+  description:
+    value: >-
+      <p>Additionally at 3rd level, you gain the Telekinetics Discipline; this
+      can be found under the Psionic Disciplines list of the psion class. You
+      can use ki points as psi points, with a limit of 1 ki point. This limit
+      increases to 2 ki points at level 5, 3 ki points at level 9, 4 ki points
+      at level 13, and 5 ki points at level 17. The DC for your psionic
+      abilities is equal to your ki save DC.</p>
+
+      <p>If your character has both psi points and ki points, those are added
+      together into one pool and can be used interchangeably. Your psi limit
+      (and the limit you can use ki points as psi points) becomes your psi limit
+      + one third of your monk levels rounded down.</p>
+
+      <p>When you use your action on a psionic power or to cast a spell using
+      this feature, you can make one attack with an unarmed strike or monk
+      weapon as a bonus action before the end of your turn.</p>
+    chat: ''
+    unidentified: ''
+  source: Soul Blade
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Soul Blade 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.r7eAgSPRnqEMhaZy
+_id: djJyjLKXxDcmuNt1
+_key: '!items!djJyjLKXxDcmuNt1'
+

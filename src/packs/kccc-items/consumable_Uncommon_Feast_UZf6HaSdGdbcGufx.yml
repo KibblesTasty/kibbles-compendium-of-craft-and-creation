@@ -1,0 +1,143 @@
+name: Uncommon Feast
+type: consumable
+img: icons/consumables/food/bowl-stew-tofu-potato-red.webp
+data:
+  description:
+    value: >-
+      <p><em>Enhancing/Wondrous/Superb/Legendary</em></p>
+
+      <p><em>Food (feast), uncommon/rare/very rare/legendary</em></p>
+
+      <p>Up to 5 creatures can consume this feast within an hour of it being
+      prepared. After consuming this hearty meal, you become satiated for the
+      next 24 hours. You gain the benefits for a common feast, but can gain
+      additional benefits by trading in Hit Dice that would be gained as part of
+      your next long rest after consuming this meal. These Hit Dice are consumed
+      after calculating how many you would have after the rest (including the
+      benefits of the feast), but you can trade Hit Dice in this way you would
+      normally lose if you have more than your maximum Hit Dice.</p>
+
+      <p>You can trade Hit Dice in this way up to a number equal to your
+      proficiency bonus. The benefits scale based on the rarity on the
+      feast.</p>
+
+      <table style="width:100%;height:116px" border="1">
+
+      <tbody>
+
+      <tr style="height:17px">
+
+      <td style="width:99.0074%;height:17px;text-align:center"><strong>Benefits
+      [Uncommon/Rare/Very Rare/Legendary]</strong></td>
+
+      </tr>
+
+      <tr style="height:34px">
+
+      <td style="width:99.0074%;height:34px;text-align:center">Roll a
+      [d4/d6/d8/d12] per Hit Die traded and gain temporary hit points equal to
+      the value rolled.</td>
+
+      </tr>
+
+      <tr style="height:34px">
+
+      <td style="width:99.0074%;height:34px;text-align:center">Trade three Hit
+      Dice for an additional spell slot of [1st/2nd/3rd/4th] level</td>
+
+      </tr>
+
+      <tr style="height:31px">
+
+      <td style="width:99.0074%;height:31px;text-align:center">Gain a point that
+      can be expended like Inspiration by trading [5/4/3/2] Hit Dice per
+      point.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>Any benefit from a feast fades after 24 hours.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC - Cooking
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: food
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.RUFEpuK7LXDfw4L2
+_id: UZf6HaSdGdbcGufx
+_key: '!items!UZf6HaSdGdbcGufx'
+

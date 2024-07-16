@@ -1,0 +1,93 @@
+name: Old Reliable (Injury)
+type: consumable
+img: icons/magic/acid/dissolve-bone-skull.webp
+data:
+  description:
+    value: >-
+      <p><em>Poison, uncommon</em></p>
+
+      <p>Applied to a melee weapon or up to 5 pieces of ammunition. This poison
+      is exceptionally durable, lasting on a weapon for 1 hour and an unlimited
+      number of hits during that time. On hit, weapons with this poison applied
+      deal [[/r 1d4]] additional poison damage.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  quantity: 1
+  weight: 0.1
+  price: 70
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.HXglkvTpKWQqI01j
+_id: z7ycdI1eQM4db4YL
+_key: '!items!z7ycdI1eQM4db4YL'
+

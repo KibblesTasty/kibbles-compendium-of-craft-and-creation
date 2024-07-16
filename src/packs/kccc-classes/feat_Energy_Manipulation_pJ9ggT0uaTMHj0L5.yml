@@ -1,0 +1,97 @@
+_id: pJ9ggT0uaTMHj0L5
+name: Energy Manipulation
+type: feat
+img: icons/magic/lightning/orb-ball-spiral-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 49700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.qHjKIYLLfSEqsRyl
+system:
+  description:
+    value: >-
+      <p>When you gain this feature, you can manipulate energy in minor ways at
+      will. As an action, you can cause a light that emits 30 feet of bright
+      light and 30 feet of dim light, cause objects you touch to catch fire as
+      if touched by a match, cause small arcs of electricity, or freeze or thaw
+      up to 5-foot cube of water. Any ongoing effect you create lasts 1 minute.
+      You can have a number of simultaneous effects active up your Intelligence
+      modifier, after which creating another ends the oldest ongoing effect.</p>
+    chat: ''
+    unidentified: ''
+  source: Psychokinesis
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 10
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Psychokinesis 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!pJ9ggT0uaTMHj0L5'
+

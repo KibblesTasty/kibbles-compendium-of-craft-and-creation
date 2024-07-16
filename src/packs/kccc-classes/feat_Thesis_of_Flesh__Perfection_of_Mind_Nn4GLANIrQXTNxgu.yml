@@ -1,0 +1,117 @@
+_id: Nn4GLANIrQXTNxgu
+name: 'Thesis of Flesh: Perfection of Mind'
+type: feat
+img: icons/sundries/books/book-open-brown.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 24200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.NgdI1FTfvJuabyMI
+system:
+  description:
+    value: >-
+      <p>You know that perfection is an aspect of knowledge, a perfect
+      understanding of the mechanics of the body, inside and out. But
+      particularly inside. You gain expertise in the Medicine skill.
+      Additionally, you gain the Dissection upgrade, and it doesn’t count
+      against your upgrade total.</p>
+
+      <p>You have a pool of d8s equal to your Inventor level. When you restore
+      hit points to a creature or use an Intelligence (Medicine) check to deal
+      damage to a creature, you can expend these d8s to restore additional
+      health or deal additional damage. You can spend a number equal to your
+      proficiency bonus at a time. You regain this pool of d8s at the end of a
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Fleshsmith
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '@classes.inventor.levels'
+    per: lr
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: 1
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - healing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fleshsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!Nn4GLANIrQXTNxgu'
+

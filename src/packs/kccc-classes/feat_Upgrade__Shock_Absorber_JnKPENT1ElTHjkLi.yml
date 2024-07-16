@@ -1,0 +1,96 @@
+_id: JnKPENT1ElTHjkLi
+name: 'Upgrade: Shock Absorber'
+type: feat
+img: icons/magic/lightning/fist-unarmed-strike-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 19800000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.iLazKKtzdJVZck0E
+system:
+  description:
+    value: >-
+      <p>You add a reclamation device to your Stormforged Weapon to gather
+      energy from the surroundings when it is present. As a reaction to taking
+      Lightning or Thunder damage, you can gain resistance to that damage type
+      until the start of your next turn. When you do so, the next time you roll
+      Thundermonger damage before the end of your next turn, it deals an extra
+      1d6 damage.</p>
+    chat: ''
+    unidentified: ''
+  source: Thundersmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Thundersmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!JnKPENT1ElTHjkLi'
+

@@ -1,0 +1,111 @@
+name: Flame Breathing Jerky
+type: consumable
+img: icons/consumables/food/short-ribs-cooked-meat-brown.webp
+data:
+  description:
+    value: >-
+      <p><em>Food (snack), uncommon</em></p>
+
+      <p>A tough jerky with exotic flavoring. Very spicy, uncomfortably so.
+      After a creature consumes this snack as an action, they gain the following
+      benefits for the next 10 minutes:</p>
+
+      <ul>
+
+      <li>You can’t be put to sleep by magical means.</li>
+
+      <li>You have disadvantage on Wisdom checks.</li>
+
+      <li>You have disadvantage on Constitution saving throws to maintain
+      concentration on a spell.</li>
+
+      <li>You can use a bonus action to exhale fire at a target within 10 feet
+      of you. The target must make a DC 13 Dexterity saving throw, taking 2d6
+      fire damage on a failed save, or half as much damage on a successful
+      one.</li>
+
+      </ul>
+
+      <p>You can eat a number of pieces of this jerky equal to your Constitution
+      modifier per day.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC - Cooking
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: food
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.7nablrcHCtzu5B3b
+_id: ap3cOcCkDoRFMfEh
+_key: '!items!ap3cOcCkDoRFMfEh'
+

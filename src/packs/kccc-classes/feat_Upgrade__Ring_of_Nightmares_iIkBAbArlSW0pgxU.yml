@@ -1,0 +1,158 @@
+name: 'Upgrade: Ring of Nightmares'
+type: feat
+img: icons/equipment/finger/ring-ball-gold-pink.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 42900000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.80RM5eaERvoPZRpp
+_id: iIkBAbArlSW0pgxU
+system:
+  description:
+    value: >-
+      <p>Attunement, Cursed</p>
+
+      <p>You forge a ring of, well, pure evil. It can bring horrifying
+      nightmares to life in a way that you don’t quite understand, but is very
+      effective. When you invoke a nightmare, you can cast blindness/deafness,
+      rain of spidersK, phantasmal killer, or black tentacles without expending
+      a spell slot. Once you use the ring to invoke a nightmare, you can’t use
+      it until you finish a long rest.</p>
+
+      <p><strong>Curse:</strong> You can’t choose the nightmare invoked. When
+      you invoke a nightmare, roll 1d4 and consult the following table:</p>
+
+      <table style="width:100%;height:85px" border="1">
+
+      <tbody>
+
+      <tr style="height:17px">
+
+      <td style="width:30.881%;height:17px;text-align:center"><strong>[[/r
+      d4]]</strong></td>
+
+      <td style="width:69.119%;height:17px;text-align:center"><strong>Spell
+      Cast</strong></td>
+
+      </tr>
+
+      <tr style="height:17px">
+
+      <td style="width:30.881%;height:17px;text-align:center">1</td>
+
+      <td
+      style="width:69.119%;height:17px;text-align:center">@Compendium[dnd5e.spells.zwGsAv6kmwzYGhh3]{Blindness/Deafness}</td>
+
+      </tr>
+
+      <tr style="height:17px">
+
+      <td style="width:30.881%;height:17px;text-align:center">2</td>
+
+      <td
+      style="width:69.119%;height:17px;text-align:center">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.S7g2Zpx2bCmYJDt3]{Rain
+      of Spiders}</td>
+
+      </tr>
+
+      <tr style="height:17px">
+
+      <td style="width:30.881%;height:17px;text-align:center">3</td>
+
+      <td
+      style="width:69.119%;height:17px;text-align:center">@Compendium[dnd5e.spells.BYNvBJzHcF5VJhXw]{Phantasmal
+      Killer}</td>
+
+      </tr>
+
+      <tr style="height:17px">
+
+      <td style="width:30.881%;height:17px;text-align:center">4</td>
+
+      <td
+      style="width:69.119%;height:17px;text-align:center">@Compendium[dnd5e.spells.DGONTFbk5eORs5qv]{Black
+      Tentacles}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: Cursesmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cursesmith 9
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!iIkBAbArlSW0pgxU'
+

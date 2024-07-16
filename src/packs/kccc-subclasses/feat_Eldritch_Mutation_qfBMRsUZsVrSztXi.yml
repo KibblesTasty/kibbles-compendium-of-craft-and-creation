@@ -1,0 +1,186 @@
+name: Eldritch Mutation
+type: feat
+img: icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+data:
+  description:
+    value: >-
+      <p>When you choose this circle at 2nd level, you can expend a use of your
+      Wild Shape feature as a bonus action to take on an eldritch mutation born
+      of your twisted nightmares, rendering a piece of them into reality through
+      the warping of your flesh.</p>
+
+      <p>When you use this feature, you gain temporary hit points equal to your
+      druid level + your Wisdom modifier and grow your choice of an Eye Stalk or
+      Grasping Tentacles. The selected eldritch mutation lasts for 10 minutes.
+      It ends early if you dismiss it as an action, are incapacitated, or use
+      this feature again.</p>
+
+      <h3><strong>Eye Stalk</strong></h3>
+
+      <p>When you manifest this mutation, and as a bonus action on your
+      subsequent turns while it lasts, you can target a creature you can see
+      within 60 feet and make a roll on the following table to shoot a random
+      eye ray at them.</p>
+
+      <table style="width:100%;height:316px" border="1">
+
+      <tbody>
+
+      <tr style="height:16px">
+
+      <td style="width:21.34%;height:16px">1d6</td>
+
+      <td style="width:77.4194%;height:16px">Effect</td>
+
+      </tr>
+
+      <tr style="height:50px">
+
+      <td style="width:21.34%;height:50px">1. Fear Ray</td>
+
+      <td style="width:77.4194%;height:50px">The target creature must make a
+      Wisdom saving throw or become frightened of you until the start of your
+      next turn.</td>
+
+      </tr>
+
+      <tr style="height:50px">
+
+      <td style="width:21.34%;height:50px">2. Telekinetic Ray</td>
+
+      <td style="width:77.4194%;height:50px">The target creature must make a
+      Strength saving throw or be moved 10 feet in a direction of your
+      choice.</td>
+
+      </tr>
+
+      <tr style="height:50px">
+
+      <td style="width:21.34%;height:50px">3. Slowing Ray</td>
+
+      <td style="width:77.4194%;height:50px">The target must succeed a Wisdom
+      saving throw or be affected by the slow spell until the start of your next
+      turn.</td>
+
+      </tr>
+
+      <tr style="height:50px">
+
+      <td style="width:21.34%;height:50px">4. Petrification Ray</td>
+
+      <td style="width:77.4194%;height:50px">The target must succeed a
+      Constitution saving throw or be restrained until the start of your next
+      turn.</td>
+
+      </tr>
+
+      <tr style="height:50px">
+
+      <td style="width:21.34%;height:50px">5. Enervation Ray</td>
+
+      <td style="width:77.4194%;height:50px">The target must succeed a
+      Constitution saving throw or take 1d8 + your Wisdom modifier necrotic
+      damage.</td>
+
+      </tr>
+
+      <tr style="height:50px">
+
+      <td style="width:21.34%;height:50px">6. Disintegration Ray</td>
+
+      <td style="width:77.4194%;height:50px">The target must succeed a Dexterity
+      saving throw or take 1d10 + your Wisdom modifier force damage.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p><em><strong>Controlled Madness.</strong></em> Each time you use a Wild
+      Shape to assume this mutation, you can select the effect of the eye ray
+      instead of rolling a number of times equal to your proficiency bonus.</p>
+
+      <h3><strong>Grasping Tentacles</strong></h3>
+
+      <p>When you manifest this mutation, and as a bonus action on your
+      subsequent turns while it lasts, you can lash out with these tentacles.
+      You can make a melee spell attack against a creature within 10 feet. On
+      hit, the target takes 1d6 + your Wisdom modifier bludgeoning damage. In
+      place of making this attack, you can initiate a grapple against a target,
+      making a Wisdom (Athletics) check with a range of 10 feet. If the check
+      succeeds, you can continue to use Wisdom (Athletics) to maintain and
+      contest grapples targeting that creature. You have a number of tentacles
+      equal to your Wisdom modifier, and need at least one free tentacle to take
+      the bonus action attack.</p>
+    chat: ''
+    unidentified: ''
+  source: Circle of Nightmares
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Circle of Nightmares 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.5veqL8A7QgO2O78Z
+_id: qfBMRsUZsVrSztXi
+_key: '!items!qfBMRsUZsVrSztXi'
+

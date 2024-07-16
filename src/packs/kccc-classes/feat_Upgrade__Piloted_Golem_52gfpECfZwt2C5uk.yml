@@ -1,0 +1,105 @@
+name: 'Upgrade: Piloted Golem'
+type: feat
+img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 5300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.X5PbVjrCBEGJB9ZX
+_id: 52gfpECfZwt2C5uk
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Warplate, 9th-level inventor; incompatible with
+      Collapsible and Flight)</em></p>
+
+      <p>You enlarge your Warplate, turning it into a piloted mechanical golem.
+      Your size category when wearing the armor increases by one.</p>
+
+      <p>You have advantage on Strength saving throws and Strength checks
+      against creatures the same size as you or smaller than you, but you have
+      disadvantage on Dexterity saving throws and Dexterity checks (including
+      initiative rolls). At the end of a short or long rest, your Warplate gains
+      temporary hit points equal to your Inventor level.</p>
+
+      <p>You are no longer a valid target for spells that require a humanoid
+      target, but can be targeted by spells that require a construct target
+      while wearing this armor.</p>
+    chat: ''
+    unidentified: ''
+  source: Warsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warsmith 9
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!52gfpECfZwt2C5uk'
+

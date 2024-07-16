@@ -1,0 +1,124 @@
+name: Blasting Powder
+type: consumable
+img: icons/commodities/materials/powder-grey.webp
+data:
+  description:
+    value: >-
+      <p>A fine grey powder with large grains and the faint smell of sulfur and
+      charcoal that comes in small packets weighing 1/2 pound.</p>
+
+      <p>When ignited by 1 or more fire or lightning damage, it explodes
+      violently. All creatures within 10 feet of it must make a DC 14 Dexterity
+      saving throw. On failure, they take [[/r 1d4]] fire + [[/r 1d4]] thunder
+      damage, or half as much on a success. The amount of damage increases by
+      [[/r 1d4]] (both the fire and thunder) and the radius increases by 5 feet
+      for each additional packet of Blasting Powder detonated in the same spot,
+      up to a maximum of five packets. Deals double damage to buildings and
+      structures. Creatures in range of more than one stack of up to 5
+      explosives at the same time take damage only from the highest damage
+      effect.</p>
+
+      <p>Frequently used for mining and other responsible things... until
+      adventurers get their hands on it.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: none
+  uses:
+    value: null
+    max: ''
+    per: ''
+    autoDestroy: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - fire
+      - - 1d4
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: 14
+    scaling: flat
+  consumableType: potion
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+        '1': ''
+      value:
+        '0': true
+        '1': true
+      altValue:
+        '0': true
+        '1': true
+  core:
+    sourceId: Item.vFDZ1Lj1lqd7gxvt
+_id: 6CQtjun9jvOvqcE3
+_key: '!items!6CQtjun9jvOvqcE3'
+

@@ -1,0 +1,102 @@
+name: Burning Wound (Injury)
+type: consumable
+img: icons/magic/acid/dissolve-bone-skull.webp
+data:
+  description:
+    value: >-
+      <p><em>Poison, uncommon</em></p>
+
+      <p>Applied to a melee weapon or up to 5 pieces of ammunition. A creature
+      subjected to this poison must make a Constitution saving throw with a DC
+      equal to the crafter's Poison DC.</p>
+
+      <p>On failure, the target becomes poisoned for 1 minute. While poisoned
+      this way, a creature takes 1d6 fire damage at the end of each of its
+      turns, and any hit points regained is reduced by half. At the end of each
+      of their turns, they can repeat the saving throw, ending the effect on
+      success.</p>
+
+      <p>Once applied, the poison retains potency for 1 minute before drying,
+      and wears off of a weapon after that weapon has delivered the effect 5
+      times.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  quantity: 1
+  weight: 0.1
+  price: 150
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.zDQG4WQj1yKuSsx0
+_id: GycW8CBdMbEIrt9B
+_key: '!items!GycW8CBdMbEIrt9B'
+

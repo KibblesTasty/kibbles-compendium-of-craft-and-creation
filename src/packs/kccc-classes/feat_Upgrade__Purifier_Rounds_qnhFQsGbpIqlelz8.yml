@@ -1,0 +1,98 @@
+name: 'Upgrade: Purifier Rounds'
+type: feat
+img: icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 51900000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.eQDngMTFbK3mQR25
+_id: qnhFQsGbpIqlelz8
+system:
+  description:
+    value: >-
+      <p>You can make a number of pieces of ammunition equal to your
+      Intelligence modifier imbued with special divine power. On hit, these
+      rounds do deal an extra [[/r 1d6]] radiant damage. If the creature is
+      undead or a fiend and the damage from this round reduces its hit points to
+      a number less than your Inventor level, it has to make a Charisma saving
+      throw. On failure, it dies and explodes to ash.</p>
+
+      <p>You can replenish any spent rounds after a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Relicsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Relicsmith 9
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!qnhFQsGbpIqlelz8'
+

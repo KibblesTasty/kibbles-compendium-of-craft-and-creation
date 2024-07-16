@@ -1,0 +1,193 @@
+name: Circle of Nightmares
+type: subclass
+img: icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+data:
+  description:
+    value: >-
+      <h2 style="border-bottom:1px solid var(--color-underline-header)">Circle
+      of Nightmares</h2>
+
+      <p>Druids are often thought of as the guardians of the natural order and
+      having a deep connection to the creatures of the land. Sometimes that
+      connection goes horribly wrong. A druid of this circle has found their
+      mind entangled with the horrors of the beyond, their natural connection to
+      nature and its beasts becoming warped by the dark dreams.</p>
+
+      <p>Druids of this circle may be haunted by the terrors they see, but many
+      simply find their minds inoculated against the horror (perhaps by the
+      touch of madness). Some even treat twisted abominations with the same care
+      other druids might take to vicious and wild animals, treating them with
+      pragmatic understanding and empathy</p>
+
+      <p>Sometimes their connection even seems to be mutual.</p>
+
+      <p>2nd Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.Y1DBqnsojvLg5nVZ]{Circle
+      of Nightmares Spells}</p>
+
+      <p>2nd Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.qfBMRsUZsVrSztXi]{Eldritch
+      Mutation}</p>
+
+      <p>6th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.YhMdwysD9liAku4O]{Aberrant
+      Mutations}</p>
+
+      <p>10th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.vGyQlIm2agMXxVpa]{Faceted
+      Forms}</p>
+
+      <p>14th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.3V6iTZYYHViBenQY]{Piercing
+      Eyes}</p>
+
+      <p>14th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.eJSmdiyLEs0UOZ0R]{Mutation
+      Mastery}</p>
+
+      <h3><strong>Circle of Nightmare Quicks</strong></h3>
+
+      <p>The following are some optional quirks for a player of the Circle of
+      Nightmares. You can optionally roll or select a quirk that suits your
+      character.</p>
+
+      <table style="width:100%;height:112px" border="1">
+
+      <tbody>
+
+      <tr style="height:16px">
+
+      <td style="width:14.6127%;height:16px;text-align:center"><strong>[[/r
+      d6]]</strong></td>
+
+      <td
+      style="width:84.507%;height:16px;text-align:center"><strong>Quirk</strong></td>
+
+      </tr>
+
+      <tr style="height:16px">
+
+      <td style="width:14.6127%;height:16px;text-align:center">1</td>
+
+      <td style="width:84.507%;height:16px;text-align:center">You sometimes wake
+      up with different features.</td>
+
+      </tr>
+
+      <tr style="height:16px">
+
+      <td style="width:14.6127%;height:16px;text-align:center">2</td>
+
+      <td style="width:84.507%;height:16px;text-align:center">You forgot what
+      you originally looked like long ago.</td>
+
+      </tr>
+
+      <tr style="height:16px">
+
+      <td style="width:14.6127%;height:16px;text-align:center">3</td>
+
+      <td style="width:84.507%;height:16px;text-align:center">You refer to
+      horrifying things as "cute".</td>
+
+      </tr>
+
+      <tr style="height:16px">
+
+      <td style="width:14.6127%;height:16px;text-align:center">4</td>
+
+      <td style="width:84.507%;height:16px;text-align:center">You try to speak
+      to animals in deep speech.</td>
+
+      </tr>
+
+      <tr style="height:16px">
+
+      <td style="width:14.6127%;height:16px;text-align:center">5</td>
+
+      <td style="width:84.507%;height:16px;text-align:center">You refer to going
+      to sleep as "visiting the other side".</td>
+
+      </tr>
+
+      <tr style="height:16px">
+
+      <td style="width:14.6127%;height:16px;text-align:center">6</td>
+
+      <td style="width:84.507%;height:16px;text-align:center">You refer to eyes
+      watching you. No one else can see these eyes.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  identifier: circle-of-nightmares
+  classIdentifier: druid
+  advancement:
+    - _id: n175lfif21en2h8d
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Y1DBqnsojvLg5nVZ
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.qfBMRsUZsVrSztXi
+        optional: false
+      value: {}
+      level: 2
+      title: ''
+      icon: ''
+    - _id: po34i35aaho8f8co
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.YhMdwysD9liAku4O
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: cvqo77d0vlozfl39
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.vGyQlIm2agMXxVpa
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: f94xldygjl64smv5
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.3V6iTZYYHViBenQY
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.eJSmdiyLEs0UOZ0R
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core:
+    sourceId: Item.0PB5PXCxWsW3A3DB
+_id: K1NgiSGifIxKDlZw
+_key: '!items!K1NgiSGifIxKDlZw'
+

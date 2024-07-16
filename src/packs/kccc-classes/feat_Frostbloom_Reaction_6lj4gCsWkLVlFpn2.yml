@@ -1,0 +1,121 @@
+_id: 6lj4gCsWkLVlFpn2
+name: Frostbloom Reaction
+type: feat
+img: icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 7100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.VWerRFYq04tgCduC
+system:
+  description:
+    value: >-
+      <p>As an action, you can produce an instant reaction, throwing a
+      combination of devastating, endothermically reactive reagents at a point
+      within 20 feet of you, which causes a bloom of ice to erupt. The area
+      within 5 feet of that point becomes difficult terrain until the end of
+      your next turn.</p>
+
+      <p>Each creature in the area must succeed on a Dexterity saving throw
+      against your spell save DC or be caught by the ice, taking 1d6 cold
+      damage. If a creature that fails its saving throw is entirely in the area
+      of effect, it becomes restrained until the end of its next turn. A
+      restrained creature can use its action to make a Strength saving throw
+      against your spell save DC, ending the effect on itself on a success.</p>
+
+      <p>The damage increases by 1d6 when you reach 5th level (2d6), 11th level
+      (3d6), and 17th level (4d6).</p>
+    chat: ''
+    unidentified: ''
+  source: Potionsmith
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: 20
+    long: 60
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: int
+  type:
+    value: ''
+    subtype: ''
+  requirements: Potionsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!6lj4gCsWkLVlFpn2'
+

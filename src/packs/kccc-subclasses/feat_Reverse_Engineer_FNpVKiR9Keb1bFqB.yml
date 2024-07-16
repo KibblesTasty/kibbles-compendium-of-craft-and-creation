@@ -1,0 +1,81 @@
+name: Reverse Engineer
+type: feat
+img: icons/weapons/wands/wand-gem-purple.webp
+data:
+  description:
+    value: >-
+      <p>Additionally at 6th level, you gain the ability to reverse engineer the
+      arcane magic of magic items. You can learn a spell from a magic item that
+      can cast a Wizard spell as you would from a scroll, though the magic item
+      is not destroyed in the process.</p>
+    chat: ''
+    unidentified: ''
+  source: Order of Creation
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Order of Creation 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.MUz2bDpZt8zRI0xr
+_id: FNpVKiR9Keb1bFqB
+_key: '!items!FNpVKiR9Keb1bFqB'
+

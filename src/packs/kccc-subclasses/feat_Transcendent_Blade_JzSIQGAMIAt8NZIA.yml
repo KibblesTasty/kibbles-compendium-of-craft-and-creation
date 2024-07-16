@@ -1,0 +1,88 @@
+name: Transcendent Blade
+type: feat
+img: icons/skills/melee/strike-blade-scimitar-green-purple.webp
+data:
+  description:
+    value: >-
+      <p>Starting at 17th level, your Soul Blade becomes a peerless weapon. You
+      can add a +1 to its attack and damage rolls. You can choose for your blade
+      to affect inanimate material, causing it to gain the Siege property and
+      deal force damage to it when you choose. Reactions that parry or block to
+      add Armor Class against an attack are ineffective against attacks made
+      with the Soul Blade.</p>
+
+      <p>Additionally, critical hits from your Soul Blade rend the soul of the
+      target. If a creature would have less than 50 hit points after taking
+      damage from your critical strike, the creature must make a Charisma saving
+      throw. On failure, its Charisma score becomes zero and it dies.</p>
+    chat: ''
+    unidentified: ''
+  source: Soul Blade
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Soul Blade 17
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.0ztF6QtGu7GtusGH
+_id: JzSIQGAMIAt8NZIA
+_key: '!items!JzSIQGAMIAt8NZIA'
+

@@ -1,0 +1,100 @@
+name: 'Upgrade: Whispers of the Night'
+type: feat
+img: icons/magic/control/sleep-bubble-purple.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 44000000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.xwi5UFPVyKMNm51j
+_id: jRdbny6UCb2M6lHx
+system:
+  description:
+    value: >-
+      <p>After tinkering with the properties of your Artifact, you can hear
+      it... whisper. You can hear that too, right? You gain the ability to cast
+      @Compendium[dnd5e.spells.P7mF2MxSuVJwHRRY]{Guidance} and
+      @Compendium[dnd5e.spells.icZokbgV1jIMpNCv]{Message}, but the message is
+      always delivered in a haunting, unearthly, or creepy voice.</p>
+
+      <p>You can amplify these whispers to cast
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.qfu2E5u8hTQfGiX3]{Terrifying
+      Visions} without expending a spell slot. Once you do so, you can’t do so
+      again until you finish a short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Cursesmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cursesmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!jRdbny6UCb2M6lHx'
+

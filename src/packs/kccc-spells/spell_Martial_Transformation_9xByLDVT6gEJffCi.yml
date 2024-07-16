@@ -1,0 +1,184 @@
+name: Martial Transformation
+type: spell
+img: icons/skills/wounds/injury-face-impact-orange.webp
+effects: []
+folder: MIMrgazRWMZVkCuD
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value:
+        - true
+      altValue:
+        - true
+      context:
+        '0': ''
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.G7Nn8V6OCns2kThq
+_id: 9xByLDVT6gEJffCi
+system:
+  description:
+    value: >-
+      <p>You endow yourself with endurance and martial prowess fueled by magic.
+      Until the spell ends, you can't cast spells or concentrate them, and you
+      gain the following benefits:</p>
+
+      <ul>
+
+      <li>You gain [[/r 50]] temporary hit points. If any of these remain when
+      the spell ends, they are lost.</li>
+
+      <li>You have advantage on attack rolls that you make with simple and
+      martial weapons.</li>
+
+      <li>When you hit a target with a weapon attack, that target takes an extra
+      [[/r 2d12]] force damage.</li>
+
+      <li>You have proficiency with all armor, shields, simple weapons, and
+      martial weapons.</li>
+
+      <li>You have proficiency in Strength and Constitution saving throws.</li>
+
+      <li>You can attack twice, instead of once, when you take the Attack action
+      on your turn. You ignore this benefit if you already have a feature, like
+      Extra Attack, that gives you extra attacks.</li>
+
+      <li>You can conjure and equip (as part of the action used to cast the
+      spell) and set of heavy or medium armor and any simple or martial weapon
+      of your choice. These items have no strength requirements and are magical
+      in nature though have the same properties as their nonmagical
+      counterparts, vanishing when the spell ends.</li>
+
+      </ul>
+
+      <p>Immediately after the spell ends, you must succeed on a DC 15
+      Constitution saving throw or suffer one level of exhaustion.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Casting Compendium
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 10
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - '50'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 6
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: a few hairs from a bull
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886207
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!9xByLDVT6gEJffCi'
+

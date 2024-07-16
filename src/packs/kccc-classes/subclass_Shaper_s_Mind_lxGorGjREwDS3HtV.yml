@@ -1,0 +1,128 @@
+name: Shaper's Mind
+type: subclass
+img: icons/magic/symbols/circled-gem-pink.webp
+effects: []
+folder: 1FRdPSG4JXRH5ikM
+sort: 0
+flags:
+  core:
+    sourceId: Item.zsAwKWvv5BkKp745
+_id: lxGorGjREwDS3HtV
+system:
+  description:
+    value: >-
+      <h2>Shaper’s Mind</h2>
+
+      <p>A Shaper is a Psion that specializes in the materialization of their
+      imagination, projecting it out into the world. No mere conjurers borrowing
+      the powers of other planes, a Shaper manifests things from nothing but
+      their own mind, weaving their creations into existence through the
+      exertion of raw psionic power and imagination.</p>
+
+      <p>A Shaper’s mind is a tool of nearly unrivaled power possessing both
+      boundless creativity and inexorable will, but if that will is overrun, the
+      world would do well to fear a Shaper’s nightmares.</p>
+
+      <p>1st Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.qEucYBkjgWfZGx91]{Creator’s
+      Mind}
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.xizRHfF91b50xkM9]{Boundless
+      Imagination}</p>
+
+      <p>3rd Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.DTflQW55n5IE2lfG]{Astral
+      Metastability}</p>
+
+      <p>6th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.VvYQDFsEkNEyp2eg]{Empowered
+      Construct}</p>
+
+      <p>10th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.oVuZ8P2ilz1qFidU]{Astral
+      Guardian}</p>
+
+      <p>14th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.KfV0X42XKc7nkg7D]{Imaginary
+      Army}</p>
+    chat: ''
+    unidentified: ''
+  source: Psion
+  identifier: shapers-mind
+  classIdentifier: psion
+  advancement:
+    - _id: 0vlgzybmebml3h7q
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.qEucYBkjgWfZGx91
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.xizRHfF91b50xkM9
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.ovuccRboym69GsRq
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.ZlRfPTGD9dHTnU1V
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.e5RreYuy3ycf72qE
+        optional: false
+      value: {}
+      level: 1
+    - _id: aa3m96b104s456rb
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.DTflQW55n5IE2lfG
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: 195nh9is3kqr8mtd
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.VvYQDFsEkNEyp2eg
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: c9dqpccap4mvo5vp
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.oVuZ8P2ilz1qFidU
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: clues9ezfegpmmdm
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.KfV0X42XKc7nkg7D
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857267597
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!lxGorGjREwDS3HtV'
+

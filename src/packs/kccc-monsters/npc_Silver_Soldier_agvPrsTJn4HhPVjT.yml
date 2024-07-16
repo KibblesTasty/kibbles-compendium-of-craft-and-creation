@@ -1,0 +1,939 @@
+_id: agvPrsTJn4HhPVjT
+name: Silver Soldier
+type: npc
+img: icons/svg/mystery-man.svg
+data:
+  abilities:
+    str:
+      value: 14
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 16
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 16
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 16
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 14
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 1
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+  attributes:
+    ac:
+      flat: null
+      calc: custom
+      formula: '18'
+    hp:
+      value: 75
+      min: 0
+      max: 75
+      temp: null
+      tempmax: 0
+      formula: 10d8 + 30
+    init:
+      value: 0
+      bonus: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 30
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 120
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: ''
+    spellcasting: int
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: ''
+    race: ''
+    type:
+      value: construct
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 6
+    spellLevel: 0
+    xp:
+      value: 10
+    source: KCCC
+  traits:
+    size: med
+    di:
+      value:
+        - poison
+        - psychic
+      custom: ''
+    dr:
+      value: []
+      custom: >-
+        bludgeoning, piercing, and slashing from nonmagical attacks that aren’t
+        adamantine
+    dv:
+      value: []
+      custom: ''
+    ci:
+      value:
+        - charmed
+        - exhaustion
+        - frightened
+        - petrified
+        - poisoned
+      custom: ''
+    languages:
+      value: []
+      custom: understands one language known by its creator
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 1
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+token:
+  name: Silver Soldier
+  img: icons/svg/mystery-man.svg
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  scale: 1
+  mirrorX: false
+  mirrorY: false
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  vision: false
+  dimSight: 120
+  brightSight: 0
+  sightAngle: 0
+  light:
+    alpha: 0.5
+    angle: 0
+    bright: 0
+    coloration: 1
+    dim: 0
+    gradual: true
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+  disposition: -1
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: ''
+  flags:
+    splatter:
+      bloodColor: ''
+  randomImg: false
+  tint: null
+items:
+  - _id: wRmP8oUbzF5vlxzi
+    name: Advanced Technology.
+    type: feat
+    img: icons/commodities/tech/cog-brass.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Advanced Technology.</strong> The sentry applies double its
+          proficiency bonus to proficient ability checks, attack rolls, and
+          saving throws (included in this stat block).</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!agvPrsTJn4HhPVjT.wRmP8oUbzF5vlxzi'
+  - _id: VkhDZr5035eD1Esb
+    name: Short Circuit
+    type: feat
+    img: icons/magic/lightning/projectile-tendrils-teal.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Short Circuit. </strong>Whenever the sentry takes 10 or
+          more lightning damage, it takes an extra 6 ([[/r 1d12]]) lightning
+          damage.</p>
+
+          <p>&nbsp;</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!agvPrsTJn4HhPVjT.VkhDZr5035eD1Esb'
+  - _id: Di54agSZB9eNP7tt
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Multiattack. </strong>The soldier makes three Laser Beam
+          attacks.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: 0
+    effects: []
+    folder: null
+    sort: -200000
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core:
+        sourceId: Item.094090din8bu19vk
+    _key: '!actors.items!agvPrsTJn4HhPVjT.Di54agSZB9eNP7tt'
+  - _id: wYOyPrTI0KPcTqzV
+    name: Laser Beam
+    type: weapon
+    img: icons/magic/light/beam-layered-teal.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Laser Beam. </strong>Ranged Spell Attack: +9 to hit, range
+          150/600 ft., one target. Hit: 10 (4d4) fire damage.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 150
+        long: 600
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: int
+      actionType: rsak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 4d4
+            - fire
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    effects: []
+    folder: null
+    sort: 100000
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+      core:
+        sourceId: Item.MyRD2lyesKbFVaBX
+    _key: '!actors.items!agvPrsTJn4HhPVjT.wYOyPrTI0KPcTqzV'
+  - _id: XMooxpSEErX4dKpG
+    name: Calculated Shot
+    type: weapon
+    img: icons/skills/targeting/crosshair-scope-sniper-green.webp
+    data:
+      description:
+        value: "<p><em><strong>Calculated Shot. </strong>Ranged Spell Attack: </em>+18 to hit, range 150/600 ft., one target. <em>Hit:</em> 10 (4d4) fire damage.\_</p>"
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 150
+        long: 600
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: int
+      actionType: rsak
+      attackBonus: '+9'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 4d4
+            - fire
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    effects: []
+    folder: null
+    sort: 100000
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+      core:
+        sourceId: Item.MyRD2lyesKbFVaBX
+    _key: '!actors.items!agvPrsTJn4HhPVjT.XMooxpSEErX4dKpG'
+  - _id: hxxJlwQ1vr4xeDql
+    name: Overwatch
+    type: feat
+    img: icons/skills/ranged/rifle-scoped-firing-yellow-green.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Overwatch.</strong> When a creature moves within 600 feet
+          of the soldier and isn’t benefiting from cover, the soldier makes one
+          Laser Beam attack against the creature.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: reaction
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!agvPrsTJn4HhPVjT.hxxJlwQ1vr4xeDql'
+effects:
+  - _id: 1rnk8PoeYHn6ZZJf
+    changes:
+      - key: data.attributes.prof
+        mode: 1
+        value: '2'
+    disabled: false
+    duration:
+      startTime: 1368
+      startRound: 4
+      startTurn: 0
+    icon: icons/commodities/tech/cog-brass.webp
+    label: Advanced Technology
+    origin: Actor.NOhE7Cun9UM0hJuX
+    transfer: false
+    flags: {}
+    tint: null
+    _key: '!actors.effects!agvPrsTJn4HhPVjT.1rnk8PoeYHn6ZZJf'
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core:
+    sourceId: Actor.NOhE7Cun9UM0hJuX
+_key: '!actors!agvPrsTJn4HhPVjT'
+

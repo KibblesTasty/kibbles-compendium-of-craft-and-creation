@@ -1,0 +1,121 @@
+name: Arcane Infusion
+type: spell
+img: icons/magic/symbols/cog-glowing-green.webp
+effects: []
+folder: O6hZgRZFkj4UG3IA
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.2KXdx0E57m6iu00S
+_id: TNwEMfH4ziRJ0ao5
+system:
+  description:
+    value: >-
+      <p>You use arcane power to briefly bring to power or modify your
+      inventions. For the duration, you gain the effects of one unrestricted
+      upgrade. All normal prerequisite apply (including subclass and level
+      requirements). The creation is magical, held together and formed of magic
+      and spare parts, taking the form of the upgrade or empowering an existing
+      upgrade with temporary new features. Casting this spell again ends the
+      effects of any previous castings of this spell.</p>
+
+      <p><em><strong>At Higher Levels. </strong></em>When you cast this spell
+      with a 3rd-level spell slot or higher, you can infuse the effects of an
+      upgrade that requires 5th level or higher. When you cast this spell using
+      a spell slot of 4th level or higher, you can infuse the effects of an
+      upgrade that requires 9th level or higher. When you cast this spell with a
+      5th-level spell slot or higher, you can infuse the effects of an upgrade
+      that requires 11th level or higher.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 2
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: spare parts that could form the upgrade selected worth at least 1 sp
+    consumed: false
+    cost: 0.1
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886340
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!TNwEMfH4ziRJ0ao5'
+

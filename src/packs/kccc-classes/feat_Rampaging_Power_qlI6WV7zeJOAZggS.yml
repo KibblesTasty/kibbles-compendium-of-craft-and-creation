@@ -1,0 +1,108 @@
+_id: qlI6WV7zeJOAZggS
+name: Rampaging Power
+type: feat
+img: icons/skills/melee/strike-flail-destructive-yellow.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 51800000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.FwU4FK5Dcpl1aNK9
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you gain a d4 rampage die. Once on each of your
+      turns when making a damage roll, you can add this rampage die to the
+      damage roll. If you dealt damage during your last turn, your rampage die
+      becomes a d6, increasing with each subsequent turn you deal damage by one
+      step, up to a d12; if you did not deal damage during your last turn or
+      become incapacitated, it becomes a d4 once more. If you maintain a
+      continuous d12 rampage die for more than one minute, you gain one level of
+      exhaustion.</p>
+    chat: ''
+    unidentified: ''
+  source: Unleashed
+  activation:
+    type: none
+    cost: 1
+    condition: Once per turn on your turn when you roll damage.
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Unleashed 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!qlI6WV7zeJOAZggS'
+

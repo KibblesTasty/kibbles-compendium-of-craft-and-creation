@@ -1,0 +1,152 @@
+_id: RbTNVi6F2PRU4Dta
+name: 'Upgrade: Ricocheting Weapon'
+type: weapon
+img: icons/weapons/thrown/shuriken-double-red.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 100004
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.zJETR4oJfKO2cl6L
+system:
+  description:
+    value: >-
+      <p>You create a thrown melee weapon enchanted or engineered to ricochet
+      off its targets and return to your hand. You have proficiency with this
+      weapon, which has a normal range of 30 feet and a long range of 90 feet,
+      and it has the finesse and thrown properties, as well as the special
+      property (described below). It deals 1d8 bludgeoning, piercing, or
+      slashing damage on a hit (your choice when you choose this upgrade). You
+      can Arcane Retrofit this weapon.</p>
+
+      <p><strong>Special.</strong> When this weapon is thrown, you can target
+      two creatures within 10 feet of each other, making a separate attack roll
+      against each target; the damage dealt by the attack is halved for each
+      target hit after the first. In addition, the weapon flies back to your
+      hand immediately after the attack.</p>
+    chat: ''
+    unidentified: ''
+  source: Gadgetsmith
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 2
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: 90
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: simpleM
+  baseItem: ''
+  properties:
+    ada: false
+    amm: false
+    fin: true
+    fir: false
+    foc: false
+    hvy: false
+    lgt: false
+    lod: false
+    mgc: false
+    rch: false
+    rel: false
+    ret: true
+    sil: false
+    spc: false
+    thr: true
+    two: false
+    ver: false
+  proficient: true
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857323278
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!RbTNVi6F2PRU4Dta'
+

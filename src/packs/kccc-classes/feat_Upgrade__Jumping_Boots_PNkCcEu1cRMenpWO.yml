@@ -1,0 +1,93 @@
+_id: PNkCcEu1cRMenpWO
+name: 'Upgrade: Jumping Boots'
+type: feat
+img: icons/skills/movement/feet-winged-boots-brown.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 26100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.AowmozMgJf3Wqwus
+system:
+  description:
+    value: >-
+      <p>You modify your boots with arcane boosters. While wearing these boots,
+      you are under the effects of the
+      @Compendium[dnd5e.spells.ZrTc23tToJ0JpH2h]{Jump} spell.</p>
+    chat: ''
+    unidentified: ''
+  source: Gadgetsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Gadgetsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!PNkCcEu1cRMenpWO'
+

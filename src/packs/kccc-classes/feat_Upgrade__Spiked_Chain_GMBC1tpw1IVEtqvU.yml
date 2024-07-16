@@ -1,0 +1,90 @@
+name: 'Upgrade: Spiked Chain'
+type: feat
+img: icons/tools/fasteners/chain-hook-grey.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 17200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.sX7LnVX7cCgCiOUk
+_id: GMBC1tpw1IVEtqvU
+system:
+  description:
+    value: "<p><em>(Prerequisite: Flaying Hook)</em></p>\n<p>You lace the chain of your Flaying Hook with spikes. When you attack a creature within 5 feet with your Flaying Hook, you can opt to make a Spiked Chain attack instead. This attack deals 2d4 piercing damage on hit, and has the Special property.</p>\n<p>Special. When you hit a creature with this weapon, that target loses 10 feet of movement (hindered by the chain) and takes 1d4 damage each time they move 5 feet, up to 2d4 damage (for 10 feet of movement). You can’t use this weapon against another creature until the start of your next turn, but have advantage on opportunity attacks against that target. If it doesn’t move before the start of your next turn, you reel your chain back in, dealing 1d4 slashing damage to that target.\_</p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fleshsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!GMBC1tpw1IVEtqvU'
+

@@ -1,0 +1,181 @@
+name: Cruel Puppetry
+type: spell
+img: icons/magic/control/voodoo-doll-pain-damage-red.webp
+effects: []
+folder: 3C2eSjufkNJJHedg
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.kfxuG6pnniBzPQEt
+_id: BjGCdO0OAOvIXQiZ
+system:
+  description:
+    value: >-
+      <p>You attempt to bind a creatures soul to a doll, linking the creature to
+      the doll in a sympathetic link. The target must make a Charisma saving
+      throw. On failure, the creature becomes bound to the doll. On a successful
+      save, the creature is not bound and the spell ends.</p>
+
+      <p>As part of casting the spell when the creature fails the save, and on
+      subsequent turns using your action until the spell ends, you can perform
+      one of the following actions:</p>
+
+      <ul>
+
+      <li>Hold the doll still, causing the creature to be Restrained until start
+      of your next turn.</li>
+
+      <li>Force the doll to move, causing the creature to move 15 feet in a
+      direction of your choice that it can move.</li>
+
+      <li>Stab the doll, causing the creature take 4d6 piercing damage.</li>
+
+      <li>Rip the doll in half, ending the spell, destroying the doll, and
+      dealing 4d12 necrotic damage to the creature.</li>
+
+      <li>Each time after the first you use an action to manipulate the doll,
+      after the effect takes place, the creature can repeat the Charisma with
+      disadvantage, ending the effect on a successful save.</li>
+
+      </ul>
+
+      <p>Once a creature has been targeted by this spell, they cannot be
+      targeted again for 24 hours.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When cast with a 5th level
+      spell slot or above, the range of the spell becomes unlimited, as long as
+      the target is on the same plane as the caster.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Casting Compendium
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  level: 3
+  school: nec
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: >-
+      a small humanoid doll worth at least 5 gp and something from the target
+      creature (such as blood, hair, or scales) both of which the spell consumes
+    consumed: true
+    cost: 5
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886211
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!BjGCdO0OAOvIXQiZ'
+

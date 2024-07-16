@@ -1,0 +1,100 @@
+name: Slow Death (Ingested)
+type: consumable
+img: icons/magic/acid/dissolve-bone-skull.webp
+data:
+  description:
+    value: >-
+      <p><em>Poison, very rare</em></p>
+
+      <p>Applied to food or beverage. A creature that consumes this poison
+      begins to slowly die if they aren’t immune to poison. Each time that
+      creature finishes a long rest, its hit point maximum is reduced by 1. If
+      the creature’s hit point maximum hit is reduced to 0 by this effect, it
+      dies. While its hit points are less than half of its original maximum, it
+      is poisoned. This effect can be removed by effects that remove the
+      poisoned condition, and can be only be identified by magic or a DC 15
+      Wisdom (Medicine) check.</p>
+
+      <p>If a creature is cured, it regains its lost hit points after it
+      finishes a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  quantity: 1
+  weight: 0.1
+  price: 6800
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.lLdoTEQJ5bTA8eHv
+_id: vzLMwlZrTfZ6H0Kt
+_key: '!items!vzLMwlZrTfZ6H0Kt'
+

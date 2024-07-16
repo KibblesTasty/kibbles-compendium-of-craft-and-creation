@@ -1,0 +1,131 @@
+name: Terrifying Visions
+type: spell
+img: icons/magic/control/fear-fright-monster-purple-blue.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.irpiwBM5tCixyFaM
+_id: qfu2E5u8hTQfGiX3
+system:
+  description:
+    value: >-
+      <p>You instil a vision of terrifying hallucinations into the mind of a
+      target you can see. The target must make a Wisdom saving throw. On
+      failure, it takes [[/r 3d6]] psychic damage and must immediately use its
+      reaction to move to move it's movement speed directly away from you. This
+      movement does not force the creature to move into any hazard or take
+      movements that cause it to take damage (such as jumping off a cliff or
+      moving into a spell effect). On a successful save, the target takes half
+      as much damage and isn't forced to move.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell slot of 2nd level or higher, the damage increases by 1d6 for
+      each slot level above 1st.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  level: 1
+  school: ill
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886537
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!qfu2E5u8hTQfGiX3'
+

@@ -1,0 +1,90 @@
+name: 'Upgrade: Pressure Points'
+type: feat
+img: icons/skills/targeting/target-strike-triple-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 49400000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.L20xb38hiXLVQUw7
+_id: p9CD8f1CQhSRkomt
+system:
+  description:
+    value: "<p><em>\_(Prerequisite: Perfection of Mind)</em></p>\n<p>Your extensive knowledge of anatomy allows you to target critical spots. When you deal damage to a target with a melee weapon, as a bonus action you can force them to roll a Constitution saving throw against your spell save DC.</p>\n<p>If they fail, they suffer the effects of the slow spell until the end of your next turn. If you hit them again while they are under the effect of this feature, they become restrained until the end of your next turn. If the creature is already restrained they become stunned until the end of your next turn. If they are already stunned they become paralyzed until the end of your next turn.</p>\n<p>If the target becomes paralyzed from these attacks or passes a Constitution saving throw against it, they become immune to this ability for 24 hours.</p>"
+    chat: ''
+    unidentified: ''
+  source: Fleshsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fleshsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!p9CD8f1CQhSRkomt'
+

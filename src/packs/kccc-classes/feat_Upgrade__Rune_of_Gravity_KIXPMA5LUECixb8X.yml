@@ -1,0 +1,90 @@
+name: 'Upgrade: Rune of Gravity'
+type: feat
+img: icons/magic/symbols/rune-sigil-horned-white-purple.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 20400000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Ms3ojzBD9Y2jTCJr
+_id: KIXPMA5LUECixb8X
+system:
+  description:
+    value: "<p>A complex rune that manipulates the interactions of objects to change gravity. It has the following effects:</p>\n<table style=\"width:403px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary)\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Target</strong></td>\n<td style=\"text-align:center;width:268.953px\"><strong>Effect</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Weapon</strong></td>\n<td style=\"text-align:center;width:268.953px\">Marking this rune on a weapon adds or removes the heavy property. If you remove the heavy property from a melee weapon with this rune, you can also remove the two-handed property.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Armor</strong></td>\n<td style=\"text-align:center;width:268.953px\">Any time the affected creature would be moved against their will, they can use their reaction to stay where they are, as long as the movement is not falling.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Active (Empower)</strong></td>\n<td style=\"text-align:center;width:268.953px\">All creatures within 20 feet of the affected creature are dragged 5 feet toward the affected creature.</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: Runesmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Runesmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!KIXPMA5LUECixb8X'
+

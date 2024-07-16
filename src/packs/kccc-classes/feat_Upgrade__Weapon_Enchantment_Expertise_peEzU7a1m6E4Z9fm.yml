@@ -1,0 +1,90 @@
+_id: peEzU7a1m6E4Z9fm
+name: 'Upgrade: Weapon Enchantment Expertise'
+type: feat
+img: icons/weapons/swords/sword-flanged-lightning.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 50500000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.9FQUCTiuD4K429Am
+system:
+  description:
+    value: "<p>When you cast @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.Kp0HrTkC2BnT6Dzc]{Arcane Weapon}, magic weapon, or @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.0J6UPqVYUHlPMEGU]{Vorpal Weapon}, the targeted weapon deals an extra 1d4 force damage, and when you cast @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.PLqHs0hYFOYSFXT8]{Prismatic Weapon}, the extra damage it deals increases by 1d4.</p>\n<p>Additionally, you have advantage on Constitution saving throws made to maintain concentration on @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.Kp0HrTkC2BnT6Dzc]{Arcane Weapon}, @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.PLqHs0hYFOYSFXT8]{Prismatic Weapon}, magic weapon, and @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.0J6UPqVYUHlPMEGU]{Vorpal Weapon}.\_</p>"
+    chat: ''
+    unidentified: ''
+  source: Infusionsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Infusionsmith 5
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!peEzU7a1m6E4Z9fm'
+

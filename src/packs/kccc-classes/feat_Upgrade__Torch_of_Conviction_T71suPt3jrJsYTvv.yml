@@ -1,0 +1,97 @@
+name: 'Upgrade: Torch of Conviction'
+type: feat
+img: icons/sundries/lights/torch-brown-lit.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 29600000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.l6iFJA1azOHyrcK7
+_id: T71suPt3jrJsYTvv
+system:
+  description:
+    value: >-
+      <p>You empower a torch to burn with undying flame. This torch has an
+      unlimited duration, and deals [[/r 1d6]] fire damage on hit. You have
+      proficiency with this weapon and it has the light property for you. While
+      carrying this torch, in place of making an attack with it as part of the
+      attack action, you can cast
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.wXOO0TfrDF5ijnoL]{Ignite
+      Fire}.</p>
+    chat: ''
+    unidentified: ''
+  source: Relicsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Relicsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!T71suPt3jrJsYTvv'
+

@@ -1,0 +1,108 @@
+_id: Szkoo4wWoubwuliN
+name: 'Upgrade: Shock Generator'
+type: feat
+img: icons/magic/lightning/bolt-strike-hand-gray.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 29300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.rxq6EiySDcMLFgqc
+system:
+  description:
+    value: >-
+      <p>You can integrate your Shock Generator and your Grappling Hook.
+      Immediately after using your Grappling Hook to pull a creature to you or
+      to pull yourself to a creature, you can use your bonus action to cast
+      @Compendium[dnd5e.spells.XvbiNhNqXXIFisIy]{Shocking Grasp} from your Shock
+      Generator targeting that creature.</p>
+    chat: ''
+    unidentified: ''
+  source: Gadgetsmith
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 5
+    long: null
+    units: any
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: dex
+  actionType: msak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Gadgetsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!Szkoo4wWoubwuliN'
+

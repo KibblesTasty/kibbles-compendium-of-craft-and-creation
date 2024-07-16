@@ -1,0 +1,185 @@
+_id: H6z3N5do5jbGNjZI
+name: Curse Bearer
+type: feat
+img: icons/magic/unholy/strike-body-life-soul-purple.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 17800000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.RGGmpiFGEXO9fNJl
+system:
+  description:
+    value: >-
+      <p>Your soul can carry great burdens. When you are under the effect of
+      bane, you can choose to ignore the effect for a roll. Once you choose to
+      ignore the effect, you can’t do so again until the start of your next
+      turn.</p>
+
+      <p>Additionally, when you suffer the effect of any curse from one of the
+      upgrades granted by this class, you can suppress the effect, ignoring its
+      negative consequences. You can do this a number of times equal to your
+      proficiency bonus, regaining all uses on a long rest. If the curse is an
+      ongoing effect, it is suppressed until the start of your next turn.</p>
+
+      <blockquote>
+
+      <p><strong>Other Curses</strong></p>
+
+      <p>At your GM’s discretion, you may be able to use this feature to shrug
+      off the effects of other lesser curses.</p>
+
+      </blockquote>
+
+      <p>When you select this path, you learn the following spells at the
+      following levels. These spells do not count against your spells known, and
+      are Inventor spells for you.</p>
+
+      <table style="width:100%" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center;width:32.8513%"><strong>Inventor
+      Level</strong></td>
+
+      <td style="text-align:center;width:67.1487%"><strong>Spell</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:32.8513%">3rd</td>
+
+      <td
+      style="text-align:center;width:67.1487%">@Compendium[dnd5e.spells.xmDBqZhRVrtLP8h2]{Protection
+      from Evil and Good}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:32.8513%">5th</td>
+
+      <td
+      style="text-align:center;width:67.1487%">@Compendium[dnd5e.spells.JVhKeanAXZH62DrF]{Warding
+      Bond}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:32.8513%">9th</td>
+
+      <td
+      style="text-align:center;width:67.1487%">@Compendium[dnd5e.spells.j8NtLXOOJ3GAKF8I]{Protection
+      from Energy}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:32.8513%">13th</td>
+
+      <td
+      style="text-align:center;width:67.1487%">@Compendium[dnd5e.spells.VtCXMdyM6mAdIJZb]{Death
+      Ward}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:32.8513%">17th</td>
+
+      <td
+      style="text-align:center;width:67.1487%">@Compendium[dnd5e.spells.TkJ8Wtg1L7TZtspm]{Dispel
+      Evil and Good}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: Cursesmith
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 2
+    max: '@prof'
+    per: lr
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: 1
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cursesmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!H6z3N5do5jbGNjZI'
+

@@ -1,0 +1,97 @@
+_id: Jjs9nNxF1xhbBlV4
+name: 'Upgrade: Explosive Powder'
+type: feat
+img: icons/commodities/materials/bowl-powder-grey.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 19700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.JnX20GPgSMATZfCe
+system:
+  description:
+    value: >-
+      <p>You’ve managed to stabilize and refine your Explosive Reaction. You can
+      prepare a number of Explosive Reactions up to your Intelligence modifier
+      (a minimum of 1). These Explosive Reactions don’t detonate instantly, but
+      rather last for 1 minute and will only detonate when exposed to fire. A
+      creature can be affected by the damage from no more than two Explosive
+      Reactions simultaneously, but structures take the full damage of all
+      Explosive Reactions in their area.</p>
+    chat: ''
+    unidentified: ''
+  source: Potionsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Potionsmith 5
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!Jjs9nNxF1xhbBlV4'
+

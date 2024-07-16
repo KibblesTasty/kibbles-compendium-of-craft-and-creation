@@ -1,0 +1,114 @@
+name: 'Upgrade: Condemnation of Fire'
+type: feat
+img: icons/magic/fire/flame-burning-chain.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 30700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.LJIVZUPvO5MZaaRi
+_id: UmvPJ90VUVXxa1P9
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: An Ingenious Reliquary that is a weapon)</em></p>
+
+      <p>You invoke the power of your Relic weapon to attempt to purge a
+      creature. When you hit a creature with your Relic weapon you may have the
+      creature make a Strength saving throw. On a failure it becomes restrained
+      by chains of fire and set ablaze. While restrained, it takes [[/r 2d6]]
+      fire damage at the start of each of its turns. It may repeat the saving
+      throw at the end of each of its turns, ending the effect on a success.</p>
+
+      <p>Once you invoke this ability, you can’t do so again until you finish a
+      short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Relicsmith
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Relicsmith 9
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!UmvPJ90VUVXxa1P9'
+

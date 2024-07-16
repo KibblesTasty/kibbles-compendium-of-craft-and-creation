@@ -1,0 +1,105 @@
+_id: 9Qjfi2J4ScCTvhHg
+name: Enhancing Surge
+type: feat
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 9700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': Temporary Hit Points
+        '1': Bonus Damage
+      value:
+        '0': true
+        '1': true
+      altValue:
+        '0': true
+        '1': true
+  core:
+    sourceId: Item.ATQR5iDxv6X5UuXu
+system:
+  description:
+    value: "<p>You empower the body of a target creature you can see with your psionics. The target gains [[/r 1d6]] temporary hit points and the next time the target deals damage, it deals [[/r 1d6]] additional damage to one target of that damage roll. Any remaining temporary hit points from this power fade when you use it again.</p>\n<p>You can spend psi points up to your per use limit to add the following modifiers to Enhancing Surge (you can add multiple modifiers). The points must be spent when choosing the target of the power.</p>\n<p><strong>Fortifying (1+ psi points):</strong> The target gains an extra 1d6 temporary hit points for each point spent.\_</p>\n<p><strong>Resilient (3 psi points):</strong> The target gains resistance to all damage until the start of your next turn.</p>\n<p><strong>Savage (1+ psi points):</strong> The target’s next weapon attack deals 1d6 additional damage for each point spent.</p>\n<p><strong>Swift (2 psi points): </strong>The target gains an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.</p>"
+    chat: ''
+    unidentified: ''
+  source: Enhancement
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - temphp
+      - - 1d6
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Enhancement 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!9Qjfi2J4ScCTvhHg'
+

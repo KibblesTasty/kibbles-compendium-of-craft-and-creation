@@ -1,0 +1,101 @@
+name: Knockout Poison (Injury)
+type: consumable
+img: icons/magic/acid/dissolve-bone-skull.webp
+data:
+  description:
+    value: >-
+      <p><em>Poison, rare</em></p>
+
+      <p>Applied to a melee weapon or up to 5 pieces of ammunition. A creature
+      subjected to this poison must make a Constitution saving throw with a DC
+      equal to the crafter's Poison DC.</p>
+
+      <p>On failure, the target becomes poisoned for 1 hour. If the saving throw
+      fails by 5 or more, the creature is also unconscious while poisoned in
+      this way. The creature wakes up if it takes damage or if another creature
+      takes an action to shake it awake.</p>
+
+      <p>Once applied, the poison retains potency for 1 minute before drying,
+      and wears off of a weapon after that weapon has delivered the effect 5
+      times.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  quantity: 1
+  weight: 0.1
+  price: 760
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.T3MfDgLqpR4Qzd3m
+_id: 7TAGFG5Xq4NPD3YP
+_key: '!items!7TAGFG5Xq4NPD3YP'
+

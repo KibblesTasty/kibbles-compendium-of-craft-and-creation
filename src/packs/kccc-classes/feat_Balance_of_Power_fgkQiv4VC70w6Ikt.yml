@@ -1,0 +1,97 @@
+_id: fgkQiv4VC70w6Ikt
+name: Balance of Power
+type: feat
+img: icons/magic/holy/yin-yang-balance-symbol.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 40400000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.sqpbhnWCjyVFOQMW
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, when you use a psionic ability (power or spell)
+      to restore hit points or grant temporary hit points, you can add
+      equivalent hit points granted to a stored pool. The maximum value of the
+      pool is your psion level, and any points beyond the maximum are lost. The
+      next time you make a damage roll, you can expend the pool to add damage
+      equal to the stored value to one target affected by the damage roll. This
+      stored damage is lost if not spent within 1 minute.</p>
+    chat: ''
+    unidentified: ''
+  source: Transcended
+  activation:
+    type: none
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Transcended 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!fgkQiv4VC70w6Ikt'
+

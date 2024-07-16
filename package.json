@@ -1,0 +1,27 @@
+{
+  "name": "kibbles-compendium-of-craft-and-creation",
+  "version": "1.0.0",
+  "description": "The FoundryVTT module for Kibbles' Compendium of Craft and Creation, an expansion for 5e with Psionics, Crafting, and more",
+  "main": "index.mjs",
+  "scripts": {
+    "pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs",
+    "pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation.git"
+  },
+  "keywords": [
+    "fvtt",
+    "kibbles"
+  ],
+  "author": "KiblesTasty",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/issues"
+  },
+  "homepage": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation#readme",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.3"
+  }
+}

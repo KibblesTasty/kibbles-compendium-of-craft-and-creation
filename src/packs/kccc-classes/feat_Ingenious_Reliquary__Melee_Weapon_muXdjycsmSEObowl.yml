@@ -1,0 +1,95 @@
+name: 'Ingenious Reliquary: Melee Weapon'
+type: feat
+img: icons/weapons/swords/sword-gold-holy.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 47500000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.VqzoDkZHjW2mFOqa
+_id: muXdjycsmSEObowl
+system:
+  description:
+    value: >-
+      <p>You integrate your divine relic into a melee weapon. The weapon taps
+      directly into the relic’s power. If you use your Divine Relic to ignite
+      it, it adds an extra 1d6 fire damage (instead of 1d4). Setting a weapon
+      integrated with your relic ablaze can be done as part of the Attack
+      action.</p>
+    chat: ''
+    unidentified: ''
+  source: Relicsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Relicsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!muXdjycsmSEObowl'
+
