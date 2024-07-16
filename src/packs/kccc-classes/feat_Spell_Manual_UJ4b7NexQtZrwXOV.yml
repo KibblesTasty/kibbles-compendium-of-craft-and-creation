@@ -1,0 +1,110 @@
+_id: UJ4b7NexQtZrwXOV
+name: Spell Manual
+type: feat
+img: icons/skills/trades/academics-book-study-runes.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 30500000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.68ozZibUglXpH8QR
+system:
+  description:
+    value: >-
+      <p>At 3rd level, you have a Spell Manual containing two 1st-level wizard
+      spells of your choice. Your Spell Manual is a repository of any
+      non-inventor spell you know.</p>
+
+      <p>You can’t cast spells from your Spell Manual, and they don’t count
+      against your number of spells known, but whenever you would learn a new
+      inventor spell, you can select a spell from your Spell Manual instead of
+      the inventor spell list. That spell then becomes an inventor spell for
+      you, and you can cast it as normal. You can choose to scribe any inventor
+      spell you know into your Spell Manual, as if copying it from a written
+      spell.</p>
+
+      <p>Learning Spells of 1st Level and Higher. Each time you gain an inventor
+      level, you can add one wizard spell of your choice to your Spell Manual
+      for free. The chosen spell must be of a level for which you have spell
+      slots, as shown on the Inventor table.</p>
+
+      <p>On your adventures, you might find other spells that you can add to
+      your Spell Manual. For each level of the spell, the process takes 2 hours
+      and costs 50 gp.</p>
+    chat: ''
+    unidentified: ''
+  source: Infusionsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Infusionsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!UJ4b7NexQtZrwXOV'
+

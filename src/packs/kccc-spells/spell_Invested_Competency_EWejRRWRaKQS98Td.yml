@@ -1,0 +1,109 @@
+name: Invested Competency
+type: spell
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+effects: []
+folder: z5vyiu5PscQs2W9P
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.e1iakyknWcqT1Mdf
+_id: EWejRRWRaKQS98Td
+system:
+  description:
+    value: >-
+      <p>You touch a willing creature imbuing psionic competency into them.
+      Until the spell ends, they gain expertise in on skill of your choice,
+      adding double their proficiency bonus to that skill.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 5
+  school: psi
+  components:
+    vocal: false
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693856480689
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!EWejRRWRaKQS98Td'
+

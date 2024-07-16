@@ -1,0 +1,94 @@
+name: Simple Inhaled Poison (Inhaled)
+type: consumable
+img: icons/magic/acid/dissolve-bone-skull.webp
+data:
+  description:
+    value: >-
+      <p><em>Poison, common</em></p>
+
+      <p>When released, this poison fills a 10-foot radius around the source.
+      You can accurately throw a vial of it (shattering on impact) at a point up
+      to 30 feet away, or release it by other means. A creature subjected to
+      this poison must make a Constitution saving throw with a DC equal to the
+      crafter's Poison DC. On failure, they take [[/r 2d4]] Poison damage.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  quantity: 1
+  weight: 0.1
+  price: 60
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.lnT8hPgPhqLduAgD
+_id: 2GkD62mIqWkLjNnN
+_key: '!items!2GkD62mIqWkLjNnN'
+

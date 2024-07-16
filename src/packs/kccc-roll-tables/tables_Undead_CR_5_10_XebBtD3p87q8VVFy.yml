@@ -1,0 +1,105 @@
+name: Undead CR 5-10
+img: icons/magic/death/undead-skeleton-energy-green.webp
+description: >-
+  If a material is found, to successfully harvest it, you will need to roll a
+  [[/roll 1d20+@skills.arc.total # Harvesting Check]]{Intelligence (Arcana)}
+  ability check with a <b>DC of 10</b>
+results:
+  - _id: NskvS8hoPdumRnw2
+    type: 2
+    text: Common Arcane Essence
+    img: icons/commodities/materials/slime-thick-blue.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: LkEj679XBcRmkAdK
+    weight: 1
+    range:
+      - 1
+      - 30
+    drawn: false
+    flags: {}
+    rangeL: 1
+    rangeH: 30
+    _key: '!tables.results!XebBtD3p87q8VVFy.NskvS8hoPdumRnw2'
+  - _id: 52GKgI1K4bZI50fd
+    type: 0
+    text: >-
+      [[/r 1d4]]
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.9vVyV3bTBjAvktqD]{Common
+      Poisonous Reagent}
+    weight: 1
+    range:
+      - 31
+      - 60
+    drawn: false
+    flags: {}
+    img: icons/commodities/materials/bowl-powder-pink.webp
+    rangeL: 31
+    rangeH: 60
+    _key: '!tables.results!XebBtD3p87q8VVFy.52GKgI1K4bZI50fd'
+  - _id: fboU1tsUJQHykTiL
+    type: 0
+    text: >-
+      [[/r 1d4]]
+      @Compendium[world.kccc-crafting-materials.5bgfoiOWZydLskRB]{Uncommon
+      Poisonous Reagent}
+    weight: 1
+    range:
+      - 61
+      - 80
+    drawn: false
+    flags: {}
+    img: icons/commodities/biological/tail-spiked-green.webp
+    rangeL: 61
+    rangeH: 80
+    _key: '!tables.results!XebBtD3p87q8VVFy.fboU1tsUJQHykTiL'
+  - _id: PN2XCM5dScjX7CmH
+    type: 2
+    text: Uncommon Divine Essence
+    img: icons/commodities/gems/gem-faceted-cushion-teal-black.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: 4PM0Uukt9aAuvjtS
+    weight: 1
+    range:
+      - 81
+      - 90
+    drawn: false
+    flags: {}
+    rangeL: 81
+    rangeH: 90
+    _key: '!tables.results!XebBtD3p87q8VVFy.PN2XCM5dScjX7CmH'
+  - _id: LGwE79e8qu3d6VLz
+    type: 2
+    text: Uncommon Arcane Essence
+    img: icons/commodities/gems/gem-rough-ball-purple.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: 8sFuEHlAoHAjJHPA
+    weight: 1
+    range:
+      - 91
+      - 100
+    drawn: false
+    flags: {}
+    rangeL: 91
+    rangeH: 100
+    _key: '!tables.results!XebBtD3p87q8VVFy.LGwE79e8qu3d6VLz'
+formula: 1d100
+replacement: true
+displayRoll: true
+folder: qAZYGUUkTX9PyMez
+sort: 100002
+flags:
+  core:
+    sourceId: RollTable.rlyqGgLYtIWBzvKi
+_id: XebBtD3p87q8VVFy
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693870756613
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!tables!XebBtD3p87q8VVFy'
+

@@ -1,0 +1,157 @@
+name: Dispel Construct
+type: spell
+img: icons/creatures/magical/construct-stone-earth-gray.webp
+effects: []
+folder: 3C2eSjufkNJJHedg
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value:
+        - true
+      altValue:
+        - true
+      context:
+        '0': ''
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.nEoDg4tNlDYRLFHv
+_id: ZaJeBD5zcPPfd3Lj
+system:
+  description:
+    value: >-
+      <p>You can attempt to purge the magic animating a construct within range,
+      rendering it inert. The target takes [[/r 4d10]] force damage and must
+      succeed on a Constitution saving throw or become stunned for 1 minute. At
+      the end of each of its turns, the target can make another Constitution
+      saving throw. On a success, the spell ends on the target. If the target
+      has less than 50 hit points remaining when it fails, it is reduced to zero
+      hit points.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Casting Compendium
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 4d10
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 3
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886367
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!ZaJeBD5zcPPfd3Lj'
+

@@ -1,0 +1,134 @@
+_id: IrvN1Y0Jk7smMoMH
+name: Transcended Mind
+type: subclass
+img: icons/magic/symbols/circled-gem-pink.webp
+effects: []
+folder: 1FRdPSG4JXRH5ikM
+sort: 0
+flags:
+  core:
+    sourceId: Item.s503lcc33VBUVPgx
+system:
+  description:
+    value: >-
+      <h2 style="border-bottom:1px solid
+      var(--color-underline-header)">Transcended Mind</h2>
+
+      <p>A Transcended psion is most often one that has found their path to
+      psionic powers through a mental epiphany, realizing the place of their
+      mind within the multiverse and how it ties to everything else, seeing the
+      keys and levers to the world laid out before them in their mind’s eye.</p>
+
+      <p>Most often achieved either intentionally or accidentally through
+      meditation and ritual, this can sometimes even be a passed on technique to
+      reliably transcend the strictly material concerns, and explore the more
+      cognitive realm and powers within.</p>
+
+      <p>Transcended Psions tend to have the best grasp on their powers in
+      control and principle, having come to understand the greater cosmos, but
+      lack the reckless abandon some other Psions may have. Unfortunately less
+      transcendent minds frequently cannot understand the greater truths they
+      have learned and may view a Transcended Psion as a bit... peculiar.</p>
+
+      <p>1st Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.41aeBHor5pp6XhKd]{Enlightened}
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.Pj8t8lBsypO5V9mA]{State
+      of Mind}</p>
+
+      <p>3rd Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.90310pDmKTgRdaCh]{Perfected
+      Enhancement}</p>
+
+      <p>6th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.fgkQiv4VC70w6Ikt]{Balance
+      of Power}</p>
+
+      <p>10th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.jyMMcnPJRUjSwSF9]{Mental
+      Control}</p>
+
+      <p>14th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.vj41DZ1czHkonEr8]{Mind
+      Over Matter}</p>
+    chat: ''
+    unidentified: ''
+  source: Psion
+  identifier: transcended-mind
+  classIdentifier: psion
+  advancement:
+    - _id: dd1yxmlcuvi0t5vc
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.41aeBHor5pp6XhKd
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Pj8t8lBsypO5V9mA
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.yxgllLp326hAK5sL
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.LuHHhNLIFXTWPD25
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.9Qjfi2J4ScCTvhHg
+        optional: false
+      value: {}
+      level: 1
+    - _id: s7n4i9vnj5oncmcb
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.90310pDmKTgRdaCh
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: iu87yn6822jhieyy
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.fgkQiv4VC70w6Ikt
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: fnl0x9o6y8p5847m
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.jyMMcnPJRUjSwSF9
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: anf5uxapaprypcdb
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.vj41DZ1czHkonEr8
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857267298
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!IrvN1Y0Jk7smMoMH'
+

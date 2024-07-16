@@ -1,0 +1,148 @@
+_id: 2JnFK7481wDODDI9
+name: Denial
+type: feat
+img: icons/magic/perception/hand-eye-black.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 1800000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.DVdsOiibEtSz3IgJ
+system:
+  description:
+    value: >-
+      <p>You release a burst of raw psionic nullification at a creature you can
+      see within range. The creature must make a Charisma saving throw. On
+      failure, it takes [[r/ 1d4]] force damage as its existence is
+      disrupted.</p>
+
+      <p>If the target is an aberration, celestial, construct, elemental, fey,
+      fiend, undead, or a creature with the ability to cast spells or use
+      psionic powers, it takes an extra [[/r 1d4]] force damage, and becomes
+      disoriented; until the end of its next turn, it rolls a d4 and subtracts
+      the number rolled from all its attack rolls and ability checks, as well as
+      its Constitution saving throws to maintain concentration. A creature can
+      choose to fail the saving throw.</p>
+
+      <p>You can spend psi points up to your per use limit to add the following
+      modifiers to Denial modifying its functionality (you can add multiple
+      modifiers). The points must be spent when choosing the target of the
+      power.</p>
+
+      <p><strong>Aura of (3 psi points):</strong> Instead of targeting a
+      creature, the power becomes an effect around you with a radius of 20 feet
+      until the start of your next turn; any creature of your choice that enters
+      or starts its turn in the area of effect must make a saving throw against
+      the power.</p>
+
+      <p><strong>Existential (1+ psi points):</strong> You deal an additional
+      1d4 initial and bonus (if applicable) force damage to the target creature
+      on a failed save.</p>
+
+      <p><strong>Firm (2 psi points): </strong>The target creature has
+      disadvantage on the saving throw against this ability.</p>
+
+      <p><strong>Lingering (1+ psi points):</strong> You can apply the effect of
+      Disruptive Touch to an affected creature.</p>
+
+      <p><strong>Supernatural (1+ psi points):</strong> A supernatural effect of
+      or on the creature is ended; if the effect is a magical or psionic power,
+      it is only ended if the psi points spent on this modifier equals or
+      exceeds the spell level or psi points spent on the effect.</p>
+
+      <p>If the property is an innate property of a creature (either of the
+      target creature, or affecting the target of this power), it is only ended
+      if the psi points exceed the CR (or class levels) of the target creature,
+      and they return at the end of that creature’s next turn. The supernatural
+      effect can’t be its existence, unless it has less than 10 hit points and
+      it would otherwise qualify.</p>
+    chat: ''
+    unidentified: ''
+  source: Nullification
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Nullification 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!2JnFK7481wDODDI9'
+

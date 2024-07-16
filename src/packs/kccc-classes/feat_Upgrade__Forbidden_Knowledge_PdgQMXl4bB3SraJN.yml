@@ -1,0 +1,155 @@
+name: 'Upgrade: Forbidden Knowledge'
+type: feat
+img: icons/sundries/books/book-worn-purple.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 26300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.VRrHuTgE0dwbJSPd
+_id: PdgQMXl4bB3SraJN
+system:
+  description:
+    value: >-
+      <p>You delve into the arcane mechanics of how bodies work. Otherwise known
+      as necromancy. You learn additional spells as shown on the table
+      below:</p>
+
+      <table style="width:100%" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center;width:37.3431%"><strong>Inventor
+      Level</strong></td>
+
+      <td style="text-align:center;width:62.6569%"><strong>Spells
+      Learned</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:37.3431%">3rd</td>
+
+      <td
+      style="text-align:center;width:62.6569%">@Compendium[dnd5e.spells.ksaaTxIbKx2sJfia]{Inflict
+      Wounds}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:37.3431%">5th</td>
+
+      <td
+      style="text-align:center;width:62.6569%">@Compendium[dnd5e.spells.zwGsAv6kmwzYGhh3]{Blindness/Deafness}@Compendium[dnd5e.spells.n4JDcFKe5ikzYmAc]{Gentle
+      Repose}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:37.3431%">9th</td>
+
+      <td
+      style="text-align:center;width:62.6569%">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.8HgZEXkHBz2hcDkv]{Invest
+      Life}@Compendium[dnd5e.spells.UfHQhA54M4323gVO]{Vampiric Touch}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:37.3431%">13th</td>
+
+      <td
+      style="text-align:center;width:62.6569%">@Compendium[dnd5e.spells.pybg5MNc3lkerH4Y]{Blight}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>You can cast inflict wounds without expending a spell slot, after which
+      you must finish a long rest before you can cast it without expending a
+      spell slot again. Starting at 5th level, you can choose to cast
+      blindness/deafness without expending a spell slot instead.</p>
+    chat: ''
+    unidentified: ''
+  source: Fleshsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fleshsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!PdgQMXl4bB3SraJN'
+

@@ -1,0 +1,84 @@
+name: Path of the Raging Mind
+type: subclass
+img: icons/skills/melee/sword-damaged-broken-purple.webp
+data:
+  description:
+    value: "<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Path of the Exosuit</h2>\n<p>A truly unique Path, this is often defined by its exact nature, but such a nature varies widely. Perhaps it is a lost piece of technology, such as long dead Warsmith’s cast off armor that has developed strange properties, or perhaps it is an alien symbiote of some kind, with its own goal or objective (perhaps as simple as harmlessly feeding off your rage or your foes).\_</p>\n<p>You can select one of the options from the table below or work with your GM to make an entirely new concept. It can be biological or mechanical in nature, or could even be part of your race or origin. Perhaps it is something you find or something you make, but whatever its origin, it grants you terrifying capabilities on the battlefield.</p>\n<p><strong>Example Exosuit Table</strong></p>\n<table style=\"width:568px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary)\" border=\"1\">\n<tbody>\n<tr style=\"text-align:center\">\n<td><strong>[[/r d6]]</strong></td>\n<td><strong>Suit Description</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\">A complex machine that expands from a small metal ball.</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">2</td>\n<td style=\"text-align:center\">A strange symbiote that envelops you, stored in your blood.</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">3</td>\n<td style=\"text-align:center\">A crystalline suit that phases into existence from a gem-like pendant.</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">4</td>\n<td style=\"text-align:center\">A set of mystical runes that cover your body.</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">5</td>\n<td style=\"text-align:center\">A mechanical suit of armor that becomes integrated into your body</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">6</td>\n<td style=\"text-align:center\">A sentient set of armor that walks around, equipping itself to you in combat.</td>\n</tr>\n</tbody>\n</table>\n<p>3rd: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.MCWMsupyY26mLQtl]{Telekinetic Fury}</p>\n<p>3rd: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.LqQd3Su5nUFd6NiF]{Distant Grasp}</p>\n<p>6th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.HWCuxDLIvMA0uqf6]{Forceful Mind}</p>\n<p>6th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.KlsR02GZtr1RLlKc]{Interference Field}</p>\n<p>10th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.vr06Nj711inFEWpm]{Collateral Damage}</p>\n<p>14th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.AI4M9nxCSuKiIe9b]{Fling Foes}</p>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  identifier: path-of-the-raging-mind
+  classIdentifier: barbarian
+  advancement:
+    - _id: ejcqmnhnvbgb69a2
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.MCWMsupyY26mLQtl
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.LqQd3Su5nUFd6NiF
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: w4a4xgfkstdf0bfj
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.HWCuxDLIvMA0uqf6
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.KlsR02GZtr1RLlKc
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: fvikedm5ffid1dr5
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.vr06Nj711inFEWpm
+        optional: false
+      value: {}
+      level: 1
+    - _id: rpzb742u4zcwjco9
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.vr06Nj711inFEWpm
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: me5psbhxzbnekxlu
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.AI4M9nxCSuKiIe9b
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core:
+    sourceId: Item.41yBUWcT4Es6NpUV
+_id: pSmqwaVqIcqHzA2O
+_key: '!items!pSmqwaVqIcqHzA2O'
+

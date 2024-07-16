@@ -1,0 +1,86 @@
+_id: 9nF4GNAlQVGpFlo4
+name: 'Channel Divinity: Invoke Betrayal'
+type: feat
+img: icons/magic/control/control-influence-puppet.webp
+data:
+  description:
+    value: >-
+      <p>Starting at 2nd level, you can use your Channel Divinity to influence
+      the mind of a target within range. When a creature within 30 feet makes an
+      attack roll, as a reaction you can force that creature to make a Wisdom
+      saving throw. On failure, you can direct the attack at another creature
+      within range.</p>
+    chat: ''
+    unidentified: ''
+  source: Mystery Cult
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  requirements: Mystery Cult 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.a7tBZP8pKjkAbiQS
+_key: '!items!9nF4GNAlQVGpFlo4'
+

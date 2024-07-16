@@ -1,0 +1,96 @@
+_id: 2PJ0KovxEgWKD4jy
+name: Unleashed Power
+type: feat
+img: icons/magic/lightning/projectile-tendrils-teal.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 2100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.MfJR8gUbW1aDgrSt
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, when rolling damage for Thundermonger or your
+      Stormforged Weapon, you can expend a spell slot to reroll a number of the
+      damage dice up to your Intelligence modifier (minimum of one) and maximize
+      a number of dice equal to the level of the spell slot expended. (You may
+      maximize the dice rerolled this way, or the dice that were not rerolled)
+      You must use the new rolls.</p>
+    chat: ''
+    unidentified: ''
+  source: Thundersmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Thundersmith 14
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!2PJ0KovxEgWKD4jy'
+

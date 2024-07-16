@@ -1,0 +1,96 @@
+name: Flicker Step
+type: feat
+img: icons/skills/movement/ball-spinning-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 25300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.jRaRifCvfzYBZulC
+_id: Oax95gWonoLUEFdk
+system:
+  description:
+    value: >-
+      <p>On your turn, you can replace your movement by teleporting 5 feet in
+      any direction to a space you can see. You can pass through creatures but
+      can’t pass through objects, buildings or terrain more than 4 inches thick.
+      This distance increases by 5 feet at 5th level (to 10 feet), at 11th level
+      (to 15 feet), and becomes equal to your speed at 17th level. This replaces
+      all movement for your turn when used.</p>
+    chat: ''
+    unidentified: ''
+  source: Transposition
+  activation:
+    type: special
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Transposition 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!Oax95gWonoLUEFdk'
+

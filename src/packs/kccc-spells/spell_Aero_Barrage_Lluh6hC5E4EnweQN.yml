@@ -1,0 +1,152 @@
+name: Aero Barrage
+type: spell
+img: icons/magic/air/air-wave-gust-blue.webp
+effects: []
+folder: wqurCGNuGvq7wcyB
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      value: null
+      type: String
+    critDamage:
+      value: ''
+      type: String
+    quickDesc:
+      value: true
+      altValue: true
+      type: Boolean
+    quickProperties:
+      value: true
+      altValue: true
+      type: Boolean
+    quickVersatile:
+      value: false
+      altValue: false
+      type: Boolean
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+      type: Boolean
+    quickFlavor:
+      value: true
+      altValue: true
+      type: Boolean
+    quickCharges:
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+      type: Boolean
+    quickAttack:
+      value: true
+      altValue: true
+      type: Boolean
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        - true
+      altValue:
+        - true
+      type: Array
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.JcoTb1knLkg96109
+_id: Lluh6hC5E4EnweQN
+system:
+  description:
+    value: "<p>You create four lances of rapidly spinning condensed wind and hurl them at targets within range. You can hurl them at one target or several.</p>\n<p>Make a ranged spell attack for each lance. On a hit, the target takes [[/r 2d8]] slashing damage and is knocked 10 feet backwards.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 5th level or higher, you create one additional lance for each slot level above 4th.</p>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Generic Elemental Spells
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d8
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 4
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: true
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886302
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!Lluh6hC5E4EnweQN'
+

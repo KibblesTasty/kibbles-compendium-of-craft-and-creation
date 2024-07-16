@@ -1,0 +1,104 @@
+_id: YNH6Sy9cc4yR9HFj
+name: 'Upgrades: Shared Power'
+type: feat
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 34200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.NNV6wVIMjkKr7yRs
+system:
+  description:
+    value: >-
+      <p>You bind your golem’s power source to your own soul, allowing you to
+      tap its power and it to tap your power. Your golem can use its action and
+      expend one of your spell slots to cast a spell you know of the slot’s
+      level or lower.</p>
+
+      <p>In addition, you can use your action to cause your golem to lose a
+      number of hit points up to twice your inventor level, granting you a
+      number of temporary hit points equal to that amount.</p>
+
+      <p>Finally, on your turn, you can forgo your action to grant your golem an
+      additional action, or you can command your golem to forgo its action,
+      granting yourself an additional action. That action can only be used to
+      take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an
+      Object action.</p>
+    chat: ''
+    unidentified: ''
+  source: Golemsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Golemsmith 15
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!YNH6Sy9cc4yR9HFj'
+

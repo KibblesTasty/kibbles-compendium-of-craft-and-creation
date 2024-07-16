@@ -1,0 +1,95 @@
+name: Telekinetic Fury
+type: feat
+img: icons/weapons/swords/sword-broad-crystal-paired.webp
+data:
+  description:
+    value: >-
+      <p>Starting when you choose this path at 3rd level, when you enter a rage,
+      you can telekinetically project your rage onto the world around you. All
+      melee weapons gain a thrown 30/60 property for you. This range is reduced
+      to 15/45 if the weapon has the heavy property and increased to 60/120 if
+      the weapon has the light property.</p>
+
+      <p>You can apply your Rage bonus damage to damage rolls made by thrown
+      weapons, and can gain advantage from Reckless Attack on attacks made with
+      thrown weapons.</p>
+
+      <p>At the start of your turn while you are raging, you can call a number
+      of weapons or Tiny objects equal to your proficiency bonus within 60 feet
+      to you, as long as they are not being worn or carried. You call these to
+      your hands or to telekinetically orbit around you until the end of your
+      turn (after which they fall to the ground). Weapons telekinetically
+      orbiting you can only be used when throwing that weapon. At the end of
+      your turn (or if your rage ends) all orbiting weapons drop to the ground
+      around you.</p>
+    chat: ''
+    unidentified: ''
+  source: Raging Mind
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Raging Mind 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.9NIupJzWmcMfRBeV
+_id: MCWMsupyY26mLQtl
+_key: '!items!MCWMsupyY26mLQtl'
+

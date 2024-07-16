@@ -1,0 +1,156 @@
+name: Binding Curse
+type: spell
+img: icons/magic/light/beam-deflect-path-yellow.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.ZMAfz6HVID3NQNQT
+_id: zNJ43Ho1je7dKswZ
+system:
+  description:
+    value: >-
+      <p>You bind a creature to a point within 5 feet of it, causing a glowing
+      chains of light to connect it to that point. For the duration of the
+      spell, if the creature attempts to move away from that point, the must
+      make a Wisdom saving throw, or be unable to move more than 5 feet away
+      from from that point until the start of their next turn.</p>
+
+      <p>If a creature starts its turn more than 10 feet from the binding point,
+      they must make a Strength saving throw or be dragged 5 feet toward the
+      binding point.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Casting Compendium
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  level: 1
+  school: enc
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: >-
+      something from the target creature (such as blood, hair, or scales) which
+      the spell consumes
+    consumed: true
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886550
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!zNJ43Ho1je7dKswZ'
+

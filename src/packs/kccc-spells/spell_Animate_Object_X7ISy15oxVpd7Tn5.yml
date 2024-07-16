@@ -1,0 +1,178 @@
+name: Animate Object
+type: spell
+img: icons/weapons/swords/sword-broad-serrated-blue.webp
+effects: []
+folder: O6hZgRZFkj4UG3IA
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value:
+        - true
+      altValue:
+        - true
+      context:
+        '0': ''
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.CTAMDVwf0gjibAir
+_id: X7ISy15oxVpd7Tn5
+system:
+  description:
+    value: >-
+      <p>You bring a Tiny object to life. Its Constitution is 10 and its
+      Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30
+      feet; if the object lacks legs or other appendages it can use for
+      locomotion, it instead has a flying speed of 30 feet and can hover. The
+      object has the following stats: HP: 20, AC: 18, Str: 4, Dex: 18. The
+      object has an attack modifier equal to your spell attack modifier. If the
+      object is not a weapon, it deals 1d4 + your Spellcasting modifier damage
+      on hit. Select from bludgeoning, piercing, or slashing damage based on the
+      nature of the item. If the object is a weapon, it deals the weapon's
+      damage dice + your Spellcasting modifier of the weapon's damage type. The
+      spell can only animate one-handed weapons without the special modifier
+      this way.</p>
+
+      <p>As a bonus action, you can mentally command the animated object as long
+      as it is within 60 feet of you. You decide what action the creature will
+      take and where it will move during its next turn, or you can issue a
+      general command, such as to guard a particular chamber or corridor. If you
+      issue no commands, the creature only defends itself against hostile
+      creatures. Once given an order, the creature continues to follow it until
+      its task is complete.</p>
+
+      <p>If the object is securely attached to a surface or a larger object,
+      such as a chain bolted to a wall, its speed is 0. It has blindsight with a
+      radius of 30 feet and is blind beyond that distance. When the animated
+      object drops to 0 hit points, it reverts to its original object form, and
+      any remaining damage carries over to its original object form.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Casting Compendium
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: msak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 +@mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 2
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886359
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!X7ISy15oxVpd7Tn5'
+

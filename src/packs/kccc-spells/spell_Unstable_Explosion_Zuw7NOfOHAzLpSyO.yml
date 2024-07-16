@@ -1,0 +1,133 @@
+name: Unstable Explosion
+type: spell
+img: icons/magic/fire/explosion-mushroom-nuke-yellow.webp
+effects: []
+folder: O6hZgRZFkj4UG3IA
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.T2XhGJKFBo9sUArh
+_id: Zuw7NOfOHAzLpSyO
+system:
+  description:
+    value: >-
+      <p>You cause an unstable explosion to erupt at a point of your choice
+      within range, rolling [[/r 3d6]]. For each die that rolls a 6, roll an
+      additional d6 and the radius of the spell expands by 5 feet. Each creature
+      within the final range of the spell must make a Dexterity saving throw. On
+      a failed save, they take fire damage equal to the total value of the
+      rolled dice. On a success the target, the target takes half as much fire
+      damage.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell slot of 3rd level or higher, the damage increases by [[/r
+      1d6]] for each slot level above 2nd.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  level: 2
+  school: evo
+  components:
+    vocal: false
+    somatic: false
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886370
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!Zuw7NOfOHAzLpSyO'
+

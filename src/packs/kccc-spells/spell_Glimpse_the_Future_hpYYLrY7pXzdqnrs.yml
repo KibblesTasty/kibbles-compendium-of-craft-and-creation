@@ -1,0 +1,182 @@
+name: Glimpse the Future
+type: spell
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+effects: []
+folder: O6hZgRZFkj4UG3IA
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: Glimpsed Future Option
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.AHhpDNzHZbmSejea
+_id: hpYYLrY7pXzdqnrs
+system:
+  description:
+    value: >-
+      <p>You give a creature within range a glimpse of their future. Roll a d4
+      to determine outcome:</p>
+
+      <table style="width:100%" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="width:10.9292%;text-align:center"><strong>d4</strong></td>
+
+      <td style="width:89.0708%;text-align:center"><strong>Effect</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width:10.9292%;text-align:center">1</td>
+
+      <td style="width:89.0708%;text-align:center">The target foresees an action
+      to come. Roll a d20 and record the value. Until the duration of the spell
+      ends, they can replace one of their d20 rolls with the value rolled.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width:10.9292%;text-align:center">2</td>
+
+      <td style="width:89.0708%;text-align:center">The target sees their own
+      death. If they are reduced to zero hit points by an attack or failing a
+      save throw during the duration, they instead evade the attack or pass the
+      saving throw if they are not otherwise incapacitated prior to being
+      reduced to zero.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width:10.9292%;text-align:center">3</td>
+
+      <td style="width:89.0708%;text-align:center">They see a future victory,
+      growing confident. They gain 10 temporary hit points and are immune to the
+      frightened condition for the duration of the spell.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="width:10.9292%;text-align:center">4</td>
+
+      <td style="width:89.0708%;text-align:center">The target sees an ambush or
+      surprise, the first time they would be surprised they are not, or the
+      first time an attack would be made against them with advantage, it is
+      instead made with disadvantage.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>Once any of the events foreseen occur, the spell ends.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When cast using 3 or more
+      psi points, you can select the effect instead of rolling a d4.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 10
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - ''
+        - ''
+    versatile: ''
+  formula: 1d4
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 2
+  school: psi
+  components:
+    vocal: false
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693856459354
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!hpYYLrY7pXzdqnrs'
+

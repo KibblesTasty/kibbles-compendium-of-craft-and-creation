@@ -1,0 +1,120 @@
+name: Divine Relic
+type: feat
+img: icons/commodities/treasure/token-gold-cross.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 2200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.7cvWcccJ9wQpCRad
+_id: 2UA0GGsz5tgepPzz
+system:
+  description:
+    value: >-
+      <p>At 1st level, you unlock the secrets of the sacred, creating a relic
+      that channels divine power. This relic counts as spellcasting focus for
+      you. It takes the shape of a small item, such as a pendant, amulet, or
+      device. While you possess your relic, you can use it to focus your powers,
+      gaining the following abilities:</p>
+
+      <ul>
+
+      <li>You can cast the @Compendium[dnd5e.spells.Bnn9Nzajixvow9xi]{Light}
+      cantrip.</li>
+
+      <li>You can cast the @Compendium[dnd5e.spells.n9pJzTDsAwQxJVRl]{Sacred
+      Flame} cantrip.</li>
+
+      <li>You can set a weapon ablaze. As a bonus action, you can touch a weapon
+      causing it to burst into holy fire. Attacks with the weapon deal an extra
+      [[/r 1d4]] fire damage on hit for 1 minute or until you use this ability
+      again.</li>
+
+      </ul>
+    chat: ''
+    unidentified: ''
+  source: Relicsmith
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Relicsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!2UA0GGsz5tgepPzz'
+

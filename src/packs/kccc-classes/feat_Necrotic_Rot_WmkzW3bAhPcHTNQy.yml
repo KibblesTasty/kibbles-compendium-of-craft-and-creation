@@ -1,0 +1,96 @@
+name: Necrotic Rot
+type: feat
+img: icons/skills/wounds/illness-disease-glowing-green.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 32700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.qfXfvCVFcfZmE8IB
+_id: WmkzW3bAhPcHTNQy
+system:
+  description:
+    value: >-
+      <p>The weapon is enshrouded in dark energy. Each time you hit a creature
+      with it, it inflicts a stack of necrotic rot on the creature. At the end
+      of that creature’s turn it takes 1d4 damage per stack of necrotic rot on
+      it and makes a Constitution saving throw against your spell save DC. On a
+      success, all stacks are removed. You can have a maximum number of stacks
+      on a creature equal to your proficiency modifier.</p>
+    chat: ''
+    unidentified: ''
+  source: Cursesmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cursesmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!WmkzW3bAhPcHTNQy'
+

@@ -1,0 +1,84 @@
+name: Grapple Shot
+type: feat
+img: icons/commodities/tech/claw-mechanical.webp
+data:
+  description:
+    value: >-
+      <p>Additionally at 11th level, you gain the ability to fire special shots
+      with a range of 30 feet that carry a cord that immediately pulls to that
+      location. As an action or attack as part of the Attack action, you can
+      make this shot against a creature, surface, or object. This shot does no
+      damage, but on a hit, if the creature or object is Small or smaller, it is
+      immediately pulled up to 30 feet toward you. If the creature is Medium or
+      larger you are pulled 30 feet toward it.</p>
+    chat: ''
+    unidentified: ''
+  source: Specialist
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Specialist 11
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.uCIMZ37SL3jchXs3
+_id: RwFfPI3N61WoLOrD
+_key: '!items!RwFfPI3N61WoLOrD'
+

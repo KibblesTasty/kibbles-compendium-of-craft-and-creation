@@ -1,0 +1,154 @@
+name: Bond Item
+type: spell
+img: icons/tools/navigation/watch-simple-blue.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.H7TfJIzUUQufIBdh
+_id: YfbWpFbri1Dvqwbj
+system:
+  description:
+    value: >-
+      <p>You touch an item weighing no more than 100 pounds and form a link
+      between you and it. Until the spell ends, you can recall it to your hand
+      as a bonus action.</p>
+
+      <p>If another creature is holding or wearing the item when you try to
+      recall it, they make a Charisma saving throw to retain possession of the
+      item, and if they succeed, the spell fails. They make this save with
+      advantage if they have had possession of the item for more than 1
+      minute.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: 8
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: util
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  level: 1
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886362
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!YfbWpFbri1Dvqwbj'
+

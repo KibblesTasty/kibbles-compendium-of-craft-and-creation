@@ -1,0 +1,104 @@
+_id: EKbGmZvciCTCavqP
+name: 'Ingenious Reliquary: Relic Lantern'
+type: feat
+img: icons/magic/light/light-lantern-lit-white.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 15200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.Nj61tUxZr5dhswYZ
+system:
+  description:
+    value: >-
+      <p>You power a sacred lantern with the divine relic, causing it to shed a
+      brilliant pure light for 20-foot radius and an additional 20 feet of dim
+      light. As a bonus action, you can grant one creature within the light of
+      the lantern 1d4 temporary hit points.</p>
+    chat: ''
+    unidentified: ''
+  source: Relicsmith
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 40
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Relicsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!EKbGmZvciCTCavqP'
+

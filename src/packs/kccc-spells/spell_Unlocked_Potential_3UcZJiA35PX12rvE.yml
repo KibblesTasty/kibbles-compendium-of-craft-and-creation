@@ -1,0 +1,121 @@
+name: Unlocked Potential
+type: spell
+img: icons/magic/unholy/strike-body-life-soul-purple.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.FIKY5OXZVg6UMtTv
+_id: 3UcZJiA35PX12rvE
+system:
+  description:
+    value: >-
+      <p>You unlock the potential of a creature's mind, allowing it to fully
+      reach its limits. For the duration, once per turn the creature can add
+      [[/r 1d4]] to any attack roll, damage roll, or saving throw it makes. Each
+      time it adds the additional 1d4, it takes 1 psychic damage as it pushes
+      beyond its natural limitations.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: psi
+  components:
+    vocal: false
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693856652222
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!3UcZJiA35PX12rvE'
+

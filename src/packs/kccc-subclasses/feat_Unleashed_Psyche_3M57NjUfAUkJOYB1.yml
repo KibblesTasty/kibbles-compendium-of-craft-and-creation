@@ -1,0 +1,96 @@
+name: Unleashed Psyche
+type: feat
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+data:
+  description:
+    value: >-
+      <p>Starting at 14th level, you gain enough mental control to form the
+      twisted nightmares that dwell within your mind into the world. As an
+      action, targeting a point within 60 feet you spawn a malignant
+      otherworldly nightmare, taking the form of a twisted aberration of
+      terror.</p>
+
+      <p>The first time a creature other than you is within 20 feet of it during
+      their turn (including starting their turn there), they must make a Wisdom
+      saving throw. On failure they take 4d8 psychic damage and become
+      frightened of it.</p>
+
+      <p>The spawned nightmare lasts until the start of your turn, when it fades
+      away unless at least one creature has failed their saving throw against
+      its effect, in which case it persists for another round (indefinitely
+      until no creatures fail their saving throw against it, after which it
+      fades away at the start of your next turn).</p>
+
+      <p>Once you use this ability, you can’t do so until you finish a short or
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: That Which Is Beyond
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: That Which Is Beyond 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.IHbhRe2FYOD4JQ3n
+_id: 3M57NjUfAUkJOYB1
+_key: '!items!3M57NjUfAUkJOYB1'
+

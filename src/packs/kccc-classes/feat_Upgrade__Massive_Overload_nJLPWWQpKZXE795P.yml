@@ -1,0 +1,102 @@
+_id: nJLPWWQpKZXE795P
+name: 'Upgrade: Massive Overload'
+type: feat
+img: icons/magic/lightning/bolt-strike-explosion-yellow.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 47800000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.NEnSuGCwA9b4nCqu
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Storm Blast or Lightning Burst)</em></p>
+
+      <p>Before making an attack with your Stormforged Weapon, you can expend a
+      spell slot of 3rd level or higher to use Storm Blast or Lightning Burst at
+      the same time as making an attack; in this case the Storm Blast or
+      Lightning Burst is powered by the spell slot and doesn’t count as applying
+      Thundermonger for that turn. The direction of this secondary ability is
+      the same as your attack.</p>
+
+      <p>Doing this damages your Stormforged Weapon and you must spend an action
+      to repair it before you can fire again. You must have the secondary
+      ability unlocked as an upgrade to use it.</p>
+    chat: ''
+    unidentified: ''
+  source: Thundersmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Thundersmith 15
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!nJLPWWQpKZXE795P'
+

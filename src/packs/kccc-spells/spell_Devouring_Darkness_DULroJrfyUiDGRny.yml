@@ -1,0 +1,158 @@
+name: Devouring Darkness
+type: spell
+img: icons/magic/unholy/energy-smoke-pink.webp
+effects: []
+folder: z5vyiu5PscQs2W9P
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value:
+        - true
+      altValue:
+        - true
+      context:
+        '0': ''
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+      altValue:
+        use: true
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.8uvZYyv3Saz2F8Gt
+_id: DULroJrfyUiDGRny
+system:
+  description:
+    value: >-
+      <p>Dark tendrils burst out from you in all directions. Creatures of your
+      choice within must make a Constitution saving throw. On failure, they take
+      [[/r 6d8]] necrotic damage, and you can move them in a straight line to
+      within 5 feet of you if there is an empty space they can be pulled to. On
+      success, they take half as much damage and are not moved.</p>
+
+      <p>You regain hit points equal to one quarter (rounded down) of the
+      necrotic damage taken by all targets effected by the spell.</p>
+
+      <p><em><strong>At Higher Levels</strong></em>. When you cast this spell
+      using a spell slot of 6th level or higher, the damage increases by 1d8 for
+      each slot level above 5th.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Casting Compendium
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 6d8
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 5
+  school: nec
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886225
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!DULroJrfyUiDGRny'
+

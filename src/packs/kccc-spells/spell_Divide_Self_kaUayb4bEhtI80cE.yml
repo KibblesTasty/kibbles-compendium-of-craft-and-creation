@@ -1,0 +1,177 @@
+name: Divide Self
+type: spell
+img: icons/magic/unholy/strike-body-life-soul-purple.webp
+effects: []
+folder: z5vyiu5PscQs2W9P
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.OOMrf4c2Y41wyjIX
+_id: kaUayb4bEhtI80cE
+system:
+  description:
+    value: >-
+      <p>You you create an exact duplicate of yourself in an empty space you can
+      see within 30 feet of you. When you cast this spell at the start of each
+      of your turns for the duration, you can switch places with your
+      duplicate.</p>
+
+      <p>The duplicate has all of your stats, abilities, and equipment
+      (including magic items). It acts on your initiative, and has its own
+      actions, though it shares its concentration on this spell, and if either
+      of you lose concentration, the spell ends.</p>
+
+      <p>Your current hit points are divided between you and the duplicate and
+      shares all other resources and abilities with you (including limited use
+      magic items), with any usage by either you or the duplicate depleting the
+      resource for both of you.</p>
+
+      <p>Your duplicate can take any action you can take, but it can deal a
+      maximum of 15 damage on its turn (any additional damage dealt deals no
+      further damage, when dealing area of effect damage, damage is split
+      between all targets equally up to the maximum).</p>
+
+      <p>If either you or the duplicate is reduced to zero hit points, the spell
+      ends and you become the copy that was not reduced to zero hit points. When
+      the spell ends, if both you and the duplicate are still present, decide
+      which is you, and the other vanishes. Anything that was copied during the
+      spell has the copied version vanish.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell slot of 6th level or higher, the starting hit points of you
+      and the duplicate both increase by 15 (up to a maximum of you and the
+      duplicate starting with your current hit points) and the maximum damage
+      the duplicate can do during its turn increases by 10 for each slot level
+      above 5th</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Casting Compendium
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 5
+  school: ill
+  components:
+    vocal: false
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886467
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!kaUayb4bEhtI80cE'
+

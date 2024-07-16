@@ -1,0 +1,749 @@
+_id: cmWXkuuxCgurcsGj
+name: Mind Lurker
+type: npc
+img: >-
+  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/MindLurker.png
+data:
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 10
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 14
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 19
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 16
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 14
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+  attributes:
+    ac:
+      flat: null
+      calc: custom
+      formula: '14'
+    hp:
+      value: 91
+      min: 0
+      max: 91
+      temp: null
+      tempmax: 0
+      formula: 14d8 + 28
+    init:
+      value: 0
+      bonus: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 15
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 120
+      blindsight: 60
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: ''
+    spellcasting: int
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: chaotic evil
+    race: ''
+    type:
+      value: aberration
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 7
+    spellLevel: 0
+    xp:
+      value: 10
+    source: ''
+  traits:
+    size: med
+    di:
+      value:
+        - psychic
+      custom: ''
+    dr:
+      value:
+        - acid
+        - cold
+      custom: ''
+    dv:
+      value: []
+      custom: ''
+    ci:
+      value:
+        - charmed
+        - exhaustion
+        - frightened
+      custom: ''
+    languages:
+      value:
+        - deep
+      custom: Telepathy (1 mile)
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 1
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+token:
+  name: Mind Lurker
+  img: >-
+    https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/MindLurker.png
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  scale: 1
+  mirrorX: false
+  mirrorY: false
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  vision: false
+  dimSight: 0
+  brightSight: 0
+  sightAngle: 0
+  light:
+    alpha: 0.5
+    angle: 0
+    bright: 0
+    coloration: 1
+    dim: 120
+    gradual: true
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+  disposition: -1
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: ''
+  flags:
+    splatter:
+      bloodColor: ''
+  randomImg: false
+  tint: null
+  x: null
+  'y': null
+  elevation: null
+items:
+  - _id: 91srp92CjecUS9Wo
+    name: Innate Spellcasting (Psionics)
+    type: feat
+    img: icons/magic/perception/silhouette-stealth-shadow.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Innate Spellcasting (Psionics).</strong> The mind lurker’s
+          innate spellcasting ability is Intelligence (spell save DC 15). It can
+          innately cast the following spells, requiring no components:</p>
+
+          <p><strong>At will: </strong><em>frightenK(C), terrifying
+          visions<sup>K</sup></em></p>
+
+          <p><strong>3/day each: </strong><em>fear(C), fling<sup>K</sup>,
+          psychic drain<sup>K</sup></em></p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _key: '!actors.items!cmWXkuuxCgurcsGj.91srp92CjecUS9Wo'
+  - _id: RRtje0yUyoywrJ8Y
+    name: Parasitic Madness
+    type: feat
+    img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Parasitic Madness (1/Day).</strong> The mind lurker targets
+          a creature within 1 mile of it, preferring creatures with one or more
+          levels of madness. When the target falls asleep, its dreams are filled
+          with maddening nightmares, and when it wakes up, it must succeed on a
+          DC 14 Wisdom saving throw or take 7 (2d6) psychic damage and suffer a
+          new long-term madness effect.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 1
+        long: null
+        units: mi
+      uses:
+        value: 1
+        max: '1'
+        per: day
+      consume:
+        type: charges
+        target: RRtje0yUyoywrJ8Y
+        amount: 1
+      ability: int
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 2d6
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: null
+        scaling: int
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _key: '!actors.items!cmWXkuuxCgurcsGj.RRtje0yUyoywrJ8Y'
+  - _id: ojQmwF5RWmYbiyTw
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Multiattack. </strong>The mind lurker uses an innate
+          psionic ability and then uses Nightmare Pulse.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: 0
+    effects: []
+    folder: null
+    sort: -200000
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core:
+        sourceId: Item.094090din8bu19vk
+    _key: '!actors.items!cmWXkuuxCgurcsGj.ojQmwF5RWmYbiyTw'
+  - _id: lJW7cppgxxFnFBsn
+    name: Nightmare Pulse
+    type: weapon
+    img: icons/magic/control/fear-fright-shadow-monster-purple.webp
+    data:
+      description:
+        value: >-
+          <p><strong>Nightmare Pulse. </strong>One creature the mind lurker can
+          see within 60 feet of it must succeed on a DC 14 Wisdom saving throw
+          or take 13 ([[/r 3d8]]) psychic damage. A creature that fails the
+          saving throw by 5 or more is also blinded for 1 minute. A blinded
+          creature can repeat the saving throw at the end of each of its turns,
+          ending the effect on itself on a success.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: int
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 3d8
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    effects: []
+    folder: null
+    sort: 0
+    permission:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _key: '!actors.items!cmWXkuuxCgurcsGj.lJW7cppgxxFnFBsn'
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core:
+    sourceId: Actor.Kw4Q17KLqe9AlR3p
+_key: '!actors!cmWXkuuxCgurcsGj'
+

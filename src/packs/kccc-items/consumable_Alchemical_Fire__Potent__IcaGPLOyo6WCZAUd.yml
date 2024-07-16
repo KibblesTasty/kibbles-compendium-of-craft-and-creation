@@ -1,0 +1,105 @@
+name: Alchemical Fire (Potent)
+type: consumable
+img: >-
+  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%202.png
+data:
+  description:
+    value: >-
+      <p>A small flask of volatile orange liquid. It deals [[/r 3d10]] fire
+      damage when poured on an object. Can be used as a simple ranged weapon
+      with the thrown (20/60) property, dealing [[/r 3d10]] fire damage on hit.
+      You do not add your modifier to the damage roll.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  quantity: 1
+  weight: 0.1
+  price: 140
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 20
+    long: 60
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    autoDestroy: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d10
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.hKmvn7Mi6G89AVDd
+_id: IcaGPLOyo6WCZAUd
+_key: '!items!IcaGPLOyo6WCZAUd'
+

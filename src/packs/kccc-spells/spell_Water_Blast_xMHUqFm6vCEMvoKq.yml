@@ -1,0 +1,160 @@
+name: Water Blast
+type: spell
+img: icons/magic/water/beam-ice-impact.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      value: null
+      type: String
+    critDamage:
+      value: ''
+      type: String
+    quickDesc:
+      value: true
+      altValue: true
+      type: Boolean
+    quickProperties:
+      value: true
+      altValue: true
+      type: Boolean
+    quickVersatile:
+      value: false
+      altValue: false
+      type: Boolean
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+      type: Boolean
+    quickFlavor:
+      value: true
+      altValue: true
+      type: Boolean
+    quickCharges:
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+      type: Boolean
+    quickAttack:
+      value: true
+      altValue: true
+      type: Boolean
+    quickSave:
+      value: true
+      altValue: true
+      type: Boolean
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        - true
+      altValue:
+        - true
+      type: Array
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.9nulNC15dBajKHIZ
+_id: xMHUqFm6vCEMvoKq
+system:
+  description:
+    value: >-
+      <p>You conjure a ball of water before hurling it at a target. Make a
+      ranged spell attack against the target. On a hit, the target takes [[/r
+      3d6]] bludgeoning damage and if it is Large or smaller must make a
+      Strength saving throw or be knocked prone.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell lot of 2nd level or higher, the damage increases by [[/r
+      1d6]] for each level above 1st.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Generic Elemental Spells
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rsak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  level: 1
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886546
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!xMHUqFm6vCEMvoKq'
+

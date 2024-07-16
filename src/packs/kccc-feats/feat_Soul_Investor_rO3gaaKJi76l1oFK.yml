@@ -1,0 +1,148 @@
+name: Soul Investor
+type: feat
+img: icons/magic/symbols/runes-etched-steel-blade.webp
+data:
+  description:
+    value: >-
+      <p>You have the special gift to invest your soul into magic items. This
+      becomes a new way to enchant permanent magic items for you, allowing you
+      to replace an essence in a crafting check with part of your soul. When you
+      do so, you can replace one essence of a varying rarity (depending on your
+      level, as per the table below) with your soul, and gain advantage on
+      crafting checks to make that item, the item becomes attunement if it was
+      not already, and becomes attuned to you on completion. If you end your
+      attunement to the item, the item becomes mundane, losing all magical
+      properties. This item doesn’t count against your maximum number of attuned
+      items.</p>
+
+      <p>You can have one item infused this way at a time. You can replace two
+      essences of a tier of quality lower than the maximum.</p>
+
+      <table style="width:100%" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center;width:44.049%"><strong>Character
+      Level</strong></td>
+
+      <td style="text-align:center;width:55.951%"><strong>Essence
+      Rarity</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:44.049%">1-4</td>
+
+      <td style="text-align:center;width:55.951%">Common</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:44.049%">5-9</td>
+
+      <td style="text-align:center;width:55.951%">Uncommon</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:44.049%">10-14</td>
+
+      <td style="text-align:center;width:55.951%">Rare</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:44.049%">15-19</td>
+
+      <td style="text-align:center;width:55.951%">Very Rare</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:44.049%">20</td>
+
+      <td style="text-align:center;width:55.951%">Legendary</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Feat
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.d5cqCwxF6c4ulb2i
+_id: rO3gaaKJi76l1oFK
+_key: '!items!rO3gaaKJi76l1oFK'
+

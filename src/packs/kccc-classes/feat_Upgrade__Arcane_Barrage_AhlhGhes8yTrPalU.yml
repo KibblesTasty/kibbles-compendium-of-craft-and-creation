@@ -1,0 +1,102 @@
+name: 'Upgrade: Arcane Barrage'
+type: feat
+img: icons/magic/light/projectile-needles-salvo-yellow.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 10900000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.bfXsnpi2VRsLJ5Jj
+_id: AhlhGhes8yTrPalU
+system:
+  description:
+    value: >-
+      <p>Your armor collects arcane energy whenever you expend a spell slot,
+      storing a number of charges equal to the level of the spell cast. These
+      charges fade after 1 minute if you do not expend additional spell slots.
+      You can store a maximum number of charges equal to half your Inventor
+      level. You can use this upgrade to cast magic missile without expending a
+      spell slot. This expends all charges, increasing the level of the magic
+      missile spell by one for each charge spent. If you have an Ether Reactor,
+      you can expend charges from it to add additional charges, up to the
+      maximum number of charges you can have stored.</p>
+
+      <p>Once activated, it can’t be used again until you finish a short or long
+      rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Warsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warsmith 5
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!AhlhGhes8yTrPalU'
+

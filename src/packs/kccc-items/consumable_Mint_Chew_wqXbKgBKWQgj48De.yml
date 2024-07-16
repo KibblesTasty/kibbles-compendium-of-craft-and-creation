@@ -1,0 +1,97 @@
+name: Mint Chew
+type: consumable
+img: icons/consumables/vegetable/arugula-leafy-lettuce-green.webp
+data:
+  description:
+    value: >-
+      <p><em>Food (snack), uncommon</em></p>
+
+      <p>A chewy minty candy. You can pop one into your mouth as a bonus action.
+      While being chewed (for up to 10 minutes), you are energized and can
+      ignore the effects of up to 3 levels of Exhaustion for the duration, and
+      can’t be put to sleep by magical means.</p>
+
+      <p>You can only gain this benefit once per day, after which consuming
+      additional pieces of the candy has no effect until you finish a long
+      rest.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC - Cooking
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: food
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.gcobWbnLzGhFVbi9
+_id: wqXbKgBKWQgj48De
+_key: '!items!wqXbKgBKWQgj48De'
+

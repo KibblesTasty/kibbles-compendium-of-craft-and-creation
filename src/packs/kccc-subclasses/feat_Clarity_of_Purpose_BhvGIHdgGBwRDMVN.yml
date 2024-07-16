@@ -1,0 +1,100 @@
+name: Clarity of Purpose
+type: feat
+img: icons/magic/control/silhouette-hold-change-blue.webp
+data:
+  description:
+    value: >-
+      <p>At 20th level, as an action, you can fully perceive the world around
+      you for what it is, shattering the foul magics that bind and piercing the
+      veils that hide, unrelenting and focused, gaining the following benefits
+      for 1 minute:</p>
+
+      <ul>
+
+      <li>You can gain truesight with a range of 120 feet.</li>
+
+      <li>You are immune to psychic damage.</li>
+
+      <li>You have advantage on saving throws against magical or psionic
+      effects.</li>
+
+      <li>When you strike an enemy with a Divine Smite you can choose to cast
+      dispel magic on the target as a bonus action without expending a spell
+      slot. If the level of the spell slot spent on Divine Smite was higher than
+      3rd level, you cast dispel magic at the level of spell slot spent.</li>
+
+      </ul>
+
+      <p>Once you use this feature, you can’t use it again until you finish a
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Oath of Sanity
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Oath of Sanity 20
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.CvlgqhlyZsCO1qpX
+_id: BhvGIHdgGBwRDMVN
+_key: '!items!BhvGIHdgGBwRDMVN'
+

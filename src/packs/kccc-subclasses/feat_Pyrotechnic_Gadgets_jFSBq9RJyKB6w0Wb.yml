@@ -1,0 +1,100 @@
+name: Pyrotechnic Gadgets
+type: feat
+img: icons/magic/fire/explosion-fireball-large-red-orange.webp
+data:
+  description:
+    value: >-
+      <p>Additionally at 3rd level, you gain access to an important arsenal of
+      things that explode. Forgoing some subtlety for firepower, you gain the
+      following options:</p>
+
+      <p><strong>Smoke Bomb.</strong> As an action, you can use this to cast fog
+      cloud centered on yourself without expending a spell slot. It lasts a
+      number of rounds equal to your Intelligence modifier and doesn’t require
+      concentration. When you cast fog cloud in this way, you can set the radius
+      at 5, 10, 15, or 20 feet.</p>
+
+      <p><strong>Explosive Surprise.</strong> As an action you can toss
+      explosives at a point within 30 feet. Creatures within 5 feet of the
+      target point must make a Dexterity saving throw against your Gadget DC or
+      take thunder damage equal to your Sneak Attack damage. If you are hidden
+      from a creature, it makes the Dexterity saving throw with disadvantage.
+      This counts as dealing Sneak Attack damage and reveals your location if
+      you are hidden.</p>
+
+      <p><strong>Shaped Charge. </strong>As an action, you can place a charge on
+      an object, building or surface within 5 feet. At the start of your next
+      turn, the charge detonates, dealing thunder damage equal to your Sneak
+      Attack damage to the object, building or surface it was placed on, and
+      half as much damage to any creature within 5 feet of it.</p>
+    chat: ''
+    unidentified: ''
+  source: Gadgeteer
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Gadgeteer 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.LQgpqvfQfBASYKnN
+_id: jFSBq9RJyKB6w0Wb
+_key: '!items!jFSBq9RJyKB6w0Wb'
+

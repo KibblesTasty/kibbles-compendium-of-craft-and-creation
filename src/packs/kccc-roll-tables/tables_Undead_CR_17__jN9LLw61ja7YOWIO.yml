@@ -1,0 +1,106 @@
+_id: jN9LLw61ja7YOWIO
+name: Undead CR 17+
+img: icons/magic/death/undead-skeleton-energy-green.webp
+description: >-
+  If a material is found, to successfully harvest it, you will need to roll a
+  [[/roll 1d20+@skills.arc.total # Harvesting Check]]{Intelligence (Arcana)}
+  ability check with a <b>DC of 15</b>
+results:
+  - _id: 2BSYjpXeSsDCuDUR
+    type: 0
+    text: >-
+      [[/r 1d4]]
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.pQUrnlI00BpWabwY]{Rare
+      Poisonous Reagent}
+    weight: 1
+    range:
+      - 1
+      - 30
+    drawn: false
+    flags: {}
+    img: icons/consumables/plants/tearthumb-dried-halberd-leaf-brown.webp
+    rangeL: 1
+    rangeH: 30
+    collection: null
+    resultId: null
+    _key: '!tables.results!jN9LLw61ja7YOWIO.2BSYjpXeSsDCuDUR'
+  - _id: x3FuvOTZT78LXOqU
+    type: 2
+    text: Rare Arcane Essence
+    img: icons/commodities/biological/organ-heart-black.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: S1IlBZUhshluk9TA
+    weight: 1
+    range:
+      - 31
+      - 50
+    drawn: false
+    flags: {}
+    rangeL: 31
+    rangeH: 50
+    _key: '!tables.results!jN9LLw61ja7YOWIO.x3FuvOTZT78LXOqU'
+  - _id: S2l8iOwEjoG016pb
+    type: 2
+    text: Very Rare Arcane Essence
+    img: icons/commodities/gems/gem-faceted-rough-blue.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: lArgF71EYaBV5oQe
+    weight: 1
+    range:
+      - 51
+      - 89
+    drawn: false
+    flags: {}
+    rangeL: 51
+    rangeH: 89
+    _key: '!tables.results!jN9LLw61ja7YOWIO.S2l8iOwEjoG016pb'
+  - _id: UkEMAkha7yVTTwFZ
+    type: 2
+    text: Legendary Divine Essence
+    img: icons/commodities/materials/feather-yellow.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: cAB7y0BRQCR4ibSL
+    weight: 1
+    range:
+      - 90
+      - 94
+    drawn: false
+    flags: {}
+    rangeL: 90
+    rangeH: 94
+    _key: '!tables.results!jN9LLw61ja7YOWIO.UkEMAkha7yVTTwFZ'
+  - _id: yPic6dmJexU0q78J
+    type: 2
+    text: Legendary Arcane Essence
+    img: icons/magic/light/explosion-star-large-pink.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: cmqAAsT3MvGXRIhG
+    weight: 1
+    range:
+      - 95
+      - 100
+    drawn: false
+    flags: {}
+    rangeL: 95
+    rangeH: 100
+    _key: '!tables.results!jN9LLw61ja7YOWIO.yPic6dmJexU0q78J'
+formula: 1d100
+replacement: true
+displayRoll: true
+folder: qAZYGUUkTX9PyMez
+sort: 100004
+flags:
+  core:
+    sourceId: RollTable.rlyqGgLYtIWBzvKi
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693870755735
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!tables!jN9LLw61ja7YOWIO'
+

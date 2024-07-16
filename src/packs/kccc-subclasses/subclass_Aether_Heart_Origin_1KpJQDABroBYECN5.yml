@@ -1,0 +1,71 @@
+_id: 1KpJQDABroBYECN5
+name: Aether Heart Origin
+type: subclass
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+data:
+  description:
+    value: "<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Aether Heart Origin</h2>\n<p>Sorcerers of this origin are fueled by a deep connection to raw arcane energy, their soul touched by the raw stuff of the weave itself. Most of them don’t understand their connection to this power, but they can wield it with innate ease, manipulating magic by force of will alone.</p>\n<p>Sometimes this is artificial in nature—an ironwrought drawing power from their arcane heart, for example—while other times this marks an individual that was exposed to the raw essence of aether, becoming infused and intrinsically linked to it. They are characterized by an easy affinity of warping magic and ease of manipulating it in its raw and purest forms.</p>\n<h3>Aether Heart Origin Features</h3>\n<p>1st Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.vh7k1kkeFAUNBPRg]{Aether Heart Origin Spells}</p>\n<p>1st Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.lD16JtMbLJoyi04Z]{Aetherborn}</p>\n<p>6th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.OEnNJeFc0CRdBz3a]{Overcharged Metamagic}</p>\n<p>14th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.Wk3BxblkWDIReb66]{Arcane Fuel}</p>\n<p>18th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.iAUnzmiSr218hzV2]{Tap Power}</p>\n<p>\_</p>\n<h3><strong>Aether Heart Origin Quirks</strong></h3>\n<p>The following are some optional quirks for a player of this Origin.</p>\n<table style=\"width:100%;height:112px\" border=\"1\">\n<tbody>\n<tr style=\"height:16px\">\n<td style=\"width:5.98592%;height:16px;text-align:center\"><strong>[[/r 1d6]]</strong></td>\n<td style=\"width:93.1338%;height:16px;text-align:center\"><strong>Quirk</strong></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:5.98592%;height:16px;text-align:center\">1</td>\n<td style=\"width:93.1338%;height:16px;text-align:center\">Standing in a high magic area feels like a pleasant sunbathing.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:5.98592%;height:16px;text-align:center\">2</td>\n<td style=\"width:93.1338%;height:16px;text-align:center\">Your eyes turn pale and glowing for several hours after using magic.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:5.98592%;height:16px;text-align:center\">3</td>\n<td style=\"width:93.1338%;height:16px;text-align:center\">You are addicted to using magic.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:5.98592%;height:16px;text-align:center\">4</td>\n<td style=\"width:93.1338%;height:16px;text-align:center\">You have difficulty using magic when sad.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:5.98592%;height:16px;text-align:center\">5</td>\n<td style=\"width:93.1338%;height:16px;text-align:center\">You sometimes see things as they appear to the weave.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:5.98592%;height:16px;text-align:center\">6</td>\n<td style=\"width:93.1338%;height:16px;text-align:center\">You idly weave strands of magic around your hands while waiting.</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  identifier: aether-heart
+  classIdentifier: sorcerer
+  advancement:
+    - _id: wt0ne8eerneurp3z
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.vh7k1kkeFAUNBPRg
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.lD16JtMbLJoyi04Z
+        optional: false
+      value: {}
+      level: 1
+    - _id: 942vuqxqmiwhd4ij
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.OEnNJeFc0CRdBz3a
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: yguvk3ntyfyqlabi
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Wk3BxblkWDIReb66
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+    - _id: mvcvg870tklxwo6t
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.iAUnzmiSr218hzV2
+        optional: false
+      value: {}
+      level: 18
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core:
+    sourceId: Item.qYZIW2uo2iFBFwIM
+_key: '!items!1KpJQDABroBYECN5'
+

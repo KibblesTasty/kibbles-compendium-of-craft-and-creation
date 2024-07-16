@@ -1,0 +1,104 @@
+_id: QExoWuMUQYqPZiXE
+name: Disruptive Touch
+type: feat
+img: icons/magic/control/debuff-chains-shackles-movement-purple.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 27000000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ZuADeAOkgW6joJlB
+system:
+  description:
+    value: >-
+      <p>When you gain this feature, you can create an aura of interference,
+      wreathing yourself in the disruptive power that asserts reality. You can
+      end minor magical or psionic effects (such as the result of cantrips or
+      zero point psionic powers) by touching them, and have resistance to
+      illusions or magical damage from things you touch (gaining advantage on
+      the saving throw against them, if applicable).</p>
+
+      <p>If you are grappling or otherwise touching a spellcasting or psionic
+      creature, at the start of your turn you can expend 1 or more psi to
+      interfere with their abilities until the start of your next turn. In order
+      to cast a spell or use a psionic power, they must succeed on a saving
+      throw of their spellcasting or psionic ability score against your psionics
+      DC, unless they are casting a spell with a higher level or using a power
+      with more psi points than the psi points spent on this feature.</p>
+    chat: ''
+    unidentified: ''
+  source: Nullification
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Nullification 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!QExoWuMUQYqPZiXE'
+

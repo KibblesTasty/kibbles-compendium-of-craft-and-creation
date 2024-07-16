@@ -1,0 +1,99 @@
+_id: LsJc9t4G2LZeFHrS
+name: 'Upgrade: Prepared Enchantment'
+type: feat
+img: icons/magic/symbols/cross-circle-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 22100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.03kWdAQ1itZj21Ej
+system:
+  description:
+    value: >-
+      <p>You can cast a limited version of
+      @Compendium[dnd5e.spells.4smlOvpF5AQHcyg1]{Contingency}, without expending
+      a spell slot or material components, as you bestow magical enchantments
+      onto your gear. When you cast the spell in this way, it ends if you finish
+      a long rest before the contin-gent spell is triggered, and the contingent
+      spell must be a spell of 2nd level or lower.</p>
+
+      <p>Once you cast @Compendium[dnd5e.spells.4smlOvpF5AQHcyg1]{Contingency}
+      in this way, you can’t do so again until you finish a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Infusionsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Infusionsmith 9
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!LsJc9t4G2LZeFHrS'
+

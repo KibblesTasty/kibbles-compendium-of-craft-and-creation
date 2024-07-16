@@ -1,0 +1,129 @@
+name: 'Brutal Invention: Ricocheting Weapon'
+type: weapon
+img: icons/weapons/thrown/shuriken-blue.webp
+data:
+  description:
+    value: "<p><strong>Ricocheting Weapon.</strong> When this weapon is thrown you can target two creatures within 10 feet of each other, using the same attack roll and damage roll for both targets; the damage dealt is halved for targets hit after the first. This weapon returns to your hand after you make an attack with it using the Thrown property. When you create this weapon, you can choose for it to deal slashing damage instead of bludgeoning damage.</p>\n<p><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px;font-style:italic\">Hypervelocity (Ricocheting Weapon):\_</strong><span style=\"color:#191813;font-size:13px;font-style:italic\">The weapon can target creatures within20 feet of each other, and it can bounce to an additional target.</span></p>"
+    chat: ''
+    unidentified: ''
+  source: ''
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  target:
+    value: 2
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: 90
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: martialR
+  baseItem: ''
+  properties:
+    ada: false
+    amm: false
+    fin: false
+    fir: false
+    foc: false
+    hvy: false
+    lgt: false
+    lod: false
+    mgc: false
+    rch: false
+    rel: false
+    ret: false
+    sil: false
+    spc: false
+    thr: false
+    two: false
+    ver: false
+  proficient: true
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.2F6njuYGgg1If6tw
+_id: dsYfKf6Kl9rxVV3h
+_key: '!items!dsYfKf6Kl9rxVV3h'
+

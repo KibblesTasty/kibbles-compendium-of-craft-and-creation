@@ -1,0 +1,198 @@
+name: Order of Creation
+type: subclass
+img: icons/commodities/tech/cog-copper.webp
+data:
+  description:
+    value: >-
+      <h2 style="border-bottom:1px solid var(--color-underline-header)">Order of
+      Creation</h2>
+
+      <p>Wizards that belong to this order of thought seek to advance the
+      application of magic through the merging of mechanical and magical pieces.
+      They share much in common with Inventors in mind set, but delve deeper
+      into the knowledge of magic, relying more heavily on it to power their
+      mechanical inventions, and in turn creating mechanical inventions that
+      more primarily serve to further their magic.</p>
+
+      <p>They often seek to look beyond tradition and common knowledge, to seek
+      out new spells and new ways of doing things. The value of new research and
+      new technology is often more than dusty old tomes unless those dusty old
+      tomes contain secrets of those who had reached the heights they seek in
+      ages gone by.</p>
+
+      <p>2nd:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.8r8HBpLe6f89acUd]{Crafting
+      Fundamentals}</p>
+
+      <p>2nd:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.BXZ8dPL4xhSj8pjc]{Arcane
+      Automaton}</p>
+
+      <p>2nd:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.Kp78cO7nACGMSCcM]{Arcane
+      Gadget}</p>
+
+      <p>6th:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.snwAFtlvFuw2LN35]{Imbued
+      Gear}</p>
+
+      <p>6th:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.FNpVKiR9Keb1bFqB]{Reverse
+      Engineer}</p>
+
+      <p>10th :
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.6N7lE7LYN6l1ahWD]{Clever
+      Creation}</p>
+
+      <p>14th:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.QJY54eYWLXM2dB9r]{Creator’s
+      Vision}</p>
+
+      <h3><strong>Order of Creation Quirks</strong></h3>
+
+      <p>The following are some optional quirks for a player that selects Order
+      of Creation. You can optionally roll or select a quirk that suits your
+      character.</p>
+
+      <table style="width:100%" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center;width:14.9788%"><strong>[[/r
+      d6]]</strong></td>
+
+      <td style="text-align:center;width:85.0212%"><strong>Quirk</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:14.9788%">1</td>
+
+      <td style="text-align:center;width:85.0212%">You look for optimizations of
+      every day processes.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:14.9788%">2</td>
+
+      <td style="text-align:center;width:85.0212%">You are always sketching out
+      a new blueprint.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:14.9788%">3</td>
+
+      <td style="text-align:center;width:85.0212%">You can sometimes get lost in
+      the technical details of dangerous situations.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:14.9788%">4</td>
+
+      <td style="text-align:center;width:85.0212%">You like to test your
+      creations in the field. Stressful situations provide the best data.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:14.9788%">5</td>
+
+      <td style="text-align:center;width:85.0212%">Everything is a problem to be
+      solved. Logic can solve every problem.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:14.9788%">6</td>
+
+      <td style="text-align:center;width:85.0212%">You prefer to number your
+      plans. Trying to use the alphabet for your alternate plans limits
+      them.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  identifier: order-of-creation
+  classIdentifier: wizard
+  advancement:
+    - _id: 50fludl0a7poeb7y
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.8r8HBpLe6f89acUd
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.BXZ8dPL4xhSj8pjc
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Kp78cO7nACGMSCcM
+        optional: false
+      value: {}
+      level: 2
+      title: ''
+      icon: ''
+    - _id: g0diwjibx6reb78t
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.snwAFtlvFuw2LN35
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.FNpVKiR9Keb1bFqB
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: 2d1w4l9kln6cnyei
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.6N7lE7LYN6l1ahWD
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: 5fv56pg3mte2dxa2
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.QJY54eYWLXM2dB9r
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core:
+    sourceId: Item.u46PukhPRpO1SVYR
+_id: YoNk95f4YpXAlLgB
+_key: '!items!YoNk95f4YpXAlLgB'
+

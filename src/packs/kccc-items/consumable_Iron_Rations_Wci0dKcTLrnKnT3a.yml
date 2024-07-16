@@ -1,0 +1,93 @@
+name: Iron Rations
+type: consumable
+img: icons/consumables/food/berries-ration-round-red.webp
+data:
+  description:
+    value: >-
+      <p><em>Food (ration), common</em></p>
+
+      <p>Iron rations refers to field rations involving dried and perserved
+      food. A basic food ration that will keep you from starving for a day after
+      consuming them. Common side effects include a craving for real food after
+      prolonged exposure.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC - Cooking
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: food
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.tJccW8z7YrNb4m1R
+_id: Wci0dKcTLrnKnT3a
+_key: '!items!Wci0dKcTLrnKnT3a'
+

@@ -1,0 +1,90 @@
+_id: lb1mXZpz26fsOx2f
+name: Infused Armament
+type: feat
+img: icons/weapons/wands/wand-carved-stone-shard.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 45800000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.38xAPrRWhrIvVdXd
+system:
+  description:
+    value: "<p>Starting at 1st level, you can infuse a powerful armament to take into battle. At the end of a long rest, select one of the infusions below. The infusion lasts until the end of your next long rest.</p>\n<p>\_</p>\n<h2>Animated Weapon</h2>\n<p>You touch a melee weapon, causing it to spring to life. This Animated Weapon can be carried or stowed like a normal weapon, or you can ready it, causing it to float beside you. While an Animated Weapon is readied, you can make attacks with it as part the Attack action, sending it out to strike a target. All attacks made with your Animated Weapon during a turn must be made against the same target.</p>\n<p>This special attack is a melee spell attack with which you are proficient. You can make this special attack against a target out to a range of 30 feet away from you. If the weapon has the heavy or special property, this range is halved to 15 feet; and if the weapon has the light property, this range is doubled to 60 feet. On a hit, the target takes damage equal to the weapon’s damage dice + your Intelligence modifier.</p>\n<p>\_</p>\n<h2>Blasting Rod</h2>\n<p>You touch a nonmagical object—a wand-blank, stick, staff, or rod—turning it into a Blasting Rod and infusing it with the ability to cast a cantrip. Select one evocation cantrip from the wizard spell list that doesn’t require concentration. Thereafter, as an action, you can use the Blasting Rod to cast that cantrip.\_</p>\n<p>Once per turn, when you deal damage to a creature or object with your Blasting Rod, you can add your Intelligence modifier to the damage dealt to that target.</p>\n<p>\_</p>\n<h2>Infused Weapon</h2>\n<p>You touch a weapon, enchanting it. While this weapon is enchanted, you (and only you) have proficiency with it. This Infused Weapon can be wielded like a normal weapon, but it gains the following special property:</p>\n<p>You can use your Intelligence modifier, instead of Strength or Dexterity, for the weapon’s attack and damage rolls. In addition, if the weapon has a single damage die, the size of that die increases by one (to a maximum of a d12). For example, if the Infused Weapon is a dagger, its damage die increases from a d4 to a d6.</p>"
+    chat: ''
+    unidentified: ''
+  source: Infusionsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Infusionsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!lb1mXZpz26fsOx2f'
+

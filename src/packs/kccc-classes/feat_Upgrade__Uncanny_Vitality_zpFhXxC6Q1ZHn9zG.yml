@@ -1,0 +1,113 @@
+_id: zpFhXxC6Q1ZHn9zG
+name: 'Upgrade: Uncanny Vitality'
+type: feat
+img: icons/magic/life/cross-area-circle-green-white.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 61200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.733OiBX2fkbsVzt8
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, your body has such vitality that it is
+      constantly able to restore itself. While you have 1 or more hit points, at
+      the start of your turn, you can choose to expend a Hit Die and regain hit
+      points equal to the value rolled + your Constitution modifier (as normal
+      for expending a Hit Die). If you have zero hit points, you can use this
+      feature at the end of your turn.</p>
+
+      <p>Additionally, you regain Hit Dice equal to your Constitution modifier
+      on a short or long rest (in addition to normal Hit Dice recovery on a long
+      rest).</p>
+
+      <p>If you are missing any limbs at the start of a long rest, at the end of
+      the long rest the missing limbs are regenerated.</p>
+    chat: ''
+    unidentified: ''
+  source: Fleshsmith
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: con
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fleshsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!zpFhXxC6Q1ZHn9zG'
+

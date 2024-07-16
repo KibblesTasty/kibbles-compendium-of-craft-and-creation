@@ -1,0 +1,114 @@
+_id: GUzolWpYyhvrkfQg
+name: Primordial Aspect
+type: feat
+img: icons/magic/fire/elemental-fire-humanoid.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 17300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ewkp55oX9ZB4AoiP
+system:
+  description:
+    value: >-
+      <p>Additionally at 1st level, as an action or when you deal fire, cold, or
+      lightning damage (no action required), you take on an aspect of that
+      element until the end of your next turn or until you take a new primordial
+      aspect.</p>
+
+      <ul>
+
+      <li><strong>Cold:</strong> You gain an icy shell, reducing any nonmagical
+      bludgeoning, piercing or slashing damage taken by your proficiency
+      bonus.</li>
+
+      <li><strong>Fire:</strong> You gain a fiery aura. Once per turn, a
+      creature within 5 feet that hits you with a melee attack takes fire damage
+      equal to your proficiency bonus.</li>
+
+      <li><strong>Lightning:</strong> You flicker with lightning. Your walking
+      speed is increased by 5 feet for the duration.</li>
+
+      </ul>
+
+      <p>You can additionally spend 1 psi point to gain resistance to the
+      element to the start of your next turn. If you are specialized in an
+      element, you you can do this without spending a psi point for the element
+      you are specialized in.</p>
+    chat: ''
+    unidentified: ''
+  source: Elemental Mind
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Elemental Mind 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!GUzolWpYyhvrkfQg'
+

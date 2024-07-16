@@ -1,0 +1,163 @@
+name: Crashing Wave
+type: spell
+img: icons/magic/water/pseudopod-teal.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      value: null
+      type: String
+    critDamage:
+      value: ''
+      type: String
+    quickDesc:
+      value: true
+      altValue: true
+      type: Boolean
+    quickProperties:
+      value: true
+      altValue: true
+      type: Boolean
+    quickVersatile:
+      value: false
+      altValue: false
+      type: Boolean
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+      type: Boolean
+    quickFlavor:
+      value: true
+      altValue: true
+      type: Boolean
+    quickCharges:
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+      type: Boolean
+    quickTemplate:
+      value: true
+      altValue: true
+      type: Boolean
+    quickSave:
+      value: true
+      altValue: true
+      type: Boolean
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        - true
+      altValue:
+        - true
+      type: Array
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.KKbjVcbOs7p31IY2
+_id: gr7FEFNxpA0WC7kd
+system:
+  description:
+    value: >-
+      <p>A wave of water sweeps out from you. Each creature in a 15-foot cone
+      must make a Strength saving throw. On a failed save, a creature takes [[/r
+      2d6]] bludgeoning damage and is knocked 10 feet away from you. If a
+      creature is knocked into a wall, another creature, or fails by 5 or more,
+      it is additionally knocked prone. On a successful save, the creature takes
+      half as much damage and is not knocked back. If there is a source of water
+      of at least 5 cubic feet within 5 feet of you when you cast the spell, you
+      can displace that water, increasing the range of the spell to a 25 foot
+      cone.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell lot of 2nd level or higher, the damage increases by [[/r
+      1d6]] for each level above 1st.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Generic Elemental Spells
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: str
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 2d6
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  level: 1
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d8
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886409
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!gr7FEFNxpA0WC7kd'
+

@@ -1,0 +1,109 @@
+name: 'Upgrade: Force Blast'
+type: feat
+img: icons/magic/light/beam-rays-teal-purple-large.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 9600000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.MDdmHUhUlDhjjKzg
+_id: 9CItPUoosUkLA3Ya
+system:
+  description:
+    value: >-
+      <p>You upgrade your Warplate Gauntlet to deliver a special ranged attack.
+      This attack is a ranged spell attack that deals 1d8 + your Intelligence
+      modifier force damage, and has a range of 60 feet.</p>
+
+      <p>You are proficient in this weapon. When you take the attack action, you
+      can use this ranged spell attack in place of any attack made.</p>
+    chat: ''
+    unidentified: ''
+  source: Warsmith
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rsak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!9CItPUoosUkLA3Ya'
+

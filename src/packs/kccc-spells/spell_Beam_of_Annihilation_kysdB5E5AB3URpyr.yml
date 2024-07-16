@@ -1,0 +1,169 @@
+name: Beam of Annihilation
+type: spell
+img: icons/magic/fire/beam-jet-stream-trails-orange.webp
+effects: []
+folder: MIMrgazRWMZVkCuD
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value:
+        - true
+      altValue:
+        - true
+      context:
+        '0': ''
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.MqTYOIf5vbi21VBp
+_id: kysdB5E5AB3URpyr
+system:
+  description:
+    value: >-
+      <p>You unleash a beam of pure energy, selecting cold, fire, force, or
+      lightning energy when you cast this spell and blasting it outward in a
+      line that is 60 feet long and 10 feet wide that persists until the start
+      of your next turn. Any creature that starts their turn in this beam must
+      make a Dexterity saving throw. On a failed save they take [[/r 8d8]]
+      damage of the beam's energy type, or taking half as much on a successful
+      save.</p>
+
+      <p>While you are concentrating on this spell, your movement speed is zero.
+      At the start of each of your turns, you can use your action to maintain
+      the beam or redirect it, rotating it up to 90 degrees in any direction.
+      Any creature the beam passes through while rotating (if the beam passes
+      completely through them and they will not start their turn inside of it)
+      must make a Dexterity saving throw or, take [[/r 4d8]] damage of the beams
+      energy type on a failed save, and taking no damage on a successful
+      save.</p>
+
+      <p>If you do not use your action maintain or redirect it, the spell ends
+      early.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 3
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 60
+    width: 10
+    units: ft
+    type: line
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 8d8
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  level: 6
+  school: evo
+  components:
+    vocal: false
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886474
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!kysdB5E5AB3URpyr'
+

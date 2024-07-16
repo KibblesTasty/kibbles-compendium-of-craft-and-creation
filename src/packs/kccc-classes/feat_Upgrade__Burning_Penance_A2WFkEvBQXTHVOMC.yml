@@ -1,0 +1,90 @@
+name: 'Upgrade: Burning Penance'
+type: feat
+img: icons/magic/fire/flame-burning-creature-skeleton.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 10200000
+flags:
+  core:
+    sourceId: Item.SxDFbKqkGkewbesE
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+_id: A2WFkEvBQXTHVOMC
+system:
+  description:
+    value: "<p><em>(Prerequisite: Path of Penance)</em></p>\n<p>Whenever a creature rolls the [[/r d4]] from the effect of a bane spell you have afflicted on them, they take fire damage equal to the value rolled on the die.</p>\n<p>Additionally, when you deal fire damage, you gain temporary hit points equal to the fire damage dealt, to a maximum of your proficiency bonus. Once you gain temporary hit points this way, you can’t gain them again until the start of your next turn.</p>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: Relicsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Relicsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!A2WFkEvBQXTHVOMC'
+

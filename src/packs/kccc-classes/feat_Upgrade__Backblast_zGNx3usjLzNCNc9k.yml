@@ -1,0 +1,111 @@
+_id: zGNx3usjLzNCNc9k
+name: 'Upgrade: Backblast'
+type: feat
+img: icons/magic/lightning/barrier-shield-crackling-orb-pink.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 60400000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.t3x6toPpIcPYBQ37
+system:
+  description:
+    value: "<p>After dealing thunder damage on your turn, you can create a burst of thunderous sound that can be heard up to 100 feet away as a bonus action. Each creature within 5 feet, other than you, must make a Constitution saving throw or take [[/r 3d6]] thunder damage You can do this a number of times equal to your Intelligence modifier, regaining all uses after a long rest. This damage increases by 1d6 when you reach 17th level to a total of [[/r 4d6]].\_</p>"
+    chat: ''
+    unidentified: ''
+  source: Thundersmith
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 2
+    max: '2'
+    per: lr
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Thundersmith 11
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!zGNx3usjLzNCNc9k'
+

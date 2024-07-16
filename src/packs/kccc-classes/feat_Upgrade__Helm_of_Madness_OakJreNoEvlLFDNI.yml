@@ -1,0 +1,110 @@
+_id: OakJreNoEvlLFDNI
+name: 'Upgrade: Helm of Madness'
+type: feat
+img: icons/equipment/head/helm-barbute-horned-glowing.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 25200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+    quickAttack:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.cubsACtVCxUJbsKU
+system:
+  description:
+    value: >-
+      <p><em>(You can only wear 1 Helm at a time.)</em></p>
+
+      <p><em>Attunement, Cursed.</em></p>
+
+      <p>With great madness comes great power. As a bonus action, you can allow
+      the madness to take your mind. You can immediately move up to your speed
+      and make a single weapon attack. Once you use this upgrade, you can’t use
+      it again until you finish a short or long rest.</p>
+
+      <p><strong>Curse:</strong> When you activate this helm, your AC and bonus
+      to saving throws is reduced by 5 until the start of your next turn.</p>
+    chat: ''
+    unidentified: ''
+  source: Cursesmith
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: 1
+  ability: ''
+  actionType: ''
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Cursesmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!OakJreNoEvlLFDNI'
+

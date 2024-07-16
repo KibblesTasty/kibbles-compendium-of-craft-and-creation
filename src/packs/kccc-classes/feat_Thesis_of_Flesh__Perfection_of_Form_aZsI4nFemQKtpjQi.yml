@@ -1,0 +1,95 @@
+_id: aZsI4nFemQKtpjQi
+name: 'Thesis of Flesh: Perfection of Form'
+type: feat
+img: icons/creatures/claws/claw-hooked-purple.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 36400000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.mHGW7D8iSARpxmZo
+system:
+  description:
+    value: "<p>Nature had its chance to make your form, now it’s your turn to improve it. When you take this path, you gain the Fleshcrafted Mutation upgrade, and it doesn’t count against your upgrade total. Additionally, when an upgrade calls to use your spell save DC, you can instead use 8 + your Constitution modifier + your proficiency bonus.</p>\n<p>When you take the Attack action, you can use your bonus action to make a single additional attack with this upgrade. You can make this additional attack a number of times equal to your Inventor level. You regain all uses at the end of a long rest.</p>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: Fleshsmith
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '@classes.inventor.levels'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fleshsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!aZsI4nFemQKtpjQi'
+

@@ -1,0 +1,117 @@
+_id: eGnQOQRSJKpEG0rh
+name: 'Upgrade: Flamethrower Armament'
+type: feat
+img: icons/magic/fire/beam-jet-stream-trails-orange.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 39000000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.xHMMKQe4FhqZiRf0
+system:
+  description:
+    value: >-
+      <p>You install an armament to your golem, taking whatever form is most
+      appropriate, which is capable of producing powerful flames. As an action,
+      the golem can cast @Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]{Burning
+      Hands} through the armament, without expending a spell slot and requiring
+      no components. The spell save DC is equal to your spell save DC. Once the
+      golem casts the spell in this way, it can’t do so again until you finish a
+      short or long rest.</p>
+
+      <p>When you reach 5th level in this class, the spell is cast as a
+      2nd-level spell, and it increases again when you reach 11th level (as a
+      3rd-level spell) and 17th level (as a 4th-level spell).</p>
+    chat: ''
+    unidentified: ''
+  source: Golemsmith
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Golemsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!eGnQOQRSJKpEG0rh'
+

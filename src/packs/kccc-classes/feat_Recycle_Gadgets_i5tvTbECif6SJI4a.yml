@@ -1,0 +1,101 @@
+_id: i5tvTbECif6SJI4a
+name: Recycle Gadgets
+type: feat
+img: icons/commodities/tech/cog-brass.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 42700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.DzQ64CtKAfMq5Yrx
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you can disassemble your gadgets and create
+      different ones during a long rest. When you finish the rest, you can
+      replace any upgrade you have with a new one.</p>
+
+      <p>The chosen upgrade must still be one that is valid for the level at
+      which you gained the replaced upgrade. For example, at 9th level, you can
+      only have one upgrade that has a 9th-level prerequisite.</p>
+
+      <p>Additionally, if one of your gadgets is destroyed, you can use this
+      feature to recreate it over the course of a long rest, which requires
+      materials worth 20 gp.</p>
+    chat: ''
+    unidentified: ''
+  source: Gadgetsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Gadgetsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!i5tvTbECif6SJI4a'
+

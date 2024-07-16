@@ -1,0 +1,142 @@
+_id: pJufTQrfmH6WWJxb
+name: 'Stormforged Weapon: Hand Cannon'
+type: weapon
+img: icons/weapons/guns/gun-pistol-brass.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 100391
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.Qg2XaU46ZErbuuen
+system:
+  description:
+    value: >-
+      <p>Forgoing the guiding barrel, this pack uses the thundering power to
+      launch a projectile with all the force of a Cannon, though its effective
+      range is far more limited.</p>
+    chat: ''
+    unidentified: ''
+  source: Thundersmith
+  quantity: 1
+  weight: 5
+  price: 200
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: 90
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: simpleM
+  baseItem: ''
+  properties:
+    ada: false
+    amm: true
+    fin: false
+    fir: true
+    foc: false
+    hvy: false
+    lgt: true
+    lod: true
+    mgc: false
+    rch: false
+    rel: false
+    ret: false
+    sil: false
+    spc: false
+    thr: false
+    two: false
+    ver: false
+  proficient: true
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857317692
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!pJufTQrfmH6WWJxb'
+

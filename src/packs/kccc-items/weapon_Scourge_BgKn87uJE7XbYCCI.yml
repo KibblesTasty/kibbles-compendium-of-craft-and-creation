@@ -1,0 +1,133 @@
+name: Scourge
+type: weapon
+img: icons/weapons/misc/whip-red-yellow.webp
+data:
+  description:
+    value: >-
+      <p>This heavy metal-tipped whip is a martial weapon with the reach
+      property. It deals 2d4 slashing damage on a hit. Due to its unwieldy
+      nature, you have disadvantage when you use a scourge to attack a target
+      within 5 feet of you.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  quantity: 1
+  weight: 3
+  price: 40
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 10
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d4 + @mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  weaponType: martialM
+  baseItem: ''
+  properties:
+    ada: false
+    amm: false
+    fin: false
+    fir: false
+    foc: false
+    hvy: false
+    lgt: false
+    lod: false
+    mgc: false
+    rch: true
+    rel: false
+    ret: false
+    sil: false
+    spc: true
+    thr: false
+    two: false
+    ver: false
+  proficient: true
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.s6SXT9KtlSUpAU9U
+_id: BgKn87uJE7XbYCCI
+_key: '!items!BgKn87uJE7XbYCCI'
+

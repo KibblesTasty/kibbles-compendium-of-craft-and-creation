@@ -1,0 +1,159 @@
+name: Vicious Vapors
+type: spell
+img: icons/magic/unholy/projectile-smoke-tendril-green.webp
+effects: []
+folder: O6hZgRZFkj4UG3IA
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      value: null
+      type: String
+    critDamage:
+      value: ''
+      type: String
+    quickDesc:
+      value: true
+      altValue: true
+      type: Boolean
+    quickProperties:
+      value: true
+      altValue: true
+      type: Boolean
+    quickVersatile:
+      value: false
+      altValue: false
+      type: Boolean
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+      type: Boolean
+    quickFlavor:
+      value: true
+      altValue: true
+      type: Boolean
+    quickCharges:
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+      type: Boolean
+    quickTemplate:
+      value: true
+      altValue: true
+      type: Boolean
+    quickSave:
+      value: true
+      altValue: true
+      type: Boolean
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        - true
+      altValue:
+        - true
+      type: Array
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.mT18HJ9TXjgagSUf
+_id: zVljMfo391OMhXGr
+system:
+  description:
+    value: >-
+      <p>You fill the air with poisonous vapors in a cube 5 feet on each side. A
+      creature must make a Constitution saving throw when it enters the spell's
+      area for the first time on their turn or starts its turn there. On a
+      failed save, they take [[/r 1d12]] poison damage and become poisoned until
+      the end of their next turn. On a successful save, they take half as much
+      damage and do not become poisoned.</p>
+
+      <p>You can move the cloud of vapors up to 20 feet as a bonus action during
+      your turn.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Generic Elemental Spells
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 1d12
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 2
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886552
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!zVljMfo391OMhXGr'
+

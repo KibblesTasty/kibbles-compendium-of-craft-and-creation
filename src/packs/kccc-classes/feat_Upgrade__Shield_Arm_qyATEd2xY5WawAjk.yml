@@ -1,0 +1,100 @@
+name: 'Upgrade: Shield Arm'
+type: feat
+img: icons/equipment/shield/heater-steel-engraved-lance-rest.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 52200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.N9E6HYH9fy0pmLXu
+_id: qyATEd2xY5WawAjk
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Piloted Golem)</em></p>
+
+      <p>You integrate a shield into one of your armor’s arms. You have
+      proficiency with that shield, and can deploy it as a bonus action. It
+      requires the use of that arm while deployed.</p>
+
+      <p>Additionally, when you shove a Medium or smaller creature while you
+      have the shield deployed, you can shove it by slamming it with the
+      attached shield causing it to take damage equal to your Strength
+      modifier.</p>
+    chat: ''
+    unidentified: ''
+  source: Warsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warsmith Piloted Golem
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!qyATEd2xY5WawAjk'
+

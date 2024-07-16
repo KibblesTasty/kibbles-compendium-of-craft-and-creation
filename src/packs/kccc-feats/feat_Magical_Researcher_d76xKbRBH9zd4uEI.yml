@@ -1,0 +1,85 @@
+name: Magical Researcher
+type: feat
+img: icons/skills/trades/academics-merchant-scribe.webp
+data:
+  description:
+    value: >-
+      <p>You delve the secrets of magic. You can make scrolls of spells you
+      don’t know, but each crafting check takes 8 hours (this can be completed
+      incrementally). When you craft a scroll or make a magic item that
+      reproduces a spell that deals damage, you can change the damage type of
+      that spell it reproduces. Doing so raises the difficulty of crafting it by
+      +2. Additionally, you can cast a spell from a scroll even if it is not on
+      your spell list. If it is higher level than you can normally cast, you
+      have advantage on the spell casting check to cast it.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Feat
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.MkMyoDfEnc6ubpJy
+_id: d76xKbRBH9zd4uEI
+_key: '!items!d76xKbRBH9zd4uEI'
+

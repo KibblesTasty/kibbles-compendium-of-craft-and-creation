@@ -1,0 +1,128 @@
+_id: GvoZBz0DzdhC0TVz
+name: Seeing
+type: feat
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 17700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.eVXJHujOpU2bdanR
+system:
+  description:
+    value: >-
+      <p>You concentrate and peer into the stream of future possibilities,
+      gaining insight into what will happen next; you can select one of the
+      following:</p>
+
+      <p>You can grant advantage to yourself or to a creature that can see or
+      hear you on their next attack roll made before the start of your next
+      turn; if an attack that gained advantage from this feature hits, it deals
+      an extra [[/r 1d6]] damage.</p>
+
+      <p>You can grant disadvantage on the next attack roll against yourself or
+      a creature that can see or hear you before the start of your next turn; if
+      that attack hits despite the disadvantage, the damaged creature rolls [[/r
+      1d6]] and subtracts that from the damage dealt.</p>
+
+      <p>You can spend psi points up to your per use limit to add the following
+      modifiers to Seeing (you can add multiple modifiers).</p>
+
+      <p><strong>Omniscient (1 psi point):</strong> The beneficiary of your
+      Seeing is under the effect of bless and guidance until the start of your
+      next turn.</p>
+
+      <p><strong>Piercing (1+ psi points):</strong> You see through the target’s
+      defenses when granting advantage, increasing the damage of the attack
+      benefiting from advantage by 1d8 per psi point spent if it hits.</p>
+
+      <p><strong>Positioning (1+ psi points):</strong> The beneficiary of your
+      Seeing can immediately move 5 feet per psi point spent (up to their speed)
+      without provoking opportunity attacks.</p>
+
+      <p><strong>Thwarting (2 psi points):</strong> The beneficiary of your
+      Seeing has advantage on the next saving throw they make before the start
+      of your next turn.</p>
+
+      <p><strong>Withheld (0 psi points):</strong> Rather than granting
+      advantage or disadvantage on the next attack, you can grant advantage or
+      disavantage as a reaction to an attack being made until the start of your
+      next turn.</p>
+    chat: ''
+    unidentified: ''
+  source: Precogntion
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Precognition 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!GvoZBz0DzdhC0TVz'
+

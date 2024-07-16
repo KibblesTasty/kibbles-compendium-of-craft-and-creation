@@ -1,0 +1,116 @@
+name: Prismatic Weapon
+type: spell
+img: icons/weapons/swords/greatsword-evil-green.webp
+effects: []
+folder: 3C2eSjufkNJJHedg
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ujPikJmIj7qf4MWR
+_id: PLqHs0hYFOYSFXT8
+system:
+  description:
+    value: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/r 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      with a 4th- or 5th-level spell slot, the damage increases by 1d6 (to [[/r
+      2d6]]). When you use a spell slot of 6th level or higher, the damage
+      increases by 2d6 (to [[/r 3d6]]).</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 3
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886311
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!PLqHs0hYFOYSFXT8'
+

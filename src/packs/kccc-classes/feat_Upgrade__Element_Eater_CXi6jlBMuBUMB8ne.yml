@@ -1,0 +1,98 @@
+_id: CXi6jlBMuBUMB8ne
+name: 'Upgrade: Element Eater'
+type: feat
+img: icons/magic/defensive/armor-shield-barrier-steel.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 13100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.fSuY2M4AoIW4GyaV
+system:
+  description:
+    value: >-
+      <p>You create a device capable of absorbing incoming elemental damage. You
+      can activate this device as a reaction when you take acid, cold, fire,
+      lightning or thunder damage. The device grants you resistance to the
+      triggering damage type until the start of your next turn. After triggering
+      it, the first time you hit with a melee attack on your next turn, the
+      target takes an extra 1d6 elemental damage of the triggering type. Once
+      use, this gadget can’t be used again until you finish a short or long
+      rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Gadgetsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Gadgetsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!CXi6jlBMuBUMB8ne'
+

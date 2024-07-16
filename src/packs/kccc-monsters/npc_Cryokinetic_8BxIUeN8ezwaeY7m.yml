@@ -1,0 +1,2067 @@
+_id: 8BxIUeN8ezwaeY7m
+name: Cryokinetic
+type: npc
+img: >-
+  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Cyrokinetic.png
+items:
+  - _id: XANAFCo3y7ezqtpj
+    name: Innate Spellcasting (Psionics)
+    type: feat
+    img: icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    system:
+      description:
+        value: >-
+          <p><strong>Innate Spellcasting (Psionics).</strong> The cryokinetic’s
+          spellcasting ability is Constitution (spell save DC 16). It can
+          innately cast the following spells, requiring no components:</p>
+
+          <p>At will:<em> arctic breath<sup>K</sup>, entomb<sup>K</sup></em></p>
+
+          <p>2/day each: <em>flash freezeK, freezing shell<sup>K</sup>, ice
+          spike<sup>K</sup>, ice storm, sleet storm</em></p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.XANAFCo3y7ezqtpj'
+  - _id: 0MyOOcAuhTrxPiUV
+    name: Ice Storm
+    type: spell
+    img: icons/magic/water/projectiles-ice-faceted-shard-salvo-blue.webp
+    effects: []
+    folder: null
+    sort: 100001
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.WN2LWEljYU6QqnRH
+      betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+            '1': ''
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickTemplate:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    system:
+      description:
+        value: >-
+          <p>A hail of rock-hard ice pounds to the ground in a 20-foot-radius,
+          40-foot-high Cylinder centered on a point within range. Each creature
+          in the cylinder must make a Dexterity saving throw. A creature takes
+          2d8 bludgeoning damage and 4d6 cold damage on a failed save, or half
+          as much damage on a successful one.</p><p>Hailstones turn the storm's
+          area of effect into difficult terrain until the end of your next
+          turn.</p><p><strong>At Higher Levels.</strong> When you cast this
+          spell using a spell slot of 5th level or higher, the bludgeoning
+          damage increases by 1d8 for each slot level above 4th.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 252
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 20
+        width: null
+        units: ft
+        type: cylinder
+      range:
+        value: 300
+        long: 0
+        units: ft
+      uses:
+        value: 2
+        max: '2'
+        per: day
+        recovery: ''
+      consume:
+        type: charges
+        target: 0MyOOcAuhTrxPiUV
+        amount: 1
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 2d8
+            - bludgeoning
+          - - 4d6
+            - cold
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 0
+        scaling: spell
+      level: 4
+      school: evo
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+      materials:
+        value: A pinch of dust and a few drops of water
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d8
+      attunement: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.0MyOOcAuhTrxPiUV'
+  - _id: j7LYThzlgV68be6V
+    name: Sleet Storm
+    type: spell
+    img: icons/magic/water/projectile-beams-salvo-blue.webp
+    effects: []
+    folder: null
+    sort: 100001
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.dhqBY4TvVjxVmOZd
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickTemplate:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    system:
+      description:
+        value: >-
+          <p>Until the spell ends, freezing rain and sleet fall in a
+          20-foot-tall cylinder with a 40-foot radius centered on a point you
+          choose within range. The area is heavily obscured, and exposed flames
+          in the area are doused.</p><p>The ground in the area is covered with
+          slick ice, making it difficult terrain. When a creature enters the
+          spell's area for the first time on a turn or starts its turn there, it
+          must make a Dexterity saving throw. On a failed save, it falls
+          Prone.</p><p>If a creature is concentrating in the spell's area, the
+          creature must make a successful Constitution saving throw against your
+          spell save DC or lose concentration.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 276
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      target:
+        value: 40
+        width: null
+        units: ft
+        type: cylinder
+      range:
+        value: 150
+        long: 0
+        units: ft
+      uses:
+        value: 2
+        max: '2'
+        per: day
+        recovery: ''
+      consume:
+        type: charges
+        target: j7LYThzlgV68be6V
+        amount: 1
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+        value: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 0
+        scaling: spell
+      level: 3
+      school: con
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: true
+      materials:
+        value: A pinch of dust and a few drops of water.
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.j7LYThzlgV68be6V'
+  - _id: tNtG93tRj2opdmEG
+    name: Arctic Breath
+    type: spell
+    img: icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          value: null
+          type: String
+        critDamage:
+          value: ''
+          type: String
+        quickDesc:
+          value: true
+          altValue: true
+          type: Boolean
+        quickProperties:
+          value: true
+          altValue: true
+          type: Boolean
+        quickVersatile:
+          value: false
+          altValue: false
+          type: Boolean
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+          type: Boolean
+        quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickTemplate:
+          value: true
+          altValue: true
+          type: Boolean
+        quickSave:
+          value: true
+          altValue: true
+          type: Boolean
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+          type: Array
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.juMkjVCf9d7IirKm
+    system:
+      description:
+        value: >-
+          <p>A line of freezing arctic wind 30 feet long and 5 feet wide blasts
+          out from you in a direction you choose. Each creature in the line must
+          make a Dexterity saving throw. On a failed save, a creature takes [[/r
+          2d8]] cold damage and their movement speed is reduced by 10 feet until
+          the end of their next turn. On a successful save, a creature takes
+          half as much damage and isn't slowed.</p>
+
+          <p><em><strong>At Higher Levels.</strong></em> When you cast this
+          spell using a spell slot of 2nd level or higher, the damage increases
+          by [[/r 1d8]] for each slot level above 1st.</p>
+        chat: ''
+        unidentified: ''
+      source: Kibbles' Generic Elemental Spells
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 30
+        width: 5
+        units: ft
+        type: line
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 2d8
+            - cold
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: null
+        scaling: spell
+      level: 1
+      school: con
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d8
+      attunement: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.tNtG93tRj2opdmEG'
+  - _id: HsnSzgRoRpbVGjUq
+    name: Entomb
+    type: spell
+    img: icons/magic/water/barrier-ice-water-cube.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          value: null
+          type: String
+        critDamage:
+          value: ''
+          type: String
+        quickDesc:
+          value: true
+          altValue: true
+          type: Boolean
+        quickProperties:
+          value: true
+          altValue: true
+          type: Boolean
+        quickVersatile:
+          value: false
+          altValue: false
+          type: Boolean
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+          type: Boolean
+        quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickSave:
+          value: true
+          altValue: true
+          type: Boolean
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+          type: Array
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.PspUkLgiMGwy4MN7
+    system:
+      description:
+        value: >-
+          <p>You attempt to encase a Medium or smaller creature you can see
+          within ice. The creature must make a Strength saving throw or become
+          restrained by ice for the duration. At the end of each of its turns,
+          the target takes [[/r 1d8]] cold damage and can make another Strength
+          saving throw. On success, the spell ends on the target.</p>
+
+          <p>If the creature takes more than 5 fire or bludgeoning damage from a
+          single damage roll while restrained, the ice breaks and the target is
+          freed, ending the spell for the target.</p>
+
+          <p><em><strong>At Higher Levels. </strong></em>When you cast this
+          spell using a spell slot of 2nd level or higher, the damage increases
+          by [[/r 1d8]] for each slot level above 1st.</p>
+        chat: ''
+        unidentified: ''
+      source: Kibbles' Generic Spells
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: minute
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d8
+            - cold
+        versatile: ''
+      formula: ''
+      save:
+        ability: str
+        dc: null
+        scaling: spell
+      level: 1
+      school: trs
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: true
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d8
+      attunement: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.HsnSzgRoRpbVGjUq'
+  - _id: DgrcI4L1f6cMn7D4
+    name: Flash Freeze
+    type: spell
+    img: icons/magic/water/barrier-ice-crystal-wall-faceted-light.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          value: null
+          type: String
+        critDamage:
+          value: ''
+          type: String
+        quickDesc:
+          value: true
+          altValue: true
+          type: Boolean
+        quickProperties:
+          value: true
+          altValue: true
+          type: Boolean
+        quickVersatile:
+          value: false
+          altValue: false
+          type: Boolean
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+          type: Boolean
+        quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickSave:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickTemplate:
+          value: true
+          altValue: true
+          type: Boolean
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+          type: Array
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.sZHUY0KfTT0OabVk
+    system:
+      description:
+        value: >-
+          <p>A freezing wind ripples outward. Each creature in a 30-foot cone
+          must make a Constitution saving throw. On a failed save, a creature
+          takes [[/r 4d8]] cold damage and is restrained by ice until the start
+          of your next turn. On a successful save, the target takes half as much
+          damage and isn't restrained.</p>
+
+          <p><em><strong>At Higher Levels.</strong></em> When you cast this
+          spell using a spell slot of 4th level or higher, the damage increases
+          by [[/r 1d8]] for each slot level above 3rd.</p>
+        chat: ''
+        unidentified: ''
+      source: Kibbles' Generic Elemental Spells
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 30
+        width: null
+        units: ft
+        type: cone
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 2
+        max: '2'
+        per: day
+        recovery: ''
+      consume:
+        type: charges
+        target: DgrcI4L1f6cMn7D4
+        amount: 1
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 4d8
+            - cold
+        versatile: ''
+      formula: ''
+      save:
+        ability: con
+        dc: null
+        scaling: spell
+      level: 3
+      school: evo
+      components:
+        value: ''
+        vocal: false
+        somatic: false
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d8
+      attunement: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.DgrcI4L1f6cMn7D4'
+  - _id: FEo1qZoqP717FkeX
+    name: Freezing Shell
+    type: spell
+    img: icons/magic/water/barrier-ice-wall-explosion.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+            '1': When Hit
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+      core:
+        sourceId: Item.beZ9D2iBbiYpfZ13
+    system:
+      description:
+        value: >-
+          <p>A freezing shell shrouds you, covering you and your gear. You gain
+          5 temporary hit points for the duration. If a creature hits you with a
+          melee attack while you have these hit points, the creature takes 5
+          cold damage.</p>
+
+          <p><em><strong>At Higher Levels.</strong></em> When you cast this
+          spell using a spell slot of 2nd level or higher, both the temporary
+          hit points and the cold damage increase by 5 for each slot level above
+          1st.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: hour
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 2
+        max: '2'
+        per: day
+        recovery: ''
+      consume:
+        type: charges
+        target: FEo1qZoqP717FkeX
+        amount: 1
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - '5'
+            - temphp
+          - - '5'
+            - cold
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      school: abj
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: level
+        formula: 5d1
+      attunement: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.FEo1qZoqP717FkeX'
+  - _id: hICrRzxdWG0LDcJo
+    name: Ice Spikes
+    type: spell
+    img: icons/magic/water/barrier-ice-crystal-wall-jagged.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          value: null
+          type: String
+        critDamage:
+          value: ''
+          type: String
+        quickDesc:
+          value: true
+          altValue: true
+          type: Boolean
+        quickProperties:
+          value: true
+          altValue: true
+          type: Boolean
+        quickVersatile:
+          value: false
+          altValue: false
+          type: Boolean
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+          type: Boolean
+        quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickSave:
+          value: true
+          altValue: true
+          type: Boolean
+        quickDamage:
+          context:
+            '0': ''
+            '1': ''
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+          type: Array
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.u17brVm2byskVvQ0
+    system:
+      description:
+        value: >-
+          <p>You create a lance of ice that shoots up from the ground to impale
+          a creature within range. The target must make a Dexterity saving
+          throw. The target takes [[/r 4d8]] piercing damage and [[/r 4d8]] cold
+          damage on a failed save. The target takes only the [[/r 4d8]] cold
+          damage on a successful save.</p>
+
+          <p><em><strong>At Higher Levels.</strong> </em>When you cast this
+          spell using a spell slot of 6th or 7th level, you can create a second
+          spike. When you cast this spell using a spell slot of 8th or 9th
+          level, you can create a third spike. Additional spikes can target the
+          same or different creatures.</p>
+        chat: ''
+        unidentified: ''
+      source: Kibbles' Generic Elemental Spells
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: 2
+        max: '2'
+        per: day
+        recovery: ''
+      consume:
+        type: charges
+        target: hICrRzxdWG0LDcJo
+        amount: 1
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 4d8
+            - piercing
+          - - 4d8
+            - cold
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: null
+        scaling: spell
+      level: 4
+      school: evo
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.hICrRzxdWG0LDcJo'
+  - _id: wLtoJrR0ZZoJlDoz
+    name: Cold Detachment
+    type: feat
+    img: icons/magic/water/heart-ice-freeze.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    system:
+      description:
+        value: >-
+          <p><strong>Cold Detachment.</strong> The cryokinetic has advantage on
+          saving throws against being charmed or frightened.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.wLtoJrR0ZZoJlDoz'
+  - _id: t0F1TOJBhtSVscU9
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
+    effects: []
+    folder: null
+    sort: -200000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core:
+        sourceId: Item.094090din8bu19vk
+    system:
+      description:
+        value: >-
+          <p><strong>Multiattack. </strong>The cryokinetic makes two attacks
+          with its freezing blast or its ice sword.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: 0
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.t0F1TOJBhtSVscU9'
+  - _id: 4RI48AkYzExQkfRV
+    name: Freezing Blast
+    type: weapon
+    img: icons/magic/water/projectile-ice-chunks-salvo.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickSave:
+          value: true
+          altValue: true
+    system:
+      description:
+        value: >-
+          <p><em><strong>Freezing Blast.</strong> Ranged Spell Attack: </em>+8
+          to hit, range 60 ft., one target. <em>Hit:</em> 9 ([[/r 1d8 + 5]])
+          cold damage, and the target must succeed on a DC 16 Constitution
+          saving throw or become restrained until the start of the cryokinetic’s
+          next turn.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: round
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: int
+      actionType: rsak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d8 + @mod
+            - cold
+        versatile: ''
+      formula: ''
+      save:
+        ability: con
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.4RI48AkYzExQkfRV'
+  - _id: 0XKuuIvYOo6DLy5P
+    name: Ice Sword
+    type: weapon
+    img: icons/magic/water/strike-ice-blade-axe.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+            '1': ''
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+    system:
+      description:
+        value: >-
+          <p><em><strong>Ice Sword.</strong> Melee Spell Attack:</em> +8 to hit,
+          reach 5 ft., one target.<em> Hit:</em> 10 ([[/r 1d10 + 5]]) slashing
+          damage plus 3 ([[/r 1d6]]) cold damage.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 5
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: msak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d10 + @mod
+            - slashing
+          - - 1d6
+            - cold
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.0XKuuIvYOo6DLy5P'
+  - _id: 0LzQPRipaq0tHF9D
+    name: Ice Block
+    type: feat
+    img: icons/magic/water/orb-water-bubbles.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            charge: true
+          altValue:
+            charge: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    system:
+      description:
+        value: >-
+          <p><strong>Ice Block (Recharge 5–6).</strong> When the cryokinetic
+          takes damage it freezes itself in a block of ice, which melts away at
+          the start of its next turn. When it does so, it gains 20 temporary hit
+          points, and it becomes petrified. These effects, including any
+          remaining temporary hit points, all end when the ice melts.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: reaction
+        cost: 1
+        condition: When the cyrokinetic takes damage.
+      duration:
+        value: 1
+        units: round
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: ''
+        recovery: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: util
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - '20'
+            - temphp
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: 5
+        charged: true
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!8BxIUeN8ezwaeY7m.0LzQPRipaq0tHF9D'
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Actor.j2yscsnxLXwxdrFK
+system:
+  abilities:
+    str:
+      value: 8
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 14
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 14
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 20
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 16
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 14
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+  attributes:
+    ac:
+      flat: null
+      calc: custom
+      formula: '16'
+    hp:
+      value: 117
+      min: 0
+      max: 117
+      temp: null
+      tempmax: 0
+      formula: 18d8 + 36
+    init:
+      value: 0
+      bonus: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 30
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: ''
+    spellcasting: int
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: Lawful Neutral
+    race: ''
+    type:
+      value: humanoid
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 5
+    spellLevel: 0
+    xp:
+      value: 10
+    source: KCCC
+  traits:
+    size: med
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value: []
+      bypasses: []
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - common
+      custom: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+prototypeToken:
+  name: Cryokinetic
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+  disposition: -1
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  flags:
+    splatter:
+      bloodColor: ''
+  randomImg: false
+  texture:
+    src: >-
+      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Cyrokinetic.png
+    tint: null
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.0.3
+  coreVersion: '10.288'
+  createdTime: null
+  modifiedTime: 1667690433354
+  lastModifiedBy: ZltBRX3qCs8ZDdsL
+_key: '!actors!8BxIUeN8ezwaeY7m'
+

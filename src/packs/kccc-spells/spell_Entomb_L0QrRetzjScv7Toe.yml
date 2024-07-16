@@ -1,0 +1,163 @@
+name: Entomb
+type: spell
+img: icons/magic/water/barrier-ice-water-cube.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      value: null
+      type: String
+    critDamage:
+      value: ''
+      type: String
+    quickDesc:
+      value: true
+      altValue: true
+      type: Boolean
+    quickProperties:
+      value: true
+      altValue: true
+      type: Boolean
+    quickVersatile:
+      value: false
+      altValue: false
+      type: Boolean
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+      type: Boolean
+    quickFlavor:
+      value: true
+      altValue: true
+      type: Boolean
+    quickCharges:
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+      type: Boolean
+    quickSave:
+      value: true
+      altValue: true
+      type: Boolean
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        - true
+      altValue:
+        - true
+      type: Array
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.PspUkLgiMGwy4MN7
+_id: L0QrRetzjScv7Toe
+system:
+  description:
+    value: >-
+      <p>You attempt to encase a Medium or smaller creature you can see within
+      ice. The creature must make a Strength saving throw or become restrained
+      by ice for the duration. At the end of each of its turns, the target takes
+      [[/r 1d8]] cold damage and can make another Strength saving throw. On
+      success, the spell ends on the target.</p>
+
+      <p>If the creature takes more than 5 fire or bludgeoning damage from a
+      single damage roll while restrained, the ice breaks and the target is
+      freed, ending the spell for the target.</p>
+
+      <p><em><strong>At Higher Levels. </strong></em>When you cast this spell
+      using a spell slot of 2nd level or higher, the damage increases by [[/r
+      1d8]] for each slot level above 1st.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Generic Spells
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 1d8
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  level: 1
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: true
+  scaling:
+    mode: level
+    formula: 1d8
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886287
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!L0QrRetzjScv7Toe'
+

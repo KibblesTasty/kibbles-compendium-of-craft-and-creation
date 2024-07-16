@@ -1,0 +1,94 @@
+name: Quickening Candies
+type: consumable
+img: icons/consumables/food/salt-seasoning-spice-pink.webp
+data:
+  description:
+    value: >-
+      <p><em>Food (snack), rare</em></p>
+
+      <p>A small hard candy ball, with extreme caffineated properties. When you
+      pop one of these into your mouth as a bonus action, you are under the
+      effect of @Compendium[dnd5e.spells.Szvk5FEVQW3uhJi5]{Haste} for [[/r 1d4]]
+      rounds. You still suffer the normal effect of haste ending when the effect
+      ends.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC - Cooking
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: food
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.bmdUjnv7DID5lgDi
+_id: eCVfaoS6c61KMgL6
+_key: '!items!eCVfaoS6c61KMgL6'
+

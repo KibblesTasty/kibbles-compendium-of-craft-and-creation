@@ -1,0 +1,108 @@
+_id: dIkjQIqrfXVpW3dp
+name: Mind Leech
+type: feat
+img: icons/magic/control/fear-fright-monster-grin-purple-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 38100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': Normal
+        '1': vs. Afflicted Target
+      value:
+        '0': true
+        '1': true
+      altValue:
+        '0': true
+        '1': true
+  core:
+    sourceId: Item.ueDw4MzjudMXO8pG
+system:
+  description:
+    value: "<p>You assault the mind of a target you can see within range, rending and devouring its psionic energy. The target must succeed on a Charisma saving throw or take [[/r 1d6]] psychic damage. If the target is frightened, charmed, stunned, restrained, grappled, or paralyzed, the psychic damage becomes [[/r 1d12]] instead. On a failed save, you gain a psionic charge of consumed power until the end of your next turn. You can expend this charge when you deal damage to deal additional damage equal to your Intelligence modifier, or consume this charge at the end of your turn to gain temporary hit points equal to your Intelligence modifier. You can spend only one charge at a time.</p>\n<p>You can target the corpse of a recently perished creature with this power, as long as the target has died within the last minute and not been previously leeched by this power.</p>\n<p><strong>Devouring (2 psi points):</strong> The range of Mind Leech becomes a radius of 5 feet, centered on you.</p>\n<p><strong>Nourishing (1 psi point):</strong> On a failed saving throw, you gain an additional psionic charge.</p>\n<p><strong>Rending (1+ psi points):</strong> The target takes an additional die of damage ([[/r 1d6]] or [[/r 1d12]] as applicable if they are under the effect of a listed condition) per psi point spent on a failed save.</p>\n<p><strong>Shredding (1 psi point): </strong>You leave the target’s mind and soul shredded, reducing their next saving throw before the end of your next turn by [[/r 1d4]].</p>\n<p><strong>Stunning (3 psi points):</strong> On a failed saving throw, the target becomes stunned until the start of your next turn. If the power affects multiple targets, select one target for this effect.</p>\n<p><strong>Thieving (1 psi point): </strong>On a failed saving throw, you can draw a 5th level or lower spell the target can cast\_ from its mind (from a Spellcasting or Psionics feature). You must be aware that it can cast that spell; the target retains the ability to cast the spell, but you gain the ability to cast the spell using your Psionics feature by spending psi points equal to the level of the spell (restricted by your psi point limit; you can’t use Psionic Mastery to cast this spell).</p>"
+    chat: ''
+    unidentified: ''
+  source: Consumption
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - psychic
+      - - 1d12
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Consumption 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!dIkjQIqrfXVpW3dp'
+

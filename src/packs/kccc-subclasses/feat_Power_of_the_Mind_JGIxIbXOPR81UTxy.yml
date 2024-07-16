@@ -1,0 +1,102 @@
+name: Power of the Mind
+type: feat
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+data:
+  description:
+    value: >-
+      <p>Starting at 11th level, your psionic abilities manifest more
+      completely, giving you greater control and power in your psionic
+      abilities.</p>
+
+      <p><strong>Ethereal Sweep</strong></p>
+
+      <p>When you use Extended Blade, you can sweep or stab through multiple
+      creatures with a single blow. Once per turn, when you make an attack with
+      your Soul Blade, if you have activated Extended Blade you can make a
+      single additional weapon attack with your Soul Blade against a number of
+      creatures equal to your Wisdom modifier within range.</p>
+
+      <p><strong>Consumptive Blade</strong></p>
+
+      <p>Whenever you kill a creature with your Soul Blade that has an
+      Intelligence of 6 or higher, you can use your reaction to draw in part of
+      their psionic essence. You regain 1d4 hit points and 1 expended ki
+      point.</p>
+
+      <p><strong>Empowered Discipline</strong></p>
+
+      <p>When you use a Psionic Discipline, you can expend 1 ki point for free
+      without exhausting the ki point on empowering the psionic power granted by
+      the Discipline, even if you do not have any remaining ki (this can’t be
+      used on the spells granted by the Discipline).</p>
+    chat: ''
+    unidentified: ''
+  source: Soul Blade
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Soul Blade 11
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.JE1qNTZ3XQlefc9l
+_id: JGIxIbXOPR81UTxy
+_key: '!items!JGIxIbXOPR81UTxy'
+

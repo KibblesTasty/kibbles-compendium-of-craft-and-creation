@@ -1,0 +1,109 @@
+_id: 4pHWzB5sjdXAbYOr
+name: 'Upgrade: Deflecting Weapon'
+type: feat
+img: icons/skills/melee/swords-triple-orange.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 5100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: AC Bonus
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context: []
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.R5nKUT3mi8l5MoFQ
+system:
+  description:
+    value: >-
+      <p>While you have an animated melee weapon, you can use your reaction when
+      a creature makes a weapon attack against you to attempt to block it,
+      rolling a d8 and adding the number rolled to your AC for that attack. You
+      make this choice after the creature makes its roll, but before the GM says
+      whether the attack hits or misses. If you attempt to block a melee weapon
+      attack in this way and the attack misses, you can immediately make one
+      weapon attack against the attacker as part of the same reaction.</p>
+
+      <p>When you use this ability, if you take the Attack action on your next
+      turn, you can only make one weapon attack as part of that action. This
+      attack can’t be made with the animated weapon you used to attempt to block
+      the attack.</p>
+    chat: ''
+    unidentified: ''
+  source: Infusionsmith
+  activation:
+    type: reaction
+    cost: 1
+    condition: when a creature makes a weapon attack against you
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d8
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Infusionsmith 5
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!4pHWzB5sjdXAbYOr'
+

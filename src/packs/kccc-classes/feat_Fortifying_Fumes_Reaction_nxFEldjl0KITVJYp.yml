@@ -1,0 +1,119 @@
+_id: nxFEldjl0KITVJYp
+name: Fortifying Fumes Reaction
+type: feat
+img: icons/magic/air/wind-tornado-wall-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 48500000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+        '1': Bonus Weapon Damage
+      value:
+        '0': true
+        '1': true
+      altValue:
+        '0': true
+        '1': true
+  core:
+    sourceId: Item.uFuieASlPuk1MsQS
+system:
+  description:
+    value: >-
+      <p>As an action, you can produce an instant reaction, throwing a
+      fortifying stimulus of reagents at a point within 20 feet of you, which
+      causes fumes to erupt. Each creature within 10 feet of that point can
+      choose to hold its breath and not inhale the fumes, but creatures that do
+      inhale them gain 1d4 tempo-rary hit points, deal an extra 1d4 damage on
+      their next melee weapon attack, and have advantage on their next
+      Constitution saving throw. Any remaining benefits from this effect fade at
+      the end of your next turn.</p>
+
+      <p>Both the temporary hit points and the extra damage increase by 1d4 when
+      you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>
+    chat: ''
+    unidentified: ''
+  source: Potionsmith
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: 20
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4
+        - temphp
+      - - 1d4
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Potionsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!nxFEldjl0KITVJYp'
+

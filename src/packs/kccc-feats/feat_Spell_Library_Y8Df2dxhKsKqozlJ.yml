@@ -1,0 +1,84 @@
+name: Spell Library
+type: feat
+img: icons/sundries/books/book-open-purple.webp
+data:
+  description:
+    value: >-
+      <p><em>Prerequisite: Farling, any class with the Spellcasting or Pact
+      Magic feature</em></p>
+
+      <p>Your ability to perfectly memorize that which you experience enhances
+      your ability to grasp and memorize spells. The number of spells you know
+      or can prepare for one class you have levels in (your choice if you have
+      multiple) increases by your proficiency bonus.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Farling Feat
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.BTeXUg0VxdxqD9cQ
+_id: Y8Df2dxhKsKqozlJ
+_key: '!items!Y8Df2dxhKsKqozlJ'
+

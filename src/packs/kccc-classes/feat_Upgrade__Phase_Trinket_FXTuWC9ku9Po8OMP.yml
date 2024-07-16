@@ -1,0 +1,96 @@
+_id: FXTuWC9ku9Po8OMP
+name: 'Upgrade: Phase Trinket'
+type: feat
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 16300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.NAUyNPFs8Vu2gCi0
+system:
+  description:
+    value: >-
+      <p>You create a magical gadget that manipulates ethereal magic. As an
+      action, you can use this device to cast
+      @Compendium[dnd5e.spells.GSvLWcdCZLQkilXT]{Blink} or
+      @Compendium[dnd5e.spells.A4RsPuSvB9wFtz1j]{Dimension Door} without
+      expending a spell slot. Once used, this gadget can’t be used again until
+      you finish a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Gadgetsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Gadgetsmith 9
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!FXTuWC9ku9Po8OMP'
+

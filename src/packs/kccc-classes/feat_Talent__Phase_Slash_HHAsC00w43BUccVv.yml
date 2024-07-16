@@ -1,0 +1,108 @@
+name: 'Talent: Phase Slash'
+type: feat
+img: icons/magic/movement/trail-streak-pink.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 18000000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.AI3P38kAVrZBfVtM
+_id: HHAsC00w43BUccVv
+system:
+  description:
+    value: >-
+      <p>You can expend 1 psi point to make a single melee weapon attack against
+      any targets you pass through with Phase Rift as part of the same action.
+      You must spend 1 psi point per creature attacked this way. You can make
+      this attack against a target once per turn. You can spend Psionic Mastery
+      points on this talent.</p>
+    chat: ''
+    unidentified: ''
+  source: Transposition
+  activation:
+    type: special
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Transposition 11
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!HHAsC00w43BUccVv'
+

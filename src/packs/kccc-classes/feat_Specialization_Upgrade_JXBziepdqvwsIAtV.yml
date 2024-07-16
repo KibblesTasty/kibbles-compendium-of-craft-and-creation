@@ -1,0 +1,90 @@
+_id: JXBziepdqvwsIAtV
+name: Specialization Upgrade
+type: feat
+img: icons/magic/symbols/cog-shield-white-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 19400000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.7cOWHEhLiERPPqzD
+system:
+  description:
+    value: "<p>At 3rd level, choose an upgrade from the list at the end of your specialization, gaining the benefits listed in its description.</p>\n<p>You select an additional upgrade at 5th, 7th, 9th, 11th, 13th, 15th, 17th, and 19th level. You can’t select an upgrade more than once, unless the upgrade’s description says otherwise. Whenever you gain a level in this class, you can exchange one of your existing upgrades with another upgrade of the same level requirement as the replaced upgrade.</p>\n<p>Whenever an existing upgrade is exchanged for a replacement upgrade (either by a subclass feature or when you gain a level), the new upgrade is selected as if you’re the level you were when you originally gained that upgrade. For example, if you replace your Stormforged Weapon and reselect all of your upgrades as a 5th-level inventor, you could select one 3rd-level upgrade and one 5th-level upgrade, or two 3rd-level upgrades, but you would not be able to select two 5th-level upgrades.</p>\n<p>The following generic upgrades are available to all subclasses, and can be selected in place of any subclass upgrade:</p>\n<p>@Item[8YgTNNf33q3QaXUP]{Inventor Upgrade: Shield Proficiency}</p>\n<p>@Item[5kQ8oOEbAbWRXN7k]{Inventor Upgrade: Tool Proficiency}</p>\n<blockquote>\n<p><strong>Customizing Inventor Upgrades</strong></p>\n<p>The upgrades for each Inventor Specialization are presented in a list at the end of the subclass, but invariably there will always be ideas for upgrades not included in that list. At the heart of an inventor beats an unrelenting drive for creativity, after all! Feel free to consult your GM for potential custom upgrades.</p>\n</blockquote>\n<p>\_</p>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source: Inventor
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Inventor 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!JXBziepdqvwsIAtV'
+

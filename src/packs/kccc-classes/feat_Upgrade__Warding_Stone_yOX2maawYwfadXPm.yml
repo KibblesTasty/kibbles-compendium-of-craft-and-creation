@@ -1,0 +1,98 @@
+_id: yOX2maawYwfadXPm
+name: 'Upgrade: Warding Stone'
+type: feat
+img: icons/magic/symbols/runes-carved-stone-green.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 59400000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.eshWchU2oG9jTQat
+system:
+  description:
+    value: >-
+      <p>You learn how to weave a protective enchantment on an item. That item
+      gains a pool of temporary hit points equal to your inventor level. Any
+      creature carrying the item gains any temporary hit points remaining in its
+      pool, but these hit points are lost if that creature is no longer carrying
+      the item.</p>
+
+      <p>The item’s pool of temporary hit points replenishes when you finish a
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: Infusionsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Infusionsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!yOX2maawYwfadXPm'
+

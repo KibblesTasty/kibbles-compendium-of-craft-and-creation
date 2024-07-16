@@ -1,0 +1,181 @@
+name: Specialist
+type: subclass
+img: icons/skills/ranged/rocket-skull-fire-blue.webp
+data:
+  description:
+    value: >-
+      <h2 style="border-bottom:1px solid
+      var(--color-underline-header)">Specialist</h2>
+
+      <p>Specialists are rangers that innovate their technique and equipment in
+      equal measure. Deadly and clever, they keep their opponents guessing what
+      is coming next.</p>
+
+      <p>3rd:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.4kMeryKf2Yvgkxef]{Knack}</p>
+
+      <p>3rd:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.db6guUdhF5yFvJAP]{Trick
+      Shots}</p>
+
+      <p>7th:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.SfrmPCAzXa4mrD49]{Spell
+      Shots}</p>
+
+      <p>11th:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.vjYII2k4b6UCuXBg]{Empowered
+      Shots}</p>
+
+      <p>11th:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.RwFfPI3N61WoLOrD]{Grapple
+      Shot}</p>
+
+      <p>15th:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.CzaPbwO4ZB8LgzQb]{Endless
+      Innovation}</p>
+
+      <h3><strong>Specialist Quirks</strong></h3>
+
+      <p>The following are some optional quirks for a player of the Specialist.
+      You can optionally roll or select a quirk that suits your character.</p>
+
+      <table style="width:568px;border-top:1px solid
+      var(--color-border-light-tertiary);border-bottom:1px solid
+      var(--color-border-light-tertiary)" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center"><strong>d6</strong></td>
+
+      <td style="text-align:center"><strong>Quirk</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">1</td>
+
+      <td style="text-align:center">You often unnecessarily abbreviate things to
+      abbreviations you then have to explain.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">2</td>
+
+      <td style="text-align:center">Most of your plans involve complicated
+      traps.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">3</td>
+
+      <td style="text-align:center">You never like to use the same plan
+      twice.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">4</td>
+
+      <td style="text-align:center">All problems can be solved with the right
+      arrow.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">5</td>
+
+      <td style="text-align:center">You provide highly specific details about
+      simple things.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">6</td>
+
+      <td style="text-align:center">You always prefer to have the high
+      ground.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  identifier: specialist
+  classIdentifier: ranger
+  advancement:
+    - _id: qaxghafk2wpkbljx
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.4kMeryKf2Yvgkxef
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.db6guUdhF5yFvJAP
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: rvu7hvvrqttaaym3
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.SfrmPCAzXa4mrD49
+        optional: false
+      value: {}
+      level: 7
+      title: ''
+      icon: ''
+    - _id: i2sqi326y87div4e
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.vjYII2k4b6UCuXBg
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.RwFfPI3N61WoLOrD
+        optional: false
+      value: {}
+      level: 11
+      title: ''
+      icon: ''
+    - _id: vsc067rkdb4krwg6
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.CzaPbwO4ZB8LgzQb
+        optional: false
+      value: {}
+      level: 15
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core:
+    sourceId: Item.tA5b94S2MB07MgO1
+_id: GFBhnvl9bGznIrDF
+_key: '!items!GFBhnvl9bGznIrDF'
+

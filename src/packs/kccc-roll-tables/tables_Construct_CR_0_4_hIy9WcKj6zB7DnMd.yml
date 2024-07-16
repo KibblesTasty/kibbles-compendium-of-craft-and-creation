@@ -1,0 +1,103 @@
+name: Construct CR 0-4
+img: icons/creatures/magical/construct-stone-earth-gray.webp
+description: >-
+  If a material is found, to successfully harvest it, you will need to roll a
+  [[/roll 1d20+@skills.arc.total # Harvesting Check]]{Intelligence (Arcana)}
+  ability check with a <b>DC of 8</b>
+results:
+  - _id: 6uX6rpiVGet7pb3L
+    type: 2
+    text: Parts
+    img: icons/tools/fasteners/screw-flat-steel-grey.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: ozicmc1Qigq0uQ5o
+    weight: 1
+    range:
+      - 1
+      - 20
+    drawn: false
+    flags: {}
+    rangeL: 1
+    rangeH: 20
+    _key: '!tables.results!hIy9WcKj6zB7DnMd.6uX6rpiVGet7pb3L'
+  - _id: RB5In6BgvBOBnzjt
+    type: 2
+    text: Fancy Parts
+    img: icons/tools/fasteners/bolt-steel-blue.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: vEq6WmaPAXffL6Zg
+    weight: 1
+    range:
+      - 21
+      - 50
+    drawn: false
+    flags: {}
+    rangeL: 21
+    rangeH: 50
+    _key: '!tables.results!hIy9WcKj6zB7DnMd.RB5In6BgvBOBnzjt'
+  - _id: dbvKNAPnA4kNUzjQ
+    type: 2
+    text: Fancy Parts
+    img: icons/tools/fasteners/bolt-steel-blue.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: vEq6WmaPAXffL6Zg
+    weight: 1
+    range:
+      - 51
+      - 70
+    drawn: false
+    flags: {}
+    rangeL: 51
+    rangeH: 70
+    _key: '!tables.results!hIy9WcKj6zB7DnMd.dbvKNAPnA4kNUzjQ'
+  - _id: rJFeqPaq8wHDDbD4
+    type: 2
+    text: Fancy Parts
+    img: icons/tools/fasteners/bolt-steel-blue.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: vEq6WmaPAXffL6Zg
+    weight: 1
+    range:
+      - 71
+      - 80
+    drawn: false
+    flags: {}
+    rangeL: 71
+    rangeH: 80
+    _key: '!tables.results!hIy9WcKj6zB7DnMd.rJFeqPaq8wHDDbD4'
+  - _id: TxZmzSZhoT7uQpRA
+    type: 2
+    text: Common Arcane Essence
+    img: icons/commodities/materials/slime-thick-blue.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: LkEj679XBcRmkAdK
+    weight: 1
+    range:
+      - 81
+      - 100
+    drawn: false
+    flags: {}
+    rangeL: 81
+    rangeH: 100
+    _key: '!tables.results!hIy9WcKj6zB7DnMd.TxZmzSZhoT7uQpRA'
+formula: 1d100
+replacement: true
+displayRoll: true
+folder: qAZYGUUkTX9PyMez
+sort: 1300000
+flags:
+  core:
+    sourceId: RollTable.uI4la3Yv5y4HnNPw
+_id: hIy9WcKj6zB7DnMd
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693870747280
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!tables!hIy9WcKj6zB7DnMd'
+

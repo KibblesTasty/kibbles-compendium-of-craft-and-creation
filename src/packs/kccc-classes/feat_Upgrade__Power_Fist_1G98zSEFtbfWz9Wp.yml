@@ -1,0 +1,102 @@
+name: 'Upgrade: Power Fist'
+type: feat
+img: icons/equipment/hand/gauntelet-tooled-blue.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 1300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.VHVTcYBKPSM9wMsW
+_id: 1G98zSEFtbfWz9Wp
+system:
+  description:
+    value: >-
+      <p><em>(You can apply this upgrade twice.)</em></p>
+
+      <p>Your Warplate Gauntlet becomes a melee weapon while you aren’t holding
+      anything in it. You have proficiency in this weapon, and it has the Light
+      and Special properties. It deals 1d8 bludgeoning damage.</p>
+
+      <p><strong>Special:</strong> When you make an attack roll, you can choose
+      to forgo adding your proficiency bonus to the attack roll. If the attack
+      hits, you can add double your proficiency bonus to the damage roll.</p>
+
+      <p>You can apply this upgrade up to 2 times, making a separate weapon with
+      the same properties the second time.</p>
+    chat: ''
+    unidentified: ''
+  source: Warsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Warsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!1G98zSEFtbfWz9Wp'
+

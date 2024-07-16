@@ -1,0 +1,122 @@
+_id: bvSGzaZnAXP26YRB
+name: 'Upgrade: Death Flail'
+type: feat
+img: icons/weapons/maces/flail-triple-grey.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 37300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.ZlDKhVPOzPMnRjLL
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Perfection of Technique)</em></p>
+
+      <p>Rather than cast out the Flaying Hook, you master the art of spinning
+      your attached martial weapon by the chain in a windmill of death. Your
+      weapon gains the Reach property when used in this way.</p>
+
+      <p>Additionally, instead of attacking a target with it normally, as an
+      action, you can spin the weapon wildly in giant deadly sweeps. Up to four
+      creatures within 10 feet must make a Dexterity saving throw against a DC
+      of 8 + your Strength modifier + your proficiency bonus. On failure they
+      take damage equal to your weapon’s damage dice + your Strength modifier of
+      your weapon’s damage type.</p>
+
+      <p>If you have the Spiked Chain upgrade and hit one or more targets, you
+      can select one of them to be affected by the special property of Spiked
+      Chain.</p>
+    chat: ''
+    unidentified: ''
+  source: Fleshsmith
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6 + @mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: str
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fleshsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!bvSGzaZnAXP26YRB'
+

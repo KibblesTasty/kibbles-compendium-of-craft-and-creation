@@ -1,0 +1,119 @@
+name: Translocating Shot
+type: spell
+img: icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp
+effects: []
+folder: wqurCGNuGvq7wcyB
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.alTXm8FayJTpxu8S
+_id: OzMVy4xpRKvCkzDH
+system:
+  description:
+    value: >-
+      <p>You magically bind a willing creature within range into a piece of
+      ammunition. When the piece of ammunition is fired, the creature bound to
+      the piece of ammunition is teleported to the target destination. You can
+      fire the ammunition at a creature, object, or point within the normal
+      range of the weapon. When attacking a creature or object, the target is
+      teleported to within 5 feet of the target hit or miss.</p>
+
+      <p>When you cast this spell, if you cast it a Large or larger piece of
+      ammunition, you can bind up to 4 creatures to the piece of ammunition.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you using 6th-level
+      slot or higher, you can cast it on a Huge piece of ammunition, binding up
+      to nine creatures to the piece of ammunition.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 4
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: a piece of ammunition worth at least 1 cp
+    consumed: true
+    cost: 0.01
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886308
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!OzMVy4xpRKvCkzDH'
+

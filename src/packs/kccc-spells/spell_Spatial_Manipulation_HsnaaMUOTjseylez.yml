@@ -1,0 +1,117 @@
+name: Spatial Manipulation
+type: spell
+img: icons/magic/control/energy-stream-link-white.webp
+effects: []
+folder: z5vyiu5PscQs2W9P
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.LaSLr2jUZGvTwlzs
+_id: HsnaaMUOTjseylez
+system:
+  description:
+    value: >-
+      <p>You can swap the position two creatures you can see within range. An
+      unwilling creature can make a Charisma saving throw, preventing the swap
+      on success.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell slot of 6th level or higher, you can swap an additional set
+      of creatures of each level about 5th.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 2
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  level: 5
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693855886246
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!HsnaaMUOTjseylez'
+

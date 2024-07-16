@@ -1,0 +1,94 @@
+name: 'Upgrade: Flagellant’s Brand'
+type: feat
+img: icons/skills/wounds/injury-pain-body-orange.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 2000000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.0GhSkHfGFZS0YQEi
+_id: 2N6ajeajpHYxejSq
+system:
+  description:
+    value: >-
+      <p>You carve a holy mark onto yourself. Before you make a saving throw,
+      you can add a number of [[/r d6s]] up to your Constitution modifier to the
+      roll. You take fire damage equal to twice the value rolled on the d6s.
+      This damage bypasses resistances and immunity.</p>
+    chat: ''
+    unidentified: ''
+  source: Relicsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Relicsmith 11
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!2N6ajeajpHYxejSq'
+

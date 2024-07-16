@@ -1,0 +1,95 @@
+_id: YKIIKX6HeMp2HbYV
+name: 'Upgrade: Iron Fortress'
+type: feat
+img: icons/commodities/metal/mail-plate-steel.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 34100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.LSBudVACcsvkE1bO
+system:
+  description:
+    value: >-
+      <p>You extend your golem’s shielding and stationary stability. Your golem
+      now counts as three-quarters cover for creatures riding it or for
+      creatures within 5 feet of it (as long as it is between the target and the
+      attacker). Additionally, while your golem is on the ground, it can’t be
+      moved against its will.</p>
+    chat: ''
+    unidentified: ''
+  source: Golemsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Golemsmith 5
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!YKIIKX6HeMp2HbYV'
+

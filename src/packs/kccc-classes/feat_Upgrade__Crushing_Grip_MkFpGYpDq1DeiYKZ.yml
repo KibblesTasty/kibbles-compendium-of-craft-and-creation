@@ -1,0 +1,90 @@
+name: 'Upgrade: Crushing Grip'
+type: feat
+img: icons/creatures/claws/claw-hooked-barbed.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 23200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.9VuHCbucvyvgaU8g
+_id: MkFpGYpDq1DeiYKZ
+system:
+  description:
+    value: "<p>You don’t let things go once you have them in your grip. Creatures that are grappled or restrained by you have disadvantage on attempts to escape the condition.\_</p>\n<p>Additionally, you can choose to apply damage equal to your Strength modifier to any creature that starts its turn grappled or restrained by you.</p>"
+    chat: ''
+    unidentified: ''
+  source: Fleshsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Fleshsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!MkFpGYpDq1DeiYKZ'
+

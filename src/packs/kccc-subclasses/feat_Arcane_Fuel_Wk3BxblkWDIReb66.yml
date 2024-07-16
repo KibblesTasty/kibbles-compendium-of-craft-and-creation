@@ -1,0 +1,89 @@
+name: Arcane Fuel
+type: feat
+img: icons/magic/light/explosion-beam-impact-silhouette.webp
+data:
+  description:
+    value: >-
+      <p>At 14th level, you gain immunity to force damage. When you would take
+      force damage, you regain health equal to half the damage you would have
+      taken. You can gain a maximum amount of hit points this way equal to your
+      sorcerer level, after which you no longer gain additional hit points until
+      you finish a short or long rest.</p>
+
+      <p>Additionally, you learn the spell dispel magic, or another sorcerer
+      spell of your choice if you already know it. Dispel magic doesn’t count
+      against your spells known. When you successfully cast dispel magic or
+      counterspell, you regain an expanded sorcery point (if you are not
+      currently at your maximum) as you draw in the remnants of the broken
+      magic.</p>
+    chat: ''
+    unidentified: ''
+  source: Aether Heart
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Aether Heart 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ArSz75N1gFyAgvmV
+_id: Wk3BxblkWDIReb66
+_key: '!items!Wk3BxblkWDIReb66'
+

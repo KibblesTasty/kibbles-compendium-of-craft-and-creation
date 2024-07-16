@@ -1,0 +1,97 @@
+_id: P4YbL4a0CM8GoTzG
+name: 'Upgrade: Weapon Coating'
+type: feat
+img: icons/skills/melee/blade-tip-damaged-acid-green.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 25900000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.8EcW8SEtywaCGnVs
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you can apply one of your instant reactions to a
+      melee weapon or piece of ammunition. The next time you hit a target with
+      that weapon or ammunition before the end of your next turn, the target is
+      subjected to the effects of the applied instant reaction. The creature
+      automatically takes the damage or healing associated with the instant
+      reaction, but makes a saving throw as normal against any additional
+      effects.</p>
+    chat: ''
+    unidentified: ''
+  source: Potionsmith
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Potionsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!P4YbL4a0CM8GoTzG'
+

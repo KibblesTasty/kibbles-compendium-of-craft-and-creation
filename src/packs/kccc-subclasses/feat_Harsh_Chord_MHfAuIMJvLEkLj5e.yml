@@ -1,0 +1,101 @@
+_id: MHfAuIMJvLEkLj5e
+name: Harsh Chord
+type: feat
+img: icons/magic/sonic/explosion-shock-sound-wave.webp
+data:
+  description:
+    value: >-
+      <p>Starting at 3rd level, as an action you can expend one use of your
+      Bardic Inspiration to play a powerful chord that sweeps outward. Each
+      creature of your choice within 20 feet of you must make a Constitution
+      saving throw. A creature takes thunder damage equal to your bardic
+      inspiration die + your bard level on a failed saving throw, and half as
+      much damage on a successful one. Constitution saving throws to maintain
+      concentration on spells triggered by this damage are made with
+      disadvantage.</p>
+    chat: ''
+    unidentified: ''
+  source: College of Thunder
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1@scale.bard.inspiration @classes.bard.levels
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: College of Thunder 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.NWxQIg3aK9bIALpo
+_key: '!items!MHfAuIMJvLEkLj5e'
+

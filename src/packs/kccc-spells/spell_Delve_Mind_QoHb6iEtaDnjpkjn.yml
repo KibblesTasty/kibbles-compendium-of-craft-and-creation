@@ -1,0 +1,155 @@
+name: Delve Mind
+type: spell
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+effects: []
+folder: 3C2eSjufkNJJHedg
+sort: 0
+flags:
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickVersatile:
+      type: Boolean
+      value: false
+      altValue: false
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: false
+        resource: true
+      altValue:
+        use: false
+        resource: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  core:
+    sourceId: Item.vjWem5qBYxqMQrlA
+_id: QoHb6iEtaDnjpkjn
+system:
+  description:
+    value: >-
+      <p>You delve into a creature's mind, forcing it to make an Intelligence
+      saving throw. On a failure, for the duration or until you end the spell
+      you gain access to its memories from the past 12 hours, and are able to
+      recall things it remembers as if they are your own memories, but these
+      memories contain only things the target creature remembers.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell slot of 4th level or higher, you can delve an additional 12
+      hours further back in the creature's memories for each slot level above
+      3rd.</p>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Psionics
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+  level: 3
+  school: psi
+  components:
+    vocal: false
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693856399610
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!QoHb6iEtaDnjpkjn'
+

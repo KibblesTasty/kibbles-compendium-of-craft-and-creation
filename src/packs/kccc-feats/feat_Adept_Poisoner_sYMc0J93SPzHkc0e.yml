@@ -1,0 +1,106 @@
+name: Adept Poisoner
+type: feat
+img: icons/magic/acid/dissolve-bone-skull.webp
+data:
+  description:
+    value: >-
+      <p>You specialize in developing poisons, granting you proficiency with
+      poisoner’s kits and the following benefits:</p>
+
+      <ul>
+
+      <li>When you create a poison, you can specify a creature type that poison
+      is specifically made for. That poison ignores resistance and immunity to
+      poison damage for that creature.</li>
+
+      <li>You can apply poison to a weapon or piece of ammunition as a bonus
+      action, instead of an action.</li>
+
+      <li>During a long rest, you can perform 1 hour of work using a poisoner’s
+      kit to create a number of doses of potent poison equal to your proficiency
+      bonus, which last until you apply them to a weapon or finish your next
+      long rest. Once applied to a weapon or piece of ammunition, the poison
+      retains its potency for 1 minute or until you hit with the weapon or
+      ammunition. When a creature takes damage from the coated weapon or
+      ammunition, that creature must succeed on a Constitution saving throw (DC
+      equal to 8 + twice your proficiency bonus) or take 1d8 poison damage and
+      become poisoned until the end of your next turn. On success, they take
+      half as much damage and aren’t poisoned.</li>
+
+      </ul>
+
+      <p>When you use this feature to create poison, you can expend 15 gp per
+      dose of poison to create a more deadly poison. When you do so, creatures
+      that fail their Constitution saving throw against it take an extra 1d8
+      poison damage.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Feat
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Uh6bFsUcF9lE12sS
+_id: sYMc0J93SPzHkc0e
+_key: '!items!sYMc0J93SPzHkc0e'
+

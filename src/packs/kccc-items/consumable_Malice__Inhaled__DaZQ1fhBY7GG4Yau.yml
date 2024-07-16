@@ -1,0 +1,99 @@
+name: Malice (Inhaled)
+type: consumable
+img: icons/magic/acid/dissolve-bone-skull.webp
+data:
+  description:
+    value: >-
+      <p><em>Poison, rare</em></p>
+
+      <p>When released (by throwing powder or breaking a vial of it), this
+      poison affects a 5-foot radius from where it was released. A creature
+      subjected to this poison must make a Constitution saving throw with a DC
+      equal to the crafter's Poison DC.</p>
+
+      <p>On failure, the creature becomes Poisoned for 1 hour. The Poisoned
+      creature is Blinded.</p>
+
+      <p>If stored as powder, you can throw this powder 5 feet. If stored in a
+      vial, you can throw 20 feet.</p>
+    chat: ''
+    unidentified: ''
+  source: KCCC
+  quantity: 1
+  weight: 0.1
+  price: 250
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.cR55ZM1tIjzp53Ce
+_id: DaZQ1fhBY7GG4Yau
+_key: '!items!DaZQ1fhBY7GG4Yau'
+

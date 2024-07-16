@@ -1,0 +1,127 @@
+name: Mind Blast
+type: spell
+img: icons/magic/death/skull-energy-light-purple.webp
+effects: []
+folder: MIMrgazRWMZVkCuD
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.174E4qSP7AFptqlu
+_id: mOUbw2Ldz7AMnyqm
+system:
+  description:
+    value: >-
+      <p>You emit a blast of psychic energy. Each creature in a 60-foot cone
+      must make an Intelligence saving throw. A creature takes [[/r 6d8]]
+      psychic damage and is stunned until the end of their next turn on a failed
+      save. A creature takes half as much damage and is not stunned on a
+      successful save.</p>
+    chat: ''
+    unidentified: ''
+  source: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 60
+    width: null
+    units: ft
+    type: cone
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 6d8
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: int
+    dc: null
+    scaling: spell
+  level: 6
+  school: psi
+  components:
+    vocal: false
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693856500843
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!mOUbw2Ldz7AMnyqm'
+

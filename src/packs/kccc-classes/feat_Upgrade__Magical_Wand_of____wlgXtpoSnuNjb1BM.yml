@@ -1,0 +1,101 @@
+_id: wlgXtpoSnuNjb1BM
+name: 'Upgrade: Magical Wand of...'
+type: feat
+img: icons/weapons/wands/wand-gem-pink.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 57600000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.eYdcNq95eKm9bgVn
+system:
+  description:
+    value: >-
+      <p>You create a new wand that you can infuse with a spell of 1st level or
+      higher that you have recorded in your Spell Manual. This wand doesn’t
+      require attunement, but can only be used by you. The spell must be of a
+      level that you can cast as an inventor (as of when you would choose this
+      upgrade). This wand has 3 charges.</p>
+
+      <p>You can expend a charge to cast the chosen spell at its lowest level.
+      The wand regains all expended charges when you finish a long rest.</p>
+
+      <p>You can select this upgrade multiple times, choosing a different spell
+      and creating a new wand each time you select this upgrade.</p>
+    chat: ''
+    unidentified: ''
+  source: Infusionsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Infusionsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!wlgXtpoSnuNjb1BM'
+

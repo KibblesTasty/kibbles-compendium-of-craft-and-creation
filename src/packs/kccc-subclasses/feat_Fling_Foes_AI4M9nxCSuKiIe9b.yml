@@ -1,0 +1,91 @@
+name: Fling Foes
+type: feat
+img: icons/magic/air/wind-tornado-cyclone-white.webp
+data:
+  description:
+    value: >-
+      <p>Starting at 14th level, you become the epicenter of the battlefield,
+      flinging targets about. When you hit a target with a weapon while raging,
+      you may choose to knock them 5 feet directly away from you on hit. When
+      you use Telekinetic Force while raging, you can always choose to apply the
+      Hurling modifier (as if using 2 psi points), shoving the target an
+      additional 20 feet in a direction of your choice.</p>
+
+      <p>Additionally, all Medium and smaller objects and creatures that you are
+      holding become improvised weapons for you, dealing 1d6 bludgeoning damage,
+      with the thrown 20/60 property. To throw an unwilling creature, you must
+      have it grappled, and you can’t throw it beyond its normal range.</p>
+
+      <p>Whenever you shove or throw a creature into another creature, both
+      creatures take [[/r 1d6]] bludgeoning damage.</p>
+    chat: ''
+    unidentified: ''
+  source: Raging Mind
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Raging Mind 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.VmNAjk15R4VDR7ix
+_id: AI4M9nxCSuKiIe9b
+_key: '!items!AI4M9nxCSuKiIe9b'
+

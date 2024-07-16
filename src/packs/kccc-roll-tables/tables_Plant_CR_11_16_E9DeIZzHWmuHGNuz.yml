@@ -1,0 +1,133 @@
+name: Plant CR 11-16
+img: icons/magic/nature/tree-animated-strike.webp
+description: >-
+  If a material is found, to successfully harvest it, you will need to roll a
+  [[/roll 1d20+@skills.nat.total # Harvesting Check]]{Wisdom (Nature)} ability
+  check with a <b>DC of 12</b>
+results:
+  - _id: eFQ5Oabp6EGapHPr
+    type: 2
+    text: Uncommon Poisonous Reagent
+    img: icons/commodities/biological/tail-spiked-green.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: 5bgfoiOWZydLskRB
+    weight: 1
+    range:
+      - 1
+      - 30
+    drawn: false
+    flags: {}
+    rangeL: 1
+    rangeH: 30
+    _key: '!tables.results!E9DeIZzHWmuHGNuz.eFQ5Oabp6EGapHPr'
+  - _id: L81W82VVogY9tb7q
+    type: 2
+    text: Uncommon Primal Essence
+    img: icons/commodities/gems/gem-oval-red.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: tVxOYNqfvlHNsGlZ
+    weight: 1
+    range:
+      - 31
+      - 60
+    drawn: false
+    flags: {}
+    rangeL: 31
+    rangeH: 60
+    _key: '!tables.results!E9DeIZzHWmuHGNuz.L81W82VVogY9tb7q'
+  - _id: vLC7ZoBymnSzQg4z
+    type: 2
+    text: Rare Curative Reagent
+    img: icons/consumables/plants/milkweed-stem-serrated-leaves-green.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: ldkNfComhOgwRkKO
+    weight: 1
+    range:
+      - 61
+      - 70
+    drawn: false
+    flags: {}
+    rangeL: 61
+    rangeH: 70
+    _key: '!tables.results!E9DeIZzHWmuHGNuz.vLC7ZoBymnSzQg4z'
+  - _id: Pl7RI8SbB5fVu5QK
+    type: 2
+    text: Rare Poisonous Reagent
+    img: icons/consumables/plants/tearthumb-dried-halberd-leaf-brown.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: pQUrnlI00BpWabwY
+    weight: 1
+    range:
+      - 71
+      - 80
+    drawn: false
+    flags: {}
+    rangeL: 71
+    rangeH: 80
+    _key: '!tables.results!E9DeIZzHWmuHGNuz.Pl7RI8SbB5fVu5QK'
+  - _id: husATpOw7XZddcFQ
+    type: 2
+    text: Rare Primal Essence
+    img: icons/commodities/biological/organ-heart-red.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: 6XHUZG8QuRzyZMZi
+    weight: 1
+    range:
+      - 81
+      - 90
+    drawn: false
+    flags: {}
+    rangeL: 81
+    rangeH: 90
+    _key: '!tables.results!E9DeIZzHWmuHGNuz.husATpOw7XZddcFQ'
+  - _id: YITHUxWfZig1Uwl5
+    type: 2
+    text: Rare Primal Essence
+    img: icons/commodities/biological/organ-heart-red.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: 6XHUZG8QuRzyZMZi
+    weight: 1
+    range:
+      - 91
+      - 99
+    drawn: false
+    flags: {}
+    rangeL: 91
+    rangeH: 99
+    _key: '!tables.results!E9DeIZzHWmuHGNuz.YITHUxWfZig1Uwl5'
+  - _id: WhyQLSN2lPbndfou
+    type: 2
+    text: Very Rare Primal Essence
+    img: icons/commodities/gems/gem-faceted-rough-red.webp
+    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    resultId: LTSnm0dSlIlBGnkx
+    weight: 1
+    range:
+      - 100
+      - 100
+    drawn: false
+    flags: {}
+    rangeL: 100
+    rangeH: 100
+    _key: '!tables.results!E9DeIZzHWmuHGNuz.WhyQLSN2lPbndfou'
+formula: 1d100
+replacement: true
+displayRoll: true
+folder: qAZYGUUkTX9PyMez
+sort: 100098
+flags:
+  core:
+    sourceId: RollTable.rlyqGgLYtIWBzvKi
+_id: E9DeIZzHWmuHGNuz
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693870753085
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!tables!E9DeIZzHWmuHGNuz'
+

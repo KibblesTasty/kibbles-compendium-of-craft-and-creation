@@ -1,0 +1,101 @@
+_id: DlK321DfClXoq54r
+name: 'Upgrade: Magical Rod of...'
+type: feat
+img: icons/weapons/staves/staff-ornate-red.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 14600000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.otGeLqo2iejWHz9F
+system:
+  description:
+    value: >-
+      <p>You create a new rod that you can infuse with a spell of 5th level or
+      higher that you have recorded in your Spell Manual. This rod doesn’t
+      require attunement, but can only be used by you. The spell must be of a
+      level no higher than half your inventor level (as of when you would choose
+      this upgrade), rounded down.</p>
+
+      <p>You can use the rod to cast the chosen spell at its lowest level. Once
+      you cast the spell in this way, you can’t do so again until you finish a
+      long rest. You can select this upgrade multiple times, choosing a
+      different spell and creating a new rod each time you select this
+      upgrade.</p>
+    chat: ''
+    unidentified: ''
+  source: Infusionsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Infusionsmith 11
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!DlK321DfClXoq54r'
+

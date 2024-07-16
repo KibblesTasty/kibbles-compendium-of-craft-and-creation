@@ -1,0 +1,176 @@
+_id: PWMqx1JBcdfOTq0l
+name: Way of the Soulblade
+type: subclass
+img: icons/magic/control/silhouette-hold-change-blue.webp
+data:
+  description:
+    value: >-
+      <h2 style="border-bottom:1px solid var(--color-underline-header)">Way of
+      the Soul Blade</h2>
+
+      <p>Monks of the Way of the Soul Blade are monks who have learned to
+      harness and focus their ki, using their inner will and focus to control
+      psionic powers—primarily into a blade of pure psionic power: a Soul
+      Blade.</p>
+
+      <p>3rd Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.D1uU14jR2gAjlZu1]{Soul
+      Blade}</p>
+
+      <p>3rd Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.djJyjLKXxDcmuNt1]{Psionic
+      Ki}</p>
+
+      <p>6th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.v4dlqA2sX1IrkovP]{Art
+      of the Soul Blade}</p>
+
+      <p>11th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.JGIxIbXOPR81UTxy]{Power
+      of the Mind}</p>
+
+      <p>17th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.JzSIQGAMIAt8NZIA]{Transcendent
+      Blade}</p>
+
+      <h3><strong>Soul Blade Quirks</strong></h3>
+
+      <p>The following are some optional quirks for a player of this Way</p>
+
+      <table style="width:100%" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center;width:17.6261%"><strong>[[/r
+      d6]]</strong></td>
+
+      <td style="text-align:center;width:82.3739%"><strong>Quirk</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:17.6261%">1</td>
+
+      <td style="text-align:center;width:82.3739%">You carry around a bladeless
+      sword hilt for your Soul Blade’s blade.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:17.6261%">2</td>
+
+      <td style="text-align:center;width:82.3739%">You occasionally attempt to
+      cut fruit with your Soul Blade.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:17.6261%">3</td>
+
+      <td style="text-align:center;width:82.3739%">You refer to your actions as
+      the will of the living Ki.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:17.6261%">4</td>
+
+      <td style="text-align:center;width:82.3739%">You view killing things with
+      your psionic powers as evil, but killing things with your Soul Blade as
+      perfectly okay.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:17.6261%">5</td>
+
+      <td style="text-align:center;width:82.3739%">You have endless platitudes
+      about temperance and control.</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:17.6261%">6</td>
+
+      <td style="text-align:center;width:82.3739%">You practice obscure martial
+      arts stances every morning.</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+    unidentified: ''
+  source: Kibbles' Compendium of Craft and Creation
+  identifier: way-of-the-soulblade
+  classIdentifier: monk
+  advancement:
+    - _id: pq1e4fa9ltmerz5f
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.D1uU14jR2gAjlZu1
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.djJyjLKXxDcmuNt1
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: ykvm8uvg59anj62w
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.v4dlqA2sX1IrkovP
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: ybuxrfkxdbtjfu1v
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.JGIxIbXOPR81UTxy
+        optional: false
+      value: {}
+      level: 11
+      title: ''
+      icon: ''
+    - _id: ra1j89devykbnvir
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.JzSIQGAMIAt8NZIA
+        optional: false
+      value: {}
+      level: 17
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+folder: null
+sort: 0
+permission:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+flags:
+  core:
+    sourceId: Item.0RbIyZBNVEMp31OF
+_key: '!items!PWMqx1JBcdfOTq0l'
+

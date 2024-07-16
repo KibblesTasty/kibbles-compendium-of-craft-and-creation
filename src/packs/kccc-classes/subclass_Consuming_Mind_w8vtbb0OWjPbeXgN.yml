@@ -1,0 +1,132 @@
+name: Consuming Mind
+type: subclass
+img: icons/magic/symbols/circled-gem-pink.webp
+effects: []
+folder: 1FRdPSG4JXRH5ikM
+sort: 0
+flags:
+  core:
+    sourceId: Item.1vY8s1HCedhOP6oE
+_id: w8vtbb0OWjPbeXgN
+system:
+  description:
+    value: >-
+      <h2>Consuming Mind</h2>
+
+      <p>A Consuming Mind is a master of a dangerous branch of psionics, born
+      from the ability to sap energy from other creatures. This power can tear
+      away thoughts, minds, and ultimately vitality for the psion’s own
+      consumption. A feared branch of psionics, it is sometimes believed to be
+      one of the primeval roots of all psionic power, as it can be found among
+      mind-eating monsters and ancient psionic space whales...which might have
+      other names in various settings.</p>
+
+      <p>It has been refined by those that seek greater power either from
+      ambition or desperation, and unlocks a terrible but effective path. One
+      example of mortal creatures walking this path are the houses of dark
+      elves, who developed their dark powers from their study of feral,
+      vampiric, brain-eating monsters.</p>
+
+      <p>1st Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.nr7msXavean1ub3M]{Psionic
+      Predator}
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.KmLxKk8OXH4dQpLF]{Dark
+      Lurker}</p>
+
+      <p>3rd Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.Z5jJBuoBfNn89mup]{Ravenous
+      Powers}</p>
+
+      <p>6th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.4CDaxu8jNXuyngEm]{Empowered
+      Psionics}</p>
+
+      <p>10th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.O95VOVDmpqAu8YOT]{Mind
+      Vampire}</p>
+
+      <p>14th Level:
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.r7juVGUdR1Clq9mQ]{Shattered
+      Husks}</p>
+    chat: ''
+    unidentified: ''
+  source: Psion
+  identifier: consuming-mind
+  classIdentifier: psion
+  advancement:
+    - _id: 3h28r4jcsyyh2bol
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.nr7msXavean1ub3M
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.KmLxKk8OXH4dQpLF
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.vzhDqMfgUKridgGX
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.cJCUyt6oR2sR1Mfl
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.dIkjQIqrfXVpW3dp
+        optional: false
+      value: {}
+      level: 1
+    - _id: 9uk13gu4iamn98lv
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Z5jJBuoBfNn89mup
+        optional: false
+      value: {}
+      level: 3
+      title: ''
+      icon: ''
+    - _id: hap0j6acexorb62j
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.4CDaxu8jNXuyngEm
+        optional: false
+      value: {}
+      level: 6
+      title: ''
+      icon: ''
+    - _id: 8w3r7kkt9c7h1nti
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.O95VOVDmpqAu8YOT
+        optional: false
+      value: {}
+      level: 10
+      title: ''
+      icon: ''
+    - _id: 4bskspq2dz9pgksr
+      type: ItemGrant
+      configuration:
+        items:
+          - >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.r7juVGUdR1Clq9mQ
+        optional: false
+      value: {}
+      level: 14
+      title: ''
+      icon: ''
+  spellcasting:
+    progression: none
+    ability: ''
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857267704
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!w8vtbb0OWjPbeXgN'
+

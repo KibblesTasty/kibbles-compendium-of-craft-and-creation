@@ -1,0 +1,99 @@
+_id: D8sddXlmTBc4biwq
+name: 'Upgrade: Systematic Strength'
+type: feat
+img: icons/equipment/hand/gauntlet-cuffed-steel-grey.webp
+effects: []
+folder: 0WY2lfr2O03sVH68
+sort: 13700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.YOynKhornm9sIVaQ
+system:
+  description:
+    value: >-
+      <p>You build an improved frame and power source for your golem. Your
+      golem’s Strength score increases by 2, increasing its ability to perform
+      tasks that require raw strength. If this upgrade increases the golem’s
+      Strength to 16 or higher, it gains proficiency in Strength saving throws;
+      if this upgrade increases its Strength to 18, it gains proficiency in the
+      Athletics skill.</p>
+
+      <p>You can select this upgrade multiple times, but you can’t increase the
+      golem’s Strength above 18 using this upgrade.</p>
+    chat: ''
+    unidentified: ''
+  source: Golemsmith
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: Golemsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '11.308'
+  createdTime: null
+  modifiedTime: 1693857309235
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!D8sddXlmTBc4biwq'
+
