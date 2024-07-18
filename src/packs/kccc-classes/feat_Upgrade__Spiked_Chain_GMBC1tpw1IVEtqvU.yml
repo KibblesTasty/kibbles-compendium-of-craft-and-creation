@@ -26,7 +26,9 @@ system:
     value: "<p><em>(Prerequisite: Flaying Hook)</em></p>\n<p>You lace the chain of your Flaying Hook with spikes. When you attack a creature within 5 feet with your Flaying Hook, you can opt to make a Spiked Chain attack instead. This attack deals 2d4 piercing damage on hit, and has the Special property.</p>\n<p>Special. When you hit a creature with this weapon, that target loses 10 feet of movement (hindered by the chain) and takes 1d4 damage each time they move 5 feet, up to 2d4 damage (for 10 feet of movement). You can’t use this weapon against another creature until the start of your next turn, but have advantage on opportunity attacks against that target. If it doesn’t move before the start of your next turn, you reel your chain back in, dealing 1d4 slashing damage to that target.\_</p>"
     chat: ''
     unidentified: ''
-  source: ''
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Fleshsmith 3
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!GMBC1tpw1IVEtqvU'
 

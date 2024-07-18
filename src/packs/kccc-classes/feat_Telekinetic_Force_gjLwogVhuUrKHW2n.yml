@@ -37,7 +37,9 @@ system:
     value: "<p>You smash a target creature or object you can see with your mental power. The target must succeed on a Strength saving throw or take 1d10 bludgeoning damage, and either be shoved 5 feet in a direction of your choosing or be knocked prone.</p>\n<p>You can spend psi points up to your per use limit to add the following modifiers to Telekinetic Force (you can add multiple modifiers). The points must be spent when choosing the target of the power.\_</p>\n<p><strong>Crushing (2 psi points):</strong> The target is restrained until the end of its next turn if it fails its saving throw.</p>\n<p><strong>Hammering (1+ psi points):</strong> The target takes 1d10 bludgeoning damage for each point spent if it fails its saving throw.</p>\n<p><strong>Hurling (1–3 psi points):</strong> The target is shoved 10 feet in a direction of your choosing for each point spent if it fails its saving throw.</p>\n<p><strong>Zone of (1–3 psi points):</strong> You can target all creatures in a 5-foot radius of a point within range. The radius doubles for each point spent (5 feet, 10 feet, 20 feet).</p>"
     chat: ''
     unidentified: ''
-  source: Telekinesis
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: action
     cost: 1
@@ -83,7 +85,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Telekinesis 1
   recharge:
@@ -94,10 +96,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!gjLwogVhuUrKHW2n'
 

@@ -45,7 +45,9 @@ system:
     value: "<p>After dealing thunder damage on your turn, you can create a burst of thunderous sound that can be heard up to 100 feet away as a bonus action. Each creature within 5 feet, other than you, must make a Constitution saving throw or take [[/r 3d6]] thunder damage You can do this a number of times equal to your Intelligence modifier, regaining all uses after a long rest. This damage increases by 1d6 when you reach 17th level to a total of [[/r 4d6]].\_</p>"
     chat: ''
     unidentified: ''
-  source: Thundersmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: action
     cost: 1
@@ -91,7 +93,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Thundersmith 11
   recharge:
@@ -102,10 +104,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!zGNx3usjLzNCNc9k'
 

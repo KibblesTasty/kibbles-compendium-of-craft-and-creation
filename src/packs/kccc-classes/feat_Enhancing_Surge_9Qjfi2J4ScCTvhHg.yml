@@ -37,7 +37,9 @@ system:
     value: "<p>You empower the body of a target creature you can see with your psionics. The target gains [[/r 1d6]] temporary hit points and the next time the target deals damage, it deals [[/r 1d6]] additional damage to one target of that damage roll. Any remaining temporary hit points from this power fade when you use it again.</p>\n<p>You can spend psi points up to your per use limit to add the following modifiers to Enhancing Surge (you can add multiple modifiers). The points must be spent when choosing the target of the power.</p>\n<p><strong>Fortifying (1+ psi points):</strong> The target gains an extra 1d6 temporary hit points for each point spent.\_</p>\n<p><strong>Resilient (3 psi points):</strong> The target gains resistance to all damage until the start of your next turn.</p>\n<p><strong>Savage (1+ psi points):</strong> The target’s next weapon attack deals 1d6 additional damage for each point spent.</p>\n<p><strong>Swift (2 psi points): </strong>The target gains an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.</p>"
     chat: ''
     unidentified: ''
-  source: Enhancement
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: action
     cost: 1
@@ -85,7 +87,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Enhancement 1
   recharge:
@@ -96,10 +98,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!9Qjfi2J4ScCTvhHg'
 

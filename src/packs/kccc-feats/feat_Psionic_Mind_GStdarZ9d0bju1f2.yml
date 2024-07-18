@@ -1,7 +1,27 @@
 name: Psionic Mind
 type: feat
 img: icons/magic/symbols/chevron-elipse-circle-blue.webp
-data:
+effects: []
+folder: WFvzNorYM3hZbWBQ
+sort: 150000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Y6X22MSwcqwtLRG0
+_id: GStdarZ9d0bju1f2
+system:
   description:
     value: >-
       <p>You tap deeper into your psionic potential drawing out a new talent.
@@ -10,7 +30,9 @@ data:
       restriction, even if you are already of that level.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -50,32 +72,21 @@ data:
     ability: ''
     dc: null
     scaling: spell
-  requirements: Psion
+  requirements: The ability to use at least one psionic discipline
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.Y6X22MSwcqwtLRG0
-_id: GStdarZ9d0bju1f2
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343092139
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!GStdarZ9d0bju1f2'
 

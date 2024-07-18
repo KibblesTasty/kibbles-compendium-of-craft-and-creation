@@ -1,7 +1,27 @@
 name: Magical Researcher
 type: feat
 img: icons/skills/trades/academics-merchant-scribe.webp
-data:
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.MkMyoDfEnc6ubpJy
+_id: d76xKbRBH9zd4uEI
+system:
   description:
     value: >-
       <p>You delve the secrets of magic. You can make scrolls of spells you
@@ -14,7 +34,9 @@ data:
       have advantage on the spell casting check to cast it.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -54,32 +76,21 @@ data:
     ability: ''
     dc: null
     scaling: spell
-  requirements: Feat
+  requirements: Proficiency in the Arcana skill
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.MkMyoDfEnc6ubpJy
-_id: d76xKbRBH9zd4uEI
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343378618
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!d76xKbRBH9zd4uEI'
 

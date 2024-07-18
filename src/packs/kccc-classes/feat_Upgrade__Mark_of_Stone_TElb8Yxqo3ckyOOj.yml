@@ -26,7 +26,9 @@ system:
     value: "<p>As an action, you can place a special runic mark on a creature or armor. This mark lasts until you mark it again or take a long rest. While the rune is on that creature, you can cast @Compendium[dnd5e.spells.ReMbjfeOKoSj3O79]{Stoneskin} targeting that creature as a bonus action without requiring any material components.\_</p>\n<p>You can cast it this way without expending a slot once, after which you can’t cast it without a spell slot again until you finish a short or long rest.</p>"
     chat: ''
     unidentified: ''
-  source: Runesmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Runesmith 15
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!TElb8Yxqo3ckyOOj'
 

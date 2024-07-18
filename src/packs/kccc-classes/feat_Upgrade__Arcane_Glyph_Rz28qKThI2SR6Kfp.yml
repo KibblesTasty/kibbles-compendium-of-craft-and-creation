@@ -26,7 +26,9 @@ system:
     value: "<p>You learn how to translate a spell you know with a range of self into a glyph that can be marked on a creature or piece of armor. As a special 1 minute ritual, you can cast a spell you know with a casting time of 1 action, casting the spell as normal.\_ The spell doesn’t take immediate effect, but instead becomes imbued as a special glyph on a creature or armor you are touching. This glyph has no passive effect, but when activated with an action, it casts the stored spell as if the creature the glyph was marked on cast the spell.</p>\n<p>Alternatively, the creature marked with this glyph or wearing armor marked with this glyph that is aware of its presence can use this glyph to cast the spell marked within as if they cast the spell stored using a magical item. The casting uses your spellcasting ability, spell attack, and spell save DC.</p>\n<p>The glyph immediately fades after the spell has been cast (the spell lasts as normal). The glyph fades when the Runesmith that marked it finishes a long rest.</p>"
     chat: ''
     unidentified: ''
-  source: Runesmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Runesmith 3
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Rz28qKThI2SR6Kfp'
 

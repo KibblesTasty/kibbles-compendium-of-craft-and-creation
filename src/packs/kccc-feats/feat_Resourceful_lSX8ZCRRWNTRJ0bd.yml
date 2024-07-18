@@ -1,7 +1,27 @@
 name: Resourceful
 type: feat
 img: icons/tools/hand/awl-steel-brown.webp
-data:
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.JHZ8Lgvqqyzij45s
+_id: lSX8ZCRRWNTRJ0bd
+system:
   description:
     value: >-
       <p>You’ve mastered every play that’ll give you an edge when it comes to
@@ -24,7 +44,8 @@ data:
       </ul>
     chat: ''
     unidentified: ''
-  source: ''
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -68,28 +89,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.JHZ8Lgvqqyzij45s
-_id: lSX8ZCRRWNTRJ0bd
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343092139
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!lSX8ZCRRWNTRJ0bd'
 

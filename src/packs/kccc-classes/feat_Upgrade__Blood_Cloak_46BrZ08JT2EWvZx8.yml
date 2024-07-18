@@ -26,7 +26,9 @@ system:
     value: "<p><em>(You can only wear 1 cloak at a time.)</em></p>\n<p><em>Attunement, Cursed</em></p>\n<p>You forge a blood-red cloak that drinks blood to empower you. Unfortunately, mostly your blood. When you take damage from slashing or piercing damage while below half of your maximum hit points, you gain temporary hit points equal to half the damage taken (after taking the damage). If you hit a creature while you have temporary hit points, you can expend them, adding them to your damage roll.</p>\n<p>Curse: If you are healed while you have temporary hit points, the temporary points are lost and the healing is reduced by the\_</p>"
     chat: ''
     unidentified: ''
-  source: Cursesmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Cursesmith 11
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!46BrZ08JT2EWvZx8'
 

@@ -26,7 +26,9 @@ system:
     value: "<p>At 3rd level, choose an upgrade from the list at the end of your specialization, gaining the benefits listed in its description.</p>\n<p>You select an additional upgrade at 5th, 7th, 9th, 11th, 13th, 15th, 17th, and 19th level. You can’t select an upgrade more than once, unless the upgrade’s description says otherwise. Whenever you gain a level in this class, you can exchange one of your existing upgrades with another upgrade of the same level requirement as the replaced upgrade.</p>\n<p>Whenever an existing upgrade is exchanged for a replacement upgrade (either by a subclass feature or when you gain a level), the new upgrade is selected as if you’re the level you were when you originally gained that upgrade. For example, if you replace your Stormforged Weapon and reselect all of your upgrades as a 5th-level inventor, you could select one 3rd-level upgrade and one 5th-level upgrade, or two 3rd-level upgrades, but you would not be able to select two 5th-level upgrades.</p>\n<p>The following generic upgrades are available to all subclasses, and can be selected in place of any subclass upgrade:</p>\n<p>@Item[8YgTNNf33q3QaXUP]{Inventor Upgrade: Shield Proficiency}</p>\n<p>@Item[5kQ8oOEbAbWRXN7k]{Inventor Upgrade: Tool Proficiency}</p>\n<blockquote>\n<p><strong>Customizing Inventor Upgrades</strong></p>\n<p>The upgrades for each Inventor Specialization are presented in a list at the end of the subclass, but invariably there will always be ideas for upgrades not included in that list. At the heart of an inventor beats an unrelenting drive for creativity, after all! Feel free to consult your GM for potential custom upgrades.</p>\n</blockquote>\n<p>\_</p>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: Inventor
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Inventor 3
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!JXBziepdqvwsIAtV'
 

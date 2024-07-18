@@ -26,7 +26,9 @@ system:
     value: "<p><em>\_(You can only wear 1 cloak at a time.)</em></p>\n<p><em>Attunement, Cursed</em></p>\n<p>You craft a cloak that chips away at your bonds to the material world around you. At the start of your turn while wearing the cloak, you can choose to slip those bonds entirely, stepping into the ethereal plane. Moving through creatures doesn’t impose a movement penalty, and you can move through objects up to 5 feet thick as difficult terrain. If you end your turn in another creature or object's space, you are moved to the nearest available space, taking 1d10 force damage per five feet moved.</p>\n<p>Once you activate this item, you can’t activate it again until you finish a short or long rest.</p>\n<p><strong>Curse:</strong> After leaving the Ethereal plane, until the start of your next turn you appear vaguely translucent, all damage you deal is reduced by half, and you have resistance to non-magical bludgeoning, piercing and slashing damage.</p>"
     chat: ''
     unidentified: ''
-  source: Cursesmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Cursesmith 11
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!b3JySShZBnEz6MAc'
 

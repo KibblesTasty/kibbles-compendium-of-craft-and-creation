@@ -26,7 +26,9 @@ system:
     value: "<p><em>{Incompatible with other Capacitors)</em></p>\n<p>You store up kinetic energy, and unleash it in a mighty bound. As an action, you can jump up to your entire walking speed and cast @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.q8JSgTKqjWxVYDwU]{Shockwave} without expending a spell slot or charges upon landing.</p>\n<p>Once you use this upgrade, you can’t use it again until you finish a long rest.</p>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: Warsmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Warsmith 14
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ZPmHLbo5OgaxsLnO'
 

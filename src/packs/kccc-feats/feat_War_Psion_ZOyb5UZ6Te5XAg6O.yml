@@ -1,34 +1,44 @@
 name: War Psion
 type: feat
 img: icons/skills/melee/strike-dagger-arcane-pink.webp
-data:
+effects: []
+folder: WFvzNorYM3hZbWBQ
+sort: 125000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.U2tp72QAulNtpCUN
+_id: ZOyb5UZ6Te5XAg6O
+system:
   description:
     value: >-
-      <p><em>Prerequisite: The ability to use at least one psionic
-      discipline</em></p>
-
       <p>You have mastered utilizing psionics in the midst of combat, learning
-      techniques that grant you the following benefits:</p>
-
-      <ul>
-
-      <li>You have advantage on Constitution saving throws that you make to
-      maintain your concentration on a psionic ability when you take
-      damage.</li>
-
-      <li>You can perform the somatic components of psionic abilities even when
-      you have weapons or a shield in one or both hands.</li>
-
-      <li>When a hostile creature’s movement provokes an opportunity attack from
-      you, you can use your reaction to use a psionic disciplines power or spell
-      targeting the creature, rather than making an opportunity attack. The
-      spell must have a casting time of 1 action and must target only that
-      creature.</li>
-
-      </ul>
+      techniques that grant you the following benefits:</p><ul><li>You have
+      advantage on Constitution saving throws that you make to maintain your
+      concentration on a psionic ability when you take damage.</li><li>You can
+      perform the somatic components of psionic abilities even when you have
+      weapons or a shield in one or both hands.</li><li>When a hostile
+      creature’s movement provokes an opportunity attack from you, you can use
+      your reaction to use a psionic disciplines power or spell targeting the
+      creature, rather than making an opportunity attack. The spell must have a
+      casting time of 1 action and must target only that creature.</li></ul>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -68,32 +78,21 @@ data:
     ability: ''
     dc: null
     scaling: spell
-  requirements: Psion Feat
+  requirements: The ability to use at least one psionic discipline
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.U2tp72QAulNtpCUN
-_id: ZOyb5UZ6Te5XAg6O
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343092139
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ZOyb5UZ6Te5XAg6O'
 

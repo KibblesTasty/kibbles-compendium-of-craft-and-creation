@@ -1,28 +1,45 @@
 name: School Specialist
 type: feat
 img: icons/skills/trades/academics-book-study-runes.webp
-data:
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.BTjJ2dDlE9OAQFez
+_id: NIeb0Fnpw70pTNxX
+system:
   description:
     value: >-
-      <p><em>Prerequisite: The ability to cast at least one spell</em></p>
-
       <p>When you gain this feat, choose one of the following schools of magic:
       Abjuration, Divination, Conjuration, Enchantment, Evocation, Illusion,
-      Necromancy, or Transmutation.</p>
-
-      <p>You learn a spell from the selected school. It must either come from
-      the spell list of a class you have the spell casting feature of, or be a
-      1st- or 2nd-level spell. You can only select a spell of a level which you
-      can cast. You can change your selected spell when you gain a level,
-      selecting a new spell that fits the criteria.</p>
-
-      <p>Additionally, you can cast cantrips of the selected school as a bonus
-      action. When you cast them as a bonus action, the cantrip is cast as if
-      you were a 1st level caster. You can do this a number of times equal to
-      your proficiency bonus, regaining all uses on a long rest.</p>
+      Necromancy, or Transmutation.</p><p>You learn a spell from the selected
+      school. It must either come from the spell list of a class you have the
+      spell casting feature of, or be a 1st- or 2nd-level spell. You can only
+      select a spell of a level which you can cast. You can change your selected
+      spell when you gain a level, selecting a new spell that fits the
+      criteria.</p><p>Additionally, you can cast cantrips of the selected school
+      as a bonus action. When you cast them as a bonus action, the cantrip is
+      cast as if you were a 1st level caster. You can do this a number of times
+      equal to your proficiency bonus, regaining all uses on a long rest.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -62,32 +79,21 @@ data:
     ability: ''
     dc: null
     scaling: spell
-  requirements: Feat
+  requirements: The ability to cast at least one spell
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.BTjJ2dDlE9OAQFez
-_id: NIeb0Fnpw70pTNxX
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343397070
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!NIeb0Fnpw70pTNxX'
 

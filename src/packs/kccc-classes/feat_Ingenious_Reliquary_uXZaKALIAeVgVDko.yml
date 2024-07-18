@@ -26,7 +26,9 @@ system:
     value: "<p>Starting at 3rd level, you integrate your Relic into another item, selecting one of the following for your Relic. Your Relic retains all the properties it normally has, and gains new properties based on the selected item. Once selected, you can’t select a different option, but can replace the weapon your relic is incorporated into during a long rest.</p>\n<p>@Item[VqzoDkZHjW2mFOqa]{Ingenious Reliquary: Melee Weapon}</p>\n<p>@Item[PCrntXwv3Zhz5Ztq]{Ingenious Reliquary: Ranged Weapon}</p>\n<p>@Item[Nj61tUxZr5dhswYZ]{Ingenious Reliquary: Relic Lantern}</p>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: Relicsmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Relicsmith 3
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!uXZaKALIAeVgVDko'
 

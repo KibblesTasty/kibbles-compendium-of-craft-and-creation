@@ -26,7 +26,9 @@ system:
     value: "<p>Precognition is the ability to see what lies ahead, piercing the veil of the future. Seeing things that most people cannot a Psion with Precognitive abilites can, to a limited extent, know the future; such a future is known by tracing its roots from the present, and grows more mysterious and cloudy as such roots grow distant.</p>\n<p>Such a future can be changed by the actions of the present, particularly by knowledge of said future and action to prevent or change it. This is the function most often leveraged by Precognitive Psions, peering into the future to steer around courses they seek to prevent or steer toward a possible outcome they seek.</p>\n<h2 style=\"box-sizing:border-box;user-select:text;border-bottom:1px solid var(--color-underline-header);color:#191813\">Features</h2>\n<p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.7GQU2JG7iu7jS5bp]{Prescience}</p>\n<p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.GvoZBz0DzdhC0TVz]{Seeing}</p>\n<h2 style=\"box-sizing:border-box;user-select:text;border-bottom:1px solid var(--color-underline-header);color:#191813\">Alternate Effects</h2>\n<p>Additionally, when you learn the Precognition psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center\"><strong>Point Cost</strong></td>\n<td style=\"text-align:center\"><strong>Alternate Effects</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\">@Compendium[dnd5e.spells.Mzh95utKDPIrjiH8]{Detect Evil and Good}, @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.kMtGAzfBTuZJUlZZ]{Future Insight}</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">2</td>\n<td style=\"text-align:center\">@Compendium[dnd5e.spells.4v2H3hHb3Ph9XLNd]{Augury}, @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.hpYYLrY7pXzdqnrs]{Glimpse the Future}</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">3</td>\n<td style=\"text-align:center\">@Compendium[dnd5e.spells.cg50KpBkBdPK6vPL]{Clairvoyance}</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">4</td>\n<td style=\"text-align:center\">@Compendium[dnd5e.spells.VtCXMdyM6mAdIJZb]{Death Ward}, @Compendium[dnd5e.spells.XqzXSKNR75ZdYTA9]{Divination}</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">5</td>\n<td style=\"text-align:center\">@Compendium[dnd5e.spells.fVbCxFRaORalHB20]{Scrying}</td>\n</tr>\n</tbody>\n</table>\n<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Available Talents</h2>\n<p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.3JHeW2OYC8Bb2dMB]{Talent: Glimpsed Future}</p>\n<p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.Xz1uNN5aV1d5HpiS]{Talent: One Step Ahead}</p>\n<p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.wfvzwOc5Fh2W1FJ2]{Talent: Precognitive Dreams}</p>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: Psion
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Psion 1
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Kq9v0VrwUAu4cXC2'
 

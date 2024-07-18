@@ -26,7 +26,9 @@ system:
     value: "<p>After a long study of the internal workings of your Stormforged Weapon, your mastery of lightning and thunder magic is such that you learn the following spells at the following levels and can cast them as Inventor Spells.</p>\n<p>\_</p>\n<table style=\"width:78.66%;height:202px\" border=\"1\">\n<tbody>\n<tr style=\"height:34px\">\n<td style=\"width:29.0983%;height:34px;text-align:center\"><strong>Inventor Level</strong></td>\n<td style=\"width:70.7925%;height:34px;text-align:center\"><strong>Spell</strong></td>\n</tr>\n<tr style=\"height:32px\">\n<td style=\"width:29.0983%;height:32px;text-align:center\">3rd</td>\n<td style=\"width:70.7925%;height:32px;text-align:center\">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.lNyTLkMuEYCGtDAf]{Lightning Tendril}</td>\n</tr>\n<tr style=\"height:34px\">\n<td style=\"width:29.0983%;height:34px;text-align:center\">5th</td>\n<td style=\"width:70.7925%;height:34px;text-align:center\">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.PHYoXC5Db7TtvHel]{Crackle}</td>\n</tr>\n<tr style=\"height:34px\">\n<td style=\"width:29.0983%;height:34px;text-align:center\">9th</td>\n<td style=\"width:70.7925%;height:34px;text-align:center\">@Compendium[dnd5e.spells.IyikgTEOTv701jgQ]{Lightning Bolt}</td>\n</tr>\n<tr style=\"height:34px\">\n<td style=\"width:29.0983%;height:34px;text-align:center\">13th</td>\n<td style=\"width:70.7925%;height:34px;text-align:center\">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.w971EVavPBUgape4]{Jumping Jolt}</td>\n</tr>\n<tr style=\"height:34px\">\n<td style=\"width:29.0983%;height:34px;text-align:center\">15th</td>\n<td style=\"width:70.7925%;height:34px;text-align:center\">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.Cq0zgjCpvYxDXiYf]{Sky Burst}</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<p>You can cast\_ @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.lNyTLkMuEYCGtDAf]{Lightning Tendril} without expending a spell slot, after which you must finish a long rest before you can cast it without expending a spell slot again. Starting at 5th level, you can choose to cast @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.PHYoXC5Db7TtvHel]{Crackle} without expending a spell slot instead.</p>"
     chat: ''
     unidentified: ''
-  source: Thundersmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Thundersmith 3
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!sZ5OM9XAYnZ5n8mp'
 

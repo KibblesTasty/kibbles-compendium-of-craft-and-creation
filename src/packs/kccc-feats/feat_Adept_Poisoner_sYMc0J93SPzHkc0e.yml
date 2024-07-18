@@ -1,7 +1,27 @@
 name: Adept Poisoner
 type: feat
 img: icons/magic/acid/dissolve-bone-skull.webp
-data:
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Uh6bFsUcF9lE12sS
+_id: sYMc0J93SPzHkc0e
+system:
   description:
     value: >-
       <p>You specialize in developing poisons, granting you proficiency with
@@ -35,7 +55,9 @@ data:
       poison damage.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -79,28 +101,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.Uh6bFsUcF9lE12sS
-_id: sYMc0J93SPzHkc0e
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343092139
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!sYMc0J93SPzHkc0e'
 

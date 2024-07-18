@@ -34,7 +34,9 @@ system:
     value: "<p><em>\_(You can only wear 1 Helm at a time.)</em></p>\n<p><em>Attunement, Cursed.</em></p>\n<p>You make a helm granting you unlimited knowledge. As a bonus action, you can gain the effect of the foresight spell until the start of your next turn. Once you use this helm, you can’t use it again until you finish a short or long rest.</p>\n<p><strong>Curse: </strong>When you activate this helm, your mind becomes overloaded, causing you to take 1d6 psychic damage when you make a roll that benefits from this foresight until the start of your next turn.</p>"
     chat: ''
     unidentified: ''
-  source: Cursesmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: bonus
     cost: 1
@@ -80,7 +82,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Cursesmith 3
   recharge:
@@ -91,10 +93,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!VpMOMdeB1f1lqHUP'
 

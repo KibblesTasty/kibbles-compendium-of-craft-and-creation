@@ -26,7 +26,9 @@ system:
     value: "<p>You make a twisted magical rod that can dispense curses. Select one of @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.gRydgHWP1tzngSpF]{Rotting Curse}, @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.zNJ43Ho1je7dKswZ]{Binding Curse}, or @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.ICCvw69mOus2q5MU]{Befuddling Curse} when you create this item. You can cast that curse once using it without expending a spell slot. Once you do so, you can’t do so again until you finish a short or long rest.\_</p>"
     chat: ''
     unidentified: ''
-  source: Cursesmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Cursesmith 3
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!q91daejRCUqdZR5y'
 

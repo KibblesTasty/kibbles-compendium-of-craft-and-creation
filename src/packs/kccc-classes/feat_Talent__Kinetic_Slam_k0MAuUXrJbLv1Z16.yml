@@ -37,7 +37,9 @@ system:
     value: "<p>When you use the Telekinetic Force power, you can unleash it as a blast of kinetic power. You can use your power as a ranged spell attack (applying damage and effects on hit)\_ instead of requiring a Strength saving throw. You can only select the Hammering modifier when you use it in this way.</p>\n<h2>Telekinetic Force</h2>\n<p>You smash a target creature or object you can see with your mental power. The target must succeed on a Strength saving throw or take 1d10 bludgeoning damage, and either be shoved 5 feet in a direction of your choosing or be knocked prone.</p>\n<p>You can spend psi points up to your per use limit to add the following modifiers to Telekinetic Force (you can add multiple modifiers). The points must be spent when choosing the target of the power.\_</p>\n<p><strong>Hammering (1+ psi points):</strong>\_The target takes 1d10 bludgeoning damage for each point spent if it fails its saving throw.</p>"
     chat: ''
     unidentified: ''
-  source: Telekinesis
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: action
     cost: 1
@@ -83,7 +85,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Telekinesis 1
   recharge:
@@ -94,10 +96,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!k0MAuUXrJbLv1Z16'
 

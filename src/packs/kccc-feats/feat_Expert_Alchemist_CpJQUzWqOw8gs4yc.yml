@@ -1,30 +1,41 @@
 name: Expert Alchemist
 type: feat
 img: icons/consumables/potions/bottle-conical-fumes-green.webp
-data:
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.y7frhPCOfPLuQRNK
+_id: CpJQUzWqOw8gs4yc
+system:
   description:
     value: >-
-      <p><em>Prerequisite: Proficiency with alchemist’s supplies</em></p>
-
       <p>Your long practice of alchemy has granted you the following
-      benefits:</p>
-
-      <ul>
-
-      <li>Your Intelligence or Wisdom ability score increases by 1, to a maximum
-      of 20.</li>
-
-      <li>When you make an Alchemy crafting check, you can take 10 as the result
-      of the d20 (instead of rolling) without spending additional time.</li>
-
-      <li>During a long rest, you can produce one Potion of Healing without
-      material components. This is a temporary potion that loses its potency
-      after 24 hours.</li>
-
-      </ul>
+      benefits:</p><ul><li>Your Intelligence or Wisdom ability score increases
+      by 1, to a maximum of 20.</li><li>When you make an Alchemy crafting check,
+      you can take 10 as the result of the d20 (instead of rolling) without
+      spending additional time.</li><li>During a long rest, you can produce one
+      Potion of Healing without material components. This is a temporary potion
+      that loses its potency after 24 hours.</li></ul>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -64,32 +75,21 @@ data:
     ability: ''
     dc: null
     scaling: spell
-  requirements: Feat
+  requirements: Proficiency with alchemist’s supplies
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.y7frhPCOfPLuQRNK
-_id: CpJQUzWqOw8gs4yc
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343336097
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!CpJQUzWqOw8gs4yc'
 

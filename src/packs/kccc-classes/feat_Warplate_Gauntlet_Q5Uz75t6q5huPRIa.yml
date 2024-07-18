@@ -26,7 +26,9 @@ system:
     value: "<p>At 1st level, when you take this specialization, you\_</p>\n<p>construct a Warplate Gauntlet. This is a specialized Wondrous Item that only you can attune to. When you create a Warplate Gauntlet, you can add one of the following upgrades to it: Power Fist, Force Blast, or Martial Grip. This upgrade doesn’t count against your upgrade total. You can make multiple gauntlets with different upgrades, but can only be attuned to one at a time.</p>\n<p>If you lose your Warplate Gauntlet, you can remake it during a long rest with 25 gp worth of materials, or can scavenge for materials and forge it over two days of work (8 hours each day) without the material expense.</p>\n<p>While wearing a Warplate Gauntlet, you can engage Artificial Strength.</p>\n<p>\_</p>\n<h3>Artificial Strength</h3>\n<p>When you don your Warplate Gauntlet or as an action while wearing it, you can dedicate some of your intelligence to fully controlling the power of the gauntlet. You can reduce your current and maximum Intelligence score to increase your current Strength ability score by the same amount, but you can only raise your Strength ability score up to what your Intelligence ability score was before engaging Artificial Strength. You can stop using Artificial Strength at any time, and it automatically ends if your gauntlet is removed.</p>"
     chat: ''
     unidentified: ''
-  source: Warsmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Warsmith 1
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Q5Uz75t6q5huPRIa'
 

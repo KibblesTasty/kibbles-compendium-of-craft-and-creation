@@ -1,7 +1,27 @@
 name: Rune Expert
 type: feat
 img: icons/magic/symbols/rune-sigil-black-pink.webp
-data:
+effects: []
+folder: Z5zYDY8KCJ6SYkne
+sort: 150000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Q95y6hi6L8XM6Zah
+_id: iz5UQOxbau4RDNQA
+system:
   description:
     value: >-
       <p>You can select a single Runic Mark from the Inventor Runesmith
@@ -9,7 +29,9 @@ data:
       of the Inventor class.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -49,32 +71,21 @@ data:
     ability: ''
     dc: null
     scaling: spell
-  requirements: Inventor Feat
+  requirements: Inventor
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.Q95y6hi6L8XM6Zah
-_id: iz5UQOxbau4RDNQA
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343312959
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!iz5UQOxbau4RDNQA'
 

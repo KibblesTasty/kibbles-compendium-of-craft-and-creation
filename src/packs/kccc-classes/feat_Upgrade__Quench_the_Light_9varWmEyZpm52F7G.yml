@@ -26,7 +26,9 @@ system:
     value: "<p><em>\_(Prerequisite: Relic Lantern)</em></p>\n<p>You snuff the light of your lantern, plunging the area around you into darkness. Creatures of your choice within the area that was illuminated by your lanter must make a Wisdom saving throw. On failure, they take [[/r 8d6]] necrotic damage, and half as much on a success. If extinguishing your lantern would leave the creature blinded by darkness, they make the saving throw with disadvantage. Your lantern does not emit light until the start of your next turn.</p>\n<p>Once you use this feature, you cannot do so again until you complete a long rest.\_</p>"
     chat: ''
     unidentified: ''
-  source: Relicsmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Relicsmith 9
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!9varWmEyZpm52F7G'
 

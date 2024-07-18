@@ -1,7 +1,27 @@
 name: Ultimate Improviser
 type: feat
 img: icons/tools/hand/pickaxe-simple-stone-brown.webp
-data:
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.q5sU2UZy7PMpzHOb
+_id: Ac73RT7b8AUuVGIO
+system:
   description:
     value: >-
       <p>You find new ways to do anything. You gain the following benefits:</p>
@@ -25,7 +45,9 @@ data:
       </ul>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -65,32 +87,21 @@ data:
     ability: ''
     dc: null
     scaling: spell
-  requirements: Feat
+  requirements: ''
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.q5sU2UZy7PMpzHOb
-_id: Ac73RT7b8AUuVGIO
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343411685
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Ac73RT7b8AUuVGIO'
 

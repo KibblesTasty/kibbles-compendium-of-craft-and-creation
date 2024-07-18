@@ -1,7 +1,27 @@
 name: Soul Investor
 type: feat
 img: icons/magic/symbols/runes-etched-steel-blade.webp
-data:
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.d5cqCwxF6c4ulb2i
+_id: rO3gaaKJi76l1oFK
+system:
   description:
     value: >-
       <p>You have the special gift to invest your soul into magic items. This
@@ -77,7 +97,9 @@ data:
       </table>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -117,32 +139,21 @@ data:
     ability: ''
     dc: null
     scaling: spell
-  requirements: Feat
+  requirements: ''
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.d5cqCwxF6c4ulb2i
-_id: rO3gaaKJi76l1oFK
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343402491
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!rO3gaaKJi76l1oFK'
 

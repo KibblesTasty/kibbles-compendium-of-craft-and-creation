@@ -1,11 +1,29 @@
 name: Upgraded
 type: feat
 img: icons/magic/symbols/cog-orange-red.webp
-data:
+effects: []
+folder: cuD3x8l9OVrtku6p
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.wPOasolZAQvDV6sx
+_id: xB36nae4SKGzXaoG
+system:
   description:
     value: >-
-      <p><em>Prerequisite: Ironwrought</em></p>
-
       <p>You can apply one unrestricted Golemsmith or Warsmith upgrade to
       yourself (as if you were the golem or the warplate). This can’t be an
       upgrade that increases your ability scores. Any ability the does the same
@@ -14,7 +32,9 @@ data:
       Integrated Armor.)</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -54,32 +74,21 @@ data:
     ability: ''
     dc: null
     scaling: spell
-  requirements: Ironwrought Feat
+  requirements: Ironwrought
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.wPOasolZAQvDV6sx
-_id: xB36nae4SKGzXaoG
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343197701
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!xB36nae4SKGzXaoG'
 

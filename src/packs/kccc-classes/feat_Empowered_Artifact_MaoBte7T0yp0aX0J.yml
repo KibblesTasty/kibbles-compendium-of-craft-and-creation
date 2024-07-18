@@ -26,7 +26,9 @@ system:
     value: "<p>The weapon hums with great power. When you roll damage with an attack made with the weapon, you can reroll one of the weapon’s damage dice.\_</p>\n<p>When attacking objects or structures, you can instead maximize its damage dice.</p>"
     chat: ''
     unidentified: ''
-  source: Cursesmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Cursesmith 1
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!MaoBte7T0yp0aX0J'
 

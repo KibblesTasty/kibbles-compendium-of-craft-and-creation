@@ -26,7 +26,9 @@ system:
     value: "<p>Nullification is the ability to interfere with the supernatural effects of the world, reverting reality back to its original state.</p>\n<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Features</h2>\n<p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.QExoWuMUQYqPZiXE]{Disruptive Touch}</p>\n<p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.2JnFK7481wDODDI9]{Denial}</p>\n<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Alternate Effects</h2>\n<p>Additionally, when you learn the Nullification psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:</p>\n<table style=\"width:100%;height:102px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:37.8109%;height:17px\"><strong>Point Cost</strong></td>\n<td style=\"text-align:center;width:62.1891%;height:17px\"><strong>Alternate Effects</strong></td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:37.8109%;height:17px\">1</td>\n<td style=\"text-align:center;width:62.1891%;height:17px\">@Compendium[dnd5e.spells.xmDBqZhRVrtLP8h2]{Protection from Evil and Good}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:37.8109%;height:17px\">2</td>\n<td style=\"text-align:center;width:62.1891%;height:17px\">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.dP9QVBIRW6t5zF92]{Nullify Effect}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:37.8109%;height:17px\">3</td>\n<td style=\"text-align:center;width:62.1891%;height:17px\">@Compendium[dnd5e.spells.Ek45cBpVXvJdv1Qy]{Counterspell}, @Compendium[dnd5e.spells.15Fa6q1nH27XfbR8]{Dispel Magic}, @Compendium[dnd5e.spells.XZhdgVK3cLoxNCQl]{Remove Curse}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:37.8109%;height:17px\">4</td>\n<td style=\"text-align:center;width:62.1891%;height:17px\">@Compendium[dnd5e.spells.pxpb2eOB6bv4phAf]{Banishment}</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:37.8109%;height:17px\">5</td>\n<td style=\"text-align:center;width:62.1891%;height:17px\">@Compendium[dnd5e.spells.TkJ8Wtg1L7TZtspm]{Dispel Evil and Good}</td>\n</tr>\n</tbody>\n</table>\n<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Available Talents</h2>\n<p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.zOUq2ZgmGssauJsT]{Talent: Deadspot}</p>\n<p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.OIIef7LMwRsYLV0J]{Talent: Iron Templar}</p>\n<p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.CQShc6W1kImxx0Wy]{Talent: Magical Anathema}</p>\n<p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.MyJPyErFP6raqqqX]{Talent: Magical Resistance}</p>\n<p>\_</p>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: Psion
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Psion 1
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ySoN4xWIjxz5gDVP'
 

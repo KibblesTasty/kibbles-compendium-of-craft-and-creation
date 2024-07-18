@@ -1,12 +1,34 @@
 name: Alien Weapon Training
 type: feat
 img: icons/weapons/polearms/spear-ice-crystal-blue.webp
-data:
+effects: []
+folder: 3F6vkAeOz0qGlyau
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.16u4S4hOI6EPohnN
+_id: XiIsuAZkwzEJJru7
+system:
   description:
-    value: "<p><em>Prerequisite: Farling</em></p>\n<p>You gain the ability to use a weapon, and the ability to use it in\_ unique ways. You gain proficiency with one weapon of your choice, and when you gain proficiency with it you gain the ability to use it an unorthodox manner other creatures may find strange. You can add one of the following properties to that weapon that it doesn’t already have when you use it: heavy (if it doesn’t have the light property), light (if it does have heavy property), finesse, versatile (if it doesn’t have the two-handed property, increasing the size of the damage die by one step), or thrown (10/30). The weapon and property added are selected when you take the feat, and can’t be changed.</p>"
+    value: "<p>You gain the ability to use a weapon, and the ability to use it in\_ unique ways. You gain proficiency with one weapon of your choice, and when you gain proficiency with it you gain the ability to use it an unorthodox manner other creatures may find strange. You can add one of the following properties to that weapon that it doesn’t already have when you use it: heavy (if it doesn’t have the light property), light (if it does have heavy property), finesse, versatile (if it doesn’t have the two-handed property, increasing the size of the damage die by one step), or thrown (10/30). The weapon and property added are selected when you take the feat, and can’t be changed.</p>"
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -46,32 +68,21 @@ data:
     ability: ''
     dc: null
     scaling: spell
-  requirements: Farling Feat
+  requirements: Farling
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.16u4S4hOI6EPohnN
-_id: XiIsuAZkwzEJJru7
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343269826
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!XiIsuAZkwzEJJru7'
 

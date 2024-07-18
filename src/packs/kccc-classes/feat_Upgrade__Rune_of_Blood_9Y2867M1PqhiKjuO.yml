@@ -26,7 +26,9 @@ system:
     value: "<p>An esoteric rune that binds the essence of life. It has the following effects:</p>\n<table style=\"width:403px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary)\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Target</strong></td>\n<td style=\"text-align:center;width:268.953px\"><strong>Effect</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Weapon</strong></td>\n<td style=\"text-align:center;width:268.953px\">Each time the weapon deals damage to a creature, it stores one charge, up to a maximum number of charges equal to your Intelligence modifier.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Armor</strong></td>\n<td style=\"text-align:center;width:268.953px\">If the affected creature is hit by a critical hit or reduced to zero hit points, the rune stores one charge, up to a maximum number of charges equal to your Intelligence modifier.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Active (Revitalize)</strong></td>\n<td style=\"text-align:center;width:268.953px\">The affected creature can immediately expend 1 Hit Die, rolling it and regaining hit points as normal. All charges of the rune are consumed, restoring an extra 1d4 per charge consumed.</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: Runesmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Runesmith 3
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!9Y2867M1PqhiKjuO'
 

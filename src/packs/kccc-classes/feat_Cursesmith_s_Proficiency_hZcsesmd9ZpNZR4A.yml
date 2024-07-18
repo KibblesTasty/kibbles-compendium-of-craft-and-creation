@@ -26,7 +26,9 @@ system:
     value: "<p>When you choose this specialization at 1st level, you gain proficiency with one artisan’s tool of your choice, and learn one language of your choice from Infernal, Abyssal, Deepspeech, or Primordial.</p>\n<p>Additionally, you have advantage on any check to determine the nature of a curse.</p>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: Cursesmith
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Cursesmith 1
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!hZcsesmd9ZpNZR4A'
 

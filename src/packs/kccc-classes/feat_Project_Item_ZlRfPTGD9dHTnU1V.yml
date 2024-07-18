@@ -29,7 +29,9 @@ system:
     value: "<p>As an action, you can use your powers to project an inanimate object you imagine into your hands. It can’t be larger than 3 feet on any side or weigh more than 10 pounds, and is clearly ethereal in nature. The item behaves as a solid object. Weapons created with this feature deal force damage.</p>\n<p>Projected items fade after 1 minute, and you can have no more than 3 projected items at a time.</p>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: Projection
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: action
     cost: 1
@@ -73,7 +75,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Projection 1
   recharge:
@@ -84,10 +86,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ZlRfPTGD9dHTnU1V'
 

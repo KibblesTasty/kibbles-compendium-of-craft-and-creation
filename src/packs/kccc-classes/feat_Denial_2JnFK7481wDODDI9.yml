@@ -82,7 +82,9 @@ system:
       it would otherwise qualify.</p>
     chat: ''
     unidentified: ''
-  source: Nullification
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: action
     cost: 1
@@ -128,7 +130,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Nullification 1
   recharge:
@@ -139,10 +141,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!2JnFK7481wDODDI9'
 

@@ -26,7 +26,9 @@ system:
     value: "<p>Starting at 14th level, when you would roll a Strength, Dexterity, or Constitution saving throw, you can expend 2 psi points to roll an Intelligence saving throw instead.</p>\n<p>Additionally, when you roll a Death saving throw, you can expend 4 psi points before rolling to treat the\_ roll as 20.</p>"
     chat: ''
     unidentified: ''
-  source: Transcended
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: none
     cost: 1
@@ -70,7 +72,7 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Transcended 14
   recharge:
@@ -81,10 +83,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693857309235
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721342898481
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!vj41DZ1czHkonEr8'
 

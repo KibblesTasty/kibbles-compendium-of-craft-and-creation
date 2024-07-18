@@ -1,19 +1,38 @@
 name: Spell Library
 type: feat
 img: icons/sundries/books/book-open-purple.webp
-data:
+effects: []
+folder: 3F6vkAeOz0qGlyau
+sort: 125000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.BTeXUg0VxdxqD9cQ
+_id: Y8Df2dxhKsKqozlJ
+system:
   description:
     value: >-
-      <p><em>Prerequisite: Farling, any class with the Spellcasting or Pact
-      Magic feature</em></p>
-
       <p>Your ability to perfectly memorize that which you experience enhances
       your ability to grasp and memorize spells. The number of spells you know
       or can prepare for one class you have levels in (your choice if you have
       multiple) increases by your proficiency bonus.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -53,32 +72,21 @@ data:
     ability: ''
     dc: null
     scaling: spell
-  requirements: Farling Feat
+  requirements: Farling, any class with the Spellcasting or Pact Magic feature
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.BTeXUg0VxdxqD9cQ
-_id: Y8Df2dxhKsKqozlJ
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343298017
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Y8Df2dxhKsKqozlJ'
 

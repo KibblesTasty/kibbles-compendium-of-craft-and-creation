@@ -1,7 +1,27 @@
 name: Tool Expert
 type: feat
 img: icons/tools/hand/hammer-and-nail.webp
-data:
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.XC8znE420rGW4idN
+_id: Upif6oo2tB5Y5crP
+system:
   description:
     value: >-
       <p>You have honed your proficiency with particular tools, granting you the
@@ -21,7 +41,9 @@ data:
       </ul>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -61,32 +83,21 @@ data:
     ability: ''
     dc: null
     scaling: spell
-  requirements: Feat
+  requirements: ''
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: feat
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.XC8znE420rGW4idN
-_id: Upif6oo2tB5Y5crP
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721343405482
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Upif6oo2tB5Y5crP'
 
