@@ -1,7 +1,27 @@
 name: 'Ironwrought: Language Module'
 type: feat
 img: icons/commodities/tech/sensor-brown.webp
-data:
+effects: []
+folder: mFSXW0RgEhfMfE17
+sort: 300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.juTSliwrfQCuc2Wq
+_id: JW5O1ynuAe6134Xy
+system:
   description:
     value: >-
       <p><span style="color:#191813;font-size:13px">You learn one additional
@@ -10,7 +30,8 @@ data:
       long rest. You can cast this spell using spell slots.</span></p>
     chat: ''
     unidentified: ''
-  source: Ironwrought
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -54,28 +75,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.juTSliwrfQCuc2Wq
-_id: JW5O1ynuAe6134Xy
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340118184
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!JW5O1ynuAe6134Xy'
 

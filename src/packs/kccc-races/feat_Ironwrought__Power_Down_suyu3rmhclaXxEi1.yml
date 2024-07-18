@@ -1,7 +1,27 @@
 name: 'Ironwrought: Power Down'
 type: feat
 img: icons/magic/time/arrows-circling-pink.webp
-data:
+effects: []
+folder: 22gHepHEyvHvyGqQ
+sort: 100782
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Po1NDTKWI0gLcvPe
+_id: suyu3rmhclaXxEi1
+system:
   description:
     value: >-
       <p>You do not need to sleep. When you take a long rest, you must spend at
@@ -10,7 +30,8 @@ data:
       remain aware of your surroundings.</p>
     chat: ''
     unidentified: ''
-  source: Ironwrought
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -54,28 +75,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.Po1NDTKWI0gLcvPe
-_id: suyu3rmhclaXxEi1
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340118184
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!suyu3rmhclaXxEi1'
 

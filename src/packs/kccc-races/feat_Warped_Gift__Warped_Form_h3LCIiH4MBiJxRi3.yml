@@ -1,7 +1,27 @@
 name: 'Warped Gift: Warped Form'
 type: feat
 img: icons/creatures/slimes/slime-giant-face-eyes.webp
-data:
+effects: []
+folder: gQ0OxHZdtvKx2cPC
+sort: 200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.JUZs1Gn2gdoMxNxH
+_id: h3LCIiH4MBiJxRi3
+system:
   description:
     value: >-
       <p>Your body is more malleable and flexible than a normal humanoid. You
@@ -12,7 +32,8 @@ data:
       you use your natural armor.</p>
     chat: ''
     unidentified: ''
-  source: Warped
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -56,28 +77,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.JUZs1Gn2gdoMxNxH
-_id: h3LCIiH4MBiJxRi3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340118184
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!h3LCIiH4MBiJxRi3'
 

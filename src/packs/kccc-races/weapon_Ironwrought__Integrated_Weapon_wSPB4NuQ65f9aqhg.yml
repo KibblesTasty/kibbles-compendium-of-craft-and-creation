@@ -1,12 +1,41 @@
 name: 'Ironwrought: Integrated Weapon'
 type: weapon
 img: icons/weapons/axes/axe-battle-worn-eye.webp
-data:
+effects: []
+folder: mFSXW0RgEhfMfE17
+sort: 200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.fDvSl9vAyPLEqB5h
+_id: wSPB4NuQ65f9aqhg
+system:
   description:
     value: ''
     chat: ''
     unidentified: ''
-  source: Ironwrought
+  source:
+    book: KCCC
   quantity: 1
   weight: 0
   price: 0
@@ -81,36 +110,15 @@ data:
     two: false
     ver: false
   proficient: true
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: false
-      altValue: false
-    quickProperties:
-      value: true
-      altValue: true
-    quickVersatile:
-      value: false
-      altValue: false
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.fDvSl9vAyPLEqB5h
-_id: wSPB4NuQ65f9aqhg
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340099861
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!wSPB4NuQ65f9aqhg'
 

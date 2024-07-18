@@ -1,14 +1,35 @@
 name: 'Warped Gift: Warped Skin'
 type: feat
 img: icons/creatures/slimes/slime-movement-splash-green.webp
-data:
+effects: []
+folder: gQ0OxHZdtvKx2cPC
+sort: 112500
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.go4Ug0JnkWT4eKd6
+_id: cZryr9maEVNq3P2D
+system:
   description:
     value: >-
       <p>Your skin is a rough mottled hide. You have resistance to acid
       damage.</p>
     chat: ''
     unidentified: ''
-  source: Warped
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -52,28 +73,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.go4Ug0JnkWT4eKd6
-_id: cZryr9maEVNq3P2D
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340118184
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!cZryr9maEVNq3P2D'
 

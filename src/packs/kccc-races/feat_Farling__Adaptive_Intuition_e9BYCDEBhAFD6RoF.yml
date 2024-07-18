@@ -1,14 +1,35 @@
 name: 'Farling: Adaptive Intuition'
 type: feat
 img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
-data:
+effects: []
+folder: or073gbM4MluE2UZ
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.EJor3aQwo7QJknCV
+_id: e9BYCDEBhAFD6RoF
+system:
   description:
     value: >-
       <p>You gain proficiency in Insight, and have advantage on Wisdom (Insight)
       checks to determine social cues or cultural customs.</p>
     chat: ''
     unidentified: ''
-  source: Farling
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -52,28 +73,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.EJor3aQwo7QJknCV
-_id: e9BYCDEBhAFD6RoF
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340118184
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!e9BYCDEBhAFD6RoF'
 

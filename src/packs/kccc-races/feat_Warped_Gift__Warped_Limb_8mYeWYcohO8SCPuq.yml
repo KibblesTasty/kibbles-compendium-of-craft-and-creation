@@ -1,14 +1,35 @@
 name: 'Warped Gift: Warped Limb'
 type: feat
 img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
-data:
+effects: []
+folder: gQ0OxHZdtvKx2cPC
+sort: 150000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.nlGqUz20Ai4LIbQh
+_id: 8mYeWYcohO8SCPuq
+system:
   description:
     value: >-
       <p>One of your limbs is abnormally long and flexible. Any weapon wielded
       in that hand gains the reach property.</p>
     chat: ''
     unidentified: ''
-  source: Warped
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -52,28 +73,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.nlGqUz20Ai4LIbQh
-_id: 8mYeWYcohO8SCPuq
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340118184
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!8mYeWYcohO8SCPuq'
 

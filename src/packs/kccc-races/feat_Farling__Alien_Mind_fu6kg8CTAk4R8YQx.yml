@@ -1,12 +1,33 @@
 name: 'Farling: Alien Mind'
 type: feat
 img: icons/magic/unholy/hand-light-green.webp
-data:
+effects: []
+folder: or073gbM4MluE2UZ
+sort: 200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.tPwjHBaMy0DbBXC1
+_id: fu6kg8CTAk4R8YQx
+system:
   description:
     value: "<p style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\"><strong style=\"box-sizing:border-box;user-select:text\">Alien Mind.</strong>\_When you gain the Spellcasting or Psionics ability from any class or feature, you can change the associated ability score to your choice of Intelligence, Wisdom, or Charisma. Any time that class references the previous spell casting ability, you can replace it with your selected score (for example, if you are playing a Psion and change its associated ability score to Charisma, Empowered Psiosnics would add Charisma instead of Intelligence).</p>"
     chat: ''
     unidentified: ''
-  source: Farling
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -50,28 +71,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.tPwjHBaMy0DbBXC1
-_id: fu6kg8CTAk4R8YQx
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340118184
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!fu6kg8CTAk4R8YQx'
 

@@ -1,7 +1,27 @@
 name: 'Augmented: Arcane Mind'
 type: feat
 img: icons/commodities/tech/bearing-steel-green.webp
-data:
+effects: []
+folder: 99GeCZAjjacrZECx
+sort: 125000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.c1JCvK8IhawVBA8R
+_id: 1ZUTL21oFDVmT7eg
+system:
   description:
     value: >-
       <p>Your mind is enhanced by mechanical or magical minds. Your Intelligence
@@ -10,7 +30,8 @@ data:
       detect patterns, or break ciphers and codes.</p>
     chat: ''
     unidentified: ''
-  source: Augmented
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -54,28 +75,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.c1JCvK8IhawVBA8R
-_id: 1ZUTL21oFDVmT7eg
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340099861
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!1ZUTL21oFDVmT7eg'
 

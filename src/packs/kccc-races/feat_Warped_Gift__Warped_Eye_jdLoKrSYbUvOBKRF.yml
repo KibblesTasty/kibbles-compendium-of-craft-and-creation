@@ -1,7 +1,27 @@
 name: 'Warped Gift: Warped Eye'
 type: feat
 img: icons/magic/perception/eye-slit-orange.webp
-data:
+effects: []
+folder: gQ0OxHZdtvKx2cPC
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.PuwXwtIva5HWKIj5
+_id: jdLoKrSYbUvOBKRF
+system:
   description:
     value: >-
       <p>You see the world in a different way. You have advantage on Wisdom
@@ -10,7 +30,8 @@ data:
       your environment).</p>
     chat: ''
     unidentified: ''
-  source: Warped
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -54,28 +75,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.PuwXwtIva5HWKIj5
-_id: jdLoKrSYbUvOBKRF
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340099861
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!jdLoKrSYbUvOBKRF'
 

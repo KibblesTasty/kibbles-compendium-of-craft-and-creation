@@ -1,14 +1,35 @@
 name: 'Ironwrought: Specialized Skill'
 type: feat
 img: icons/commodities/tech/blueprint.webp
-data:
+effects: []
+folder: mFSXW0RgEhfMfE17
+sort: 800000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.z6wYceheqZy6Aqd7
+_id: w1XhFe9lbTt0gyP4
+system:
   description:
     value: >-
       <p><span style="color:#191813;font-size:13px">You gain proficiency in one
       skill of your choice.</span></p>
     chat: ''
     unidentified: ''
-  source: Ironwrought
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -52,28 +73,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.z6wYceheqZy6Aqd7
-_id: w1XhFe9lbTt0gyP4
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340118184
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!w1XhFe9lbTt0gyP4'
 

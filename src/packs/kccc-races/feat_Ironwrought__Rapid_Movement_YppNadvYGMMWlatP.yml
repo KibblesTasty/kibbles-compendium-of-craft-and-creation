@@ -1,12 +1,33 @@
 name: 'Ironwrought: Rapid Movement'
 type: feat
 img: icons/skills/movement/feet-winged-boots-brown.webp
-data:
+effects: []
+folder: mFSXW0RgEhfMfE17
+sort: 600000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.z3Eo6QuDlTwVR4os
+_id: YppNadvYGMMWlatP
+system:
   description:
     value: <p>Your base walking speed increases by 5 feet.</p>
     chat: ''
     unidentified: ''
-  source: Ironwrought
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -50,28 +71,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.z3Eo6QuDlTwVR4os
-_id: YppNadvYGMMWlatP
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340118184
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!YppNadvYGMMWlatP'
 

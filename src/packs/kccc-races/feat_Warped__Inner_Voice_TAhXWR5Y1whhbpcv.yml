@@ -1,12 +1,33 @@
 name: 'Warped: Inner Voice'
 type: feat
 img: icons/magic/control/fear-fright-shadow-monster-purple.webp
-data:
+effects: []
+folder: gQ0OxHZdtvKx2cPC
+sort: 106250
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.IYzObhPfhEwNN9eE
+_id: TAhXWR5Y1whhbpcv
+system:
   description:
     value: "<p>\_You have an inner voice that doesn’t belong to you, frequently muttering nonsense, but occasionally offering useful advice, letting you add 1d6 to any ability check you make. You can do this a number of times equal to your proficiency bonus, regaining all uses at the end of a long rest.</p>"
     chat: ''
     unidentified: ''
-  source: Warped
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -50,28 +71,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.IYzObhPfhEwNN9eE
-_id: TAhXWR5Y1whhbpcv
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340118184
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!TAhXWR5Y1whhbpcv'
 

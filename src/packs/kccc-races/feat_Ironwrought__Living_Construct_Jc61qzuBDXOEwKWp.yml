@@ -1,14 +1,35 @@
 name: 'Ironwrought: Living Construct'
 type: feat
 img: icons/creatures/magical/construct-golem-stone-blue.webp
-data:
+effects: []
+folder: 22gHepHEyvHvyGqQ
+sort: 106250
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.nhlArYK2A42WpFfi
+_id: Jc61qzuBDXOEwKWp
+system:
   description:
     value: >-
       <p>You are immune to disease. You do not need to eat, drink, or breathe.
       You do not need sleep, and magic can’t put you to sleep.</p>
     chat: ''
     unidentified: ''
-  source: Ironwrought
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -52,28 +73,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.nhlArYK2A42WpFfi
-_id: Jc61qzuBDXOEwKWp
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340118184
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Jc61qzuBDXOEwKWp'
 

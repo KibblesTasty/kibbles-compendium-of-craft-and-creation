@@ -1,7 +1,27 @@
 name: 'Augmented: Arcane Eye'
 type: feat
 img: icons/creatures/eyes/humanoid-single-blind.webp
-data:
+effects: []
+folder: 99GeCZAjjacrZECx
+sort: 200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.RTXwB0tDjmGhlLXS
+_id: GtMz4qxbasnokCrF
+system:
   description:
     value: >-
       <p>Your eye (one or both) are replaced by mechanical or magical
@@ -16,7 +36,8 @@ data:
       have.</p>
     chat: ''
     unidentified: ''
-  source: Augmented
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -60,28 +81,17 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
+  type:
+    value: race
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.RTXwB0tDjmGhlLXS
-_id: GtMz4qxbasnokCrF
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721340099861
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!GtMz4qxbasnokCrF'
 
