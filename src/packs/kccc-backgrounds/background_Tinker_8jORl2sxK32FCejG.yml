@@ -1,0 +1,176 @@
+name: Tinker
+type: background
+img: icons/tools/hand/drill-steel-brown-grey.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.HC7sf8gMCIGJYB7k
+_id: 8jORl2sxK32FCejG
+system:
+  description:
+    value: >-
+      <p>Falling somewhere between a merchant, a sage, and—if you ask some
+      villagers—a vagabond, a Tinker wanders from town to town bringing a cart
+      (or sometimes just a donkey) of knickknacks and knowhow. While not always
+      welcomed with open arms, they can be a lifeline to the smallest and most
+      widely flung towns, as no route is too odd and winding for them to wander.
+      Tinkers may be wanderers by nature, but what opens doors is their useful
+      knack for being able to fix problems with a dash of knowhow and
+      ingenuity.</p><p><strong>Skill Proficiencies:</strong> Insight,
+      Nature</p><p><strong>Tool Proficiencies:</strong> Tinker’s
+      tools</p><p><strong>Languages:</strong> One of your
+      choice</p><p><strong>Equipment: </strong>A set of tinker’s tools, a set of
+      traveler’s clothes, a set of saddle bags, and a pack horse</p><h2>Feature:
+      Know-How</h2><p>You’ve been around the block, and fixed more than one
+      problem you had no business fixing with some application of ingenuity.
+      When you need to construct or fix an item, you can often tinker up a
+      replacement part from an alternate source. Any item that you could craft
+      with Tinker’s Tools for less then 50gp pieces, you can craft for free with
+      miscellaneousness knick knacks. At the GM’s discretion, this feature may
+      help with larger crafting pieces as
+      appropriate.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.2Dag77XRtrpnvaZr]</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.eETdlZQ1kIxCcpdi]</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.qxmoRD5ZCAfSJqZg]</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Background
+  recharge:
+    value: null
+    charged: false
+  startingEquipment:
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.0d08g1i5WXnNrCNA
+      requiresProficiency: false
+      _id: QgF1A4mQMbKzRzf6
+      group: ''
+      sort: 100000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT
+      requiresProficiency: false
+      _id: hcSIbUnbFJWD12wr
+      group: ''
+      sort: 200000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.TmfaFUSZJAotndn9
+      requiresProficiency: false
+      _id: zS83SCra8yY6H6RX
+      group: ''
+      sort: 300000
+  advancement:
+    - _id: uuSSWKTvtpsRiozQ
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:ins
+          - skills:nat
+        choices: []
+        hint: ''
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      icon: null
+    - _id: 2hRyNYyv0ErCSdBg
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - tool:art:tinker
+        choices: []
+        hint: ''
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      icon: null
+    - _id: 9rLlQIbQxNZHQXEL
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - languages:*
+        hint: ''
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      icon: null
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721341422588
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!8jORl2sxK32FCejG'
+

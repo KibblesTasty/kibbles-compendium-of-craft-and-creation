@@ -1,0 +1,162 @@
+name: Apothecary
+type: background
+img: icons/tools/laboratory/mortar-powder-green.webp
+effects: []
+folder: null
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.OmzpE9nNCZEKjEaK
+_id: 04UkdwX3PX4mimrJ
+system:
+  description:
+    value: >-
+      <p>You were a mixer of potions, a master of the subtle art of producing
+      potent magical effects from the right distillations.Hailing from the
+      largest cities or the smallest villages, an apothecary’s work is always in
+      demand, though many that would demand it do not fully appreciate the care
+      that goes into making a potion safe and effective.</p><p><strong>Skill
+      Proficiencies: </strong>Medicine, Nature</p><p><strong>Tool Proficiencies:
+      </strong>Alchemist’s supplies, herbalism kit</p><p><strong>Equipment:
+      </strong>A potion of healing, a set of alchemist’s supplies, an herbalism
+      kit, and a set of common clothes</p><h2>Feature: Herblore</h2><p>You know
+      what the potions people drink are actually made of. Whenever traveling at
+      half speed or less through wilderness or camping in wilderness, you can
+      acquire 15 gp a day worth of potion reagents that can be used as
+      ingredients for the next potion you
+      craft.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.tFIYGrWCrsorXzjq]</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.Tzv2hGK2tSQ5uc6r]</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.vBxlUJ0dfxtfNi9e]</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Background
+  recharge:
+    value: null
+    charged: false
+  advancement:
+    - _id: Wr1LBBVzDCJ3iatp
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:med
+          - skills:nat
+        choices: []
+        hint: ''
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      icon: null
+    - _id: MnKzrCJxwzYw8edc
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - tool:art:alchemist
+          - tool:herb
+        choices: []
+        hint: ''
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      icon: null
+  startingEquipment:
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.ytlsBjYsZ7OBSEBs
+      requiresProficiency: false
+      _id: 4VyyeYlDovuQqG34
+      group: ''
+      sort: 100000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.SztwZhbhZeCqyAes
+      requiresProficiency: false
+      _id: nTq1EEdMcHulRK5t
+      group: ''
+      sort: 200000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.i89okN7GFTWHsvPy
+      requiresProficiency: false
+      _id: GC3WdD7cUgQ9R4a5
+      group: ''
+      sort: 300000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB
+      requiresProficiency: false
+      _id: Dufq7oILudUsUGa4
+      group: ''
+      sort: 400000
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721341239124
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!04UkdwX3PX4mimrJ'
+
