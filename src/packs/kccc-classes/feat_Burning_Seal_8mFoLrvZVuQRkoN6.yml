@@ -1,0 +1,108 @@
+name: Burning Seal
+type: feat
+img: icons/magic/fire/flame-burning-skeleton-explosion.webp
+effects: []
+folder: 6RbJFAVpFkze0lLy
+sort: 125000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.8vvoaXEcpt6AmNX5
+_id: 8mFoLrvZVuQRkoN6
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: An Ingenious Reliquary that is a weapon)</em></p>
+
+      <p>When you strike a creature with a melee weapon Divine Relic, you can
+      leave a divine brand on them, lasting until the start of your next turn.
+      The first time that creature attacks a target other than you, it takes
+      [[/r 1d8]] fire damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Relicsmith 5
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!8mFoLrvZVuQRkoN6'
+

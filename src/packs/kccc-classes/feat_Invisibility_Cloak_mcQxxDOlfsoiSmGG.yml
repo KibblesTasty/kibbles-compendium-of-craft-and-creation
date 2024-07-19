@@ -1,0 +1,100 @@
+_id: mcQxxDOlfsoiSmGG
+name: Invisibility Cloak
+type: feat
+img: icons/equipment/back/cloak-heavy-fur-blue.webp
+effects: []
+folder: qdxFDNciGzMz3Uzf
+sort: 26173
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.SyPpXPmHeNWYORji
+system:
+  description:
+    value: >-
+      <p>You make an invisibility cloak. While wearing this cloak, a creature
+      can cast @Compendium[dnd5e.spells.1N8dDMMgZ1h1YJ3B]{Invisibility} on
+      itself, without expending a spell slot or material components. When cast
+      in this way, the spell doesn’t require the caster’s concentration. The
+      spell ends if the caster is no longer wearing the cloak or if they choose
+      to end the spell early (no action required). Once a creature uses the
+      cloak to cast this spell, it can’t be used in this way again until you
+      finish a short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Infusionsmith 9
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!mcQxxDOlfsoiSmGG'
+

@@ -1,0 +1,101 @@
+_id: G6j9tFC8mbxuzxbF
+name: Binding Rope
+type: feat
+img: icons/sundries/survival/rope-coiled-tan.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 199610
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+    quickSave:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.AlbpCM4PvK1GLPIw
+system:
+  description:
+    value: "<p>You create a rope that is capable of animating and binding a creature. As an action, choose a creature within 30 feet of you. The target must make a Dexterity saving throw against your spell save DC or become restrained until the end of your next turn. If you are currently grappling the target, it makes the Dexterity saving throw with disadvantage. The rope can only restrain one target at a time.\_</p>"
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: sr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Gadgetsmith 5
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!G6j9tFC8mbxuzxbF'
+

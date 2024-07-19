@@ -1,0 +1,114 @@
+_id: 01205p8KbdWmDUlY
+name: Thundering Stomp
+type: feat
+img: icons/magic/sonic/explosion-shock-sound-wave.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: -100781
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.9AQM5Y0yBE4FmvXv
+system:
+  description:
+    value: >-
+      <p>Your golem can leverage its increased size and magical nature, allowing
+      it to replace any attack it makes as part of the Attack action with a
+      crushing stomp of magical energy as it brings down its foot. When it does
+      so, each creature within 5 feet of the golem, other than itself, must
+      succeed on a Consti-tution saving throw against your spell save DC or take
+      1d6 thunder damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 11
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!01205p8KbdWmDUlY'
+

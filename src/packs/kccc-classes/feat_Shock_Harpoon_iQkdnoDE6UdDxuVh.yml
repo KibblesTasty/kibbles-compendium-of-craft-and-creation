@@ -1,0 +1,104 @@
+_id: iQkdnoDE6UdDxuVh
+name: Shock Harpoon
+type: feat
+img: icons/magic/lightning/bolts-strike-salvo-blue.webp
+effects: []
+folder: 7xT11hbxWC5JQhzu
+sort: -12500
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.vYHZPWVonHdQT8cc
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Harpoon Reel)</em></p>
+
+      <p>After hitting a creature with the Harpoon fire mode, you can use a
+      bonus action to deliver a shock. If you have not dealt Thundermonger
+      damage since the start of your turn, you can deal damage equal to your
+      Thundermonger bonus damage as lightning damage. This counts as discharging
+      your Thundermonger damage. Additionally, the target must make a
+      Constitution saving throw against your spell save DC or be stunned until
+      the end of its next turn.</p>
+
+      <p>Once used, the Harpoon must be reeled in before this can be used
+      again.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Thundersmith 9
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!iQkdnoDE6UdDxuVh'
+

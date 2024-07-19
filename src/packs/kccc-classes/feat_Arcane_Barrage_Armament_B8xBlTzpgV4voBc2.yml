@@ -1,0 +1,114 @@
+_id: B8xBlTzpgV4voBc2
+name: Arcane Barrage Armament
+type: feat
+img: icons/magic/light/projectiles-trio-pink.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.TfbLGJtmqEAiTiYi
+system:
+  description:
+    value: >-
+      <p>You install a mounted armament on your golem, taking whatever form is
+      most appropriate, which is charged with arcane power. As an action, the
+      golem can cast @Compendium[dnd5e.spells.41JIhpDyM9Anm7cs]{Magic Missile}
+      through the armament, without expending a spell slot and requiring no
+      components.</p>
+
+      <p>Once the golem casts the spell in this way, it can’t do so again until
+      you finish a short or long rest.</p>
+
+      <p>When you reach 5th level in this class, the spell is cast as a
+      2nd-level spell, and it increases again when you reach 11th level (as a
+      3rd-level spell) and 17th level (as a 4th-level spell).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + 1
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!B8xBlTzpgV4voBc2'
+

@@ -1,0 +1,128 @@
+_id: 75oFhN6jcBUUabcC
+name: Crossbow Spider
+type: feat
+img: icons/weapons/crossbows/crossbow-golden-bolt.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 203125
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickTemplate:
+      value: true
+      altValue: true
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.rNHXA6LbWKp0sxi3
+system:
+  description:
+    value: >-
+      <p>You modify a crossbow to be able to aim and fire remotely. As an
+      action, you can deploy a Tiny construct called a crossbow spider (see the
+      construct’s statistics below). Once deployed, you can use a bonus action
+      to cause the construct to move up to its speed and make a crossbow attack
+      from its location. The construct becomes inactive after 1 minute, or after
+      it has been used to make 10 attacks.</p>
+
+      <p>Once you have activated the construct, you can’t activate it again
+      until you finish a long rest, unless you expend a spell slot of 1st level
+      or higher to activate it again. If the construct is destroyed, you can’t
+      activate it again until you repair it or recreate it during a long
+      rest.</p>
+
+      <p>The construct can’t take any actions besides the ones you direct it to
+      take with your bonus action.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 30
+    long: 120
+    units: ft
+  uses:
+    value: 10
+    max: '10'
+    per: lr
+    recovery: ''
+  consume:
+    type: charges
+    target: ''
+    amount: null
+  ability: int
+  actionType: rwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Gadgetsmith 5
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!75oFhN6jcBUUabcC'
+

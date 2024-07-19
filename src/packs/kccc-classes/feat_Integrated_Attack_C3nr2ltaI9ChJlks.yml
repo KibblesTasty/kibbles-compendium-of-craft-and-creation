@@ -1,0 +1,111 @@
+name: Integrated Attack
+type: feat
+img: icons/weapons/swords/swords-sharp-worn.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 112500
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.jw8BZ9EcvpffCwFU
+_id: C3nr2ltaI9ChJlks
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Integrated Armor or Warplate; incompatible with Iron
+      Grip)</em></p>
+
+      <p>You integrate a melee weapon into your Warsmith’s Armor. When you apply
+      this upgrade you must have a weapon to integrate, and you must choose
+      where on your armor the weapon is located. The weapon can’t have the heavy
+      property. You are proficient with this weapon. As a bonus action you can
+      activate the weapon.</p>
+
+      <p>You must treat it as though you are wielding it with one hand, but you
+      can’t be disarmed of it. Once activated, you can use this weapon when you
+      take the attack action, and it doesn’t require the use of a hand or your
+      Warplate Gauntlet. You can apply this upgrade multiple times, selecting a
+      new weapon and new location on your armor to install it.</p>
+
+      <p>When you activate your integrated weapon, you can immediately make one
+      attack with it. While it is active, if you take the attack action on your
+      turn, you can make an one additional weapon attack with your integrated
+      weapon using your bonus action.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 14
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!C3nr2ltaI9ChJlks'
+

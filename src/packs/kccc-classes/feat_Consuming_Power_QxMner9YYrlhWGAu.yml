@@ -1,0 +1,113 @@
+name: Consuming Power
+type: feat
+img: icons/magic/unholy/projectiles-blood-salvo-red.webp
+effects: []
+folder: OGskAJrRIvNFdWpi
+sort: 3300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.AR3Kz2eaxwjbvG13
+_id: QxMner9YYrlhWGAu
+system:
+  description:
+    value: >-
+      <p><em>Attunement, Cursed</em></p>
+
+      <p>You create a worn magical item—such as a set of bracers, bands or a
+      ring—that leverages a dark bargain. Souls for power... starting with bits
+      of your own.</p>
+
+      <p>As a bonus action, you allow allow it to feed off your own soul. You
+      can decrease your Charisma ability score by up to your proficiency bonus,
+      increasing your Strength ability score by an amount equal to your
+      decreased Charisma. You can’t increase your Strength ability score beyond
+      its normal maximum in this way. This lasts until you use an action to
+      reclaim your Charisma from the item.</p>
+
+      <p>Whenever you slay a creature of CR 1/4 or higher, you gain +1 current
+      and maximum Strength ability score. Both of these effects fade after 1
+      minute without killing a creature.</p>
+
+      <p><strong>Curse:</strong> At the end of each turn your strength is
+      increased by weapon, you take necrotic damage equal to 1 + the amount of
+      additional maximum Strength you have gained. This damage can’t be
+      resisted.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!QxMner9YYrlhWGAu'
+

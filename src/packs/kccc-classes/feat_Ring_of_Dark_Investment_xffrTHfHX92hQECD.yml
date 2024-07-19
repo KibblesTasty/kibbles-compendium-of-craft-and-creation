@@ -1,0 +1,106 @@
+name: Ring of Dark Investment
+type: feat
+img: icons/equipment/finger/ring-band-engraved-scrolls-silver.webp
+effects: []
+folder: OGskAJrRIvNFdWpi
+sort: 1500000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.EniPLDMteKExK9ky
+_id: xffrTHfHX92hQECD
+system:
+  description:
+    value: >-
+      <p>You create a ring that can store a fragment of corrupted power. As an
+      action, you can infuse an Inventor spell you know (including spells gained
+      from upgrades) with a casting time of 1 action into the ring. You cast the
+      spell as normal (expending the spell slot if it is 1st level or higher)
+      but the spell doesn’t take effect, and is stored in the ring for later
+      use. When you take the Attack action while a spell is stored in your ring,
+      you may replace one attack with the stored spell. You may also release the
+      stored spell directly, casting it at its normal casting time. A stored
+      spell fades if you remove the ring, or if it is unused at the end of a
+      long rest.</p>
+
+      <p><strong>Curse:</strong> When you store a spell in your ring, your
+      current and maximum hit points are reduced by 1 + the level of the spell
+      (1 for a cantrip).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Cursesmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!xffrTHfHX92hQECD'
+

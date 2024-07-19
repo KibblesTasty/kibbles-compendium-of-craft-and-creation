@@ -1,0 +1,99 @@
+name: Vampiric Infusion
+type: feat
+img: icons/creatures/abilities/fangs-teeth-bite.webp
+effects: []
+folder: OGskAJrRIvNFdWpi
+sort: 1800000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.5nxiYUQfGYtSQho1
+_id: MkCLJuobqsrRZ8Ve
+system:
+  description:
+    value: >-
+      <p>You develop a dark infusion you can work upon a weapon. As a bonus
+      action, you can expend a spell slot to infuse a weapon you touch with
+      vampiric thirst for the next minute. When the wielder of the weapon rolls
+      damage with a weapon attack using the infused weapon, they deal 1d8
+      additional necrotic damage, and regain hit points equal to the necrotic
+      damage dealt + your Intelligence modifier. This effect can occur a number
+      of times equal to the spell slot used on the infusion.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Cursesmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!MkCLJuobqsrRZ8Ve'
+

@@ -1,0 +1,101 @@
+_id: 61ii2N5IrVmuASJQ
+name: Structural Constitution
+type: feat
+img: icons/commodities/tech/frame-steel.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: -62500
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.PASAYuEaR96uDnX8
+system:
+  description:
+    value: >-
+      <p>You have reinforced your golem with layers of protection and redundant
+      systems. Your golem’s Constitution score increases by 2, increasing its
+      stability and durability. If this upgrade increases the golem’s
+      Constitution to 16 or higher, it gains proficiency in Constitution saving
+      throws; if this upgrade increases its Constitution to 18, it has advantage
+      on death saving throws.</p>
+
+      <p>You can select this upgrade multiple times, but you can’t increase the
+      golem’s Constitution above 18 using this upgrade.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!61ii2N5IrVmuASJQ'
+

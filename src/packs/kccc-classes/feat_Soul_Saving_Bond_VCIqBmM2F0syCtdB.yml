@@ -1,0 +1,103 @@
+_id: VCIqBmM2F0syCtdB
+name: Soul-Saving Bond
+type: feat
+img: icons/magic/control/energy-stream-link-blue.webp
+effects: []
+folder: qdxFDNciGzMz3Uzf
+sort: 200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.xAuzNXDNZsKh3asF
+system:
+  description:
+    value: >-
+      <p>You set up a special magical bond between you and another creature.
+      When either of the bonded creatures fails an Intelli-</p>
+
+      <p>gence, Wisdom, Charisma, or death saving throw, the other creature can
+      make the same saving throw, replacing the original result with its own. If
+      this ability is used on a death saving throw, the roll is automatically a
+      20. Once this ability has been used to replace a roll, it can’t be used
+      again until both bonded creatures have finished a short or long rest.</p>
+
+      <p>This bond can be set up with a different creature at the end of a long
+      rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Infusionsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!VCIqBmM2F0syCtdB'
+

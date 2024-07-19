@@ -1,0 +1,128 @@
+_id: dcoYTAPRuXruJJ2F
+name: Psi Crystal
+type: feat
+img: icons/commodities/gems/pearl-water.webp
+effects: []
+folder: snJgRU6pIt9nIVxY
+sort: 173438
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.hX0WCNueLATAnwE4
+system:
+  description:
+    value: >-
+      <p>You gain the ability to impart part of your mind into crystal. You can
+      expend 2 psi points to cast the find familiar spell, but your familiar
+      takes on the statics of a psi crystal (below) and the material component
+      required is a crystal worth 10 gp instead of the normal material
+      components. The Psi Crystal gains your Intelligence, Wisdom, and Charisma
+      scores. You can use Psionic Disciplines with a range greater than self
+      through your Psi Crystal as if you were standing in its location. If the
+      psi crystal is destroyed, you gain its memories as your own. While you
+      have a Psi Crystal active, as a bonus action, you can deactivate it to
+      regain 2 expended psi points.</p>
+
+      <p>Psi Crystal</p>
+
+      <p>When you summon a Psi Crystal, you can store a fragment of your
+      personality in it that you can then release by shattering the crystal.
+      Select one of the following when summoning a psi crystal.</p>
+
+      <p>Courage. When you make a saving throw against the frightened condition,
+      you can use your reaction to shatter the crystal, releasing that emotion
+      to gain advantage on the save.</p>
+
+      <p>Cowardice. When your Psi Crystal is within 30 of you and a creature
+      comes within 5 feet of you, you can use your reaction to shatter the
+      crystal, releasing that emotion and immediately moving up to your speed
+      away from the creature without taking any opportunity attacks.</p>
+
+      <p>Cruelty. When your Psi Crystal is within 30 feet of a creature that
+      takes damage, you can use your reaction to shatter the crystal, releasing
+      that emotion and causing the creature to take additional damage equal to
+      your psion level.</p>
+
+      <p>Sympathy. When your Psi Crystal is within 30 feet of you and another
+      creature, if that creature takes damage, you can use your reaction to
+      shatter the crystal, releasing that emotion and granting the creature
+      resistance to that damage. You take an equal amount of damage to the
+      damage they take.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Psion 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434481454
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!dcoYTAPRuXruJJ2F'
+

@@ -1,0 +1,103 @@
+name: Mark of the Hidden
+type: feat
+img: icons/magic/control/silhouette-grow-shrink-blue.webp
+effects: []
+folder: vVVqOSKX5M9roJKu
+sort: -3906
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ldeUZ8TvhcTybmIZ
+_id: K0Dkkzm52ecCusbn
+system:
+  description:
+    value: >-
+      <p>You can mark a special runic mark on a creature or item. This mark
+      lasts until you mark it again or take a long rest. As an action, you can
+      cause the effect of the
+      @Compendium[dnd5e.spells.1N8dDMMgZ1h1YJ3B]{Invisibility},
+      @Compendium[dnd5e.spells.RvEqsD89Zvd5yex4]{Arcanist's Magic Aura}, or
+      @Compendium[dnd5e.spells.aU62xVUBYkAQWIHv]{Nondetection} spells on the
+      marked creature or a creature carrying the marked item This doesn’t
+      require concentration, but otherwise has the normal limitations of the
+      spell. You can have one of these effects active on the target at a time,
+      and the effect ends if the target is no longer marked by the rune or
+      carrying the item marked with the rune.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Runesmith 11
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!K0Dkkzm52ecCusbn'
+

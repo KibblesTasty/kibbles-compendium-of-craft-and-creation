@@ -1,0 +1,102 @@
+_id: VI2gtepV8EzGWXFq
+name: Jumper Cable
+type: feat
+img: icons/commodities/tech/tube-chamber-lightning.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 187500
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.OZUV2hAGTNvadtxB
+system:
+  description:
+    value: >-
+      <p>Once per turn when you deal lightning damage with a cantrip from your
+      Shock Generator, you can add your Intelligence modifier to the damage
+      dealt.</p>
+
+      <p>Additionally, you can use your Shock Generator as an action to make a
+      DC 10 Intelligence (Medicine) check, attempting to stabilize a dying
+      creature within your reach. If you succeed on the check, the creature
+      regains 1 hit point, becoming conscious again, and gains a number of
+      temporary hit points equal to your inventor level. When you stabilize a
+      creature in this way, it gains one level of exhaustion.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Gadgetsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!VI2gtepV8EzGWXFq'
+

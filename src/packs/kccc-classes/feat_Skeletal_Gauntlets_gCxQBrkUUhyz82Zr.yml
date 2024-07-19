@@ -1,0 +1,110 @@
+name: Skeletal Gauntlets
+type: feat
+img: icons/equipment/hand/gauntlet-clawed-steel.webp
+effects: []
+folder: OGskAJrRIvNFdWpi
+sort: 2300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.k39VBe3uxEDebO0U
+_id: gCxQBrkUUhyz82Zr
+system:
+  description:
+    value: >-
+      <p>(You can only wear 1 set of Gauntlets at a time.)</p>
+
+      <p>You forge a pair of gauntlets that cause your hands to appear as
+      skeletal appendages of dark metal. While wearing these gauntlets, if you
+      grapple a creature, at the start of its turn it takes 1d6 necrotic damage,
+      and can’t regain hit points until the start of its next turn.
+      Additionally, you have advantage against any check or save that would
+      disarm you.</p>
+
+      <p>While wearing these gauntlets, you can cast the
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.vIG4qHxOD5NmLbcA]{Grip
+      of the Dead} spell.</p>
+
+      <p><strong>Curse:</strong> The death grip of these gloves make it
+      difficult to let go of things. You have disadvantage on attacks made by
+      throwing weapons or with weapons with the ammunition property.
+      Additionally, you have disadvantage on any ability check to throw an
+      item.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Cursesmith 5
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!gCxQBrkUUhyz82Zr'
+

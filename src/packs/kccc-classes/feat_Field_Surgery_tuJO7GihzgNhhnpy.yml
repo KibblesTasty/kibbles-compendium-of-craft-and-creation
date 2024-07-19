@@ -1,0 +1,100 @@
+_id: tuJO7GihzgNhhnpy
+name: Field Surgery
+type: feat
+img: icons/skills/wounds/injury-stapled-flesh-tan.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 150000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: Maximum Hit Dice
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.h9a4zXrNdwnblp9J
+system:
+  description:
+    value: >-
+      <p>Some say that not all medical problems require surgery. Not you. As an
+      action, you can repair a body to its natural limits far more quickly than
+      its natural healing. You can repair a willing creature within 5 feet of
+      you, allowing them to expend hit dice up to half your Inventor level
+      (rounded up). Each Hit Die spent is rolled as normal, but you can add the
+      higher value of their Constitution modifier or your Intelligence
+      modifier.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: heal
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ceil(@classes.inventor.levels / 2)
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!tuJO7GihzgNhhnpy'
+

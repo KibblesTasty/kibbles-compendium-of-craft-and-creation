@@ -1,0 +1,110 @@
+name: Ether Reactor
+type: feat
+img: icons/magic/light/circle-window-clock-blue.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        use: true
+      altValue:
+        use: true
+  core:
+    sourceId: Item.5iILDBRQxU4Oq9xD
+_id: ENUxZhlg3IAPn7oY
+system:
+  description:
+    value: >-
+      <p>You construct an ether reactor that feeds your armor, powering its
+      upgrades with arcane energy. The Ether Reactor has 6 charges, and can be
+      used to power upgrades that cast spells, even upgrades that would normally
+      only recharge after a rest can instead be cast by using charges, spending
+      1 charge per level of the spell you are casting. You can cast spells at a
+      higher level by expending more charges. It regains all charges at the end
+      of a long rest.</p>
+
+      <p>If your Ether Reactor has no charges left, you can overdraw your Ether
+      Reactor for one last burst of power, but your armor is temporarily
+      immobilized and your speed while wearing your armor becomes zero for a
+      number of rounds equal to the level of the spell cast. Once you overdraw
+      it, you can’t do this again until you finish a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 6
+    max: '6'
+    per: lr
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 9
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!ENUxZhlg3IAPn7oY'
+

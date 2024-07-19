@@ -1,0 +1,101 @@
+_id: DlNFwjomszCfbcR9
+name: Telekinetic Barrier
+type: feat
+img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+effects: []
+folder: OeZ3t5FRhCcQfrv9
+sort: 0
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.0Y0ibUlCnKJqGf3B
+system:
+  description:
+    value: >-
+      <p>You focus your telekinetic power, spreading it thin to create a large
+      barrier. As an action you can expend 2 psi points to create a wall of weak
+      telekinetic force 15 feet high and up to 40 feet long, or as a 15 radius
+      around you. This barrier is visible as small objects hover and float
+      within it. If you create it around yourself, it moves with you when you
+      move. Ranged attacks that pass through this barrier are made with
+      disadvantage as their trajectory is deflected. You can maintain this
+      barrier by concentrating, as if concentrating on a spell, for up to 1
+      minute after creating it.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Telekinesis 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434481454
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!DlNFwjomszCfbcR9'
+

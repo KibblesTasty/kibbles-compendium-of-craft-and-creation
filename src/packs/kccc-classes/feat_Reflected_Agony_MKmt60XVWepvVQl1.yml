@@ -1,0 +1,107 @@
+_id: MKmt60XVWepvVQl1
+name: Reflected Agony
+type: feat
+img: icons/skills/wounds/injury-pain-body-orange.webp
+effects: []
+folder: 4oRXhiawKXYmriMh
+sort: -200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.Fu3aMN57odWMTBkq
+system:
+  description:
+    value: >-
+      <p>When a creature within 120 feet that you can see deals damage to you,
+      you can use your reaction to spend 1 or more psi points (up to your psi
+      limit) to share the pain you experienced back at them, dealing 1d10
+      psychic damage per point spent. The damage this deals can’t exceed the
+      damage taken from the attack.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d10
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Telepathy 2
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434481454
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!MKmt60XVWepvVQl1'
+

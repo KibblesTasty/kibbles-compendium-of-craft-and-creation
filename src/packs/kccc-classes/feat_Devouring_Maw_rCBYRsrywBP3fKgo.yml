@@ -1,0 +1,108 @@
+name: Devouring Maw
+type: feat
+img: icons/creatures/abilities/mouth-teeth-rows-red.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 375000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.gR9t0japlPJHjJNa
+_id: rCBYRsrywBP3fKgo
+system:
+  description:
+    value: >-
+      <p>Due to the inefficiency of having only one intake port, you build an
+      additional one, properly equipped with razor sharp fangs and a special
+      property. This maw becomes a natural weapon that deals 1d10 piercing
+      damage.</p>
+
+      <p>If you hit with an attack with this maw, you can choose to make a
+      grapple against the target as a bonus action. Targets grappled by this maw
+      take 1d4 piercing and 1d4 acid damage at the start of their turn.</p>
+
+      <p>Attacks with this maw are made with advantage against targets it is
+      grappling, but it can’t be used to attack other creatures while grappling
+      a creature.</p>
+
+      <p>If you have the Fleshcrafted Enhancement upgrade, you can apply a
+      benefit from it to this Maw. This can be a different selection than the
+      one applied to your Fleshcrafted Mutation.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 9
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!rCBYRsrywBP3fKgo'
+

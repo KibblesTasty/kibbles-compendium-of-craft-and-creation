@@ -1,0 +1,101 @@
+_id: Ta5PPP8Ptii7YjEV
+name: Animated Archer
+type: feat
+img: icons/weapons/bows/shortbow-recurve-yellow-blue.webp
+effects: []
+folder: qdxFDNciGzMz3Uzf
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.pBam553Zj5z4rlpe
+system:
+  description:
+    value: >-
+      <p>You master animation enchantments, allowing you to use your Animate
+      Weapon feature on a ranged weapon and a quiver of ammunition. An animated
+      ranged weapon hovers near you, and you can make a ranged spell attack with
+      it against a target within the weapon’s range.</p>
+
+      <p>On a hit, the target takes damage equal to the weapon’s damage dice +
+      your Intelligence modifier. The weapon requires ammunition, and it can
+      carry up 30 pieces of ammunition at a time. You can reload the ammunition
+      at any time as an action.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Infusionsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!Ta5PPP8Ptii7YjEV'
+

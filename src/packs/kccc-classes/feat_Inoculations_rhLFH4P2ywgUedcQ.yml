@@ -1,0 +1,99 @@
+_id: rhLFH4P2ywgUedcQ
+name: Inoculations
+type: feat
+img: icons/tools/laboratory/mortar-liquid-pink.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: 48438
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ppzv3bIU9G7xhaY6
+system:
+  description:
+    value: >-
+      <p>You gain resistance to poison damage. Additionally, at the end of a
+      long rest, you can choose up to five creatures (including yourself) to
+      become inoculated against poisonous effects you can produce that require a
+      Constitution saving throw (such as the Poisonous Gas instant reaction or
+      the cloudkill alchemical infusion). You and each of the chosen creatures
+      automatically succeed on saving throws against these effects until the end
+      of your next long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 3
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!rhLFH4P2ywgUedcQ'
+

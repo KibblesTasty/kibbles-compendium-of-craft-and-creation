@@ -1,0 +1,105 @@
+_id: FZC2HcVULmQru6Vg
+name: Mortar Shells
+type: feat
+img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
+effects: []
+folder: 7xT11hbxWC5JQhzu
+sort: -75000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.Tklc56NBIwdcrs2z
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Stormforged weapon with the Ammunition
+      property)</em></p>
+
+      <p>You build an alternate fire mode allowing you to fire your Stormforged
+      Weapon like a mortar. Pick a target point within range, and make an attack
+      roll. Apply the attack roll to all creatures within a 5-foot radius of the
+      target point. Creatures hit take the weapon's damage plus half of the
+      Thundermonger bonus damage. Dealing damage this way counts as applying
+      Thundermonger damage for the turn. If you miss all targets, you can apply
+      Devestating Blasts as normal.</p>
+
+      <p>Creatures do not benefit from cover against this fire mode unless they
+      have overhead cover as well.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Thundersmith 9
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721434546182
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!FZC2HcVULmQru6Vg'
+
