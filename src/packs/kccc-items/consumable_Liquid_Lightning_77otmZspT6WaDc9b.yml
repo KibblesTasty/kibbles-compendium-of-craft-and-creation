@@ -2,12 +2,50 @@ name: Liquid Lightning
 type: consumable
 img: >-
   https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/DungeonStrugglers-LiquidLightning.png
-data:
+effects: []
+folder: isoPUL0XphkBkF8T
+sort: 125000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.uqIvUw0EIcmHUIQx
+_id: 77otmZspT6WaDc9b
+system:
   description:
     value: "<p>Drinking this potion allows you to zip around for 1 minute as pure electricity. As a bonus action on each of your turns before the effect ends, you can transform into a bolt of lightning and instantly travel in a straight line to an unoccupied space you can see within 30 feet. This movement doesn’t provoke opportunity attacks and you are immune to lightning damage while in this form.\_</p>\n<p>You can pass through small holes, narrow openings, and even mere cracks, as well as through conductive materials such as metal. Each creature in your travel path must succeed on a DC 15 Dexterity saving throw, or take [[/r 3d6]] lightning damage. You immediately revert to your normal form upon reaching the destination. This potion’s stormy liquid arcs with tiny bolts of lightning and it numbs the tongue when sipped.</p>"
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -58,44 +96,15 @@ data:
     dc: 15
     scaling: flat
   consumableType: potion
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-    quickSave:
-      value: true
-      altValue: true
-    quickDamage:
-      context:
-        '0': ''
-      value:
-        '0': true
-      altValue:
-        '0': true
-  core:
-    sourceId: Item.uqIvUw0EIcmHUIQx
-_id: 77otmZspT6WaDc9b
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!77otmZspT6WaDc9b'
 

@@ -1,7 +1,32 @@
 name: Nail Bomb
 type: consumable
 img: icons/tools/fasteners/nails-steel-brown.webp
-data:
+effects: []
+folder: OIj2eu41aDq4PrlM
+sort: 103125
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.ztt17WovjZPEcn2Y
+_id: gYQZPny1fol4SToi
+system:
   description:
     value: >-
       <p>A brutal instrument, this mixes explosive powder and nails to create a
@@ -22,7 +47,9 @@ data:
       turn).</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -71,33 +98,15 @@ data:
     dc: null
     scaling: spell
   consumableType: potion
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.ztt17WovjZPEcn2Y
-_id: gYQZPny1fol4SToi
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!gYQZPny1fol4SToi'
 

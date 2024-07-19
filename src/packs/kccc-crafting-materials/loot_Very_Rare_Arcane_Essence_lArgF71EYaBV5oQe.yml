@@ -2,7 +2,13 @@ _id: lArgF71EYaBV5oQe
 name: Very Rare Arcane Essence
 type: loot
 img: icons/commodities/gems/gem-faceted-rough-blue.webp
-data:
+effects: []
+folder: myd9MRbE1I1uwQmv
+sort: 500000
+flags:
+  core:
+    sourceId: Item.eAyzHPJEqsZtcivC
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.eAyzHPJEqsZtcivC
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347421790
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!lArgF71EYaBV5oQe'
 

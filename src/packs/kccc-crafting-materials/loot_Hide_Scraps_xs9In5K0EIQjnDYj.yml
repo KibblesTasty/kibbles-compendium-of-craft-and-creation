@@ -2,7 +2,13 @@ _id: xs9In5K0EIQjnDYj
 name: Hide Scraps
 type: loot
 img: icons/commodities/leather/fur-simple-brown.webp
-data:
+effects: []
+folder: LyI3aXjxTYcOjbpH
+sort: 200000
+flags:
+  core:
+    sourceId: Item.PAnKS94Z7c3ez6qX
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.PAnKS94Z7c3ez6qX
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347377116
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!xs9In5K0EIQjnDYj'
 

@@ -2,16 +2,80 @@ name: Flametongue Oil
 type: consumable
 img: >-
   https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%209.png
-data:
+effects:
+  - name: Flametongue Oil
+    icon: >-
+      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%209.png
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    _id: 5XlFNzkAM338DC9y
+    changes:
+      - key: system.damage.parts
+        mode: 2
+        value: '[["2d6", "fire"]]'
+        priority: null
+      - key: name
+        mode: 5
+        value: Flametongue {}
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _key: '!items.effects!tjlvDDNSoXRRKtQU.5XlFNzkAM338DC9y'
+folder: 34hJDESbF50bPPrC
+sort: 150000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.d8R78Av3XVyfmPyU
+_id: tjlvDDNSoXRRKtQU
+system:
   description:
     value: >-
       <p>As an action, you can coat a weapon in this oil and ignite it. For 1
-      minute, the ignited weapon burns, dealing an extra [[/r 2d6]] fire to
+      minute, the ignited weapon burns, dealing an extra [[/damage 2d6 fire]] to
       attacks made with it, and providing bright light in a 20-foot radius and
       dim light for an additional 20 feet.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -44,8 +108,8 @@ data:
     type: ''
     target: ''
     amount: null
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: ench
   attackBonus: 0
   chatFlavor: ''
   critical:
@@ -60,33 +124,20 @@ data:
     dc: null
     scaling: spell
   consumableType: potion
-effects: []
-folder: null
-sort: 0
-permission:
+  enchantment:
+    classIdentifier: ''
+    restrictions:
+      allowMagical: false
+      type: ''
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.d8R78Av3XVyfmPyU
-_id: tjlvDDNSoXRRKtQU
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: 1721349916802
+  modifiedTime: 1721350203398
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!tjlvDDNSoXRRKtQU'
 

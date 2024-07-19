@@ -1,7 +1,32 @@
 name: Essence of Ether (Inhaled)
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
-data:
+effects: []
+folder: 0wZARZc6SbhT7yM2
+sort: 1700000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.g1GWY7lnVCEl9n5d
+_id: HenhV5Co8zJvqTgZ
+system:
   description:
     value: >-
       <p><em>Poison, rare</em></p>
@@ -20,7 +45,9 @@ data:
       vial, you can throw 30 feet.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0.1
   price: 270
@@ -69,33 +96,15 @@ data:
     dc: null
     scaling: spell
   consumableType: potion
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.g1GWY7lnVCEl9n5d
-_id: HenhV5Co8zJvqTgZ
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!HenhV5Co8zJvqTgZ'
 

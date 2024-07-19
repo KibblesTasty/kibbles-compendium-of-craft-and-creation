@@ -1,7 +1,32 @@
 name: Grenade Casing
 type: consumable
 img: icons/commodities/tech/metal-blue.webp
-data:
+effects: []
+folder: OIj2eu41aDq4PrlM
+sort: 150000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.HqpjldOalPUDYuqP
+_id: 39CV6bqLMejpC1b4
+system:
   description:
     value: >-
       <p>A simple construction of a two chambered projectile (typically made of
@@ -13,7 +38,9 @@ data:
       the explosion + [[/r 1d4]] piercing damage + [[/r 1d4]] fire damage.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -62,33 +89,15 @@ data:
     dc: null
     scaling: spell
   consumableType: potion
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.HqpjldOalPUDYuqP
-_id: 39CV6bqLMejpC1b4
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!39CV6bqLMejpC1b4'
 

@@ -2,7 +2,13 @@ _id: 5XsfL0ciUtC7lDRI
 name: Long Haft
 type: loot
 img: icons/commodities/wood/wood-pole.webp
-data:
+effects: []
+folder: aTYdVfNTRDDeZNsG
+sort: 112500
+flags:
+  core:
+    sourceId: Item.a52WzX94KnAQLduT
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.a52WzX94KnAQLduT
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347936478
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!5XsfL0ciUtC7lDRI'
 

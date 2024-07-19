@@ -2,7 +2,13 @@ _id: QR3VyyUnHKMua0Lr
 name: Uncommon Reactive Reagent
 type: loot
 img: icons/commodities/materials/bowl-powder-gold.webp
-data:
+effects: []
+folder: utRIZRIqYbiS3Yer
+sort: 100098
+flags:
+  core:
+    sourceId: Item.C7VOolKHzqEObYfv
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.C7VOolKHzqEObYfv
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347443701
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!QR3VyyUnHKMua0Lr'
 

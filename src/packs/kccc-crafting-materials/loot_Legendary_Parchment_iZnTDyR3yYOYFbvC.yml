@@ -2,7 +2,13 @@ _id: iZnTDyR3yYOYFbvC
 name: Legendary Parchment
 type: loot
 img: icons/sundries/scrolls/scroll-writing-orange-black.webp
-data:
+effects: []
+folder: wUHSKFXrf9LuGBiy
+sort: 103125
+flags:
+  core:
+    sourceId: Item.7VFN57PIkUjiOOwR
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.7VFN57PIkUjiOOwR
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347888245
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!iZnTDyR3yYOYFbvC'
 

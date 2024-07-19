@@ -2,7 +2,13 @@ _id: luPCDCvBVwKmhHKP
 name: Very Rare Poisonous Reagent
 type: loot
 img: icons/commodities/flowers/flower-grey-orange.webp
-data:
+effects: []
+folder: utRIZRIqYbiS3Yer
+sort: 100025
+flags:
+  core:
+    sourceId: Item.UFOwe83kYonigoAl
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.UFOwe83kYonigoAl
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347445924
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!luPCDCvBVwKmhHKP'
 

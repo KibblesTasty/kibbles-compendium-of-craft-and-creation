@@ -1,7 +1,32 @@
 name: Leather Buckler
 type: equipment
 img: icons/equipment/shield/kite-bronze-boss-brown.webp
-data:
+effects: []
+folder: bpxIgqP9eDUXiSZc
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.jbdRPIv92AVU4Gqp
+_id: 87ZNXdmGGySSuhkh
+system:
   description:
     value: >-
       <p>A small, simple, and light shield. Wielding this sheild increases your
@@ -11,7 +36,9 @@ data:
       attempts with that hand are made with disadvantage.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 4
   price: 10
@@ -74,33 +101,15 @@ data:
   strength: 0
   stealth: false
   proficient: true
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.jbdRPIv92AVU4Gqp
-_id: 87ZNXdmGGySSuhkh
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!87ZNXdmGGySSuhkh'
 

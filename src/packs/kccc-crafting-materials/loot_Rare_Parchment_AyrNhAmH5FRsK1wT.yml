@@ -2,7 +2,13 @@ _id: AyrNhAmH5FRsK1wT
 name: Rare Parchment
 type: loot
 img: icons/sundries/scrolls/scroll-plain-tan-red.webp
-data:
+effects: []
+folder: wUHSKFXrf9LuGBiy
+sort: 105469
+flags:
+  core:
+    sourceId: Item.vezUrADeIiJG3bMj
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.vezUrADeIiJG3bMj
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347896251
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!AyrNhAmH5FRsK1wT'
 

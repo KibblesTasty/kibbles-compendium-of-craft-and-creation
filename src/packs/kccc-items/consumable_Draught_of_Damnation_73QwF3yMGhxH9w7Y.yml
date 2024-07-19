@@ -2,7 +2,34 @@ name: Draught of Damnation
 type: consumable
 img: >-
   https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/Potion%206.png
-data:
+effects: []
+folder: pI6xYfE2PoVc7tNK
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+        use: true
+      altValue:
+        quantity: false
+        use: true
+  core:
+    sourceId: Item.SbXlvDln6T1z3NSK
+_id: 73QwF3yMGhxH9w7Y
+system:
   description:
     value: >-
       <p><em>Potion, rare</em></p>
@@ -22,7 +49,9 @@ data:
       of the fiends by the malignant will of the fiend.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0.1
   price: 680
@@ -71,35 +100,15 @@ data:
     dc: null
     scaling: spell
   consumableType: potion
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-        use: true
-      altValue:
-        quantity: false
-        use: true
-  core:
-    sourceId: Item.SbXlvDln6T1z3NSK
-_id: 73QwF3yMGhxH9w7Y
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!73QwF3yMGhxH9w7Y'
 

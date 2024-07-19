@@ -1,7 +1,32 @@
 name: Uncommon Feast
 type: consumable
 img: icons/consumables/food/bowl-stew-tofu-potato-red.webp
-data:
+effects: []
+folder: kkK138bcC9Kc8xfX
+sort: 100049
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.RUFEpuK7LXDfw4L2
+_id: UZf6HaSdGdbcGufx
+system:
   description:
     value: >-
       <p><em>Enhancing/Wondrous/Superb/Legendary</em></p>
@@ -62,7 +87,9 @@ data:
       <p>Any benefit from a feast fades after 24 hours.</p>
     chat: ''
     unidentified: ''
-  source: KCCC - Cooking
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -111,33 +138,15 @@ data:
     dc: null
     scaling: spell
   consumableType: food
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.RUFEpuK7LXDfw4L2
-_id: UZf6HaSdGdbcGufx
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!UZf6HaSdGdbcGufx'
 

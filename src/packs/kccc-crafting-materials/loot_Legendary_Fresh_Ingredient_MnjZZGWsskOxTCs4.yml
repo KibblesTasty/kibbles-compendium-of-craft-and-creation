@@ -2,7 +2,13 @@ _id: MnjZZGWsskOxTCs4
 name: Legendary Fresh Ingredient
 type: loot
 img: icons/consumables/fruit/pineapple-ripe-yellow.webp
-data:
+effects: []
+folder: pZDXJWUqoBKGsBye
+sort: 150000
+flags:
+  core:
+    sourceId: Item.v4Kgw5xtgaVFDDAi
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.v4Kgw5xtgaVFDDAi
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347688014
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!MnjZZGWsskOxTCs4'
 

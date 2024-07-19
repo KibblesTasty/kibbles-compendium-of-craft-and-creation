@@ -1,7 +1,33 @@
 name: Adamantine Bracers
 type: equipment
 img: icons/equipment/wrist/bracer-segmented-leather.webp
-data:
+effects: []
+folder: 0ulaXagQaSRt1aI0
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: AC Bonus
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.Me4HbHv3asGlfdFv
+_id: mlVhhfifwXT2lMKW
+system:
   description:
     value: >-
       <p>While wearing bracers and not using a shield, as a reaction to being
@@ -11,7 +37,9 @@ data:
       a common metal, the attacking weapon is destroyed.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -74,34 +102,15 @@ data:
   strength: 0
   stealth: false
   proficient: true
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-      context: AC Bonus
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.Me4HbHv3asGlfdFv
-_id: mlVhhfifwXT2lMKW
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!mlVhhfifwXT2lMKW'
 

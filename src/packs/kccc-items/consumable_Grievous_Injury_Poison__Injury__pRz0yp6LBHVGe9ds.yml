@@ -1,7 +1,32 @@
 name: Grievous Injury Poison (Injury)
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
-data:
+effects: []
+folder: 0wZARZc6SbhT7yM2
+sort: 1500000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.OQakcYVyWmdHs1hr
+_id: pRz0yp6LBHVGe9ds
+system:
   description:
     value: >-
       <p><em>Poison, very rare</em></p>
@@ -17,7 +42,9 @@ data:
       times.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0.1
   price: 2380
@@ -66,33 +93,15 @@ data:
     dc: null
     scaling: spell
   consumableType: potion
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.OQakcYVyWmdHs1hr
-_id: pRz0yp6LBHVGe9ds
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!pRz0yp6LBHVGe9ds'
 

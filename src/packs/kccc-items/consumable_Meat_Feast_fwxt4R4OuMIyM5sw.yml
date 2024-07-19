@@ -1,12 +1,39 @@
 name: Meat Feast
 type: consumable
 img: icons/consumables/meat/hock-leg-red-brown.webp
-data:
+effects: []
+folder: kkK138bcC9Kc8xfX
+sort: 101563
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.mlfEiZvFzkYTz4Fc
+_id: fwxt4R4OuMIyM5sw
+system:
   description:
     value: "<p><em>Meat/Hearty/Superb/Legendary</em></p>\n<p><em>Food (feast), uncommon/rare/very rare/legendary</em></p>\n<p>Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. Consuming the essence of a properly prepared creature of great power\_confers some of its power to you while satiated by the feast.</p>\n<p>You can add +1/+2/+3/+4 to ability checks and saving throws of the prepared creatures highest stat (if multiple stats are tied, the cook chooses which when preparing the meal). Alternatively, the cook can bring forth exotic properties of the creature, conferring one trait of the cooked animal to those that consume it as per the following table (this replaces the benefit to ability checks and saves):</p>\n<table style=\"width:100%;height:85px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:29.9427%;height:17px;text-align:center\"><strong>Minimum Rarity</strong></td>\n<td style=\"width:70.0573%;height:17px;text-align:center\"><strong>Creature Boon</strong></td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:29.9427%;height:17px;text-align:center\">uncommon</td>\n<td style=\"width:70.0573%;height:17px;text-align:center\">Hold Breath, Keen Senses, Pounce, Stone Camouflage</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:29.9427%;height:17px;text-align:center\">rare</td>\n<td style=\"width:70.0573%;height:17px;text-align:center\">Amphibious/Water Breathing, Web Walker</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:29.9427%;height:17px;text-align:center\">very rare</td>\n<td style=\"width:70.0573%;height:17px;text-align:center\">Pack Tactics, Spider Climb</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:29.9427%;height:17px;text-align:center\">legendary</td>\n<td style=\"width:70.0573%;height:17px;text-align:center\">Magic Resistance, Regeneration, Shapechanger(Mimic)</td>\n</tr>\n</tbody>\n</table>\n<p>The details from the creature boon can be found on the creature stat block. The cook must be aware of the creature’s property to make the meal imbue that property, and the GM may adjust the property in cases where it would not work for players or be too powerful as written. At the GM’s discretion, any ability can be added to this list.</p>"
     chat: ''
     unidentified: ''
-  source: KCCC - Cooking
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -55,33 +82,15 @@ data:
     dc: null
     scaling: spell
   consumableType: food
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.mlfEiZvFzkYTz4Fc
-_id: fwxt4R4OuMIyM5sw
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!fwxt4R4OuMIyM5sw'
 

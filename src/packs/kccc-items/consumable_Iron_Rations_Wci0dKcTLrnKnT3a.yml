@@ -1,7 +1,32 @@
 name: Iron Rations
 type: consumable
 img: icons/consumables/food/berries-ration-round-red.webp
-data:
+effects: []
+folder: kkK138bcC9Kc8xfX
+sort: 103125
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.tJccW8z7YrNb4m1R
+_id: Wci0dKcTLrnKnT3a
+system:
   description:
     value: >-
       <p><em>Food (ration), common</em></p>
@@ -12,7 +37,9 @@ data:
       prolonged exposure.</p>
     chat: ''
     unidentified: ''
-  source: KCCC - Cooking
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -61,33 +88,15 @@ data:
     dc: null
     scaling: spell
   consumableType: food
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.tJccW8z7YrNb4m1R
-_id: Wci0dKcTLrnKnT3a
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Wci0dKcTLrnKnT3a'
 

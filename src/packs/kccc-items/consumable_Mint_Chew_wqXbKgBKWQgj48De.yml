@@ -1,7 +1,32 @@
 name: Mint Chew
 type: consumable
 img: icons/consumables/vegetable/arugula-leafy-lettuce-green.webp
-data:
+effects: []
+folder: kkK138bcC9Kc8xfX
+sort: 100782
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.gcobWbnLzGhFVbi9
+_id: wqXbKgBKWQgj48De
+system:
   description:
     value: >-
       <p><em>Food (snack), uncommon</em></p>
@@ -16,7 +41,9 @@ data:
       rest.</p>
     chat: ''
     unidentified: ''
-  source: KCCC - Cooking
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -65,33 +92,15 @@ data:
     dc: null
     scaling: spell
   consumableType: food
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.gcobWbnLzGhFVbi9
-_id: wqXbKgBKWQgj48De
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!wqXbKgBKWQgj48De'
 

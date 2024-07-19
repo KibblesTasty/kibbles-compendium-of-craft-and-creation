@@ -1,7 +1,46 @@
 name: Scourge
 type: weapon
 img: icons/weapons/misc/whip-red-yellow.webp
-data:
+effects: []
+folder: bpxIgqP9eDUXiSZc
+sort: 200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.s6SXT9KtlSUpAU9U
+_id: BgKn87uJE7XbYCCI
+system:
   description:
     value: >-
       <p>This heavy metal-tipped whip is a martial weapon with the reach
@@ -10,7 +49,9 @@ data:
       within 5 feet of you.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 3
   price: 40
@@ -87,47 +128,15 @@ data:
     two: false
     ver: false
   proficient: true
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: false
-      altValue: false
-    quickProperties:
-      value: true
-      altValue: true
-    quickVersatile:
-      value: false
-      altValue: false
-    quickOther:
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-    quickAttack:
-      value: true
-      altValue: true
-    quickDamage:
-      context:
-        '0': ''
-      value:
-        '0': true
-      altValue:
-        '0': true
-  core:
-    sourceId: Item.s6SXT9KtlSUpAU9U
-_id: BgKn87uJE7XbYCCI
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!BgKn87uJE7XbYCCI'
 

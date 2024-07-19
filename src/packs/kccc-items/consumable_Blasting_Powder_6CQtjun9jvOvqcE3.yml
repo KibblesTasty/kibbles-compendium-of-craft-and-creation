@@ -1,7 +1,49 @@
 name: Blasting Powder
 type: consumable
 img: icons/commodities/materials/powder-grey.webp
-data:
+effects: []
+folder: OIj2eu41aDq4PrlM
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+        '1': ''
+      value:
+        '0': true
+        '1': true
+      altValue:
+        '0': true
+        '1': true
+  core:
+    sourceId: Item.vFDZ1Lj1lqd7gxvt
+_id: 6CQtjun9jvOvqcE3
+system:
   description:
     value: >-
       <p>A fine grey powder with large grains and the faint smell of sulfur and
@@ -22,7 +64,9 @@ data:
       adventurers get their hands on it.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -75,50 +119,15 @@ data:
     dc: 14
     scaling: flat
   consumableType: potion
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-    quickTemplate:
-      value: true
-      altValue: true
-    quickSave:
-      value: true
-      altValue: true
-    quickDamage:
-      context:
-        '0': ''
-        '1': ''
-      value:
-        '0': true
-        '1': true
-      altValue:
-        '0': true
-        '1': true
-  core:
-    sourceId: Item.vFDZ1Lj1lqd7gxvt
-_id: 6CQtjun9jvOvqcE3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!6CQtjun9jvOvqcE3'
 

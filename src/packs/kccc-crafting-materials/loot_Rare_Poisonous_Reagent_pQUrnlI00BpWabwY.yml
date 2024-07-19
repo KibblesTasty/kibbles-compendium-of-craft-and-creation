@@ -2,7 +2,13 @@ _id: pQUrnlI00BpWabwY
 name: Rare Poisonous Reagent
 type: loot
 img: icons/consumables/plants/tearthumb-dried-halberd-leaf-brown.webp
-data:
+effects: []
+folder: utRIZRIqYbiS3Yer
+sort: 101563
+flags:
+  core:
+    sourceId: Item.6xK2IWvb33Ll8y5h
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.6xK2IWvb33Ll8y5h
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347439796
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!pQUrnlI00BpWabwY'
 

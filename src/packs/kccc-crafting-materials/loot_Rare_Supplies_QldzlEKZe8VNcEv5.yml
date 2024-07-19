@@ -2,7 +2,13 @@ _id: QldzlEKZe8VNcEv5
 name: Rare Supplies
 type: loot
 img: icons/consumables/drinks/wine-amphora-clay-red.webp
-data:
+effects: []
+folder: pZDXJWUqoBKGsBye
+sort: 104688
+flags:
+  core:
+    sourceId: Item.mzQzl7nZJt9qOxLo
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.mzQzl7nZJt9qOxLo
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347748455
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!QldzlEKZe8VNcEv5'
 

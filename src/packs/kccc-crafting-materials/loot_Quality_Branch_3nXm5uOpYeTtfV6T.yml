@@ -2,9 +2,22 @@ _id: 3nXm5uOpYeTtfV6T
 name: Quality Branch
 type: loot
 img: icons/commodities/wood/log-rough-brown.webp
-data:
+effects: []
+folder: aTYdVfNTRDDeZNsG
+sort: 143750
+flags:
+  core:
+    sourceId: Item.sicn2L0C3h7A3nwJ
+system:
   description:
-    value: ''
+    value: >-
+      <p><span class="fontstyle0">A quality branch refers to one that can be
+      made into more precious objects, particularly bows. It is nonmagical in
+      nature, but typically yew when dealing with bows, though ash, mulberry,
+      elm, oak, hickory, hazel, and maple can be used under broader
+      definitions</span> <br
+      style="font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px"
+      /></p>
     chat: ''
     unidentified: ''
   source: Crafting Material
@@ -18,14 +31,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.sicn2L0C3h7A3nwJ
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347725046
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!3nXm5uOpYeTtfV6T'
 

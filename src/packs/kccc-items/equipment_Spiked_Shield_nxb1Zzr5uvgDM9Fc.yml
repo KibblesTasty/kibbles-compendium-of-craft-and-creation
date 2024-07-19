@@ -1,14 +1,52 @@
 name: Spiked Shield
 type: equipment
 img: icons/equipment/shield/wardoor-wooden-boss-brown.webp
-data:
+effects: []
+folder: 0ulaXagQaSRt1aI0
+sort: 300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.ieLViA9DcH62BeNL
+_id: nxb1Zzr5uvgDM9Fc
+system:
   description:
     value: >-
       <p>Your shield is considered a martial melee weapon, dealing 1d4 damage on
       hit.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -73,44 +111,15 @@ data:
   strength: 0
   stealth: false
   proficient: true
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-    quickAttack:
-      value: true
-      altValue: true
-    quickDamage:
-      context:
-        '0': ''
-      value:
-        '0': true
-      altValue:
-        '0': true
-  core:
-    sourceId: Item.ieLViA9DcH62BeNL
-_id: nxb1Zzr5uvgDM9Fc
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!nxb1Zzr5uvgDM9Fc'
 

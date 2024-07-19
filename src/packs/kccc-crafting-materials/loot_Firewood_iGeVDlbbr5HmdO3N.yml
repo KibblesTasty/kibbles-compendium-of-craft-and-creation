@@ -2,7 +2,13 @@ _id: iGeVDlbbr5HmdO3N
 name: Firewood
 type: loot
 img: icons/commodities/wood/kindling-sticks-brown.webp
-data:
+effects: []
+folder: aTYdVfNTRDDeZNsG
+sort: 100000
+flags:
+  core:
+    sourceId: Item.Q8XI0u4ahUfJ5cBw
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.Q8XI0u4ahUfJ5cBw
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347465713
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!iGeVDlbbr5HmdO3N'
 

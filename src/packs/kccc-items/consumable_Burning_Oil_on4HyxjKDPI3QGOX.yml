@@ -1,16 +1,86 @@
 name: Burning Oil
 type: consumable
 img: icons/magic/fire/flame-burning-earth-yellow.webp
-data:
+effects:
+  - name: Burning Oil
+    icon: icons/magic/fire/flame-burning-earth-yellow.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+      core:
+        sourceId: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-items.Item.tjlvDDNSoXRRKtQU.ActiveEffect.5XlFNzkAM338DC9y
+    _id: 9TpZG5dVcws0blw5
+    changes:
+      - key: system.damage.parts
+        mode: 2
+        value: '[["1d4", "fire"]]'
+        priority: null
+      - key: name
+        mode: 5
+        value: Burning {}
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>As an action, you can coat a weapon in this oil and ignite it. For 1
+      minute, the ignited weapon burns, dealing an extra [[/damage 1d4 fire]] to
+      attacks made with it, and providing bright light in a 20-foot radius and
+      dim light for an additional 20 feet.</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _key: '!items.effects!on4HyxjKDPI3QGOX.9TpZG5dVcws0blw5'
+folder: 34hJDESbF50bPPrC
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.XoBtw4yo6e6N9ufk
+_id: on4HyxjKDPI3QGOX
+system:
   description:
     value: >-
       <p>As an action, you can coat a weapon in this oil and ignite it. For 1
-      minute, the ignited weapon burns, dealing an extra [[/r 1d4]] fire to
+      minute, the ignited weapon burns, dealing an extra [[/damage 1d4 fire]] to
       attacks made with it, and providing bright light in a 20-foot radius and
       dim light for an additional 20 feet.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -43,8 +113,8 @@ data:
     type: ''
     target: ''
     amount: null
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: ench
   attackBonus: 0
   chatFlavor: ''
   critical:
@@ -59,33 +129,15 @@ data:
     dc: null
     scaling: spell
   consumableType: potion
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.XoBtw4yo6e6N9ufk
-_id: on4HyxjKDPI3QGOX
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: 1721349989525
+  modifiedTime: 1721350212570
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!on4HyxjKDPI3QGOX'
 

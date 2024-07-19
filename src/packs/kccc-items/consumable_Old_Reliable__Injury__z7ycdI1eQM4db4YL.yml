@@ -1,7 +1,32 @@
 name: Old Reliable (Injury)
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
-data:
+effects: []
+folder: 0wZARZc6SbhT7yM2
+sort: 1100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+  core:
+    sourceId: Item.HXglkvTpKWQqI01j
+_id: z7ycdI1eQM4db4YL
+system:
   description:
     value: >-
       <p><em>Poison, uncommon</em></p>
@@ -12,7 +37,9 @@ data:
       deal [[/r 1d4]] additional poison damage.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0.1
   price: 70
@@ -61,33 +88,15 @@ data:
     dc: null
     scaling: spell
   consumableType: potion
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-  core:
-    sourceId: Item.HXglkvTpKWQqI01j
-_id: z7ycdI1eQM4db4YL
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!z7ycdI1eQM4db4YL'
 

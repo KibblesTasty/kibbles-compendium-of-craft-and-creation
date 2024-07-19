@@ -2,7 +2,13 @@ _id: aMY1h7jB8yG1eQec
 name: Crystal Vial
 type: loot
 img: icons/consumables/potions/vial-ornet-silver-black.webp
-data:
+effects: []
+folder: wUHSKFXrf9LuGBiy
+sort: 101563
+flags:
+  core:
+    sourceId: Item.pP9LGlbwqrdGoVTp
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.pP9LGlbwqrdGoVTp
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721348052349
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!aMY1h7jB8yG1eQec'
 

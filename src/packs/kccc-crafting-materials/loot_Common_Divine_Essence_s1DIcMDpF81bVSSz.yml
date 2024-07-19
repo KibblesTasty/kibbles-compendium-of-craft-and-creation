@@ -2,7 +2,13 @@ _id: s1DIcMDpF81bVSSz
 name: Common Divine Essence
 type: loot
 img: icons/commodities/materials/feather-white-glowing-beams.webp
-data:
+effects: []
+folder: myd9MRbE1I1uwQmv
+sort: 2000000
+flags:
+  core:
+    sourceId: Item.xpI5UN5luFKm7Zbm
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.xpI5UN5luFKm7Zbm
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347421790
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!s1DIcMDpF81bVSSz'
 

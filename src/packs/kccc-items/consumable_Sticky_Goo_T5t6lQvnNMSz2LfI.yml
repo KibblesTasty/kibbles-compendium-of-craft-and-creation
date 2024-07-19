@@ -1,7 +1,39 @@
 name: Sticky Goo
 type: consumable
 img: icons/commodities/materials/slime-thick-green.webp
-data:
+effects: []
+folder: isoPUL0XphkBkF8T
+sort: 112500
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickTemplate:
+      value: true
+      altValue: true
+    quickSave:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.jM0QCu2EyV8FfIzC
+_id: T5t6lQvnNMSz2LfI
+system:
   description:
     value: >-
       <p>When broken and exposed to air, it creates a very sticky rapidly
@@ -11,7 +43,9 @@ data:
       feet, shattering it on impact.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -60,40 +94,15 @@ data:
     dc: 12
     scaling: flat
   consumableType: potion
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-    quickTemplate:
-      value: true
-      altValue: true
-    quickSave:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.jM0QCu2EyV8FfIzC
-_id: T5t6lQvnNMSz2LfI
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!T5t6lQvnNMSz2LfI'
 

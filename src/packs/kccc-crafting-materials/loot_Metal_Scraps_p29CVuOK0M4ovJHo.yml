@@ -2,7 +2,13 @@ _id: p29CVuOK0M4ovJHo
 name: Metal Scraps
 type: loot
 img: icons/commodities/metal/barstock-broken-steel.webp
-data:
+effects: []
+folder: 6zvQiOAZ1GGMG9kT
+sort: 106250
+flags:
+  core:
+    sourceId: Item.FaId50cpiVGgQXy0
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.FaId50cpiVGgQXy0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721348064466
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!p29CVuOK0M4ovJHo'
 

@@ -1,7 +1,40 @@
 name: Elvish Bread
 type: consumable
 img: icons/consumables/grains/waffle-golden-yellow.webp
-data:
+effects: []
+folder: kkK138bcC9Kc8xfX
+sort: 125000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.WpIgV1aAFfw3ypFR
+_id: JDzXS6J2G5DxXSmQ
+system:
   description:
     value: >-
       <p><em>Food (ration), uncommon</em></p>
@@ -11,7 +44,9 @@ data:
       nourishment to sustain a creature for one day.</p>
     chat: ''
     unidentified: ''
-  source: KCCC - Cooking
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -62,41 +97,15 @@ data:
     dc: null
     scaling: spell
   consumableType: food
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-    quickDamage:
-      context:
-        '0': ''
-      value:
-        '0': true
-      altValue:
-        '0': true
-  core:
-    sourceId: Item.WpIgV1aAFfw3ypFR
-_id: JDzXS6J2G5DxXSmQ
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!JDzXS6J2G5DxXSmQ'
 

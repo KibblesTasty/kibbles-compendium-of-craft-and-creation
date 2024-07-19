@@ -1,7 +1,46 @@
 name: Thunder Cannon
 type: weapon
 img: icons/weapons/guns/gun-topbarrel.webp
-data:
+effects: []
+folder: 0ulaXagQaSRt1aI0
+sort: 125000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.kT3HgqzwZvySbVdC
+_id: sGKLTmYpcvzhQOsJ
+system:
   description:
     value: >-
       <p><em>Requires attunement</em></p>
@@ -20,7 +59,9 @@ data:
       within 300 feet of you whenever it makes an attack.</p>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   quantity: 1
   weight: 0
   price: 0
@@ -97,47 +138,15 @@ data:
     two: true
     ver: false
   proficient: true
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: false
-      altValue: false
-    quickProperties:
-      value: true
-      altValue: true
-    quickVersatile:
-      value: false
-      altValue: false
-    quickOther:
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-    quickAttack:
-      value: true
-      altValue: true
-    quickDamage:
-      context:
-        '0': ''
-      value:
-        '0': true
-      altValue:
-        '0': true
-  core:
-    sourceId: Item.kT3HgqzwZvySbVdC
-_id: sGKLTmYpcvzhQOsJ
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721349240543
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!sGKLTmYpcvzhQOsJ'
 

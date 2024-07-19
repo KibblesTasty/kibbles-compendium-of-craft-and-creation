@@ -1,0 +1,147 @@
+folder: 34hJDESbF50bPPrC
+name: Silver Oil
+type: consumable
+_id: CUJMatRPq1cetx4r
+img: icons/consumables/potions/vial-ornet-silver-black.webp
+system:
+  description:
+    value: >-
+      <p>A sparkling chromatic oil. The oil can coat one slashing or piercing
+      weapon or up to 5 pieces of slashing or piercing ammunition. Applying the
+      oil takes 1 minute. For 1 hour, the coated item is considered
+      silvered.</p>
+    chat: ''
+  source:
+    book: KCCC
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: ench
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment:
+    classIdentifier: ''
+    restrictions:
+      allowMagical: false
+      type: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: potion
+    subtype: ''
+  magicalBonus: null
+  properties: []
+effects:
+  - name: Silver Oil
+    icon: icons/consumables/potions/vial-ornet-silver-black.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    _id: V3xI9dX1gnJtNM1D
+    changes:
+      - key: system.properties
+        mode: 2
+        value: sil
+        priority: null
+      - key: name
+        mode: 5
+        value: Silvered {}
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span style="font-family:Signika, sans-serif">A sparkling chromatic
+      oil. The oil can coat one slashing or piercing weapon or up to 5 pieces of
+      slashing or piercing ammunition. Applying the oil takes 1 minute. For 1
+      hour, the coated item is considered silvered.</span></p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _key: '!items.effects!CUJMatRPq1cetx4r.V3xI9dX1gnJtNM1D'
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: 1721349016905
+  modifiedTime: 1721349414610
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!CUJMatRPq1cetx4r'
+

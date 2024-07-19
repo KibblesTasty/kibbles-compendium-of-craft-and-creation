@@ -2,7 +2,13 @@ _id: q4HQBGj7osPdpiJ1
 name: Resistant Hide
 type: loot
 img: icons/commodities/leather/fur-pelt-white.webp
-data:
+effects: []
+folder: LyI3aXjxTYcOjbpH
+sort: 125000
+flags:
+  core:
+    sourceId: Item.aVQzG06AEKoo2O4N
+system:
   description:
     value: ''
     chat: ''
@@ -18,14 +24,15 @@ data:
   critical:
     threshold: null
     damage: null
-effects: []
-folder: null
-sort: 0
-permission:
+ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.aVQzG06AEKoo2O4N
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1721347379061
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!q4HQBGj7osPdpiJ1'
 
