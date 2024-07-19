@@ -73,16 +73,16 @@ system:
     value: >-
       <p>You draw on the psychic energy of another creature you can see to
       sustain yourself. The target must make a Charisma saving throw. On failure
-      it takes [[/r 3d8]] psychic damage and you gain temporary hit points equal
-      to half the amount of psychic damage dealt and regain one expended psi
-      point.</p>
-
-      <p>At Higher Levels: When you cast this spell using a spell slot of 3rd
-      level or higher, the spell deals an additional [[/r 1d8]] psychic
-      damage.</p>
+      it takes [[/damage 3d8 psychic]] damage and you gain temporary hit points
+      equal to half the amount of psychic damage dealt and regain one expended
+      psi point.</p><p><em><strong>At Higher Levels:</strong></em> When you cast
+      this spell using a spell slot of 3rd level or higher, the spell deals an
+      additional [[/damage 1d8 psychic]] damage.</p>
     chat: ''
     unidentified: ''
-  source: Kibbles' Psionics
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: action
     cost: 1
@@ -150,10 +150,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693856618031
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721353344409
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!WwGEJqANVTHASfIB'
 

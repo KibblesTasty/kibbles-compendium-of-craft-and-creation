@@ -81,7 +81,9 @@ system:
       4d8]]).</p>
     chat: ''
     unidentified: ''
-  source: Kibbles' Generic Elemental Spells
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: action
     cost: 1
@@ -136,7 +138,9 @@ system:
     concentration: false
     value: ''
   materials:
-    value: ''
+    value: >-
+      a piece of ammunition or weapon with the thrown property worth at least 1
+      cp
     consumed: false
     cost: 0
     supply: 0
@@ -146,15 +150,19 @@ system:
   scaling:
     mode: cantrip
     formula: 1d8
+  properties:
+    - vocal
+    - somatic
+    - material
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693855886410
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721353291675
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!gslZ0yGiSubbza5m'
 

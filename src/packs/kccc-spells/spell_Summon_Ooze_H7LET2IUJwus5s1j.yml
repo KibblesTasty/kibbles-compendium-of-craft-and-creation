@@ -64,7 +64,9 @@ system:
     value: "<p>You call forth a magical ooze. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Ooze Spirit stat block. When you cast the spell, choose from Green, Red, or Yellow. The creature resembles the creature of your choice, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>\n<p>The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell of 2nd level or higher, use the higher level whenever the spell's level appears in the stat block.</p>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: Kibbles' Casting Compendium
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: action
     cost: 1
@@ -132,10 +134,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693855886240
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721353291675
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!H7LET2IUJwus5s1j'
 

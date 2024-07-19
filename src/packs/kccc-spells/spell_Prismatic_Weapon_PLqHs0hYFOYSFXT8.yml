@@ -1,7 +1,889 @@
 name: Prismatic Weapon
 type: spell
 img: icons/weapons/swords/greatsword-evil-green.webp
-effects: []
+effects:
+  - name: Prismatic Weapon (Acid) (1d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    _id: pYDB1ku0cW1wv4Me
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["1d6", "acid"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.pYDB1ku0cW1wv4Me'
+  - name: Prismatic Weapon (Acid) (2d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["2d6", "acid"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: da1vMHsknLd7mJtY
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.da1vMHsknLd7mJtY'
+  - name: Prismatic Weapon (Acid) (3d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["3d6", "acid"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: OyxF247m3hQoszRN
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.OyxF247m3hQoszRN'
+  - name: Prismatic Weapon (Cold) (1d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["1d6", "cold"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: 1Fuu4MtD8o3z97g5
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.1Fuu4MtD8o3z97g5'
+  - name: Prismatic Weapon (Cold) (2d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["2d6", "cold"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: S6tp4g3GYatqPc9v
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.S6tp4g3GYatqPc9v'
+  - name: Prismatic Weapon (Cold) (3d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["3d6", "cold"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: i9RapdTtd3fTb7uh
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.i9RapdTtd3fTb7uh'
+  - name: Prismatic Weapon (Fire) (1d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["1d6", "fire"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: XtInYRQpN7IXmtk8
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.XtInYRQpN7IXmtk8'
+  - name: Prismatic Weapon (Fire) (2d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["2d6", "fire"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: 42dkJyIk9tkJ3XkR
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.42dkJyIk9tkJ3XkR'
+  - name: Prismatic Weapon (Fire) (3d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["3d6", "fire"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: oaQ95ZWO8f1PjBL7
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.oaQ95ZWO8f1PjBL7'
+  - name: Prismatic Weapon (Lightning) (1d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["1d6", "lightning"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: A3jLo1KRds8NdqCc
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.A3jLo1KRds8NdqCc'
+  - name: Prismatic Weapon (Lightning) (2d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["2d6", "lightning"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: 6B7QTwHrutIguJUT
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.6B7QTwHrutIguJUT'
+  - name: Prismatic Weapon (Lightning) (3d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["3d6", "lightning"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: XGa6a42xOKmfWnP2
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.XGa6a42xOKmfWnP2'
+  - name: Prismatic Weapon (Poison) (1d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["1d6", "poison"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: 9e4NmqxTQVNODRng
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.9e4NmqxTQVNODRng'
+  - name: Prismatic Weapon (Poison) (2d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["2d6", "poison"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: ZNTVKGBDs1Xp1DpU
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.ZNTVKGBDs1Xp1DpU'
+  - name: Prismatic Weapon (Poison) (3d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["3d6", "poison"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: FkCbPqNYn5YjJIxn
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.FkCbPqNYn5YjJIxn'
+  - name: Prismatic Weapon (Thunder) (1d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["1d6", "thunder"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: dxHkL2sKl5g6PxPh
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.dxHkL2sKl5g6PxPh'
+  - name: Prismatic Weapon (Thunder) (2d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["2d6", "thunder"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: B47MSZkVZYSgaZ6U
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.B47MSZkVZYSgaZ6U'
+  - name: Prismatic Weapon (Thunder) (3d6)
+    icon: icons/weapons/swords/greatsword-evil-green.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+      - key: system.magicalBonus
+        mode: 4
+        value: '1'
+      - key: name
+        mode: 5
+        value: Prismatic {}
+      - key: system.damage.parts
+        mode: 2
+        value: '[["3d6", "thunder"]]'
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A weapon you touch is infused with elemental power, becoming a magical
+      weapon. Choose of the following damage types: acid, cold, fire, lightning,
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
+      weapon type, and if it doesn’t already have a bonus to attack and damage,
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _id: ccuPQX38Re6Gq0ut
+    _key: '!items.effects!PLqHs0hYFOYSFXT8.ccuPQX38Re6Gq0ut'
 folder: 3C2eSjufkNJJHedg
 sort: 0
 flags:
@@ -29,17 +911,17 @@ system:
     value: >-
       <p>A weapon you touch is infused with elemental power, becoming a magical
       weapon. Choose of the following damage types: acid, cold, fire, lightning,
-      poison, or thunder. The weapon deals [[/r 1d6]] damage of the chosen
+      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
       weapon type, and if it doesn’t already have a bonus to attack and damage,
-      it gains a +1 bonus to attack and damage rolls.</p>
-
-      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
-      with a 4th- or 5th-level spell slot, the damage increases by 1d6 (to [[/r
-      2d6]]). When you use a spell slot of 6th level or higher, the damage
-      increases by 2d6 (to [[/r 3d6]]).</p>
+      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell with a 4th- or
+      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
+      When you use a spell slot of 6th level or higher, the damage increases by
+      2d6 (to [[/damage 3d6]]).</p>
     chat: ''
     unidentified: ''
-  source: ''
+  source:
+    book: KCCC
   activation:
     type: action
     cost: 1
@@ -67,8 +949,8 @@ system:
     type: ''
     target: ''
     amount: null
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: ench
   attackBonus: 0
   chatFlavor: ''
   critical:
@@ -102,15 +984,23 @@ system:
   scaling:
     mode: level
     formula: 1d6
+  enchantment:
+    restrictions:
+      allowMagical: true
+      type: ''
+  properties:
+    - vocal
+    - somatic
+    - concentration
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
-  createdTime: null
-  modifiedTime: 1693855886311
-  lastModifiedBy: q6n1efCGVB98drEQ
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
+  createdTime: 1721351495472
+  modifiedTime: 1721353291675
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!PLqHs0hYFOYSFXT8'
 

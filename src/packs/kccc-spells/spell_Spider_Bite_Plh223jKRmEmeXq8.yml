@@ -73,7 +73,9 @@ system:
     value: "<p>You prick a target with a tiny magical fang of venom. Make a melee spell attack against a creature within reach. On a hit, the target takes [[/r 4d12]] poison damage and must succeed on a Constitution saving throw or becoming poisoned for 1 minute. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the target is no longer poisoned.</p>\n<p>If you miss your melee attack roll, you can concentrate (as if concentrating on a spell) to maintain the attack for another attempt until the end of your next turn. (You may make subsequent attempts until you hit or lose concentration)</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, the damage increases by [[/r 1d12]] for each slot level above 3rd.</p>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: Kibbles' Generic Elemental Spells
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: action
     cost: 1
@@ -143,10 +145,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 2.3.1
-  coreVersion: '11.308'
+  systemVersion: 3.2.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1693855886312
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1721353291675
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Plh223jKRmEmeXq8'
 
