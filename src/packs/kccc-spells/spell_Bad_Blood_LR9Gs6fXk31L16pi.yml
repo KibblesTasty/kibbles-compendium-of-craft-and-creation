@@ -147,7 +147,7 @@ system:
     concentration: true
     value: ''
   materials:
-    value: ''
+    value: a piece of rotten meat
     consumed: false
     cost: 0
     supply: 0
@@ -157,15 +157,20 @@ system:
   scaling:
     mode: level
     formula: ''
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 3.2.1
+  systemVersion: 3.3.0
   coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721353291675
+  modifiedTime: 1721354209275
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!LR9Gs6fXk31L16pi'
 
