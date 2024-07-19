@@ -1,7 +1,7 @@
-name: Ooze Spirit
+name: Ooze Spirit (Yellow)
 type: npc
 folder: RKOrrPX9DFuI6S6Y
-img: icons/svg/mystery-man.svg
+img: icons/creatures/slimes/bubbling-purple.webp
 system:
   currency:
     pp: 0
@@ -308,7 +308,7 @@ system:
       tremorsense: null
       truesight: null
       units: null
-      special: ''
+      special: blind beyond blindsight radius
     spellcasting: int
     exhaustion: 0
     concentration:
@@ -370,9 +370,7 @@ system:
       bypasses: []
       value:
         - acid
-        - fire
         - lightning
-        - poison
       custom: ''
     dr:
       bypasses:
@@ -400,9 +398,7 @@ system:
       custom: ''
     languages:
       value: []
-      custom: >-
-        Understands the languages you speak challenge — proficiency bonus equals
-        your bonus
+      custom: Understands the languages you speak
 prototypeToken:
   name: Ooze Spirit
   displayName: 0
@@ -410,7 +406,7 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   texture:
-    src: icons/svg/mystery-man.svg
+    src: icons/creatures/slimes/bubbling-purple.webp
     scaleX: 1
     scaleY: 1
     offsetX: 0
@@ -546,7 +542,7 @@ items:
     _key: '!actors.items!YmeaU6qHAn5VVE5s.nrV8OM9zhecG7OTA'
   - name: Pseudopod
     type: feat
-    img: icons/svg/combat.svg
+    img: icons/magic/acid/projectile-faceted-glob.webp
     system:
       description:
         value: >-
@@ -562,7 +558,8 @@ items:
         units: ft
         long: null
       actionType: msak
-      source: {}
+      source:
+        custom: ''
       duration:
         value: ''
         units: ''
@@ -585,7 +582,7 @@ items:
         target: null
         amount: null
         scale: false
-      ability: null
+      ability: ''
       attack:
         bonus: ''
         flat: false
@@ -594,7 +591,9 @@ items:
         threshold: null
         damage: ''
       damage:
-        parts: []
+        parts:
+          - - 1d4+3
+            - acid
         versatile: ''
       enchantment: null
       formula: ''
@@ -626,7 +625,7 @@ items:
       systemVersion: 3.3.0
       coreVersion: '11.315'
       createdTime: 1721364201709
-      modifiedTime: 1721364201709
+      modifiedTime: 1721415591813
       lastModifiedBy: pJeIW7qCa0HkURWq
     _key: '!actors.items!YmeaU6qHAn5VVE5s.GgGRlkmJsUtJ2EiA'
 effects: []
@@ -635,12 +634,14 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 flags:
   core: {}
+  dnd5e:
+    showTokenPortrait: false
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
   coreVersion: '11.315'
   createdTime: 1721364201641
-  modifiedTime: 1721364209398
+  modifiedTime: 1721415881069
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: YmeaU6qHAn5VVE5s
 sort: 0

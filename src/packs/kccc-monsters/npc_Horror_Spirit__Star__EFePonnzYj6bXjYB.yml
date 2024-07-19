@@ -1,7 +1,7 @@
-name: Horror Spirit
+name: Horror Spirit (Star)
 type: npc
 folder: RKOrrPX9DFuI6S6Y
-img: icons/svg/mystery-man.svg
+img: icons/creatures/magical/spirit-undead-ghost-purple.webp
 system:
   currency:
     pp: 0
@@ -351,7 +351,7 @@ system:
     type:
       value: aberration
     environment: ''
-    cr: 1
+    cr: 0
     spellLevel: 0
     source: {}
   resources:
@@ -395,9 +395,7 @@ system:
       custom: ''
     languages:
       value: []
-      custom: >-
-        Understands the languages you speak challenge — proficiency bonus equals
-        your bonus
+      custom: Understands the languages you speak
 prototypeToken:
   name: Horror Spirit
   displayName: 0
@@ -405,7 +403,7 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   texture:
-    src: icons/svg/mystery-man.svg
+    src: icons/creatures/magical/spirit-undead-ghost-purple.webp
     scaleX: 1
     scaleY: 1
     offsetX: 0
@@ -460,15 +458,15 @@ items:
     system:
       description:
         value: >-
-          The aberration makes a number of attacks equal to half this spell’s
-          level (rounded down). The aberration can use Fold Space in place of
-          one attack (Void Only).
+          <p>The aberration makes a number of attacks equal to half this spell’s
+          level (rounded down). </p>
         chat: ''
       activation:
         type: action
         cost: 1
         condition: ''
-      source: {}
+      source:
+        custom: ''
       duration:
         value: ''
         units: ''
@@ -496,7 +494,7 @@ items:
         amount: null
         scale: false
       ability: null
-      actionType: null
+      actionType: ''
       attack:
         bonus: ''
         flat: false
@@ -537,12 +535,12 @@ items:
       systemVersion: 3.3.0
       coreVersion: '11.315'
       createdTime: 1721364185891
-      modifiedTime: 1721364185891
+      modifiedTime: 1721415730749
       lastModifiedBy: pJeIW7qCa0HkURWq
     _key: '!actors.items!EFePonnzYj6bXjYB.ZpDdYvQ65ij2jqUH'
   - name: Tentacle
     type: feat
-    img: icons/svg/combat.svg
+    img: icons/creatures/tentacles/tentacles-suctioncups-pink.webp
     system:
       description:
         value: >-
@@ -557,8 +555,9 @@ items:
         value: 10
         units: ft
         long: null
-      actionType: msak
-      source: {}
+      actionType: mwak
+      source:
+        custom: ''
       duration:
         value: ''
         units: ''
@@ -581,7 +580,7 @@ items:
         target: null
         amount: null
         scale: false
-      ability: null
+      ability: ''
       attack:
         bonus: ''
         flat: false
@@ -590,7 +589,9 @@ items:
         threshold: null
         damage: ''
       damage:
-        parts: []
+        parts:
+          - - 1d8+3
+            - bludgeoning
         versatile: ''
       enchantment: null
       formula: ''
@@ -622,187 +623,12 @@ items:
       systemVersion: 3.3.0
       coreVersion: '11.315'
       createdTime: 1721364185927
-      modifiedTime: 1721364185927
+      modifiedTime: 1721407945885
       lastModifiedBy: pJeIW7qCa0HkURWq
     _key: '!actors.items!EFePonnzYj6bXjYB.C9YxgcCVwJCAULcT'
-  - name: Fold Space (Void Only)
-    type: feat
-    img: icons/svg/combat.svg
-    system:
-      description:
-        value: >-
-          The abherration teleports up to 30 feet. Creatures within 5 feet of
-          its destination take 7 (2d6) force damage. It can bring one willing
-          creature within 5 feet of it with it when teleporting this way, but
-          that creature takes 1d6 psychic damage when it does so.
-        chat: ''
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      source: {}
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
-      uses:
-        value: null
-        max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      summons: null
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-      recharge:
-        value: null
-        charged: false
-    _id: fzf9Yoa7D8gW8h2Y
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      pJeIW7qCa0HkURWq: 3
-    flags: {}
-    _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.0
-      coreVersion: '11.315'
-      createdTime: 1721364185956
-      modifiedTime: 1721364185956
-      lastModifiedBy: pJeIW7qCa0HkURWq
-    _key: '!actors.items!EFePonnzYj6bXjYB.fzf9Yoa7D8gW8h2Y'
-  - name: Grasping Tentacles (Sea Only)
-    type: feat
-    img: icons/svg/book.svg
-    system:
-      description:
-        value: >-
-          If the aberration hits the same creature two or more times on its
-          turn, the target is grappled (escape DC your spell save DC). Creatures
-          that start their turn grappled by the aberration take 7 (2d6) acid
-          damage. It can grapple a number of creatures this way equal to your
-          proficiency bonus.
-        chat: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
-      uses:
-        value: null
-        max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      summons: null
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-      recharge:
-        value: null
-        charged: false
-    _id: 8RsJRTyy3xmGHEs7
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      pJeIW7qCa0HkURWq: 3
-    flags: {}
-    _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.0
-      coreVersion: '11.315'
-      createdTime: 1721364186030
-      modifiedTime: 1721364186030
-      lastModifiedBy: pJeIW7qCa0HkURWq
-    _key: '!actors.items!EFePonnzYj6bXjYB.8RsJRTyy3xmGHEs7'
   - name: Fatal Destiny (Star Only)
     type: feat
-    img: icons/svg/book.svg
+    img: icons/magic/symbols/runes-star-pentagon-magenta.webp
     system:
       description:
         value: >-
@@ -812,26 +638,27 @@ items:
           and with disadvantage on attacks against creatures other than the
           aberration.
         chat: ''
-      source: {}
+      source:
+        custom: ''
       activation:
-        type: ''
+        type: none
         cost: null
-        condition: ''
+        condition: An enemy starts their turn within the radius
       duration:
         value: ''
         units: ''
       cover: null
       crewed: false
       target:
-        value: ''
+        value: '5'
         width: null
-        units: ''
-        type: ''
+        units: ft
+        type: radius
         prompt: true
       range:
         value: null
         long: null
-        units: ''
+        units: self
       uses:
         value: null
         max: ''
@@ -843,8 +670,8 @@ items:
         target: null
         amount: null
         scale: false
-      ability: null
-      actionType: null
+      ability: ''
+      actionType: save
       attack:
         bonus: ''
         flat: false
@@ -858,7 +685,7 @@ items:
       enchantment: null
       formula: ''
       save:
-        ability: ''
+        ability: wis
         dc: null
         scaling: spell
       summons: null
@@ -885,7 +712,7 @@ items:
       systemVersion: 3.3.0
       coreVersion: '11.315'
       createdTime: 1721364186049
-      modifiedTime: 1721364186049
+      modifiedTime: 1721408042193
       lastModifiedBy: pJeIW7qCa0HkURWq
     _key: '!actors.items!EFePonnzYj6bXjYB.gBv70SUgXJDINmBw'
 effects: []
@@ -894,12 +721,14 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 flags:
   core: {}
+  dnd5e:
+    showTokenPortrait: false
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
   coreVersion: '11.315'
   createdTime: 1721364185767
-  modifiedTime: 1721364207493
+  modifiedTime: 1721415730749
   lastModifiedBy: pJeIW7qCa0HkURWq
 _id: EFePonnzYj6bXjYB
 sort: 0
