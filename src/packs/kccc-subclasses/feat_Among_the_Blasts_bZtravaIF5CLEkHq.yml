@@ -1,7 +1,37 @@
 name: Among the Blasts
 type: feat
 img: icons/magic/fire/barrier-shield-explosion-yellow.webp
-data:
+effects: []
+folder: 85eR8FgmxMYYdD21
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.203juFyIj7W57veR
+_id: bZtravaIF5CLEkHq
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721445560152
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Additionally at 9th level, when you successfully avoid damage from an
@@ -10,7 +40,9 @@ data:
       of the effect. This movement doesn’t provoke opportunity attacks.</p>
     chat: ''
     unidentified: ''
-  source: Gadgeteer
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -54,28 +86,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.203juFyIj7W57veR
-_id: bZtravaIF5CLEkHq
+  type:
+    value: class
 _key: '!items!bZtravaIF5CLEkHq'
 

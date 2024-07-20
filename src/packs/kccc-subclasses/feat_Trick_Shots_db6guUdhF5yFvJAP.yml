@@ -1,7 +1,37 @@
 name: Trick Shots
 type: feat
 img: icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp
-data:
+effects: []
+folder: rX7bc6u28uUN6DaX
+sort: 200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.xpdeyvr8ll12qjM4
+_id: db6guUdhF5yFvJAP
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>At 3rd level, you gain the ability to create special pieces of
@@ -44,7 +74,9 @@ data:
       </ul>
     chat: ''
     unidentified: ''
-  source: Specialist
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -88,28 +120,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.xpdeyvr8ll12qjM4
-_id: db6guUdhF5yFvJAP
+  type:
+    value: class
 _key: '!items!db6guUdhF5yFvJAP'
 

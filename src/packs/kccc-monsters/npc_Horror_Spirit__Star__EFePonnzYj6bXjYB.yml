@@ -409,6 +409,11 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
   width: 1
   height: 1
   lockRotation: false
@@ -439,6 +444,9 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
+    negative: false
+    priority: 0
+    color: null
   sight:
     enabled: false
     range: 60
@@ -448,9 +456,22 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
+    color: null
   detectionModes: []
   flags: {}
   randomImg: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 items:
   - name: Multiattack
     type: feat
@@ -533,10 +554,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.0
-      coreVersion: '11.315'
+      coreVersion: '12.328'
       createdTime: 1721364185891
       modifiedTime: 1721415730749
       lastModifiedBy: pJeIW7qCa0HkURWq
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!EFePonnzYj6bXjYB.ZpDdYvQ65ij2jqUH'
   - name: Tentacle
     type: feat
@@ -621,10 +644,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.0
-      coreVersion: '11.315'
+      coreVersion: '12.328'
       createdTime: 1721364185927
       modifiedTime: 1721407945885
       lastModifiedBy: pJeIW7qCa0HkURWq
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!EFePonnzYj6bXjYB.C9YxgcCVwJCAULcT'
   - name: Fatal Destiny (Star Only)
     type: feat
@@ -710,10 +735,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.0
-      coreVersion: '11.315'
+      coreVersion: '12.328'
       createdTime: 1721364186049
       modifiedTime: 1721408042193
       lastModifiedBy: pJeIW7qCa0HkURWq
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!EFePonnzYj6bXjYB.gBv70SUgXJDINmBw'
 effects: []
 ownership:
@@ -726,10 +753,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: 1721364185767
   modifiedTime: 1721415730749
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: null
+  duplicateSource: null
 _id: EFePonnzYj6bXjYB
 sort: 0
 _key: '!actors!EFePonnzYj6bXjYB'

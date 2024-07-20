@@ -1,12 +1,31 @@
 name: Mystery Cult
 type: subclass
 img: icons/magic/unholy/silhouette-robe-evil-power.webp
-data:
+effects: []
+folder: aAnoAmDTG7RJrjHp
+sort: 100000
+flags:
+  core:
+    sourceId: Item.m6LeA1nmTd2lAlHN
+_id: 4MNJ9C1U3XEVnQU0
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721444538168
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
-    value: "<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Mystery Cult</h2>\n<p>While most clerics follow defined gods who seek to convert others to the cause, those of the Mystery Cults often intentionally obscure their faith with esoteric references and cloaked intentions. No less devoted than their more classically divine peers, they are not merely warlocks, but people of true faith in their dark and unknown deities.</p>\n<p>Standing at the blasphemous confluence of divine and psionic power, they are almost universally condemned and feared, often shrouding their nature and abilities with mystery and working toward esoteric goals.\_</p>\n<p>1st Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.waTL1pqaSFW0Ruvo]{Mystery Cult Domain Spells}</p>\n<p>1st Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.aCH2YQhHrtQ0K0UT]{Silent Language}</p>\n<p>1st Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.nZ0YafnvBd4AxVOQ]{Uncanny Insight}</p>\n<p>2nd Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.9nF4GNAlQVGpFlo4]{Channel Divinity: Invoke Betrayal}</p>\n<p>6th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.0H8FQTn9LAhk2EmR]{Esoteric Rites}</p>\n<p>8th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.mm6gL6Me8EungheR]{Potent Spellcasting}</p>\n<p>17th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.npUI9B9WROiQYaLa]{Dark Truth}</p>\n<h3><strong>Mystery Cult Quirks</strong></h3>\n<p>The following are some optional quirks for a player of the Mystery Cult. You can optionally roll or select a quirk that suits your character.</p>\n<table style=\"width:568px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary)\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center\"><strong>[[/r d6]]</strong></td>\n<td style=\"text-align:center\"><strong>Quirk</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\">You keep secrets about secrets.</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">2</td>\n<td style=\"text-align:center\">You perform strange rites at odd hours.</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">3</td>\n<td style=\"text-align:center\">You have a bright, cheerful attitude that never wavers no matter the situation.</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">4</td>\n<td style=\"text-align:center\">You prefer to keep your face covered with a mask at all times.</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">5</td>\n<td style=\"text-align:center\">You give obtuse answers when people ask about\_ your god.</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">6</td>\n<td style=\"text-align:center\">You frequently refer to the impending doom of creation.</td>\n</tr>\n</tbody>\n</table>"
+    value: "<p>While most clerics follow defined gods who seek to convert others to the cause, those of the Mystery Cults often intentionally obscure their faith with esoteric references and cloaked intentions. No less devoted than their more classically divine peers, they are not merely warlocks, but people of true faith in their dark and unknown deities.</p><p>Standing at the blasphemous confluence of divine and psionic power, they are almost universally condemned and feared, often shrouding their nature and abilities with mystery and working toward esoteric goals.\_</p><p>The following are some optional quirks for a player of the Mystery Cult. You can optionally roll or select a quirk that suits your character</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.2pN5lYf9blJ6qsIm]</p>"
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   identifier: mystery-cult
   classIdentifier: cleric
   advancement:
@@ -70,15 +89,5 @@ data:
   spellcasting:
     progression: none
     ability: ''
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.m6LeA1nmTd2lAlHN
-_id: 4MNJ9C1U3XEVnQU0
 _key: '!items!4MNJ9C1U3XEVnQU0'
 

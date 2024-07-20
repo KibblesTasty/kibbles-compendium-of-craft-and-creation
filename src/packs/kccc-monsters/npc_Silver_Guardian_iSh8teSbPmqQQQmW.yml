@@ -8,7 +8,36 @@ items:
     name: Advanced Technology
     type: feat
     img: icons/commodities/tech/cog-brass.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Advanced Technology. </strong>The guardian applies double
@@ -60,12 +89,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!iSh8teSbPmqQQQmW.wRmP8oUbzF5vlxzi'
+  - _id: Di54agSZB9eNP7tt
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: -200000
     flags:
       betterRolls5e:
         quickDesc:
@@ -80,12 +111,21 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!iSh8teSbPmqQQQmW.wRmP8oUbzF5vlxzi'
-  - _id: Di54agSZB9eNP7tt
-    name: Multiattack
-    type: feat
-    img: icons/skills/melee/blade-tips-double-blue.webp
-    data:
+      core:
+        sourceId: Item.094090din8bu19vk
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Multiattack. </strong>The guardian uses Manipulate Gravity.
@@ -137,12 +177,14 @@ items:
         value: null
         charged: false
       attunement: 0
+    _key: '!actors.items!iSh8teSbPmqQQQmW.Di54agSZB9eNP7tt'
+  - _id: bnvyvKC1gCUyQBco
+    name: Forcefield Projector
+    type: feat
+    img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
     effects: []
     folder: null
-    sort: -200000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
       betterRolls5e:
         quickDesc:
@@ -157,14 +199,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
-    _key: '!actors.items!iSh8teSbPmqQQQmW.Di54agSZB9eNP7tt'
-  - _id: bnvyvKC1gCUyQBco
-    name: Forcefield Projector
-    type: feat
-    img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Forcefield Projector.</strong> Ranged weapon attacks
@@ -217,12 +264,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!iSh8teSbPmqQQQmW.bnvyvKC1gCUyQBco'
+  - _id: pWI6STVximnNtEb8
+    name: Sufficiently Advanced Technology (Innate Spellcasting)
+    type: feat
+    img: icons/magic/symbols/runes-star-pentagon-orange.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -237,12 +286,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!iSh8teSbPmqQQQmW.bnvyvKC1gCUyQBco'
-  - _id: pWI6STVximnNtEb8
-    name: Sufficiently Advanced Technology (Innate Spellcasting)
-    type: feat
-    img: icons/magic/symbols/runes-star-pentagon-orange.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p><em><strong>Sufficiently Advanced Technology (Innate Spellcasting)</strong></em>. The guardians innate spellcasting ability is Intelligence (spell save DC 22). It can innately cast the following spells, requiring no components:</p>\n<p>At will: <em>fling<sup>K</sup>, floating disk, levitate, thunderwave, warding bond</em></p>\n<p>1/day each:<em> dimension door, orbital stones<sup>K</sup>, telekinesis, vortex blast<sup>K</sup></em></p>\n<p>\_</p>"
         chat: ''
@@ -291,32 +347,47 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!iSh8teSbPmqQQQmW.pWI6STVximnNtEb8'
+  - _id: WnSWjdQyFHk7dn3A
+    name: Floating Disk
+    type: spell
+    img: icons/magic/symbols/runes-triangle-blue.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 100001
     flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.bnjXlk13ZRJuf5d0
       betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
         quickDesc:
           value: true
           altValue: true
         quickProperties:
           value: true
           altValue: true
-        quickOther:
-          value: true
-          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!iSh8teSbPmqQQQmW.pWI6STVximnNtEb8'
-  - _id: WnSWjdQyFHk7dn3A
-    name: Floating Disk
-    type: spell
-    img: icons/magic/symbols/runes-triangle-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>This spell creates a circular, horizontal plane of force, 3 feet in
@@ -398,21 +469,26 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!iSh8teSbPmqQQQmW.WnSWjdQyFHk7dn3A'
+  - _id: QGBLmuj3deTlDUkV
+    name: Levitate
+    type: spell
+    img: icons/magic/control/debuff-energy-hold-levitate-pink.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.bnjXlk13ZRJuf5d0
+        sourceId: Compendium.dnd5e.spells.MRxldJd6C4bsBo3O
       betterRolls5e:
         quickOther:
           context: ''
           value: true
           altValue: true
         quickDesc:
+          value: true
+          altValue: true
+        quickSave:
           value: true
           altValue: true
         quickProperties:
@@ -424,12 +500,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!iSh8teSbPmqQQQmW.WnSWjdQyFHk7dn3A'
-  - _id: QGBLmuj3deTlDUkV
-    name: Levitate
-    type: spell
-    img: icons/magic/control/debuff-energy-hold-levitate-pink.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>One creature or object of your choice that you can see within range
@@ -510,16 +593,25 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!iSh8teSbPmqQQQmW.QGBLmuj3deTlDUkV'
+  - _id: EA87CGbsWjN9KJGa
+    name: Thunderwave
+    type: spell
+    img: icons/magic/lightning/bolt-forked-teal.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.MRxldJd6C4bsBo3O
+        sourceId: Compendium.dnd5e.spells.WTbOQBsarsL1LuXJ
       betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
         quickOther:
           context: ''
           value: true
@@ -536,15 +628,25 @@ items:
         quickVersatile:
           value: false
           altValue: false
+        quickTemplate:
+          value: true
+          altValue: true
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!iSh8teSbPmqQQQmW.QGBLmuj3deTlDUkV'
-  - _id: EA87CGbsWjN9KJGa
-    name: Thunderwave
-    type: spell
-    img: icons/magic/lightning/bolt-forked-teal.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>A wave of thunderous force sweeps out from you. Each creature in a
@@ -623,31 +725,23 @@ items:
         mode: level
         formula: 1d8
       attunement: null
+    _key: '!actors.items!iSh8teSbPmqQQQmW.EA87CGbsWjN9KJGa'
+  - _id: wUorggzJralg3nJ6
+    name: Warding Bond
+    type: spell
+    img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.WTbOQBsarsL1LuXJ
+        sourceId: Compendium.dnd5e.spells.JVhKeanAXZH62DrF
       betterRolls5e:
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
         quickOther:
           context: ''
           value: true
           altValue: true
         quickDesc:
-          value: true
-          altValue: true
-        quickSave:
           value: true
           altValue: true
         quickProperties:
@@ -656,18 +750,22 @@ items:
         quickVersatile:
           value: false
           altValue: false
-        quickTemplate:
-          value: true
-          altValue: true
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!iSh8teSbPmqQQQmW.EA87CGbsWjN9KJGa'
-  - _id: wUorggzJralg3nJ6
-    name: Warding Bond
-    type: spell
-    img: icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>This spell wards a willing creature you touch and creates a mystic
@@ -746,38 +844,97 @@ items:
         mode: none
         formula: ''
       attunement: null
-    effects: []
-    folder: null
-    sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      core:
-        sourceId: Compendium.dnd5e.spells.JVhKeanAXZH62DrF
-      betterRolls5e:
-        quickOther:
-          context: ''
-          value: true
-          altValue: true
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
-        quickFlavor:
-          value: true
-          altValue: true
     _key: '!actors.items!iSh8teSbPmqQQQmW.wUorggzJralg3nJ6'
   - _id: 6nHpaghphpRZJqjG
     name: Fling
     type: spell
     img: icons/magic/sonic/projectile-shock-wave-blue.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          type: String
+          value: null
+        critDamage:
+          type: String
+          value: ''
+        quickDesc:
+          type: Boolean
+          value: true
+          altValue: true
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
+        quickDamage:
+          type: Array
+          value:
+            '0': true
+            '1': true
+            '2': true
+          altValue:
+            '0': true
+            '1': true
+            '2': true
+          context:
+            '0': Falling
+            '1': Flinging
+            '2': Colliding
+        quickVersatile:
+          type: Boolean
+          value: false
+          altValue: false
+        quickProperties:
+          type: Boolean
+          value: true
+          altValue: true
+        quickCharges:
+          type: Boolean
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickOther:
+          type: Boolean
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.Mye18hqn0WMjJXbo
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You manipulate gravity around one large or smaller creature. The
@@ -858,88 +1015,61 @@ items:
         mode: none
         formula: ''
       attunement: null
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      6krcfu4V2rVq3RWy: 3
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        critRange:
-          type: String
-          value: null
-        critDamage:
-          type: String
-          value: ''
-        quickDesc:
-          type: Boolean
-          value: true
-          altValue: true
-        quickAttack:
-          type: Boolean
-          value: true
-          altValue: true
-        quickSave:
-          type: Boolean
-          value: true
-          altValue: true
-        quickDamage:
-          type: Array
-          value:
-            '0': true
-            '1': true
-            '2': true
-          altValue:
-            '0': true
-            '1': true
-            '2': true
-          context:
-            '0': Falling
-            '1': Flinging
-            '2': Colliding
-        quickVersatile:
-          type: Boolean
-          value: false
-          altValue: false
-        quickProperties:
-          type: Boolean
-          value: true
-          altValue: true
-        quickCharges:
-          type: Boolean
-          value:
-            use: false
-            resource: true
-          altValue:
-            use: false
-            resource: true
-        quickTemplate:
-          type: Boolean
-          value: true
-          altValue: true
-        quickOther:
-          type: Boolean
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          type: Boolean
-          value: true
-          altValue: true
-        quickPrompt:
-          type: Boolean
-          value: false
-          altValue: false
-      core:
-        sourceId: Item.Mye18hqn0WMjJXbo
     _key: '!actors.items!iSh8teSbPmqQQQmW.6nHpaghphpRZJqjG'
   - _id: WbjJkQRLNWIpdtvk
     name: Dimension Door
     type: spell
     img: icons/magic/air/air-burst-spiral-large-pink.webp
-    data:
+    effects: []
+    folder: null
+    sort: 100001
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.A4RsPuSvB9wFtz1j
+      betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You teleport yourself from your current location to any other spot
@@ -1021,16 +1151,55 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!iSh8teSbPmqQQQmW.WbjJkQRLNWIpdtvk'
+  - _id: 0SDNHMeIzv3fi7zg
+    name: Orbital Stones
+    type: spell
+    img: icons/magic/earth/projectile-boulder-dust.webp
     effects: []
     folder: null
-    sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
-      core:
-        sourceId: Compendium.dnd5e.spells.A4RsPuSvB9wFtz1j
       betterRolls5e:
+        critRange:
+          value: null
+          type: String
+        critDamage:
+          value: ''
+          type: String
+        quickDesc:
+          value: true
+          altValue: true
+          type: Boolean
+        quickProperties:
+          value: true
+          altValue: true
+          type: Boolean
+        quickVersatile:
+          value: false
+          altValue: false
+          type: Boolean
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+          type: Boolean
+        quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickAttack:
+          value: true
+          altValue: true
+          type: Boolean
         quickDamage:
           context:
             '0': ''
@@ -1038,35 +1207,35 @@ items:
             '0': true
           altValue:
             '0': true
-        quickOther:
-          context: ''
+          type: Array
+        quickSave:
+          type: Boolean
           value: true
           altValue: true
-        quickDesc:
+        quickTemplate:
+          type: Boolean
           value: true
           altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickVersatile:
+        quickPrompt:
+          type: Boolean
           value: false
           altValue: false
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
-    _key: '!actors.items!iSh8teSbPmqQQQmW.WbjJkQRLNWIpdtvk'
-  - _id: 0SDNHMeIzv3fi7zg
-    name: Orbital Stones
-    type: spell
-    img: icons/magic/earth/projectile-boulder-dust.webp
-    data:
+      core:
+        sourceId: Item.C05PnMUfe46ypjxM
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You lift three inanimate Small or Medium sized rocks or similar
@@ -1144,82 +1313,54 @@ items:
         mode: none
         formula: ''
       attunement: null
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      6krcfu4V2rVq3RWy: 3
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        critRange:
-          value: null
-          type: String
-        critDamage:
-          value: ''
-          type: String
-        quickDesc:
-          value: true
-          altValue: true
-          type: Boolean
-        quickProperties:
-          value: true
-          altValue: true
-          type: Boolean
-        quickVersatile:
-          value: false
-          altValue: false
-          type: Boolean
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-          type: Boolean
-        quickFlavor:
-          value: true
-          altValue: true
-          type: Boolean
-        quickCharges:
-          value:
-            use: false
-            resource: true
-          altValue:
-            use: false
-            resource: true
-          type: Boolean
-        quickAttack:
-          value: true
-          altValue: true
-          type: Boolean
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-          type: Array
-        quickSave:
-          type: Boolean
-          value: true
-          altValue: true
-        quickTemplate:
-          type: Boolean
-          value: true
-          altValue: true
-        quickPrompt:
-          type: Boolean
-          value: false
-          altValue: false
-      core:
-        sourceId: Item.C05PnMUfe46ypjxM
     _key: '!actors.items!iSh8teSbPmqQQQmW.0SDNHMeIzv3fi7zg'
   - _id: NhQxuLLOnXwdHGfT
     name: Telekinesis
     type: spell
     img: icons/magic/control/debuff-energy-hold-levitate-yellow.webp
-    data:
+    effects: []
+    folder: null
+    sort: 100001
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.HQfd7jJyULIoGxrZ
+      betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You gain the ability to move or manipulate creatures or objects by
@@ -1314,45 +1455,94 @@ items:
         mode: none
         formula: ''
       attunement: null
-    effects: []
-    folder: null
-    sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      core:
-        sourceId: Compendium.dnd5e.spells.HQfd7jJyULIoGxrZ
-      betterRolls5e:
-        quickOther:
-          context: ''
-          value: true
-          altValue: true
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
     _key: '!actors.items!iSh8teSbPmqQQQmW.NhQxuLLOnXwdHGfT'
   - _id: Qsw6OXo4nIOwmgxV
     name: Vortex Blast
     type: spell
     img: icons/magic/air/wind-vortex-swirl-blue-purple.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          value: null
+          type: String
+        critDamage:
+          value: ''
+          type: String
+        quickDesc:
+          value: true
+          altValue: true
+          type: Boolean
+        quickProperties:
+          value: true
+          altValue: true
+          type: Boolean
+        quickVersatile:
+          value: false
+          altValue: false
+          type: Boolean
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+          type: Boolean
+        quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickTemplate:
+          value: true
+          altValue: true
+          type: Boolean
+        quickSave:
+          value: true
+          altValue: true
+          type: Boolean
+        quickDamage:
+          context:
+            '0': ''
+            '1': Falling Damage
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+          type: Array
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.7zmTd51kpa5SJxyW
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p>You create a sudden violent vortex that blasts outwards in a 30-foot cone, tossing characters and objects within the area. Creatures in the area take [[/r 2d6]] bludgeoning damage and must succeed a Strength saving throw or be knocked 20 feet backward and 40 feet upward.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>\n<p>\_</p>"
         chat: ''
@@ -1422,85 +1612,55 @@ items:
         mode: level
         formula: 1d6
       attunement: null
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      6krcfu4V2rVq3RWy: 3
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        critRange:
-          value: null
-          type: String
-        critDamage:
-          value: ''
-          type: String
-        quickDesc:
-          value: true
-          altValue: true
-          type: Boolean
-        quickProperties:
-          value: true
-          altValue: true
-          type: Boolean
-        quickVersatile:
-          value: false
-          altValue: false
-          type: Boolean
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-          type: Boolean
-        quickFlavor:
-          value: true
-          altValue: true
-          type: Boolean
-        quickCharges:
-          value:
-            use: false
-            resource: true
-          altValue:
-            use: false
-            resource: true
-          type: Boolean
-        quickTemplate:
-          value: true
-          altValue: true
-          type: Boolean
-        quickSave:
-          value: true
-          altValue: true
-          type: Boolean
-        quickDamage:
-          context:
-            '0': ''
-            '1': Falling Damage
-          value:
-            '0': true
-            '1': true
-          altValue:
-            '0': true
-            '1': true
-          type: Array
-        quickAttack:
-          type: Boolean
-          value: true
-          altValue: true
-        quickPrompt:
-          type: Boolean
-          value: false
-          altValue: false
-      core:
-        sourceId: Item.7zmTd51kpa5SJxyW
     _key: '!actors.items!iSh8teSbPmqQQQmW.Qsw6OXo4nIOwmgxV'
   - _id: ta3EJJvqsaWd96v0
     name: 'Bloodied: Destabilized Gravity Generator.'
     type: feat
     img: icons/magic/control/silhouette-hold-beam-blue.webp
-    data:
+    effects: []
+    folder: null
+    sort: 100000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+        quickSave:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Destabilized Gravity Generator. </strong>When the guardian
@@ -1558,20 +1718,25 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!iSh8teSbPmqQQQmW.ta3EJJvqsaWd96v0'
+  - _id: PzNuGjv9UOrhxEAZ
+    name: Grab
+    type: weapon
+    img: icons/tools/hand/wrench-steel-grey.webp
     effects: []
     folder: null
-    sort: 100000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
       betterRolls5e:
         quickDesc:
-          value: true
-          altValue: true
+          value: false
+          altValue: false
         quickProperties:
           value: true
           altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
         quickOther:
           value: true
           altValue: true
@@ -1579,25 +1744,34 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickTemplate:
-          value: true
-          altValue: true
         quickCharges:
           value:
-            use: true
-            resource: true
+            quantity: false
           altValue:
-            use: true
-            resource: true
-        quickSave:
+            quantity: false
+        quickAttack:
           value: true
           altValue: true
-    _key: '!actors.items!iSh8teSbPmqQQQmW.ta3EJJvqsaWd96v0'
-  - _id: PzNuGjv9UOrhxEAZ
-    name: Grab
-    type: weapon
-    img: icons/tools/hand/wrench-steel-grey.webp
-    data:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p><em><strong>Grab. </strong>Melee Weapon Attack:</em> +13 to hit, reach 5 ft., one target.<em> Hit:</em> 10 (2d4 + 5) bludgeoning damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained.\_</p>"
         chat: ''
@@ -1679,12 +1853,14 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!iSh8teSbPmqQQQmW.PzNuGjv9UOrhxEAZ'
+  - _id: pS8X3qKfrZKxB2cG
+    name: Slam
+    type: weapon
+    img: icons/equipment/hand/gauntlet-armored-leather-grey.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1718,12 +1894,19 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!iSh8teSbPmqQQQmW.PzNuGjv9UOrhxEAZ'
-  - _id: pS8X3qKfrZKxB2cG
-    name: Slam
-    type: weapon
-    img: icons/equipment/hand/gauntlet-armored-leather-grey.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Slam.</strong> Melee Weapon Attack:</em> +13 to hit,
@@ -1808,23 +1991,22 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!iSh8teSbPmqQQQmW.pS8X3qKfrZKxB2cG'
+  - _id: vyDOXlR7KangGnwk
+    name: Manipulate Gravity
+    type: feat
+    img: icons/magic/air/wind-vortex-swirl-purple.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
-          value: false
-          altValue: false
+          value: true
+          altValue: true
         quickProperties:
           value: true
           altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
         quickOther:
           value: true
           altValue: true
@@ -1832,27 +2014,25 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            quantity: false
-          altValue:
-            quantity: false
-        quickAttack:
+        quickTemplate:
           value: true
           altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-    _key: '!actors.items!iSh8teSbPmqQQQmW.pS8X3qKfrZKxB2cG'
-  - _id: vyDOXlR7KangGnwk
-    name: Manipulate Gravity
-    type: feat
-    img: icons/magic/air/wind-vortex-swirl-purple.webp
-    data:
+        quickSave:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Manipulate Gravity.</strong> The guardian forces one
@@ -1907,12 +2087,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!iSh8teSbPmqQQQmW.vyDOXlR7KangGnwk'
+  - _id: yT7oqU7XAsi8IxT6
+    name: 'Legendary Action: Calculate'
+    type: feat
+    img: icons/skills/targeting/target-strike-gray.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1924,22 +2106,27 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickTemplate:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-    _key: '!actors.items!iSh8teSbPmqQQQmW.vyDOXlR7KangGnwk'
-  - _id: yT7oqU7XAsi8IxT6
-    name: 'Legendary Action: Calculate'
-    type: feat
-    img: icons/skills/targeting/target-strike-gray.webp
-    data:
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Calculate. </strong>The guardian chooses a number between 1
@@ -1993,12 +2180,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!iSh8teSbPmqQQQmW.yT7oqU7XAsi8IxT6'
+  - _id: emgD1fkM9ttOOPeu
+    name: 'Legendary Action: Slam'
+    type: feat
+    img: icons/equipment/hand/gauntelet-tooled-blue.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -2018,12 +2207,19 @@ items:
             resource: true
           altValue:
             resource: true
-    _key: '!actors.items!iSh8teSbPmqQQQmW.yT7oqU7XAsi8IxT6'
-  - _id: emgD1fkM9ttOOPeu
-    name: 'Legendary Action: Slam'
-    type: feat
-    img: icons/equipment/hand/gauntelet-tooled-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Slam Attack.</strong> The guardian makes one slam
@@ -2074,49 +2270,43 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            resource: true
-          altValue:
-            resource: true
     _key: '!actors.items!iSh8teSbPmqQQQmW.emgD1fkM9ttOOPeu'
 effects:
   - _id: 1rnk8PoeYHn6ZZJf
     changes:
-      - key: data.attributes.prof
+      - key: system.attributes.prof
         mode: 1
         value: '2'
+        priority: null
     disabled: false
     duration:
       startTime: 1368
       startRound: 4
       startTurn: 0
-    icon: icons/commodities/tech/cog-brass.webp
-    label: Advanced Technology
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
     origin: Actor.NOhE7Cun9UM0hJuX
     transfer: false
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    name: Advanced Technology
+    img: icons/commodities/tech/cog-brass.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!actors.effects!iSh8teSbPmqQQQmW.1rnk8PoeYHn6ZZJf'
 folder: 62noZI17GWqPgWJT
 sort: 100000
@@ -2444,6 +2634,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -2457,12 +2649,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/SilverGuardian.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -2472,15 +2668,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 1
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364853717
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.NOhE7Cun9UM0hJuX
+  duplicateSource: null
 _key: '!actors!iSh8teSbPmqQQQmW'
 

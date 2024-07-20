@@ -8,7 +8,36 @@ items:
     name: Battlefield Presence
     type: feat
     img: icons/sundries/flags/banner-flag-red-white.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>The warden commands an Uncaged to make a single weapon attack. The
@@ -59,12 +88,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!NVo97aObIIBB4ScU.sH0FFUnQuxBf67Za'
+  - _id: sukcouK5AT9Zwahd
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: -200000
     flags:
       betterRolls5e:
         quickDesc:
@@ -79,12 +110,21 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.sH0FFUnQuxBf67Za'
-  - _id: sukcouK5AT9Zwahd
-    name: Multiattack
-    type: feat
-    img: icons/skills/melee/blade-tips-double-blue.webp
-    data:
+      core:
+        sourceId: Item.094090din8bu19vk
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>The warden uses its Battlefield Presence or Teleport. It then casts
@@ -136,12 +176,14 @@ items:
         value: null
         charged: false
       attunement: 0
+    _key: '!actors.items!NVo97aObIIBB4ScU.sukcouK5AT9Zwahd'
+  - _id: rDclkuDeGy1UWry2
+    name: Teleport
+    type: feat
+    img: icons/magic/movement/abstract-ribbons-red-orange.webp
     effects: []
     folder: null
-    sort: -200000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
       betterRolls5e:
         quickDesc:
@@ -156,14 +198,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
-    _key: '!actors.items!NVo97aObIIBB4ScU.sukcouK5AT9Zwahd'
-  - _id: rDclkuDeGy1UWry2
-    name: Teleport
-    type: feat
-    img: icons/magic/movement/abstract-ribbons-red-orange.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>The warden magically teleports itself and up to five willing
@@ -216,12 +263,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!NVo97aObIIBB4ScU.rDclkuDeGy1UWry2'
+  - _id: 3CaLS3hKX1m7H7br
+    name: Uncaged Gate
+    type: feat
+    img: icons/magic/unholy/orb-swirling-teal.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -236,12 +285,22 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.rDclkuDeGy1UWry2'
-  - _id: 3CaLS3hKX1m7H7br
-    name: Uncaged Gate
-    type: feat
-    img: icons/magic/unholy/orb-swirling-teal.webp
-    data:
+        quickTemplate:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>The warden opens a gate to its unknowable realm. The gate is 10
@@ -295,12 +354,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!NVo97aObIIBB4ScU.3CaLS3hKX1m7H7br'
+  - _id: qboiyaNVEquIkCQa
+    name: Lantern
+    type: feat
+    img: icons/sundries/lights/lantern-iron-lit-yellow.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -312,18 +373,30 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickTemplate:
-          value: true
-          altValue: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.3CaLS3hKX1m7H7br'
-  - _id: qboiyaNVEquIkCQa
-    name: Lantern
-    type: feat
-    img: icons/sundries/lights/lantern-iron-lit-yellow.webp
-    data:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>The warden’s lantern sheds bright light in a 150-foot radius and
@@ -380,12 +453,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!NVo97aObIIBB4ScU.qboiyaNVEquIkCQa'
+  - _id: zzUezOZ3M4O6UQXo
+    name: Magic Resistance
+    type: feat
+    img: icons/magic/defensive/shield-barrier-flaming-diamond-magenta.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -397,23 +472,22 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-    _key: '!actors.items!NVo97aObIIBB4ScU.qboiyaNVEquIkCQa'
-  - _id: zzUezOZ3M4O6UQXo
-    name: Magic Resistance
-    type: feat
-    img: icons/magic/defensive/shield-barrier-flaming-diamond-magenta.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p><strong>Magic Resistance. </strong>The warden has advantage on saving throws against spells and other magical effects.\_</p>"
         chat: ''
@@ -462,12 +536,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!NVo97aObIIBB4ScU.zzUezOZ3M4O6UQXo'
+  - _id: z5aLspDmj04zUcSa
+    name: Unmaking Aura
+    type: feat
+    img: icons/magic/unholy/hand-fire-skeleton-pink.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -479,15 +555,30 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.zzUezOZ3M4O6UQXo'
-  - _id: z5aLspDmj04zUcSa
-    name: Unmaking Aura
-    type: feat
-    img: icons/magic/unholy/hand-fire-skeleton-pink.webp
-    data:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Unmaking Aura. </strong>The unnatural energy of the warden
@@ -543,12 +634,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!NVo97aObIIBB4ScU.z5aLspDmj04zUcSa'
+  - _id: tvUg5FXl9155wwYf
+    name: Innate Spellcasting
+    type: feat
+    img: icons/magic/unholy/beam-ringed-impact-purple.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -560,23 +653,22 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-    _key: '!actors.items!NVo97aObIIBB4ScU.z5aLspDmj04zUcSa'
-  - _id: tvUg5FXl9155wwYf
-    name: Innate Spellcasting
-    type: feat
-    img: icons/magic/unholy/beam-ringed-impact-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Innate Spellcasting.</strong> The warden’s innate
@@ -638,32 +730,81 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
     _key: '!actors.items!NVo97aObIIBB4ScU.tvUg5FXl9155wwYf'
   - _id: l6PN7RApZaA04W06
     name: Compelled Query
     type: spell
     img: icons/magic/control/hypnosis-mesmerism-eye.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          type: Boolean
+          value: true
+          altValue: true
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
+        quickDamage:
+          type: Array
+          value: []
+          altValue: []
+          context: []
+        quickVersatile:
+          type: Boolean
+          value: false
+          altValue: false
+        quickProperties:
+          type: Boolean
+          value: true
+          altValue: true
+        quickCharges:
+          type: Boolean
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickOther:
+          type: Boolean
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.5XnwpQz8nrYbMVAr
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You focus your telepathic powers on a creature and ask it a simple
@@ -735,14 +876,22 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.l6PN7RApZaA04W06'
+  - _id: 5VTI4Hfg4lNCpDLH
+    name: Delve Mind
+    type: spell
+    img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
+        critRange:
+          type: String
+          value: null
+        critDamage:
+          type: String
+          value: ''
         quickDesc:
           type: Boolean
           value: true
@@ -771,10 +920,10 @@ items:
         quickCharges:
           type: Boolean
           value:
-            use: true
+            use: false
             resource: true
           altValue:
-            use: true
+            use: false
             resource: true
         quickTemplate:
           type: Boolean
@@ -794,13 +943,21 @@ items:
           value: false
           altValue: false
       core:
-        sourceId: Item.5XnwpQz8nrYbMVAr
-    _key: '!actors.items!NVo97aObIIBB4ScU.l6PN7RApZaA04W06'
-  - _id: 5VTI4Hfg4lNCpDLH
-    name: Delve Mind
-    type: spell
-    img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
-    data:
+        sourceId: Item.vjWem5qBYxqMQrlA
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You delve into a creature's mind, forcing it to make an
@@ -877,13 +1034,14 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.5VTI4Hfg4lNCpDLH'
+  - _id: KeWMraOdJx0B2BHo
+    name: Psychic Drain
+    type: spell
+    img: icons/magic/unholy/hand-light-green.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      6krcfu4V2rVq3RWy: 3
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         critRange:
@@ -906,9 +1064,12 @@ items:
           altValue: true
         quickDamage:
           type: Array
-          value: []
-          altValue: []
-          context: []
+          value:
+            '0': true
+          altValue:
+            '0': true
+          context:
+            '0': ''
         quickVersatile:
           type: Boolean
           value: false
@@ -943,13 +1104,21 @@ items:
           value: false
           altValue: false
       core:
-        sourceId: Item.vjWem5qBYxqMQrlA
-    _key: '!actors.items!NVo97aObIIBB4ScU.5VTI4Hfg4lNCpDLH'
-  - _id: KeWMraOdJx0B2BHo
-    name: Psychic Drain
-    type: spell
-    img: icons/magic/unholy/hand-light-green.webp
-    data:
+        sourceId: Item.XE4Tyo9rHZyyYWa0
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You draw on the psychic energy of another creature you can see to
@@ -1026,82 +1195,57 @@ items:
         mode: level
         formula: +1d8
       attunement: null
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      6krcfu4V2rVq3RWy: 3
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        critRange:
-          type: String
-          value: null
-        critDamage:
-          type: String
-          value: ''
-        quickDesc:
-          type: Boolean
-          value: true
-          altValue: true
-        quickAttack:
-          type: Boolean
-          value: true
-          altValue: true
-        quickSave:
-          type: Boolean
-          value: true
-          altValue: true
-        quickDamage:
-          type: Array
-          value:
-            '0': true
-          altValue:
-            '0': true
-          context:
-            '0': ''
-        quickVersatile:
-          type: Boolean
-          value: false
-          altValue: false
-        quickProperties:
-          type: Boolean
-          value: true
-          altValue: true
-        quickCharges:
-          type: Boolean
-          value:
-            use: false
-            resource: true
-          altValue:
-            use: false
-            resource: true
-        quickTemplate:
-          type: Boolean
-          value: true
-          altValue: true
-        quickOther:
-          type: Boolean
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          type: Boolean
-          value: true
-          altValue: true
-        quickPrompt:
-          type: Boolean
-          value: false
-          altValue: false
-      core:
-        sourceId: Item.XE4Tyo9rHZyyYWa0
     _key: '!actors.items!NVo97aObIIBB4ScU.KeWMraOdJx0B2BHo'
   - _id: d2kLNFm8WwRkAAxY
     name: Spatial Manipulation
     type: spell
     img: icons/magic/control/energy-stream-link-teal.webp
-    data:
+    effects: []
+    folder: rPKfkF7qKI6uGjC6
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+      core:
+        sourceId: Item.YkI9puW9zoHaosbO
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You can swap the position two creatures you can see within range.
@@ -1174,12 +1318,14 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.d2kLNFm8WwRkAAxY'
+  - _id: auhcKisejr4nclzx
+    name: Mind Blast
+    type: spell
+    img: icons/magic/control/silhouette-aura-energy.webp
     effects: []
     folder: rPKfkF7qKI6uGjC6
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1198,9 +1344,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
         quickSave:
           value: true
           altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
         quickCharges:
           value:
             use: true
@@ -1209,13 +1365,20 @@ items:
             use: true
             resource: true
       core:
-        sourceId: Item.YkI9puW9zoHaosbO
-    _key: '!actors.items!NVo97aObIIBB4ScU.d2kLNFm8WwRkAAxY'
-  - _id: auhcKisejr4nclzx
-    name: Mind Blast
-    type: spell
-    img: icons/magic/control/silhouette-aura-energy.webp
-    data:
+        sourceId: Item.sdpH7JC4asgGDha8
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p>You emit a blast of psychic energy. Each creature in a 60-foot cone must make an Intelligence saving throw. A creature takes 6d8 psychic damage and is stunned until the end of their next turn on a failed save. A creature takes half as much damage and is not stunned on a successful save.</p>\n<p>\_</p>"
         chat: ''
@@ -1283,15 +1446,33 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.auhcKisejr4nclzx'
+  - _id: 5WRQtwB6QDVhLwnC
+    name: Circle of Death
+    type: spell
+    img: icons/magic/air/air-burst-spiral-teal-large-green.webp
     effects: []
-    folder: rPKfkF7qKI6uGjC6
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    folder: null
+    sort: 100001
     flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.KeunEkg1JYbOCOhV
       betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
         quickDesc:
+          value: true
+          altValue: true
+        quickSave:
           value: true
           altValue: true
         quickProperties:
@@ -1300,26 +1481,12 @@ items:
         quickVersatile:
           value: false
           altValue: false
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
         quickTemplate:
           value: true
           altValue: true
-        quickSave:
+        quickFlavor:
           value: true
           altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
         quickCharges:
           value:
             use: true
@@ -1327,14 +1494,19 @@ items:
           altValue:
             use: true
             resource: true
-      core:
-        sourceId: Item.sdpH7JC4asgGDha8
-    _key: '!actors.items!NVo97aObIIBB4ScU.auhcKisejr4nclzx'
-  - _id: 5WRQtwB6QDVhLwnC
-    name: Circle of Death
-    type: spell
-    img: icons/magic/air/air-burst-spiral-teal-large-green.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p>A sphere of negative energy ripples out in a 60-foot radius from a point within range. Each creature in that area must make a Constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one.</p><p><strong>Higher Levels.</strong>\_When you cast this spell using a spell slot of 7th level or higher, the damage increases by 2d6 for each slot level above 6th.</p>"
         chat: ''
@@ -1402,23 +1574,18 @@ items:
         mode: level
         formula: 2d6
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.5WRQtwB6QDVhLwnC'
+  - _id: YYQwe7kk2OgTs9CK
+    name: Fear
+    type: spell
+    img: icons/magic/control/fear-fright-monster-purple-blue.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.KeunEkg1JYbOCOhV
+        sourceId: Compendium.dnd5e.spells.XXUDGFELgoskdOD0
       betterRolls5e:
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
         quickOther:
           context: ''
           value: true
@@ -1448,12 +1615,19 @@ items:
           altValue:
             use: true
             resource: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.5WRQtwB6QDVhLwnC'
-  - _id: YYQwe7kk2OgTs9CK
-    name: Fear
-    type: spell
-    img: icons/magic/control/fear-fright-monster-purple-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You project a phantasmal image of a creature's worst fears. Each
@@ -1529,15 +1703,17 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.YYQwe7kk2OgTs9CK'
+  - _id: YYHhYlxh6TEoJchv
+    name: Command
+    type: spell
+    img: icons/magic/fire/explosion-fireball-small-purple.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.XXUDGFELgoskdOD0
+        sourceId: Compendium.dnd5e.spells.arzCrMRgcNiQuh43
       betterRolls5e:
         quickOther:
           context: ''
@@ -1555,25 +1731,22 @@ items:
         quickVersatile:
           value: false
           altValue: false
-        quickTemplate:
-          value: true
-          altValue: true
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.YYQwe7kk2OgTs9CK'
-  - _id: YYHhYlxh6TEoJchv
-    name: Command
-    type: spell
-    img: icons/magic/fire/explosion-fireball-small-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.</p><p>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you by the fastest available means.</p><p><strong>Grovel.</strong> The target falls prone and then ends its turn.</p><p><strong>Halt.</strong> The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p><p><strong>Higher Levels.\_</strong>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>"
         chat: ''
@@ -1640,15 +1813,17 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.YYHhYlxh6TEoJchv'
+  - _id: 2Y8MYTUNAgX7Bcm7
+    name: Detect Thoughts
+    type: spell
+    img: icons/magic/light/explosion-star-teal-purple.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.arzCrMRgcNiQuh43
+        sourceId: Compendium.dnd5e.spells.ppWAAEul0QHtm4er
       betterRolls5e:
         quickOther:
           context: ''
@@ -1669,12 +1844,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.YYHhYlxh6TEoJchv'
-  - _id: 2Y8MYTUNAgX7Bcm7
-    name: Detect Thoughts
-    type: spell
-    img: icons/magic/light/explosion-star-teal-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>For the duration, you can read the thoughts of certain creatures.
@@ -1771,15 +1953,17 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.2Y8MYTUNAgX7Bcm7'
+  - _id: Ir4uDdrPVgy0c7gu
+    name: Hold Person
+    type: spell
+    img: icons/magic/control/debuff-chains-ropes-purple.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.ppWAAEul0QHtm4er
+        sourceId: Compendium.dnd5e.spells.3Lo9boi7P2ro6QV4
       betterRolls5e:
         quickOther:
           context: ''
@@ -1800,12 +1984,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.2Y8MYTUNAgX7Bcm7'
-  - _id: Ir4uDdrPVgy0c7gu
-    name: Hold Person
-    type: spell
-    img: icons/magic/control/debuff-chains-ropes-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p>Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><p><strong>Higher Levels.\_</strong>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</p>"
         chat: ''
@@ -1872,15 +2063,17 @@ items:
         mode: level
         formula: ''
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.Ir4uDdrPVgy0c7gu'
+  - _id: v5Q1kPic4gGPrvtg
+    name: Hold Monster
+    type: spell
+    img: icons/magic/control/debuff-chains-ropes-red.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.3Lo9boi7P2ro6QV4
+        sourceId: Compendium.dnd5e.spells.l9Ju5KE7bbn3WpTm
       betterRolls5e:
         quickOther:
           context: ''
@@ -1901,12 +2094,26 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.Ir4uDdrPVgy0c7gu'
-  - _id: v5Q1kPic4gGPrvtg
-    name: Hold Monster
-    type: spell
-    img: icons/magic/control/debuff-chains-ropes-red.webp
-    data:
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>Choose a creature that you can see within range. The target must
@@ -1982,16 +2189,25 @@ items:
         mode: level
         formula: ''
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.v5Q1kPic4gGPrvtg'
+  - _id: yYiWXHXmho5UF5GK
+    name: Inflict Wounds
+    type: spell
+    img: icons/magic/unholy/strike-beam-blood-red-teal-blue.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.l9Ju5KE7bbn3WpTm
+        sourceId: Compendium.dnd5e.spells.ksaaTxIbKx2sJfia
       betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
         quickOther:
           context: ''
           value: true
@@ -1999,7 +2215,7 @@ items:
         quickDesc:
           value: true
           altValue: true
-        quickSave:
+        quickAttack:
           value: true
           altValue: true
         quickProperties:
@@ -2011,19 +2227,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.v5Q1kPic4gGPrvtg'
-  - _id: yYiWXHXmho5UF5GK
-    name: Inflict Wounds
-    type: spell
-    img: icons/magic/unholy/strike-beam-blood-red-teal-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>Make a melee spell Attack against a creature you can reach. On a
@@ -2097,31 +2313,23 @@ items:
         mode: level
         formula: 1d10
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.yYiWXHXmho5UF5GK'
+  - _id: TsieXxnEw2vROQpN
+    name: Misty Step
+    type: spell
+    img: icons/magic/control/debuff-energy-snare-brown.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.ksaaTxIbKx2sJfia
+        sourceId: Compendium.dnd5e.spells.wqfAVANuQonNBgnL
       betterRolls5e:
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
         quickOther:
           context: ''
           value: true
           altValue: true
         quickDesc:
-          value: true
-          altValue: true
-        quickAttack:
           value: true
           altValue: true
         quickProperties:
@@ -2133,12 +2341,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.yYiWXHXmho5UF5GK'
-  - _id: TsieXxnEw2vROQpN
-    name: Misty Step
-    type: spell
-    img: icons/magic/control/debuff-energy-snare-brown.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>Briefly surrounded by silvery mist, you teleport up to 30 feet to
@@ -2208,21 +2423,33 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.TsieXxnEw2vROQpN'
+  - _id: JlzY2D7FMqAaGbdf
+    name: Blight
+    type: spell
+    img: icons/magic/unholy/strike-beam-blood-large-red-green.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.wqfAVANuQonNBgnL
+        sourceId: Compendium.dnd5e.spells.pybg5MNc3lkerH4Y
       betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
         quickOther:
           context: ''
           value: true
           altValue: true
         quickDesc:
+          value: true
+          altValue: true
+        quickSave:
           value: true
           altValue: true
         quickProperties:
@@ -2234,12 +2461,26 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.TsieXxnEw2vROQpN'
-  - _id: JlzY2D7FMqAaGbdf
-    name: Blight
-    type: spell
-    img: icons/magic/unholy/strike-beam-blood-large-red-green.webp
-    data:
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>Necromantic energy washes over a creature of your choice that you
@@ -2320,28 +2561,26 @@ items:
         mode: level
         formula: 1d8
       attunement: null
+    _key: '!actors.items!NVo97aObIIBB4ScU.JlzY2D7FMqAaGbdf'
+  - _id: TL6f4cySPsDZKUHg
+    name: Plane Shift
+    type: spell
+    img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.pybg5MNc3lkerH4Y
+        sourceId: Compendium.dnd5e.spells.J6Jpw5XzB5aTeqnz
       betterRolls5e:
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
         quickOther:
           context: ''
           value: true
           altValue: true
         quickDesc:
+          value: true
+          altValue: true
+        quickAttack:
           value: true
           altValue: true
         quickSave:
@@ -2363,12 +2602,19 @@ items:
           altValue:
             use: true
             resource: true
-    _key: '!actors.items!NVo97aObIIBB4ScU.JlzY2D7FMqAaGbdf'
-  - _id: TL6f4cySPsDZKUHg
-    name: Plane Shift
-    type: spell
-    img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You and up to eight willing creatures who link hands in a circle
@@ -2456,45 +2702,6 @@ items:
         mode: none
         formula: ''
       attunement: null
-    effects: []
-    folder: null
-    sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      core:
-        sourceId: Compendium.dnd5e.spells.J6Jpw5XzB5aTeqnz
-      betterRolls5e:
-        quickOther:
-          context: ''
-          value: true
-          altValue: true
-        quickDesc:
-          value: true
-          altValue: true
-        quickAttack:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
     _key: '!actors.items!NVo97aObIIBB4ScU.TL6f4cySPsDZKUHg'
 effects: []
 folder: WXlU6DZ8rSvcs9MB
@@ -2822,6 +3029,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -2835,12 +3044,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/UncagedWarden.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -2850,15 +3063,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364898513
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.Lq9Cssa6LC7NXIkc
+  duplicateSource: null
 _key: '!actors!NVo97aObIIBB4ScU'
 

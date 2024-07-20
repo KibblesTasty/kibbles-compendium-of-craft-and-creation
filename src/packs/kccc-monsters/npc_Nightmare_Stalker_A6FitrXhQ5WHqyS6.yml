@@ -8,7 +8,36 @@ items:
     name: Lurker
     type: feat
     img: icons/magic/perception/silhouette-stealth-shadow.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Lurker.</strong> The stalker can add twice its proficiency
@@ -59,12 +88,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!A6FitrXhQ5WHqyS6.YjQaVRBZD7g4f1Mx'
+  - _id: WuJXPBpNYVjnXgIN
+    name: Shroud of Terror
+    type: feat
+    img: icons/creatures/unholy/demon-winged-cyclops-drooling.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -79,12 +110,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!A6FitrXhQ5WHqyS6.YjQaVRBZD7g4f1Mx'
-  - _id: WuJXPBpNYVjnXgIN
-    name: Shroud of Terror
-    type: feat
-    img: icons/creatures/unholy/demon-winged-cyclops-drooling.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Shroud of Terror.</strong> The stalker is invisible to any
@@ -135,12 +173,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!A6FitrXhQ5WHqyS6.WuJXPBpNYVjnXgIN'
+  - _id: MJO97OJZaMkWyJx1
+    name: Soul Eater
+    type: feat
+    img: icons/magic/death/undead-ghost-strike-white.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -155,12 +195,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!A6FitrXhQ5WHqyS6.WuJXPBpNYVjnXgIN'
-  - _id: MJO97OJZaMkWyJx1
-    name: Soul Eater
-    type: feat
-    img: icons/magic/death/undead-ghost-strike-white.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Soul Eater. </strong>If a creature is killed by the
@@ -216,12 +263,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!A6FitrXhQ5WHqyS6.MJO97OJZaMkWyJx1'
+  - _id: UPvOC5C0OkAt329p
+    name: Stalk Nightmare
+    type: feat
+    img: icons/magic/death/skull-cattle-totem-glow-red.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -233,15 +282,33 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!A6FitrXhQ5WHqyS6.MJO97OJZaMkWyJx1'
-  - _id: UPvOC5C0OkAt329p
-    name: Stalk Nightmare
-    type: feat
-    img: icons/magic/death/skull-cattle-totem-glow-red.webp
-    data:
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Stalk Nightmare.</strong> As an action, the stalker can
@@ -301,12 +368,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!A6FitrXhQ5WHqyS6.UPvOC5C0OkAt329p'
+  - _id: WA3f81jUSIOew2Dq
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: -200000
     flags:
       betterRolls5e:
         quickDesc:
@@ -318,26 +387,24 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickSave:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-    _key: '!actors.items!A6FitrXhQ5WHqyS6.UPvOC5C0OkAt329p'
-  - _id: WA3f81jUSIOew2Dq
-    name: Multiattack
-    type: feat
-    img: icons/skills/melee/blade-tips-double-blue.webp
-    data:
+      core:
+        sourceId: Item.094090din8bu19vk
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Multiattack. </strong>The stalker uses its Project
@@ -389,34 +456,63 @@ items:
         value: null
         charged: false
       attunement: 0
-    effects: []
-    folder: null
-    sort: -200000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
     _key: '!actors.items!A6FitrXhQ5WHqyS6.WA3f81jUSIOew2Dq'
   - _id: cXiQH6mVz7SdZJHa
     name: Bite
     type: weapon
     img: icons/creatures/abilities/mouth-teeth-rows-red.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+            '1': ''
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Bite.</strong> Melee Weapon Attack:</em> +5 to hit,
@@ -503,23 +599,22 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!A6FitrXhQ5WHqyS6.cXiQH6mVz7SdZJHa'
+  - _id: cD1gsbUzRZqb3QVo
+    name: Project Nightmare
+    type: feat
+    img: icons/magic/death/projectile-skull-fire-purple.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
-          value: false
-          altValue: false
+          value: true
+          altValue: true
         quickProperties:
           value: true
           altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
         quickOther:
           value: true
           altValue: true
@@ -527,30 +622,29 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            quantity: false
-          altValue:
-            quantity: false
-        quickAttack:
+        quickSave:
           value: true
           altValue: true
         quickDamage:
           context:
             '0': ''
-            '1': ''
           value:
             '0': true
-            '1': true
           altValue:
             '0': true
-            '1': true
-    _key: '!actors.items!A6FitrXhQ5WHqyS6.cXiQH6mVz7SdZJHa'
-  - _id: cD1gsbUzRZqb3QVo
-    name: Project Nightmare
-    type: feat
-    img: icons/magic/death/projectile-skull-fire-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Project Nightmare. </strong>The stalker taps into the
@@ -609,37 +703,6 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
     _key: '!actors.items!A6FitrXhQ5WHqyS6.cD1gsbUzRZqb3QVo'
 effects: []
 folder: UAjbuif60qyLYM29
@@ -966,6 +1029,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -979,12 +1044,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/NightmareStalker.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -994,15 +1063,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364930851
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.53GtSqrYSXGZ8QVF
+  duplicateSource: null
 _key: '!actors!A6FitrXhQ5WHqyS6'
 

@@ -8,7 +8,25 @@ items:
     name: Studded Leather Armor
     type: equipment
     img: icons/equipment/chest/breastplate-rivited-red.webp
-    data:
+    effects: []
+    folder: null
+    sort: 300000
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.items.TIV3B1vbrVHIhQAm
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>Made from tough but flexible leather, studded leather is reinforced
@@ -78,21 +96,41 @@ items:
       strength: null
       stealth: false
       proficient: true
-    effects: []
-    folder: null
-    sort: 300000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      core:
-        sourceId: Compendium.dnd5e.items.TIV3B1vbrVHIhQAm
     _key: '!actors.items!dS85Y6sZ3gmviIeb.pCU0EvwiBYB5znq5'
   - _id: jumlFOsWRoCKNxew
     name: Endless Staccato
     type: feat
     img: icons/weapons/guns/gun-pistol-flintlock-metal.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Endless Staccato.</strong> The gunslinger automatically
@@ -143,12 +181,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!dS85Y6sZ3gmviIeb.jumlFOsWRoCKNxew'
+  - _id: ASQFmFgA0rUskIwT
+    name: Gunner
+    type: feat
+    img: icons/weapons/guns/gun-brown.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -163,12 +203,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!dS85Y6sZ3gmviIeb.jumlFOsWRoCKNxew'
-  - _id: ASQFmFgA0rUskIwT
-    name: Gunner
-    type: feat
-    img: icons/weapons/guns/gun-brown.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Gunner. </strong>The gunslinger gains a +2 bonus to attacks
@@ -219,12 +266,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!dS85Y6sZ3gmviIeb.ASQFmFgA0rUskIwT'
+  - _id: KPQH7wRUe3IQHyzq
+    name: Lucky (3/Day)
+    type: feat
+    img: icons/commodities/currency/coin-embossed-star-gold.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -239,12 +288,26 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!dS85Y6sZ3gmviIeb.ASQFmFgA0rUskIwT'
-  - _id: KPQH7wRUe3IQHyzq
-    name: Lucky (3/Day)
-    type: feat
-    img: icons/commodities/currency/coin-embossed-star-gold.webp
-    data:
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Lucky (3/Day).</strong> The gunslinger has a consistent
@@ -297,12 +360,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!dS85Y6sZ3gmviIeb.KPQH7wRUe3IQHyzq'
+  - _id: YDIouNUWNvQUSqJ9
+    name: Slippery Side Step
+    type: feat
+    img: icons/skills/movement/feet-winged-boots-brown.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -317,19 +382,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
-    _key: '!actors.items!dS85Y6sZ3gmviIeb.KPQH7wRUe3IQHyzq'
-  - _id: YDIouNUWNvQUSqJ9
-    name: Slippery Side Step
-    type: feat
-    img: icons/skills/movement/feet-winged-boots-brown.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Slippery Side Step.</strong> The gunslinger can move 5 feet
@@ -383,12 +448,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!dS85Y6sZ3gmviIeb.YDIouNUWNvQUSqJ9'
+  - _id: 3ks5kSFQ5O3I33M4
+    name: Quick Draw
+    type: feat
+    img: icons/skills/movement/arrows-up-trio-red.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -403,12 +470,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!dS85Y6sZ3gmviIeb.YDIouNUWNvQUSqJ9'
-  - _id: 3ks5kSFQ5O3I33M4
-    name: Quick Draw
-    type: feat
-    img: icons/skills/movement/arrows-up-trio-red.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Quick Draw.</strong> The gunslinger has advantage on
@@ -459,12 +533,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!dS85Y6sZ3gmviIeb.3ks5kSFQ5O3I33M4'
+  - _id: 7ngDxJ6h3SmwAkFd
+    name: 'Bloodied: Eye for an Eye'
+    type: feat
+    img: icons/creatures/eyes/human-single-brown.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -479,12 +555,26 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!dS85Y6sZ3gmviIeb.3ks5kSFQ5O3I33M4'
-  - _id: 7ngDxJ6h3SmwAkFd
-    name: 'Bloodied: Eye for an Eye'
-    type: feat
-    img: icons/creatures/eyes/human-single-brown.webp
-    data:
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Eye for an Eye.</strong> When the gunslinger is bloodied
@@ -541,12 +631,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!dS85Y6sZ3gmviIeb.7ngDxJ6h3SmwAkFd'
+  - _id: 2sbSW6UbzN3x8WZc
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: -200000
     flags:
       betterRolls5e:
         quickDesc:
@@ -561,19 +653,21 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
-    _key: '!actors.items!dS85Y6sZ3gmviIeb.7ngDxJ6h3SmwAkFd'
-  - _id: 2sbSW6UbzN3x8WZc
-    name: Multiattack
-    type: feat
-    img: icons/skills/melee/blade-tips-double-blue.webp
-    data:
+      core:
+        sourceId: Item.094090din8bu19vk
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Multiattack. </strong>The gunslinger makes four revolver
@@ -626,12 +720,14 @@ items:
         value: null
         charged: false
       attunement: 0
+    _key: '!actors.items!dS85Y6sZ3gmviIeb.2sbSW6UbzN3x8WZc'
+  - _id: yrfVIviZyvYosH5w
+    name: Quip
+    type: feat
+    img: icons/magic/control/sleep-bubble-purple.webp
     effects: []
     folder: null
-    sort: -200000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
       betterRolls5e:
         quickDesc:
@@ -646,14 +742,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
-    _key: '!actors.items!dS85Y6sZ3gmviIeb.2sbSW6UbzN3x8WZc'
-  - _id: yrfVIviZyvYosH5w
-    name: Quip
-    type: feat
-    img: icons/magic/control/sleep-bubble-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Quip.</strong> The gunslinger casts<em> vicious
@@ -704,32 +805,57 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
     _key: '!actors.items!dS85Y6sZ3gmviIeb.yrfVIviZyvYosH5w'
   - _id: J5DkJk7M1eDgSHpI
     name: Vicious Mockery
     type: spell
     img: icons/skills/toxins/cup-goblet-poisoned-spilled.webp
-    data:
+    effects: []
+    folder: null
+    sort: 100001
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.cdrYKaFi98YWaBMw
+      betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You unleash a string of insults laced with subtle enchantments at a
@@ -804,16 +930,40 @@ items:
         mode: cantrip
         formula: ''
       attunement: null
+    _key: '!actors.items!dS85Y6sZ3gmviIeb.J5DkJk7M1eDgSHpI'
+  - _id: tIWIil6BsnJLRdiJ
+    name: Revolver
+    type: weapon
+    img: icons/weapons/guns/gun-pistol-brown.webp
     effects: []
     folder: null
-    sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
-      core:
-        sourceId: Compendium.dnd5e.spells.cdrYKaFi98YWaBMw
       betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
         quickDamage:
           context:
             '0': ''
@@ -821,31 +971,19 @@ items:
             '0': true
           altValue:
             '0': true
-        quickOther:
-          context: ''
-          value: true
-          altValue: true
-        quickDesc:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
-        quickFlavor:
-          value: true
-          altValue: true
-    _key: '!actors.items!dS85Y6sZ3gmviIeb.J5DkJk7M1eDgSHpI'
-  - _id: tIWIil6BsnJLRdiJ
-    name: Revolver
-    type: weapon
-    img: icons/weapons/guns/gun-pistol-brown.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Revolver.</strong> Ranged Weapon Attack:</em> +10 to
@@ -930,23 +1068,22 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!dS85Y6sZ3gmviIeb.tIWIil6BsnJLRdiJ'
+  - _id: R7VPDgFTPnuRYGsO
+    name: Hail of Lead (Recharge 5–6)
+    type: feat
+    img: icons/weapons/ammunition/shot-round-brown.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
-          value: false
-          altValue: false
+          value: true
+          altValue: true
         quickProperties:
           value: true
           altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
         quickOther:
           value: true
           altValue: true
@@ -954,12 +1091,10 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            quantity: false
-          altValue:
-            quantity: false
-        quickAttack:
+        quickTemplate:
+          value: true
+          altValue: true
+        quickSave:
           value: true
           altValue: true
         quickDamage:
@@ -969,12 +1104,24 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!dS85Y6sZ3gmviIeb.tIWIil6BsnJLRdiJ'
-  - _id: R7VPDgFTPnuRYGsO
-    name: Hail of Lead (Recharge 5–6)
-    type: feat
-    img: icons/weapons/ammunition/shot-round-brown.webp
-    data:
+        quickCharges:
+          value:
+            charge: true
+          altValue:
+            charge: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Hail of Lead (Recharge 5–6).</strong> The gunslinger
@@ -1029,45 +1176,6 @@ items:
       recharge:
         value: 5
         charged: true
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickTemplate:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-        quickCharges:
-          value:
-            charge: true
-          altValue:
-            charge: true
     _key: '!actors.items!dS85Y6sZ3gmviIeb.R7VPDgFTPnuRYGsO'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -1391,6 +1499,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -1404,12 +1514,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Gunslinger.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -1419,15 +1533,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721365002021
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.g58Sqo5goRwq5LE5
+  duplicateSource: null
 _key: '!actors!dS85Y6sZ3gmviIeb'
 

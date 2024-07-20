@@ -1,12 +1,44 @@
 name: Mind Reaper Spells
 type: feat
 img: icons/magic/control/fear-fright-monster-purple-blue.webp
-data:
+effects: []
+folder: 2NSbo1q1N5TQNs1s
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.CQNG26N1NZB080Eq
+_id: TPsws71V0KYDiP9U
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: "<p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Mind Reaper Spells\_ table. The spell counts as a ranger spell for you, but it doesn’t count\_ against the number of ranger spells you know.</p>\n<table style=\"width:100%\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center;width:39.1368%\"><strong>Ranger Level</strong></td>\n<td style=\"text-align:center;width:60.8632%\"><strong>Spell</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:39.1368%\">3rd</td>\n<td style=\"text-align:center;width:60.8632%\">@Compendium[world.kccc-spells.JzVBJjjwz8ij0xgU]{Frighten}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:39.1368%\">5th</td>\n<td style=\"text-align:center;width:60.8632%\">@Compendium[dnd5e.spells.ppWAAEul0QHtm4er]{Detect Thoughts}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:39.1368%\">9th</td>\n<td style=\"text-align:center;width:60.8632%\">@Compendium[dnd5e.spells.XXUDGFELgoskdOD0]{Fear}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:39.1368%\">13th</td>\n<td style=\"text-align:center;width:60.8632%\">@Compendium[dnd5e.spells.9hQXdMSmerkTsHDe]{Confusion}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:39.1368%\">17th</td>\n<td style=\"text-align:center;width:60.8632%\">@Compendium[dnd5e.spells.91Sw6vOIaO7U8DvM]{Dominate Person}</td>\n</tr>\n</tbody>\n</table>"
     chat: ''
     unidentified: ''
-  source: Mind Reaper
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -50,28 +82,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.CQNG26N1NZB080Eq
-_id: TPsws71V0KYDiP9U
+  type:
+    value: class
 _key: '!items!TPsws71V0KYDiP9U'
 

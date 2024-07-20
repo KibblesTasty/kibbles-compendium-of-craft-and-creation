@@ -110,10 +110,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: Compendium.dnd5e.items.sSs3hSzkKBMNBgTs
+      duplicateSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.2Zn6cu9qpLDoP7M3'
   - _id: GHbKoAX164YJQzxy
     name: Animated Shield
@@ -195,10 +197,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.GHbKoAX164YJQzxy'
   - _id: vgBHtMx1urfdyMJc
     name: Skilled Animator
@@ -280,10 +284,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.vgBHtMx1urfdyMJc'
   - _id: OxjNc6uzlGj6VxqP
     name: Multiattack
@@ -368,10 +374,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: Item.094090din8bu19vk
+      duplicateSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.OxjNc6uzlGj6VxqP'
   - _id: k5FN5yv0cRv2hFkn
     name: Animated Dagger
@@ -505,10 +513,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.k5FN5yv0cRv2hFkn'
   - _id: Zgk2l8CMdJoNvFDN
     name: Animated Sword
@@ -644,10 +654,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: Item.k5FN5yv0cRv2hFkn
+      duplicateSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.Zgk2l8CMdJoNvFDN'
   - _id: GGAv5OC0WKBKTz0z
     name: Animated Chain
@@ -737,10 +749,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.GGAv5OC0WKBKTz0z'
   - _id: twshVh0COedlo5wJ
     name: Animated Shield
@@ -823,10 +837,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.twshVh0COedlo5wJ'
   - _id: 3usQyirqfUGqElWc
     name: Retaliating Sword
@@ -909,10 +925,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.3usQyirqfUGqElWc'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -1235,6 +1253,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -1248,12 +1268,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Animator.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -1267,12 +1291,26 @@ prototypeToken:
   detectionModes: []
   appendNumber: false
   prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364955315
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.ApG3TimDzMNTXMfj
+  duplicateSource: null
 _key: '!actors!7WO6xjqlcMaVHRWu'
 

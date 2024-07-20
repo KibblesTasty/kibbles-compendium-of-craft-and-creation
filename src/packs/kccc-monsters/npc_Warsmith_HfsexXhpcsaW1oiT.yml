@@ -8,7 +8,43 @@ items:
     name: Lightning Channel (3/Day)
     type: feat
     img: icons/magic/lightning/bolt-strike-sparks-blue.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Lightning Channel (3/Day). </strong>The warsmith can cast
@@ -60,39 +96,90 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
     _key: '!actors.items!HfsexXhpcsaW1oiT.atNOzCc1TMzgOAuh'
   - _id: I2jZ8Au2aO63KAvK
     name: Lightning Charged
     type: spell
     img: icons/magic/lightning/fist-unarmed-strike-blue.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          type: String
+          value: null
+        critDamage:
+          type: String
+          value: ''
+        quickDesc:
+          type: Boolean
+          value: true
+          altValue: true
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
+        quickDamage:
+          type: Array
+          value:
+            '0': true
+          altValue:
+            '0': true
+          context:
+            '0': ''
+        quickVersatile:
+          type: Boolean
+          value: false
+          altValue: false
+        quickProperties:
+          type: Boolean
+          value: true
+          altValue: true
+        quickCharges:
+          type: Boolean
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickOther:
+          type: Boolean
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.LlK6d5pzfvWWfb0D
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You channel lightning energy into a creature. The energy is
@@ -176,81 +263,41 @@ items:
         mode: none
         formula: ''
       attunement: null
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        critRange:
-          type: String
-          value: null
-        critDamage:
-          type: String
-          value: ''
-        quickDesc:
-          type: Boolean
-          value: true
-          altValue: true
-        quickAttack:
-          type: Boolean
-          value: true
-          altValue: true
-        quickSave:
-          type: Boolean
-          value: true
-          altValue: true
-        quickDamage:
-          type: Array
-          value:
-            '0': true
-          altValue:
-            '0': true
-          context:
-            '0': ''
-        quickVersatile:
-          type: Boolean
-          value: false
-          altValue: false
-        quickProperties:
-          type: Boolean
-          value: true
-          altValue: true
-        quickCharges:
-          type: Boolean
-          value:
-            use: false
-            resource: true
-          altValue:
-            use: false
-            resource: true
-        quickTemplate:
-          type: Boolean
-          value: true
-          altValue: true
-        quickOther:
-          type: Boolean
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          type: Boolean
-          value: true
-          altValue: true
-        quickPrompt:
-          type: Boolean
-          value: false
-          altValue: false
-      core:
-        sourceId: Item.LlK6d5pzfvWWfb0D
     _key: '!actors.items!HfsexXhpcsaW1oiT.I2jZ8Au2aO63KAvK'
   - _id: yHD7wD6omwWAGN8Y
     name: Sentient Armor
     type: feat
     img: icons/equipment/chest/breastplate-banded-steel-grey.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Sentient Armor.</strong> When the warsmith is reduced to 0
@@ -304,12 +351,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!HfsexXhpcsaW1oiT.yHD7wD6omwWAGN8Y'
+  - _id: jxOdm1udriIO7RNl
+    name: Tool Expertise
+    type: feat
+    img: icons/tools/hand/wrench-iron-grey.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -324,12 +373,21 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!HfsexXhpcsaW1oiT.yHD7wD6omwWAGN8Y'
-  - _id: jxOdm1udriIO7RNl
-    name: Tool Expertise
-    type: feat
-    img: icons/tools/hand/wrench-iron-grey.webp
-    data:
+      core:
+        sourceId: Item.kqdXJjtYpOK8hcme
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Tool Expertise.</strong> The gadgeteer adds double its
@@ -382,12 +440,14 @@ items:
         value: null
         charged: false
       attunement: null
+    _key: '!actors.items!HfsexXhpcsaW1oiT.jxOdm1udriIO7RNl'
+  - _id: nIClcaSRBN0X7BYZ
+    name: Warplate
+    type: feat
+    img: icons/equipment/chest/breastplate-cuirass-steel-grey.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -402,14 +462,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-      core:
-        sourceId: Item.kqdXJjtYpOK8hcme
-    _key: '!actors.items!HfsexXhpcsaW1oiT.jxOdm1udriIO7RNl'
-  - _id: nIClcaSRBN0X7BYZ
-    name: Warplate
-    type: feat
-    img: icons/equipment/chest/breastplate-cuirass-steel-grey.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Warplate.</strong> The warsmith can use its gadgets to cast
@@ -465,32 +530,90 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
     _key: '!actors.items!HfsexXhpcsaW1oiT.nIClcaSRBN0X7BYZ'
   - _id: GhDHtYRpj5lKzfUy
     name: Crackle
     type: spell
     img: icons/magic/lightning/bolt-strike-blue.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          value: null
+          type: String
+        critDamage:
+          value: ''
+          type: String
+        quickDesc:
+          value: true
+          altValue: true
+          type: Boolean
+        quickProperties:
+          value: true
+          altValue: true
+          type: Boolean
+        quickVersatile:
+          value: false
+          altValue: false
+          type: Boolean
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+          type: Boolean
+        quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickAttack:
+          value: true
+          altValue: true
+          type: Boolean
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+          type: Array
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.MxYox8g83HnZR337
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You create three arcs of lightning striking targets in range. You
@@ -569,12 +692,14 @@ items:
         mode: level
         formula: ''
       attunement: null
+    _key: '!actors.items!HfsexXhpcsaW1oiT.GhDHtYRpj5lKzfUy'
+  - _id: d2Af5yKexRlOkg9P
+    name: Lightning Tendril
+    type: spell
+    img: icons/magic/lightning/projectile-tendrils-teal.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         critRange:
@@ -612,10 +737,6 @@ items:
             use: false
             resource: true
           type: Boolean
-        quickAttack:
-          value: true
-          altValue: true
-          type: Boolean
         quickDamage:
           context:
             '0': ''
@@ -624,6 +745,10 @@ items:
           altValue:
             '0': true
           type: Array
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
         quickSave:
           type: Boolean
           value: true
@@ -637,13 +762,20 @@ items:
           value: false
           altValue: false
       core:
-        sourceId: Item.MxYox8g83HnZR337
-    _key: '!actors.items!HfsexXhpcsaW1oiT.GhDHtYRpj5lKzfUy'
-  - _id: d2Af5yKexRlOkg9P
-    name: Lightning Tendril
-    type: spell
-    img: icons/magic/lightning/projectile-tendrils-teal.webp
-    data:
+        sourceId: Item.KTVeSCdbRT5qsQBI
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>Crackling beams of blue energy leap from your hands. For the
@@ -723,49 +855,18 @@ items:
         mode: level
         formula: ''
       attunement: null
+    _key: '!actors.items!HfsexXhpcsaW1oiT.d2Af5yKexRlOkg9P'
+  - _id: Tzo9JShljiZw2c5s
+    name: Burning Hands
+    type: spell
+    img: icons/magic/air/fog-gas-smoke-dense-orange.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 100001
     flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.5SuJewoa1CRWaj1F
       betterRolls5e:
-        critRange:
-          value: null
-          type: String
-        critDamage:
-          value: ''
-          type: String
-        quickDesc:
-          value: true
-          altValue: true
-          type: Boolean
-        quickProperties:
-          value: true
-          altValue: true
-          type: Boolean
-        quickVersatile:
-          value: false
-          altValue: false
-          type: Boolean
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-          type: Boolean
-        quickFlavor:
-          value: true
-          altValue: true
-          type: Boolean
-        quickCharges:
-          value:
-            use: false
-            resource: true
-          altValue:
-            use: false
-            resource: true
-          type: Boolean
         quickDamage:
           context:
             '0': ''
@@ -773,31 +874,48 @@ items:
             '0': true
           altValue:
             '0': true
-          type: Array
-        quickAttack:
-          type: Boolean
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
           value: true
           altValue: true
         quickSave:
-          type: Boolean
           value: true
           altValue: true
-        quickTemplate:
-          type: Boolean
+        quickProperties:
           value: true
           altValue: true
-        quickPrompt:
-          type: Boolean
+        quickVersatile:
           value: false
           altValue: false
-      core:
-        sourceId: Item.KTVeSCdbRT5qsQBI
-    _key: '!actors.items!HfsexXhpcsaW1oiT.d2Af5yKexRlOkg9P'
-  - _id: Tzo9JShljiZw2c5s
-    name: Burning Hands
-    type: spell
-    img: icons/magic/air/fog-gas-smoke-dense-orange.webp
-    data:
+        quickTemplate:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>As you hold your hands with thumbs touching and fingers spread, a
@@ -874,15 +992,17 @@ items:
         mode: level
         formula: 1d6
       attunement: null
+    _key: '!actors.items!HfsexXhpcsaW1oiT.Tzo9JShljiZw2c5s'
+  - _id: W7zFm6jJBE1QSzPd
+    name: Fireball
+    type: spell
+    img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.5SuJewoa1CRWaj1F
+        sourceId: Compendium.dnd5e.spells.ztgcdrWPshKRpFd0
       betterRolls5e:
         quickDamage:
           context:
@@ -920,12 +1040,19 @@ items:
           altValue:
             use: true
             resource: true
-    _key: '!actors.items!HfsexXhpcsaW1oiT.Tzo9JShljiZw2c5s'
-  - _id: W7zFm6jJBE1QSzPd
-    name: Fireball
-    type: spell
-    img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>A bright streak flashes from your pointing finger to a point you
@@ -1003,15 +1130,17 @@ items:
         mode: level
         formula: 1d6
       attunement: null
+    _key: '!actors.items!HfsexXhpcsaW1oiT.W7zFm6jJBE1QSzPd'
+  - _id: M9DR9DrrHp778SCX
+    name: Lightning Bolt
+    type: spell
+    img: icons/magic/lightning/bolt-forked-large-blue.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.ztgcdrWPshKRpFd0
+        sourceId: Compendium.dnd5e.spells.IyikgTEOTv701jgQ
       betterRolls5e:
         quickDamage:
           context:
@@ -1049,12 +1178,19 @@ items:
           altValue:
             use: true
             resource: true
-    _key: '!actors.items!HfsexXhpcsaW1oiT.W7zFm6jJBE1QSzPd'
-  - _id: M9DR9DrrHp778SCX
-    name: Lightning Bolt
-    type: spell
-    img: icons/magic/lightning/bolt-forked-large-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>A stroke of lightning forming a line 100 feet long and 5 feet wide
@@ -1131,15 +1267,17 @@ items:
         mode: level
         formula: 1d6
       attunement: null
+    _key: '!actors.items!HfsexXhpcsaW1oiT.M9DR9DrrHp778SCX'
+  - _id: 28RuqlXUAlvwZJf8
+    name: Scorching Ray
+    type: spell
+    img: icons/magic/light/beam-rays-red.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.IyikgTEOTv701jgQ
+        sourceId: Compendium.dnd5e.spells.7u2obDvuvtZBkTfq
       betterRolls5e:
         quickDamage:
           context:
@@ -1155,7 +1293,7 @@ items:
         quickDesc:
           value: true
           altValue: true
-        quickSave:
+        quickAttack:
           value: true
           altValue: true
         quickProperties:
@@ -1164,9 +1302,6 @@ items:
         quickVersatile:
           value: false
           altValue: false
-        quickTemplate:
-          value: true
-          altValue: true
         quickFlavor:
           value: true
           altValue: true
@@ -1177,12 +1312,19 @@ items:
           altValue:
             use: true
             resource: true
-    _key: '!actors.items!HfsexXhpcsaW1oiT.M9DR9DrrHp778SCX'
-  - _id: 28RuqlXUAlvwZJf8
-    name: Scorching Ray
-    type: spell
-    img: icons/magic/light/beam-rays-red.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You create three rays of fire and hurl them at targets within
@@ -1257,55 +1399,43 @@ items:
         mode: none
         formula: ''
       attunement: null
-    effects: []
-    folder: null
-    sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      core:
-        sourceId: Compendium.dnd5e.spells.7u2obDvuvtZBkTfq
-      betterRolls5e:
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-        quickOther:
-          context: ''
-          value: true
-          altValue: true
-        quickDesc:
-          value: true
-          altValue: true
-        quickAttack:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
     _key: '!actors.items!HfsexXhpcsaW1oiT.28RuqlXUAlvwZJf8'
   - _id: G5qjT45J73sGK01h
     name: Multiattack
     type: feat
     img: icons/skills/melee/blade-tips-double-blue.webp
-    data:
+    effects: []
+    folder: null
+    sort: -200000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core:
+        sourceId: Item.094090din8bu19vk
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Multiattack. </strong>The warsmith can use its Grappling
@@ -1358,12 +1488,14 @@ items:
         value: null
         charged: false
       attunement: 0
+    _key: '!actors.items!HfsexXhpcsaW1oiT.G5qjT45J73sGK01h'
+  - _id: 7KUW5FFk8IQ2uQIp
+    name: Grappling Reel
+    type: feat
+    img: icons/tools/fishing/hook-multi-steel-brown.webp
     effects: []
     folder: null
-    sort: -200000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
       betterRolls5e:
         quickDesc:
@@ -1375,17 +1507,28 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
+        quickSave:
+          value: true
+          altValue: true
       core:
-        sourceId: Item.094090din8bu19vk
-    _key: '!actors.items!HfsexXhpcsaW1oiT.G5qjT45J73sGK01h'
-  - _id: 7KUW5FFk8IQ2uQIp
-    name: Grappling Reel
-    type: feat
-    img: icons/tools/fishing/hook-multi-steel-brown.webp
-    data:
+        sourceId: Item.O8FFFeo1NBXvT4yg
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Grappling Reel. </strong></em>The warsmith uses its
@@ -1442,20 +1585,25 @@ items:
         value: null
         charged: false
       attunement: null
+    _key: '!actors.items!HfsexXhpcsaW1oiT.7KUW5FFk8IQ2uQIp'
+  - _id: ssqkbXg1aiTjbl1O
+    name: Fist
+    type: weapon
+    img: icons/equipment/hand/gauntlet-cuffed-steel-grey.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
-          value: true
-          altValue: true
+          value: false
+          altValue: false
         quickProperties:
           value: true
           altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
         quickOther:
           value: true
           altValue: true
@@ -1463,17 +1611,34 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickSave:
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
           value: true
           altValue: true
-      core:
-        sourceId: Item.O8FFFeo1NBXvT4yg
-    _key: '!actors.items!HfsexXhpcsaW1oiT.7KUW5FFk8IQ2uQIp'
-  - _id: ssqkbXg1aiTjbl1O
-    name: Fist
-    type: weapon
-    img: icons/equipment/hand/gauntlet-cuffed-steel-grey.webp
-    data:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Fist.</strong> Melee Weapon Attack:</em> +10 to hit,
@@ -1558,12 +1723,14 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!HfsexXhpcsaW1oiT.ssqkbXg1aiTjbl1O'
+  - _id: hC8bpsl0AqkK2tpD
+    name: Power Fist
+    type: weapon
+    img: icons/equipment/hand/gauntelet-tooled-blue.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1597,12 +1764,21 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!HfsexXhpcsaW1oiT.ssqkbXg1aiTjbl1O'
-  - _id: hC8bpsl0AqkK2tpD
-    name: Power Fist
-    type: weapon
-    img: icons/equipment/hand/gauntelet-tooled-blue.webp
-    data:
+      core:
+        sourceId: Item.ssqkbXg1aiTjbl1O
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong><em>Power Fist. </em></strong><em>Melee Weapon Attack:
@@ -1687,12 +1863,14 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!HfsexXhpcsaW1oiT.hC8bpsl0AqkK2tpD'
+  - _id: rLgntQMPgyerMHjF
+    name: Force Blast
+    type: weapon
+    img: icons/magic/light/beam-rays-magenta-large.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1726,14 +1904,19 @@ items:
             '0': true
           altValue:
             '0': true
-      core:
-        sourceId: Item.ssqkbXg1aiTjbl1O
-    _key: '!actors.items!HfsexXhpcsaW1oiT.hC8bpsl0AqkK2tpD'
-  - _id: rLgntQMPgyerMHjF
-    name: Force Blast
-    type: weapon
-    img: icons/magic/light/beam-rays-magenta-large.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Force Blast.</strong> Ranged Spell Attack: </em>+6 to
@@ -1818,36 +2001,27 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!HfsexXhpcsaW1oiT.rLgntQMPgyerMHjF'
+  - _id: Ou6tM985dEgsEkuJ
+    name: Reactive Plating
+    type: feat
+    img: icons/equipment/chest/breastplate-gorget-steel-purple.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
-          value: false
-          altValue: false
+          value: true
+          altValue: true
         quickProperties:
           value: true
           altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
         quickOther:
           value: true
           altValue: true
           context: ''
         quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            quantity: false
-          altValue:
-            quantity: false
-        quickAttack:
           value: true
           altValue: true
         quickDamage:
@@ -1857,12 +2031,19 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!HfsexXhpcsaW1oiT.rLgntQMPgyerMHjF'
-  - _id: Ou6tM985dEgsEkuJ
-    name: Reactive Plating
-    type: feat
-    img: icons/equipment/chest/breastplate-gorget-steel-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Reactive Plating.</strong> When the warsmith is hit by an
@@ -1915,34 +2096,6 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
     _key: '!actors.items!HfsexXhpcsaW1oiT.Ou6tM985dEgsEkuJ'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -2263,6 +2416,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -2276,12 +2431,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Warsmith.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -2291,15 +2450,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721365011467
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.sP34e5vQSS59tcRs
+  duplicateSource: null
 _key: '!actors!HfsexXhpcsaW1oiT'
 

@@ -1,7 +1,37 @@
 name: Reverberating Echo
 type: feat
 img: icons/magic/sonic/projectile-sound-rings-wave.webp
-data:
+effects: []
+folder: SxopjqB8iAgRkb6p
+sort: 112500
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.csDUX8iALUlkdCUf
+_id: 0Kx3n1kAWVjLTlzc
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>At 14th level, when you expend a spell slot to cast a spell that deals
@@ -9,7 +39,9 @@ data:
       expending a spell slot, but the damage it deals is halved.</p>
     chat: ''
     unidentified: ''
-  source: College of Thunder
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -53,28 +85,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.csDUX8iALUlkdCUf
-_id: 0Kx3n1kAWVjLTlzc
+  type:
+    value: class
 _key: '!items!0Kx3n1kAWVjLTlzc'
 

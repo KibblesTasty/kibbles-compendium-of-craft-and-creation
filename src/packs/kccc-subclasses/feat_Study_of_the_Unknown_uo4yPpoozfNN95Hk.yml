@@ -1,7 +1,37 @@
 name: Study of the Unknown
 type: feat
 img: icons/skills/trades/academics-astronomy-navigation-purple.webp
-data:
+effects: []
+folder: FuBS9EmjWtQnpb1S
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.uc8BVDRl8J6j2Rtv
+_id: uo4yPpoozfNN95Hk
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Beginning when you select this school at 2nd level, you delve into the
@@ -21,7 +51,9 @@ data:
       prepared but do not count against your spells prepared for the day.</p>
     chat: ''
     unidentified: ''
-  source: Order of the Unknown
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -65,28 +97,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.uc8BVDRl8J6j2Rtv
-_id: uo4yPpoozfNN95Hk
+  type:
+    value: class
 _key: '!items!uo4yPpoozfNN95Hk'
 

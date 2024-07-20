@@ -1,7 +1,37 @@
 name: Psionic Adaptation
 type: feat
 img: icons/magic/symbols/rune-sigil-white-pink.webp
-data:
+effects: []
+folder: 2NSbo1q1N5TQNs1s
+sort: 106250
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.cx2djHxHaGlU4afI
+_id: M2KiRwBygs9GdT6f
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Additionally at 15th level, you can expend your spell slots in place of
@@ -9,7 +39,9 @@ data:
       equal number of psi points.</p>
     chat: ''
     unidentified: ''
-  source: Mind Reaper
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -53,28 +85,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.cx2djHxHaGlU4afI
-_id: M2KiRwBygs9GdT6f
+  type:
+    value: class
 _key: '!items!M2KiRwBygs9GdT6f'
 

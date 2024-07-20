@@ -1,7 +1,37 @@
 name: Oath of Sanity Spells
 type: feat
 img: icons/magic/holy/angel-wings-gray.webp
-data:
+effects: []
+folder: YNNWOIjlENyM7ctA
+sort: 600000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.HQmiBg2bK7cJtWKY
+_id: yRBx40dH0smcfX8G
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721445241383
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>You gain oath Spells at the paladin levels listed:</p>
@@ -77,7 +107,9 @@ data:
       </table>
     chat: ''
     unidentified: ''
-  source: Oath of Sanity
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -121,28 +153,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.HQmiBg2bK7cJtWKY
-_id: yRBx40dH0smcfX8G
+  type:
+    value: class
 _key: '!items!yRBx40dH0smcfX8G'
 

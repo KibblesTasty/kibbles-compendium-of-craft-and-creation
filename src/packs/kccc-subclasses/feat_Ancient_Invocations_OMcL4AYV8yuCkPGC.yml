@@ -1,7 +1,37 @@
 name: Ancient Invocations
 type: feat
 img: icons/commodities/tech/metal-blue.webp
-data:
+effects: []
+folder: UoEmzJUuHffx4QzF
+sort: 150000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.kLxK526Vajg89Qou
+_id: OMcL4AYV8yuCkPGC
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting at 6th level, your patron grants you another fragment of their
@@ -58,7 +88,8 @@ data:
       obscured target).</p>
     chat: ''
     unidentified: ''
-  source: ''
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -102,28 +133,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.kLxK526Vajg89Qou
-_id: OMcL4AYV8yuCkPGC
+  type:
+    value: class
 _key: '!items!OMcL4AYV8yuCkPGC'
 

@@ -1,7 +1,37 @@
 name: Soul Blade
 type: feat
 img: icons/weapons/swords/sword-flanged-lightning.webp
-data:
+effects: []
+folder: B7JG1A1xufT9VN8p
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.1cJYxTTcdb8gju7t
+_id: D1uU14jR2gAjlZu1
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting when you choose this tradition at 3rd level, you’ve learned to
@@ -19,7 +49,9 @@ data:
       <p>@Item[k5c1lpBP6a5zQd93]{Soul Blade}</p>
     chat: ''
     unidentified: ''
-  source: Soul Blade
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -63,28 +95,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.1cJYxTTcdb8gju7t
-_id: D1uU14jR2gAjlZu1
+  type:
+    value: class
 _key: '!items!D1uU14jR2gAjlZu1'
 

@@ -1,12 +1,44 @@
 name: Distant Grasp
 type: feat
 img: icons/magic/air/air-smoke-casting.webp
-data:
+effects: []
+folder: Z4nTsfePdB1zkFAr
+sort: 200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ym80VnFWUfPZH7id
+_id: LqQd3Su5nUFd6NiF
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: "<p>Additionally at 3rd level, you can manipulate small objects within 30 feet with your mind as if using your hand to interact with them, though you have disadvantage on any checks relating to Dexterity when doing so.</p>\n<p>You can use this power to\_</p>\n<p>manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can’t Attack, activate magical items, or carry more than 10 pounds in this manner. You can move an item you are controlling in this way up to 30 feet during your turn.</p>\n<p>While raging, the amount of pounds you can lift with this ability increases to 20 times your Barbarian level.</p>"
     chat: ''
     unidentified: ''
-  source: Raging Mind
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -50,28 +82,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.ym80VnFWUfPZH7id
-_id: LqQd3Su5nUFd6NiF
+  type:
+    value: class
 _key: '!items!LqQd3Su5nUFd6NiF'
 

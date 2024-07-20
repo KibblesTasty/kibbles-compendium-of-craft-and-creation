@@ -3,7 +3,6 @@ type: spell
 img: icons/weapons/swords/greatsword-evil-green.webp
 effects:
   - name: Prismatic Weapon (Acid) (1d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -18,15 +17,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["1d6", "acid"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -49,10 +52,22 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.pYDB1ku0cW1wv4Me'
   - name: Prismatic Weapon (Acid) (2d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -66,15 +81,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["2d6", "acid"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -97,11 +116,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: da1vMHsknLd7mJtY
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.da1vMHsknLd7mJtY'
   - name: Prismatic Weapon (Acid) (3d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -115,15 +146,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["3d6", "acid"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -146,11 +181,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: OyxF247m3hQoszRN
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.OyxF247m3hQoszRN'
   - name: Prismatic Weapon (Cold) (1d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -164,15 +211,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["1d6", "cold"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -195,11 +246,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: 1Fuu4MtD8o3z97g5
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.1Fuu4MtD8o3z97g5'
   - name: Prismatic Weapon (Cold) (2d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -213,15 +276,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["2d6", "cold"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -244,11 +311,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: S6tp4g3GYatqPc9v
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.S6tp4g3GYatqPc9v'
   - name: Prismatic Weapon (Cold) (3d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -262,15 +341,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["3d6", "cold"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -293,11 +376,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: i9RapdTtd3fTb7uh
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.i9RapdTtd3fTb7uh'
   - name: Prismatic Weapon (Fire) (1d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -311,15 +406,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["1d6", "fire"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -342,11 +441,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: XtInYRQpN7IXmtk8
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.XtInYRQpN7IXmtk8'
   - name: Prismatic Weapon (Fire) (2d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -360,15 +471,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["2d6", "fire"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -391,11 +506,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: 42dkJyIk9tkJ3XkR
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.42dkJyIk9tkJ3XkR'
   - name: Prismatic Weapon (Fire) (3d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -409,15 +536,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["3d6", "fire"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -440,11 +571,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: oaQ95ZWO8f1PjBL7
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.oaQ95ZWO8f1PjBL7'
   - name: Prismatic Weapon (Lightning) (1d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -458,15 +601,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["1d6", "lightning"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -489,11 +636,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: A3jLo1KRds8NdqCc
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.A3jLo1KRds8NdqCc'
   - name: Prismatic Weapon (Lightning) (2d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -507,15 +666,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["2d6", "lightning"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -538,11 +701,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: 6B7QTwHrutIguJUT
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.6B7QTwHrutIguJUT'
   - name: Prismatic Weapon (Lightning) (3d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -556,15 +731,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["3d6", "lightning"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -587,11 +766,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: XGa6a42xOKmfWnP2
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.XGa6a42xOKmfWnP2'
   - name: Prismatic Weapon (Poison) (1d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -605,15 +796,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["1d6", "poison"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -636,11 +831,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: 9e4NmqxTQVNODRng
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.9e4NmqxTQVNODRng'
   - name: Prismatic Weapon (Poison) (2d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -654,15 +861,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["2d6", "poison"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -685,11 +896,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: ZNTVKGBDs1Xp1DpU
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.ZNTVKGBDs1Xp1DpU'
   - name: Prismatic Weapon (Poison) (3d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -703,15 +926,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["3d6", "poison"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -734,11 +961,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: FkCbPqNYn5YjJIxn
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.FkCbPqNYn5YjJIxn'
   - name: Prismatic Weapon (Thunder) (1d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -752,15 +991,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["1d6", "thunder"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -783,11 +1026,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: dxHkL2sKl5g6PxPh
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.dxHkL2sKl5g6PxPh'
   - name: Prismatic Weapon (Thunder) (2d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -801,15 +1056,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["2d6", "thunder"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -832,11 +1091,23 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: B47MSZkVZYSgaZ6U
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.B47MSZkVZYSgaZ6U'
   - name: Prismatic Weapon (Thunder) (3d6)
-    icon: icons/weapons/swords/greatsword-evil-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -850,15 +1121,19 @@ effects:
       - key: system.properties
         mode: 2
         value: mgc
+        priority: null
       - key: system.magicalBonus
         mode: 4
         value: '1'
+        priority: null
       - key: name
         mode: 5
         value: Prismatic {}
+        priority: null
       - key: system.damage.parts
         mode: 2
         value: '[["3d6", "thunder"]]'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -881,8 +1156,21 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
     _id: ccuPQX38Re6Gq0ut
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!PLqHs0hYFOYSFXT8.ccuPQX38Re6Gq0ut'
 folder: 3C2eSjufkNJJHedg
 sort: 0
@@ -998,9 +1286,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.2.1
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: 1721351495472
   modifiedTime: 1721353291675
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.ujPikJmIj7qf4MWR
+  duplicateSource: null
 _key: '!items!PLqHs0hYFOYSFXT8'
 

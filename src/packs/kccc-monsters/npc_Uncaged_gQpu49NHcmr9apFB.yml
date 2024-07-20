@@ -8,7 +8,38 @@ items:
     name: Multiattack
     type: feat
     img: icons/skills/melee/blade-tips-double-blue.webp
-    data:
+    effects: []
+    folder: null
+    sort: -200000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core:
+        sourceId: Item.094090din8bu19vk
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: <p><strong>Multiattack. </strong>The Uncaged makes two attacks.</p>
         chat: ''
@@ -58,34 +89,65 @@ items:
         value: null
         charged: false
       attunement: 0
-    effects: []
-    folder: null
-    sort: -200000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
     _key: '!actors.items!gQpu49NHcmr9apFB.x3OjUM04rirY35q2'
   - _id: tOVW5D1QgaOstHwo
     name: Shortsword
     type: weapon
     img: icons/weapons/swords/sword-guard-brown.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.items.osLzOwQdPtrK3rQH
+      betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+            '1': ''
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: false
+          altValue: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Shortsword</strong><strong>.</strong> Melee Weapon
@@ -172,15 +234,17 @@ items:
         mgc: false
         sil: false
       proficient: true
+    _key: '!actors.items!gQpu49NHcmr9apFB.tOVW5D1QgaOstHwo'
+  - _id: PkAOQc7HmSVzSDtZ
+    name: Shortbow
+    type: weapon
+    img: icons/weapons/bows/shortbow-recurve.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 2600001
     flags:
       core:
-        sourceId: Compendium.dnd5e.items.osLzOwQdPtrK3rQH
+        sourceId: Compendium.dnd5e.items.GJv6WkD7D2J6rP6M
       betterRolls5e:
         quickDamage:
           context:
@@ -216,12 +280,19 @@ items:
             quantity: false
           altValue:
             quantity: false
-    _key: '!actors.items!gQpu49NHcmr9apFB.tOVW5D1QgaOstHwo'
-  - _id: PkAOQc7HmSVzSDtZ
-    name: Shortbow
-    type: weapon
-    img: icons/weapons/bows/shortbow-recurve.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Shortbow.</strong></em> <em>Ranged Weapon Attack:</em>
@@ -308,56 +379,41 @@ items:
         mgc: false
         sil: false
       proficient: true
-    effects: []
-    folder: null
-    sort: 2600001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      core:
-        sourceId: Compendium.dnd5e.items.GJv6WkD7D2J6rP6M
-      betterRolls5e:
-        quickDamage:
-          context:
-            '0': ''
-            '1': ''
-          value:
-            '0': true
-            '1': true
-          altValue:
-            '0': true
-            '1': true
-        quickOther:
-          context: ''
-          value: true
-          altValue: true
-        quickDesc:
-          value: false
-          altValue: false
-        quickAttack:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            quantity: false
-          altValue:
-            quantity: false
     _key: '!actors.items!gQpu49NHcmr9apFB.PkAOQc7HmSVzSDtZ'
   - _id: LhrB7bHXJwR7Pr51
     name: Turn Resistance
     type: feat
     img: icons/magic/death/projectile-skull-flaming-yellow.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Turn Resistance. </strong>The Uncaged has advantage on
@@ -408,31 +464,11 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
     _key: '!actors.items!gQpu49NHcmr9apFB.LhrB7bHXJwR7Pr51'
 effects:
   - _id: fixlo6eZrteWduNT
     changes:
-      - key: data.attributes.ac.flat
+      - key: system.attributes.ac.flat
         mode: 5
         value: '17'
         priority: 50
@@ -441,12 +477,30 @@ effects:
       startTime: 4434
       startRound: 2
       startTurn: 2
-    icon: icons/magic/defensive/shield-barrier-blue.webp
-    label: Natural Armor
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
     origin: Compendium.world.kccc-monsters.gQpu49NHcmr9apFB
     transfer: false
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    name: Natural Armor
+    img: icons/magic/defensive/shield-barrier-blue.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!actors.effects!gQpu49NHcmr9apFB.fixlo6eZrteWduNT'
 folder: WXlU6DZ8rSvcs9MB
 sort: 100000
@@ -775,6 +829,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -788,12 +844,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Uncaged3.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -803,15 +863,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364896529
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.T1uhrC8WcwxCqm4P
+  duplicateSource: null
 _key: '!actors!gQpu49NHcmr9apFB'
 

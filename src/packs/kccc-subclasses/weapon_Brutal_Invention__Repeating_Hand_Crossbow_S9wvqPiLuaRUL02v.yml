@@ -1,12 +1,62 @@
 name: 'Brutal Invention: Repeating Hand Crossbow'
 type: weapon
 img: icons/weapons/crossbows/crossbow-slotted.webp
-data:
+effects: []
+folder: 7gR5Zk9JdneG4dYl
+sort: 103125
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.yis9296oFtTWwAbv
+_id: S9wvqPiLuaRUL02v
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: "<p><strong>Repeating Hand Crossbow.</strong> This weapon doesn’t require a free hand to load, as it has a built-in loader. Once per turn, if you make an attack with this weapon as part of the Attack action, if you do not have disadvantage on that attack, you can give yourself disadvantage to make a single additional weapon attack with this weapon as a bonus action (also with disadvantage).</p>\n<p><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px;font-style:italic\">Full Auto (Repeating Hand Crossbow):</strong><span style=\"color:#191813;font-size:13px;font-style:italic\">\_You immediately make a single additional attack as part of the same action, making the attack with disadvantage; this disadvantage can’t be canceled out.</span></p>"
     chat: ''
     unidentified: ''
-  source: ''
+  source:
+    book: KCCC
   quantity: 1
   weight: 0
   price: 0
@@ -83,47 +133,7 @@ data:
     two: false
     ver: false
   proficient: true
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: false
-      altValue: false
-    quickProperties:
-      value: true
-      altValue: true
-    quickVersatile:
-      value: false
-      altValue: false
-    quickOther:
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-    quickAttack:
-      value: true
-      altValue: true
-    quickDamage:
-      context:
-        '0': ''
-      value:
-        '0': true
-      altValue:
-        '0': true
-  core:
-    sourceId: Item.yis9296oFtTWwAbv
-_id: S9wvqPiLuaRUL02v
+  type:
+    value: class
 _key: '!items!S9wvqPiLuaRUL02v'
 

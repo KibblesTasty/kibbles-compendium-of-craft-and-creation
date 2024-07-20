@@ -1,7 +1,24 @@
 name: Specialist
 type: subclass
 img: icons/skills/ranged/rocket-skull-fire-blue.webp
-data:
+effects: []
+folder: VE787nTTLBhhhMU1
+sort: 200000
+flags:
+  core:
+    sourceId: Item.tA5b94S2MB07MgO1
+_id: GFBhnvl9bGznIrDF
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <h2 style="border-bottom:1px solid
@@ -112,7 +129,9 @@ data:
       </table>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   identifier: specialist
   classIdentifier: ranger
   advancement:
@@ -167,15 +186,5 @@ data:
   spellcasting:
     progression: none
     ability: ''
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.tA5b94S2MB07MgO1
-_id: GFBhnvl9bGznIrDF
 _key: '!items!GFBhnvl9bGznIrDF'
 

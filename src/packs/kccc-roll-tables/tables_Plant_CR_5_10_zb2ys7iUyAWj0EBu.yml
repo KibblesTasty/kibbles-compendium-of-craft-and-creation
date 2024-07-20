@@ -6,37 +6,33 @@ description: >-
   check with a <b>DC of 10</b>
 results:
   - _id: 3g3hWtxC0vayYFct
-    type: 2
+    type: pack
     text: Common Poisonous Reagent
     img: icons/commodities/materials/bowl-powder-pink.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: 9vVyV3bTBjAvktqD
     weight: 5
     range:
       - 1
       - 30
     drawn: false
     flags: {}
-    rangeL: 1
-    rangeH: 30
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: 9vVyV3bTBjAvktqD
     _key: '!tables.results!zb2ys7iUyAWj0EBu.3g3hWtxC0vayYFct'
   - _id: oDh4nmG7aZCb2sfC
-    type: 2
+    type: pack
     text: Uncommon Poisonous Reagent
     img: icons/commodities/biological/tail-spiked-green.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: 5bgfoiOWZydLskRB
     weight: 1
     range:
       - 31
       - 60
     drawn: false
     flags: {}
-    rangeL: 31
-    rangeH: 60
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: 5bgfoiOWZydLskRB
     _key: '!tables.results!zb2ys7iUyAWj0EBu.oDh4nmG7aZCb2sfC'
   - _id: vaXrSJNl2u3Fg0jQ
-    type: 0
+    type: text
     text: >-
       [[/r 1d4]]
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.lg9FrHWcwS66fbVB]{Uncommon
@@ -48,38 +44,33 @@ results:
     drawn: false
     flags: {}
     img: icons/commodities/materials/bowl-liquid-white.webp
-    rangeL: 61
-    rangeH: 80
+    documentId: null
     _key: '!tables.results!zb2ys7iUyAWj0EBu.vaXrSJNl2u3Fg0jQ'
   - _id: 6dLdAxLmFyeoTCSo
-    type: 2
+    type: pack
     text: Uncommon Primal Essence
     img: icons/commodities/gems/gem-oval-red.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: tVxOYNqfvlHNsGlZ
     weight: 1
     range:
       - 81
       - 90
     drawn: false
     flags: {}
-    rangeL: 81
-    rangeH: 90
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: tVxOYNqfvlHNsGlZ
     _key: '!tables.results!zb2ys7iUyAWj0EBu.6dLdAxLmFyeoTCSo'
   - _id: NBhLBXhq4332mgpq
-    type: 2
+    type: pack
     text: Uncommon Primal Essence
     img: icons/commodities/gems/gem-oval-red.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: tVxOYNqfvlHNsGlZ
     weight: 1
     range:
       - 91
       - 100
     drawn: false
     flags: {}
-    rangeL: 91
-    rangeH: 100
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: tVxOYNqfvlHNsGlZ
     _key: '!tables.results!zb2ys7iUyAWj0EBu.NBhLBXhq4332mgpq'
 formula: 1d100
 replacement: true
@@ -96,9 +87,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 2.3.1
-  coreVersion: '11.308'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1693870754013
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: RollTable.rlyqGgLYtIWBzvKi
+  duplicateSource: null
 _key: '!tables!zb2ys7iUyAWj0EBu'
 

@@ -5,7 +5,7 @@ img: icons/equipment/chest/breastplate-gorget-steel.webp
 effects:
   - _id: 996T4Hj4mL013Xwf
     changes:
-      - key: data.attributes.ac.bonus
+      - key: system.attributes.ac.bonus
         mode: 2
         value: '+1'
         priority: 20
@@ -13,12 +13,31 @@ effects:
     duration:
       rounds: 0
       startTime: null
-    icon: icons/equipment/chest/breastplate-gorget-steel.webp
-    label: 'Upgrade: Reinforced Armor'
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
     origin: Compendium.world.kccc-classes.dzNKHqpJVH6M1Jhp
     transfer: true
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    name: 'Upgrade: Reinforced Armor'
+    img: icons/equipment/chest/breastplate-gorget-steel.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!items.effects!dzNKHqpJVH6M1Jhp.996T4Hj4mL013Xwf'
 folder: r3Mzbcquc2MYUrA3
 sort: 148438
@@ -105,9 +124,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721434546182
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.bkjJN3pWRy1OtMOK
+  duplicateSource: null
 _key: '!items!dzNKHqpJVH6M1Jhp'
 

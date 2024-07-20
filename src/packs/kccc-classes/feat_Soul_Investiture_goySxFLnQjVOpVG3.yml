@@ -5,27 +5,27 @@ img: icons/magic/unholy/hands-cloud-light-pink.webp
 effects:
   - _id: tqthYH6GOtm1jEwn
     changes:
-      - key: data.bonuses.abilities.save
+      - key: system.bonuses.abilities.save
         mode: 2
         value: '-1d4'
         priority: 20
-      - key: data.bonuses.mwak.attack
+      - key: system.bonuses.mwak.attack
         mode: 2
         value: '-1d4'
         priority: 20
-      - key: data.bonuses.msak.attack
+      - key: system.bonuses.msak.attack
         mode: 2
         value: '-1d4'
         priority: 20
-      - key: data.bonuses.rsak.attack
+      - key: system.bonuses.rsak.attack
         mode: 2
         value: '-1d4'
         priority: 20
-      - key: data.bonuses.rwak.attack
+      - key: system.bonuses.rwak.attack
         mode: 2
         value: '-1d4'
         priority: 20
-      - key: data.bonuses.mwak.damage
+      - key: system.bonuses.mwak.damage
         mode: 2
         value: +1d6
         priority: 20
@@ -33,12 +33,31 @@ effects:
     duration:
       startTime: null
       rounds: 1
-    icon: icons/magic/unholy/hands-cloud-light-pink.webp
-    label: Soul Investiture
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
     origin: Compendium.world.kccc-classes.goySxFLnQjVOpVG3
     transfer: true
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    name: Soul Investiture
+    img: icons/magic/unholy/hands-cloud-light-pink.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!items.effects!goySxFLnQjVOpVG3.tqthYH6GOtm1jEwn'
 folder: 1FEFTA5H9DfdQVYG
 sort: -100000
@@ -131,9 +150,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721425243852
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.zkY54eYQjM8jDgC1
+  duplicateSource: null
 _key: '!items!goySxFLnQjVOpVG3'
 

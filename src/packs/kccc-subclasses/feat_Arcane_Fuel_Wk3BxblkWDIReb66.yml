@@ -1,7 +1,37 @@
 name: Arcane Fuel
 type: feat
 img: icons/magic/light/explosion-beam-impact-silhouette.webp
-data:
+effects: []
+folder: QXppv8J48LQZL1OB
+sort: 300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ArSz75N1gFyAgvmV
+_id: Wk3BxblkWDIReb66
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>At 14th level, you gain immunity to force damage. When you would take
@@ -18,7 +48,9 @@ data:
       magic.</p>
     chat: ''
     unidentified: ''
-  source: Aether Heart
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -62,28 +94,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.ArSz75N1gFyAgvmV
-_id: Wk3BxblkWDIReb66
+  type:
+    value: class
 _key: '!items!Wk3BxblkWDIReb66'
 

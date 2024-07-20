@@ -3,7 +3,6 @@ type: consumable
 img: icons/magic/fire/flame-burning-earth-yellow.webp
 effects:
   - name: Burning Oil
-    icon: icons/magic/fire/flame-burning-earth-yellow.webp
     flags:
       dnd5e:
         type: enchantment
@@ -43,7 +42,20 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/magic/fire/flame-burning-earth-yellow.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!on4HyxjKDPI3QGOX.9TpZG5dVcws0blw5'
 folder: 34hJDESbF50bPPrC
 sort: 100000
@@ -135,9 +147,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.2.1
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: 1721349989525
   modifiedTime: 1721350212570
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.XoBtw4yo6e6N9ufk
+  duplicateSource: null
 _key: '!items!on4HyxjKDPI3QGOX'
 

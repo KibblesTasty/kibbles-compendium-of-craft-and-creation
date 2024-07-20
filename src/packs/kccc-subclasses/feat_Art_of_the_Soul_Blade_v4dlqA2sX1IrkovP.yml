@@ -1,7 +1,37 @@
 name: Art of the Soul Blade
 type: feat
 img: icons/skills/melee/strike-dagger-arcane-pink.webp
-data:
+effects: []
+folder: B7JG1A1xufT9VN8p
+sort: 150000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.N4g09mo1V0ifnzW5
+_id: v4dlqA2sX1IrkovP
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting at 6th level, your expertise with the blade allows you to
@@ -26,7 +56,9 @@ data:
       creature takes additional damage equal to your Wisdom modifier.</p>
     chat: ''
     unidentified: ''
-  source: Soul Blade
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -70,28 +102,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.N4g09mo1V0ifnzW5
-_id: v4dlqA2sX1IrkovP
+  type:
+    value: class
 _key: '!items!v4dlqA2sX1IrkovP'
 

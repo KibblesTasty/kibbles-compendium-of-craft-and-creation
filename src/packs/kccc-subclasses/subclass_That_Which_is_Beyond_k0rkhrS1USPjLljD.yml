@@ -1,7 +1,24 @@
 name: That Which is Beyond
 type: subclass
 img: icons/creatures/magical/spirit-fear-energy-pink.webp
-data:
+effects: []
+folder: wswdqCGXf7mZCtjO
+sort: 100000
+flags:
+  core:
+    sourceId: Item.5iE8wNWoTKEXj4rN
+_id: k0rkhrS1USPjLljD
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <h2 style="border-bottom:1px solid var(--color-underline-header)">That
@@ -133,7 +150,9 @@ data:
       </table>
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   identifier: that-which-is-beyond
   classIdentifier: warlock
   advancement:
@@ -188,15 +207,5 @@ data:
   spellcasting:
     progression: none
     ability: ''
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.5iE8wNWoTKEXj4rN
-_id: k0rkhrS1USPjLljD
 _key: '!items!k0rkhrS1USPjLljD'
 

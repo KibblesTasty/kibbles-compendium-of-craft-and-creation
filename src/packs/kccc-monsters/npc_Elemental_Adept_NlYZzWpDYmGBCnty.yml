@@ -89,10 +89,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!NlYZzWpDYmGBCnty.4iknFuY0dzUC7iWu'
   - _id: ptkPyoO4n8nGkEol
     name: Light
@@ -206,10 +208,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: Compendium.dnd5e.spells.Bnn9Nzajixvow9xi
+      duplicateSource: null
     _key: '!actors.items!NlYZzWpDYmGBCnty.ptkPyoO4n8nGkEol'
   - _id: ZJALPSV6MZxoiH5V
     name: Thunderwave
@@ -344,10 +348,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: Compendium.dnd5e.spells.WTbOQBsarsL1LuXJ
+      duplicateSource: null
     _key: '!actors.items!NlYZzWpDYmGBCnty.ZJALPSV6MZxoiH5V'
   - _id: 9fbM7BR9eypWrSOZ
     name: Burning Hands
@@ -480,10 +486,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: Compendium.dnd5e.spells.5SuJewoa1CRWaj1F
+      duplicateSource: null
     _key: '!actors.items!NlYZzWpDYmGBCnty.9fbM7BR9eypWrSOZ'
   - _id: C1nDig3tHfr6GTOf
     name: Lightning Tendril
@@ -642,10 +650,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: Item.KTVeSCdbRT5qsQBI
+      duplicateSource: null
     _key: '!actors.items!NlYZzWpDYmGBCnty.C1nDig3tHfr6GTOf'
   - _id: WdC6Wo7OZYnBMEmi
     name: Elemental Blast
@@ -779,10 +789,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!NlYZzWpDYmGBCnty.WdC6Wo7OZYnBMEmi'
   - _id: VzGiUSeCXPkp0ETf
     name: Elemental Touch
@@ -919,10 +931,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: Item.WdC6Wo7OZYnBMEmi
+      duplicateSource: null
     _key: '!actors.items!NlYZzWpDYmGBCnty.VzGiUSeCXPkp0ETf'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -1245,6 +1259,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -1258,12 +1274,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Electrokinetic.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -1277,12 +1297,26 @@ prototypeToken:
   detectionModes: []
   appendNumber: false
   prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364953784
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.gQee1xpcVm2Bnuvy
+  duplicateSource: null
 _key: '!actors!NlYZzWpDYmGBCnty'
 

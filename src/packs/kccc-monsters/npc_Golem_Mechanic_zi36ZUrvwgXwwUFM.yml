@@ -8,7 +8,25 @@ items:
     name: Leather Armor
     type: equipment
     img: icons/equipment/chest/breastplate-quilted-brown.webp
-    data:
+    effects: []
+    folder: null
+    sort: 200000
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.items.WwdpHLXGX5r8uZu5
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>The breastplate and shoulder protectors of this armor are made of
@@ -79,21 +97,41 @@ items:
       strength: null
       stealth: false
       proficient: true
-    effects: []
-    folder: null
-    sort: 200000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      core:
-        sourceId: Compendium.dnd5e.items.WwdpHLXGX5r8uZu5
     _key: '!actors.items!zi36ZUrvwgXwwUFM.nbF4yQbbCzd15e7n'
   - _id: YBijcKhzHsIp9msd
     name: Gifted Mechanic
     type: feat
     img: icons/tools/hand/wrench-iron-grey.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Gifted Mechanic</strong>. The mechanic adds double its
@@ -145,12 +183,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!zi36ZUrvwgXwwUFM.YBijcKhzHsIp9msd'
+  - _id: hiZjJmZYveUzVup9
+    name: Mending
+    type: feat
+    img: icons/tools/hand/hammer-simple-stone.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -165,12 +205,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!zi36ZUrvwgXwwUFM.YBijcKhzHsIp9msd'
-  - _id: hiZjJmZYveUzVup9
-    name: Mending
-    type: feat
-    img: icons/tools/hand/hammer-simple-stone.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Mending</strong>. The mechanic can cast the mending
@@ -221,32 +268,30 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
     _key: '!actors.items!zi36ZUrvwgXwwUFM.hiZjJmZYveUzVup9'
   - _id: eeDpZsGw1VQQjIkt
     name: Mending
     type: spell
     img: icons/magic/air/wind-stream-purple-blue.webp
-    data:
+    effects: []
+    folder: null
+    sort: 100001
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.kjmjY0zlE6IEiQVL
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>This spell repairs a single break or tear in an object you touch,
@@ -320,21 +365,60 @@ items:
         mode: none
         formula: ''
       attunement: null
-    effects: []
-    folder: null
-    sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      core:
-        sourceId: Compendium.dnd5e.spells.kjmjY0zlE6IEiQVL
     _key: '!actors.items!zi36ZUrvwgXwwUFM.eeDpZsGw1VQQjIkt'
   - _id: O5CmT3LAJZVaOBTd
     name: Blasting Rod
     type: weapon
     img: icons/magic/fire/projectile-bolt-zigzag-orange.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Blasting Rod.</strong> Ranged Spell Attack:</em> +6 to
@@ -419,36 +503,27 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!zi36ZUrvwgXwwUFM.O5CmT3LAJZVaOBTd'
+  - _id: a71EVq2PbBlQjHOW
+    name: Repair Construct
+    type: feat
+    img: icons/magic/symbols/cog-glowing-green.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
-          value: false
-          altValue: false
+          value: true
+          altValue: true
         quickProperties:
           value: true
           altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
         quickOther:
           value: true
           altValue: true
           context: ''
         quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            quantity: false
-          altValue:
-            quantity: false
-        quickAttack:
           value: true
           altValue: true
         quickDamage:
@@ -458,12 +533,19 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!zi36ZUrvwgXwwUFM.O5CmT3LAJZVaOBTd'
-  - _id: a71EVq2PbBlQjHOW
-    name: Repair Construct
-    type: feat
-    img: icons/magic/symbols/cog-glowing-green.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Repair Construct.</strong></em> The mechanic repairs a
@@ -517,34 +599,6 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
     _key: '!actors.items!zi36ZUrvwgXwwUFM.a71EVq2PbBlQjHOW'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -865,6 +919,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -878,12 +934,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Golemsmith.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -893,15 +953,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721365027092
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.PM245If59Lex5sH8
+  duplicateSource: null
 _key: '!actors!zi36ZUrvwgXwwUFM'
 

@@ -1,7 +1,37 @@
 name: Branching Studies
 type: feat
 img: icons/skills/trades/academics-book-study-runes.webp
-data:
+effects: []
+folder: FuBS9EmjWtQnpb1S
+sort: 125000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.7TF6FVw86a5EET3Q
+_id: NHRYZhUU3NM5HtBM
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting at 6th level, you can study a second Psionic Discipline. You
@@ -9,7 +39,9 @@ data:
       table.</p>
     chat: ''
     unidentified: ''
-  source: Order of the Unknown
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -53,28 +85,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.7TF6FVw86a5EET3Q
-_id: NHRYZhUU3NM5HtBM
+  type:
+    value: class
 _key: '!items!NHRYZhUU3NM5HtBM'
 

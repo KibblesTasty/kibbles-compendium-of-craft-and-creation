@@ -1,7 +1,37 @@
 name: Chains of War
 type: feat
 img: icons/commodities/tech/metal-jaws.webp
-data:
+effects: []
+folder: 7gR5Zk9JdneG4dYl
+sort: 300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.V60DfAhbI69JajUz
+_id: UrONPbY7hYdVimdc
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting at 10th level, you can select one of the following, or one
@@ -25,7 +55,8 @@ data:
       </ul>
     chat: ''
     unidentified: ''
-  source: ''
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -69,28 +100,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.V60DfAhbI69JajUz
-_id: UrONPbY7hYdVimdc
+  type:
+    value: class
 _key: '!items!UrONPbY7hYdVimdc'
 

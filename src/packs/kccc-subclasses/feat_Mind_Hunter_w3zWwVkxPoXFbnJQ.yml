@@ -1,7 +1,37 @@
 name: Mind Hunter
 type: feat
 img: icons/magic/unholy/silhouette-robe-evil-glow.webp
-data:
+effects: []
+folder: 2NSbo1q1N5TQNs1s
+sort: 125000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.cnhp85opAQCq3ABj
+_id: w3zWwVkxPoXFbnJQ
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Additionally at 11th level, when you’ve dealt psychic damage to a
@@ -9,7 +39,9 @@ data:
       long as it is within 120 feet of you until the end of your next turn.</p>
     chat: ''
     unidentified: ''
-  source: Mind Reaper
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -53,28 +85,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.cnhp85opAQCq3ABj
-_id: w3zWwVkxPoXFbnJQ
+  type:
+    value: class
 _key: '!items!w3zWwVkxPoXFbnJQ'
 

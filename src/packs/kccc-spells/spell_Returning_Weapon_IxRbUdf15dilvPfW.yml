@@ -3,7 +3,6 @@ type: spell
 img: icons/weapons/thrown/shuriken-triple-purple.webp
 effects:
   - name: Returning Weapon
-    icon: icons/weapons/thrown/shuriken-triple-purple.webp
     flags:
       dnd5e:
         type: enchantment
@@ -53,7 +52,20 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/weapons/thrown/shuriken-triple-purple.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!IxRbUdf15dilvPfW.mhKPVwYEdOdjFTpD'
 folder: frXX6IqoOjC9LAfE
 sort: 0
@@ -198,9 +210,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: 1721351321060
   modifiedTime: 1721363725897
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.4SZAods2ts8OCJDe
+  duplicateSource: null
 _key: '!items!IxRbUdf15dilvPfW'
 

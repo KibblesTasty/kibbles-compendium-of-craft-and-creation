@@ -1,12 +1,31 @@
 name: Mind Reaper
 type: subclass
 img: icons/magic/control/fear-fright-monster-grin-purple-blue.webp
-data:
+effects: []
+folder: VE787nTTLBhhhMU1
+sort: 100000
+flags:
+  core:
+    sourceId: Item.bTLvqJz5TNwRTdEu
+_id: YirGmWgpxlONtUKP
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: "<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Mind Reaper</h2>\n<p>Mind Reapers are an incarnation of fear. Terrible creatures seen more often in stories told to frighten children or ancient legends than the material plane, these are predatory creatures most mortals would be right to fear, no matter what their intentions.</p>\n<p>Some use these powers to spread fear, savoring the terror of their victims. Others use their powers to dispense what they view as justifice, stalking down and reaping only those they believe have earned such a grim fate.</p>\n<p>3rd: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.TPsws71V0KYDiP9U]{Mind Reaper Spells}</p>\n<p>3rd: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.3dgtxXyuWlaYfnUZ]{Psychic Reaper}</p>\n<p>3rd: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.ZGyeKBgDdqlNLXPU]{Telepathic Communication}</p>\n<p>7th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.UBF8uPo5rxlxLfNO]{Reaper’s Intrusion}</p>\n<p>11th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.TlcW0nbGXTdIZ3B8]{Amplified Anguish}</p>\n<p>11th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.w3zWwVkxPoXFbnJQ]{Mind Hunter}</p>\n<p>15th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.Gg7IoSAedOKAlc07]{Taste of Fear}</p>\n<p>15th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.M2KiRwBygs9GdT6f]{Psionic Adaptation}</p>\n<h3><strong>Mind Reaper Quirks</strong></h3>\n<p>The following are some optional quirks for a player of the Mind Reaper. You can optionally roll or select a quirk that suits your character.</p>\n<table style=\"width:100%;height:112px\" border=\"1\">\n<tbody>\n<tr style=\"height:16px\">\n<td style=\"text-align:center;width:27.566%;height:16px\"><strong>[[/r d6]]</strong></td>\n<td style=\"text-align:center;width:72.434%;height:16px\"><strong>Quirk</strong></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"text-align:center;width:27.566%;height:16px\">1</td>\n<td style=\"text-align:center;width:72.434%;height:16px\">You discuss the taste of thoughts.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"text-align:center;width:27.566%;height:16px\">2</td>\n<td style=\"text-align:center;width:72.434%;height:16px\">You enjoy spooking people.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"text-align:center;width:27.566%;height:16px\">3</td>\n<td style=\"text-align:center;width:72.434%;height:16px\">You avoid speaking out loud.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"text-align:center;width:27.566%;height:16px\">4</td>\n<td style=\"text-align:center;width:72.434%;height:16px\">You have a code of conduct for who gets hunted.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"text-align:center;width:27.566%;height:16px\">5</td>\n<td style=\"text-align:center;width:72.434%;height:16px\">Your eyes glow for a few minutes after using psionic powers.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"text-align:center;width:27.566%;height:16px\">6</td>\n<td style=\"text-align:center;width:72.434%;height:16px\">You refuse to enter particularly deranged minds. A healthy diet must draw some lines.</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   identifier: mind-reaper
   classIdentifier: ranger
   advancement:
@@ -63,15 +82,5 @@ data:
   spellcasting:
     progression: none
     ability: ''
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.bTLvqJz5TNwRTdEu
-_id: YirGmWgpxlONtUKP
 _key: '!items!YirGmWgpxlONtUKP'
 

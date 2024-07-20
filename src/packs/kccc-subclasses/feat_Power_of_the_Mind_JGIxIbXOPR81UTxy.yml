@@ -1,7 +1,37 @@
 name: Power of the Mind
 type: feat
 img: icons/magic/movement/trail-streak-zigzag-yellow.webp
-data:
+effects: []
+folder: B7JG1A1xufT9VN8p
+sort: 125000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.JE1qNTZ3XQlefc9l
+_id: JGIxIbXOPR81UTxy
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting at 11th level, your psionic abilities manifest more
@@ -31,7 +61,9 @@ data:
       used on the spells granted by the Discipline).</p>
     chat: ''
     unidentified: ''
-  source: Soul Blade
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -75,28 +107,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.JE1qNTZ3XQlefc9l
-_id: JGIxIbXOPR81UTxy
+  type:
+    value: class
 _key: '!items!JGIxIbXOPR81UTxy'
 

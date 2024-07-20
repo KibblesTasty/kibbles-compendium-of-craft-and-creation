@@ -1,7 +1,37 @@
 name: Planar Collision
 type: feat
 img: icons/magic/fire/orbs-silhouette-sun.webp
-data:
+effects: []
+folder: yUqUFFlbj0EPbMf7
+sort: 106250
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.MVlHLWlwQb7QyM8T
+_id: oKBCLMhOZg6RrFHg
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>At 18th level you can draw planes together causing them to smash
@@ -106,7 +136,8 @@ data:
       long rest.</p>
     chat: ''
     unidentified: ''
-  source: ''
+  source:
+    book: KCCC
   activation:
     type: ''
     cost: 0
@@ -150,28 +181,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.MVlHLWlwQb7QyM8T
-_id: oKBCLMhOZg6RrFHg
+  type:
+    value: class
 _key: '!items!oKBCLMhOZg6RrFHg'
 

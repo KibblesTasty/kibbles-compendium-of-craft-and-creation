@@ -8,7 +8,57 @@ items:
     name: Death Burst
     type: feat
     img: icons/magic/lightning/bolt-strike-explosion-yellow.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Death Burst. </strong>When the destroyer is reduced to 0
@@ -66,12 +116,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.VXg9zzltCzv6cXt6'
+  - _id: oMeHWsxSgiEMVdK6
+    name: Gravity Surge
+    type: feat
+    img: icons/magic/air/air-burst-spiral-pink.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -90,29 +142,22 @@ items:
         quickTemplate:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
         quickSave:
           value: true
           altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-    _key: '!actors.items!ReoRzBWDUQxazFJz.VXg9zzltCzv6cXt6'
-  - _id: oMeHWsxSgiEMVdK6
-    name: Gravity Surge
-    type: feat
-    img: icons/magic/air/air-burst-spiral-pink.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Gravity Surge. </strong>As a bonus action at the start of
@@ -170,12 +215,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.oMeHWsxSgiEMVdK6'
+  - _id: y5YPiO08bv9CLCRU
+    name: Innate Spellcasting
+    type: feat
+    img: icons/magic/lightning/barrier-shield-orb-pink.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -187,22 +234,22 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickTemplate:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-    _key: '!actors.items!ReoRzBWDUQxazFJz.oMeHWsxSgiEMVdK6'
-  - _id: y5YPiO08bv9CLCRU
-    name: Innate Spellcasting
-    type: feat
-    img: icons/magic/lightning/barrier-shield-orb-pink.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>Innate Spellcasting. The destroyer’s innate spellcasting ability is
@@ -260,32 +307,91 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
     _key: '!actors.items!ReoRzBWDUQxazFJz.y5YPiO08bv9CLCRU'
   - _id: EgysMWxDARIvCb2u
     name: Crackle
     type: spell
     img: icons/magic/lightning/bolt-strike-blue.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          value: null
+          type: String
+        critDamage:
+          value: ''
+          type: String
+        quickDesc:
+          value: true
+          altValue: true
+          type: Boolean
+        quickProperties:
+          value: true
+          altValue: true
+          type: Boolean
+        quickVersatile:
+          value: false
+          altValue: false
+          type: Boolean
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+          type: Boolean
+        quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickAttack:
+          value: true
+          altValue: true
+          type: Boolean
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+          type: Array
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.MxYox8g83HnZR337
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You create three arcs of lightning striking targets in range. You
@@ -364,67 +470,74 @@ items:
         mode: level
         formula: ''
       attunement: null
+    _key: '!actors.items!ReoRzBWDUQxazFJz.EgysMWxDARIvCb2u'
+  - _id: C4ZeWRYG0e8YIwCG
+    name: Fling
+    type: spell
+    img: icons/magic/sonic/projectile-shock-wave-blue.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      6krcfu4V2rVq3RWy: 3
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         critRange:
+          type: String
           value: null
-          type: String
         critDamage:
-          value: ''
           type: String
+          value: ''
         quickDesc:
+          type: Boolean
           value: true
           altValue: true
-          type: Boolean
-        quickProperties:
-          value: true
-          altValue: true
-          type: Boolean
-        quickVersatile:
-          value: false
-          altValue: false
-          type: Boolean
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-          type: Boolean
-        quickFlavor:
-          value: true
-          altValue: true
-          type: Boolean
-        quickCharges:
-          value:
-            use: false
-            resource: true
-          altValue:
-            use: false
-            resource: true
-          type: Boolean
         quickAttack:
+          type: Boolean
           value: true
           altValue: true
-          type: Boolean
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-          type: Array
         quickSave:
           type: Boolean
           value: true
           altValue: true
+        quickDamage:
+          type: Array
+          value:
+            '0': true
+            '1': true
+            '2': true
+          altValue:
+            '0': true
+            '1': true
+            '2': true
+          context:
+            '0': Falling
+            '1': Flinging
+            '2': Colliding
+        quickVersatile:
+          type: Boolean
+          value: false
+          altValue: false
+        quickProperties:
+          type: Boolean
+          value: true
+          altValue: true
+        quickCharges:
+          type: Boolean
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
         quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickOther:
+          type: Boolean
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
           type: Boolean
           value: true
           altValue: true
@@ -433,13 +546,21 @@ items:
           value: false
           altValue: false
       core:
-        sourceId: Item.MxYox8g83HnZR337
-    _key: '!actors.items!ReoRzBWDUQxazFJz.EgysMWxDARIvCb2u'
-  - _id: C4ZeWRYG0e8YIwCG
-    name: Fling
-    type: spell
-    img: icons/magic/sonic/projectile-shock-wave-blue.webp
-    data:
+        sourceId: Item.Mye18hqn0WMjJXbo
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You manipulate gravity around one large or smaller creature. The
@@ -520,13 +641,14 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!ReoRzBWDUQxazFJz.C4ZeWRYG0e8YIwCG'
+  - _id: uRTQTomMVayNxGpr
+    name: Lightning Charged
+    type: spell
+    img: icons/magic/lightning/fist-unarmed-strike-blue.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      6krcfu4V2rVq3RWy: 3
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         critRange:
@@ -551,16 +673,10 @@ items:
           type: Array
           value:
             '0': true
-            '1': true
-            '2': true
           altValue:
             '0': true
-            '1': true
-            '2': true
           context:
-            '0': Falling
-            '1': Flinging
-            '2': Colliding
+            '0': ''
         quickVersatile:
           type: Boolean
           value: false
@@ -595,13 +711,21 @@ items:
           value: false
           altValue: false
       core:
-        sourceId: Item.Mye18hqn0WMjJXbo
-    _key: '!actors.items!ReoRzBWDUQxazFJz.C4ZeWRYG0e8YIwCG'
-  - _id: uRTQTomMVayNxGpr
-    name: Lightning Charged
-    type: spell
-    img: icons/magic/lightning/fist-unarmed-strike-blue.webp
-    data:
+        sourceId: Item.LlK6d5pzfvWWfb0D
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You channel lightning energy into a creature. The energy is
@@ -685,67 +809,68 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!ReoRzBWDUQxazFJz.uRTQTomMVayNxGpr'
+  - _id: nC1OGCpyAeBYNfwN
+    name: Electrocute
+    type: spell
+    img: icons/magic/lightning/bolt-strike-embers-teal.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      6krcfu4V2rVq3RWy: 3
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         critRange:
-          type: String
           value: null
-        critDamage:
           type: String
+        critDamage:
           value: ''
+          type: String
         quickDesc:
-          type: Boolean
           value: true
           altValue: true
-        quickAttack:
           type: Boolean
+        quickProperties:
           value: true
           altValue: true
-        quickSave:
           type: Boolean
-          value: true
-          altValue: true
-        quickDamage:
-          type: Array
-          value:
-            '0': true
-          altValue:
-            '0': true
-          context:
-            '0': ''
         quickVersatile:
-          type: Boolean
           value: false
           altValue: false
-        quickProperties:
           type: Boolean
-          value: true
-          altValue: true
-        quickCharges:
-          type: Boolean
-          value:
-            use: false
-            resource: true
-          altValue:
-            use: false
-            resource: true
-        quickTemplate:
-          type: Boolean
-          value: true
-          altValue: true
         quickOther:
-          type: Boolean
           value: true
           altValue: true
           context: ''
+          type: Boolean
         quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickAttack:
+          value: true
+          altValue: true
+          type: Boolean
+        quickSave:
+          value: true
+          altValue: true
+          type: Boolean
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+          type: Array
+        quickTemplate:
           type: Boolean
           value: true
           altValue: true
@@ -754,13 +879,21 @@ items:
           value: false
           altValue: false
       core:
-        sourceId: Item.LlK6d5pzfvWWfb0D
-    _key: '!actors.items!ReoRzBWDUQxazFJz.uRTQTomMVayNxGpr'
-  - _id: nC1OGCpyAeBYNfwN
-    name: Electrocute
-    type: spell
-    img: icons/magic/lightning/bolt-strike-embers-teal.webp
-    data:
+        sourceId: Item.mMEzf4hsKDOAtc3z
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>A massive arc of lightning leaps from your hand to a target you can
@@ -837,13 +970,14 @@ items:
         mode: level
         formula: 1d12
       attunement: null
+    _key: '!actors.items!ReoRzBWDUQxazFJz.nC1OGCpyAeBYNfwN'
+  - _id: kq4gL1HEtykPxd4A
+    name: Jumping Jolt
+    type: spell
+    img: icons/magic/lightning/bolt-strike-creature-pink.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      6krcfu4V2rVq3RWy: 3
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         critRange:
@@ -885,10 +1019,6 @@ items:
           value: true
           altValue: true
           type: Boolean
-        quickSave:
-          value: true
-          altValue: true
-          type: Boolean
         quickDamage:
           context:
             '0': ''
@@ -897,6 +1027,10 @@ items:
           altValue:
             '0': true
           type: Array
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
         quickTemplate:
           type: Boolean
           value: true
@@ -906,13 +1040,21 @@ items:
           value: false
           altValue: false
       core:
-        sourceId: Item.mMEzf4hsKDOAtc3z
-    _key: '!actors.items!ReoRzBWDUQxazFJz.nC1OGCpyAeBYNfwN'
-  - _id: kq4gL1HEtykPxd4A
-    name: Jumping Jolt
-    type: spell
-    img: icons/magic/lightning/bolt-strike-creature-pink.webp
-    data:
+        sourceId: Item.B623w6gg5mtRVMIO
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You release an arc of lighting at a creature within range. Make a
@@ -994,54 +1136,18 @@ items:
         mode: level
         formula: 1d12
       attunement: null
+    _key: '!actors.items!ReoRzBWDUQxazFJz.kq4gL1HEtykPxd4A'
+  - _id: zDVvAkr1JiMccKBd
+    name: Lightning Bolt
+    type: spell
+    img: icons/magic/lightning/bolt-forked-large-blue.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      6krcfu4V2rVq3RWy: 3
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 100001
     flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.IyikgTEOTv701jgQ
       betterRolls5e:
-        critRange:
-          value: null
-          type: String
-        critDamage:
-          value: ''
-          type: String
-        quickDesc:
-          value: true
-          altValue: true
-          type: Boolean
-        quickProperties:
-          value: true
-          altValue: true
-          type: Boolean
-        quickVersatile:
-          value: false
-          altValue: false
-          type: Boolean
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-          type: Boolean
-        quickFlavor:
-          value: true
-          altValue: true
-          type: Boolean
-        quickCharges:
-          value:
-            use: false
-            resource: true
-          altValue:
-            use: false
-            resource: true
-          type: Boolean
-        quickAttack:
-          value: true
-          altValue: true
-          type: Boolean
         quickDamage:
           context:
             '0': ''
@@ -1049,27 +1155,48 @@ items:
             '0': true
           altValue:
             '0': true
-          type: Array
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
         quickSave:
-          type: Boolean
           value: true
           altValue: true
-        quickTemplate:
-          type: Boolean
+        quickProperties:
           value: true
           altValue: true
-        quickPrompt:
-          type: Boolean
+        quickVersatile:
           value: false
           altValue: false
-      core:
-        sourceId: Item.B623w6gg5mtRVMIO
-    _key: '!actors.items!ReoRzBWDUQxazFJz.kq4gL1HEtykPxd4A'
-  - _id: zDVvAkr1JiMccKBd
-    name: Lightning Bolt
-    type: spell
-    img: icons/magic/lightning/bolt-forked-large-blue.webp
-    data:
+        quickTemplate:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>A stroke of lightning forming a line 100 feet long and 5 feet wide
@@ -1146,58 +1273,41 @@ items:
         mode: level
         formula: 1d6
       attunement: null
-    effects: []
-    folder: null
-    sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      core:
-        sourceId: Compendium.dnd5e.spells.IyikgTEOTv701jgQ
-      betterRolls5e:
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-        quickOther:
-          context: ''
-          value: true
-          altValue: true
-        quickDesc:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
-        quickTemplate:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
     _key: '!actors.items!ReoRzBWDUQxazFJz.zDVvAkr1JiMccKBd'
   - _id: hJqIzwYnuQpiDaiW
     name: Unstable Trajectories
     type: feat
     img: icons/magic/air/wind-swirl-pink-purple.webp
-    data:
+    effects: []
+    folder: null
+    sort: 100000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Unstable Trajectories.</strong> If the destroyer has used
@@ -1250,12 +1360,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.hJqIzwYnuQpiDaiW'
+  - _id: OBRwcmrlaNoABQiO
+    name: Weak Point
+    type: feat
+    img: icons/skills/targeting/target-glowing-yellow.webp
     effects: []
     folder: null
-    sort: 100000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
       betterRolls5e:
         quickDesc:
@@ -1267,15 +1379,32 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: Additional Damage to Destroyer
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!ReoRzBWDUQxazFJz.hJqIzwYnuQpiDaiW'
-  - _id: OBRwcmrlaNoABQiO
-    name: Weak Point
-    type: feat
-    img: icons/skills/targeting/target-glowing-yellow.webp
-    data:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Weak Point.</strong> When a creature within 10 feet of the
@@ -1331,12 +1460,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.OBRwcmrlaNoABQiO'
+  - _id: AhX453YlteSPQGNJ
+    name: 'Bloodied: Meltdown'
+    type: feat
+    img: icons/magic/lightning/bolt-strike-explosion-blue.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1348,8 +1479,19 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: Additional Damage to Destroyer
+          context: ''
         quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+          altValue:
+            use: true
+        quickSave:
           value: true
           altValue: true
         quickDamage:
@@ -1357,16 +1499,21 @@ items:
             '0': ''
           value:
             '0': true
-            '1': true
           altValue:
             '0': true
-            '1': true
-    _key: '!actors.items!ReoRzBWDUQxazFJz.OBRwcmrlaNoABQiO'
-  - _id: AhX453YlteSPQGNJ
-    name: 'Bloodied: Meltdown'
-    type: feat
-    img: icons/magic/lightning/bolt-strike-explosion-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Meltdown.</strong> When the destroyer becomes bloodied
@@ -1426,12 +1573,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.AhX453YlteSPQGNJ'
+  - _id: 4YCOYkyE11GnSXVK
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: -200000
     flags:
       betterRolls5e:
         quickDesc:
@@ -1443,34 +1592,24 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickTemplate:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            use: true
-          altValue:
-            use: true
-        quickSave:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-    _key: '!actors.items!ReoRzBWDUQxazFJz.AhX453YlteSPQGNJ'
-  - _id: 4YCOYkyE11GnSXVK
-    name: Multiattack
-    type: feat
-    img: icons/skills/melee/blade-tips-double-blue.webp
-    data:
+      core:
+        sourceId: Item.094090din8bu19vk
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Multiattack. </strong>The destroyer makes two attacks: one
@@ -1523,34 +1662,60 @@ items:
         value: null
         charged: false
       attunement: 0
-    effects: []
-    folder: null
-    sort: -200000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
     _key: '!actors.items!ReoRzBWDUQxazFJz.4YCOYkyE11GnSXVK'
   - _id: Wj7ryKHebzEdEZTD
     name: Bite
     type: weapon
     img: icons/creatures/abilities/mouth-teeth-rows-red.webp
-    data:
+    effects: []
+    folder: null
+    sort: -100000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Bite.</strong> Melee Weapon Attack:</em> +13 to hit,
@@ -1637,12 +1802,14 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!ReoRzBWDUQxazFJz.Wj7ryKHebzEdEZTD'
+  - _id: nX7invOyJA2Exfr2
+    name: Tail
+    type: weapon
+    img: icons/creatures/abilities/tail-swipe-green.webp
     effects: []
     folder: null
-    sort: -100000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
       betterRolls5e:
         quickDesc:
@@ -1676,12 +1843,19 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!ReoRzBWDUQxazFJz.Wj7ryKHebzEdEZTD'
-  - _id: nX7invOyJA2Exfr2
-    name: Tail
-    type: weapon
-    img: icons/creatures/abilities/tail-swipe-green.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Tail.</strong> Melee Weapon Attack:</em> +10 to hit,
@@ -1767,12 +1941,14 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!ReoRzBWDUQxazFJz.nX7invOyJA2Exfr2'
+  - _id: rxPBgPm7SCmEmv14
+    name: Annihilation Blast
+    type: weapon
+    img: icons/magic/lightning/bolt-beam-strike-blue.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1796,7 +1972,10 @@ items:
             quantity: false
           altValue:
             quantity: false
-        quickAttack:
+        quickTemplate:
+          value: true
+          altValue: true
+        quickSave:
           value: true
           altValue: true
         quickDamage:
@@ -1806,12 +1985,19 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!ReoRzBWDUQxazFJz.nX7invOyJA2Exfr2'
-  - _id: rxPBgPm7SCmEmv14
-    name: Annihilation Blast
-    type: weapon
-    img: icons/magic/lightning/bolt-beam-strike-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Annihilation Blast.</strong> The destroyer unleashes a
@@ -1899,23 +2085,22 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!ReoRzBWDUQxazFJz.rxPBgPm7SCmEmv14'
+  - _id: pOj2qorJFgB1Jhky
+    name: Swallow
+    type: feat
+    img: icons/creatures/abilities/mouth-teeth-sharp.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
-          value: false
-          altValue: false
+          value: true
+          altValue: true
         quickProperties:
           value: true
           altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
         quickOther:
           value: true
           altValue: true
@@ -1923,30 +2108,32 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            quantity: false
-          altValue:
-            quantity: false
-        quickTemplate:
-          value: true
-          altValue: true
-        quickSave:
+        quickAttack:
           value: true
           altValue: true
         quickDamage:
           context:
             '0': ''
+            '1': Start of turn
           value:
             '0': true
+            '1': true
           altValue:
             '0': true
-    _key: '!actors.items!ReoRzBWDUQxazFJz.rxPBgPm7SCmEmv14'
-  - _id: pOj2qorJFgB1Jhky
-    name: Swallow
-    type: feat
-    img: icons/creatures/abilities/mouth-teeth-sharp.webp
-    data:
+            '1': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Swallow. </strong>The destroyer makes one bite attack
@@ -2015,12 +2202,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.pOj2qorJFgB1Jhky'
+  - _id: sfBot6GIMLusbIEE
+    name: 'Legendary Action: Lighting Power'
+    type: feat
+    img: icons/magic/lightning/bolt-forked-large-blue.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -2032,29 +2221,27 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickAttack:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-            '1': Start of turn
+        quickCharges:
           value:
-            '0': true
-            '1': true
+            resource: true
           altValue:
-            '0': true
-            '1': true
-    _key: '!actors.items!ReoRzBWDUQxazFJz.pOj2qorJFgB1Jhky'
-  - _id: sfBot6GIMLusbIEE
-    name: 'Legendary Action: Lighting Power'
-    type: feat
-    img: icons/magic/lightning/bolt-forked-large-blue.webp
-    data:
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Lightning Power.</strong> The destroyer casts one of its at
@@ -2105,12 +2292,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.sfBot6GIMLusbIEE'
+  - _id: CALdAxw1egaWEVdF
+    name: 'Legendary Action: Move'
+    type: feat
+    img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -2130,12 +2319,19 @@ items:
             resource: true
           altValue:
             resource: true
-    _key: '!actors.items!ReoRzBWDUQxazFJz.sfBot6GIMLusbIEE'
-  - _id: CALdAxw1egaWEVdF
-    name: 'Legendary Action: Move'
-    type: feat
-    img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Move.</strong> The destroyer moves up to half its
@@ -2186,12 +2382,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.CALdAxw1egaWEVdF'
+  - _id: igKXJbNnumJhUBJL
+    name: 'Legendary Action: Tail Attack'
+    type: feat
+    img: icons/creatures/abilities/tail-swipe-green.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -2211,12 +2409,19 @@ items:
             resource: true
           altValue:
             resource: true
-    _key: '!actors.items!ReoRzBWDUQxazFJz.CALdAxw1egaWEVdF'
-  - _id: igKXJbNnumJhUBJL
-    name: 'Legendary Action: Tail Attack'
-    type: feat
-    img: icons/creatures/abilities/tail-swipe-green.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Tail Attack.</strong> The destroyer makes one tail
@@ -2267,31 +2472,6 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            resource: true
-          altValue:
-            resource: true
     _key: '!actors.items!ReoRzBWDUQxazFJz.igKXJbNnumJhUBJL'
 effects: []
 folder: RgLgSAM7fPsrV84e
@@ -2621,6 +2801,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -2634,12 +2816,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/UnearthedDestroyer.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -2649,15 +2835,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364804716
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.YJUtN3CXGg5n3EBf
+  duplicateSource: null
 _key: '!actors!ReoRzBWDUQxazFJz'
 

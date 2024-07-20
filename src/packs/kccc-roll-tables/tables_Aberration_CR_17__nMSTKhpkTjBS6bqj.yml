@@ -6,22 +6,20 @@ description: >-
   ability check with a <b>DC of 15</b>
 results:
   - _id: pmHbU7Etye2oNlkf
-    type: 2
+    type: pack
     text: Rare Reactive Reagent
     img: icons/consumables/plants/flax-leaves-spiked-bundle-orange.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: xeD32SGuo6SLnJKt
     weight: 1
     range:
       - 10
       - 30
     drawn: false
     flags: {}
-    rangeL: 10
-    rangeH: 30
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: xeD32SGuo6SLnJKt
     _key: '!tables.results!nMSTKhpkTjBS6bqj.pmHbU7Etye2oNlkf'
   - _id: SslhtH9fXYSdDkOh
-    type: 0
+    type: text
     text: >-
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.p5HZZNzoMp7sYJ4C]{Very
       Rare Psionic Essence}
@@ -32,41 +30,36 @@ results:
     drawn: false
     flags: {}
     img: icons/commodities/gems/gem-faceted-rough-purple.webp
-    rangeL: 31
-    rangeH: 50
+    documentId: null
     _key: '!tables.results!nMSTKhpkTjBS6bqj.SslhtH9fXYSdDkOh'
   - _id: IEsiWMZcDPzYsHkh
-    type: 2
+    type: pack
     text: Very Rare Arcane Essence
     img: icons/commodities/gems/gem-faceted-rough-blue.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: lArgF71EYaBV5oQe
     weight: 1
     range:
       - 51
       - 89
     drawn: false
     flags: {}
-    rangeL: 51
-    rangeH: 89
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: lArgF71EYaBV5oQe
     _key: '!tables.results!nMSTKhpkTjBS6bqj.IEsiWMZcDPzYsHkh'
   - _id: 6BEWjqINDbNlwhle
-    type: 2
+    type: pack
     text: Legendary Arcane Essence
     img: icons/magic/light/explosion-star-large-pink.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: cmqAAsT3MvGXRIhG
     weight: 1
     range:
       - 90
       - 94
     drawn: false
     flags: {}
-    rangeL: 90
-    rangeH: 94
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: cmqAAsT3MvGXRIhG
     _key: '!tables.results!nMSTKhpkTjBS6bqj.6BEWjqINDbNlwhle'
   - _id: lzXeuDrpBm8VAOFL
-    type: 0
+    type: text
     text: >-
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.piv96ZUmguZ7nVNI]{Legendary
       Psionic Essence}
@@ -77,8 +70,7 @@ results:
     drawn: false
     flags: {}
     img: icons/commodities/stone/ore-chunk-purple-brown.webp
-    rangeL: 95
-    rangeH: 100
+    documentId: null
     _key: '!tables.results!nMSTKhpkTjBS6bqj.lzXeuDrpBm8VAOFL'
 formula: 1d100
 replacement: true
@@ -95,9 +87,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 2.3.1
-  coreVersion: '11.308'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1693870747280
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: RollTable.rlyqGgLYtIWBzvKi
+  duplicateSource: null
 _key: '!tables!nMSTKhpkTjBS6bqj'
 

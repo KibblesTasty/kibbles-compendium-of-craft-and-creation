@@ -6,109 +6,95 @@ description: >-
   ability check with a <b>DC of 12</b>
 results:
   - _id: pbiiIfbLEjN4Blkf
-    type: 2
+    type: pack
     text: Uncommon Poisonous Reagent
     img: icons/commodities/biological/tail-spiked-green.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: 5bgfoiOWZydLskRB
     weight: 1
     range:
       - 1
       - 30
     drawn: false
     flags: {}
-    rangeL: 1
-    rangeH: 30
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: 5bgfoiOWZydLskRB
     _key: '!tables.results!UxEVbhgklEAN8l9G.pbiiIfbLEjN4Blkf'
   - _id: ljcBKMOqdZtfhCbh
-    type: 2
+    type: pack
     text: Uncommon Arcane Essence
     img: icons/commodities/gems/gem-rough-ball-purple.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: 8sFuEHlAoHAjJHPA
     weight: 1
     range:
       - 31
       - 60
     drawn: false
     flags: {}
-    rangeL: 31
-    rangeH: 60
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: 8sFuEHlAoHAjJHPA
     _key: '!tables.results!UxEVbhgklEAN8l9G.ljcBKMOqdZtfhCbh'
   - _id: RHTxvESgMyQmrVre
-    type: 2
+    type: pack
     text: Rare Poisonous Reagent
     img: icons/consumables/plants/tearthumb-dried-halberd-leaf-brown.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: pQUrnlI00BpWabwY
     weight: 1
     range:
       - 61
       - 70
     drawn: false
     flags: {}
-    rangeL: 61
-    rangeH: 70
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: pQUrnlI00BpWabwY
     _key: '!tables.results!UxEVbhgklEAN8l9G.RHTxvESgMyQmrVre'
   - _id: o2sZBwtjPyIgI8bJ
-    type: 2
+    type: pack
     text: Uncommon Arcane Essence
     img: icons/commodities/gems/gem-rough-ball-purple.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: 8sFuEHlAoHAjJHPA
     weight: 1
     range:
       - 71
       - 80
     drawn: false
     flags: {}
-    rangeL: 71
-    rangeH: 80
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: 8sFuEHlAoHAjJHPA
     _key: '!tables.results!UxEVbhgklEAN8l9G.o2sZBwtjPyIgI8bJ'
   - _id: qkSZXG7KXD7vAOG4
-    type: 2
+    type: pack
     text: Rare Divine Essence
     img: icons/commodities/biological/wing-insect-green.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: Aapfqp9oa1KJidUe
     weight: 1
     range:
       - 81
       - 90
     drawn: false
     flags: {}
-    rangeL: 81
-    rangeH: 90
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: Aapfqp9oa1KJidUe
     _key: '!tables.results!UxEVbhgklEAN8l9G.qkSZXG7KXD7vAOG4'
   - _id: FCT0eeIOrdid6nUe
-    type: 2
+    type: pack
     text: Rare Arcane Essence
     img: icons/commodities/biological/organ-heart-black.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: S1IlBZUhshluk9TA
     weight: 1
     range:
       - 91
       - 99
     drawn: false
     flags: {}
-    rangeL: 91
-    rangeH: 99
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: S1IlBZUhshluk9TA
     _key: '!tables.results!UxEVbhgklEAN8l9G.FCT0eeIOrdid6nUe'
   - _id: RtCen5sEynOCzCEe
-    type: 2
+    type: pack
     text: Very Rare Arcane Essence
     img: icons/commodities/gems/gem-faceted-rough-blue.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: lArgF71EYaBV5oQe
     weight: 1
     range:
       - 100
       - 100
     drawn: false
     flags: {}
-    rangeL: 100
-    rangeH: 100
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: lArgF71EYaBV5oQe
     _key: '!tables.results!UxEVbhgklEAN8l9G.RtCen5sEynOCzCEe'
 formula: 1d100
 replacement: true
@@ -125,9 +111,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 2.3.1
-  coreVersion: '11.308'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1693870755064
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: RollTable.rlyqGgLYtIWBzvKi
+  duplicateSource: null
 _key: '!tables!UxEVbhgklEAN8l9G'
 

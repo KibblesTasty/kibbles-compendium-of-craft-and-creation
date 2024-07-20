@@ -1,7 +1,37 @@
 name: Save State
 type: feat
 img: icons/commodities/tech/dial-meter-gauge-blue.webp
-data:
+effects: []
+folder: UoEmzJUuHffx4QzF
+sort: 125000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.wnAZalo310FBXCF1
+_id: EQ3qSMHLk8fjCPh0
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting at 10th level, as a bonus action you can cause your
@@ -17,7 +47,9 @@ data:
       rest.</p>
     chat: ''
     unidentified: ''
-  source: The Ancient Intelligence
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: bonus
     cost: 1
@@ -61,28 +93,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.wnAZalo310FBXCF1
-_id: EQ3qSMHLk8fjCPh0
+  type:
+    value: class
 _key: '!items!EQ3qSMHLk8fjCPh0'
 

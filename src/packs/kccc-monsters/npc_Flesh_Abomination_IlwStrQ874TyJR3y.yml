@@ -86,10 +86,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!IlwStrQ874TyJR3y.5gj85qiCYebeRrvv'
   - _id: 9xJXGE1VJAI3w1J1
     name: Unnatural Health
@@ -181,10 +183,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!IlwStrQ874TyJR3y.9xJXGE1VJAI3w1J1'
   - _id: QR9KuuTk2qkfte14
     name: Multiattack
@@ -268,10 +272,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: Item.094090din8bu19vk
+      duplicateSource: null
     _key: '!actors.items!IlwStrQ874TyJR3y.QR9KuuTk2qkfte14'
   - _id: f3CvqLxFQchp5zhM
     name: Bite
@@ -405,10 +411,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!IlwStrQ874TyJR3y.f3CvqLxFQchp5zhM'
   - _id: 25FZVJSZuvxkQOSG
     name: Claws
@@ -542,10 +550,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!IlwStrQ874TyJR3y.25FZVJSZuvxkQOSG'
   - _id: GMhmTAQ3NDZyUmqt
     name: Tentacle
@@ -682,10 +692,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!IlwStrQ874TyJR3y.GMhmTAQ3NDZyUmqt'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -1008,6 +1020,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -1021,12 +1035,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Fleshsmith.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -1040,12 +1058,26 @@ prototypeToken:
   detectionModes: []
   appendNumber: false
   prependAdjective: false
+  hexagonalShape: 1
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721365018164
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.gpINm9X2ZXjendDQ
+  duplicateSource: null
 _key: '!actors!IlwStrQ874TyJR3y'
 

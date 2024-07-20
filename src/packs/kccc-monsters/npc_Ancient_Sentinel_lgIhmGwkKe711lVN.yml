@@ -8,7 +8,58 @@ items:
     name: Bladed Trunk
     type: weapon
     img: icons/skills/melee/blade-tip-orange.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickSave:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Bladed Trunk</strong></em>. <em>Melee Weapon
@@ -95,12 +146,14 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!lgIhmGwkKe711lVN.SCicmaPecxfOhLsj'
+  - _id: CnGHl7gvz7TTvv20
+    name: Stomp
+    type: weapon
+    img: icons/magic/earth/strike-stone-stalactite-blood-red.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -134,15 +187,19 @@ items:
             '0': true
           altValue:
             '0': true
-        quickSave:
-          value: true
-          altValue: true
-    _key: '!actors.items!lgIhmGwkKe711lVN.SCicmaPecxfOhLsj'
-  - _id: CnGHl7gvz7TTvv20
-    name: Stomp
-    type: weapon
-    img: icons/magic/earth/strike-stone-stalactite-blood-red.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Stomp</strong>. Melee Weapon Attack:</em> +14 to hit,
@@ -227,12 +284,14 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!lgIhmGwkKe711lVN.CnGHl7gvz7TTvv20'
+  - _id: l2g0wY0VfPG0qC7q
+    name: Tentacle
+    type: weapon
+    img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -266,12 +325,19 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!lgIhmGwkKe711lVN.CnGHl7gvz7TTvv20'
-  - _id: l2g0wY0VfPG0qC7q
-    name: Tentacle
-    type: weapon
-    img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Tentacle.</strong></em> <em>Melee Weapon Attack:
@@ -358,23 +424,22 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!lgIhmGwkKe711lVN.l2g0wY0VfPG0qC7q'
+  - _id: ktc1j5zS1orBh9W8
+    name: Fling
+    type: feat
+    img: icons/magic/movement/trail-streak-impact-blue.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: -100000
     flags:
       betterRolls5e:
         quickDesc:
-          value: false
-          altValue: false
+          value: true
+          altValue: true
         quickProperties:
           value: true
           altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
         quickOther:
           value: true
           altValue: true
@@ -382,11 +447,6 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            quantity: false
-          altValue:
-            quantity: false
         quickAttack:
           value: true
           altValue: true
@@ -397,12 +457,22 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!lgIhmGwkKe711lVN.l2g0wY0VfPG0qC7q'
-  - _id: ktc1j5zS1orBh9W8
-    name: Fling
-    type: feat
-    img: icons/magic/movement/trail-streak-impact-blue.webp
-    data:
+        quickSave:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Fling.</strong> One Large or smaller object held or
@@ -460,12 +530,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.ktc1j5zS1orBh9W8'
+  - _id: ez6Un5qfILGDc7d0
+    name: 'Legendary Action: Tentacle Attack or Fling'
+    type: feat
+    img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
     effects: []
     folder: null
-    sort: -100000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 600000
     flags:
       betterRolls5e:
         quickDesc:
@@ -477,29 +549,29 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickAttack:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
+        quickCharges:
           value:
-            '0': true
+            use: true
+            resource: true
           altValue:
-            '0': true
-        quickSave:
-          value: true
-          altValue: true
-    _key: '!actors.items!lgIhmGwkKe711lVN.ktc1j5zS1orBh9W8'
-  - _id: ez6Un5qfILGDc7d0
-    name: 'Legendary Action: Tentacle Attack or Fling'
-    type: feat
-    img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
-    data:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p><strong>Tentacle Attack or Fling.</strong> The sentinel makes one tentacle attack or uses its Fling.\_</p>"
         chat: ''
@@ -548,12 +620,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.ez6Un5qfILGDc7d0'
+  - _id: fJGKwbe2Zawi6WSG
+    name: 'Legendary Action: Unstoppable Trample'
+    type: feat
+    img: icons/skills/movement/arrow-upward-blue.webp
     effects: []
     folder: null
-    sort: 600000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 550000
     flags:
       betterRolls5e:
         quickDesc:
@@ -570,17 +644,22 @@ items:
           altValue: true
         quickCharges:
           value:
-            use: true
             resource: true
           altValue:
-            use: true
             resource: true
-    _key: '!actors.items!lgIhmGwkKe711lVN.ez6Un5qfILGDc7d0'
-  - _id: fJGKwbe2Zawi6WSG
-    name: 'Legendary Action: Unstoppable Trample'
-    type: feat
-    img: icons/skills/movement/arrow-upward-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Unstoppable Trample.</strong> The sentinel moves up to half
@@ -631,12 +710,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.fJGKwbe2Zawi6WSG'
+  - _id: 6TDZipP4Fj99wSde
+    name: Trampling Advance
+    type: feat
+    img: icons/creatures/mammals/ox-bull-horned-glowing-orange.webp
     effects: []
     folder: null
-    sort: 550000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 500000
     flags:
       betterRolls5e:
         quickDesc:
@@ -648,20 +729,33 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
           value:
-            resource: true
+            '0': true
           altValue:
-            resource: true
-    _key: '!actors.items!lgIhmGwkKe711lVN.fJGKwbe2Zawi6WSG'
-  - _id: 6TDZipP4Fj99wSde
-    name: Trampling Advance
-    type: feat
-    img: icons/creatures/mammals/ox-bull-horned-glowing-orange.webp
-    data:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Trampling Advance.</strong> Any Large or smaller creature
@@ -716,12 +810,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.6TDZipP4Fj99wSde'
+  - _id: IRx1F9ARi2XUWsf8
+    name: Unstoppable Advance
+    type: feat
+    img: icons/magic/earth/barrier-stone-brown-green.webp
     effects: []
     folder: null
-    sort: 500000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
       betterRolls5e:
         quickDesc:
@@ -737,9 +833,6 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickSave:
-          value: true
-          altValue: true
         quickDamage:
           context:
             '0': ''
@@ -747,12 +840,19 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!lgIhmGwkKe711lVN.6TDZipP4Fj99wSde'
-  - _id: IRx1F9ARi2XUWsf8
-    name: Unstoppable Advance
-    type: feat
-    img: icons/magic/earth/barrier-stone-brown-green.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Unstoppable Advance.</strong> The sentinel’s advance cannot
@@ -809,12 +909,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.IRx1F9ARi2XUWsf8'
+  - _id: Z5r8QR8ai8bYpclI
+    name: Immutable Form
+    type: feat
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -826,23 +928,22 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-    _key: '!actors.items!lgIhmGwkKe711lVN.IRx1F9ARi2XUWsf8'
-  - _id: Z5r8QR8ai8bYpclI
-    name: Immutable Form
-    type: feat
-    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Immutable Form.</strong> The sentinel is immune to any
@@ -893,12 +994,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.Z5r8QR8ai8bYpclI'
+  - _id: uYUScjhaB8j5lgHU
+    name: Legendary Resistance (3/day)
+    type: feat
+    img: icons/magic/defensive/barrier-shield-dome-pink.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 700000
     flags:
       betterRolls5e:
         quickDesc:
@@ -910,15 +1013,28 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!lgIhmGwkKe711lVN.Z5r8QR8ai8bYpclI'
-  - _id: uYUScjhaB8j5lgHU
-    name: Legendary Resistance (3/day)
-    type: feat
-    img: icons/magic/defensive/barrier-shield-dome-pink.webp
-    data:
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Legendary Resistance (3/Day).</strong> If the sentinel
@@ -969,12 +1085,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.uYUScjhaB8j5lgHU'
+  - _id: dHLw3NVSCuNNu3yn
+    name: Magical Resistance
+    type: feat
+    img: icons/magic/defensive/shield-barrier-flaming-diamond-magenta.webp
     effects: []
     folder: null
-    sort: 700000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
       betterRolls5e:
         quickDesc:
@@ -986,21 +1104,22 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            resource: true
-          altValue:
-            resource: true
-    _key: '!actors.items!lgIhmGwkKe711lVN.uYUScjhaB8j5lgHU'
-  - _id: dHLw3NVSCuNNu3yn
-    name: Magical Resistance
-    type: feat
-    img: icons/magic/defensive/shield-barrier-flaming-diamond-magenta.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Magic Resistance. </strong>The sentinel has advantage on
@@ -1051,12 +1170,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.dHLw3NVSCuNNu3yn'
+  - _id: xuUWcUllnK6xhqrA
+    name: Scale Immunity
+    type: feat
+    img: icons/magic/unholy/silhouette-evil-horned-giant.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1071,12 +1192,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!lgIhmGwkKe711lVN.dHLw3NVSCuNNu3yn'
-  - _id: xuUWcUllnK6xhqrA
-    name: Scale Immunity
-    type: feat
-    img: icons/magic/unholy/silhouette-evil-horned-giant.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Scale Immunity.</strong> The sentinel has resistance to the
@@ -1128,12 +1256,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.xuUWcUllnK6xhqrA'
+  - _id: giwM003xyFC1g0db
+    name: Siege Monster
+    type: feat
+    img: icons/magic/earth/laval-stone-orange.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1148,12 +1278,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!lgIhmGwkKe711lVN.xuUWcUllnK6xhqrA'
-  - _id: giwM003xyFC1g0db
-    name: Siege Monster
-    type: feat
-    img: icons/magic/earth/laval-stone-orange.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Siege Monster.</strong> The sentinel deals double damage to
@@ -1204,12 +1341,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.giwM003xyFC1g0db'
+  - _id: pzNnbzV5gQtVNxdj
+    name: Whispering Madness
+    type: feat
+    img: icons/magic/sonic/explosion-shock-sound-wave.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1224,12 +1363,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!lgIhmGwkKe711lVN.giwM003xyFC1g0db'
-  - _id: pzNnbzV5gQtVNxdj
-    name: Whispering Madness
-    type: feat
-    img: icons/magic/sonic/explosion-shock-sound-wave.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p>Whispering Madness. The sentinel is steeped in eldritch madness. If a creature starts its turn within 5 feet of the sentinel or while grappled by it, the creature must succeed on a DC 16 Wisdom saving throw or take 10 ([[/r 3d6]]) psychic damage and roll a [[/r d4]], suffering an additional condition until the start of its next turn, as noted in the following table.</p>\n<table style=\"width:100%;height:64px\" border=\"1\">\n<thead>\n<tr style=\"height:16px;background-color:#95a5a6;border-color:#34495e;text-align:center\">\n<td style=\"width:24.5583%;height:16px\">[[/r 1d4]]</td>\n<td style=\"width:75.4417%;height:16px\">Condition</td>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:24.5583%;height:16px\"><strong>1-2</strong></td>\n<td style=\"width:75.4417%;height:16px\">Frightened</td>\n</tr>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:24.5583%;height:16px\"><strong>3</strong></td>\n<td style=\"width:75.4417%;height:16px\">Blinded</td>\n</tr>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:24.5583%;height:16px\"><strong>4</strong></td>\n<td style=\"width:75.4417%;height:16px\">Paralyzed</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<p>\_</p>"
         chat: ''
@@ -1278,12 +1424,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.pzNnbzV5gQtVNxdj'
+  - _id: DZXzh6UbBizGKP3j
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: -200000
     flags:
       betterRolls5e:
         quickDesc:
@@ -1298,12 +1446,21 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!lgIhmGwkKe711lVN.pzNnbzV5gQtVNxdj'
-  - _id: DZXzh6UbBizGKP3j
-    name: Multiattack
-    type: feat
-    img: icons/skills/melee/blade-tips-double-blue.webp
-    data:
+      core:
+        sourceId: Item.094090din8bu19vk
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p><strong>Multiattack. </strong>The sentinel makes a bladed trunk attack, a stomp attack, and two tentacle attacks. It can replace each tentacle attack with one use of Fling.\_</p>"
         chat: ''
@@ -1353,12 +1510,14 @@ items:
         value: null
         charged: false
       attunement: 0
+    _key: '!actors.items!lgIhmGwkKe711lVN.DZXzh6UbBizGKP3j'
+  - _id: 4dTqRROk2j7F0Qst
+    name: 'Bloodied: Eruption of Corruption'
+    type: feat
+    img: icons/magic/unholy/beam-impact-purple.webp
     effects: []
     folder: null
-    sort: -200000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
       betterRolls5e:
         quickDesc:
@@ -1370,17 +1529,41 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
-    _key: '!actors.items!lgIhmGwkKe711lVN.DZXzh6UbBizGKP3j'
-  - _id: 4dTqRROk2j7F0Qst
-    name: 'Bloodied: Eruption of Corruption'
-    type: feat
-    img: icons/magic/unholy/beam-impact-purple.webp
-    data:
+        quickTemplate:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+          altValue:
+            use: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Eruption of Corruption.</strong> If the sentinel is
@@ -1441,45 +1624,6 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickTemplate:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            use: true
-          altValue:
-            use: true
-        quickSave:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
     _key: '!actors.items!lgIhmGwkKe711lVN.4dTqRROk2j7F0Qst'
 effects: []
 folder: RgLgSAM7fPsrV84e
@@ -1811,6 +1955,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -1824,12 +1970,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/AncientSentinel.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -1839,15 +1989,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364821131
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.UEqMAdz2jLdEg3Rj
+  duplicateSource: null
 _key: '!actors!lgIhmGwkKe711lVN'
 

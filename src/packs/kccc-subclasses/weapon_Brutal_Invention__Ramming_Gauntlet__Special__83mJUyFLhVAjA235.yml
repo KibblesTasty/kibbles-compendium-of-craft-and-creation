@@ -1,7 +1,56 @@
 name: 'Brutal Invention: Ramming Gauntlet (Special)'
 type: weapon
 img: icons/equipment/hand/gauntlet-armored-leather-teal-orange.webp
-data:
+effects: []
+folder: 7gR5Zk9JdneG4dYl
+sort: 106250
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+      value:
+        '0': true
+      altValue:
+        '0': true
+  core:
+    sourceId: Item.ubPpjKF0AwdCWvxI
+_id: 83mJUyFLhVAjA235
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p><strong>Ramming Gauntlet.</strong> When you make an attack roll, you
@@ -13,7 +62,8 @@ data:
       knocked 10 feet backwards.</em></p>
     chat: ''
     unidentified: ''
-  source: ''
+  source:
+    book: KCCC
   quantity: 1
   weight: 0
   price: 0
@@ -90,47 +140,7 @@ data:
     two: false
     ver: false
   proficient: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: false
-      altValue: false
-    quickProperties:
-      value: true
-      altValue: true
-    quickVersatile:
-      value: false
-      altValue: false
-    quickOther:
-      value: true
-      altValue: true
-      context: ''
-    quickFlavor:
-      value: true
-      altValue: true
-    quickCharges:
-      value:
-        quantity: false
-      altValue:
-        quantity: false
-    quickAttack:
-      value: true
-      altValue: true
-    quickDamage:
-      context:
-        '0': ''
-      value:
-        '0': true
-      altValue:
-        '0': true
-  core:
-    sourceId: Item.ubPpjKF0AwdCWvxI
-_id: 83mJUyFLhVAjA235
+  type:
+    value: class
 _key: '!items!83mJUyFLhVAjA235'
 

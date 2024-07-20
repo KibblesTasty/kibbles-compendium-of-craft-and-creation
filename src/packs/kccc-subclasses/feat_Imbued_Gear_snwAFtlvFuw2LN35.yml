@@ -1,12 +1,44 @@
 name: Imbued Gear
 type: feat
 img: icons/equipment/back/cape-layered-red-white.webp
-data:
+effects: []
+folder: LhkUtWHqBPO32213
+sort: 125000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.VFS5wBQKsajtkRye
+_id: snwAFtlvFuw2LN35
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: "<p>Starting at 6th level, select a 1st- or 2nd-level wizard spell, and forge it into a magical item. You can cast this spell once without expending a spell slot, regaining the ability to cast it again when you finish a long rest.</p>\n<p>If the spell targets only you, has a duration of more than 10 minutes, and doesn’t require concentration, it lasts until you finish a long rest instead of its normal duration.</p>\n<blockquote>\n<h3><strong>Extended Duration Spells</strong></h3>\n<p>The spells that fit this criteria for expanding their duration include include:</p>\n<p>1st level:<em> </em>false life, longstrider, mage armor</p>\n<p>2nd level: continual flame, darkvision</p>\n</blockquote>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: Order of Creation
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -50,28 +82,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.VFS5wBQKsajtkRye
-_id: snwAFtlvFuw2LN35
+  type:
+    value: class
 _key: '!items!snwAFtlvFuw2LN35'
 

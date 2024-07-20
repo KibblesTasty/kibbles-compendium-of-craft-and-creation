@@ -8,7 +8,40 @@ items:
     name: Ironwrought Fortitude
     type: feat
     img: icons/equipment/chest/breastplate-layered-steel-grey.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Ironwrought Fortitude.</strong> If damage reduces the
@@ -62,12 +95,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!TctEayZe5gYBPaHg.X2ngWMkL1MMhuEy9'
+  - _id: 8jK0kquAsutBtjH3
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: -200000
     flags:
       betterRolls5e:
         quickDesc:
@@ -79,19 +114,24 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickSave:
-          value: true
-          altValue: true
-    _key: '!actors.items!TctEayZe5gYBPaHg.X2ngWMkL1MMhuEy9'
-  - _id: 8jK0kquAsutBtjH3
-    name: Multiattack
-    type: feat
-    img: icons/skills/melee/blade-tips-double-blue.webp
-    data:
+      core:
+        sourceId: Item.094090din8bu19vk
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: <p><strong>Multiattack. </strong>The soldier makes two attacks.</p>
         chat: ''
@@ -141,12 +181,14 @@ items:
         value: null
         charged: false
       attunement: 0
+    _key: '!actors.items!TctEayZe5gYBPaHg.8jK0kquAsutBtjH3'
+  - _id: ktxyECMmNZt93yqs
+    name: Slam
+    type: feat
+    img: icons/equipment/hand/gauntelet-tooled-blue.webp
     effects: []
     folder: null
-    sort: -200000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 100000
     flags:
       betterRolls5e:
         quickDesc:
@@ -158,17 +200,33 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
-    _key: '!actors.items!TctEayZe5gYBPaHg.8jK0kquAsutBtjH3'
-  - _id: ktxyECMmNZt93yqs
-    name: Slam
-    type: feat
-    img: icons/equipment/hand/gauntelet-tooled-blue.webp
-    data:
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p><strong><em>Slam. </em></strong><em>Melee Weapon Attack: </em>+5 to hit, reach 10 ft., one target. <em>Hit: 5 </em>(1d4 + 3) bludgeoning damage.\_</p>"
         chat: ''
@@ -219,37 +277,6 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 100000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickAttack:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
     _key: '!actors.items!TctEayZe5gYBPaHg.ktxyECMmNZt93yqs'
 effects: []
 folder: jG9BbIMFuylsAyj7
@@ -579,6 +606,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -592,12 +621,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Ironwrought.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -607,15 +640,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364878293
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.NDCNnNt9p1rXa0su
+  duplicateSource: null
 _key: '!actors!TctEayZe5gYBPaHg'
 

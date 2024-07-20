@@ -1,7 +1,37 @@
 name: Forceful Mind
 type: feat
 img: icons/magic/air/air-pressure-shield-blue.webp
-data:
+effects: []
+folder: Z4nTsfePdB1zkFAr
+sort: 150000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.AIeerviBGtQwpGqA
+_id: HWCuxDLIvMA0uqf6
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting at 6th level, you gain the ability to use the psionic power
@@ -29,7 +59,9 @@ data:
       choosing or be knocked prone.</p>
     chat: ''
     unidentified: ''
-  source: Raging Mind
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -73,28 +105,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.AIeerviBGtQwpGqA
-_id: HWCuxDLIvMA0uqf6
+  type:
+    value: class
 _key: '!items!HWCuxDLIvMA0uqf6'
 

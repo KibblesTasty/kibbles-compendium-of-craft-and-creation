@@ -8,7 +8,36 @@ items:
     name: Innate Spellcasting (Psionics)
     type: feat
     img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Innate Spellcasting (Psionics)</strong>. The telepath’s
@@ -65,12 +94,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!aLD18U1bUHqKhobk.OW1V31oHnTu8dDia'
+  - _id: XGQ2IL4XwxuDcyVW
+    name: Frighten
+    type: spell
+    img: icons/magic/death/undead-ghost-scream-teal.webp
     effects: []
-    folder: null
+    folder: fJYvmWgnIemLWX7t
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -79,18 +110,34 @@ items:
         quickProperties:
           value: true
           altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!aLD18U1bUHqKhobk.OW1V31oHnTu8dDia'
-  - _id: XGQ2IL4XwxuDcyVW
-    name: Frighten
-    type: spell
-    img: icons/magic/death/undead-ghost-scream-teal.webp
-    data:
+        quickSave:
+          value: true
+          altValue: true
+      core:
+        sourceId: Item.1T9mITbTC0Qdgom3
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You invoke a sudden fear within a creature you can see within
@@ -165,15 +212,26 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!aLD18U1bUHqKhobk.XGQ2IL4XwxuDcyVW'
+  - _id: t1lphMBJ3BpQnklR
+    name: Command
+    type: spell
+    img: icons/magic/fire/explosion-fireball-small-purple.webp
     effects: []
-    folder: fJYvmWgnIemLWX7t
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    folder: null
+    sort: 100001
     flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.arzCrMRgcNiQuh43
       betterRolls5e:
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
         quickDesc:
+          value: true
+          altValue: true
+        quickSave:
           value: true
           altValue: true
         quickProperties:
@@ -182,24 +240,22 @@ items:
         quickVersatile:
           value: false
           altValue: false
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickSave:
-          value: true
-          altValue: true
-      core:
-        sourceId: Item.1T9mITbTC0Qdgom3
-    _key: '!actors.items!aLD18U1bUHqKhobk.XGQ2IL4XwxuDcyVW'
-  - _id: t1lphMBJ3BpQnklR
-    name: Command
-    type: spell
-    img: icons/magic/fire/explosion-fireball-small-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: "<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.</p><p>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you by the fastest available means.</p><p><strong>Grovel.</strong> The target falls prone and then ends its turn.</p><p><strong>Halt.</strong> The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p><p><strong>Higher Levels.\_</strong>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>"
         chat: ''
@@ -266,15 +322,17 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!aLD18U1bUHqKhobk.t1lphMBJ3BpQnklR'
+  - _id: vzQB9VuIYcxogJGN
+    name: Detect Thoughts
+    type: spell
+    img: icons/magic/light/explosion-star-teal-purple.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.arzCrMRgcNiQuh43
+        sourceId: Compendium.dnd5e.spells.ppWAAEul0QHtm4er
       betterRolls5e:
         quickOther:
           context: ''
@@ -295,12 +353,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!aLD18U1bUHqKhobk.t1lphMBJ3BpQnklR'
-  - _id: vzQB9VuIYcxogJGN
-    name: Detect Thoughts
-    type: spell
-    img: icons/magic/light/explosion-star-teal-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>For the duration, you can read the thoughts of certain creatures.
@@ -397,15 +462,17 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!aLD18U1bUHqKhobk.vzQB9VuIYcxogJGN'
+  - _id: EE7vZ5t2Wlgyw9aT
+    name: Dominate Monster
+    type: spell
+    img: icons/magic/air/air-burst-spiral-large-pink.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.ppWAAEul0QHtm4er
+        sourceId: Compendium.dnd5e.spells.eEpy1ONlXumKS1mp
       betterRolls5e:
         quickOther:
           context: ''
@@ -426,12 +493,26 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!aLD18U1bUHqKhobk.vzQB9VuIYcxogJGN'
-  - _id: EE7vZ5t2Wlgyw9aT
-    name: Dominate Monster
-    type: spell
-    img: icons/magic/air/air-burst-spiral-large-pink.webp
-    data:
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You attempt to beguile a creature that you can see within range. It
@@ -519,15 +600,17 @@ items:
         mode: level
         formula: ''
       attunement: null
+    _key: '!actors.items!aLD18U1bUHqKhobk.EE7vZ5t2Wlgyw9aT'
+  - _id: oEcoGo2vAEZtxZs5
+    name: Fear
+    type: spell
+    img: icons/magic/control/fear-fright-monster-purple-blue.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.eEpy1ONlXumKS1mp
+        sourceId: Compendium.dnd5e.spells.XXUDGFELgoskdOD0
       betterRolls5e:
         quickOther:
           context: ''
@@ -545,6 +628,9 @@ items:
         quickVersatile:
           value: false
           altValue: false
+        quickTemplate:
+          value: true
+          altValue: true
         quickFlavor:
           value: true
           altValue: true
@@ -555,12 +641,19 @@ items:
           altValue:
             use: true
             resource: true
-    _key: '!actors.items!aLD18U1bUHqKhobk.EE7vZ5t2Wlgyw9aT'
-  - _id: oEcoGo2vAEZtxZs5
-    name: Fear
-    type: spell
-    img: icons/magic/control/fear-fright-monster-purple-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You project a phantasmal image of a creature's worst fears. Each
@@ -636,15 +729,17 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!aLD18U1bUHqKhobk.oEcoGo2vAEZtxZs5'
+  - _id: xXAcTxpt6DK9xzun
+    name: Suggestion
+    type: spell
+    img: icons/magic/air/air-burst-spiral-pink.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.XXUDGFELgoskdOD0
+        sourceId: Compendium.dnd5e.spells.zMAWdyc8UVb37BK4
       betterRolls5e:
         quickOther:
           context: ''
@@ -662,9 +757,6 @@ items:
         quickVersatile:
           value: false
           altValue: false
-        quickTemplate:
-          value: true
-          altValue: true
         quickFlavor:
           value: true
           altValue: true
@@ -675,12 +767,19 @@ items:
           altValue:
             use: true
             resource: true
-    _key: '!actors.items!aLD18U1bUHqKhobk.oEcoGo2vAEZtxZs5'
-  - _id: xXAcTxpt6DK9xzun
-    name: Suggestion
-    type: spell
-    img: icons/magic/air/air-burst-spiral-pink.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You suggest a course of activity (limited to a sentence or two) and
@@ -764,48 +863,52 @@ items:
         mode: none
         formula: ''
       attunement: null
-    effects: []
-    folder: null
-    sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      core:
-        sourceId: Compendium.dnd5e.spells.zMAWdyc8UVb37BK4
-      betterRolls5e:
-        quickOther:
-          context: ''
-          value: true
-          altValue: true
-        quickDesc:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
     _key: '!actors.items!aLD18U1bUHqKhobk.xXAcTxpt6DK9xzun'
   - _id: YPc4uLp2twxIZKnO
     name: Telepathic Intrusion
     type: feat
     img: icons/magic/control/hypnosis-mesmerism-eye.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Telepathic Intrusion.</strong> The telepath forces one
@@ -861,12 +964,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!aLD18U1bUHqKhobk.YPc4uLp2twxIZKnO'
+  - _id: Uuc0xpWgQRoIt0TY
+    name: Empowered Telepathic Intrusion
+    type: feat
+    img: icons/magic/control/hypnosis-mesmerism-eye.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -882,6 +987,11 @@ items:
         quickFlavor:
           value: true
           altValue: true
+        quickCharges:
+          value:
+            charge: true
+          altValue:
+            charge: true
         quickSave:
           value: true
           altValue: true
@@ -892,12 +1002,19 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!aLD18U1bUHqKhobk.YPc4uLp2twxIZKnO'
-  - _id: Uuc0xpWgQRoIt0TY
-    name: Empowered Telepathic Intrusion
-    type: feat
-    img: icons/magic/control/hypnosis-mesmerism-eye.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>The telepath uses an empowered Telepathic Intrusion. On a failed
@@ -958,12 +1075,14 @@ items:
       recharge:
         value: 5
         charged: true
+    _key: '!actors.items!aLD18U1bUHqKhobk.Uuc0xpWgQRoIt0TY'
+  - _id: 6IKK9K9ELeuWVxLR
+    name: Empathetic Rebuke
+    type: feat
+    img: icons/magic/control/voodoo-doll-pain-damage-%20tan.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -979,12 +1098,7 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            charge: true
-          altValue:
-            charge: true
-        quickSave:
+        quickTemplate:
           value: true
           altValue: true
         quickDamage:
@@ -994,12 +1108,19 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!aLD18U1bUHqKhobk.Uuc0xpWgQRoIt0TY'
-  - _id: 6IKK9K9ELeuWVxLR
-    name: Empathetic Rebuke
-    type: feat
-    img: icons/magic/control/voodoo-doll-pain-damage-%20tan.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Empathetic Rebuke</strong>. When the telepath takes damage
@@ -1053,37 +1174,6 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickTemplate:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
     _key: '!actors.items!aLD18U1bUHqKhobk.6IKK9K9ELeuWVxLR'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -1404,6 +1494,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -1417,12 +1509,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/AwakenedMind.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -1432,15 +1528,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721365028318
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.iGfCQZNq6bUlWVSh
+  duplicateSource: null
 _key: '!actors!aLD18U1bUHqKhobk'
 

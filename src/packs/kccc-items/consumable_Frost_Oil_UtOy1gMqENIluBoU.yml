@@ -4,8 +4,6 @@ img: >-
   https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%204.png
 effects:
   - name: Frost Oil
-    icon: >-
-      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%204.png
     flags:
       dnd5e:
         type: enchantment
@@ -41,7 +39,21 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: >-
+      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%204.png
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!UtOy1gMqENIluBoU.z7tIMAyUNQQktaBq'
 folder: 34hJDESbF50bPPrC
 sort: 200000
@@ -137,9 +149,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.2.1
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: 1721349801607
   modifiedTime: 1721350222478
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.7c3PkepFyxMQdBYK
+  duplicateSource: null
 _key: '!items!UtOy1gMqENIluBoU'
 

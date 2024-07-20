@@ -1,7 +1,37 @@
 name: Clever Inventions
 type: feat
 img: icons/commodities/tech/coil-steel-grey.webp
-data:
+effects: []
+folder: 85eR8FgmxMYYdD21
+sort: 200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.LbGcuMrWIkTslzBY
+_id: vDqdqipsArM2gK5A
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721445561097
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting at 9th level, you expand your selection. Select two of the
@@ -36,7 +66,9 @@ data:
       feet.</p>
     chat: ''
     unidentified: ''
-  source: Gadgeteer
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -80,28 +112,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.LbGcuMrWIkTslzBY
-_id: vDqdqipsArM2gK5A
+  type:
+    value: class
 _key: '!items!vDqdqipsArM2gK5A'
 

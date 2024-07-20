@@ -3,7 +3,6 @@ type: spell
 img: icons/magic/symbols/runes-etched-steel-blade.webp
 effects:
   - name: Arcane Weapon
-    icon: icons/magic/symbols/runes-etched-steel-blade.webp
     flags:
       dnd5e:
         type: enchantment
@@ -40,7 +39,20 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/magic/symbols/runes-etched-steel-blade.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!Kp0HrTkC2BnT6Dzc.dovPyBC9SoaiStR0'
 folder: frXX6IqoOjC9LAfE
 sort: 0
@@ -195,9 +207,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: 1721351127405
   modifiedTime: 1721354117317
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.VrGvTT3z4qMnjwRQ
+  duplicateSource: null
 _key: '!items!Kp0HrTkC2BnT6Dzc'
 

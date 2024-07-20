@@ -1,7 +1,37 @@
 name: Arcane Automaton
 type: feat
 img: icons/creatures/magical/construct-stone-earth-gray.webp
-data:
+effects: []
+folder: LhkUtWHqBPO32213
+sort: 200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.gtW8Ezg14fxlwPK9
+_id: BXZ8dPL4xhSj8pjc
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting at 2nd level, you apply your skills of magic and creation to
@@ -32,7 +62,9 @@ data:
       </ul>
     chat: ''
     unidentified: ''
-  source: Order of Creation
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -76,28 +108,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.gtW8Ezg14fxlwPK9
-_id: BXZ8dPL4xhSj8pjc
+  type:
+    value: class
 _key: '!items!BXZ8dPL4xhSj8pjc'
 

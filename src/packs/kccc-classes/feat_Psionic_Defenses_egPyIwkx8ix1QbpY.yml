@@ -5,23 +5,43 @@ img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
 effects:
   - _id: 8q3u5aJKlBcMqVGr
     changes:
-      - key: data.attributes.ac.calc
+      - key: system.attributes.ac.calc
         mode: 5
         value: custom
         priority: 50
-      - key: data.attributes.ac.formula
+      - key: system.attributes.ac.formula
         mode: 5
         value: 13 + @abilities.int.mod
         priority: 50
     disabled: false
     duration:
       startTime: null
-    icon: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
-    label: Psionic Defenses
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
     origin: Item.qghl0aIwSs4O7fwY
     transfer: true
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    name: Psionic Defenses
+    img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!items.effects!egPyIwkx8ix1QbpY.8q3u5aJKlBcMqVGr'
 folder: snJgRU6pIt9nIVxY
 sort: 174219
@@ -107,9 +127,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721434481454
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.qghl0aIwSs4O7fwY
+  duplicateSource: null
 _key: '!items!egPyIwkx8ix1QbpY'
 

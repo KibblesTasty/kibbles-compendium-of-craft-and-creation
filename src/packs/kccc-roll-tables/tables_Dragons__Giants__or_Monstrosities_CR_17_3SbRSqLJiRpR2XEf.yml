@@ -6,7 +6,7 @@ description: >-
   check with a <b>DC of 15</b>
 results:
   - _id: nJ5BShvuPpMfyavy
-    type: 0
+    type: text
     text: >-
       [[/r 1d4]]
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.xeD32SGuo6SLnJKt]{Rare
@@ -18,68 +18,59 @@ results:
     drawn: false
     flags: {}
     img: icons/consumables/plants/flax-leaves-spiked-bundle-orange.webp
-    rangeL: 1
-    rangeH: 30
+    documentId: null
     _key: '!tables.results!3SbRSqLJiRpR2XEf.nJ5BShvuPpMfyavy'
   - _id: vSVr6n1hpSFgtXfQ
-    type: 2
+    type: pack
     text: Rare Primal Essence
     img: icons/commodities/biological/organ-heart-red.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: 6XHUZG8QuRzyZMZi
     weight: 1
     range:
       - 31
       - 50
     drawn: false
     flags: {}
-    rangeL: 31
-    rangeH: 50
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: 6XHUZG8QuRzyZMZi
     _key: '!tables.results!3SbRSqLJiRpR2XEf.vSVr6n1hpSFgtXfQ'
   - _id: u5KIOQZEGZo0xCtM
-    type: 2
+    type: pack
     text: Very Rare Primal Essence
     img: icons/commodities/gems/gem-faceted-rough-red.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: LTSnm0dSlIlBGnkx
     weight: 1
     range:
       - 51
       - 89
     drawn: false
     flags: {}
-    rangeL: 51
-    rangeH: 89
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: LTSnm0dSlIlBGnkx
     _key: '!tables.results!3SbRSqLJiRpR2XEf.u5KIOQZEGZo0xCtM'
   - _id: zT2uUdfcKdiyqwIJ
-    type: 2
+    type: pack
     text: Legendary Primal Essence
     img: icons/commodities/bones/horn-engraved-vines-grey.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: OXuIJWXIz5z3pDxh
     weight: 1
     range:
       - 90
       - 94
     drawn: false
     flags: {}
-    rangeL: 90
-    rangeH: 94
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: OXuIJWXIz5z3pDxh
     _key: '!tables.results!3SbRSqLJiRpR2XEf.zT2uUdfcKdiyqwIJ'
   - _id: 8BOpUAmNNnzwGJzn
-    type: 2
+    type: pack
     text: Legendary Primal Essence
     img: icons/commodities/bones/horn-engraved-vines-grey.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: OXuIJWXIz5z3pDxh
     weight: 1
     range:
       - 95
       - 100
     drawn: false
     flags: {}
-    rangeL: 95
-    rangeH: 100
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: OXuIJWXIz5z3pDxh
     _key: '!tables.results!3SbRSqLJiRpR2XEf.8BOpUAmNNnzwGJzn'
 formula: 1d100
 replacement: true
@@ -96,9 +87,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 2.3.1
-  coreVersion: '11.308'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1693870747280
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: RollTable.rlyqGgLYtIWBzvKi
+  duplicateSource: null
 _key: '!tables!3SbRSqLJiRpR2XEf'
 

@@ -1,7 +1,37 @@
 name: Active Mind
 type: feat
 img: icons/magic/symbols/question-stone-yellow.webp
-data:
+effects: []
+folder: YNNWOIjlENyM7ctA
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.UCi3jCCMNPzQIXLV
+_id: LuyIvG67FNhiSEfW
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721445237422
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Beginning at 7th level, you can save against effects that allow you to
@@ -12,7 +42,9 @@ data:
       turn under an effect they can save against at the end of their turn.</p>
     chat: ''
     unidentified: ''
-  source: Oath of Sanity
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -56,28 +88,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.UCi3jCCMNPzQIXLV
-_id: LuyIvG67FNhiSEfW
+  type:
+    value: class
 _key: '!items!LuyIvG67FNhiSEfW'
 

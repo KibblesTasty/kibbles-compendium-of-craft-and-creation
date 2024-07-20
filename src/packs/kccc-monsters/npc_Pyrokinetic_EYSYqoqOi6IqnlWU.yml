@@ -8,7 +8,85 @@ items:
     name: Fire Cyclone
     type: spell
     img: icons/magic/fire/beam-jet-stream-spiral-yellow.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          type: String
+          value: null
+        critDamage:
+          type: String
+          value: ''
+        quickDesc:
+          type: Boolean
+          value: true
+          altValue: true
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
+        quickDamage:
+          type: Array
+          value:
+            '0': true
+          altValue:
+            '0': true
+          context:
+            '0': ''
+        quickVersatile:
+          type: Boolean
+          value: false
+          altValue: false
+        quickProperties:
+          type: Boolean
+          value: true
+          altValue: true
+        quickCharges:
+          type: Boolean
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickOther:
+          type: Boolean
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core:
+        sourceId: Item.ht8bJRGurWnuvYfz
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>Targeting a point you can see, you cause a cyclone made of whipping
@@ -100,81 +178,60 @@ items:
         mode: none
         formula: ''
       attunement: null
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        critRange:
-          type: String
-          value: null
-        critDamage:
-          type: String
-          value: ''
-        quickDesc:
-          type: Boolean
-          value: true
-          altValue: true
-        quickAttack:
-          type: Boolean
-          value: true
-          altValue: true
-        quickSave:
-          type: Boolean
-          value: true
-          altValue: true
-        quickDamage:
-          type: Array
-          value:
-            '0': true
-          altValue:
-            '0': true
-          context:
-            '0': ''
-        quickVersatile:
-          type: Boolean
-          value: false
-          altValue: false
-        quickProperties:
-          type: Boolean
-          value: true
-          altValue: true
-        quickCharges:
-          type: Boolean
-          value:
-            use: false
-            resource: true
-          altValue:
-            use: false
-            resource: true
-        quickTemplate:
-          type: Boolean
-          value: true
-          altValue: true
-        quickOther:
-          type: Boolean
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          type: Boolean
-          value: true
-          altValue: true
-        quickPrompt:
-          type: Boolean
-          value: false
-          altValue: false
-      core:
-        sourceId: Item.ht8bJRGurWnuvYfz
     _key: '!actors.items!EYSYqoqOi6IqnlWU.G5yTIQTUIDpailAD'
   - _id: MfJUFBbWRRbpsCyG
     name: Burning Hands
     type: spell
     img: icons/magic/air/fog-gas-smoke-dense-orange.webp
-    data:
+    effects: []
+    folder: null
+    sort: 100001
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.spells.5SuJewoa1CRWaj1F
+      betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickTemplate:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>As you hold your hands with thumbs touching and fingers spread, a
@@ -251,15 +308,17 @@ items:
         mode: level
         formula: 1d6
       attunement: null
+    _key: '!actors.items!EYSYqoqOi6IqnlWU.MfJUFBbWRRbpsCyG'
+  - _id: iqdodDPNVElPWHTw
+    name: Hellish Rebuke
+    type: spell
+    img: icons/magic/control/fear-fright-shadow-monster-red.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.5SuJewoa1CRWaj1F
+        sourceId: Compendium.dnd5e.spells.22dPoeXfaaAv4K3h
       betterRolls5e:
         quickDamage:
           context:
@@ -284,18 +343,22 @@ items:
         quickVersatile:
           value: false
           altValue: false
-        quickTemplate:
-          value: true
-          altValue: true
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!EYSYqoqOi6IqnlWU.MfJUFBbWRRbpsCyG'
-  - _id: iqdodDPNVElPWHTw
-    name: Hellish Rebuke
-    type: spell
-    img: icons/magic/control/fear-fright-shadow-monster-red.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>When you are damaged by a creature within 60 feet of you that you
@@ -373,15 +436,17 @@ items:
         mode: level
         formula: 1d10
       attunement: null
+    _key: '!actors.items!EYSYqoqOi6IqnlWU.iqdodDPNVElPWHTw'
+  - _id: UBjlpijMme68nMqV
+    name: Fireball
+    type: spell
+    img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.22dPoeXfaaAv4K3h
+        sourceId: Compendium.dnd5e.spells.ztgcdrWPshKRpFd0
       betterRolls5e:
         quickDamage:
           context:
@@ -406,15 +471,32 @@ items:
         quickVersatile:
           value: false
           altValue: false
+        quickTemplate:
+          value: true
+          altValue: true
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!EYSYqoqOi6IqnlWU.iqdodDPNVElPWHTw'
-  - _id: UBjlpijMme68nMqV
-    name: Fireball
-    type: spell
-    img: icons/magic/fire/projectile-fireball-smoke-large-orange.webp
-    data:
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>A bright streak flashes from your pointing finger to a point you
@@ -492,15 +574,17 @@ items:
         mode: level
         formula: 1d6
       attunement: null
+    _key: '!actors.items!EYSYqoqOi6IqnlWU.UBjlpijMme68nMqV'
+  - _id: sNLIYWiYOrBXG1QI
+    name: Flaming Sphere
+    type: spell
+    img: icons/magic/light/explosion-star-large-orange.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.ztgcdrWPshKRpFd0
+        sourceId: Compendium.dnd5e.spells.FjYE214HTERCRZNm
       betterRolls5e:
         quickDamage:
           context:
@@ -538,12 +622,19 @@ items:
           altValue:
             use: true
             resource: true
-    _key: '!actors.items!EYSYqoqOi6IqnlWU.UBjlpijMme68nMqV'
-  - _id: sNLIYWiYOrBXG1QI
-    name: Flaming Sphere
-    type: spell
-    img: icons/magic/light/explosion-star-large-orange.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>A 5-foot-diameter Sphere of fire appears in an unoccupied space of
@@ -626,15 +717,17 @@ items:
         mode: level
         formula: 1d6
       attunement: null
+    _key: '!actors.items!EYSYqoqOi6IqnlWU.sNLIYWiYOrBXG1QI'
+  - _id: 3paP9aWgpgtd4bhh
+    name: Scorching Ray
+    type: spell
+    img: icons/magic/light/beam-rays-red.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.FjYE214HTERCRZNm
+        sourceId: Compendium.dnd5e.spells.7u2obDvuvtZBkTfq
       betterRolls5e:
         quickDamage:
           context:
@@ -650,7 +743,7 @@ items:
         quickDesc:
           value: true
           altValue: true
-        quickSave:
+        quickAttack:
           value: true
           altValue: true
         quickProperties:
@@ -659,9 +752,6 @@ items:
         quickVersatile:
           value: false
           altValue: false
-        quickTemplate:
-          value: true
-          altValue: true
         quickFlavor:
           value: true
           altValue: true
@@ -672,12 +762,19 @@ items:
           altValue:
             use: true
             resource: true
-    _key: '!actors.items!EYSYqoqOi6IqnlWU.sNLIYWiYOrBXG1QI'
-  - _id: 3paP9aWgpgtd4bhh
-    name: Scorching Ray
-    type: spell
-    img: icons/magic/light/beam-rays-red.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You create three rays of fire and hurl them at targets within
@@ -752,15 +849,17 @@ items:
         mode: none
         formula: ''
       attunement: null
+    _key: '!actors.items!EYSYqoqOi6IqnlWU.3paP9aWgpgtd4bhh'
+  - _id: bPm9t9hDnzGElnZd
+    name: Wall of Fire
+    type: spell
+    img: icons/magic/air/fog-gas-smoke-swirling-orange.webp
     effects: []
     folder: null
     sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       core:
-        sourceId: Compendium.dnd5e.spells.7u2obDvuvtZBkTfq
+        sourceId: Compendium.dnd5e.spells.X3DrXgxjwI2dvkD6
       betterRolls5e:
         quickDamage:
           context:
@@ -776,7 +875,7 @@ items:
         quickDesc:
           value: true
           altValue: true
-        quickAttack:
+        quickSave:
           value: true
           altValue: true
         quickProperties:
@@ -785,6 +884,9 @@ items:
         quickVersatile:
           value: false
           altValue: false
+        quickTemplate:
+          value: true
+          altValue: true
         quickFlavor:
           value: true
           altValue: true
@@ -795,12 +897,19 @@ items:
           altValue:
             use: true
             resource: true
-    _key: '!actors.items!EYSYqoqOi6IqnlWU.3paP9aWgpgtd4bhh'
-  - _id: bPm9t9hDnzGElnZd
-    name: Wall of Fire
-    type: spell
-    img: icons/magic/air/fog-gas-smoke-swirling-orange.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p>You create a wall of fire on a solid surface within range. You can
@@ -882,58 +991,41 @@ items:
         mode: level
         formula: 1d8
       attunement: null
-    effects: []
-    folder: null
-    sort: 100001
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      core:
-        sourceId: Compendium.dnd5e.spells.X3DrXgxjwI2dvkD6
-      betterRolls5e:
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-        quickOther:
-          context: ''
-          value: true
-          altValue: true
-        quickDesc:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
-        quickTemplate:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            use: true
-            resource: true
-          altValue:
-            use: true
-            resource: true
     _key: '!actors.items!EYSYqoqOi6IqnlWU.bPm9t9hDnzGElnZd'
   - _id: pStyCiRydtR3CglO
     name: Innate Spellcasting (Psionics)
     type: feat
     img: icons/magic/fire/flame-burning-earth-orange.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Innate Spellcasting (Psionics). </strong>The pyrokinetic’s
@@ -990,12 +1082,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!EYSYqoqOi6IqnlWU.pStyCiRydtR3CglO'
+  - _id: NPpGVs2fNekFiPYG
+    name: One with Flame
+    type: feat
+    img: icons/magic/fire/elemental-fire-humanoid.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1010,12 +1104,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!EYSYqoqOi6IqnlWU.pStyCiRydtR3CglO'
-  - _id: NPpGVs2fNekFiPYG
-    name: One with Flame
-    type: feat
-    img: icons/magic/fire/elemental-fire-humanoid.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>One with Flame.</strong> The pyrokinetic is immune to fire
@@ -1066,12 +1167,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!EYSYqoqOi6IqnlWU.NPpGVs2fNekFiPYG'
+  - _id: 936KZeyhmhxYCVoQ
+    name: Schism (Recharge 5–6)
+    type: feat
+    img: icons/magic/perception/eye-ringed-green.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1083,15 +1186,28 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!EYSYqoqOi6IqnlWU.NPpGVs2fNekFiPYG'
-  - _id: 936KZeyhmhxYCVoQ
-    name: Schism (Recharge 5–6)
-    type: feat
-    img: icons/magic/perception/eye-ringed-green.webp
-    data:
+        quickCharges:
+          value:
+            charge: true
+          altValue:
+            charge: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Schism (Recharge 5–6).</strong> The pyrokinetic can cast a
@@ -1145,20 +1261,25 @@ items:
       recharge:
         value: 5
         charged: true
+    _key: '!actors.items!EYSYqoqOi6IqnlWU.936KZeyhmhxYCVoQ'
+  - _id: 2LkIbMvXnhWmhXu4
+    name: Flame Blast
+    type: weapon
+    img: icons/magic/fire/beam-jet-stream-embers.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
-          value: true
-          altValue: true
+          value: false
+          altValue: false
         quickProperties:
           value: true
           altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
         quickOther:
           value: true
           altValue: true
@@ -1168,15 +1289,35 @@ items:
           altValue: true
         quickCharges:
           value:
-            charge: true
+            quantity: false
           altValue:
-            charge: true
-    _key: '!actors.items!EYSYqoqOi6IqnlWU.936KZeyhmhxYCVoQ'
-  - _id: 2LkIbMvXnhWmhXu4
-    name: Flame Blast
-    type: weapon
-    img: icons/magic/fire/beam-jet-stream-embers.webp
-    data:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+            '1': Burning Damage
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Flame Blast. </strong>Ranged Spell Attack:</em> +8 to
@@ -1265,54 +1406,43 @@ items:
         two: false
         ver: false
       proficient: true
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: false
-          altValue: false
-        quickProperties:
-          value: true
-          altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            quantity: false
-          altValue:
-            quantity: false
-        quickAttack:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-            '1': Burning Damage
-          value:
-            '0': true
-            '1': true
-          altValue:
-            '0': true
-            '1': true
     _key: '!actors.items!EYSYqoqOi6IqnlWU.2LkIbMvXnhWmhXu4'
   - _id: oexsfnMxKFIViEZP
     name: Multiattack
     type: feat
     img: icons/skills/melee/blade-tips-double-blue.webp
-    data:
+    effects: []
+    folder: null
+    sort: -200000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core:
+        sourceId: Item.094090din8bu19vk
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Multiattack.</strong> The pyrokinetic makes two flame blast
@@ -1364,28 +1494,6 @@ items:
         value: null
         charged: false
       attunement: 0
-    effects: []
-    folder: null
-    sort: -200000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
     _key: '!actors.items!EYSYqoqOi6IqnlWU.oexsfnMxKFIViEZP'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -1706,6 +1814,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -1719,12 +1829,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Pyrokinetic.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -1734,15 +1848,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364987416
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.486V9hdKFnChLxA9
+  duplicateSource: null
 _key: '!actors!EYSYqoqOi6IqnlWU'
 

@@ -3,64 +3,56 @@ img: icons/magic/death/undead-ghost-scream-teal.webp
 description: If a material is found, it can successfully collected with no check.
 results:
   - _id: nNG0KtCtBeEYrQUY
-    type: 2
+    type: pack
     text: Uncommon Poisonous Reagent
     img: icons/commodities/biological/tail-spiked-green.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: 5bgfoiOWZydLskRB
     weight: 1
     range:
       - 1
       - 20
     drawn: false
     flags: {}
-    rangeL: 1
-    rangeH: 20
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: 5bgfoiOWZydLskRB
     _key: '!tables.results!f6SDNfM9D7zjtKng.nNG0KtCtBeEYrQUY'
   - _id: UYm4EXXkaLMBNfRZ
-    type: 2
+    type: pack
     text: Uncommon Arcane Essence
     img: icons/commodities/gems/gem-rough-ball-purple.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: 8sFuEHlAoHAjJHPA
     weight: 1
     range:
       - 21
       - 50
     drawn: false
     flags: {}
-    rangeL: 21
-    rangeH: 50
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: 8sFuEHlAoHAjJHPA
     _key: '!tables.results!f6SDNfM9D7zjtKng.UYm4EXXkaLMBNfRZ'
   - _id: LS5wKMduCQdJWLUD
-    type: 2
+    type: pack
     text: Rare Poisonous Reagent
     img: icons/consumables/plants/tearthumb-dried-halberd-leaf-brown.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: pQUrnlI00BpWabwY
     weight: 1
     range:
       - 51
       - 80
     drawn: false
     flags: {}
-    rangeL: 51
-    rangeH: 80
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: pQUrnlI00BpWabwY
     _key: '!tables.results!f6SDNfM9D7zjtKng.LS5wKMduCQdJWLUD'
   - _id: BfCcUL3rNzm9lcwQ
-    type: 2
+    type: pack
     text: Rare Arcane Essence
     img: icons/commodities/biological/organ-heart-black.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: S1IlBZUhshluk9TA
     weight: 1
     range:
       - 81
       - 100
     drawn: false
     flags: {}
-    rangeL: 81
-    rangeH: 100
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: S1IlBZUhshluk9TA
     _key: '!tables.results!f6SDNfM9D7zjtKng.BfCcUL3rNzm9lcwQ'
 formula: 1d100
 replacement: true
@@ -77,9 +69,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 2.3.1
-  coreVersion: '11.308'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1693870750909
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: RollTable.lY7f1sFgVteEsXvq
+  duplicateSource: null
 _key: '!tables!f6SDNfM9D7zjtKng'
 

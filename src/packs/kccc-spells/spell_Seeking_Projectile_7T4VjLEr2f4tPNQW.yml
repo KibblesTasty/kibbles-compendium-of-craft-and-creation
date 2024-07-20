@@ -3,7 +3,6 @@ type: spell
 img: icons/skills/ranged/target-bullseye-arrow-glowing.webp
 effects:
   - name: Seeking Projectile
-    icon: icons/skills/ranged/target-bullseye-arrow-glowing.webp
     flags:
       dnd5e:
         type: enchantment
@@ -35,7 +34,20 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/skills/ranged/target-bullseye-arrow-glowing.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!7T4VjLEr2f4tPNQW.CX87MF8dLQPHDYdg'
 folder: frXX6IqoOjC9LAfE
 sort: 0
@@ -189,9 +201,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: 1721363787783
   modifiedTime: 1721363806093
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.daYBOMOhPLqrXBoW
+  duplicateSource: null
 _key: '!items!7T4VjLEr2f4tPNQW'
 

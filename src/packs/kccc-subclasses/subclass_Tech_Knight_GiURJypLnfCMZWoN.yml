@@ -1,12 +1,31 @@
 name: Tech Knight
 type: subclass
 img: icons/commodities/tech/cog-brass.webp
-data:
+effects: []
+folder: 9onaJc2pOLjeKp8w
+sort: 103125
+flags:
+  core:
+    sourceId: Item.ql7OZQajQm7sZUuK
+_id: GiURJypLnfCMZWoN
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721445024947
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
-    value: "<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Tech Knight</h2>\n<p>A Tech Knight believes that it is neither brains nor brawn that determine the best fighter, but the combination thereof.\_</p>\n<p>Why limit yourself to what nature has provided you when you can supplement your combat superiority in unique and inventive ways that give you the edge? You build and innovate on the cutting edge... and use that edge to hew through your foes. There are few things more dangerous than weaponized creativity in the hands of someone that knows how to use it.</p>\n<p>A Tech Knight could be called an inventor that opened the door of innovation, found the deadliest thing they could invent, and closed it once more, but that wouldn’t be accurate. They innovate continuously, improving their art, just with a highly specialized focus.</p>\n<p>Some perhaps adventure and fight to test their weapons, others perhaps turned to innovation to overcome some obstacle or seek to change the world, and others still care little for the science and engineering of the weapon, and merely cobbled together something to annihilate their foes.</p>\n<p>3rd Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.VQPTKxU6XFQkVg3g]{Brutal Invention}</p>\n<p>3rd Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.YuxY2LrGdLY6Hoo8]{Tinker’s Proficiency}</p>\n<p>7th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.Lp2wFmG9J4PTeWET]{Contingent Options}</p>\n<p>10th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.UrONPbY7hYdVimdc]{Chains of War}</p>\n<p>15th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.BxFCCKDCVsr4jW8U]{Reactive Armor}</p>\n<p>18th Level: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.NSuHjVjNtXb5TqlV]{Arms Race}</p>\n<h3><strong>Tech Knight Quirks</strong></h3>\n<p>The following are some optional quirks for a player of the Tech Knight. You can optionally roll or select a quirk that suits your character.</p>\n<table style=\"width:100%;height:112px\" border=\"1\">\n<tbody>\n<tr style=\"height:16px\">\n<td style=\"width:11.4437%;height:16px;text-align:center\"><strong>[[/r d6]]</strong></td>\n<td style=\"width:87.6761%;height:16px;text-align:center\"><strong>Quirk</strong></td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.4437%;height:16px;text-align:center\">1</td>\n<td style=\"width:87.6761%;height:16px;text-align:center\">You devote time each day to improving your weapons.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.4437%;height:16px;text-align:center\">2</td>\n<td style=\"width:87.6761%;height:16px;text-align:center\">You think any problem can be solved with sufficient firepower.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.4437%;height:16px;text-align:center\">3</td>\n<td style=\"width:87.6761%;height:16px;text-align:center\">You have disdain for simple weapons.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.4437%;height:16px;text-align:center\">4</td>\n<td style=\"width:87.6761%;height:16px;text-align:center\">You daydream about explosions.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.4437%;height:16px;text-align:center\">5</td>\n<td style=\"width:87.6761%;height:16px;text-align:center\">You revel in new chances to test your destructive wares.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:11.4437%;height:16px;text-align:center\">6</td>\n<td style=\"width:87.6761%;height:16px;text-align:center\">You offer to show everyone the features of each new invention with great joy.</td>\n</tr>\n</tbody>\n</table>"
+    value: "<p>A Tech Knight believes that it is neither brains nor brawn that determine the best fighter, but the combination thereof.\_</p><p>Why limit yourself to what nature has provided you when you can supplement your combat superiority in unique and inventive ways that give you the edge? You build and innovate on the cutting edge... and use that edge to hew through your foes. There are few things more dangerous than weaponized creativity in the hands of someone that knows how to use it.</p><p>A Tech Knight could be called an inventor that opened the door of innovation, found the deadliest thing they could invent, and closed it once more, but that wouldn’t be accurate. They innovate continuously, improving their art, just with a highly specialized focus.</p><p>Some perhaps adventure and fight to test their weapons, others perhaps turned to innovation to overcome some obstacle or seek to change the world, and others still care little for the science and engineering of the weapon, and merely cobbled together something to annihilate their foes.</p><p>The following are some optional quirks for a player of the Tech Knight. You can optionally roll or select a quirk that suits your character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.XFN17PG13Y58zTbF]</p>"
     chat: ''
     unidentified: ''
-  source: Kibbles' Compendium of Craft and Creation
+  source:
+    book: KCCC
+    custom: ''
   identifier: tech-knight
   classIdentifier: fighter
   advancement:
@@ -14,94 +33,100 @@ data:
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.VQPTKxU6XFQkVg3g
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.YuxY2LrGdLY6Hoo8
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.VQPTKxU6XFQkVg3g
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.YuxY2LrGdLY6Hoo8
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 3
       title: ''
-      icon: ''
+      icon: null
     - _id: yd2i9dk1xcov00gh
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Lp2wFmG9J4PTeWET
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Lp2wFmG9J4PTeWET
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 7
       title: ''
-      icon: ''
+      icon: null
     - _id: hnah37zs4xj6esya
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.UrONPbY7hYdVimdc
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.UrONPbY7hYdVimdc
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 10
       title: ''
-      icon: ''
+      icon: null
     - _id: aho8ocs8iactg4aq
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.BxFCCKDCVsr4jW8U
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.BxFCCKDCVsr4jW8U
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 15
       title: ''
-      icon: ''
+      icon: null
     - _id: cis9h7342taiaoio
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.NSuHjVjNtXb5TqlV
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.NSuHjVjNtXb5TqlV
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 18
       title: ''
-      icon: ''
-    - _id: qlc98d6h9fb3ygm8
-      type: ItemGrant
+      icon: null
+    - _id: PULQgOodvJaqw3j9
+      type: ItemChoice
       configuration:
-        items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.r61VvMlr9MGNNMrL
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.fg096MA4KWdQHmxp
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.WXWYvfLjBMm7GKMt
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.83mJUyFLhVAjA235
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.S9wvqPiLuaRUL02v
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.dsYfKf6Kl9rxVV3h
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.6eLNMx1qYguYEaH9
-        optional: true
-      value: {}
-      level: 3
-      title: ''
-      icon: ''
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: weapon
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.r61VvMlr9MGNNMrL
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.WXWYvfLjBMm7GKMt
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.S9wvqPiLuaRUL02v
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.dsYfKf6Kl9rxVV3h
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.6eLNMx1qYguYEaH9
+        spell: null
+        restriction: {}
+      value:
+        added: {}
+        replaced: {}
+      title: Brutal Invention
+      hint: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.ql7OZQajQm7sZUuK
-_id: GiURJypLnfCMZWoN
 _key: '!items!GiURJypLnfCMZWoN'
 

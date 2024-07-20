@@ -1,12 +1,44 @@
 name: Planetouched Origin Spells
 type: feat
 img: icons/magic/symbols/ring-circle-smoke-blue.webp
-data:
+effects: []
+folder: yUqUFFlbj0EPbMf7
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.6UT0jZhF7E3rA3Qu
+_id: URunmfklIFmAsidG
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: "<table style=\"width:100%;height:130px\" border=\"1\">\n<tbody>\n<tr style=\"height:33px\">\n<td style=\"text-align:center;width:26.3472%;height:33px\"><strong>Sorcerer Level</strong></td>\n<td style=\"text-align:center;width:73.6528%;height:33px\"><strong>Spell</strong></td>\n</tr>\n<tr style=\"height:33px\">\n<td style=\"text-align:center;width:26.3472%;height:33px\">1st</td>\n<td style=\"text-align:center;width:73.6528%;height:33px\">@Compendium[world.kccc-spells.BDNZqFxUSSsFq8xl]{Flicker}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"text-align:center;width:26.3472%;height:16px\">3rd</td>\n<td style=\"text-align:center;width:73.6528%;height:16px\">@Compendium[dnd5e.spells.wqfAVANuQonNBgnL]{Misty Step}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"text-align:center;width:26.3472%;height:16px\">5th</td>\n<td style=\"text-align:center;width:73.6528%;height:16px\">@Compendium[dnd5e.spells.GSvLWcdCZLQkilXT]{Blink}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"text-align:center;width:26.3472%;height:16px\">7th</td>\n<td style=\"text-align:center;width:73.6528%;height:16px\">@Compendium[dnd5e.spells.A4RsPuSvB9wFtz1j]{Dimension Door}</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"text-align:center;width:26.3472%;height:16px\">9th</td>\n<td style=\"text-align:center;width:73.6528%;height:16px\">@Compendium[dnd5e.spells.8aWtP5hcrmcEesBW]{Teleportation Circle}</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: Planetouched
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -50,28 +82,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.6UT0jZhF7E3rA3Qu
-_id: URunmfklIFmAsidG
+  type:
+    value: class
 _key: '!items!URunmfklIFmAsidG'
 

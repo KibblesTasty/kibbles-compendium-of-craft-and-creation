@@ -4,11 +4,11 @@ img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 effects:
   - _id: l7MKPrmjuhsi1b4K
     changes:
-      - key: data.attributes.ac.value
+      - key: system.attributes.ac.value
         mode: 2
         value: '+2'
         priority: 20
-      - key: data.attributes.movement.walk
+      - key: system.attributes.movement.walk
         mode: 2
         value: '+30'
         priority: 20
@@ -16,12 +16,31 @@ effects:
     duration:
       startTime: null
       rounds: 1
-    icon: icons/magic/movement/trail-streak-zigzag-yellow.webp
-    label: Alacrity
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
     origin: Item.coP7ErmmTpTuxEfT
     transfer: true
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    name: Alacrity
+    img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!items.effects!LJJr8sMCxEeWtZzk.l7MKPrmjuhsi1b4K'
 folder: O6hZgRZFkj4UG3IA
 sort: 0
@@ -170,9 +189,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721354029616
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.coP7ErmmTpTuxEfT
+  duplicateSource: null
 _key: '!items!LJJr8sMCxEeWtZzk'
 

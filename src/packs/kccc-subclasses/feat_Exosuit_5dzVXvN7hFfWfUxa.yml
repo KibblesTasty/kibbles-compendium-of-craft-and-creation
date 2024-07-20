@@ -1,7 +1,37 @@
 name: Exosuit
 type: feat
 img: icons/equipment/chest/breastplate-banded-steel-grey.webp
-data:
+effects: []
+folder: QDWwV7nas8VLXyHo
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.YribvBkW32KjSXVk
+_id: 5dzVXvN7hFfWfUxa
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting when you choose this path at 3rd level, you become bonded to
@@ -32,7 +62,9 @@ data:
       </ul>
     chat: ''
     unidentified: ''
-  source: Exosuit
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -76,28 +108,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.YribvBkW32KjSXVk
-_id: 5dzVXvN7hFfWfUxa
+  type:
+    value: class
 _key: '!items!5dzVXvN7hFfWfUxa'
 

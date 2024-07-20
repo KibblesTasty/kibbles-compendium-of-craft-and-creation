@@ -1,7 +1,37 @@
 name: Aberrant Mutations
 type: feat
 img: icons/creatures/tentacles/tentacles-eyes-poisoned-green.webp
-data:
+effects: []
+folder: aywebgKQgPU2Dwvv
+sort: 100000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.oZVF92R2SsMBom2C
+_id: YhMdwysD9liAku4O
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting at 6th level, you can cast <em>mutate<sup>K</sup></em> without
@@ -10,7 +40,9 @@ data:
       rest.</p>
     chat: ''
     unidentified: ''
-  source: Circle of Nightmares
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -54,28 +86,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.oZVF92R2SsMBom2C
-_id: YhMdwysD9liAku4O
+  type:
+    value: class
 _key: '!items!YhMdwysD9liAku4O'
 

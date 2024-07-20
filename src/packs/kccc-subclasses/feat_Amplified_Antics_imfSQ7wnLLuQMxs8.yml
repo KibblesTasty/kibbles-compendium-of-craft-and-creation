@@ -2,7 +2,36 @@ _id: imfSQ7wnLLuQMxs8
 name: Amplified Antics
 type: feat
 img: icons/magic/symbols/symbol-lightning-bolt.webp
-data:
+effects: []
+folder: SxopjqB8iAgRkb6p
+sort: 300000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.MWDUoJ0o9kc5P2Ue
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Additionally at 6th level, when you cast a bard spell with a range
@@ -11,7 +40,9 @@ data:
       such as thunderwave).</p>
     chat: ''
     unidentified: ''
-  source: College of Thunder
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -55,27 +86,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.MWDUoJ0o9kc5P2Ue
+  type:
+    value: class
 _key: '!items!imfSQ7wnLLuQMxs8'
 

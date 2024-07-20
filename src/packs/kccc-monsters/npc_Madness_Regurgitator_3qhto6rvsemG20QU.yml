@@ -8,7 +8,36 @@ items:
     name: Burbling Acid
     type: feat
     img: icons/magic/acid/dissolve-pool-bubbles.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Burbling Acid.</strong> When the regurgitator takes damage
@@ -60,12 +89,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!3qhto6rvsemG20QU.qo9QMUNWMuGBn6Bw'
+  - _id: bPf0yZeKea6vuuJp
+    name: Spider Climb
+    type: feat
+    img: icons/creatures/invertebrates/tick-cross-glowing-purple.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -80,12 +111,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!3qhto6rvsemG20QU.qo9QMUNWMuGBn6Bw'
-  - _id: bPf0yZeKea6vuuJp
-    name: Spider Climb
-    type: feat
-    img: icons/creatures/invertebrates/tick-cross-glowing-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Spider Climb. </strong>The regurgitator can climb difficult
@@ -137,32 +175,66 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
     _key: '!actors.items!3qhto6rvsemG20QU.bPf0yZeKea6vuuJp'
   - _id: ksvw4bsN9lVSYtCP
     name: Vomit Madness
     type: weapon
     img: icons/magic/acid/projectile-stream-bubbles.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickTemplate:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+            '1': ''
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Vomit Madness.</strong> Targeting a point within 90 feet of
@@ -255,12 +327,14 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!3qhto6rvsemG20QU.ksvw4bsN9lVSYtCP'
+  - _id: gmUZwiZtenGPdmGU
+    name: Tail Lash
+    type: weapon
+    img: icons/creatures/abilities/tail-swipe-green.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -284,28 +358,29 @@ items:
             quantity: false
           altValue:
             quantity: false
-        quickTemplate:
-          value: true
-          altValue: true
-        quickSave:
+        quickAttack:
           value: true
           altValue: true
         quickDamage:
           context:
             '0': ''
-            '1': ''
           value:
             '0': true
-            '1': true
           altValue:
             '0': true
-            '1': true
-    _key: '!actors.items!3qhto6rvsemG20QU.ksvw4bsN9lVSYtCP'
-  - _id: gmUZwiZtenGPdmGU
-    name: Tail Lash
-    type: weapon
-    img: icons/creatures/abilities/tail-swipe-green.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Tail Lash.</strong> Melee Weapon Attack: +5 to hit, reach 5
@@ -389,45 +464,6 @@ items:
         two: false
         ver: false
       proficient: true
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: false
-          altValue: false
-        quickProperties:
-          value: true
-          altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            quantity: false
-          altValue:
-            quantity: false
-        quickAttack:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
     _key: '!actors.items!3qhto6rvsemG20QU.gmUZwiZtenGPdmGU'
 effects: []
 folder: UAjbuif60qyLYM29
@@ -753,6 +789,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -766,12 +804,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/MadnessRegurgitator.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -781,15 +823,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364922423
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.KVQYbVY3SKJzX8GS
+  duplicateSource: null
 _key: '!actors!3qhto6rvsemG20QU'
 

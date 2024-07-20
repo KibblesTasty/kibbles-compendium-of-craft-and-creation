@@ -1,7 +1,37 @@
 name: Reverse Engineer
 type: feat
 img: icons/weapons/wands/wand-gem-purple.webp
-data:
+effects: []
+folder: LhkUtWHqBPO32213
+sort: 112500
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.MUz2bDpZt8zRI0xr
+_id: FNpVKiR9Keb1bFqB
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Additionally at 6th level, you gain the ability to reverse engineer the
@@ -10,7 +40,9 @@ data:
       is not destroyed in the process.</p>
     chat: ''
     unidentified: ''
-  source: Order of Creation
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -54,28 +86,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.MUz2bDpZt8zRI0xr
-_id: FNpVKiR9Keb1bFqB
+  type:
+    value: class
 _key: '!items!FNpVKiR9Keb1bFqB'
 

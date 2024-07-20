@@ -8,7 +8,38 @@ items:
     name: Adamantine Weapons.
     type: feat
     img: icons/commodities/metal/plate-steel-pink.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core:
+        sourceId: Item.dmq10q8sy5mztjxt
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Adamantine Weapons.</strong> The drake's weapon attacks are
@@ -60,12 +91,14 @@ items:
         value: null
         charged: false
       attunement: null
+    _key: '!actors.items!gS7dlw1buv0qqW8y.AMVjxVi4aXCSaeZZ'
+  - _id: lXl6u5wAJQ8N11pp
+    name: Immutable Form
+    type: feat
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -81,13 +114,20 @@ items:
           value: true
           altValue: true
       core:
-        sourceId: Item.dmq10q8sy5mztjxt
-    _key: '!actors.items!gS7dlw1buv0qqW8y.AMVjxVi4aXCSaeZZ'
-  - _id: lXl6u5wAJQ8N11pp
-    name: Immutable Form
-    type: feat
-    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
-    data:
+        sourceId: Item.Z5r8QR8ai8bYpclI
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Immutable Form.</strong> The drake is immune to any spell
@@ -139,12 +179,14 @@ items:
         value: null
         charged: false
       attunement: null
+    _key: '!actors.items!gS7dlw1buv0qqW8y.lXl6u5wAJQ8N11pp'
+  - _id: ooofSmNvc7PIubxR
+    name: Legendary Resistance (3/day)
+    type: feat
+    img: icons/magic/defensive/barrier-shield-dome-pink.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 700000
     flags:
       betterRolls5e:
         quickDesc:
@@ -156,17 +198,30 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
       core:
-        sourceId: Item.Z5r8QR8ai8bYpclI
-    _key: '!actors.items!gS7dlw1buv0qqW8y.lXl6u5wAJQ8N11pp'
-  - _id: ooofSmNvc7PIubxR
-    name: Legendary Resistance (3/day)
-    type: feat
-    img: icons/magic/defensive/barrier-shield-dome-pink.webp
-    data:
+        sourceId: Item.uYUScjhaB8j5lgHU
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Legendary Resistance (3/Day).</strong> If the drake fails a
@@ -218,12 +273,14 @@ items:
         value: null
         charged: false
       attunement: null
+    _key: '!actors.items!gS7dlw1buv0qqW8y.ooofSmNvc7PIubxR'
+  - _id: BSl1zWQtL6AsaxAi
+    name: Crushing Descent
+    type: feat
+    img: icons/creatures/claws/claw-talons-glowing-orange.webp
     effects: []
     folder: null
-    sort: 700000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
       betterRolls5e:
         quickDesc:
@@ -235,23 +292,22 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            resource: true
-          altValue:
-            resource: true
-      core:
-        sourceId: Item.uYUScjhaB8j5lgHU
-    _key: '!actors.items!gS7dlw1buv0qqW8y.ooofSmNvc7PIubxR'
-  - _id: BSl1zWQtL6AsaxAi
-    name: Crushing Descent
-    type: feat
-    img: icons/creatures/claws/claw-talons-glowing-orange.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Crushing Descent.</strong> If the drake flies at least 20
@@ -308,12 +364,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.BSl1zWQtL6AsaxAi'
+  - _id: qFUhvoGtw1l7c6CM
+    name: Lightning Powered
+    type: feat
+    img: icons/magic/lightning/orb-ball-blue.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -328,12 +386,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!gS7dlw1buv0qqW8y.BSl1zWQtL6AsaxAi'
-  - _id: qFUhvoGtw1l7c6CM
-    name: Lightning Powered
-    type: feat
-    img: icons/magic/lightning/orb-ball-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Lightning Powered. </strong>If the drake takes at least 10
@@ -385,12 +450,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.qFUhvoGtw1l7c6CM'
+  - _id: ZgdohkwWMv3PCUnm
+    name: 'Bloodied: Overcharged'
+    type: feat
+    img: icons/magic/lightning/bolt-strike-embers-teal.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 800000
     flags:
       betterRolls5e:
         quickDesc:
@@ -402,15 +469,30 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!gS7dlw1buv0qqW8y.qFUhvoGtw1l7c6CM'
-  - _id: ZgdohkwWMv3PCUnm
-    name: 'Bloodied: Overcharged'
-    type: feat
-    img: icons/magic/lightning/bolt-strike-embers-teal.webp
-    data:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Overcharged.</strong> If the drake is bloodied (reduced to
@@ -467,12 +549,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.ZgdohkwWMv3PCUnm'
+  - _id: H0pTkVFuVWoysBmN
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
     effects: []
     folder: null
-    sort: 800000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: -200000
     flags:
       betterRolls5e:
         quickDesc:
@@ -484,23 +568,24 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-    _key: '!actors.items!gS7dlw1buv0qqW8y.ZgdohkwWMv3PCUnm'
-  - _id: H0pTkVFuVWoysBmN
-    name: Multiattack
-    type: feat
-    img: icons/skills/melee/blade-tips-double-blue.webp
-    data:
+      core:
+        sourceId: Item.094090din8bu19vk
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Multiattack. </strong>The drake makes two attacks: one with
@@ -552,34 +637,60 @@ items:
         value: null
         charged: false
       attunement: null
-    effects: []
-    folder: null
-    sort: -200000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
     _key: '!actors.items!gS7dlw1buv0qqW8y.H0pTkVFuVWoysBmN'
   - _id: IzQXCl9n3wL2cz7r
     name: Bladed Tail
     type: weapon
     img: icons/creatures/claws/claw-curved-jagged-gray.webp
-    data:
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Bladed Tail.</strong> Melee Weapon Attack: </em>+12 to
@@ -664,12 +775,14 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!gS7dlw1buv0qqW8y.IzQXCl9n3wL2cz7r'
+  - _id: C6lBIAQpU0nK3yoX
+    name: Crushing Stomp
+    type: weapon
+    img: icons/magic/earth/strike-stone-stalactite-blood-red.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -703,12 +816,21 @@ items:
             '0': true
           altValue:
             '0': true
-    _key: '!actors.items!gS7dlw1buv0qqW8y.IzQXCl9n3wL2cz7r'
-  - _id: C6lBIAQpU0nK3yoX
-    name: Crushing Stomp
-    type: weapon
-    img: icons/magic/earth/strike-stone-stalactite-blood-red.webp
-    data:
+      core:
+        sourceId: Item.CnGHl7gvz7TTvv20
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong><em>Crushing Stomp. </em></strong><em>Melee Weapon
@@ -793,23 +915,22 @@ items:
         two: false
         ver: false
       proficient: true
+    _key: '!actors.items!gS7dlw1buv0qqW8y.C6lBIAQpU0nK3yoX'
+  - _id: nBxvh4RUKdxh5zHG
+    name: Arcane Nullification
+    type: feat
+    img: icons/magic/light/explosion-impact-purple.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
-          value: false
-          altValue: false
+          value: true
+          altValue: true
         quickProperties:
           value: true
           altValue: true
-        quickVersatile:
-          value: false
-          altValue: false
         quickOther:
           value: true
           altValue: true
@@ -817,29 +938,19 @@ items:
         quickFlavor:
           value: true
           altValue: true
-        quickCharges:
-          value:
-            quantity: false
-          altValue:
-            quantity: false
-        quickAttack:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-      core:
-        sourceId: Item.CnGHl7gvz7TTvv20
-    _key: '!actors.items!gS7dlw1buv0qqW8y.C6lBIAQpU0nK3yoX'
-  - _id: nBxvh4RUKdxh5zHG
-    name: Arcane Nullification
-    type: feat
-    img: icons/magic/light/explosion-impact-purple.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Arcane Nullification.</strong> The drake ends one spell
@@ -892,12 +1003,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.nBxvh4RUKdxh5zHG'
+  - _id: qQeqLtQ9L8UQoQ2L
+    name: Flaming Tar Breath
+    type: feat
+    img: icons/magic/fire/blast-jet-stream-embers-orange.webp
     effects: []
     folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: -300000
     flags:
       betterRolls5e:
         quickDesc:
@@ -909,16 +1022,41 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
+          context: Burning Damage
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!gS7dlw1buv0qqW8y.nBxvh4RUKdxh5zHG'
-  - _id: qQeqLtQ9L8UQoQ2L
-    name: Flaming Tar Breath
-    type: feat
-    img: icons/magic/fire/blast-jet-stream-embers-orange.webp
-    data:
+        quickTemplate:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickCharges:
+          value:
+            charge: true
+          altValue:
+            charge: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><em><strong>Flaming Tar Breath (Recharge 5–6).</strong></em> The
@@ -979,12 +1117,14 @@ items:
       recharge:
         value: 5
         charged: true
+    _key: '!actors.items!gS7dlw1buv0qqW8y.qQeqLtQ9L8UQoQ2L'
+  - _id: YxxP3wfpuiW1Hc2Q
+    name: Windy Flapping
+    type: feat
+    img: icons/creatures/abilities/wing-batlike-white-blue.webp
     effects: []
     folder: null
-    sort: -300000
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
+    sort: 0
     flags:
       betterRolls5e:
         quickDesc:
@@ -996,34 +1136,22 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: Burning Damage
         quickFlavor:
           value: true
           altValue: true
-        quickTemplate:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-        quickCharges:
-          value:
-            charge: true
-          altValue:
-            charge: true
-    _key: '!actors.items!gS7dlw1buv0qqW8y.qQeqLtQ9L8UQoQ2L'
-  - _id: YxxP3wfpuiW1Hc2Q
-    name: Windy Flapping
-    type: feat
-    img: icons/creatures/abilities/wing-batlike-white-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Windy Flapping. </strong>The drake adds 5 to its AC against
@@ -1075,12 +1203,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.YxxP3wfpuiW1Hc2Q'
+  - _id: wDsRbTvUSsHmYHO8
+    name: 'Legendary Action: Arc'
+    type: feat
+    img: icons/magic/lightning/bolt-strike-purple-pink.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1092,15 +1222,38 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
-    _key: '!actors.items!gS7dlw1buv0qqW8y.YxxP3wfpuiW1Hc2Q'
-  - _id: wDsRbTvUSsHmYHO8
-    name: 'Legendary Action: Arc'
-    type: feat
-    img: icons/magic/lightning/bolt-strike-purple-pink.webp
-    data:
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: ''
         chat: ''
@@ -1151,12 +1304,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.wDsRbTvUSsHmYHO8'
+  - _id: hpvl196ngDTDJwdf
+    name: 'Legendary Action: Tail Attack'
+    type: feat
+    img: icons/creatures/claws/claw-curved-jagged-gray.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1168,7 +1323,6 @@ items:
         quickOther:
           value: true
           altValue: true
-          context: ''
         quickFlavor:
           value: true
           altValue: true
@@ -1177,22 +1331,19 @@ items:
             resource: true
           altValue:
             resource: true
-        quickTemplate:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-    _key: '!actors.items!gS7dlw1buv0qqW8y.wDsRbTvUSsHmYHO8'
-  - _id: hpvl196ngDTDJwdf
-    name: 'Legendary Action: Tail Attack'
-    type: feat
-    img: icons/creatures/claws/claw-curved-jagged-gray.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Tail Attack.</strong> The drake makes a bladed tail
@@ -1243,12 +1394,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.hpvl196ngDTDJwdf'
+  - _id: lz648boOB7jH1pRA
+    name: 'Legendary Action: Wind Up'
+    type: feat
+    img: icons/commodities/tech/cog-gold.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1260,20 +1413,35 @@ items:
         quickOther:
           value: true
           altValue: true
+          context: ''
         quickFlavor:
           value: true
           altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
         quickCharges:
           value:
             resource: true
           altValue:
             resource: true
-    _key: '!actors.items!gS7dlw1buv0qqW8y.hpvl196ngDTDJwdf'
-  - _id: lz648boOB7jH1pRA
-    name: 'Legendary Action: Wind Up'
-    type: feat
-    img: icons/commodities/tech/cog-gold.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Wind Up.</strong> The drake conserves energy to unleash in
@@ -1327,12 +1495,14 @@ items:
       recharge:
         value: null
         charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.lz648boOB7jH1pRA'
+  - _id: eGScHfiYGPk6Xlnn
+    name: 'Legendary Action: Wing Attack'
+    type: feat
+    img: icons/creatures/abilities/wing-batlike-white-blue.webp
     effects: []
     folder: null
     sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
     flags:
       betterRolls5e:
         quickDesc:
@@ -1348,6 +1518,17 @@ items:
         quickFlavor:
           value: true
           altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
         quickDamage:
           context:
             '0': ''
@@ -1355,17 +1536,19 @@ items:
             '0': true
           altValue:
             '0': true
-        quickCharges:
-          value:
-            resource: true
-          altValue:
-            resource: true
-    _key: '!actors.items!gS7dlw1buv0qqW8y.lz648boOB7jH1pRA'
-  - _id: eGScHfiYGPk6Xlnn
-    name: 'Legendary Action: Wing Attack'
-    type: feat
-    img: icons/creatures/abilities/wing-batlike-white-blue.webp
-    data:
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
       description:
         value: >-
           <p><strong>Wing Attack (Costs 2 Actions).</strong> The drake beats its
@@ -1421,45 +1604,6 @@ items:
       recharge:
         value: null
         charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickCharges:
-          value:
-            resource: true
-          altValue:
-            resource: true
-        quickTemplate:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
     _key: '!actors.items!gS7dlw1buv0qqW8y.eGScHfiYGPk6Xlnn'
 effects: []
 folder: RgLgSAM7fPsrV84e
@@ -1791,6 +1935,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -1804,12 +1950,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/ClockworkDrake.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -1819,15 +1969,30 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
+    color: null
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364817190
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.xXoCvxNsvubdJqC5
+  duplicateSource: null
 _key: '!actors!gS7dlw1buv0qqW8y'
 

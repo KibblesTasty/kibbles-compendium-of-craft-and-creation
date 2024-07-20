@@ -1,12 +1,31 @@
 name: Order of the Unknown
 type: subclass
 img: icons/magic/unholy/orb-beam-pink.webp
-data:
+effects: []
+folder: xdX3xRWnBl9rbO2N
+sort: 200000
+flags:
+  core:
+    sourceId: Item.KSiFDBpsZasXGlvk
+_id: WQ0ggY4sbdUOmc1W
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: "<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Order of the Unknown</h2>\n<p>To the order of the unknown, a cautionary tale where everyone went mad is called \"a lead\". These strange folk delve what is best left forgotten, seeking answers to questions best left unspoken.</p>\n<p>Sometimes compelled down the path by some grave purpose, sometimes by nothing more than an insatiable curiosity, and sometimes even stumbling upon it by accident, what is always true is that once set on this path, few find themselves able to leave it.</p>\n<p>Wizards that go this path master Psionics, but master it in a completely different way and uniquely wizardly way, bringing psionics into their frame of reference of ordered spells slots and diligent study.</p>\n<p>2nd: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.uo4yPpoozfNN95Hk]{Study of the Unknown}</p>\n<p>2nd: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.SmA8PBZqNzgvavoW]{Secondary Power}</p>\n<p>2nd: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.PUfii3urwGqiB52V]{Psionic Magic}</p>\n<p>6th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.NHRYZhUU3NM5HtBM]{Branching Studies}</p>\n<p>6th: \_@Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.wb8ZGXt6X2U9b89U]{Psionic Transparency}</p>\n<p>10th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.OD6Zdf7rRb8LBj42]{Psionic Adept}</p>\n<p>10th: \_@Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.xGw5DOzDM9N698zN]{Detached Mind}</p>\n<p>14th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.s9jluFzOkGGJbXfX]{Four Fold Master}</p>\n<p>14th: @Compendium[kibbles-compendium-of-craft-and-creation.kccc-subclasses.5gURpw5D0HkbYCPw]{Cognitive Shadows}</p>\n<h3><strong>Order of the Unknown Quirks</strong></h3>\n<p>The following are some optional quirks for a player that selects Order of the Unknown. You can optionally roll or select a quirk that suits your character.</p>\n<table style=\"width:100%\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center;width:13.7548%\"><strong>[[/r d6]]</strong></td>\n<td style=\"text-align:center;width:86.2452%\"><strong>Quirk</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:13.7548%\">1</td>\n<td style=\"text-align:center;width:86.2452%\">You have an intense obsession about specific arbitrary things.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:13.7548%\">2</td>\n<td style=\"text-align:center;width:86.2452%\">You find yourself muttering in a language you don’t recognize occasionally.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:13.7548%\">3</td>\n<td style=\"text-align:center;width:86.2452%\">Odd markings appear on your hands and arms, and you cannot remember how they got there.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:13.7548%\">4</td>\n<td style=\"text-align:center;width:86.2452%\">You refuse to use a name. Any name.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:13.7548%\">5</td>\n<td style=\"text-align:center;width:86.2452%\">You occasionally spook at things no one else can see.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:13.7548%\">6</td>\n<td style=\"text-align:center;width:86.2452%\">When you dream, the night sky is dominated by a single bright star. It grows brighter every year.</td>\n</tr>\n</tbody>\n</table>"
     chat: ''
     unidentified: ''
-  source: KCCC
+  source:
+    book: KCCC
+    custom: ''
   identifier: order-of-the-unknown
   classIdentifier: wizard
   advancement:
@@ -67,15 +86,5 @@ data:
   spellcasting:
     progression: none
     ability: ''
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Item.KSiFDBpsZasXGlvk
-_id: WQ0ggY4sbdUOmc1W
 _key: '!items!WQ0ggY4sbdUOmc1W'
 

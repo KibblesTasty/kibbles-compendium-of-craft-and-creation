@@ -92,7 +92,6 @@ system:
   properties: []
 effects:
   - name: Silver Oil
-    icon: icons/consumables/potions/vial-ornet-silver-black.webp
     flags:
       dnd5e:
         type: enchantment
@@ -129,7 +128,20 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/consumables/potions/vial-ornet-silver-black.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!CUJMatRPq1cetx4r.V3xI9dX1gnJtNM1D'
 sort: 0
 ownership:
@@ -139,9 +151,11 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 3.2.1
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: 1721349016905
   modifiedTime: 1721349414610
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: null
+  duplicateSource: null
 _key: '!items!CUJMatRPq1cetx4r'
 

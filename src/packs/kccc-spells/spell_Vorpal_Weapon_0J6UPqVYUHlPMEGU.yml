@@ -3,7 +3,6 @@ type: spell
 img: icons/skills/melee/sword-stuck-glowing-pink.webp
 effects:
   - name: Vorpal Weapon
-    icon: icons/skills/melee/sword-stuck-glowing-pink.webp
     flags:
       dnd5e:
         type: enchantment
@@ -45,7 +44,20 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/skills/melee/sword-stuck-glowing-pink.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!0J6UPqVYUHlPMEGU.8d5hEpO0DlrKcoIM'
 folder: z5vyiu5PscQs2W9P
 sort: 0
@@ -203,9 +215,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: 1721352966452
   modifiedTime: 1721364683871
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.wnAXSTE0arf5YLJs
+  duplicateSource: null
 _key: '!items!0J6UPqVYUHlPMEGU'
 

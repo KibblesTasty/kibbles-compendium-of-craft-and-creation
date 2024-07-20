@@ -2,7 +2,501 @@ _id: Gn2HBuNF1HmvJDl8
 name: Aberrant Abstraction
 type: npc
 img: icons/svg/mystery-man.svg
-data:
+items:
+  - _id: SsdBrs2de9PE1axe
+    name: Shred Reality
+    type: feat
+    img: icons/magic/unholy/orb-stone-pink.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Shred Reality. </strong>The aberrant abstraction deals 12
+          ([[/r 5d4]]) force damage to all non-aberration creatures within 5
+          feet of it.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 5
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 5d4
+            - force
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!Gn2HBuNF1HmvJDl8.SsdBrs2de9PE1axe'
+  - _id: Qwe18hEvsW588z0E
+    name: Cause Madness
+    type: feat
+    img: icons/magic/control/hypnosis-mesmerism-eye.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Cause Madness.</strong> A creature that starts its turn
+          within 10 feet of the aberrant abstraction must succeed on a DC 15
+          Wisdom saving throw or take 11 ([[/r 2d10]]) psychic damage and be
+          under the effect of the confusion spell until the start of its next
+          turn.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 2d10
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!Gn2HBuNF1HmvJDl8.Qwe18hEvsW588z0E'
+  - _id: l6VDkzXUNfcE4rye
+    name: Flicker
+    type: feat
+    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Flicker.</strong> Whenever the aberrant abstraction would
+          take damage, roll a d4. On a 2, it takes half as much damage. On a 4,
+          it takes no damage.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: reaction
+        cost: 1
+        condition: ''
+      duration:
+        value: 1
+        units: round
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d4
+            - ''
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!Gn2HBuNF1HmvJDl8.l6VDkzXUNfcE4rye'
+  - _id: 52ELdXtBykqzVwYG
+    name: True Form
+    type: feat
+    img: icons/magic/death/skull-energy-light-white.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>True Form. </strong>A creature that sees the aberrant
+          abstraction via truesight must succeed on a DC 18 Wisdom saving throw
+          or become stunned for 1 minute. Aberrations automatically succeed on
+          this saving throw. A creature can repeat the saving throw at the end
+          of each of its turns, with disadvantage if it can still see the
+          aberrant abstraction, ending the effect on itself on a success.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 18
+        scaling: flat
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!Gn2HBuNF1HmvJDl8.52ELdXtBykqzVwYG'
+  - _id: EjSGltyMNFVSqSBT
+    name: Unstable Location
+    type: feat
+    img: icons/magic/movement/abstract-ribbons-red-orange.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Unstable Location</strong>. At the start of its turn, the
+          aberrant abstraction teleports to the nearest unoccupied space to a
+          random non-aberration creature within 120 feet of it.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!Gn2HBuNF1HmvJDl8.EjSGltyMNFVSqSBT'
+effects: []
+folder: null
+sort: 0
+flags:
+  core:
+    sourceId: Actor.Q2Fj2WSvFdZ2bqyh
+_stats:
+  coreVersion: '12.328'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   abilities:
     str:
       value: 1
@@ -296,30 +790,21 @@ data:
     lair:
       value: false
       initiative: 0
-token:
+prototypeToken:
   name: Aberrant Abstraction
-  img: icons/svg/mystery-man.svg
   displayName: 40
   actorLink: false
   width: 1
   height: 1
-  scale: 1
-  mirrorX: false
-  mirrorY: false
   lockRotation: true
   rotation: 0
   alpha: 1
-  vision: false
-  dimSight: 0
-  brightSight: 0
-  sightAngle: 0
   light:
     alpha: 0.5
-    angle: 0
+    angle: 360
     bright: 0
     coloration: 1
     dim: 0
-    gradual: true
     luminosity: 0.5
     saturation: 0
     contrast: 0
@@ -328,9 +813,14 @@ token:
       speed: 5
       intensity: 5
       reverse: false
+      type: null
     darkness:
       min: 0
       max: 1
+    attenuation: 0.5
+    negative: false
+    priority: 0
+    color: null
   disposition: -1
   displayBars: 40
   bar1:
@@ -339,445 +829,42 @@ token:
     attribute: null
   flags: {}
   randomImg: false
-items:
-  - _id: SsdBrs2de9PE1axe
-    name: Shred Reality
-    type: feat
-    img: icons/magic/unholy/orb-stone-pink.webp
-    data:
-      description:
-        value: >-
-          <p><strong>Shred Reality. </strong>The aberrant abstraction deals 12
-          ([[/r 5d4]]) force damage to all non-aberration creatures within 5
-          feet of it.</p>
-        chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: inst
-      target:
-        value: 5
-        width: null
-        units: ft
-        type: radius
-      range:
-        value: null
-        long: null
-        units: self
-      uses:
-        value: null
-        max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: ''
-      actionType: other
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 5d4
-            - force
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      requirements: ''
-      recharge:
-        value: null
-        charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickTemplate:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-    _key: '!actors.items!Gn2HBuNF1HmvJDl8.SsdBrs2de9PE1axe'
-  - _id: Qwe18hEvsW588z0E
-    name: Cause Madness
-    type: feat
-    img: icons/magic/control/hypnosis-mesmerism-eye.webp
-    data:
-      description:
-        value: >-
-          <p><strong>Cause Madness.</strong> A creature that starts its turn
-          within 10 feet of the aberrant abstraction must succeed on a DC 15
-          Wisdom saving throw or take 11 ([[/r 2d10]]) psychic damage and be
-          under the effect of the confusion spell until the start of its next
-          turn.</p>
-        chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: ''
-        cost: 0
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
-      uses:
-        value: null
-        max: ''
-        per: null
-      consume:
-        type: ''
-        target: null
-        amount: null
-      ability: ''
-      actionType: save
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 2d10
-            - psychic
-        versatile: ''
-      formula: ''
-      save:
-        ability: wis
-        dc: null
-        scaling: spell
-      requirements: ''
-      recharge:
-        value: null
-        charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-    _key: '!actors.items!Gn2HBuNF1HmvJDl8.Qwe18hEvsW588z0E'
-  - _id: l6VDkzXUNfcE4rye
-    name: Flicker
-    type: feat
-    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
-    data:
-      description:
-        value: >-
-          <p><strong>Flicker.</strong> Whenever the aberrant abstraction would
-          take damage, roll a d4. On a 2, it takes half as much damage. On a 4,
-          it takes no damage.</p>
-        chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: reaction
-        cost: 1
-        condition: ''
-      duration:
-        value: 1
-        units: round
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
-      uses:
-        value: null
-        max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: ''
-      actionType: other
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 1d4
-            - ''
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      requirements: ''
-      recharge:
-        value: null
-        charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickDamage:
-          context:
-            '0': ''
-          value:
-            '0': true
-          altValue:
-            '0': true
-    _key: '!actors.items!Gn2HBuNF1HmvJDl8.l6VDkzXUNfcE4rye'
-  - _id: 52ELdXtBykqzVwYG
-    name: True Form
-    type: feat
-    img: icons/magic/death/skull-energy-light-white.webp
-    data:
-      description:
-        value: >-
-          <p><strong>True Form. </strong>A creature that sees the aberrant
-          abstraction via truesight must succeed on a DC 18 Wisdom saving throw
-          or become stunned for 1 minute. Aberrations automatically succeed on
-          this saving throw. A creature can repeat the saving throw at the end
-          of each of its turns, with disadvantage if it can still see the
-          aberrant abstraction, ending the effect on itself on a success.</p>
-        chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: ''
-        cost: 0
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
-      uses:
-        value: null
-        max: ''
-        per: null
-      consume:
-        type: ''
-        target: null
-        amount: null
-      ability: ''
-      actionType: save
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: wis
-        dc: 18
-        scaling: flat
-      requirements: ''
-      recharge:
-        value: null
-        charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-          context: ''
-        quickFlavor:
-          value: true
-          altValue: true
-        quickSave:
-          value: true
-          altValue: true
-    _key: '!actors.items!Gn2HBuNF1HmvJDl8.52ELdXtBykqzVwYG'
-  - _id: EjSGltyMNFVSqSBT
-    name: Unstable Location
-    type: feat
-    img: icons/magic/movement/abstract-ribbons-red-orange.webp
-    data:
-      description:
-        value: >-
-          <p><strong>Unstable Location</strong>. At the start of its turn, the
-          aberrant abstraction teleports to the nearest unoccupied space to a
-          random non-aberration creature within 120 feet of it.</p>
-        chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: ''
-        cost: 0
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
-      uses:
-        value: null
-        max: ''
-        per: null
-      consume:
-        type: ''
-        target: null
-        amount: null
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      requirements: ''
-      recharge:
-        value: null
-        charged: false
-    effects: []
-    folder: null
-    sort: 0
-    permission:
-      default: 0
-      ZltBRX3qCs8ZDdsL: 3
-    flags:
-      betterRolls5e:
-        quickDesc:
-          value: true
-          altValue: true
-        quickProperties:
-          value: true
-          altValue: true
-        quickOther:
-          value: true
-          altValue: true
-        quickFlavor:
-          value: true
-          altValue: true
-    _key: '!actors.items!Gn2HBuNF1HmvJDl8.EjSGltyMNFVSqSBT'
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  core:
-    sourceId: Actor.Q2Fj2WSvFdZ2bqyh
+  texture:
+    src: icons/svg/mystery-man.svg
+    scaleX: 1
+    scaleY: 1
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  appendNumber: false
+  prependAdjective: false
+  hexagonalShape: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _key: '!actors!Gn2HBuNF1HmvJDl8'
 

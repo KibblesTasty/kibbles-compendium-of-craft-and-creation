@@ -1,12 +1,44 @@
 name: The Contraption
 type: feat
 img: icons/magic/symbols/runes-carved-stone-green.webp
-data:
+effects: []
+folder: UoEmzJUuHffx4QzF
+sort: 200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.1G2xcgPLrSQe7tDu
+_id: xYoCyuI3tJkTPACc
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: "<p>At 1st level, you gain access to a device granted to by your patron that grants some access to their vast knowledge, systems, and power. Your contraption is a Tiny object, and you can use it as a spellcasting focus for your warlock spells.</p>\n<p>If the contraption is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron.\_</p>\n<p>This ceremony can be performed during a short or long rest, and the previous contraption is destroyed if it still exists. The contraption may vanish in a flash of light when you die.</p>\n<blockquote>\n<p><strong>Form of the Contraption</strong></p>\n<p>The form of your contraption can vary based on your selection of pact, perhaps even adapting with its alien technology to suit your pact choice, taking the form of an exotic alien weapon, data storage device, or even unique familiar for Pact of the Chain (a GM can allow you to select \"Construct\" as the creature type of your familiar, for example, or consider if the contraption is perhaps the source of your eldritch blast or other Warlock magical effects.</p>\n</blockquote>\n<p>While you are possession of the contraption, you gain the following benefits:</p>\n<p><strong>Autocaster</strong></p>\n<p>Your contraption serves as a repository for additional spells. At the end of a long rest, you can store spells from your Expanded Spell List, or any spell of the divination school of magic that is of a level you could cast. You can have a combined\_ prepared level of spells equal to your proficiency bonus (for example, at 5th level when your proficiency bonus is +3, you can have it store three 1st-level spells, or one 3rd-level spell).</p>\n<p>Each spell stored in the Autocaster can be cast without expending a warlock spell slot to cast the spell once, after which you can’t cast it without expending a spell slot again until you finish a long rest. You can cast the spell stored again before finishing a long rest by expending a warlock spell slot of equal or greater level to the stored spell.</p>\n<p><strong>Firing Solution</strong></p>\n<p>Your contraption begins to develop the best way to hit a target. While you possess your contraption, you can use it to cast true strike. You can accelerate the calculations and cast true strike as a bonus action a number of times equal to your Spellcasting modifier. When you cast true strike using your contraption, it doesn’t require concentration.</p>\n<p>You can do this a number of times equal to your spellcasting ability modifier before you must finish a long rest to do so again.</p>\n<p>\_</p>"
     chat: ''
     unidentified: ''
-  source: The Ancient Intelligence
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -50,28 +82,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.1G2xcgPLrSQe7tDu
-_id: xYoCyuI3tJkTPACc
+  type:
+    value: class
 _key: '!items!xYoCyuI3tJkTPACc'
 

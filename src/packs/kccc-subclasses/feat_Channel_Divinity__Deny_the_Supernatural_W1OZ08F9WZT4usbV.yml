@@ -1,7 +1,37 @@
 name: 'Channel Divinity: Deny the Supernatural'
 type: feat
 img: icons/magic/control/silhouette-aura-energy.webp
-data:
+effects: []
+folder: YNNWOIjlENyM7ctA
+sort: 200000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.ReVQ7aEQ3p3HZWnP
+_id: W1OZ08F9WZT4usbV
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721445245767
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p><strong>Deny the Supernatural.</strong> Immediately after you deal
@@ -11,7 +41,9 @@ data:
       spells or use psionic abilities until the end of its next turn.</p>
     chat: ''
     unidentified: ''
-  source: Oath of Sanity
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -55,28 +87,8 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.ReVQ7aEQ3p3HZWnP
-_id: W1OZ08F9WZT4usbV
+  type:
+    value: class
+    subtype: channelDivinity
 _key: '!items!W1OZ08F9WZT4usbV'
 

@@ -84,10 +84,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: Item.094090din8bu19vk
+      duplicateSource: null
     _key: '!actors.items!a5lPQntehTxZ317r.x3OjUM04rirY35q2'
   - _id: tOVW5D1QgaOstHwo
     name: Claws
@@ -228,10 +230,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: Compendium.dnd5e.items.osLzOwQdPtrK3rQH
+      duplicateSource: null
     _key: '!actors.items!a5lPQntehTxZ317r.tOVW5D1QgaOstHwo'
   - _id: PkAOQc7HmSVzSDtZ
     name: Necrotic Bolt
@@ -390,10 +394,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.0.3
-      coreVersion: '10.291'
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: 1683696536332
       lastModifiedBy: ZltBRX3qCs8ZDdsL
+      compendiumSource: Compendium.dnd5e.items.GJv6WkD7D2J6rP6M
+      duplicateSource: null
     _key: '!actors.items!a5lPQntehTxZ317r.PkAOQc7HmSVzSDtZ'
   - _id: LhrB7bHXJwR7Pr51
     name: Turn Resistance
@@ -474,10 +480,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.328'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!a5lPQntehTxZ317r.LhrB7bHXJwR7Pr51'
 effects:
   - _id: yhOxQphVRNiWa5HX
@@ -495,12 +503,26 @@ effects:
       combat: null
       rounds: null
       turns: null
-    icon: icons/magic/defensive/shield-barrier-blue.webp
-    label: Natural Armor
     origin: Compendium.world.kccc-monsters.gQpu49NHcmr9apFB
-    tint: null
+    tint: '#ffffff'
     transfer: false
     flags: {}
+    _stats:
+      coreVersion: '12.328'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    name: Natural Armor
+    img: icons/magic/defensive/shield-barrier-blue.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
     _key: '!actors.effects!a5lPQntehTxZ317r.yhOxQphVRNiWa5HX'
 folder: WXlU6DZ8rSvcs9MB
 sort: 200000
@@ -832,6 +854,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -845,12 +869,16 @@ prototypeToken:
   texture:
     src: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Uncaged2.png
-    tint: null
+    tint: '#ffffff'
     scaleX: 1
     scaleY: 1
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -864,12 +892,26 @@ prototypeToken:
   detectionModes: []
   appendNumber: false
   prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1721364897536
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.qu06mLMRyBNLZNMO
+  duplicateSource: null
 _key: '!actors!a5lPQntehTxZ317r'
 

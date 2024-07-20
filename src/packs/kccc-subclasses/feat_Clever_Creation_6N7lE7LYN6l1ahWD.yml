@@ -1,7 +1,37 @@
 name: Clever Creation
 type: feat
 img: icons/skills/trades/academics-book-study-purple.webp
-data:
+effects: []
+folder: LhkUtWHqBPO32213
+sort: 106250
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: true
+      altValue: true
+    quickProperties:
+      value: true
+      altValue: true
+    quickOther:
+      value: true
+      altValue: true
+    quickFlavor:
+      value: true
+      altValue: true
+  core:
+    sourceId: Item.MLIZJAgiVnpojoF1
+_id: 6N7lE7LYN6l1ahWD
+_stats:
+  coreVersion: '11.315'
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  createdTime: null
+  modifiedTime: 1721443759509
+  lastModifiedBy: pJeIW7qCa0HkURWq
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+system:
   description:
     value: >-
       <p>Starting at 10th level, your Arcane Automaton gains proficiency in two
@@ -11,7 +41,9 @@ data:
       proficient in when you summon it with <em>find familiar</em> again.</p>
     chat: ''
     unidentified: ''
-  source: Order of Creation
+  source:
+    book: KCCC
+    custom: ''
   activation:
     type: ''
     cost: 0
@@ -55,28 +87,7 @@ data:
   recharge:
     value: null
     charged: false
-effects: []
-folder: null
-sort: 0
-permission:
-  default: 0
-  ZltBRX3qCs8ZDdsL: 3
-flags:
-  betterRolls5e:
-    quickDesc:
-      value: true
-      altValue: true
-    quickProperties:
-      value: true
-      altValue: true
-    quickOther:
-      value: true
-      altValue: true
-    quickFlavor:
-      value: true
-      altValue: true
-  core:
-    sourceId: Item.MLIZJAgiVnpojoF1
-_id: 6N7lE7LYN6l1ahWD
+  type:
+    value: class
 _key: '!items!6N7lE7LYN6l1ahWD'
 

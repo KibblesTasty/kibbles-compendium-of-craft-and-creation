@@ -3,79 +3,69 @@ img: icons/magic/holy/angel-winged-humanoid-blue.webp
 description: If a material is found, it can successfully collected with no check.
 results:
   - _id: 7h8f9zgv6pFBMOlC
-    type: 2
+    type: pack
     text: Rare Curative Reagent
     img: icons/consumables/plants/milkweed-stem-serrated-leaves-green.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: ldkNfComhOgwRkKO
     weight: 1
     range:
       - 1
       - 20
     drawn: false
     flags: {}
-    rangeL: 1
-    rangeH: 20
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: ldkNfComhOgwRkKO
     _key: '!tables.results!0Lkpq4CCejonDpyM.7h8f9zgv6pFBMOlC'
   - _id: wmEwG0S4PtA55beE
-    type: 2
+    type: pack
     text: Rare Divine Essence
     img: icons/commodities/biological/wing-insect-green.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: Aapfqp9oa1KJidUe
     weight: 1
     range:
       - 21
       - 50
     drawn: false
     flags: {}
-    rangeL: 21
-    rangeH: 50
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: Aapfqp9oa1KJidUe
     _key: '!tables.results!0Lkpq4CCejonDpyM.wmEwG0S4PtA55beE'
   - _id: aSH7uxGJ7KYmVp9Q
-    type: 2
+    type: pack
     text: Very Rare Curative Reagent
     img: icons/commodities/flowers/clover-purple.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: jUDwFhpWcvXYrIns
     weight: 1
     range:
       - 51
       - 69
     drawn: false
     flags: {}
-    rangeL: 51
-    rangeH: 69
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: jUDwFhpWcvXYrIns
     _key: '!tables.results!0Lkpq4CCejonDpyM.aSH7uxGJ7KYmVp9Q'
   - _id: AgYj0tY3zZx7xCXs
-    type: 2
+    type: pack
     text: Very Rare Divine Essence
     img: icons/commodities/gems/gem-faceted-rough-yellow.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: rqoq4qHVQt58VL1w
     weight: 1
     range:
       - 70
       - 89
     drawn: false
     flags: {}
-    rangeL: 70
-    rangeH: 89
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: rqoq4qHVQt58VL1w
     _key: '!tables.results!0Lkpq4CCejonDpyM.AgYj0tY3zZx7xCXs'
   - _id: GgeTb8BQ4BP55BHl
-    type: 2
+    type: pack
     text: Legendary Divine Essence
     img: icons/commodities/materials/feather-yellow.webp
-    collection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    resultId: cAB7y0BRQCR4ibSL
     weight: 1
     range:
       - 90
       - 100
     drawn: false
     flags: {}
-    rangeL: 90
-    rangeH: 100
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    documentId: cAB7y0BRQCR4ibSL
     _key: '!tables.results!0Lkpq4CCejonDpyM.GgeTb8BQ4BP55BHl'
 formula: 1d100
 replacement: true
@@ -92,9 +82,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 2.3.1
-  coreVersion: '11.308'
+  coreVersion: '12.328'
   createdTime: null
   modifiedTime: 1693870747280
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: RollTable.nNXN3HUesMtEAo3w
+  duplicateSource: null
 _key: '!tables!0Lkpq4CCejonDpyM'
 
