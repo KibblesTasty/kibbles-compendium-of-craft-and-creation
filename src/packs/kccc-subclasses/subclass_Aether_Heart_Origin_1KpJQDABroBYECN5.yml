@@ -13,7 +13,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721699095579
+  modifiedTime: 1721763554254
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
@@ -33,46 +33,84 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.vh7k1kkeFAUNBPRg
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.lD16JtMbLJoyi04Z
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.vh7k1kkeFAUNBPRg
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.lD16JtMbLJoyi04Z
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 1
+      title: Features
     - _id: 942vuqxqmiwhd4ij
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.OEnNJeFc0CRdBz3a
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.OEnNJeFc0CRdBz3a
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 6
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: yguvk3ntyfyqlabi
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Wk3BxblkWDIReb66
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Wk3BxblkWDIReb66
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 14
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: mvcvg870tklxwo6t
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.iAUnzmiSr218hzV2
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.iAUnzmiSr218hzV2
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 18
+      title: Features
+      icon: null
+    - _id: ukmlFmUB1LNLvfDK
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:force
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Aetherborn
+      hint: ''
+      icon: null
+    - _id: EpCibajepmNenF9M
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - di:force
+        choices: []
+      value:
+        chosen: []
+      level: 14
       title: ''
-      icon: ''
+      hint: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''

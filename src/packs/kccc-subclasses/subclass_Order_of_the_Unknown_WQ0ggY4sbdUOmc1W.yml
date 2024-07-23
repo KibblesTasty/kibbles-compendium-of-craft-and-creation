@@ -13,7 +13,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721700037449
+  modifiedTime: 1721778664365
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
@@ -46,56 +46,136 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.uo4yPpoozfNN95Hk
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.SmA8PBZqNzgvavoW
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.PUfii3urwGqiB52V
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.uo4yPpoozfNN95Hk
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.SmA8PBZqNzgvavoW
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.PUfii3urwGqiB52V
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 2
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: lph8j9rlaoqvxpwo
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.NHRYZhUU3NM5HtBM
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.wb8ZGXt6X2U9b89U
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.NHRYZhUU3NM5HtBM
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.wb8ZGXt6X2U9b89U
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 6
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: x1aljgtonxjftdrk
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.OD6Zdf7rRb8LBj42
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.xGw5DOzDM9N698zN
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.OD6Zdf7rRb8LBj42
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.xGw5DOzDM9N698zN
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 10
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: erbp1ihg6toptim1
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.s9jluFzOkGGJbXfX
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.5gURpw5D0HkbYCPw
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.s9jluFzOkGGJbXfX
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.5gURpw5D0HkbYCPw
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 14
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
+    - _id: KuIXVopJdPvevLNe
+      type: ItemChoice
+      configuration:
+        choices:
+          '2':
+            count: 1
+            replacement: false
+          '6':
+            count: 1
+            replacement: false
+          '10':
+            count: 1
+            replacement: false
+          '14':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: feat
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.vzhDqMfgUKridgGX
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.yxgllLp326hAK5sL
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ySoN4xWIjxz5gDVP
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.Kq9v0VrwUAu4cXC2
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ovuccRboym69GsRq
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.zpI5hOKg2ENrOe4C
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.3CunKcMvbfKwAORU
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ml77R8jdtfin80DX
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.vdYHjYOGbbf24q1a
+        spell:
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+          ability: []
+        restriction:
+          level: ''
+          type: class
+          subtype: psionicDiscipline
+      value:
+        added: {}
+        replaced: {}
+      title: Study of the Unknown
+      hint: ''
+      icon: null
+    - _id: rDYInUtoHQtMQ47T
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:psi
+        choices: []
+      value:
+        chosen: []
+      level: 6
+      title: Psionic Transparency
+      hint: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''

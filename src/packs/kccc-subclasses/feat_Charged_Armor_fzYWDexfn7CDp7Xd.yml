@@ -1,0 +1,94 @@
+folder: Nw45grUv16P60Ccg
+name: Charged Armor
+type: feat
+_id: fzYWDexfn7CDp7Xd
+img: icons/magic/lightning/fist-unarmed-strike-blue.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">As a bonus action, you
+      can juice your armor with power with the effect of the
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.KPD2lGomCEvma7Nj]{lightning
+      charged} spell.</span></p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: other
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - lightning
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Contingent Option
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: 1721759238238
+  modifiedTime: 1721759594250
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!fzYWDexfn7CDp7Xd'
+

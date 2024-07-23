@@ -1,9 +1,9 @@
-name: 'Brutal Invention: Transforming Weapon'
+name: Transforming Weapon
 type: weapon
 img: icons/weapons/polearms/glaive-hooked-steel.webp
 effects: []
-folder: 7gR5Zk9JdneG4dYl
-sort: 100782
+folder: 0udiWEmFOGv9ZbMs
+sort: 500000
 flags:
   betterRolls5e:
     quickDesc:
@@ -30,20 +30,18 @@ flags:
     sourceId: Item.VKlW69vSPPoWkbQz
 _id: 6eLNMx1qYguYEaH9
 _stats:
-  coreVersion: '12.329'
+  coreVersion: '11.315'
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721443759509
+  modifiedTime: 1721759168319
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.VKlW69vSPPoWkbQz
-  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 system:
   description:
-    value: "<p><strong>Transforming Weapon.</strong> When you gain this weapon, select 3 simple or martial weapons. This weapon can transform between any of those weapons as a bonus action. When you convert the weapon, it becomes overcharged with power, and the next time you roll damage with it before the end of your turn you deal an extra 1d4 lightning damage.</p>\n<p><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px;font-style:italic\">Overcharge (Transforming Weapon):</strong><span style=\"color:#191813;font-size:13px;font-style:italic\">\_You deal an extra 2d4 lightning damage.</span></p>"
+    value: "<p>When you gain this weapon, select 3 simple or martial weapons. This weapon can transform between any of those weapons as a bonus action. When you convert the weapon, it becomes overcharged with power, and the next time you roll damage with it before the end of your turn you deal an extra [[/damage 1d4 lightning]] damage.</p><p><em><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px;font-style:italic\">Overcharge (Transforming Weapon):</strong></em><span style=\"color:#191813;font-size:13px;font-style:italic\"><em>\_You deal an extra [[/damage 2d4 lightning]] damage.</em></span></p>"
     chat: ''
     unidentified: ''
   source:
@@ -76,9 +74,10 @@ system:
     max: ''
     per: ''
   consume:
-    type: ''
-    target: ''
-    amount: null
+    type: charges
+    target: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.VQPTKxU6XFQkVg3g
+    amount: 1
   ability: null
   actionType: ''
   attackBonus: 0
@@ -123,6 +122,6 @@ system:
     ver: false
   proficient: true
   type:
-    value: class
+    value: simpleM
 _key: '!items!6eLNMx1qYguYEaH9'
 

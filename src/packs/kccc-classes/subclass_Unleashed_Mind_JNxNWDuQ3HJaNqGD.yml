@@ -67,52 +67,65 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.eqtXoFfy2ht1vjmw
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.CfDJqyWcthOzPlI7
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.3CunKcMvbfKwAORU
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.gjLwogVhuUrKHW2n
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.M1tMkGG7XCY8P9Bl
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.eqtXoFfy2ht1vjmw
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.CfDJqyWcthOzPlI7
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.3CunKcMvbfKwAORU
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.gjLwogVhuUrKHW2n
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.M1tMkGG7XCY8P9Bl
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 1
+      title: Features
     - _id: 88hod3z91s252rts
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.qlI6WV7zeJOAZggS
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.qlI6WV7zeJOAZggS
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 3
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: joe1mexgkuk6ta8a
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.LN3iejXbKb8X3NA1
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.LN3iejXbKb8X3NA1
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 6
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: py60p8ozxafeapxy
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.CHVwK9pLHmfTqZmQ
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.CHVwK9pLHmfTqZmQ
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 14
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -122,11 +135,9 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721426242289
+  modifiedTime: 1721752394085
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.HbO6GiscfYxKXx0S
-  duplicateSource: null
 _key: '!items!JNxNWDuQ3HJaNqGD'
 

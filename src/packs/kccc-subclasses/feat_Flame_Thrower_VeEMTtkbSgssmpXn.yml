@@ -1,0 +1,92 @@
+folder: Nw45grUv16P60Ccg
+name: Flame Thrower
+type: feat
+_id: VeEMTtkbSgssmpXn
+img: icons/magic/air/fog-gas-smoke-dense-orange.webp
+system:
+  description:
+    value: >-
+      <p>As an action or in place of one attack as part of the Attack action,
+      you can use this to cast
+      @UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{burning hands} as a
+      2nd-level spell without expending a spell slot.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+  activation:
+    type: special
+    cost: 1
+    condition: As an action or in place of one attack as part of the Attack action
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: 1721759791021
+  modifiedTime: 1721760123458
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!VeEMTtkbSgssmpXn'
+

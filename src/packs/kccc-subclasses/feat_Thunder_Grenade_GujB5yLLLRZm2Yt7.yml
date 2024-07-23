@@ -1,0 +1,92 @@
+folder: Nw45grUv16P60Ccg
+name: Thunder Grenade
+type: feat
+_id: GujB5yLLLRZm2Yt7
+img: icons/magic/fire/explosion-fireball-medium-blue.webp
+system:
+  description:
+    value: >-
+      <p>As an action or in place of one attack as part of the Attack action,
+      you can use this to cast
+      @UUID[Compendium.dnd5e.spells.Item.wJKpSvSTbSkTjqyb]{shatter} without
+      expending a spell slot.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+  activation:
+    type: special
+    cost: null
+    condition: As an action or in place of one attack as part of the Attack action
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: 1721760060591
+  modifiedTime: 1721760107599
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!GujB5yLLLRZm2Yt7'
+

@@ -22,14 +22,12 @@ flags:
     sourceId: Item.AIeerviBGtQwpGqA
 _id: HWCuxDLIvMA0uqf6
 _stats:
-  coreVersion: '12.329'
+  coreVersion: '11.315'
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721443759509
+  modifiedTime: 1721757987802
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.AIeerviBGtQwpGqA
-  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -65,21 +63,21 @@ system:
     book: KCCC
     custom: ''
   activation:
-    type: ''
-    cost: 0
+    type: action
+    cost: 1
     condition: ''
   duration:
     value: null
-    units: ''
+    units: inst
   target:
     value: null
     width: null
     units: ''
     type: ''
   range:
-    value: null
+    value: 60
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
@@ -88,26 +86,29 @@ system:
     type: ''
     target: null
     amount: null
-  ability: null
-  actionType: ''
+  ability: str
+  actionType: save
   attackBonus: 0
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
-    versatile: ''
+    parts:
+      - - 1d10
+        - bludgeoning
+    versatile: 1d10 + @mod
   formula: ''
   save:
-    ability: ''
+    ability: str
     dc: null
-    scaling: spell
+    scaling: str
   requirements: Raging Mind 6
   recharge:
     value: null
     charged: false
   type:
     value: class
+    subtype: psionicPower
 _key: '!items!HWCuxDLIvMA0uqf6'
 

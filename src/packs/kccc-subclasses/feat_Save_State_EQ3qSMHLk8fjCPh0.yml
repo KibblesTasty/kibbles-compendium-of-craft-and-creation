@@ -22,14 +22,12 @@ flags:
     sourceId: Item.wnAZalo310FBXCF1
 _id: EQ3qSMHLk8fjCPh0
 _stats:
-  coreVersion: '12.329'
+  coreVersion: '11.315'
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721443759509
+  modifiedTime: 1721777689067
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.wnAZalo310FBXCF1
-  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -41,12 +39,10 @@ system:
       and any conditions you are affected by. At the start of your next turn,
       your current hit points, location, and conditions are returned to the
       saved state in a flash of light. If you die while having your save state,
-      you can make a DC 15 Charisma saving throw (making the check as if you
-      were alive) when the start of your next turn would have been. On success,
-      you return as normal. On failure, you remain dead.</p>
-
-      <p>Once you use this, you can’t use this again until you finish a long
-      rest.</p>
+      you can make a [[/save cha dc=15]] saving throw (making the check as if
+      you were alive) when the start of your next turn would have been. On
+      success, you return as normal. On failure, you remain dead.</p><p>Once you
+      use this, you can’t use this again until you finish a long rest.</p>
     chat: ''
     unidentified: ''
   source:
@@ -69,9 +65,9 @@ system:
     long: null
     units: self
   uses:
-    value: null
-    max: ''
-    per: ''
+    value: 1
+    max: '1'
+    per: lr
   consume:
     type: ''
     target: ''

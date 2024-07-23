@@ -1,0 +1,101 @@
+folder: aywebgKQgPU2Dwvv
+name: Eye Stalk
+type: feat
+_id: WpORYIxtbMDo9w37
+img: icons/commodities/biological/eye-tentacle-green-yellow.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">When you manifest this
+      mutation, and as a bonus action on your subsequent turns while it lasts,
+      you can target a creature you can see within 60 feet and make a roll on
+      the following table to shoot a random eye ray at
+      them.</span></p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.Olv4i1Oji5OnnG5h]</p><p><span
+      style="font-family:Signika, sans-serif"><em
+      style="box-sizing:border-box;user-select:text;color:rgb(25, 24,
+      19);font-family:Signika,
+      sans-serif;font-size:13px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><strong
+      style="box-sizing:border-box;user-select:text">Controlled
+      Madness.</strong></em> Each time you use a Wild Shape to assume this
+      mutation, you can select the effect of the eye ray instead of rolling a
+      number of times equal to your proficiency bonus.</span></p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+  activation:
+    type: bonus
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: '1'
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: save
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Eldritch Mutation
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: 1721753110771
+  modifiedTime: 1721753957531
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!WpORYIxtbMDo9w37'
+

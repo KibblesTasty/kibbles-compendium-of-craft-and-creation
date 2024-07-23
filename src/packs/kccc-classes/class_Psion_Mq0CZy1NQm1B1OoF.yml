@@ -39,6 +39,7 @@ system:
         spell: null
       value: {}
       level: 1
+      title: Features
     - _id: evba8mdxb38wt27d
       type: ItemGrant
       configuration:
@@ -50,7 +51,7 @@ system:
         spell: null
       value: {}
       level: 2
-      title: ''
+      title: Features
       icon: null
     - _id: khdzobf63c80cw0j
       type: ItemGrant
@@ -63,7 +64,7 @@ system:
         spell: null
       value: {}
       level: 3
-      title: ''
+      title: Features
       icon: null
     - _id: w9ss4ll3ca1xuoor
       type: ItemGrant
@@ -76,7 +77,7 @@ system:
         spell: null
       value: {}
       level: 5
-      title: ''
+      title: Features
       icon: null
     - _id: hr015vpu15qdtij9
       type: ItemGrant
@@ -89,7 +90,7 @@ system:
         spell: null
       value: {}
       level: 18
-      title: ''
+      title: Features
       icon: null
     - _id: u916vv8r192nwqw4
       type: ItemGrant
@@ -102,7 +103,7 @@ system:
         spell: null
       value: {}
       level: 20
-      title: ''
+      title: Features
       icon: null
     - type: Trait
       level: 1
@@ -134,10 +135,14 @@ system:
               - skills:rel
         mode: default
         allowReplacements: false
-        grants: []
+        grants:
+          - skills:psi
       _id: EfP8xrmJEdG8Vf9a
       value:
         chosen: []
+      title: ''
+      hint: ''
+      icon: null
     - _id: YMVikBlcdIPE287q
       type: ScaleValue
       configuration:
@@ -558,11 +563,9 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721436776397
+  modifiedTime: 1721778623132
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Compendium.dnd5e.classes.6VoZrWxhOEKGYhnq
-  duplicateSource: null
 _key: '!items!Mq0CZy1NQm1B1OoF'
 

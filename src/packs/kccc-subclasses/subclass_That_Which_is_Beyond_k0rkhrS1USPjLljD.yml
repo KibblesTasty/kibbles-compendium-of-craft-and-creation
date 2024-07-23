@@ -13,7 +13,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721699724937
+  modifiedTime: 1721776597323
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
@@ -48,50 +48,76 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.VKvFuWwIVbJMJNxG
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.4rOL0ygvmWw5xteY
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.ryJXt06d4zintCMK
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.VKvFuWwIVbJMJNxG
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.4rOL0ygvmWw5xteY
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.ryJXt06d4zintCMK
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 1
+      title: Features
     - _id: so0comlibsrpnsj0
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Y6q350WHGcEjgyJ1
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.SZBNRWiZyNy4smJH
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Y6q350WHGcEjgyJ1
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.SZBNRWiZyNy4smJH
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 6
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: cl3biyg6bjlner5x
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.15b7QZl69uKkPdUO
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.15b7QZl69uKkPdUO
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 10
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: 04nqlzj4ath8a53e
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.3M57NjUfAUkJOYB1
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.3M57NjUfAUkJOYB1
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 14
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
+    - _id: LYt3XjjCx1pYatf2
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:psychic
+        choices: []
+      value:
+        chosen: []
+      level: 10
+      title: Rebound Intrusion
+      hint: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''

@@ -13,7 +13,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721698978699
+  modifiedTime: 1721762172125
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
@@ -52,52 +52,110 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.qMjbsb6zODmvDuye
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.1PPNNlXM1os5Lldd
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.jFSBq9RJyKB6w0Wb
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.qMjbsb6zODmvDuye
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.1PPNNlXM1os5Lldd
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.jFSBq9RJyKB6w0Wb
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 3
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: do5p9gyg16wljrjl
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.bZtravaIF5CLEkHq
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.bZtravaIF5CLEkHq
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.vDqdqipsArM2gK5A
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 9
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: i4ls0x8b1qtx1ki7
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.jue0PtIRykLZiyqy
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.jue0PtIRykLZiyqy
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 13
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: ygzb3phn7u5br2oy
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.wc7uGSRaI60gnEGF
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.wc7uGSRaI60gnEGF
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 17
+      title: Features
+      icon: null
+    - _id: hCRfRdpMiZvtDO3z
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: true
+        grants:
+          - tool:art:tinker
+        choices: []
+      value:
+        chosen: []
+      level: 3
       title: ''
-      icon: ''
+      hint: ''
+      icon: null
+    - _id: dN6bLeCYq6SVQgZh
+      type: ItemChoice
+      configuration:
+        choices:
+          '9':
+            count: 2
+            replacement: false
+          '13':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.LFxGIoSrjLBCngu9
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.V1auc75WML62RVWd
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.NXVmFbq9xumZODnw
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.JCjqps5dEmZI5RQP
+        spell: null
+        restriction:
+          type: class
+          subtype: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Clever Inventions
+      hint: ''
+      icon: null
   spellcasting:
     progression: none
-    ability: ''
+    ability: int
 _key: '!items!GbFqIk3behJQBszs'
 

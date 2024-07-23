@@ -22,29 +22,27 @@ flags:
     sourceId: Item.ocQq1Gq8oo8kWvgI
 _id: UK3rlvrjwirrlnr9
 _stats:
-  coreVersion: '12.329'
+  coreVersion: '11.315'
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721443759509
+  modifiedTime: 1721763820015
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.ocQq1Gq8oo8kWvgI
-  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 system:
   description:
-    value: "<p>Starting at 1st level, when you draw on your magic, the planar walls begin to weaken for you. After casting a spell of 1st level or higher, you can use Phase Rift as a bonus action.</p>\n<p>You can do this a number of times equal to your proficiency bonus, regaining all uses on a long rest.</p>\n<hr />\n<h3><strong>Phase Rift</strong></h3>\n<p><em>Psionic power</em></p>\n<p><strong>Casting Time: </strong>1 action</p>\n<p><strong>Range: </strong>10 feet</p>\n<p><strong>Components:</strong> S</p>\n<p><strong>Duration: </strong>Instantaneous</p>\n<p>You step through space traveling up to 10 feet in a straight line leaving a spatial tear behind. You can pass through creatures but can’t pass through objects, buildings or terrain more than 4 inches thick. Any creature in the path of this tear must make a Dexterity saving throw or take [[/r 1d8]] force damage.</p>\n<p>\_</p>"
+    value: "<p>Starting at 1st level, when you draw on your magic, the planar walls begin to weaken for you. After casting a spell of 1st level or higher, you can use @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.3EAPFrBdgyAZmbHC]{Phase Rift} as a bonus action.</p><p>You can do this a number of times equal to your proficiency bonus, regaining all uses on a long rest.</p><p>\_</p>"
     chat: ''
     unidentified: ''
   source:
     book: KCCC
     custom: ''
   activation:
-    type: ''
-    cost: 0
-    condition: ''
+    type: bonus
+    cost: 1
+    condition: After casting a spell of 1st level or higher
   duration:
     value: null
     units: ''
@@ -58,9 +56,9 @@ system:
     long: null
     units: ''
   uses:
-    value: null
-    max: ''
-    per: null
+    value: 2
+    max: '@prof'
+    per: lr
   consume:
     type: ''
     target: null
@@ -86,5 +84,6 @@ system:
     charged: false
   type:
     value: class
+    subtype: ''
 _key: '!items!UK3rlvrjwirrlnr9'
 

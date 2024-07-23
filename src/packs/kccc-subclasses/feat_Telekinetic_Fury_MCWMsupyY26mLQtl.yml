@@ -22,14 +22,12 @@ flags:
     sourceId: Item.9NIupJzWmcMfRBeV
 _id: MCWMsupyY26mLQtl
 _stats:
-  coreVersion: '12.329'
+  coreVersion: '11.315'
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721443759509
+  modifiedTime: 1721757859245
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.9NIupJzWmcMfRBeV
-  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -60,21 +58,21 @@ system:
     book: KCCC
     custom: ''
   activation:
-    type: ''
+    type: special
     cost: 0
-    condition: ''
+    condition: At the start of your turn
   duration:
-    value: null
-    units: ''
+    value: '1'
+    units: turn
   target:
-    value: null
+    value: '60'
     width: null
-    units: ''
-    type: ''
+    units: ft
+    type: radius
   range:
     value: null
     long: null
-    units: ''
+    units: self
   uses:
     value: null
     max: ''

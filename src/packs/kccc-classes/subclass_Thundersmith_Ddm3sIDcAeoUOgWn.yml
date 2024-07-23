@@ -23,46 +23,56 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.ETbPwaVbobbIZ7xt
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.ybBaqqdpdYuHEzTW
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.ETbPwaVbobbIZ7xt
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.ybBaqqdpdYuHEzTW
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 1
+      title: Features
     - _id: dryjx9jodt6bnh40
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.v4rBXP9Du9m7Y1Gm
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.v4rBXP9Du9m7Y1Gm
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 3
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: vcg9vjk38m69woqp
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.6digW0oIvKU6JvYt
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.6digW0oIvKU6JvYt
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 5
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: 4yd22xetzvjer93m
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.2PJ0KovxEgWKD4jy
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.2PJ0KovxEgWKD4jy
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 14
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -72,11 +82,9 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721426131353
+  modifiedTime: 1721752393819
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.Po67PVJp9NITVbic
-  duplicateSource: null
 _key: '!items!Ddm3sIDcAeoUOgWn'
 

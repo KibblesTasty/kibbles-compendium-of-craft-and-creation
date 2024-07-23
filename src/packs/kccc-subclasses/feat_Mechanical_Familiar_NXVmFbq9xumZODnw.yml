@@ -1,0 +1,95 @@
+folder: 0wUaBFwBQRnkVpWD
+name: Mechanical Familiar
+type: feat
+_id: NXVmFbq9xumZODnw
+img: icons/commodities/tech/antenna-powered-purple.webp
+system:
+  description:
+    value: >-
+      <p>You can create the blueprint for a small mechanical creature. At the
+      end of a long rest, you can choose to create a mechanical familiar based
+      on it, and cast @UUID[Compendium.dnd5e.spells.Item.JGT5bNqu9REL7Fuz]{find
+      familiar} spell without expending a spell slot. The familiar’s type is
+      Construct. This construct stays active until you deactivate it or it is
+      destroyed. In either case, you can choose to reactivate it at the end of a
+      long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Clever Inventions
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: 1721762101528
+  modifiedTime: 1721763124303
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!NXVmFbq9xumZODnw'
+

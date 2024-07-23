@@ -1,7 +1,40 @@
 name: Synchronization
 type: feat
 img: icons/magic/time/arrows-circling-green.webp
-effects: []
+effects:
+  - name: Synchronization
+    icon: icons/magic/time/arrows-circling-green.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.Lxhc9ciBaCzOOUOa
+    duration:
+      rounds: 1
+      startTime: null
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: false
+    flags:
+      dnd5e: {}
+    _id: hQlnhcytmFjJYUut
+    changes:
+      - key: system.traits.ci.value
+        mode: 2
+        value: charmed
+      - key: system.traits.ci.value
+        mode: 2
+        value: frightened
+    description: >-
+      <ul><li><p>You are immune to the charmed and frightened
+      conditions.</p></li><li><p>You can cast spells with the casting time of 1
+      action as 1 bonus action.</p></li><li><p>You gain advantage on all
+      Intelligence and Wisdom checks and saving throws, as well as Constitution
+      saving throws to maintain concentration on a spell.</p></li></ul>
+    transfer: true
+    statuses: []
+    tint: null
+    _key: '!items.effects!Lxhc9ciBaCzOOUOa.hQlnhcytmFjJYUut'
 folder: UoEmzJUuHffx4QzF
 sort: 112500
 flags:
@@ -22,14 +55,12 @@ flags:
     sourceId: Item.utPszzjP5XYFaaoU
 _id: Lxhc9ciBaCzOOUOa
 _stats:
-  coreVersion: '12.329'
+  coreVersion: '11.315'
   systemId: dnd5e
   systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721443759509
+  createdTime: 1721777735518
+  modifiedTime: 1721777884193
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.utPszzjP5XYFaaoU
-  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -63,12 +94,12 @@ system:
   source:
     book: KCCC
   activation:
-    type: ''
+    type: none
     cost: 0
-    condition: ''
+    condition: at the start of your turn
   duration:
-    value: null
-    units: ''
+    value: '1'
+    units: round
   target:
     value: null
     width: null
@@ -79,9 +110,9 @@ system:
     long: null
     units: ''
   uses:
-    value: null
-    max: ''
-    per: null
+    value: 1
+    max: '1'
+    per: lr
   consume:
     type: ''
     target: null

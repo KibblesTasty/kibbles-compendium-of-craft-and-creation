@@ -1,0 +1,115 @@
+folder: y5QmOUUodejx5gTE
+name: Grappling Hook
+type: equipment
+_id: qspQv5fxfOWXzlVw
+img: icons/tools/fishing/hook-multi-steel-grey.webp
+system:
+  description:
+    value: >-
+      <p>As an action, or in place of an attack as part of the Attack action,
+      you may target a surface, object or creature within 20 feet. If the target
+      is Small or smaller, you can make a [[/check athletics strength]]
+      grappling check to pull it to you and grapple it. Alternatively, if the
+      target is Medium or larger, you can choose to be pulled to it, however,
+      this doesn’t grapple it. Opportunity attacks provoked by this movement are
+      made with disadvantage.</p>
+    chat: ''
+  source:
+    custom: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  activation:
+    type: special
+    cost: null
+    condition: As an action, or in place of an attack as part of the Attack action
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: any
+    prompt: true
+  range:
+    value: 20
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  armor:
+    value: null
+    magicalBonus: null
+    dex: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  properties: []
+  speed:
+    value: null
+    conditions: ''
+  strength: null
+  proficient: null
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: 1721760337336
+  modifiedTime: 1721760470431
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!qspQv5fxfOWXzlVw'
+

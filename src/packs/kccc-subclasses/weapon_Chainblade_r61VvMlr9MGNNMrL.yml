@@ -1,9 +1,9 @@
-name: 'Brutal Invention: Ramming Gauntlet'
+name: Chainblade
 type: weapon
-img: icons/equipment/hand/gauntlet-armored-leather-teal-orange.webp
+img: icons/weapons/swords/sword-guard-flanged.webp
 effects: []
-folder: 7gR5Zk9JdneG4dYl
-sort: 112500
+folder: 0udiWEmFOGv9ZbMs
+sort: 100000
 flags:
   betterRolls5e:
     quickDesc:
@@ -33,35 +33,29 @@ flags:
     quickDamage:
       context:
         '0': ''
+        '1': Special Property Bonus Damage
       value:
         '0': true
+        '1': true
       altValue:
         '0': true
+        '1': true
   core:
-    sourceId: Item.rhdxLhwlHk8b2xj5
-_id: WXWYvfLjBMm7GKMt
+    sourceId: Item.GzzMlf69XZiUmQcp
+_id: r61VvMlr9MGNNMrL
 _stats:
-  coreVersion: '12.329'
+  coreVersion: '11.315'
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721443759509
+  modifiedTime: 1721759153241
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.rhdxLhwlHk8b2xj5
-  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 system:
   description:
-    value: >-
-      <p><strong>Ramming Gauntlet.</strong> When you make an attack roll, you
-      can choose to forgo adding your proficiency bonus to the attack roll. If
-      the attack hits, you can add double your proficiency bonus to the damage
-      roll.</p>
-
-      <p><em><strong>Excessive Force (Ramming Gauntlet): </strong>The target is
-      knocked 10 feet backwards.</em></p>
+    value: "<p><strong>Chainblade.</strong> When you roll damage dice for this weapon, you can reroll as many damage dice as you would like once per attack, but you must use the new roll for any dice rolled this way. After hitting an attack with this weapon as part of the Attack action, if you have additional attacks you can make as part of the action, you can forgo them to deal an extra [[/damage 4d4 slashing]] damage per attack forgone.</p><p><em><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px;font-style:italic\">Reckless Power (Chainblade):\_</strong></em><span style=\"color:#191813;font-size:13px;font-style:italic\"><em>The weapon’s damage dice become d6’s for that attack (including the special property if activated).</em></span></p><p>Base: [[/damage 2d6 slashing]]</p><p>Versatile: [[/damage 3d6 slashing]]</p><p>Special: [[/damage 4d6 slashing]]</p>"
     chat: ''
     unidentified: ''
   source:
@@ -79,24 +73,25 @@ system:
     condition: ''
   duration:
     value: null
-    units: inst
+    units: ''
   target:
     value: 1
     width: null
     units: ''
     type: creature
   range:
-    value: 5
+    value: null
     long: null
-    units: ft
+    units: ''
   uses:
     value: null
     max: ''
     per: ''
   consume:
-    type: ''
-    target: ''
-    amount: null
+    type: charges
+    target: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.VQPTKxU6XFQkVg3g
+    amount: 1
   ability: ''
   actionType: mwak
   attackBonus: '0'
@@ -106,9 +101,9 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1d8 + @mod
-        - bludgeoning
-    versatile: ''
+      - - 2d4 + @mod
+        - slashing
+    versatile: 3d4 + @mod
   formula: ''
   save:
     ability: ''
@@ -122,7 +117,7 @@ system:
     dt: null
     conditions: ''
   weaponType: martialM
-  baseItem: ''
+  baseItem: longsword
   properties:
     ada: false
     amm: false
@@ -140,9 +135,9 @@ system:
     spc: true
     thr: false
     two: false
-    ver: false
+    ver: true
   proficient: true
   type:
-    value: class
-_key: '!items!WXWYvfLjBMm7GKMt'
+    value: simpleM
+_key: '!items!r61VvMlr9MGNNMrL'
 

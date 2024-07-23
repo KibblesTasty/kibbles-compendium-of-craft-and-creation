@@ -1,7 +1,51 @@
 name: Clarity of Purpose
 type: feat
 img: icons/magic/control/silhouette-hold-change-blue.webp
-effects: []
+effects:
+  - name: Clarity of Purpose
+    icon: icons/magic/control/silhouette-hold-change-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.BhvGIHdgGBwRDMVN
+    duration:
+      rounds: 10
+      startTime: null
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: true
+    flags:
+      dnd5e: {}
+    _id: RcdpiPiOoTeKOlDf
+    changes:
+      - key: system.traits.di.value
+        mode: 2
+        value: psychic
+        priority: null
+    description: >-
+      <ul style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;padding:0px 0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">You can gain truesight with a
+      range of 120 feet.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">You are immune to psychic
+      damage.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">You have advantage on saving
+      throws against magical or psionic effects.</span></li><li
+      style="box-sizing:border-box;user-select:text"><span
+      style="font-family:Signika, sans-serif">When you strike an enemy with a
+      Divine Smite you can choose to cast dispel magic on the target as a bonus
+      action without expending a spell slot. If the level of the spell slot
+      spent on Divine Smite was higher than 3rd level, you cast dispel magic at
+      the level of spell slot spent.</span></li></ul>
+    transfer: true
+    statuses: []
+    tint: null
+    _key: '!items.effects!BhvGIHdgGBwRDMVN.RcdpiPiOoTeKOlDf'
 folder: YNNWOIjlENyM7ctA
 sort: 400000
 flags:
@@ -22,14 +66,12 @@ flags:
     sourceId: Item.CvlgqhlyZsCO1qpX
 _id: BhvGIHdgGBwRDMVN
 _stats:
-  coreVersion: '12.329'
+  coreVersion: '11.315'
   systemId: dnd5e
   systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721445239639
+  createdTime: 1721761547214
+  modifiedTime: 1721761618189
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.CvlgqhlyZsCO1qpX
-  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3

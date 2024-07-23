@@ -1,9 +1,9 @@
-name: 'Brutal Invention: Ramming Gauntlet (Special)'
+name: Repeating Hand Crossbow
 type: weapon
-img: icons/equipment/hand/gauntlet-armored-leather-teal-orange.webp
+img: icons/weapons/crossbows/crossbow-slotted.webp
 effects: []
-folder: 7gR5Zk9JdneG4dYl
-sort: 106250
+folder: 0udiWEmFOGv9ZbMs
+sort: 300000
 flags:
   betterRolls5e:
     quickDesc:
@@ -38,30 +38,21 @@ flags:
       altValue:
         '0': true
   core:
-    sourceId: Item.ubPpjKF0AwdCWvxI
-_id: 83mJUyFLhVAjA235
+    sourceId: Item.yis9296oFtTWwAbv
+_id: S9wvqPiLuaRUL02v
 _stats:
-  coreVersion: '12.329'
+  coreVersion: '11.315'
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721443759509
+  modifiedTime: 1721759175983
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.ubPpjKF0AwdCWvxI
-  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 system:
   description:
-    value: >-
-      <p><strong>Ramming Gauntlet.</strong> When you make an attack roll, you
-      can choose to forgo adding your proficiency bonus to the attack roll. If
-      the attack hits, you can add double your proficiency bonus to the damage
-      roll.</p>
-
-      <p><em><strong>Excessive Force (Ramming Gauntlet): </strong>The target is
-      knocked 10 feet backwards.</em></p>
+    value: "<p>This weapon doesn’t require a free hand to load, as it has a built-in loader. Once per turn, if you make an attack with this weapon as part of the Attack action, if you do not have disadvantage on that attack, you can give yourself disadvantage to make a single additional weapon attack with this weapon as a bonus action (also with disadvantage).</p><p><em><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px;font-style:italic\">Full Auto (Repeating Hand Crossbow):</strong></em><span style=\"color:#191813;font-size:13px;font-style:italic\"><em>\_You immediately make a single additional attack as part of the same action, making the attack with disadvantage; this disadvantage can’t be canceled out.</em></span></p>"
     chat: ''
     unidentified: ''
   source:
@@ -71,7 +62,7 @@ system:
   price: 0
   attunement: 0
   equipped: false
-  rarity: common
+  rarity: ''
   identified: true
   activation:
     type: action
@@ -86,19 +77,20 @@ system:
     units: ''
     type: creature
   range:
-    value: 5
-    long: null
+    value: 30
+    long: 120
     units: ft
   uses:
     value: null
     max: ''
     per: ''
   consume:
-    type: ''
-    target: ''
-    amount: null
+    type: charges
+    target: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.VQPTKxU6XFQkVg3g
+    amount: 1
   ability: ''
-  actionType: mwak
+  actionType: rwak
   attackBonus: '0'
   chatFlavor: ''
   critical:
@@ -106,8 +98,8 @@ system:
     damage: ''
   damage:
     parts:
-      - - 1d8 + @mod + (2 * @prof)
-        - bludgeoning
+      - - 1d6 + @mod
+        - piercing
     versatile: ''
   formula: ''
   save:
@@ -121,16 +113,16 @@ system:
     max: 0
     dt: null
     conditions: ''
-  weaponType: martialM
-  baseItem: ''
+  weaponType: martialR
+  baseItem: handcrossbow
   properties:
     ada: false
-    amm: false
+    amm: true
     fin: false
     fir: false
     foc: false
     hvy: false
-    lgt: false
+    lgt: true
     lod: false
     mgc: false
     rch: false
@@ -141,8 +133,8 @@ system:
     thr: false
     two: false
     ver: false
-  proficient: false
+  proficient: true
   type:
-    value: class
-_key: '!items!83mJUyFLhVAjA235'
+    value: simpleM
+_key: '!items!S9wvqPiLuaRUL02v'
 

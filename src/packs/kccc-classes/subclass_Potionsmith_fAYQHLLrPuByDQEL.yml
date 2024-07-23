@@ -176,69 +176,87 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.3Ervz8Gob3s0cpw2
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.MCnekpXlURq4qrHD
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.4JJifgygYu4DJTpC
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.3Ervz8Gob3s0cpw2
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.MCnekpXlURq4qrHD
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.4JJifgygYu4DJTpC
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 1
+      title: Features
     - _id: p3rld6gqznpgdz0n
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.hYoEjTeC4DaNytJh
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.EPkRmsYczAPfNhsz
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.hYoEjTeC4DaNytJh
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.EPkRmsYczAPfNhsz
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 3
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: lx91f2omxlf3nxi3
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.xpsuuJLByIng8Qgp
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.xpsuuJLByIng8Qgp
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 5
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: meq9344pbcdc044f
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.zNBZS7laJeuC1xzL
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.zNBZS7laJeuC1xzL
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 14
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: 2649j8fcaw2pb1ib
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.7aY32E9WZrdIBLen
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.AUZL1dZmcjT2zZXW
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.nxFEldjl0KITVJYp
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.C4grZlhFeDhpyIyw
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.KqIkzUg8gndKlpAB
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.7aY32E9WZrdIBLen
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.AUZL1dZmcjT2zZXW
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.nxFEldjl0KITVJYp
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.C4grZlhFeDhpyIyw
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.KqIkzUg8gndKlpAB
+            optional: false
         optional: true
+        spell: null
       value: {}
       level: 1
-      title: Pick Three of the Following
-      icon: ''
+      title: Features
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -248,11 +266,9 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721426089277
+  modifiedTime: 1721752394890
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.hS2OknbsHO3xNUGN
-  duplicateSource: null
 _key: '!items!fAYQHLLrPuByDQEL'
 

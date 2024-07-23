@@ -22,14 +22,12 @@ flags:
     sourceId: Item.EQzefsgwraVShjAC
 _id: UBF8uPo5rxlxLfNO
 _stats:
-  coreVersion: '12.329'
+  coreVersion: '11.315'
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721443759509
+  modifiedTime: 1721763941166
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.EQzefsgwraVShjAC
-  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -40,52 +38,17 @@ system:
       You gain a number of psi points equal to your proficiency bonus, regaining
       them on a short or long rest. You can use these points to empower your
       Telepathic Intrusion or cast spells granted by the subclass, spending 1
-      psi point per level of the spell in place of a spell slot.</p>
-
-      <p>When you spend 1 or more psi points to empower it, you can use
-      Telepathic Intrusion as a bonus action.</p>
-
-      <h2><strong>Telepathic Intrusion</strong></h2>
-
-      <p><em>Psionic power</em></p>
-
-      <p><strong>Casting Time:</strong> 1 action</p>
-
-      <p><strong>Range: </strong>60 feet</p>
-
-      <p><strong>Components:</strong> S</p>
-
-      <p><strong>Duration: </strong>Instantaneous</p>
-
-      <p>You assault the mind of a creature you can see directly. The target
-      must succeed on a Wisdom saving throw against your spell save DC, or take
-      1d8 psychic damage. If the target fails the saving throw, it has
-      disadvantage on attacks made against you until the start of your next
-      turn. You can choose to deal no damage to the creature when it fails its
-      saving throw.</p>
-
-      <p>The points must be spent when choosing the target of the power.</p>
-
-      <p><strong>Rending (1+ psi points): </strong>The target takes 1d8 psychic
-      damage for each additional point spent on a failed save.</p>
-
-      <p><strong>Terrifying (1 psi point): </strong>The target is frightened of
-      you until the end of your next turn if it fails its saving throw.</p>
-
-      <p><strong>Meddling (2 psi points): </strong>You make one creature
-      invisible to the target creature or cause the creature to see something
-      that is not there with the effect of minor illusion until the start of
-      your next turn if it fails its saving throw.</p>
-
-      <p><strong>Overwhelming (3 psi points): </strong>The target is stunned
-      until the end of its next turn if it fails its saving throw.</p>
+      psi point per level of the spell in place of a spell slot.</p><p>When you
+      spend 1 or more psi points to empower it, you can use
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2n6Vo1Ie0MkeCtL]{Telepathic
+      Intrusion} as a bonus action.</p>
     chat: ''
     unidentified: ''
   source:
     book: KCCC
     custom: ''
   activation:
-    type: ''
+    type: action
     cost: 0
     condition: ''
   duration:
@@ -101,9 +64,9 @@ system:
     long: null
     units: ''
   uses:
-    value: null
-    max: ''
-    per: null
+    value: 3
+    max: '@prof'
+    per: sr
   consume:
     type: ''
     target: null

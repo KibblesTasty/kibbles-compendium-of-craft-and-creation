@@ -13,7 +13,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721698753189
+  modifiedTime: 1721760599935
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
@@ -43,7 +43,7 @@ system:
         spell: null
       value: {}
       level: 3
-      title: ''
+      title: Features
       icon: null
     - _id: yd2i9dk1xcov00gh
       type: ItemGrant
@@ -56,7 +56,7 @@ system:
         spell: null
       value: {}
       level: 7
-      title: ''
+      title: Features
       icon: null
     - _id: hnah37zs4xj6esya
       type: ItemGrant
@@ -69,7 +69,7 @@ system:
         spell: null
       value: {}
       level: 10
-      title: ''
+      title: Features
       icon: null
     - _id: aho8ocs8iactg4aq
       type: ItemGrant
@@ -82,7 +82,7 @@ system:
         spell: null
       value: {}
       level: 15
-      title: ''
+      title: Features
       icon: null
     - _id: cis9h7342taiaoio
       type: ItemGrant
@@ -95,7 +95,7 @@ system:
         spell: null
       value: {}
       level: 18
-      title: ''
+      title: Features
       icon: null
     - _id: PULQgOodvJaqw3j9
       type: ItemChoice
@@ -104,7 +104,7 @@ system:
           '3':
             count: 1
             replacement: false
-        allowDrops: true
+        allowDrops: false
         type: weapon
         pool:
           - uuid: >-
@@ -125,6 +125,151 @@ system:
       title: Brutal Invention
       hint: ''
       icon: null
+    - _id: Q8wXda4XzOL85xQP
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - tool:art:tinker
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: ''
+      hint: >-
+        Additionally at 3rd level, you gain proficiency with tinker’s tools. If
+        you already have proficiency in tinker’s tools, you can select another
+        type of artisan’s tools to gain proficiency in.
+      icon: null
+    - _id: 4TOi4MEsHYk3QFkG
+      type: ItemChoice
+      configuration:
+        choices:
+          '7':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: null
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.fzYWDexfn7CDp7Xd
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.VeEMTtkbSgssmpXn
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.cT9D31LnHvUkJp5Y
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.7hr5mMdPKdQrAPIp
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.BGQdhbjXZa7ZlAnE
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.GujB5yLLLRZm2Yt7
+        spell: null
+        restriction:
+          type: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Contingent Options
+      hint: >-
+        At 7th level, you extend your innovation of the art of war to give
+        yourself a unique advantage from your gear. For any option that has a
+        spell save DC, your save is 8 + your Intelligence modifier + your
+        proficiency bonus. Select one of the following options:
+      icon: null
+    - _id: BF5OpVnT2ZN4WeHf
+      type: ItemChoice
+      configuration:
+        choices:
+          '10':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: null
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.zDIWz1QLGlBsx80G
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.qspQv5fxfOWXzlVw
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.r61VvMlr9MGNNMrL
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.WXWYvfLjBMm7GKMt
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.S9wvqPiLuaRUL02v
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.dsYfKf6Kl9rxVV3h
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.6eLNMx1qYguYEaH9
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.fzYWDexfn7CDp7Xd
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.VeEMTtkbSgssmpXn
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.BGQdhbjXZa7ZlAnE
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.cT9D31LnHvUkJp5Y
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.7hr5mMdPKdQrAPIp
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.GujB5yLLLRZm2Yt7
+        spell: null
+        restriction: {}
+      value:
+        added: {}
+        replaced: {}
+      title: Chains of War
+      hint: >-
+        Starting at 10th level, you can select one of the following, or one
+        additional selection from Brutal Invention or Contingent Options.
+      icon: null
+    - type: ItemChoice
+      configuration:
+        choices:
+          '18':
+            count: 2
+            replacement: false
+        allowDrops: false
+        type: null
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.zDIWz1QLGlBsx80G
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.qspQv5fxfOWXzlVw
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.r61VvMlr9MGNNMrL
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.WXWYvfLjBMm7GKMt
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.S9wvqPiLuaRUL02v
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.dsYfKf6Kl9rxVV3h
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.6eLNMx1qYguYEaH9
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.fzYWDexfn7CDp7Xd
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.VeEMTtkbSgssmpXn
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.BGQdhbjXZa7ZlAnE
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.cT9D31LnHvUkJp5Y
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.7hr5mMdPKdQrAPIp
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.GujB5yLLLRZm2Yt7
+        spell: null
+        restriction: {}
+      value:
+        added: {}
+        replaced: {}
+      title: Arms Race
+      hint: >-
+        Starting at 18th level, you can select two additional options from any
+        of Brutal Invention, Contingent Options, and Chains of War (two options
+        total, selected from any of those features).
+      icon: null
+      _id: jEaKsJSNiAhxLnS5
   spellcasting:
     progression: none
     ability: ''

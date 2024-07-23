@@ -13,7 +13,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721698743456
+  modifiedTime: 1721752344574
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
@@ -33,50 +33,60 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.yRBx40dH0smcfX8G
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.xPXZbOMTyRcbkcHq
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.W1OZ08F9WZT4usbV
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.yRBx40dH0smcfX8G
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.xPXZbOMTyRcbkcHq
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.W1OZ08F9WZT4usbV
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 3
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: oj7ys5ayr8e0fnzk
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.LuyIvG67FNhiSEfW
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.LuyIvG67FNhiSEfW
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 7
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: 6lfjd2tcm3b3wfli
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.EauaiSNqM6ShjKx4
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.EauaiSNqM6ShjKx4
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 15
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
     - _id: pxcet1hwuhppq6og
       type: ItemGrant
       configuration:
         items:
-          - >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.BhvGIHdgGBwRDMVN
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.BhvGIHdgGBwRDMVN
+            optional: false
         optional: false
+        spell: null
       value: {}
       level: 20
-      title: ''
-      icon: ''
+      title: Features
+      icon: null
   spellcasting:
     progression: none
     ability: ''

@@ -22,14 +22,12 @@ flags:
     sourceId: Item.e8HpxszJF0PjgEQa
 _id: 1PPNNlXM1os5Lldd
 _stats:
-  coreVersion: '12.329'
+  coreVersion: '11.315'
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721445562948
+  modifiedTime: 1721761942814
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.e8HpxszJF0PjgEQa
-  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -40,25 +38,24 @@ system:
       your most important gadget, the grappling hook. As an action or with the
       bonus action granted by your Cunning Action, you may target a surface,
       object or creature within 20 feet. If the target is Small or smaller, you
-      can make a Strength (Athletics) check to pull it to you and grapple it
-      (automatically succeeding against objects that are not being worn or
-      carried unless the GM sets a difficulty for a particularly complicated
-      scenario).</p>
-
-      <p>Alternatively, if the target is Medium or larger, you can choose to be
-      pulled to it. This automatically succeeds, but this doesn’t grapple it,
-      though if it is a surface or large object, you can choose to hold onto at
-      the point you grappled if there is something to grab onto. Opportunity
-      attacks provoked by this movement are made with disadvantage.</p>
+      can make a [[/check strength athletics]] check to pull it to you and
+      grapple it (automatically succeeding against objects that are not being
+      worn or carried unless the GM sets a difficulty for a particularly
+      complicated scenario).</p><p>Alternatively, if the target is Medium or
+      larger, you can choose to be pulled to it. This automatically succeeds,
+      but this doesn’t grapple it, though if it is a surface or large object,
+      you can choose to hold onto at the point you grappled if there is
+      something to grab onto. Opportunity attacks provoked by this movement are
+      made with disadvantage.</p>
     chat: ''
     unidentified: ''
   source:
     book: KCCC
     custom: ''
   activation:
-    type: ''
+    type: special
     cost: 0
-    condition: ''
+    condition: As an action or with the bonus action granted by your Cunning Action
   duration:
     value: null
     units: ''
@@ -66,11 +63,11 @@ system:
     value: null
     width: null
     units: ''
-    type: ''
+    type: any
   range:
-    value: null
+    value: 20
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''

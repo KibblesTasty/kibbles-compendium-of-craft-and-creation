@@ -1,9 +1,9 @@
-name: 'Brutal Invention: Ricocheting Weapon'
+name: Ricocheting Weapon
 type: weapon
 img: icons/weapons/thrown/shuriken-blue.webp
 effects: []
-folder: 7gR5Zk9JdneG4dYl
-sort: 101563
+folder: 0udiWEmFOGv9ZbMs
+sort: 400000
 flags:
   betterRolls5e:
     quickDesc:
@@ -41,20 +41,18 @@ flags:
     sourceId: Item.2F6njuYGgg1If6tw
 _id: dsYfKf6Kl9rxVV3h
 _stats:
-  coreVersion: '12.329'
+  coreVersion: '11.315'
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721443759509
+  modifiedTime: 1721759188674
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.2F6njuYGgg1If6tw
-  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 system:
   description:
-    value: "<p><strong>Ricocheting Weapon.</strong> When this weapon is thrown you can target two creatures within 10 feet of each other, using the same attack roll and damage roll for both targets; the damage dealt is halved for targets hit after the first. This weapon returns to your hand after you make an attack with it using the Thrown property. When you create this weapon, you can choose for it to deal slashing damage instead of bludgeoning damage.</p>\n<p><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px;font-style:italic\">Hypervelocity (Ricocheting Weapon):\_</strong><span style=\"color:#191813;font-size:13px;font-style:italic\">The weapon can target creatures within20 feet of each other, and it can bounce to an additional target.</span></p>"
+    value: "<p>When this weapon is thrown you can target two creatures within 10 feet of each other, using the same attack roll and damage roll for both targets; the damage dealt is halved for targets hit after the first. This weapon returns to your hand after you make an attack with it using the Thrown property. When you create this weapon, you can choose for it to deal slashing damage instead of bludgeoning damage.</p><p><em><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px;font-style:italic\">Hypervelocity (Ricocheting Weapon):\_</strong></em><span style=\"color:#191813;font-size:13px;font-style:italic\"><em>The weapon can target creatures within 20 feet of each other, and it can bounce to an additional target.</em></span></p>"
     chat: ''
     unidentified: ''
   source:
@@ -87,9 +85,10 @@ system:
     max: ''
     per: ''
   consume:
-    type: ''
-    target: ''
-    amount: null
+    type: charges
+    target: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.VQPTKxU6XFQkVg3g
+    amount: 1
   ability: ''
   actionType: rwak
   attackBonus: '0'
@@ -136,6 +135,6 @@ system:
     ver: false
   proficient: true
   type:
-    value: class
+    value: simpleM
 _key: '!items!dsYfKf6Kl9rxVV3h'
 
