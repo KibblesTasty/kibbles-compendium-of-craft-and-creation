@@ -1631,6 +1631,8 @@ sort: 106250
 flags:
   core:
     sourceId: Actor.UEqMAdz2jLdEg3Rj
+  dnd5e:
+    showTokenPortrait: false
 system:
   abilities:
     str:
@@ -1704,7 +1706,54 @@ system:
     spellcasting: int
   details:
     biography:
-      value: ''
+      value: >-
+        <p>Legend speaks of ancient constructs built to hold back a terrible
+        calamity of untold horrors from beyond. Posted as eternal guards over
+        ancient lost portals, these construct sentinels were thought to be
+        immune to whispers of madness that seeped through—a theory that has
+        proved tragically misguided. Now twisted by the forces beyond, the
+        sentinels have warped into eldritch engines of destruction, completely
+        mad and not truly aware of their own actions.</p><p>Awakening from
+        ancient, forgotten sites, often long-lost vaults and shrines, these can
+        appear without warning and wreak terrible destruction in a maddened
+        rampage. These sentinels are massive creatures from an ancient era,
+        towering 30 feet tall, and crushing anything built to a human scale with
+        ease.</p><h3 id="deployment">Deployment</h3><p>The ancient sentinel is
+        intended primarily as a solo encounter, and particularly excels as an
+        event. A rampaging, gigantic mechanical elephant is most dramatic when
+        it has plenty of buildings—and maybe some villagers—to trample, and for
+        the players to save. It is a siege monster that is exceptionally good at
+        engaging many targets simultaneously. It can even enter a campaign a
+        little earlier than its CR might suggest as a set piece encounter where
+        the PCs are rallying a defense against it.</p><p>If you do need some
+        more chaos, you can have the ancient sentinel be the harbinger to a wave
+        of psionic monsters that have broken through in its wake. Its immunity
+        to psychic damage means it is largely unfazed by many of their effects,
+        making this a devastating pairing.</p><h3 id="simple-script">Simple
+        Script</h3><p>Here’s a simple script that you can follow to get an
+        effective use from an ancient sentinel:</p><ul><li>The sentinel should
+        always move when able, ideally trampling any smaller creatures in its
+        path and smashing buildings if possible. Move for maximum destruction
+        unless it has a specific objective.</li><li>Move towards something that
+        can be smashed.</li><li>During the advance, unleash a Bladed Trunk
+        attack, moving the target into or out of its path.</li><li>Move through
+        a target using Trampling Advance.</li><li>If it knocks a target prone or
+        is moving through its last target, use its stomp attack.</li><li>Lastly,
+        it should lash out with its tentacles against any target that is
+        attacking it, either grabbing the attackers or flinging things at
+        them.</li><li>If a target is bothering it with ranged attacks, it can
+        fling creatures or objects it is grappling at the target.</li></ul><h3
+        id="considerations">Considerations</h3><p>While the sentinel lacks
+        ranged abilities, it can use Fling as a ranged offensive tool quite
+        effectively, if needed, simply by picking up objects and throwing them.
+        While its speed isn’t particularly high, its Unstoppable Advance trait
+        and Unstoppable Trample legendary action mean its effective movement can
+        be quite substantial.</p><p>The sentinel may not care about the party at
+        all. If they are insufficiently powerful to stop it, it may simply
+        rampage through a city before wandering off to rampage elsewhere. Only
+        if players prove a danger to it will it focus on them. While a very
+        challenging monster, the dynamic nature of the fight will come from what
+        the sentinel is destroying.</p>
       public: ''
     alignment: Chaotic Evil
     race: ''
@@ -1718,7 +1767,9 @@ system:
     spellLevel: 0
     xp:
       value: 10
-    source: KCCC
+    source:
+      book: KCCC
+      custom: ''
   traits:
     size: grg
     di:
@@ -1955,8 +2006,6 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
-    negative: false
-    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -1976,10 +2025,6 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
-    anchorX: 0.5
-    anchorY: 0.5
-    fit: contain
-    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -1993,26 +2038,12 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   detectionModes: []
-  hexagonalShape: 0
-  occludable:
-    radius: 0
-  ring:
-    enabled: false
-    colors:
-      ring: null
-      background: null
-    effects: 1
-    subject:
-      scale: 1
-      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721364821131
+  modifiedTime: 1721697769833
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Actor.UEqMAdz2jLdEg3Rj
-  duplicateSource: null
 _key: '!actors!lgIhmGwkKe711lVN'
 

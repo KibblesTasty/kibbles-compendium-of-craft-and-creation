@@ -2,8 +2,8 @@ name: Psionic Intrusion
 type: feat
 img: icons/magic/unholy/hands-circle-light-green.webp
 effects: []
-folder: CNupeq6WKLNvZly9
-sort: 400000
+folder: taJhPD69p4b50ijb
+sort: 100000
 flags:
   betterRolls5e:
     quickDesc:
@@ -26,7 +26,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
-  modifiedTime: 1721443759509
+  modifiedTime: 1721699551673
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
@@ -80,11 +80,14 @@ system:
     ability: ''
     dc: null
     scaling: spell
-  requirements: ''
+  requirements: Warlock 7
   recharge:
     value: null
     charged: false
   type:
     value: class
+    subtype: eldritchInvocation
+  prerequisites:
+    level: 7
 _key: '!items!Fb4LhpW192fCCyJd'
 

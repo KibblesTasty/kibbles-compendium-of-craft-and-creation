@@ -353,7 +353,9 @@ system:
     environment: ''
     cr: 0
     spellLevel: 0
-    source: {}
+    source:
+      book: KCCC
+      custom: ''
   resources:
     legact:
       value: 0
@@ -409,11 +411,7 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
-    anchorX: 0.5
-    anchorY: 0.5
-    fit: contain
     tint: '#ffffff'
-    alphaThreshold: 0.75
   width: 1
   height: 1
   lockRotation: false
@@ -444,8 +442,6 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
-    negative: false
-    priority: 0
     color: null
   sight:
     enabled: false
@@ -460,18 +456,6 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: false
-  hexagonalShape: 0
-  occludable:
-    radius: 0
-  ring:
-    enabled: false
-    colors:
-      ring: null
-      background: null
-    effects: 1
-    subject:
-      scale: 1
-      texture: null
 items:
   - name: Multiattack
     type: feat
@@ -755,12 +739,10 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: 1721364185767
-  modifiedTime: 1721415757617
+  modifiedTime: 1721697585652
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: null
-  duplicateSource: null
 sort: 0
 _id: O8fFPXg0Q9TR9wkG
 _key: '!actors!O8fFPXg0Q9TR9wkG'
