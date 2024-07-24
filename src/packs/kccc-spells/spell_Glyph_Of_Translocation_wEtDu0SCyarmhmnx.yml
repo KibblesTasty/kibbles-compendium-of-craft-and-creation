@@ -1,0 +1,107 @@
+name: Glyph Of Translocation
+type: spell
+img: icons/magic/symbols/star-yellow.webp
+system:
+  description:
+    value: >-
+      <p>You draw an ethereal mark in the air at a point within range.</p><p>As
+      an action for the duration of the spell, you instantly teleport a willing
+      creature of your choice within 120 feet of you to the closest free space
+      next to this glyph (your choice if multiple free spaces are available).If
+      you expend a higher-level spell slot, the number of creatures you can
+      teleport increases by 1 for each level above 2nd, at which point the spell
+      ends. </p><p>You can end the spell early by deactivating it with a bonus
+      action. </p><p><em><strong>At Higher Levels.</strong></em> If you expend a
+      higher level spell slot, the number of creatures you can teleport
+      increases by 1 for each level above 2nd, at which point the spell
+      ends.</p>
+    chat: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  level: 2
+  school: con
+  activation:
+    condition: ''
+    cost: 1
+    type: bonus
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: ft
+    value: 5
+    long: null
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  properties:
+    - somatic
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+folder: W6XLqLAP7CJCppah
+flags:
+  dnd5e:
+    migratedProperties:
+      - somatic
+_id: wEtDu0SCyarmhmnx
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  coreVersion: '11.315'
+  createdTime: 1721845408822
+  modifiedTime: 1721845669255
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!wEtDu0SCyarmhmnx'
+

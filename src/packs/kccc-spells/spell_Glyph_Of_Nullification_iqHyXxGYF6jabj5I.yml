@@ -1,0 +1,102 @@
+name: Glyph Of Nullification
+type: spell
+img: icons/magic/symbols/triangle-glow-purple.webp
+system:
+  description:
+    value: >-
+      <p>You draw an ethereal mark in the air at a point within range. Creatures
+      within 5 feet of this glyph have resistance to force damage.</p><p>As an
+      action for the duration of the spell, you can cause the glyph to form a
+      globe of invulnerability centered on the glyph, which lasts until the
+      start of your next turn, at which point the spell ends.</p><p>You can end
+      the spell early by deactivating it with a bonus action.</p><p></p>
+    chat: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  level: 3
+  school: abj
+  activation:
+    condition: ''
+    cost: 1
+    type: bonus
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: ft
+    value: 5
+    long: null
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  properties:
+    - somatic
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+folder: W6XLqLAP7CJCppah
+flags:
+  dnd5e:
+    migratedProperties:
+      - somatic
+_id: iqHyXxGYF6jabj5I
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  coreVersion: '11.315'
+  createdTime: 1721845400520
+  modifiedTime: 1721845963053
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!iqHyXxGYF6jabj5I'
+

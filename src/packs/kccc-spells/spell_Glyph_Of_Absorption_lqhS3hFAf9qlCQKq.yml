@@ -1,0 +1,108 @@
+name: Glyph Of Absorption
+type: spell
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
+system:
+  description:
+    value: >-
+      <p>You draw an ethereal mark in the air at a point within range. Creatures
+      within 10 feet of this glyph have resistance to all damage, but when any
+      creature in the rune’s radius takes damage, the rune takes an equal
+      amount. The glyph has 10 hit points. If the glyph is destroyed, it fades
+      without detonating and the spell ends.</p><p>As an action, you can
+      detonate the glyph. Any creature within 15 feet of this glyph must make a
+      Dexterity saving throw, or take force damage equal to half the amount of
+      damage the glyph has absorbed. After using this action, the spell
+      ends.</p><p>You can end the spell early by deactivating it with a bonus
+      action.</p><p><em><strong>At Higher Levels. </strong></em>When you cast
+      this spell using a spell slot of 2nd level or higher, the glyph's hit
+      points increas by 5 for each slot level above 1st.</p><p></p>
+    chat: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  level: 1
+  school: abj
+  activation:
+    condition: ''
+    cost: 1
+    type: bonus
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: ft
+    value: 5
+    long: null
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: save
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  summons: null
+  properties:
+    - somatic
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+folder: W6XLqLAP7CJCppah
+flags:
+  dnd5e:
+    migratedProperties:
+      - somatic
+_id: lqhS3hFAf9qlCQKq
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  coreVersion: '11.315'
+  createdTime: 1721845328571
+  modifiedTime: 1721845839507
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!lqhS3hFAf9qlCQKq'
+
