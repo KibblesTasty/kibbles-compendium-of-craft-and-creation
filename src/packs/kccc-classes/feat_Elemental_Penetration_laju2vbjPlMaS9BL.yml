@@ -23,7 +23,7 @@ flags:
     sourceId: Item.eccXtUUrsxvOSKBU
 system:
   description:
-    value: "<p><em>Prerequisite: Elemental Mind subclass</em></p>\n<p>When you use a psionic power or spell that deals cold, fire, or lightning damage, you can expend 1 psi point to make the power ignore resistance to that elemental damage damage type.\_</p>\n<p>If you have a specialization of Psychokinesis, if the target has immunity to the damage type chosen, this instead turns immunity into resistance for that power.</p>\n<p>You can spend psi points granted by Psionic Mastery on this ability.\_</p>"
+    value: "<p>When you use a psionic power or spell that deals cold, fire, or lightning damage, you can expend 1 psi point to make the power ignore resistance to that elemental damage damage type.\_</p><p>If you have a specialization of Psychokinesis, if the target has immunity to the damage type chosen, this instead turns immunity into resistance for that power.</p><p>You can spend psi points granted by Psionic Mastery on this ability.\_</p>"
     chat: ''
     unidentified: ''
   source:
@@ -74,21 +74,21 @@ system:
   type:
     value: class
     subtype: psionicTalent
-  requirements: Psion 1
+  requirements: Elemental Mind Subclass
   recharge:
     value: null
     charged: false
+  prerequisites:
+    level: 1
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721434481454
+  modifiedTime: 1721802744520
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.eccXtUUrsxvOSKBU
-  duplicateSource: null
 _key: '!items!laju2vbjPlMaS9BL'
 

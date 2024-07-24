@@ -23,7 +23,7 @@ flags:
     sourceId: Item.we7EFeYX05y4S47D
 system:
   description:
-    value: "<p>The @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.VI58xQOwPpMEuotg]{Mutate} and @Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{Polymorph} spells are added to your Enhancement Alternate Effects list.\_</p>\n<p>You can only target yourself when casting polymorph this way.</p>"
+    value: "<p>The @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.q4y6ERr3SBxm6zWt]{Mutate} and @Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{Polymorph} spells are added to your Enhancement Alternate Effects list.\_</p><p>You can only target yourself when casting polymorph this way.</p>"
     chat: ''
     unidentified: ''
   source:
@@ -78,17 +78,17 @@ system:
   recharge:
     value: null
     charged: false
+  prerequisites:
+    level: 7
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721434481454
+  modifiedTime: 1721799345834
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.we7EFeYX05y4S47D
-  duplicateSource: null
 _key: '!items!uu6Ur1UnWgcUbt3z'
 

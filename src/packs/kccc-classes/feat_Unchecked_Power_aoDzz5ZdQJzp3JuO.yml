@@ -25,7 +25,7 @@ system:
   description:
     value: >-
       <p>The
-      @Compendium[kibbles-casting-compendium.kibbles-casting-compendium.RKEC4m1y7DnE3XgF]{Fissure}
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.Ld86H55nvBhmon9Z]{Fissure}
       spell is added to your Telekinesis Alternate Effects list. Additionally,
       as a reaction to a melee attack being made against you, you can expend 1
       psi point to shove the creature away. The creature must make a Strength
@@ -85,17 +85,17 @@ system:
   recharge:
     value: null
     charged: false
+  prerequisites:
+    level: 9
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721434481454
+  modifiedTime: 1721799619982
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.aABCUZJkZYCw0qFh
-  duplicateSource: null
 _key: '!items!aoDzz5ZdQJzp3JuO'
 

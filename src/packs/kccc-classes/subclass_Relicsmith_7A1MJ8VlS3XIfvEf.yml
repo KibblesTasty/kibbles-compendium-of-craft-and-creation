@@ -114,6 +114,85 @@ system:
       level: 14
       title: Features
       icon: null
+    - _id: 7qU13uxIw60POdob
+      type: ItemChoice
+      configuration:
+        choices:
+          '3':
+            count: 1
+            replacement: false
+          '4':
+            count: null
+            replacement: true
+          '5':
+            count: 1
+            replacement: true
+          '6':
+            count: null
+            replacement: true
+          '7':
+            count: 1
+            replacement: true
+          '8':
+            count: null
+            replacement: true
+          '9':
+            count: 1
+            replacement: true
+          '10':
+            count: null
+            replacement: true
+          '11':
+            count: 1
+            replacement: true
+          '12':
+            count: null
+            replacement: true
+          '13':
+            count: 1
+            replacement: true
+          '14':
+            count: null
+            replacement: true
+          '15':
+            count: 1
+            replacement: true
+          '16':
+            count: null
+            replacement: true
+          '17':
+            count: 1
+            replacement: true
+          '18':
+            count: null
+            replacement: true
+          '19':
+            count: 1
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        allowDrops: true
+        type: feat
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.te61fHUl19wp18S9
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.MuChUKPaPQQPAdqU
+        spell: null
+        restriction:
+          type: class
+          subtype: upgrade
+      value:
+        added: {}
+        replaced: {}
+      title: Upgrades
+      hint: >-
+        At 3rd level, choose an upgrade from the list at the end of your
+        specialization, gaining the benefits listed in its description.
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        You select an additional upgrade at 5th, 7th, 9th, 11th, 13th, 15th, 17th, and 19th level. You can’t select an upgrade more than once, unless the upgrade’s description says otherwise. Whenever you gain a level in this class, you can exchange one of your existing upgrades with another upgrade of the same level requirement as the replaced upgrade.
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -125,7 +204,7 @@ _stats:
   systemVersion: 3.3.0
   coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721752393534
+  modifiedTime: 1721803447462
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!7A1MJ8VlS3XIfvEf'
 

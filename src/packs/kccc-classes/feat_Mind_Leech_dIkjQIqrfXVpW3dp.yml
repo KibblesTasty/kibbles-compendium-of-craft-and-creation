@@ -81,9 +81,7 @@ system:
     parts:
       - - 1d6
         - psychic
-      - - 1d12
-        - psychic
-    versatile: ''
+    versatile: 1d12
   formula: ''
   save:
     ability: cha
@@ -91,7 +89,7 @@ system:
     scaling: spell
   type:
     value: class
-    subtype: ''
+    subtype: psionicPower
   requirements: Consumption 1
   recharge:
     value: null
@@ -102,11 +100,9 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721424699123
+  modifiedTime: 1721802825121
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.ueDw4MzjudMXO8pG
-  duplicateSource: null
 _key: '!items!dIkjQIqrfXVpW3dp'
 

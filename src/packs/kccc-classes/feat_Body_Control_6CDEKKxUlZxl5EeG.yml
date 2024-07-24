@@ -24,9 +24,10 @@ flags:
 system:
   description:
     value: >-
-      <p>You can cast alter self at will, without expending a spell slot or psi
-      points. Additionally, when you cast enlarge/reduce on yourself, you may
-      expend 1 psi point instead of 2.</p>
+      <p>You can cast @UUID[Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx]{alter
+      self} at will, without expending a spell slot or psi points. Additionally,
+      when you cast enlarge/reduce on yourself, you may expend 1 psi point
+      instead of 2.</p>
     chat: ''
     unidentified: ''
   source:
@@ -81,17 +82,17 @@ system:
   recharge:
     value: null
     charged: false
+  prerequisites:
+    level: 5
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721434481454
+  modifiedTime: 1721799273099
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.AlzNLTM8haGUUiGu
-  duplicateSource: null
 _key: '!items!6CDEKKxUlZxl5EeG'
 

@@ -24,19 +24,16 @@ flags:
 system:
   description:
     value: >-
-      <p><em>Prerequisite: Psychokinesis or Telekinetics Discipline</em></p>
-
       <p>Once per turn, as part of making a weapon attack as part of the Attack
       action, you can empower a melee weapon you are holding with psionic power.
       When you hit a creature with a weapon, you can apply Elemental Blast or
       Telekinetic Force modifiers (you can only select a power you know) to the
       attack (you can use Psionic Mastery on this). This doesn’t deal the base
       damage of the power, but any added damage causes the additional effects of
-      the power to occur.</p>
-
-      <p>When applying a modifier that would make it target an area of effect,
-      only the target takes the weapon damage, but other creatures in the radius
-      become a target of the attack as if using the power normally.</p>
+      the power to occur.</p><p>When applying a modifier that would make it
+      target an area of effect, only the target takes the weapon damage, but
+      other creatures in the radius become a target of the attack as if using
+      the power normally.</p>
     chat: ''
     unidentified: ''
   source:
@@ -87,21 +84,21 @@ system:
   type:
     value: class
     subtype: psionicTalent
-  requirements: Psion 1
+  requirements: Psychokinesis or Telekinetics Discipline
   recharge:
     value: null
     charged: false
+  prerequisites:
+    level: 1
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721434481454
+  modifiedTime: 1721802728063
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.CmegesusEOvHaI5m
-  duplicateSource: null
 _key: '!items!6Z7SUp6g4UO0qEt6'
 

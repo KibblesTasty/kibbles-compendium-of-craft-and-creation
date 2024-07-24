@@ -24,8 +24,6 @@ flags:
 system:
   description:
     value: >-
-      <p><em>(Prerequisite: 11th-level Psion, Elemental Mind subclass)</em></p>
-
       <p>You gain the ability to cast a beam of annihilationK for 6 psi points.
       If you have a specialization of Psychokinesis, you can only select the
       related elemental damage type, but the beam’s damage ignores resistance to
@@ -80,21 +78,21 @@ system:
   type:
     value: class
     subtype: psionicTalent
-  requirements: Psion 11
+  requirements: Psion 11, Elemental Mind Subclass
   recharge:
     value: null
     charged: false
+  prerequisites:
+    level: 11
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721434481454
+  modifiedTime: 1721802760320
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.sov4NWcnGQxpXDvH
-  duplicateSource: null
 _key: '!items!OtvgeYLkeltF9cM8'
 

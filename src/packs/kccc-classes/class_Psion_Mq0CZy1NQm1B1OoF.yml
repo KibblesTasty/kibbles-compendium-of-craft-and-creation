@@ -119,6 +119,10 @@ system:
           - saves:int
           - saves:wis
       _id: c9r9qTOeDCQfFXhm
+      title: ''
+      hint: ''
+      icon: null
+      classRestriction: primary
     - type: Trait
       level: 1
       configuration:
@@ -143,6 +147,7 @@ system:
       title: ''
       hint: ''
       icon: null
+      classRestriction: primary
     - _id: YMVikBlcdIPE287q
       type: ScaleValue
       configuration:
@@ -288,7 +293,51 @@ system:
             replacement: true
         allowDrops: true
         type: feat
-        pool: []
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.YUCPmBX9VkY8gNH1
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.0NWp9pgULgtpWI6B
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.uh4ut5ZcjXbkApS6
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.OtvgeYLkeltF9cM8
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.K9nNrr3zofxThfZW
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.0hM062tfXVoNUYEr
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.4aFuUChg70huw0ih
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.laju2vbjPlMaS9BL
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.6Z7SUp6g4UO0qEt6
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.fL8mE47HhdsGbcum
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.m9iDzI3puLYzZBa3
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.BRo9ZJFAwxn8kpzu
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.OWKM6qorjWf72cTf
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.4PEIKSVWRKeX6R87
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.NpTdM8CvxW84UvNP
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.5eWntBYoThnNbFcv
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.7nRj5Is6r5jFPK7f
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.dcoYTAPRuXruJJ2F
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.egPyIwkx8ix1QbpY
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.Z237W7Zcd6HY1TPk
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.0YxUqm7THIoOrFMd
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.f3IIxMPwH09UzxrM
         spell: null
         restriction:
           type: class
@@ -453,6 +502,7 @@ system:
       title: ''
       hint: ''
       icon: null
+      classRestriction: primary
     - _id: fM9ngET1oxIzfWtC
       type: Trait
       configuration:
@@ -467,6 +517,22 @@ system:
       title: ''
       hint: ''
       icon: null
+      classRestriction: primary
+    - _id: Jl4ZN4lGgpZhathF
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:psi
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: ''
+      hint: ''
+      icon: null
+      classRestriction: secondary
   saves:
     - int
     - wis
@@ -565,7 +631,7 @@ _stats:
   systemVersion: 3.3.0
   coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721778623132
+  modifiedTime: 1721803066849
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Mq0CZy1NQm1B1OoF'
 
