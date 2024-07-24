@@ -35,11 +35,13 @@ flags:
 system:
   description:
     value: >-
-      <p>You can integrate your Shock Generator and your Grappling Hook.
-      Immediately after using your Grappling Hook to pull a creature to you or
-      to pull yourself to a creature, you can use your bonus action to cast
-      @Compendium[dnd5e.spells.XvbiNhNqXXIFisIy]{Shocking Grasp} from your Shock
-      Generator targeting that creature.</p>
+      <p><span class="fontstyle2">You create a device capable of generating
+      potent shocks. You can use this device to cast </span><span
+      class="fontstyle3">@UUID[Compendium.dnd5e.spells.Item.XvbiNhNqXXIFisIy]{shocking
+      grasp}</span><span class="fontstyle2">. When you cast </span><span
+      class="fontstyle3">shocking grasp </span><span class="fontstyle2">in this
+      way, you can use either your Dexterity or Intelligence modifier for the
+      attack roll</span></p>
     chat: ''
     unidentified: ''
   source:
@@ -96,17 +98,17 @@ system:
   recharge:
     value: null
     charged: false
+  prerequisites:
+    level: 1
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721434546182
+  modifiedTime: 1721837671699
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.rxq6EiySDcMLFgqc
-  duplicateSource: null
 _key: '!items!Szkoo4wWoubwuliN'
 

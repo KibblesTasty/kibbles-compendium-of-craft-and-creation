@@ -1,10 +1,10 @@
-_id: SvJH7fmpQUqh4lvz
-name: 'Upgrades: Artificial Learning'
+_id: vKzmv3fAM8VIVlzl
+name: Titan Slayer
 type: feat
-img: icons/skills/trades/academics-book-study-purple.webp
+img: icons/weapons/polearms/spear-hooked-broad.webp
 effects: []
 folder: 5kTpFeuG35OzhmjF
-sort: -37500
+sort: 200000
 flags:
   betterRolls5e:
     quickDesc:
@@ -20,20 +20,15 @@ flags:
       value: true
       altValue: true
   core:
-    sourceId: Item.y16OK0ZyxnH4kzDI
+    sourceId: Item.oKHW0aGLo5txmBus
 system:
   description:
     value: >-
-      <p>Your Golem Companion begins to apply its abilities to learn new things,
-      gaining one level in a class of your choice. Your Golem Companion gains
-      all the 1st-level features of the chosen class. This doesn’t include hit
-      points, Hit Dice, or class proficiencies. For example, choosing the
-      Fighter class grants the golem the Fighting Style and Second Wind
-      features, but nothing else.</p>
-
-      <p>You can select this upgrade multiple times, granting your golem another
-      level of features from the same class or the 1st-level features from
-      another class each time it is selected.</p>
+      <p>You build into your golem one oversized weapon. This weapon can be a
+      martial melee weapon or an improved version of any natural weapon the
+      golem has. The weapon’s base damage dice are doubled—from 1d8 to 2d8, for
+      example. The golem can only attack with this oversized weapon once per
+      turn (making any additional attacks it can make using other weapons).</p>
     chat: ''
     unidentified: ''
   source:
@@ -88,17 +83,17 @@ system:
   recharge:
     value: null
     charged: false
+  prerequisites:
+    level: 15
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721434546182
+  modifiedTime: 1721837944938
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.y16OK0ZyxnH4kzDI
-  duplicateSource: null
-_key: '!items!SvJH7fmpQUqh4lvz'
+_key: '!items!vKzmv3fAM8VIVlzl'
 

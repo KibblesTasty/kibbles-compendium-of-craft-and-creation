@@ -24,11 +24,11 @@ flags:
 system:
   description:
     value: >-
-      <p>You create a set of lenses that allow you to see through darkness and
-      obscurement, which you can integrate into a pair of goggles, glasses, or
-      other vision assistance. While using these lenses, you can see through
-      fog, mist, smoke, clouds, and nonmagical darkness out to a range of 15
-      feet.</p>
+      <p>You can integrate your Shock Generator and your Grappling Hook.
+      Immediately after using your Grappling Hook to pull a creature to you or
+      to pull yourself to a creature, you can use your bonus action to cast
+      @Compendium[dnd5e.spells.XvbiNhNqXXIFisIy]{Shocking Grasp} from your Shock
+      Generator targeting that creature.</p>
     chat: ''
     unidentified: ''
   source:
@@ -79,21 +79,21 @@ system:
   type:
     value: class
     subtype: upgrade
-  requirements: Gadgetsmith 1
+  requirements: Shock Generator upgrade
   recharge:
     value: null
     charged: false
+  prerequisites:
+    level: 1
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721434546182
+  modifiedTime: 1721837636574
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.8jZiN0AcUKDRri8S
-  duplicateSource: null
 _key: '!items!AptZtWtzfxKyJGbF'
 

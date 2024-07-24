@@ -1,10 +1,10 @@
-_id: vKzmv3fAM8VIVlzl
-name: 'Upgrades: Titan Slayer'
+_id: YNH6Sy9cc4yR9HFj
+name: Shared Power
 type: feat
-img: icons/weapons/polearms/spear-hooked-broad.webp
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
 effects: []
 folder: 5kTpFeuG35OzhmjF
-sort: 200000
+sort: -31250
 flags:
   betterRolls5e:
     quickDesc:
@@ -20,15 +20,24 @@ flags:
       value: true
       altValue: true
   core:
-    sourceId: Item.oKHW0aGLo5txmBus
+    sourceId: Item.NNV6wVIMjkKr7yRs
 system:
   description:
     value: >-
-      <p>You build into your golem one oversized weapon. This weapon can be a
-      martial melee weapon or an improved version of any natural weapon the
-      golem has. The weapon’s base damage dice are doubled—from 1d8 to 2d8, for
-      example. The golem can only attack with this oversized weapon once per
-      turn (making any additional attacks it can make using other weapons).</p>
+      <p>You bind your golem’s power source to your own soul, allowing you to
+      tap its power and it to tap your power. Your golem can use its action and
+      expend one of your spell slots to cast a spell you know of the slot’s
+      level or lower.</p>
+
+      <p>In addition, you can use your action to cause your golem to lose a
+      number of hit points up to twice your inventor level, granting you a
+      number of temporary hit points equal to that amount.</p>
+
+      <p>Finally, on your turn, you can forgo your action to grant your golem an
+      additional action, or you can command your golem to forgo its action,
+      granting yourself an additional action. That action can only be used to
+      take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an
+      Object action.</p>
     chat: ''
     unidentified: ''
   source:
@@ -83,17 +92,17 @@ system:
   recharge:
     value: null
     charged: false
+  prerequisites:
+    level: 15
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721434546182
+  modifiedTime: 1721837941190
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.oKHW0aGLo5txmBus
-  duplicateSource: null
-_key: '!items!vKzmv3fAM8VIVlzl'
+_key: '!items!YNH6Sy9cc4yR9HFj'
 

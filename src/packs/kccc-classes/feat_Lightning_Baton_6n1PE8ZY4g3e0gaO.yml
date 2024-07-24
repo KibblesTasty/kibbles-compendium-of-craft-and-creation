@@ -1,0 +1,130 @@
+name: Lightning Baton
+type: feat
+img: icons/magic/lightning/bolt-strike-embers-teal.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 225000
+flags:
+  betterRolls5e:
+    quickDesc:
+      value: false
+      altValue: false
+    quickProperties:
+      value: true
+      altValue: true
+    quickVersatile:
+      value: false
+      altValue: false
+    quickOther:
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      value: true
+      altValue: true
+    quickCharges:
+      value:
+        quantity: false
+      altValue:
+        quantity: false
+    quickAttack:
+      value: true
+      altValue: true
+    quickDamage:
+      context:
+        '0': ''
+        '1': ''
+      value:
+        '0': true
+        '1': true
+      altValue:
+        '0': true
+        '1': true
+  core:
+    sourceId: Item.PqWf5Uz9dZwfV0Aj
+system:
+  description:
+    value: "<p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.pzPC9MyNhTnIOVd4]{Lightning Baton}</p><p>You create a magic weapon that channels lightning. You have proficiency with this weapon, and it has the finesse and light properties. It deals 1d4 bludgeoning damage plus 1d4 lightning damage on a hit. When you roll a 20 on an attack roll made with this weapon, the target must succeed a Constitution saving throw against your spell save DC or become stunned until the start of your next turn.</p><p>You can choose this upgrade up to two times, making a separate weapon each time.</p><p>\_</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+  activation:
+    type: ''
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: '1'
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+    scale: false
+  ability: ''
+  actionType: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + @mod
+        - bludgeoning
+      - - 1d4
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  properties:
+    - fin
+    - lgt
+  type:
+    value: class
+    subtype: upgrade
+  attack:
+    bonus: ''
+    flat: false
+  enchantment: null
+  summons: null
+  prerequisites:
+    level: null
+  requirements: Gadgetsmith 1
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.0
+  coreVersion: '11.315'
+  createdTime: 1721836970975
+  modifiedTime: 1721837056937
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_id: 6n1PE8ZY4g3e0gaO
+_key: '!items!6n1PE8ZY4g3e0gaO'
+

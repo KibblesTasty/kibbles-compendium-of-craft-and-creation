@@ -24,10 +24,11 @@ flags:
 system:
   description:
     value: >-
-      <p>You create a cloak that causes you to blend in with smoke. When you are
-      lightly or heavily obscured by smoke at the start of your turn, you are
-      invisible until your turn ends, or until you cast a spell, make an attack,
-      or deal damage to a creature.</p>
+      <p>You create a set of lenses that allow you to see through darkness and
+      obscurement, which you can integrate into a pair of goggles, glasses, or
+      other vision assistance. While using these lenses, you can see through
+      fog, mist, smoke, clouds, and nonmagical darkness out to a range of 15
+      feet.</p>
     chat: ''
     unidentified: ''
   source:
@@ -82,17 +83,17 @@ system:
   recharge:
     value: null
     charged: false
+  prerequisites:
+    level: 1
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '12.328'
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721434546182
+  modifiedTime: 1721837566411
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.jBf3ERfXpdjcOjKc
-  duplicateSource: null
 _key: '!items!FaTuUEDwYwArscJW'
 
