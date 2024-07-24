@@ -312,7 +312,7 @@ items:
         value: >-
           <p><strong>Crushing Descent.</strong> If the drake flies at least 20
           feet downward and then hits a target with a Crushing Stomp attack, the
-          target takes an extra 6 ([[/r 1d12]]) bludgeoning damage, and it must
+          target takes an extra [[/damage 1d12 bludgeoning average]] damage, and it must
           succeed on a DC 19 Strength saving throw or be knocked prone and
           grappled by the drake (escape DC 17). Until the grapple ends, the
           target is restrained and has disadvantage on Strength checks and
@@ -499,8 +499,8 @@ items:
           less than half of its hit points), it starts to crackle with arcs of
           lightning. Its Flaming Tar Breath automatically recharges, and any
           creature that hits it with a melee attack before the start of its next
-          turn (including the attack that bloodied it, if applicable) takes 6
-          ([[/r 1d12]]) lightning damage.</p>
+          turn (including the attack that bloodied it, if applicable) takes 
+          [[/damage 1d12 lightning average]] damage.</p>
         chat: ''
         unidentified: ''
       source: ''
@@ -1062,7 +1062,7 @@ items:
           <p><em><strong>Flaming Tar Breath (Recharge 5–6).</strong></em> The
           drake unleashes a blast of flaming tar in a 30-foot cone. Each
           creature in the area must make a DC 19 Dexterity saving throw. On a
-          failed save, a creature takes 45 ([[/r 13d6]]) fire damage and becomes
+          failed save, a creature takes [[/damage 13d6 fire average]] damage and becomes
           covered in a thick layer of flaming tar. On a successful save, the
           creature takes half as much damage and isn’t covered in tar. While a
           creature is covered in tar, its speed is halved and it takes 10 ([[/r

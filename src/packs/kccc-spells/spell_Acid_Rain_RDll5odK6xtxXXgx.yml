@@ -77,11 +77,11 @@ system:
       <p>Acid rain begins falling within a 40-foot-radius 60-foot-high cylinder
       centered on a point you choose within range. When a creature moves into
       the spell's area for the first time on a turn or starts its turn there,
-      the creature must succeed on a Dexterity saving throw or take [[/r 6d4]]
-      acid damage, and become covered in acid. On a successful save, a creature
+      the creature must succeed on a Dexterity saving throw or take [[/damage 6d4 acid]]
+      damage, and become covered in acid. On a successful save, a creature
       takes half the initial damage and is not covered in acid.</p>
 
-      <p>A creature takes [[/r 3d4]] acid damage if it ends its turn while
+      <p>A creature takes [[/damage 3d4 acid]] damage if it ends its turn while
       covered with acid. The target or a creature within 5 feet of it can end
       this damage by using its action to clear away the acid.</p>
     chat: ''

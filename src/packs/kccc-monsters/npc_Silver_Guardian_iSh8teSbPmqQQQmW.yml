@@ -945,7 +945,7 @@ items:
           4d6]] damage falling damage, and fall prone. If you fling them any
           other direction, they take [[/r 2d6]] damage and fall prone. If their
           movement would be stopped early by a creature or object, both the
-          target and creature or object takes [[/r 3d6]] bludgeoning damage.</p>
+          target and creature or object takes [[/damage 3d6 bludgeoning]] damage.</p>
         chat: ''
         unidentified: ''
       source: Kibbles' Casting Compendium
@@ -1246,7 +1246,7 @@ items:
 
           <p>As a bonus action while at least one stone remains in orbit, you
           can magically fling a stone at target within 60 feet. Make a ranged
-          spell attack roll. On hit, the target takes [[/r 3d10]] bludgeoning
+          spell attack roll. On hit, the target takes [[/damage 3d10 bludgeoning]]
           damage and is knocked backward 5 feet.</p>
         chat: ''
         unidentified: ''
@@ -1544,7 +1544,7 @@ items:
       ZltBRX3qCs8ZDdsL: 3
     system:
       description:
-        value: "<p>You create a sudden violent vortex that blasts outwards in a 30-foot cone, tossing characters and objects within the area. Creatures in the area take [[/r 2d6]] bludgeoning damage and must succeed a Strength saving throw or be knocked 20 feet backward and 40 feet upward.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>\n<p>\_</p>"
+        value: "<p>You create a sudden violent vortex that blasts outwards in a 30-foot cone, tossing characters and objects within the area. Creatures in the area take [[/damage 2d6 bludgeoning]] damage and must succeed a Strength saving throw or be knocked 20 feet backward and 40 feet upward.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>\n<p>\_</p>"
         chat: ''
         unidentified: ''
       source: Kibbles' Generic Elemental Spells

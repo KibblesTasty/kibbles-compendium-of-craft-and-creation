@@ -42,7 +42,7 @@ items:
         value: >-
           <p><strong>Burbling Acid.</strong> When the regurgitator takes damage
           from a creature within 5 feet of it, it hiccups a spray of acid at the
-          creature, dealing 3 ([[/r 1d6]]) acid damage to it.</p>
+          creature, dealing [[/damage 1d6 acid average]] damage to it.</p>
         chat: ''
         unidentified: ''
       source: ''
@@ -241,7 +241,7 @@ items:
           it, the regurgitator discharges a glob of twisted matter from the
           beyond. Non-aberration creatures within 10 feet of that point must
           make a DC 15 Dexterity saving throw. On failed save, a creature takes
-          10 ([[/r 4d4]]) acid damage and 9 ([[/r 2d8]]) psychic damage, and it
+          [[/damage 4d4 acid average]] damage and [[/damage 2d8 psychic average]] damage, and it
           has disadvantage on Intelligence, Wisdom, and Charisma saving throws
           until the start of regurgitator’s next turn. On a successful save, the
           creature takes half as much acid damage and no psychic damage, and it

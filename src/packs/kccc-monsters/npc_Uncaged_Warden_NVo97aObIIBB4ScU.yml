@@ -585,7 +585,7 @@ items:
           twists the world around it, draining the life from all nearby living
           creatures. When a living creature starts its turn within 60 feet of
           the warden, it must make a DC 17 Charisma saving throw. On failed
-          save, it takes 7 ([[/r 2d6]]) nectrotic damage.</p>
+          save, it takes [[/damage 2d6 nectrotic average]] damage.</p>
         chat: ''
         unidentified: ''
       source: ''
@@ -1123,12 +1123,12 @@ items:
         value: >-
           <p>You draw on the psychic energy of another creature you can see to
           sustain yourself. The target must make a Charisma saving throw. On
-          failure it takes [[/r 3d8]] psychic damage and you gain temporary hit
+          failure it takes [[/damage 3d8 psychic]] damage and you gain temporary hit
           points equal to half the amount of psychic damage dealt and regain one
           expended psi point.</p>
 
           <p>At Higher Levels: When you cast this spell using a spell slot of
-          3rd level or higher, the spell deals an additional [[/r 1d8]] psychic
+          3rd level or higher, the spell deals an additional [[/damage 1d8 psychic]]
           damage.</p>
         chat: ''
         unidentified: ''

@@ -1377,7 +1377,7 @@ items:
       ZltBRX3qCs8ZDdsL: 3
     system:
       description:
-        value: "<p>Whispering Madness. The sentinel is steeped in eldritch madness. If a creature starts its turn within 5 feet of the sentinel or while grappled by it, the creature must succeed on a DC 16 Wisdom saving throw or take 10 ([[/r 3d6]]) psychic damage and roll a [[/r d4]], suffering an additional condition until the start of its next turn, as noted in the following table.</p>\n<table style=\"width:100%;height:64px\" border=\"1\">\n<thead>\n<tr style=\"height:16px;background-color:#95a5a6;border-color:#34495e;text-align:center\">\n<td style=\"width:24.5583%;height:16px\">[[/r 1d4]]</td>\n<td style=\"width:75.4417%;height:16px\">Condition</td>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:24.5583%;height:16px\"><strong>1-2</strong></td>\n<td style=\"width:75.4417%;height:16px\">Frightened</td>\n</tr>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:24.5583%;height:16px\"><strong>3</strong></td>\n<td style=\"width:75.4417%;height:16px\">Blinded</td>\n</tr>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:24.5583%;height:16px\"><strong>4</strong></td>\n<td style=\"width:75.4417%;height:16px\">Paralyzed</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<p>\_</p>"
+        value: "<p>Whispering Madness. The sentinel is steeped in eldritch madness. If a creature starts its turn within 5 feet of the sentinel or while grappled by it, the creature must succeed on a DC 16 Wisdom saving throw or take [[/damage 3d6 psychic average]] damage and roll a [[/r d4]], suffering an additional condition until the start of its next turn, as noted in the following table.</p>\n<table style=\"width:100%;height:64px\" border=\"1\">\n<thead>\n<tr style=\"height:16px;background-color:#95a5a6;border-color:#34495e;text-align:center\">\n<td style=\"width:24.5583%;height:16px\">[[/r 1d4]]</td>\n<td style=\"width:75.4417%;height:16px\">Condition</td>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:24.5583%;height:16px\"><strong>1-2</strong></td>\n<td style=\"width:75.4417%;height:16px\">Frightened</td>\n</tr>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:24.5583%;height:16px\"><strong>3</strong></td>\n<td style=\"width:75.4417%;height:16px\">Blinded</td>\n</tr>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:24.5583%;height:16px\"><strong>4</strong></td>\n<td style=\"width:75.4417%;height:16px\">Paralyzed</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<p>\_</p>"
         chat: ''
         unidentified: ''
       source: ''
@@ -1571,7 +1571,7 @@ items:
           unleashes a psionic blast immediately (no action required), violently
           discharging the eldritch corruption within it. All creatures within 60
           feet of it must make a DC 16 Intelligence saving throw. On failed
-          save, a creature takes 21 ([[/r 6d6]]) psychic damage and becomes
+          save, a creature takes [[/damage 6d6 psychic average]] damage and becomes
           stunned until the end of its next turn. On successful save, the
           creature takes half as much damage and isn’t stunned. The range of
           Whispering Madness then increases to 60 feet until the sentinel dies

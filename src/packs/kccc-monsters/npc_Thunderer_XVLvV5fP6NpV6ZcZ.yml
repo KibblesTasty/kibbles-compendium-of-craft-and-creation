@@ -135,8 +135,8 @@ items:
       description:
         value: >-
           <p><strong>Devastating Blasts.</strong> When the thunderer misses an
-          attack with its thunder cannon, the target takes 3 ([[/r 1d6]])
-          thunder damage.</p>
+          attack with its thunder cannon, the target takes [[/damage 1d6 thunder average]]
+          damage.</p>
         chat: ''
         unidentified: ''
       source: ''
@@ -221,7 +221,7 @@ items:
       description:
         value: >-
           <p><strong>Thundermonger.</strong> When the thunderer hits with its
-          thunder cannon, the weapon deals an extra 7 ([[/r 2d6]]) thunder
+          thunder cannon, the weapon deals an extra [[/damage 2d6 thunder average]]
           damage (included in the attack).</p>
         chat: ''
         unidentified: ''
@@ -333,8 +333,8 @@ items:
         value: >-
           <p><em><strong>Thunder Cannon.</strong> Ranged Weapon Attack:</em> +6
           to hit, range 60/120 ft., one target. <em>Hit:</em> 10 ([[/r 1d12 +
-          4]]) plus 7 ([[/r 2d6]]) thunder damage. <em>Miss:</em> 3 ([[/r 1d6]])
-          thunder damage.</p>
+          4]]) plus [[/damage 2d6 thunder average]] damage. <em>Miss:</em> [[/damage 1d6 thunder average]]
+          damage.</p>
         chat: ''
         unidentified: ''
       source: ''

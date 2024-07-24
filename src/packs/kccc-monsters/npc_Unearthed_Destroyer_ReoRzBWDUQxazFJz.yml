@@ -64,7 +64,7 @@ items:
           <p><strong>Death Burst. </strong>When the destroyer is reduced to 0
           hit points, its power containment fails, unleashing massive
           destructive power. All creatures within 120 of it must make a DC 16
-          Constitution saving throw, taking 36 ([[/r 8d8]]) lightning damage on
+          Constitution saving throw, taking [[/damage 8d8 lightning average]] damage on
           a failed save, or half as much damage on a successful one. This damage
           is halved for creatures that are more than 60 feet away from the
           destroyer.</p>
@@ -398,7 +398,7 @@ items:
           can direct them at one target or several.</p>
 
           <p>Make a ranged spell attack for each arc. On a hit, the target takes
-          [[/r 1d12]] lightning damage. If three or more arcs hit a single
+          [[/damage 1d12 lightning]] damage. If three or more arcs hit a single
           target, they must make a Constitution saving throw or become shocked,
           stunning them until the start of their next turn.</p>
 
@@ -571,7 +571,7 @@ items:
           4d6]] damage falling damage, and fall prone. If you fling them any
           other direction, they take [[/r 2d6]] damage and fall prone. If their
           movement would be stopped early by a creature or object, both the
-          target and creature or object takes [[/r 3d6]] bludgeoning damage.</p>
+          target and creature or object takes [[/damage 3d6 bludgeoning]] damage.</p>
         chat: ''
         unidentified: ''
       source: Kibbles' Casting Compendium
@@ -735,7 +735,7 @@ items:
           <p>Every time that creature strikes another creature with a melee
           attack, a spell with a range of touch, is struck by another creature
           with a melee attack, or ends their turn while grappling or being
-          grappled by another creature, they deal [[/r 1d6]] lightning damage to
+          grappled by another creature, they deal [[/damage 1d6 lightning]] damage to
           that creature.</p>
 
           <p>Once this spell has discharged 6 times (dealing up to 6d6 damage),
@@ -898,7 +898,7 @@ items:
         value: >-
           <p>A massive arc of lightning leaps from your hand to a target you can
           see within range. The target must make a Constitution saving throw. On
-          a failed save, the target takes [[/r 4d12]] lightning damage and is
+          a failed save, the target takes [[/damage 4d12 lightning]] damage and is
           stunned until the start of your next turn. On a successful save, the
           target takes half as much damage and isn't stunned.</p>
 
@@ -1059,7 +1059,7 @@ items:
         value: >-
           <p>You release an arc of lighting at a creature within range. Make a
           ranged spell attack roll against the target. On hit, the target takes
-          [[/r 4d12]] lightning damage, and you can cause the spell to jump to
+          [[/damage 4d12 lightning]] damage, and you can cause the spell to jump to
           another target within 20 feet of the first target making a new attack
           roll for each target. The spell cannot hit the same target twice, or
           jump to a target out of the spells range. The spell can jump a maximum
@@ -1410,7 +1410,7 @@ items:
           <p><strong>Weak Point.</strong> When a creature within 10 feet of the
           destroyer makes an attack against it, the creature can target its
           power core. On a hit, the attack deals an extra 4 ([[/r 1d8]]) damage
-          to the destroyer, and the attacker takes 4 ([[/r 1d8]]) lightning
+          to the destroyer, and the attacker takes [[/damage 1d8 lightning average]]
           damage from the backlash.</p>
         chat: ''
         unidentified: ''
@@ -1520,7 +1520,7 @@ items:
           (reduced to less than half of its maximum hit points), it becomes too
           damaged to contain its massive power core. At the start of each of its
           turns, it and all creatures within 60 feet of it must make a DC 19
-          Constitution saving throw, taking 18 ([[/r 4d8]]) lightning damage on
+          Constitution saving throw, taking [[/damage 4d8 lightning average]] damage on
           a failed save, or half as much damage on a successful one. This is a
           runaway process that can’t be stopped once started. The third time
           this would occur, the destroyer is instead reduced to 0 hit points,
@@ -2003,7 +2003,7 @@ items:
           <p><strong>Annihilation Blast.</strong> The destroyer unleashes a
           blast of power in a 30-feet cone. Any spell of 7th level or lower in
           the area ends, and each creature in the area must make a DC 19
-          Dexterity saving throw, taking 27 ([[/r 6d8]]) lightning damage on a
+          Dexterity saving throw, taking [[/damage 6d8 lightning average]] damage on a
           failed save, or half as much damage on a successful one. Structures
           automatically take maximum damage from this effect.</p>
         chat: ''
@@ -2141,7 +2141,7 @@ items:
           hits, the target takes the bite’s damage, the target is swallowed, and
           the grapple ends. While swallowed, the creature is blinded and
           restrained, it has total cover against attacks and other effects
-          outside the destroyer, and it takes 22 ([[/r 5d8]]) lightning damage
+          outside the destroyer, and it takes [[/damage 5d8 lightning average]] damage
           at the start of each of the destroyer’s turns. If this damage kills
           the target, it is reduced to fine ash.</p>
 

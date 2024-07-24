@@ -596,13 +596,13 @@ items:
           <p><strong>Bite.</strong> Melee Weapon Attack: +9 to hit, reach 20
           ft., one target. Hit: 9 ([[/r 1d8 + 5]]) bludgeoning damage, and the
           target is grappled (escape DC 15). Until this grapple ends, the target
-          is restrained. A creature grappled in this way takes 7 ([[/r 3d4]])
-          piercing damage at the start of each of its turns. If a creature the
+          is restrained. A creature grappled in this way takes [[/damage 3d4 piercing average]]
+          damage at the start of each of its turns. If a creature the
           lurking maw is grappling in this way has 0 hit points at the start of
           the lurking maw’s turn, that creature is swallowed (no action
           required), and the grapple ends. While swallowed, the creature is
           blinded and restrained, it has total cover against attacks and other
-          effects outside the lurking maw, and it takes 14 ([[/r 4d6]]) acid
+          effects outside the lurking maw, and it takes [[/damage 4d6 acid average]]
           damage at the start of each of the lurking maw’s turns.</p>
 
           <p>If the lurking maw takes 20 damage or more on a single turn from a
@@ -887,9 +887,9 @@ items:
       description:
         value: >-
           <p><strong>Crush</strong>. The lurking maw crushes a target it is
-          grappling, dealing 7 ([[/r 2d6]]) bludgeoning damage to it. If the
-          target is grappled by the lurking maw’s bite, it takes an extra 3
-          ([[/r 1d6]]) piercing damage.</p>
+          grappling, dealing [[/damage 2d6 bludgeoning average]] damage to it. If the
+          target is grappled by the lurking maw’s bite, it takes an extra 
+          [[/damage 1d6 piercing average]] damage.</p>
         chat: ''
         unidentified: ''
       source: ''

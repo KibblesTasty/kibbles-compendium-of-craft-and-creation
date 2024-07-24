@@ -1601,8 +1601,8 @@ items:
       description:
         value: >-
           <p>You emit a blast of psychic energy. Each creature in a 60-foot cone
-          must make an Intelligence saving throw. A creature takes [[/r 6d8]]
-          psychic damage and is stunned until the end of their next turn on a
+          must make an Intelligence saving throw. A creature takes [[/damage 6d8 psychic]]
+          damage and is stunned until the end of their next turn on a
           failed save. A creature takes half as much damage and is not stunned
           on a successful save.</p>
         chat: ''
@@ -1764,7 +1764,7 @@ items:
 
           <p>As a bonus action while at least one stone remains in orbit, you
           can magically fling a stone at target within 60 feet. Make a ranged
-          spell attack roll. On hit, the target takes [[/r 3d10]] bludgeoning
+          spell attack roll. On hit, the target takes [[/damage 3d10 bludgeoning]]
           damage and is knocked backward 5 feet.</p>
         chat: ''
         unidentified: ''
@@ -3961,7 +3961,7 @@ items:
 
           <p>While in the inner world, the master has resistance to all damage,
           its spells don’t require concentration, and each creature of its
-          choice takes 7 ([[/r 2d6]]) psychic damage at the start of the each of
+          choice takes [[/damage 2d6 psychic average]] damage at the start of the each of
           the master’s turns. If the master dies, the inner world breaks,
           freeing all creatures inside it.</p>
         chat: ''
@@ -4075,7 +4075,7 @@ items:
           <p><em><strong>Palm Strike</strong>. Melee Weapon Attack: </em>+10 to
           hit, reach 5 ft., one target. <em>Hit:</em> [[/r 1]] bludgeoning
           damage. At the start of the target’s next turn, it must make a DC 18
-          Charisma saving throw, taking 65 ([[/r 10d12]]) psychic damage on a
+          Charisma saving throw, taking [[/damage 10d12 psychic average]] damage on a
           failed save, or half as much damage on a successful one.</p>
         chat: ''
         unidentified: ''
