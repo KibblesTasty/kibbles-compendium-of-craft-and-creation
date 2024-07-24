@@ -1314,6 +1314,8 @@ sort: 200000
 flags:
   core:
     sourceId: Actor.EpDaN6uHp54kGluk
+  dnd5e:
+    showTokenPortrait: false
 system:
   abilities:
     str:
@@ -1369,9 +1371,9 @@ system:
       bonus: 0
     movement:
       burrow: 0
-      climb: 0
+      climb: 30
       fly: 0
-      swim: 0
+      swim: 30
       walk: 30
       units: ft
       hover: false
@@ -1667,10 +1669,10 @@ prototypeToken:
   detectionModes: []
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.0
+  systemVersion: 3.3.1
   coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721697585652
+  modifiedTime: 1721839760375
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!actors!roHaNhhldqWe1KbC'
 

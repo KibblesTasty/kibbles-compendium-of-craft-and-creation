@@ -1,0 +1,112 @@
+folder: OeZ3t5FRhCcQfrv9
+name: Telekinetic Weapons
+type: feat
+_id: PzEnSqEAYsqoG33H
+img: icons/weapons/swords/sword-runed-glowing.webp
+system:
+  description:
+    value: >-
+      <p>You telekinetically fling a weapon at a creature or object. Choose a
+      weapon within 15 feet that isn’t being worn or carried, or choose a weapon
+      under your control. Make a ranged spell attack. On hit the target takes
+      damage equal to the weapon’s damage dice. The range of the attack
+      decreases to 15 feet if the weapon has the heavy or special property, and
+      increases to 60 feet if the weapon has the light property.</p><p>You can
+      use Psionic Mastery points on this power, and this power counts as a
+      Discipline Power of the Telekinetics Discipline (for example, for the
+      purpose of Empowered Psionics).</p><p>You can spend psi points up to your
+      per use limit to add the following modifiers to Telekinetic Weapons (you
+      can add multiple modifiers). The points must be spent when choosing the
+      target of the power.</p><p><strong>Multiple (1+ psi points):</strong> For
+      each additional psi point spent, you can fling an additional weapon,
+      making a separate attack and damage roll for each weapon
+      flung</p><blockquote><p><strong>Flinging Magic
+      Weapons</strong></p><p>Strictly ruled-as-written, most magic weapon
+      properties wouldn’t apply to Telekinetic Weapons, but personally I would
+      grant a flung +1 weapon its +1 to attack and damage rolls. However, if you
+      allow this, this should not be allowed to stack with any sort of focus or
+      magic item that grants bonuses to spell attack rolls. Only one bonus
+      should apply to a given roll.</p><p>Keep in mind that there’s not
+      inherently a way to get your weapon back, though you may be able to with
+      other Psion abilities (such as Telekinetic Hands), so flinging magic
+      weapons may not be an ideal tactic for longer ranges.</p></blockquote>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: '1'
+    width: null
+    units: ''
+    type: creatureOrObject
+    prompt: true
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: class
+    subtype: psionicPower
+  prerequisites:
+    level: null
+  properties: []
+  requirements: 'Components: S'
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  coreVersion: '11.315'
+  createdTime: 1721840041575
+  modifiedTime: 1721840401576
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!PzEnSqEAYsqoG33H'
+

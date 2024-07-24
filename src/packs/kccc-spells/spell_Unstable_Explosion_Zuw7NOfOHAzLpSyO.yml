@@ -42,16 +42,14 @@ system:
   description:
     value: >-
       <p>You cause an unstable explosion to erupt at a point of your choice
-      within range, rolling [[/r 3d6]]. For each die that rolls a 6, roll an
-      additional d6 and the radius of the spell expands by 5 feet. Each creature
-      within the final range of the spell must make a Dexterity saving throw. On
-      a failed save, they take fire damage equal to the total value of the
-      rolled dice. On a success the target, the target takes half as much fire
-      damage.</p>
-
-      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
-      using a spell slot of 3rd level or higher, the damage increases by [[/r
-      1d6]] for each slot level above 2nd.</p>
+      within range, rolling 3d6. For each die that rolls a 6, roll an additional
+      d6 and the radius of the spell expands by 5 feet. Each creature within the
+      final range of the spell must make a Dexterity saving throw. On a failed
+      save, they take fire damage equal to the total value of the rolled dice.
+      On a success the target, the target takes half as much fire
+      damage.</p><p><em><strong>At Higher Levels.</strong></em> When you cast
+      this spell using a spell slot of 3rd level or higher, the damage increases
+      by 1d6 for each slot level above 2nd.</p>
     chat: ''
     unidentified: ''
   source:
@@ -93,7 +91,7 @@ system:
     damage: ''
   damage:
     parts:
-      - - 3d6
+      - - 3d6x
         - fire
     versatile: ''
   formula: ''
@@ -126,12 +124,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 3.2.1
-  coreVersion: '12.328'
+  systemVersion: 3.3.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721353291675
+  modifiedTime: 1721839914101
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.T2XhGJKFBo9sUArh
-  duplicateSource: null
 _key: '!items!Zuw7NOfOHAzLpSyO'
 

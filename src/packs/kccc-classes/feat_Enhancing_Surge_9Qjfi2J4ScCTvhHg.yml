@@ -34,7 +34,7 @@ flags:
     sourceId: Item.ATQR5iDxv6X5UuXu
 system:
   description:
-    value: "<p>You empower the body of a target creature you can see with your psionics. The target gains [[/r 1d6]] temporary hit points and the next time the target deals damage, it deals [[/r 1d6]] additional damage to one target of that damage roll. Any remaining temporary hit points from this power fade when you use it again.</p>\n<p>You can spend psi points up to your per use limit to add the following modifiers to Enhancing Surge (you can add multiple modifiers). The points must be spent when choosing the target of the power.</p>\n<p><strong>Fortifying (1+ psi points):</strong> The target gains an extra 1d6 temporary hit points for each point spent.\_</p>\n<p><strong>Resilient (3 psi points):</strong> The target gains resistance to all damage until the start of your next turn.</p>\n<p><strong>Savage (1+ psi points):</strong> The target’s next weapon attack deals 1d6 additional damage for each point spent.</p>\n<p><strong>Swift (2 psi points): </strong>The target gains an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.</p>"
+    value: "<p>You empower the body of a target creature you can see with your psionics. The target gains [[/healing 1d6 temp]] hit points and the next time the target deals damage, it deals [[/r 1d6]] additional damage to one target of that damage roll. Any remaining temporary hit points from this power fade when you use it again.</p><p>You can spend psi points up to your per use limit to add the following modifiers to Enhancing Surge (you can add multiple modifiers). The points must be spent when choosing the target of the power.</p><p><strong>Fortifying (1+ psi points):</strong> The target gains an extra 1d6 temporary hit points for each point spent.\_</p><p><strong>Resilient (3 psi points):</strong> The target gains resistance to all damage until the start of your next turn.</p><p><strong>Savage (1+ psi points):</strong> The target’s next weapon attack deals 1d6 additional damage for each point spent.</p><p><strong>Swift (2 psi points): </strong>The target gains an additional action. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.</p>"
     chat: ''
     unidentified: ''
   source:
@@ -89,7 +89,7 @@ system:
   type:
     value: class
     subtype: psionicPower
-  requirements: Enhancement 1
+  requirements: 'Components: S'
   recharge:
     value: null
     charged: false
@@ -98,10 +98,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.0
+  systemVersion: 3.3.1
   coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721802931982
+  modifiedTime: 1721840582832
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!9Qjfi2J4ScCTvhHg'
 

@@ -4999,6 +4999,8 @@ sort: 125000
 flags:
   core:
     sourceId: Actor.xtgBz4EVVCHP0a2K
+  dnd5e:
+    showTokenPortrait: false
 system:
   abilities:
     str:
@@ -5059,7 +5061,7 @@ system:
       swim: 0
       walk: 30
       units: ft
-      hover: false
+      hover: true
     attunement:
       max: 3
     senses:
@@ -5376,10 +5378,10 @@ prototypeToken:
   detectionModes: []
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.0
+  systemVersion: 3.3.1
   coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721697585652
+  modifiedTime: 1721839832548
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!actors!5pZ5hnl3wYgrXXnn'
 

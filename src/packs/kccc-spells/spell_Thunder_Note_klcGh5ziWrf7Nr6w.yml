@@ -64,25 +64,24 @@ system:
     value: >-
       <p>You emit a crashing bang with a localized point of intensity targeting
       a creature within range. The target must succeed on a Constitution saving
-      throw or take [[/r 1d8]] thunder damage and become deafened until the
+      throw or take [[/damage 1d8 thunder]] damage and become deafened until the
       start of their next turn. Constitution saving throws to maintain
       concentration on spells triggered by this damage are made with
-      disadvantage.</p>
-
-      <p>This spell's damage increases by 1d8 when you reach 5th level ([[/r
-      2d8]]), 11th level ([[/r 3d8]]), and 17th level ([[/r 4d8]]).</p>
+      disadvantage.</p><p>This spell's damage increases by 1d8 when you reach
+      5th level ([[/damage 2d8 thunder]]), 11th level ([[/damage 3d8 thunder]]),
+      and 17th level ([[/damage 4d8 thunder]]).</p>
     chat: ''
     unidentified: ''
   source:
     book: KCCC
     custom: ''
   activation:
-    type: ''
+    type: action
     cost: 0
     condition: ''
   duration:
     value: null
-    units: ''
+    units: inst
   cover: null
   crewed: false
   target:
@@ -91,9 +90,9 @@ system:
     units: ''
     type: ''
   range:
-    value: null
+    value: 60
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
@@ -103,19 +102,21 @@ system:
     type: ''
     target: null
     amount: null
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: save
   attackBonus: 0
   chatFlavor: ''
   critical:
     threshold: null
     damage: null
   damage:
-    parts: []
+    parts:
+      - - 1d8
+        - thunder
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: con
     dc: null
     scaling: spell
   level: 1
@@ -136,7 +137,7 @@ system:
     mode: prepared
     prepared: false
   scaling:
-    mode: none
+    mode: cantrip
     formula: ''
   properties:
     - vocal
@@ -146,12 +147,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
+  systemVersion: 3.3.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: 1721364563617
+  modifiedTime: 1721839647806
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.4ayHkFUO9RtRNPob
-  duplicateSource: null
 _key: '!items!klcGh5ziWrf7Nr6w'
 
