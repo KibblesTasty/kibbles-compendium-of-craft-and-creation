@@ -1,10 +1,8 @@
-_id: G0NmNY8Mb3avA94U
-name: 'Stormforged Weapon: Thunder Cannon'
+name: Thunder Shotgun
 type: weapon
 img: icons/weapons/guns/gun-topbarrel.webp
 effects: []
-folder: YvZ3aPFjcVblIPng
-sort: 175000
+folder: mrAxqAMhnMsjW6Gj
 flags:
   betterRolls5e:
     quickDesc:
@@ -38,63 +36,76 @@ flags:
         '0': true
       altValue:
         '0': true
-  core:
-    sourceId: Item.yDARSTPFgklfEYM6
+  core: {}
 system:
   description:
     value: >-
       <p>You use the power of thunder to launch a projectile with terrible
       power, if limited accuracy, over long distances. Ringing out with a
-      booming crash, it brings fear to the battlefield.</p>
+      booming crash, it brings fear to the battlefield.</p><p>A special cannon
+      made to devastate at close range. This weapon has a range of 30/90, but
+      doesn’t suffer disadvantage when there is a creature within melee range of
+      you. It deals [[/damage 4d4]] damage to targets within 10 feet, [[/damage
+      3d4]] damage to targets within 20 feet, [[/damage 2d4]] damage to targets
+      within 30 feet, and [[/damage 1d4]] damage to targets beyond 30 feet. This
+      weapon has advantage on targets within 10 feet of you so long as there is
+      nothing between you and the target.</p><p>This weapon must be reloaded
+      with your bonus action once fired, and has disadvantage on all attacks if
+      you have a Strength of 12 or less.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
   quantity: 1
-  weight: 15
-  price: 200
-  attunement: 0
+  weight:
+    value: 15
+    units: lb
+  price:
+    value: 200
+    denomination: gp
+  attunement: ''
   equipped: false
-  rarity: common
+  rarity: uncommon
   identified: true
   activation:
     type: action
     cost: 1
     condition: ''
   duration:
-    value: null
+    value: ''
     units: inst
   cover: null
   crewed: false
   target:
-    value: 1
+    value: '1'
     width: null
     units: ''
     type: creature
+    prompt: true
   range:
-    value: 60
-    long: 180
+    value: 30
+    long: 90
     units: ft
   uses:
     value: null
     max: ''
-    per: ''
+    per: null
     recovery: ''
+    prompt: true
   consume:
     type: ''
     target: ''
     amount: null
+    scale: false
   ability: ''
   actionType: rwak
-  attackBonus: '0'
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
     parts:
-      - - 1d12 + @mod
+      - - 1d4 + @mod
         - piercing
     versatile: ''
   formula: ''
@@ -109,38 +120,37 @@ system:
     max: 0
     dt: null
     conditions: ''
-  weaponType: simpleM
-  baseItem: ''
   properties:
-    ada: true
-    amm: false
-    fin: false
-    fir: true
-    foc: false
-    hvy: false
-    lgt: false
-    lod: true
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: false
-    thr: false
-    two: true
-    ver: false
-  proficient: true
+    - ada
+    - fir
+    - lod
+    - two
+  proficient: 1
+  unidentified:
+    description: ''
   type:
-    value: simpleR
+    value: simpleM
+    baseItem: ''
+  attack:
+    bonus: ''
+    flat: false
+  container: null
+  attuned: false
+  enchantment: null
+  summons: null
+  magicalBonus: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721844102226
+  createdTime: 1721844037868
+  modifiedTime: 1721844888987
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!items!G0NmNY8Mb3avA94U'
+_id: smpKe5Jpe0RuzmD4
+sort: 0
+_key: '!items!smpKe5Jpe0RuzmD4'
 

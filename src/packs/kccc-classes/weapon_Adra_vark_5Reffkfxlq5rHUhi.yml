@@ -1,10 +1,8 @@
-_id: pJufTQrfmH6WWJxb
-name: 'Stormforged Weapon: Hand Cannon'
+name: Adra'vark
 type: weapon
 img: icons/weapons/guns/gun-pistol-brass.webp
 effects: []
-folder: YvZ3aPFjcVblIPng
-sort: 475000
+folder: mrAxqAMhnMsjW6Gj
 flags:
   betterRolls5e:
     quickDesc:
@@ -38,40 +36,48 @@ flags:
         '0': true
       altValue:
         '0': true
-  core:
-    sourceId: Item.Qg2XaU46ZErbuuen
+  core: {}
 system:
   description:
     value: >-
       <p>Forgoing the guiding barrel, this pack uses the thundering power to
       launch a projectile with all the force of a Cannon, though its effective
-      range is far more limited.</p>
+      range is far more limited.</p><p>A single piece of worked stone, it has
+      twisting alien runes worked across the length. When fired, this Hand
+      Cannon fires bolts of pure force energy and doesn’t consume ammunition,
+      and lacks the loud property.</p><p>Any Thundermonger damage applied by
+      this weapon becomes force damage. When applying Thundermonger damage to
+      undead, the dice become d8s.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
   quantity: 1
-  weight: 5
-  price: 200
-  attunement: 0
+  weight:
+    value: 5
+    units: lb
+  price:
+    value: 200
+    denomination: gp
+  attunement: required
   equipped: false
-  rarity: common
+  rarity: rare
   identified: true
   activation:
     type: action
     cost: 1
     condition: ''
   duration:
-    value: null
+    value: ''
     units: inst
   cover: null
   crewed: false
   target:
-    value: 1
+    value: '1'
     width: null
     units: ''
     type: creature
+    prompt: true
   range:
     value: 30
     long: 90
@@ -79,15 +85,16 @@ system:
   uses:
     value: null
     max: ''
-    per: ''
+    per: null
     recovery: ''
+    prompt: true
   consume:
     type: ''
     target: ''
     amount: null
+    scale: false
   ability: ''
   actionType: rwak
-  attackBonus: '0'
   chatFlavor: ''
   critical:
     threshold: null
@@ -109,38 +116,37 @@ system:
     max: 0
     dt: null
     conditions: ''
-  weaponType: simpleM
-  baseItem: ''
   properties:
-    ada: false
-    amm: true
-    fin: false
-    fir: true
-    foc: false
-    hvy: false
-    lgt: true
-    lod: true
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: false
-    thr: false
-    two: false
-    ver: false
-  proficient: true
+    - amm
+    - fir
+    - lgt
+    - lod
+  proficient: 1
+  unidentified:
+    description: ''
   type:
     value: simpleR
+    baseItem: ''
+  attack:
+    bonus: ''
+    flat: false
+  container: null
+  attuned: false
+  enchantment: null
+  summons: null
+  magicalBonus: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  pJeIW7qCa0HkURWq: 3
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721844110951
+  createdTime: 1721844029977
+  modifiedTime: 1721844597168
   lastModifiedBy: pJeIW7qCa0HkURWq
-_key: '!items!pJufTQrfmH6WWJxb'
+_id: 5Reffkfxlq5rHUhi
+sort: 100000
+_key: '!items!5Reffkfxlq5rHUhi'
 

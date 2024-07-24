@@ -1,0 +1,140 @@
+folder: HQDX19hupuY9t2ss
+name: Consecrated Weapon
+type: feat
+_id: MmT4pK0zNI0OURwQ
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+system:
+  description:
+    value: >-
+      <p>You gain the ability to focus divine energy into a weapon. As a bonus
+      action, you can touch a weapon, consecrating it. For 10 minutes, the
+      weapon emits bright light in a 30-foot radius and dim light for an
+      additional 30 feet. It deals an extra 1d8 radiant damage on hit while
+      under this effect. If the weapon houses your Divine Relic, the damage is
+      instead increased by 2d8 radiant damage. While consecrated, the wielder of
+      the weapon is under the effect of the spell protection from evil and
+      good.</p><p> Once you use this ability, you can’t use it again until you
+      finish a long rest, unless you expend a 5th-level spell slot to, allowing
+      you to use it again.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: '1'
+    width: null
+    units: ''
+    type: object
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: ench
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment:
+    classIdentifier: ''
+    restrictions:
+      allowMagical: false
+      type: weapon
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: class
+    subtype: upgrade
+  prerequisites:
+    level: 19
+  properties: []
+  requirements: Relicsmith 19
+  recharge:
+    value: null
+    charged: false
+effects:
+  - name: Consecrated Weapon
+    icon: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    _id: EJbK3Wr0sbWb8VIv
+    changes:
+      - key: system.damage.parts
+        mode: 2
+        value: '[["1d8", "radiant"]]'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 100
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>For 10 minutes, the weapon emits bright light in a 30-foot radius and
+      dim light for an additional 30 feet. It deals an extra 1d8 radiant damage
+      on hit while under this effect. If the weapon houses your Divine Relic,
+      the damage is instead increased by 2d8 radiant damage. While consecrated,
+      the wielder of the weapon is under the effect of the spell protection from
+      evil and good.</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: null
+    _key: '!items.effects!MmT4pK0zNI0OURwQ.EJbK3Wr0sbWb8VIv'
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  coreVersion: '11.315'
+  createdTime: 1721842541074
+  modifiedTime: 1721842693123
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!MmT4pK0zNI0OURwQ'
+

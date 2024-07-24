@@ -1,0 +1,93 @@
+folder: HQDX19hupuY9t2ss
+name: Replicated Legend
+type: feat
+_id: GxH9DQBJYgZk2ZiN
+img: icons/consumables/potions/potion-faceted-corked-blue.webp
+system:
+  description:
+    value: >-
+      <p>Combining your mastery of reactions and alchemical infusions, you
+      create an unstable replica of a very rare or legendary potion. You can
+      create this potion as an action, which lasts 1 minute or until consumed,
+      having the effect of the potion it replicates. Once you do this, you can’t
+      do so again until you finish a long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: class
+    subtype: upgrade
+  prerequisites:
+    level: 19
+  properties: []
+  requirements: Potionsmith 19
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  coreVersion: '11.315'
+  createdTime: 1721842110417
+  modifiedTime: 1721842879258
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!GxH9DQBJYgZk2ZiN'
+

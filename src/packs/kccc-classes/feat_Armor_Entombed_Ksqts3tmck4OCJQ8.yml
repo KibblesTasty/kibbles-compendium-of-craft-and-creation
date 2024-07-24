@@ -1,0 +1,138 @@
+folder: HQDX19hupuY9t2ss
+name: Armor Entombed
+type: feat
+_id: Ksqts3tmck4OCJQ8
+img: icons/creatures/magical/construct-stone-earth-gray.webp
+system:
+  description:
+    value: >-
+      <p>If your armor is perfect, why would you ever need to remove it? Your
+      armor is considered both Integrated Armor and Warplate, and you can select
+      the base AC and properties of either armor set, and select armor with
+      either prerequisite as a prerequisite (though you can’t select upgrades
+      that are incompatible with either type). </p><p>Your creature type becomes
+      construct. You are immune to disease, and you gain immunity to poison
+      damage and the poisoned condition. You no longer need to eat, drink, or
+      sleep, though you must remain inactive for a minimum of 4 hours during a
+      long rest to allow your systems to recharge. You can absorb certain types
+      of healing magic, allowing you to recover hit points from magical effects
+      that do not otherwise affect constructs (such as the cure wounds
+      spell).</p>
+    chat: ''
+  source:
+    book: KCCC
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: class
+    subtype: upgrade
+  prerequisites:
+    level: 5
+  properties: []
+  requirements: Warsmith 5, Warplate or Integrated Armor
+  recharge:
+    value: null
+    charged: false
+effects:
+  - name: Armor Entombed
+    icon: icons/creatures/magical/construct-stone-earth-gray.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.Ksqts3tmck4OCJQ8
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: false
+    flags:
+      dnd5e: {}
+    _id: hMMywiM4Bo3KBraB
+    changes:
+      - key: system.traits.type.value
+        mode: 5
+        value: construct
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: poisoned
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: diseased
+        priority: null
+      - key: system.traits.di.value
+        mode: 2
+        value: poison
+        priority: null
+    description: ''
+    transfer: true
+    statuses: []
+    tint: null
+    _key: '!items.effects!Ksqts3tmck4OCJQ8.hMMywiM4Bo3KBraB'
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  coreVersion: '11.315'
+  createdTime: 1721841584495
+  modifiedTime: 1721841892474
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!Ksqts3tmck4OCJQ8'
+
