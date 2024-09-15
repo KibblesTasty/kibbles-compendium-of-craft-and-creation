@@ -22,67 +22,40 @@ flags:
     sourceId: Item.oslOFsFwvpeMkx17
 _id: P71koGLvTJihvT5a
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.oslOFsFwvpeMkx17
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721776764921
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385614989
+  modifiedTime: 1726385614989
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: "<p>At 1st level, the Ancient Intelligence lets you choose from an expanded list of spells when you learn a warlock spell. The Ancient Intelligence Spells table shows the spells that are added to the warlock spell list for you:</p><table border=\"1\"><thead><tr><th><p><strong>Spell Level</strong></p></th><th><p><strong>Ancient Intelligence Spells</strong></p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@Compendium[dnd5e.spells.3OZnNhunvRtPOQmH]{Identify} \_@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.7T4VjLEr2f4tPNQW]{Seeking Projectile}</p></td></tr><tr><td><p>2nd</p></td><td><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.X7ISy15oxVpd7Tn5]{Animate Object}\_ @Compendium[dnd5e.spells.SleYkHovQ8NagmeV]{Locate Object}</p></td></tr><tr><td><p>3rd</p></td><td><p>@Compendium[dnd5e.spells.cg50KpBkBdPK6vPL]{Clairvoyance} @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.UO8phYaLkicTLHZB]{Crushing Singularity}</p></td></tr><tr><td><p>4th</p></td><td><p>@Compendium[dnd5e.spells.ImlCJQwR1VL40Qem]{Arcane Eye} @Compendium[dnd5e.spells.gXtzz9t1DTzJeLr4]{Locate Creature}</p></td></tr><tr><td><p>5th</p></td><td><p>@Compendium[dnd5e.spells.a2KJHCIbY5Mi4Dmn]{Arcane Hand} @Compendium[dnd5e.spells.d54VDyFulD9xxY7J]{Commune}</p></td></tr></tbody></table>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: The Ancient Intelligence 1
-  recharge:
-    value: null
-    charged: false
   type:
     value: class
+    subtype: ''
+  identifier: the-ancient-intelligence-expanded-spell-list
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _key: '!items!P71koGLvTJihvT5a'
 

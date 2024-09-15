@@ -22,59 +22,14 @@ system:
     book: KCCC
     page: ''
     license: ''
-  activation:
-    type: bonus
-    cost: 1
-    condition: ''
-  duration:
-    value: '10'
-    units: minute
-  cover: null
-  crewed: false
-  target:
-    value: '1'
-    width: null
-    units: ''
-    type: object
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: touch
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '1'
-    per: lr
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ench
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment:
-    classIdentifier: ''
-    restrictions:
-      allowMagical: false
-      type: weapon
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
   type:
     value: class
     subtype: upgrade
@@ -82,15 +37,82 @@ system:
     level: 19
   properties: []
   requirements: Relicsmith 19
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: enchant
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '10'
+        units: minute
+        special: ''
+        override: false
+      effects:
+        - _id: EJbK3Wr0sbWb8VIv
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+            activity: []
+            item: []
+      range:
+        units: touch
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: object
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      enchant:
+        identifier: ''
+      restrictions:
+        allowMagical: false
+        type: weapon
+        categories: []
+        properties: []
+      sort: 0
+  identifier: consecrated-weapon
+  enchant: {}
 effects:
   - name: Consecrated Weapon
-    icon: icons/magic/holy/projectiles-blades-salvo-yellow.webp
     flags:
       dnd5e:
-        type: enchantment
         enchantment:
           level:
             min: null
@@ -122,19 +144,40 @@ effects:
     origin: null
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+    type: enchantment
+    system: {}
+    sort: 0
     _key: '!items.effects!MmT4pK0zNI0OURwQ.EJbK3Wr0sbWb8VIv'
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
-  createdTime: 1721842541074
-  modifiedTime: 1721842693123
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385694560
+  modifiedTime: 1726385694560
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!MmT4pK0zNI0OURwQ'
 

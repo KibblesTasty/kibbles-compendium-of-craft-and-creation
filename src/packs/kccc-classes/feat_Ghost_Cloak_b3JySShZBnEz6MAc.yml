@@ -25,70 +25,37 @@ system:
   description:
     value: "<p><em>\_(You can only wear 1 cloak at a time.)</em></p>\n<p><em>Attunement, Cursed</em></p>\n<p>You craft a cloak that chips away at your bonds to the material world around you. At the start of your turn while wearing the cloak, you can choose to slip those bonds entirely, stepping into the ethereal plane. Moving through creatures doesn’t impose a movement penalty, and you can move through objects up to 5 feet thick as difficult terrain. If you end your turn in another creature or object's space, you are moved to the nearest available space, taking 1d10 force damage per five feet moved.</p>\n<p>Once you activate this item, you can’t activate it again until you finish a short or long rest.</p>\n<p><strong>Curse:</strong> After leaving the Ethereal plane, until the start of your next turn you appear vaguely translucent, all damage you deal is reduced by half, and you have resistance to non-magical bludgeoning, piercing and slashing damage.</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: upgrade
   requirements: Cursesmith 11
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 11
+  identifier: ghost-cloak
+  activities: {}
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.xLN72VESUNTIReZR
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721836343926
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385704028
+  modifiedTime: 1726385704028
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!b3JySShZBnEz6MAc'
 

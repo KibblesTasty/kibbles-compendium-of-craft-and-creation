@@ -35,6 +35,10 @@ flags:
         '0': true
   core:
     sourceId: Item.xHMMKQe4FhqZiRf0
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -50,72 +54,104 @@ system:
       2nd-level spell, and it increases again when you reach 11th level (as a
       3rd-level spell) and 17th level (as a 4th-level spell).</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
-    value: 15
-    width: null
-    units: ft
-    type: cone
-  range:
-    value: null
-    long: null
-    units: self
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 3d6
-        - force
-    versatile: ''
-  formula: ''
-  save:
-    ability: dex
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: upgrade
   requirements: Golemsmith 3
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: cone
+          size: '15'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 6
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: flamethrower-armament
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.xHMMKQe4FhqZiRf0
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721836343926
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385705540
+  modifiedTime: 1726385705540
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!eGnQOQRSJKpEG0rh'
 

@@ -35,70 +35,37 @@ system:
       other creatures in the radius become a target of the attack as if using
       the power normally.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: psionicTalent
   requirements: Psychokinesis or Telekinetics Discipline
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 1
+  identifier: empowered-strike
+  activities: {}
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.CmegesusEOvHaI5m
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721802728063
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385669191
+  modifiedTime: 1726385669191
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!6Z7SUp6g4UO0qEt6'
 

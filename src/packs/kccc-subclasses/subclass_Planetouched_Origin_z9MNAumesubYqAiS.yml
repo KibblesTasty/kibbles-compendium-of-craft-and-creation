@@ -9,15 +9,18 @@ flags:
     sourceId: Item.Kjl0gbmI5lVT1SM8
 _id: z9MNAumesubYqAiS
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.Kjl0gbmI5lVT1SM8
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721763862547
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385616827
+  modifiedTime: 1726385616827
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -30,10 +33,11 @@ system:
       Planetouched. You can optionally roll or select a quirk that suits your
       character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.H90EZ4J7tVJyQ88D]</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
+    rules: '2014'
+    revision: 1
   identifier: planetouched
   classIdentifier: sorcerer
   advancement:
@@ -100,5 +104,6 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 _key: '!items!z9MNAumesubYqAiS'
 

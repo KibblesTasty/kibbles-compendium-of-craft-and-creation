@@ -20,69 +20,105 @@ flags:
       altValue: true
   core:
     sourceId: Item.THtuuuTVU6vjmLMf
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 2
 _id: ryJXt06d4zintCMK
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.THtuuuTVU6vjmLMf
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721776526537
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385616445
+  modifiedTime: 1726385616445
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: "<p>Additionally at 1st level, when targeting a creature with a Warlock spell or attack roll, you can use your @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2n6Vo1Ie0MkeCtL]{Telepathic Intrusion} on them as a bonus action, assaulting them on both a physical and psychic level.</p><p>You can do this a number of times equal to your proficiency bonus, regaining all uses on a long rest. You can only use Telepathic Intrusion through this feature under the conditions it sets, unless you obtain it from another source.</p><p>\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: bonus
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: 2
     max: '@prof'
-    per: lr
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: That Which Is Beyond 1
-  recharge:
-    value: null
-    charged: false
   type:
     value: class
+    subtype: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: psychic-onslaught
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _key: '!items!ryJXt06d4zintCMK'
 

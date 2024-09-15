@@ -22,17 +22,18 @@ flags:
     sourceId: Item.7TF6FVw86a5EET3Q
 _id: NHRYZhUU3NM5HtBM
 _stats:
-  coreVersion: '12.329'
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721443759509
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.7TF6FVw86a5EET3Q
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385614857
+  modifiedTime: 1726385614857
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -40,54 +41,24 @@ system:
       gain its power as a 1st-level spell. Roll again on the Psionic Madness
       table.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: Order of the Unknown 6
-  recharge:
-    value: null
-    charged: false
   type:
     value: class
+    subtype: ''
+  identifier: branching-studies
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _key: '!items!NHRYZhUU3NM5HtBM'
 

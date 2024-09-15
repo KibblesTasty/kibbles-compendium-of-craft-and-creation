@@ -26,7 +26,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -113,7 +113,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -200,7 +200,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -285,7 +285,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -379,7 +379,7 @@ items:
           altValue:
             use: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -472,7 +472,7 @@ items:
       core:
         sourceId: Item.094090din8bu19vk
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -579,7 +579,7 @@ items:
             '0': true
             '1': true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -596,14 +596,14 @@ items:
           <p><strong>Bite.</strong> Melee Weapon Attack: +9 to hit, reach 20
           ft., one target. Hit: 9 ([[/r 1d8 + 5]]) bludgeoning damage, and the
           target is grappled (escape DC 15). Until this grapple ends, the target
-          is restrained. A creature grappled in this way takes [[/damage 3d4 piercing average]]
-          damage at the start of each of its turns. If a creature the
-          lurking maw is grappling in this way has 0 hit points at the start of
-          the lurking maw’s turn, that creature is swallowed (no action
-          required), and the grapple ends. While swallowed, the creature is
-          blinded and restrained, it has total cover against attacks and other
-          effects outside the lurking maw, and it takes [[/damage 4d6 acid average]]
-          damage at the start of each of the lurking maw’s turns.</p>
+          is restrained. A creature grappled in this way takes [[/damage 3d4
+          piercing average]] damage at the start of each of its turns. If a
+          creature the lurking maw is grappling in this way has 0 hit points at
+          the start of the lurking maw’s turn, that creature is swallowed (no
+          action required), and the grapple ends. While swallowed, the creature
+          is blinded and restrained, it has total cover against attacks and
+          other effects outside the lurking maw, and it takes [[/damage 4d6 acid
+          average]] damage at the start of each of the lurking maw’s turns.</p>
 
           <p>If the lurking maw takes 20 damage or more on a single turn from a
           creature inside it, the lurking maw must succeed on a DC 18
@@ -735,7 +735,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -872,7 +872,7 @@ items:
           altValue:
             resource: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -887,9 +887,9 @@ items:
       description:
         value: >-
           <p><strong>Crush</strong>. The lurking maw crushes a target it is
-          grappling, dealing [[/damage 2d6 bludgeoning average]] damage to it. If the
-          target is grappled by the lurking maw’s bite, it takes an extra 
-          [[/damage 1d6 piercing average]] damage.</p>
+          grappling, dealing [[/damage 2d6 bludgeoning average]] damage to it.
+          If the target is grappled by the lurking maw’s bite, it takes an
+          extra  [[/damage 1d6 piercing average]] damage.</p>
         chat: ''
         unidentified: ''
       source: ''
@@ -963,7 +963,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1057,7 +1057,7 @@ items:
           altValue:
             charge: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1149,7 +1149,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1242,7 +1242,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1635,6 +1635,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -1654,6 +1656,10 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -1667,12 +1673,26 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
-  coreVersion: '11.315'
+  coreVersion: '12.330'
   createdTime: null
   modifiedTime: 1721839760375
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.EpDaN6uHp54kGluk
+  duplicateSource: null
 _key: '!actors!roHaNhhldqWe1KbC'
 

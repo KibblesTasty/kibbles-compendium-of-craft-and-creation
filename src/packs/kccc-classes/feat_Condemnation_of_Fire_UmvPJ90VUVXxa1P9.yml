@@ -31,6 +31,10 @@ flags:
         '0': true
   core:
     sourceId: Item.LJIVZUPvO5MZaaRi
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: UmvPJ90VUVXxa1P9
 system:
   description:
@@ -40,79 +44,111 @@ system:
       <p>You invoke the power of your Relic weapon to attempt to purge a
       creature. When you hit a creature with your Relic weapon you may have the
       creature make a Strength saving throw. On a failure it becomes restrained
-      by chains of fire and set ablaze. While restrained, it takes [[/damage 2d6 fire]]
-      damage at the start of each of its turns. It may repeat the saving
+      by chains of fire and set ablaze. While restrained, it takes [[/damage 2d6
+      fire]] damage at the start of each of its turns. It may repeat the saving
       throw at the end of each of its turns, ending the effect on a success.</p>
 
       <p>Once you invoke this ability, you can’t do so again until you finish a
       short or long rest.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: special
-    cost: null
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-  range:
-    value: null
-    long: null
-    units: touch
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 2d6
-        - fire
-    versatile: ''
-  formula: ''
-  save:
-    ability: str
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: upgrade
   requirements: Relicsmith 9
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 9
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: special
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: touch
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: condemnation-of-fire
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.LJIVZUPvO5MZaaRi
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721836343926
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385699794
+  modifiedTime: 1726385699794
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!UmvPJ90VUVXxa1P9'
 

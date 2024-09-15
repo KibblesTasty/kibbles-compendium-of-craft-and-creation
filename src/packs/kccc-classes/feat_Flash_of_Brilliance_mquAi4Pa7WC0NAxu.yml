@@ -20,55 +20,14 @@ system:
     book: KCCC
     page: ''
     license: ''
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '1'
-    per: sr
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
   type:
     value: class
     subtype: upgrade
@@ -76,21 +35,88 @@ system:
     level: 19
   properties: []
   requirements: Gadgetsmith 19
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: flash-of-brilliance
+  enchant: {}
 effects: []
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
-  createdTime: 1721842003413
-  modifiedTime: 1721842714585
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385710849
+  modifiedTime: 1726385710849
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!mquAi4Pa7WC0NAxu'
 

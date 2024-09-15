@@ -20,55 +20,12 @@ system:
     page: ''
     custom: ''
     license: ''
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: upgrade
@@ -76,21 +33,24 @@ system:
     level: 1
   properties: []
   requirements: Golemsmith 1
-  recharge:
-    value: null
-    charged: false
+  identifier: soul-puppet
+  activities: {}
+  enchant: {}
 effects: []
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
-  createdTime: 1721842068998
-  modifiedTime: 1721842850309
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385665324
+  modifiedTime: 1726385665324
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!1eVIiBEIL2lfT3Yz'
 

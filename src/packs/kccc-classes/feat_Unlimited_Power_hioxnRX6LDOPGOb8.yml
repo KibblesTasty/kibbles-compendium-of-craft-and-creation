@@ -25,70 +25,37 @@ system:
   description:
     value: "<p>Starting at 14th level, when you use Soul Investiture, you can double the amount of bonus damage gained, but take 1 necrotic damage for each turn it has been active at the end of each of your turns while it is active. This damage bypasses immunity and can’t be resisted in any way.</p>\n<p>\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Cursesmith 14
-  recharge:
-    value: null
-    charged: false
+  identifier: unlimited-power
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
-  createdTime: null
-  modifiedTime: 1721425282536
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.if1H1VoiPAhT2Bse
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385707761
+  modifiedTime: 1726385707761
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!hioxnRX6LDOPGOb8'
 

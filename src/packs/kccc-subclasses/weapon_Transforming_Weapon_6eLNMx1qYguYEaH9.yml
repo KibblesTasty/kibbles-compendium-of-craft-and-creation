@@ -30,69 +30,67 @@ flags:
     sourceId: Item.VKlW69vSPPoWkbQz
 _id: 6eLNMx1qYguYEaH9
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.VKlW69vSPPoWkbQz
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721759168319
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385613934
+  modifiedTime: 1726385613934
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: "<p>When you gain this weapon, select 3 simple or martial weapons. This weapon can transform between any of those weapons as a bonus action. When you convert the weapon, it becomes overcharged with power, and the next time you roll damage with it before the end of your turn you deal an extra [[/damage 1d4 lightning]] damage.</p><p><em><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px;font-style:italic\">Overcharge (Transforming Weapon):</strong></em><span style=\"color:#191813;font-size:13px;font-style:italic\"><em>\_You deal an extra [[/damage 2d4 lightning]] damage.</em></span></p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
+    rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: ''
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
   range:
     value: null
     long: null
     units: ''
+    reach: null
   uses:
-    value: null
     max: ''
-    per: ''
-  consume:
-    type: charges
-    target: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.VQPTKxU6XFQkVg3g
-    amount: 1
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: null
+      denomination: null
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
   armor:
     value: 10
   hp:
@@ -100,28 +98,61 @@ system:
     max: 0
     dt: null
     conditions: ''
-  weaponType: martialM
-  baseItem: ''
-  properties:
-    ada: false
-    amm: false
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: false
-    lod: false
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: false
-    thr: false
-    two: false
-    ver: false
-  proficient: true
+  properties: []
+  proficient: 1
   type:
     value: simpleM
+    baseItem: ''
+  identifier: transforming-weapon
+  unidentified:
+    description: ''
+  activities:
+    xzUuSbFpUtMloZAF:
+      _id: xzUuSbFpUtMloZAF
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  container: null
+  attuned: false
+  cover: null
+  crewed: false
+  ammunition: {}
+  magicalBonus: null
 _key: '!items!6eLNMx1qYguYEaH9'
 

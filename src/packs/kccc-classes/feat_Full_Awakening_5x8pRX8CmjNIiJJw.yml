@@ -21,74 +21,98 @@ flags:
       altValue: true
   core:
     sourceId: Item.Tw6VeoXLrZ9NQLL7
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: "<p>Starting at 14th level, you can briefly fully awaken your expanded mind to true comprehension. At the start of your turn, you can expend 2 psi points to gain advantage on all saving throws and attack rolls until the start of your next turn.</p>\n<p>\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: none
-    cost: 1
-    condition: Start of your turn
-  duration:
-    value: 1
-    units: turn
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: self
-  range:
-    value: null
-    long: null
-    units: self
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: ''
   requirements: Awakened Mind 14
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: ''
+        value: 1
+        condition: Start of your turn
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: turn
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: full-awakening
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
-  createdTime: null
-  modifiedTime: 1721424918822
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.Tw6VeoXLrZ9NQLL7
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385668804
+  modifiedTime: 1726385668804
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!5x8pRX8CmjNIiJJw'
 

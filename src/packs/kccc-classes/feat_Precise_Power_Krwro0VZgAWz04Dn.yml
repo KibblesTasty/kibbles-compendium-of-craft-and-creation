@@ -25,70 +25,37 @@ system:
   description:
     value: "<p>The @Compendium[dnd5e.spells.ATo0Eb63TDtnu6iA]{Animate Objects} spell is added to your Telekinesis\_ Alternate Effects list, which you can cast expending 5 psi points. Additionally, as a reaction to a ranged weapon attack you can see being made against a target within 60 feet of you, you can expend 1 psi point to add or subtract 2d4 to or from that attack roll. You can do this after the attack is rolled, but before you know the outcome of the roll.</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: psionicTalent
   requirements: Telekinesis 9
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 9
+  identifier: precise-power
+  activities: {}
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.dKaYRDCNp11EEPFO
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721799584553
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385693048
+  modifiedTime: 1726385693048
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!Krwro0VZgAWz04Dn'
 

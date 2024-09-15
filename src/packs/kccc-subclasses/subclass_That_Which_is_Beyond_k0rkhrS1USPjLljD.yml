@@ -9,15 +9,18 @@ flags:
     sourceId: Item.5iE8wNWoTKEXj4rN
 _id: k0rkhrS1USPjLljD
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.5iE8wNWoTKEXj4rN
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721776597323
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385616135
+  modifiedTime: 1726385616135
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -37,10 +40,11 @@ system:
       or select a quirk that suits your
       character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.ZCh8QK953rX6YY5c]</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
+    rules: '2014'
+    revision: 1
   identifier: that-which-is-beyond
   classIdentifier: warlock
   advancement:
@@ -121,5 +125,6 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 _key: '!items!k0rkhrS1USPjLljD'
 

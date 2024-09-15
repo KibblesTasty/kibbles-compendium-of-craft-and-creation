@@ -25,70 +25,37 @@ system:
   description:
     value: "<p>When you cast @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.Kp0HrTkC2BnT6Dzc]{Arcane Weapon}, magic weapon, or @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.0J6UPqVYUHlPMEGU]{Vorpal Weapon}, the targeted weapon deals an extra 1d4 force damage, and when you cast @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.PLqHs0hYFOYSFXT8]{Prismatic Weapon}, the extra damage it deals increases by 1d4.</p>\n<p>Additionally, you have advantage on Constitution saving throws made to maintain concentration on @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.Kp0HrTkC2BnT6Dzc]{Arcane Weapon}, @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.PLqHs0hYFOYSFXT8]{Prismatic Weapon}, magic weapon, and @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.0J6UPqVYUHlPMEGU]{Vorpal Weapon}.\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: upgrade
   requirements: Infusionsmith 5
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 5
+  identifier: weapon-enchantment-expertise
+  activities: {}
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.9FQUCTiuD4K429Am
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721836343926
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385712839
+  modifiedTime: 1726385712839
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!peEzU7a1m6E4Z9fm'
 

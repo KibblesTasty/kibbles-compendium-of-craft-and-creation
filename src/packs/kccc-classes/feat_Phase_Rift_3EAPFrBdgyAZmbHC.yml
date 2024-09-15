@@ -31,6 +31,10 @@ flags:
         '0': true
   core:
     sourceId: Item.AoHE4896ClLEIaew
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: 3EAPFrBdgyAZmbHC
 system:
   description:
@@ -65,70 +69,105 @@ system:
       <p><strong>Long (1–3 psi points): </strong>You can travel an additional 10
       feet for each point spent.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: self
-  range:
-    value: 10
-    long: null
-    units: ft
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d8
-        - force
-    versatile: ''
-  formula: ''
-  save:
-    ability: dex
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: psionicPower
   requirements: 'Components: S'
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '10'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: phase-rift
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.AoHE4896ClLEIaew
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721840526765
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385666134
+  modifiedTime: 1726385666134
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!3EAPFrBdgyAZmbHC'
 

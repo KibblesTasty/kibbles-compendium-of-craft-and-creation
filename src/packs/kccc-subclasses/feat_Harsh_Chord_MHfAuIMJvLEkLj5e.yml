@@ -35,18 +35,23 @@ flags:
         '0': true
   core:
     sourceId: Item.NWxQIg3aK9bIALpo
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
-  coreVersion: '12.329'
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721443759509
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.NWxQIg3aK9bIALpo
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385614829
+  modifiedTime: 1726385614829
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -59,56 +64,91 @@ system:
       concentration on spells triggered by this damage are made with
       disadvantage.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  target:
-    value: 20
-    width: null
-    units: ft
-    type: radius
-  range:
-    value: null
-    long: null
-    units: self
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1@scale.bard.inspiration @classes.bard.levels
-        - thunder
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: College of Thunder 3
-  recharge:
-    value: null
-    charged: false
   type:
     value: class
+    subtype: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '20'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types:
+              - thunder
+            custom:
+              enabled: true
+              formula: 1@scale.bard.inspiration @classes.bard.levels
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: ''
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: harsh-chord
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _key: '!items!MHfAuIMJvLEkLj5e'
 

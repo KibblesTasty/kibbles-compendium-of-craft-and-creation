@@ -47,61 +47,59 @@ system:
       power, if limited accuracy, over long distances. Ringing out with a
       booming crash, it brings fear to the battlefield.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
+    rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 15
-  price: 200
-  attunement: 0
+  weight:
+    value: 15
+    units: lb
+  price:
+    value: 200
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
   cover: null
   crewed: false
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
   range:
     value: 60
     long: 180
     units: ft
+    reach: null
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: rwak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts:
-      - - 1d12 + @mod
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 12
+      bonus: ''
+      types:
         - piercing
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   armor:
     value: 10
   hp:
@@ -109,38 +107,76 @@ system:
     max: 0
     dt: null
     conditions: ''
-  weaponType: simpleM
-  baseItem: ''
   properties:
-    ada: true
-    amm: false
-    fin: false
-    fir: true
-    foc: false
-    hvy: false
-    lgt: false
-    lod: true
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: false
-    thr: false
-    two: true
-    ver: false
-  proficient: true
+    - ada
+    - fir
+    - lod
+    - two
+  proficient: 1
   type:
     value: simpleR
+    baseItem: ''
+  identifier: stormforged-weapon-thunder-cannon
+  unidentified:
+    description: ''
+  activities:
+    0ENpmi3sEaZwxoCF:
+      _id: 0ENpmi3sEaZwxoCF
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  container: null
+  attuned: false
+  ammunition: {}
+  magicalBonus: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.yDARSTPFgklfEYM6
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721844102226
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385689676
+  modifiedTime: 1726385689676
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!G0NmNY8Mb3avA94U'
 

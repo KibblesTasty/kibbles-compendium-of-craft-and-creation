@@ -25,70 +25,37 @@ system:
   description:
     value: "<p>Whips gain the light property for you, and can serve as your spell casting focus.\_</p>\n<p>When you hit a creature with a whip, you can cast bane, targeting only that creature, without an action or expending a spell slot. Once you use this ability, you can’t use it again in this way until you finish a short or long rest. You can use this ability again before finishing a long rest by expending a spell slot of 1st level or higher.</p>\n<p>Additionally, when you select this path, you learn the following spells at the following levels. These spells do not count against your spells known, and are Inventor spells for you.</p>\n<p>\_</p>\n<table style=\"width:403px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary)\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center;width:151.312px\"><strong>Inventor Level</strong></td>\n<td style=\"text-align:center;width:246.688px\"><strong>Spells</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:151.312px\">3rd</td>\n<td style=\"text-align:center;width:246.688px\">@Compendium[dnd5e.spells.95K2aUhAGV9qXjnf]{Bane}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:151.312px\">5th</td>\n<td style=\"text-align:center;width:246.688px\">@Compendium[dnd5e.spells.5VhqFROQYjr1P9lp]{Silence}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:151.312px\">9th</td>\n<td style=\"text-align:center;width:246.688px\">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.8HgZEXkHBz2hcDkv]{Invest Life}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:151.312px\">13th</td>\n<td style=\"text-align:center;width:246.688px\">@Compendium[dnd5e.spells.pxpb2eOB6bv4phAf]{Banishment}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:151.312px\">17th</td>\n<td style=\"text-align:center;width:246.688px\">@Compendium[dnd5e.spells.OVikYmSdHliAG2YD]{Insect Plague}</td>\n</tr>\n</tbody>\n</table>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Relicsmith 3
-  recharge:
-    value: null
-    charged: false
+  identifier: ordained-path-path-of-penance
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
-  createdTime: null
-  modifiedTime: 1721425863573
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.h9F0Rk3FjoaObe7A
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385700175
+  modifiedTime: 1726385700175
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!VJjiCsInQPmqCmi6'
 

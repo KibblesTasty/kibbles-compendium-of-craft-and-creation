@@ -29,6 +29,10 @@ flags:
         '0': true
   core:
     sourceId: Item.733OiBX2fkbsVzt8
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -50,6 +54,8 @@ system:
   source:
     book: KCCC
     custom: ''
+    revision: 1
+    rules: '2014'
   activation:
     type: special
     cost: 0
@@ -72,7 +78,8 @@ system:
     value: null
     max: ''
     per: ''
-    recovery: ''
+    recovery: []
+    spent: 0
   consume:
     type: ''
     target: ''
@@ -101,16 +108,81 @@ system:
   recharge:
     value: null
     charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: special
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: 1
+        denomination: 8
+        bonus: '@mod'
+        types: []
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+  identifier: upgrade-uncanny-vitality
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
+  systemVersion: 4.0.0
+  coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1721425382712
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: 1726385661070
+  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: Item.733OiBX2fkbsVzt8
   duplicateSource: null
 _key: '!items!zpFhXxC6Q1ZHn9zG'

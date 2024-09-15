@@ -21,69 +21,104 @@ flags:
       altValue: true
   core:
     sourceId: Item.V6jwGpNHOGvtZIIQ
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.V6jwGpNHOGvtZIIQ
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721759041216
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385615397
+  modifiedTime: 1726385615397
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: "<p>When you choose this archetype at 3rd level, you build\_a devastating new weapon to help you dominate the battlefield in a unique way. You can build one weapon.\_</p><p>Select one weapon from the below list:</p><table border=\"1\"><thead><tr><th><p><strong>Weapon</strong></p></th><th><p><strong>Damage</strong></p></th><th><p><strong>Properties</strong></p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.r61VvMlr9MGNNMrL]{Chainblade}</p></td><td><p>2d4 slashing</p></td><td><p>Versatile (3d4), Special</p></td></tr><tr><td><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.WXWYvfLjBMm7GKMt]{Ramming Gauntlet}</p></td><td><p>1d8 bludgeoning</p></td><td><p>Light, Special</p></td></tr><tr><td><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.S9wvqPiLuaRUL02v]{Repeating Handcrossbow}</p></td><td><p>1d6 piercing</p></td><td><p>Ammunition (30/120), Light, Special</p></td></tr><tr><td><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.dsYfKf6Kl9rxVV3h]{Ricocheting Weapon}</p></td><td><p>1d8 bludgeoning</p></td><td><p>Finesse, Thrown (30/90), Special</p></td></tr><tr><td><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.6eLNMx1qYguYEaH9]{Transforming Weapon}</p></td><td><p>Varies</p></td><td><p>Varies, Special</p></td></tr></tbody></table><p>You gain proficiency with the selected weapon. Only you have proficiency with this weapon. If your weapon is lost or destroyed, you can remake it over the course of 4 hours spending 25 gp of materials.</p><blockquote><p><strong>Variant Weapon Types</strong></p><p>If a Tech Knight wants to change the damage type of a weapon to another, this is generally balanced. For example, Ramming Gauntlets that are Bladed Gloves that deal slashing damage, or a Ricocheting Weapon that does slashing damage.\_</p><p>The damage type of weapons in the games are not a primary factor in balance.</p></blockquote><h3>Special Properties</h3><p><strong>Chainblade.</strong> When you roll damage dice for this weapon, you can reroll as many damage dice as you would like once per attack, but you must use the new roll for any dice rolled this way. After hitting an attack with this weapon as part of the Attack action, if you have additional attacks you can make as part of the action, you can forgo them to deal an extra 4d4 slashing damage per attack forgone.</p><p><strong>Ramming Gauntlet.</strong> When you make an attack roll, you can choose to forgo adding your proficiency bonus to the attack roll. If the attack hits, you can add double your proficiency bonus to the damage roll.</p><p><strong>Repeating Hand Crossbow.</strong> This weapon doesn’t require a free hand to load, as it has a built-in loader. Once per turn, if you make an attack with this weapon as part of the Attack action, if you do not have disadvantage on that attack, you can give yourself disadvantage to make a single additional weapon attack with this weapon as a bonus action (also with disadvantage).</p><p><strong>Ricocheting Weapon.</strong> When this weapon is thrown you can target two creatures within 10 feet of each other, using the same attack roll and damage roll for both targets; the damage dealt is halved for targets hit after the first. This weapon returns to your hand after you make an attack with it using the Thrown property. When you create this weapon, you can choose for it to deal slashing damage instead of bludgeoning damage.</p><p><strong>Transforming Weapon.</strong> When you gain this weapon, select 3 simple or martial weapons. This weapon can transform between any of those weapons as a bonus action. When you convert the weapon, it becomes overcharged with power, and the next time you roll damage with it before the end of your turn you deal an extra 1d4 lightning damage.</p><h3>Rev Up</h3><p>When hit an attack with your Brutal Invention, you can overcharge with an effect based on your Brutal Invention selection, granting it an additional benefit:</p><blockquote><p><strong>Reckless Power (Chainblade): </strong>The weapon’s damage dice become d6’s for that attack (including the special property if activated).</p><p><strong>Excessive Force (Ramming Gauntlet):</strong> The target is knocked 10 feet backwards.</p><p><strong>Full Auto (Repeating Hand Crossbow):</strong> You immediately make a single additional attack as part of the same action, making the attack with disadvantage; this disadvantage can’t be canceled out.</p><p><strong>Overcharge (Transforming Weapon):</strong> You deal an extra 2d4 lightning damage.</p><p><strong>Hypervelocity (Ricocheting Weapon): </strong>The weapon can target creatures within20 feet of each other, and it can bounce to an additional target.</p></blockquote><p>You can use this ability a number of times equal to your Intelligence modifier (minimum 1), regaining all uses on a short or long rest.</p><h3>Weapon Improvement</h3><p>Additionally at 3rd level, over the course of a long rest, you can destroy a +1/+2/+3 magic weapon to transfer its bonus to attack and damage rolls to your Brutal Invention weapon. At the GM’s discretion, other properties can be transferred (it is recommended that most cannot, but a final decision is up to the GM).</p><blockquote><p><strong>Changing Your Invention</strong></p><p>If a player wishes to change their Brutal Invention, it takes 1 full day of down time, working for at least 8 hours. You can change any option that requires a selection in this manner.</p></blockquote><p>\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: special
-    cost: 0
-    condition: You hit with an attack with your Brutal Invention
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '@abilities.int.mod'
-    per: sr
-    prompt: false
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: Tech Knight 3
-  recharge:
-    value: null
-    charged: false
   type:
     value: class
+    subtype: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 0
+        condition: You hit with an attack with your Brutal Invention
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: brutal-invention
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _key: '!items!VQPTKxU6XFQkVg3g'
 

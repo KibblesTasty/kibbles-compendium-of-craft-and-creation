@@ -22,69 +22,40 @@ flags:
     sourceId: Item.VFS5wBQKsajtkRye
 _id: snwAFtlvFuw2LN35
 _stats:
-  coreVersion: '12.329'
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721443759509
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.VFS5wBQKsajtkRye
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385616481
+  modifiedTime: 1726385616481
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: "<p>Starting at 6th level, select a 1st- or 2nd-level wizard spell, and forge it into a magical item. You can cast this spell once without expending a spell slot, regaining the ability to cast it again when you finish a long rest.</p>\n<p>If the spell targets only you, has a duration of more than 10 minutes, and doesn’t require concentration, it lasts until you finish a long rest instead of its normal duration.</p>\n<blockquote>\n<h3><strong>Extended Duration Spells</strong></h3>\n<p>The spells that fit this criteria for expanding their duration include include:</p>\n<p>1st level:<em> </em>false life, longstrider, mage armor</p>\n<p>2nd level: continual flame, darkvision</p>\n</blockquote>\n<p>\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: Order of Creation 6
-  recharge:
-    value: null
-    charged: false
   type:
     value: class
+    subtype: ''
+  identifier: imbued-gear
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _key: '!items!snwAFtlvFuw2LN35'
 

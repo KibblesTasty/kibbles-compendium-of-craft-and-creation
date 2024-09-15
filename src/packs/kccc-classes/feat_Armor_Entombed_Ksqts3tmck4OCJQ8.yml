@@ -24,55 +24,12 @@ system:
     page: ''
     custom: ''
     license: ''
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: upgrade
@@ -80,12 +37,11 @@ system:
     level: 5
   properties: []
   requirements: Warsmith 5, Warplate or Integrated Armor
-  recharge:
-    value: null
-    charged: false
+  identifier: armor-entombed
+  activities: {}
+  enchant: {}
 effects:
   - name: Armor Entombed
-    icon: icons/creatures/magical/construct-stone-earth-gray.webp
     origin: >-
       Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.Ksqts3tmck4OCJQ8
     duration:
@@ -120,19 +76,35 @@ effects:
     description: ''
     transfer: true
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    img: icons/creatures/magical/construct-stone-earth-gray.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!Ksqts3tmck4OCJQ8.hMMywiM4Bo3KBraB'
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
-  createdTime: 1721841584495
-  modifiedTime: 1721841892474
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385693109
+  modifiedTime: 1726385693109
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!Ksqts3tmck4OCJQ8'
 

@@ -9,15 +9,18 @@ flags:
     sourceId: Item.MmBJ797QEERvP6Dn
 _id: GbFqIk3behJQBszs
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.MmBJ797QEERvP6Dn
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721762172125
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385614365
+  modifiedTime: 1726385614365
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -41,10 +44,11 @@ system:
       roll or select a quirk that suits your
       character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.lsyEV6oWwpgrKFzE]</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
+    rules: '2014'
+    revision: 1
   identifier: gadgeteer
   classIdentifier: rogue
   advancement:
@@ -157,5 +161,6 @@ system:
   spellcasting:
     progression: none
     ability: int
+    preparation: {}
 _key: '!items!GbFqIk3behJQBszs'
 

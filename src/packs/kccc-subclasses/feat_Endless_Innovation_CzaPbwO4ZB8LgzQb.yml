@@ -22,71 +22,42 @@ flags:
     sourceId: Item.1Zbjcc0sU9Xiygzs
 _id: CzaPbwO4ZB8LgzQb
 _stats:
-  coreVersion: '12.329'
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721443759509
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.1Zbjcc0sU9Xiygzs
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385614220
+  modifiedTime: 1726385614220
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
       <p>Starting at 15th level, if you start your turn without a Trick Shot,
       you can create a Trick Shot as a bonus action.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: Specialist 15
-  recharge:
-    value: null
-    charged: false
   type:
     value: class
+    subtype: ''
+  identifier: endless-innovation
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _key: '!items!CzaPbwO4ZB8LgzQb'
 

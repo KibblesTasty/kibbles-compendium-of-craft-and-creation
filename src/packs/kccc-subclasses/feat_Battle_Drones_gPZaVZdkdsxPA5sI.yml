@@ -15,55 +15,12 @@ system:
     book: KCCC
     page: ''
     license: ''
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: eldritchInvocation
@@ -71,21 +28,24 @@ system:
     level: null
   properties: []
   requirements: Pact of the Chain feature, drone swarm familiar
-  recharge:
-    value: null
-    charged: false
+  identifier: battle-drones
+  activities: {}
+  enchant: {}
 effects: []
 sort: 100000
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: 1721777282917
-  modifiedTime: 1721777902959
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385615958
+  modifiedTime: 1726385615958
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!gPZaVZdkdsxPA5sI'
 

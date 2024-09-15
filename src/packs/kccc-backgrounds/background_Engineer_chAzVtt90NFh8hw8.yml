@@ -25,55 +25,13 @@ system:
   description:
     value: "<p>Scholars and academics are great, but many a kingdom has needed those of the more intellectual bent to put their ability to more practical uses: designing everything from siege equipment to bridges.</p><p>While construction may or may not have used magic here and there, at the end of the day something built without an engineer’s oversight is much more likely to fall back down when it is needed most.</p><p><strong>Skill Proficiencies:</strong> Investigation, Nature</p><p><strong>Tool Proficiencies:</strong> Carpenter’s tools, mason’s tools</p><p><strong>Equipment:</strong> A bottle of black ink, a quill, a small knife, the blue prints to the last project you were working on, a set of common clothes, and a belt pouch containing 10 gp</p><h2>Feature: Blueprints</h2><p>Given one day to plan, you can produce blueprints or schematics for bridges, siege equipment, buildings, dams, or any other common feat of engineering that anyone proficient with the necessary artisan tools could follow to craft the outlined construction given the time and resources. Buildings more fantastical in nature may still be within your grasp to plan with skill-appropriate ability checks at the GM’s discretion.\_</p><blockquote><h3><strong>Engineering with Blueprints</strong></h3><p>If you are using crafting, these blue prints can reduce the time and DC for engineering projects, reducing the crafting DC by your proficiency bonus for the construction project.</p></blockquote><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.DvmGBBR5ijEYch2r]</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.OFvhMc6UeDFnJj0o]</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.umsD2UIUJknSg5Bq]</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     page: ''
     custom: ''
     license: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  requirements: Background
-  recharge:
-    value: null
-    charged: false
+    rules: '2014'
+    revision: 1
   advancement:
     - _id: zYnbO5WHbjZKzQSf
       type: Trait
@@ -84,7 +42,6 @@ system:
           - skills:inv
           - skills:nat
         choices: []
-        hint: ''
       value:
         chosen: []
       level: 0
@@ -99,7 +56,6 @@ system:
           - tool:art:carpenter
           - tool:art:mason
         choices: []
-        hint: ''
       value:
         chosen: []
       level: 0
@@ -134,17 +90,19 @@ system:
       _id: bIoYirkKhU3ugJQn
       group: ''
       sort: 400000
+  identifier: engineer
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.2.1
-  coreVersion: '12.328'
-  createdTime: null
-  modifiedTime: 1721341358260
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.c5Bajs3bRWsKUHm0
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385608198
+  modifiedTime: 1726385608198
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!chAzVtt90NFh8hw8'
 

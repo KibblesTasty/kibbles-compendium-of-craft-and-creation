@@ -22,17 +22,18 @@ flags:
     sourceId: Item.vzqsChjnTmMLflMr
 _id: KpwfHN5EyEuY8E35
 _stats:
-  coreVersion: '12.329'
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721443759509
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.vzqsChjnTmMLflMr
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385614651
+  modifiedTime: 1726385614651
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -42,53 +43,23 @@ system:
       points equal to the spell slot level spent (for example, when casting as a
       1st-level spell, you cast it as if empowering it with 1 psi point).</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: ''
-  recharge:
-    value: null
-    charged: false
   type:
     value: class
+    subtype: ''
+  identifier: esoteric-rites-gift-of-mystery
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _key: '!items!KpwfHN5EyEuY8E35'
 

@@ -20,17 +20,24 @@ flags:
       altValue: true
   core:
     sourceId: Item.e8HpxszJF0PjgEQa
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: 1PPNNlXM1os5Lldd
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.e8HpxszJF0PjgEQa
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721761942814
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385613671
+  modifiedTime: 1726385613671
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -48,54 +55,77 @@ system:
       something to grab onto. Opportunity attacks provoked by this movement are
       made with disadvantage.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: special
-    cost: 0
-    condition: As an action or with the bonus action granted by your Cunning Action
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: any
-  range:
-    value: 20
-    long: null
-    units: ft
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: Gadgeteer 3
-  recharge:
-    value: null
-    charged: false
   type:
     value: class
+    subtype: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 0
+        condition: As an action or with the bonus action granted by your Cunning Action
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '20'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: any
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: grappling-hook
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _key: '!items!1PPNNlXM1os5Lldd'
 

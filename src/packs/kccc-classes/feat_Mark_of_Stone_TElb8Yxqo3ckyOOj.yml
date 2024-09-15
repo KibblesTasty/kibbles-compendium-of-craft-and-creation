@@ -25,70 +25,37 @@ system:
   description:
     value: "<p>As an action, you can place a special runic mark on a creature or armor. This mark lasts until you mark it again or take a long rest. While the rune is on that creature, you can cast @Compendium[dnd5e.spells.ReMbjfeOKoSj3O79]{Stoneskin} targeting that creature as a bonus action without requiring any material components.\_</p>\n<p>You can cast it this way without expending a slot once, after which you can’t cast it without a spell slot again until you finish a short or long rest.</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: upgrade
   requirements: Runesmith 15
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 15
+  identifier: mark-of-stone
+  activities: {}
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.yukM4XsLgDAfZlZR
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721836343926
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385699138
+  modifiedTime: 1726385699138
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!TElb8Yxqo3ckyOOj'
 

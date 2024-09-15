@@ -9,23 +9,27 @@ flags:
   core:
     sourceId: Item.qYZIW2uo2iFBFwIM
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.qYZIW2uo2iFBFwIM
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721763554254
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385613648
+  modifiedTime: 1726385613648
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: "<p>Sorcerers of this origin are fueled by a deep connection to raw arcane energy, their soul touched by the raw stuff of the weave itself. Most of them don’t understand their connection to this power, but they can wield it with innate ease, manipulating magic by force of will alone.</p><p>Sometimes this is artificial in nature—an ironwrought drawing power from their arcane heart, for example—while other times this marks an individual that was exposed to the raw essence of aether, becoming infused and intrinsically linked to it. They are characterized by an easy affinity of warping magic and ease of manipulating it in its raw and purest forms.\_</p><hr /><p>The following are some optional quirks for a player of this Origin.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.jTFEqx0rpBWUFItk]</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
+    rules: '2014'
+    revision: 1
   identifier: aether-heart
   classIdentifier: sorcerer
   advancement:
@@ -114,5 +118,6 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 _key: '!items!1KpJQDABroBYECN5'
 
