@@ -338,28 +338,6 @@ system:
         type: asi
       level: 19
       title: ''
-    - _id: MXyVXTG1vC15bV1V
-      type: Trait
-      configuration:
-        mode: default
-        allowReplacements: false
-        grants:
-          - armor:lgt
-          - weapon:sim
-          - skills:arc
-        choices:
-          - count: 1
-            pool:
-              - tool:art:*
-      value:
-        chosen: []
-      level: 1
-      title: Multiclass Proficiencies
-      hint: >-
-        Arcana skill, one artisan’s tool of your choice, light armor, simple
-        weapons
-      icon: null
-      classRestriction: secondary
     - _id: Y1wIlFZoQRqHMmvO
       type: ItemChoice
       configuration:
@@ -384,10 +362,32 @@ system:
       title: Cross-Disciplinary Knowledge
       hint: ''
       icon: null
+    - _id: 7xDpzFNEWVR5CNIW
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:arc
+          - armor:lgt
+          - weapon:sim
+        choices:
+          - count: 1
+            pool:
+              - tool:art:*
+      value:
+        chosen: []
+      level: 1
+      title: Multiclass Proficiencies
+      hint: >-
+        Arcana skill, one artisan’s tool of your choice, light armor, simple
+        weapons
+      classRestriction: secondary
   spellcasting:
     progression: half
     ability: int
-    preparation: {}
+    preparation:
+      formula: ''
   wealth: 4d4 * 10
   startingEquipment:
     - type: OR
@@ -497,9 +497,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385712268
-  modifiedTime: 1726385712268
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727205513903
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!pJtD45kzq7nMQBEv'
 
