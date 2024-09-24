@@ -50,60 +50,71 @@ system:
   properties: []
   requirements: 'Components: S'
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    sMi1XSOFxnvN7Ov4:
+      type: attack
+      _id: sMi1XSOFxnvN7Ov4
+      sort: 0
       activation:
         type: action
-        value: 1
-        condition: ''
+        value: null
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
+        targets:
+          - type: activityUses
+            value: '0'
+            scaling:
+              mode: amount
+              formula: ''
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        value: ''
-        units: ''
-        special: ''
         override: false
       effects: []
       range:
-        value: '30'
+        override: false
         units: ft
         special: ''
-        override: false
+        value: '30'
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: '1'
-          type: creatureOrObject
           choice: false
+          count: 1 + @scaling
+          type: object
           special: ''
-        prompt: true
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: telekinetic-weapons
   enchant: {}
 effects: []
@@ -122,9 +133,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385696842
-  modifiedTime: 1726385696842
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727219751749
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!PzEnSqEAYsqoG33H'
 

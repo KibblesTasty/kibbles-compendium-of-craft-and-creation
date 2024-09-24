@@ -2,7 +2,44 @@ _id: wKNdnQ2f9VGCqEkx
 name: Elemental Blast (Fire Specialized)
 type: feat
 img: icons/magic/fire/explosion-flame-lightning-strike.webp
-effects: []
+effects:
+  - name: Burn
+    img: icons/magic/fire/explosion-flame-lightning-strike.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.wKNdnQ2f9VGCqEkx
+    transfer: false
+    _id: mZXBC2GVDSWGEQik
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>For each die of fire damage dealt by the original attack, the creature
+      takes 1d6 fire damage at the start of its next turn</p>
+    tint: '#ffffff'
+    statuses:
+      - burning
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: >-
+        Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.QBHLfLXYSARewI0E.ActiveEffect.4jDkvVU3ATAUvBPJ
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: 1727217817618
+      modifiedTime: 1727218231960
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!wKNdnQ2f9VGCqEkx.mZXBC2GVDSWGEQik'
 folder: n0grhKuN2oHiBkyF
 sort: -50000
 flags:
@@ -66,9 +103,16 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+              formula: ''
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
       description:
@@ -78,7 +122,8 @@ system:
         units: inst
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: mZXBC2GVDSWGEQik
       range:
         value: '60'
         units: ft
@@ -118,31 +163,227 @@ system:
           bonus: ''
         includeBase: true
         parts:
-          - number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
             denomination: 10
             bonus: ''
             types:
               - fire
-            custom:
-              enabled: false
-              formula: ''
             scaling:
               mode: whole
-              number: null
+              number: 1
               formula: ''
-          - number: 1
+      sort: -100000
+      name: ''
+      img: ''
+      appliedEffects:
+        - mZXBC2GVDSWGEQik
+    YNfyWU1H4ZgqHUzO:
+      type: save
+      name: Massive
+      sort: 200000
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '3'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          count: ''
+          type: cone
+          size: 15 * pow(2, @scaling)
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: none
+      save:
+        ability: dex
+        dc:
+          calculation: int
+          formula: ''
+      _id: YNfyWU1H4ZgqHUzO
+    89fXZ5nTNrAUn7oM:
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '0'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+              formula: ''
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: round
+        special: ''
+        override: false
+        value: ''
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: int
+        bonus: '- @prof'
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 10
+            bonus: 2 * @prof
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      sort: 400000
+      name: Overcharged
+      _id: 89fXZ5nTNrAUn7oM
+      img: ''
+      appliedEffects: []
+    iR9MHoBWos3pkE1n:
+      type: damage
+      name: Burn
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: At the start of the creature's next turn
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
             denomination: 6
             bonus: ''
             types:
               - fire
-            custom:
-              enabled: false
-              formula: ''
             scaling:
               mode: whole
-              number: null
+              number: 1
               formula: ''
-      sort: 0
+      _id: iR9MHoBWos3pkE1n
+      img: ''
+      appliedEffects: []
   identifier: elemental-blast-fire-specialized
   enchant: {}
   prerequisites:
@@ -157,9 +398,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385717289
-  modifiedTime: 1726385717289
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727218827623
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!wKNdnQ2f9VGCqEkx'
 

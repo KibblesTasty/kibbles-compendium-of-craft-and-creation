@@ -2,7 +2,79 @@ _id: F2n6Vo1Ie0MkeCtL
 name: Telepathic Intrusion
 type: feat
 img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
-effects: []
+effects:
+  - name: Overwhelming
+    img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2n6Vo1Ie0MkeCtL
+    transfer: false
+    _id: YKVYFM9h9LnhsTmB
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target is stunned until the end of its next turn if it fails its
+      saving throw</p>
+    tint: '#ffffff'
+    statuses:
+      - stunned
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: 1727215648516
+      modifiedTime: 1727215736044
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!F2n6Vo1Ie0MkeCtL.YKVYFM9h9LnhsTmB'
+  - name: Terrifying
+    img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2n6Vo1Ie0MkeCtL
+    transfer: false
+    _id: YcM6KoI5ecRUxmVk
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target is frightened of you until the end of your next turn if it
+      fails its saving throw</p>
+    tint: '#ffffff'
+    statuses:
+      - frightened
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: 1727215761848
+      modifiedTime: 1727216138265
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!F2n6Vo1Ie0MkeCtL.YcM6KoI5ecRUxmVk'
 folder: yBMc7tnwZ8a7OMCu
 sort: 400000
 flags:
@@ -86,9 +158,16 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '0'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+              formula: ''
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
       description:
@@ -99,7 +178,11 @@ system:
         units: round
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: YKVYFM9h9LnhsTmB
+          onSave: false
+        - _id: YcM6KoI5ecRUxmVk
+          onSave: false
       range:
         value: '60'
         units: ft
@@ -128,24 +211,26 @@ system:
       damage:
         onSave: half
         parts:
-          - number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
             denomination: 8
             bonus: ''
             types:
               - psychic
-            custom:
-              enabled: false
-              formula: ''
             scaling:
               mode: whole
-              number: null
-              formula: ''
+              number: 1
       save:
         ability: wis
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: telepathic-intrusion
   enchant: {}
   prerequisites:
@@ -160,9 +245,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385677857
-  modifiedTime: 1726385677857
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727215761893
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!F2n6Vo1Ie0MkeCtL'
 
