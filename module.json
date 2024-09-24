@@ -15,7 +15,7 @@
     "path": "lang/en.json"
   }],
   "compatibility": {
-    "minimum": "11",
+    "minimum": "12",
     "verified": "12"
   },
   "relationships": {
@@ -23,8 +23,8 @@
       "id": "dnd5e",
       "type": "system",
       "compatibility": {
-        "minimum": "3.2",
-        "verified": "3.3.1"
+        "minimum": "4.0",
+        "verified": "4.0.3"
       }
     }]
   },
@@ -32,95 +32,72 @@
   "bugs": "https://docs.google.com/spreadsheets/d/1sXm14XZPt8cpuuMOoRwtveuaZvuTHGV_q57ktdduT6U/edit?gid=1755804638#gid=1755804638",
   "manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/releases/latest/download/module.json",
   "download": "AUTOMATIC",
-  "packs": [{
+  "packs": [
+    {
       "name": "kccc-backgrounds",
       "label": "KCCC Backgrounds",
       "system": "dnd5e",
-      "path": "./packs/kccc-backgrounds.db",
-      "type": "Item",
-      "entity": "Item",
-      "module": "kibbles-compendium-of-craft-and-creation"
+      "type": "Item"
     },
     {
       "name": "kccc-feats",
       "label": "KCCC Feats",
       "system": "dnd5e",
-      "path": "./packs/kccc-feats.db",
-      "type": "Item",
-      "entity": "Item",
-      "module": "kibbles-compendium-of-craft-and-creation"
+      "type": "Item"
     },
     {
       "name": "kccc-subclasses",
       "label": "KCCC Subclasses",
       "system": "dnd5e",
-      "path": "./packs/kccc-subclasses.db",
-      "type": "Item",
-      "entity": "Item",
-      "module": "kibbles-compendium-of-craft-and-creation"
+      "type": "Item"
     },
     {
       "name": "kccc-classes",
       "label": "KCCC Classes",
       "system": "dnd5e",
-      "path": "./packs/kccc-classes.db",
-      "type": "Item",
-      "entity": "Item",
-      "module": "kibbles-compendium-of-craft-and-creation"
+      "type": "Item"
     },
     {
       "name": "kccc-spells",
       "label": "KCCC Spells",
       "system": "dnd5e",
-      "path": "./packs/kccc-spells.db",
-      "type": "Item",
-      "entity": "Item",
-      "module": "kibbles-compendium-of-craft-and-creation"
+      "type": "Item"
     },
     {
       "name": "kccc-items",
       "label": "KCCC Items",
       "system": "dnd5e",
-      "path": "./packs/kccc-items.db",
-      "type": "Item",
-      "entity": "Item",
-      "module": "kibbles-compendium-of-craft-and-creation"
+      "type": "Item"
     },
     {
       "name": "kccc-races",
       "label": "KCCC Races",
       "system": "dnd5e",
-      "path": "./packs/kccc-races.db",
-      "type": "Item",
-      "entity": "Item",
-      "module": "kibbles-compendium-of-craft-and-creation"
+      "type": "Item"
     },
     {
       "name": "kccc-crafting-materials",
       "label": "KCCC Crafting Materials",
       "system": "dnd5e",
-      "path": "./packs/kccc-crafting-materials.db",
-      "type": "Item",
-      "entity": "Item",
-      "module": "kibbles-compendium-of-craft-and-creation"
+      "type": "Item"
     },
     {
       "name": "kccc-monsters",
       "label": "KCCC Monsters",
       "system": "dnd5e",
-      "path": "./packs/kccc-monsters.db",
-      "type": "Actor",
-      "entity": "Actor",
-      "module": "kibbles-compendium-of-craft-and-creation"
+      "type": "Actor"
     },
     {
       "name": "kccc-roll-tables",
       "label": "KCCC Roll Tables",
       "system": "dnd5e",
-      "path": "./packs/kccc-roll-tables.db",
-      "type": "RollTable",
-      "entity": "RollTable",
-      "module": "kibbles-compendium-of-craft-and-creation"
+      "type": "RollTable"
+    },
+    {
+      "name": "kccc-journals",
+      "label": "KCCC Journals",
+      "system": "dnd5e",
+      "type": "JournalEntry"
     }
   ],
   "packFolders": [{
@@ -131,7 +108,7 @@
       "name": "KCCC",
       "sorting": "a",
       "color": "#663399",
-      "packs": ["kccc-roll-tables"],
+      "packs": ["kccc-roll-tables", "kccc-journals"],
       "folders": [{
           "name": "Character Features",
           "sorting": "a",
@@ -152,5 +129,24 @@
         }
       ]
     }]
-  }]
+  }],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "KCCC": "Kibbles' Compendium of Craft and Creation"
+      },
+      "spellLists": [
+        "Compendium.kibbles-compendium-of-craft-and-creation.kccc-journals.JournalEntry.22xGZTi3QtxVkqUH.JournalEntryPage.xhciziwNxENwTaDO",
+        "Compendium.kibbles-compendium-of-craft-and-creation.kccc-journals.JournalEntry.22xGZTi3QtxVkqUH.JournalEntryPage.G0CzLljkTjdz0mAR",
+        "Compendium.kibbles-compendium-of-craft-and-creation.kccc-journals.JournalEntry.22xGZTi3QtxVkqUH.JournalEntryPage.MJnIxnFk5hqLAD1N",
+        "Compendium.kibbles-compendium-of-craft-and-creation.kccc-journals.JournalEntry.22xGZTi3QtxVkqUH.JournalEntryPage.j15wSittJyShX92I",
+        "Compendium.kibbles-compendium-of-craft-and-creation.kccc-journals.JournalEntry.22xGZTi3QtxVkqUH.JournalEntryPage.WHYD38PEnebUb1R5",
+        "Compendium.kibbles-compendium-of-craft-and-creation.kccc-journals.JournalEntry.22xGZTi3QtxVkqUH.JournalEntryPage.9tpGgNPwAggoRL8B",
+        "Compendium.kibbles-compendium-of-craft-and-creation.kccc-journals.JournalEntry.22xGZTi3QtxVkqUH.JournalEntryPage.QThUCx4fdXDScxZs",
+        "Compendium.kibbles-compendium-of-craft-and-creation.kccc-journals.JournalEntry.22xGZTi3QtxVkqUH.JournalEntryPage.txOgGEyQGYxIHQPa",
+        "Compendium.kibbles-compendium-of-craft-and-creation.kccc-journals.JournalEntry.22xGZTi3QtxVkqUH.JournalEntryPage.64P3DFZriED7SloI",
+        "Compendium.kibbles-compendium-of-craft-and-creation.kccc-journals.JournalEntry.22xGZTi3QtxVkqUH.JournalEntryPage.ereNibbt2XtCvwMF"
+      ]
+    }
+  }
 }
