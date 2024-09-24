@@ -2,7 +2,71 @@ _id: 2JnFK7481wDODDI9
 name: Denial
 type: feat
 img: icons/magic/perception/hand-eye-black.webp
-effects: []
+effects:
+  - name: Denial
+    img: icons/magic/perception/hand-eye-black.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.2JnFK7481wDODDI9
+    transfer: false
+    _id: EdL3feuRSLjZ1OQH
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.abilities.skill
+        mode: 2
+        value: '-1d4'
+        priority: null
+      - key: system.bonuses.mwak.attack
+        mode: 2
+        value: '-1d4'
+        priority: null
+      - key: system.bonuses.msak.attack
+        mode: 2
+        value: '-1d4'
+        priority: null
+      - key: system.bonuses.rwak.attack
+        mode: 2
+        value: '-1d4'
+        priority: null
+      - key: system.bonuses.rsak.attack
+        mode: 2
+        value: '-1d4'
+        priority: null
+      - key: system.attributes.concentration.bonuses.save
+        mode: 2
+        value: '-1d4'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>If the target is an aberration, celestial, construct, elemental, fey,
+      fiend, undead, or a creature with the ability to cast spells or use
+      psionic powers, it takes an extra 1d4 force damage, and becomes
+      disoriented; until the end of its next turn, it rolls a d4 and subtracts
+      the number rolled from all its attack rolls and ability checks, as well as
+      its Constitution saving throws to maintain concentration. A creature can
+      choose to fail the saving throw.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: 1727209643774
+      modifiedTime: 1727209787011
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!2JnFK7481wDODDI9.EdL3feuRSLjZ1OQH'
 folder: xP1Z3pCpKSnny5cq
 sort: 150000
 flags:
@@ -96,9 +160,15 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: '0'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: ''
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
       description:
@@ -108,7 +178,9 @@ system:
         units: inst
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: EdL3feuRSLjZ1OQH
+          onSave: false
       range:
         value: '30'
         units: ft
@@ -137,24 +209,27 @@ system:
       damage:
         onSave: half
         parts:
-          - number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
             denomination: 4
             bonus: ''
             types:
               - force
-            custom:
-              enabled: false
-              formula: ''
             scaling:
               mode: whole
-              number: null
-              formula: ''
+              number: 1
       save:
         ability: cha
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects:
+        - EdL3feuRSLjZ1OQH
   identifier: denial
   enchant: {}
   prerequisites:
@@ -169,9 +244,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385665533
-  modifiedTime: 1726385665533
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727209863764
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!2JnFK7481wDODDI9'
 

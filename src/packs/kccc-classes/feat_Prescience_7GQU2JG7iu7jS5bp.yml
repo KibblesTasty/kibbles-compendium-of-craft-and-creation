@@ -2,7 +2,88 @@ _id: 7GQU2JG7iu7jS5bp
 name: Prescience
 type: feat
 img: icons/magic/perception/eye-slit-orange.webp
-effects: []
+effects:
+  - name: Prescience
+    img: icons/magic/perception/eye-slit-orange.webp
+    _id: XUyAja6XAuK0DDJN
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.prc.bonuses.check
+        mode: 2
+        value: '@prof'
+        priority: null
+      - key: system.attributes.init.bonus
+        mode: 2
+        value: '@prof'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: 1727210025025
+      modifiedTime: 1727211525078
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!7GQU2JG7iu7jS5bp.XUyAja6XAuK0DDJN'
+  - name: Prescience
+    img: icons/magic/perception/eye-slit-orange.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.7GQU2JG7iu7jS5bp
+    transfer: false
+    _id: PuDzZ4FeII5jA3vU
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.init.ability
+        mode: 5
+        value: int
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You can use your Intelligence modifier for Wisdom (Perception) checks
+      (instead of Wisdom) and initiative rolls (instead of Dexterity), and you
+      make Intelligence saving throws in place of Dexterity saving throws. You
+      can initiate this concentration at any time.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: 1727211534834
+      modifiedTime: 1727211587228
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!7GQU2JG7iu7jS5bp.PuDzZ4FeII5jA3vU'
 folder: PlTkXe6XU4V6E7JU
 sort: 0
 flags:
@@ -21,6 +102,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.TwvwUvyIR1eepFG6
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -49,7 +134,56 @@ system:
     subtype: ''
   requirements: ''
   identifier: prescience
-  activities: {}
+  activities:
+    eAL5CDYZhR8kS8uH:
+      type: utility
+      name: Keep an Eye on the Future
+      _id: eAL5CDYZhR8kS8uH
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: true
+        override: false
+      effects:
+        - _id: PuDzZ4FeII5jA3vU
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
@@ -63,9 +197,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385669686
-  modifiedTime: 1726385669686
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727211534878
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!7GQU2JG7iu7jS5bp'
 

@@ -25,40 +25,27 @@ system:
   description:
     value: >-
       <p>Telepathy is the ability to interact with the minds of other creatures
-      using your psionic abilities.</p><h2 style="border-bottom:1px solid
-      var(--color-underline-header)">Features</h2><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.sHLJlkTerQdmltVa]{Telepathic
+      using your psionic
+      abilities.</p><h3>Features</h3><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.sHLJlkTerQdmltVa]{Telepathic
       Communication}</p><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2n6Vo1Ie0MkeCtL]{Telepathic
-      Intrusion}</p><h2 style="border-bottom:1px solid
-      var(--color-underline-header)">Alternate Effects</h2><p>Additionally, when
-      you learn the Telepathy psionic discipline you can use your Psionics
-      feature to cast the following spells as per the rules defined in the
-      feature:</p><table border="1"><tbody><tr><td
-      style="text-align:center"><p><strong>Point Cost</strong></p></td><td
-      style="text-align:center"><p><strong>Alternate
-      Effects</strong></p></td></tr><tr><td
-      style="text-align:center"><p>1</p></td><td
-      style="text-align:center"><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.ucFRmljc2lGIdUej]{Compelled
+      Intrusion}</p><h3>Alternate Effects</h3><p>Additionally, when you learn
+      the Telepathy psionic discipline you can use your Psionics feature to cast
+      the following spells as per the rules defined in the feature:</p><table
+      border="1"><thead><tr><th><p><strong>Point
+      Cost</strong></p></th><th><p><strong>Alternate
+      Effects</strong></p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.ucFRmljc2lGIdUej]{Compelled
       Query}, @Compendium[dnd5e.spells.arzCrMRgcNiQuh43]{Command},
-      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.JzVBJjjwz8ij0xgU]{Frighten}</p></td></tr><tr><td
-      style="text-align:center"><p>2</p></td><td
-      style="text-align:center"><p>@Compendium[dnd5e.spells.ppWAAEul0QHtm4er]{Detect
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.JzVBJjjwz8ij0xgU]{Frighten}</p></td></tr><tr><td><p>2</p></td><td><p>@Compendium[dnd5e.spells.ppWAAEul0QHtm4er]{Detect
       Thoughts},
-      @Compendium[dnd5e.spells.zMAWdyc8UVb37BK4]{Suggestion}</p></td></tr><tr><td
-      style="text-align:center"><p>3</p></td><td
-      style="text-align:center"><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.QoHb6iEtaDnjpkjn]{Delve
+      @Compendium[dnd5e.spells.zMAWdyc8UVb37BK4]{Suggestion}</p></td></tr><tr><td><p>3</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.QoHb6iEtaDnjpkjn]{Delve
       Mind},
-      @Compendium[dnd5e.spells.XXUDGFELgoskdOD0]{Fear}</p></td></tr><tr><td
-      style="text-align:center"><p>4</p></td><td
-      style="text-align:center"><p>@Compendium[dnd5e.spells.LrPvWHBPmiMQQsKB]{Dominate
+      @Compendium[dnd5e.spells.XXUDGFELgoskdOD0]{Fear}</p></td></tr><tr><td><p>4</p></td><td><p>@Compendium[dnd5e.spells.LrPvWHBPmiMQQsKB]{Dominate
       Beast}, @Compendium[dnd5e.spells.P6f1PPKPd9BCb742]{Compulsion},
-      @Compendium[dnd5e.spells.9hQXdMSmerkTsHDe]{Confusion}</p></td></tr><tr><td
-      style="text-align:center"><p>5</p></td><td
-      style="text-align:center"><p>@Compendium[dnd5e.spells.91Sw6vOIaO7U8DvM]{Dominate
+      @Compendium[dnd5e.spells.9hQXdMSmerkTsHDe]{Confusion}</p></td></tr><tr><td><p>5</p></td><td><p>@Compendium[dnd5e.spells.91Sw6vOIaO7U8DvM]{Dominate
       Person}, @Compendium[dnd5e.spells.uAwtVZkiSTyP6ORB]{Telepathic Bond},
       @Compendium[dnd5e.spells.r3243JU4AyQJyfX4]{Modify
-      Memory}</p></td></tr></tbody></table><h2 style="border-bottom:1px solid
-      var(--color-underline-header)">Available Talents</h2><p><span
-      style="font-family:var(--font-primary)">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.MhVmVZAqX3mGyfv8]{Talent:
+      Memory}</p></td></tr></tbody></table><h3>Available
+      Talents</h3><p><span>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.MhVmVZAqX3mGyfv8]{Talent:
       Attuned
       Argument}</span></p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.j1ORy9oakwI8d1bw]{Talent:
       Empathy}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.K1rs4bzXc76OC80U]{Talent:
@@ -100,9 +87,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385710792
-  modifiedTime: 1726385710792
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727213861475
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!ml77R8jdtfin80DX'
 

@@ -2,7 +2,64 @@ _id: GvoZBz0DzdhC0TVz
 name: Seeing
 type: feat
 img: icons/magic/perception/eye-ringed-green.webp
-effects: []
+effects:
+  - name: Seeing
+    img: icons/magic/perception/eye-ringed-green.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.GvoZBz0DzdhC0TVz
+    transfer: false
+    _id: PwwDU2Z1LX1n9tCx
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.abilities.save
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.mwak.attack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.msak.attack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.rsak.attack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.rwak.attack
+        mode: 2
+        value: 1d4
+        priority: null
+      - key: system.bonuses.abilities.skill
+        mode: 2
+        value: 1d4
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: 1727210986578
+      modifiedTime: 1727211045959
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!GvoZBz0DzdhC0TVz.PwwDU2Z1LX1n9tCx'
 folder: PlTkXe6XU4V6E7JU
 sort: 50000
 flags:
@@ -31,41 +88,31 @@ system:
     value: >-
       <p>You concentrate and peer into the stream of future possibilities,
       gaining insight into what will happen next; you can select one of the
-      following:</p>
-
-      <p>You can grant advantage to yourself or to a creature that can see or
-      hear you on their next attack roll made before the start of your next
-      turn; if an attack that gained advantage from this feature hits, it deals
-      an extra [[/r 1d6]] damage.</p>
-
-      <p>You can grant disadvantage on the next attack roll against yourself or
-      a creature that can see or hear you before the start of your next turn; if
-      that attack hits despite the disadvantage, the damaged creature rolls [[/r
-      1d6]] and subtracts that from the damage dealt.</p>
-
-      <p>You can spend psi points up to your per use limit to add the following
-      modifiers to Seeing (you can add multiple modifiers).</p>
-
-      <p><strong>Omniscient (1 psi point):</strong> The beneficiary of your
-      Seeing is under the effect of bless and guidance until the start of your
-      next turn.</p>
-
-      <p><strong>Piercing (1+ psi points):</strong> You see through the target’s
-      defenses when granting advantage, increasing the damage of the attack
-      benefiting from advantage by 1d8 per psi point spent if it hits.</p>
-
-      <p><strong>Positioning (1+ psi points):</strong> The beneficiary of your
-      Seeing can immediately move 5 feet per psi point spent (up to their speed)
-      without provoking opportunity attacks.</p>
-
-      <p><strong>Thwarting (2 psi points):</strong> The beneficiary of your
-      Seeing has advantage on the next saving throw they make before the start
-      of your next turn.</p>
-
-      <p><strong>Withheld (0 psi points):</strong> Rather than granting
-      advantage or disadvantage on the next attack, you can grant advantage or
-      disavantage as a reaction to an attack being made until the start of your
-      next turn.</p>
+      following:</p><p>You can grant advantage to yourself or to a creature that
+      can see or hear you on their next attack roll made before the start of
+      your next turn; if an attack that gained advantage from this feature hits,
+      it deals an extra [[/r 1d6]] damage.</p><p>You can grant disadvantage on
+      the next attack roll against yourself or a creature that can see or hear
+      you before the start of your next turn; if that attack hits despite the
+      disadvantage, the damaged creature rolls [[/r 1d6]] and subtracts that
+      from the damage dealt.</p><p>You can spend psi points up to your per use
+      limit to add the following modifiers to Seeing (you can add multiple
+      modifiers).</p><p><strong>Omniscient (1 psi point):</strong> The
+      beneficiary of your Seeing is under the effect of
+      @UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{bless} and
+      @UUID[Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY]{guidance} until the
+      start of your next turn.</p><p><strong>Piercing (1+ psi points):</strong>
+      You see through the target’s defenses when granting advantage, increasing
+      the damage of the attack benefiting from advantage by 1d8 per psi point
+      spent if it hits.</p><p><strong>Positioning (1+ psi points):</strong> The
+      beneficiary of your Seeing can immediately move 5 feet per psi point spent
+      (up to their speed) without provoking opportunity
+      attacks.</p><p><strong>Thwarting (2 psi points):</strong> The beneficiary
+      of your Seeing has advantage on the next saving throw they make before the
+      start of your next turn.</p><p><strong>Withheld (0 psi points):</strong>
+      Rather than granting advantage or disadvantage on the next attack, you can
+      grant advantage or disavantage as a reaction to an attack being made until
+      the start of your next turn.</p>
     chat: ''
   source:
     book: KCCC
@@ -81,59 +128,127 @@ system:
     subtype: psionicPower
   requirements: 'Components: S'
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    9ZdasX88pRIZBuqB:
+      type: damage
+      _id: 9ZdasX88pRIZBuqB
+      sort: 0
       activation:
         type: action
-        value: 1
-        condition: ''
+        value: null
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '0'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: ''
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        value: '1'
-        units: round
-        special: ''
         override: false
       effects: []
       range:
+        override: false
         units: self
         special: ''
-        override: false
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: ''
-          type: self
           choice: false
+          count: '1'
+          type: creature
           special: ''
-        prompt: true
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types: []
+            scaling:
+              mode: whole
+              number: null
+              formula: 1d8
+      name: ''
+      img: ''
+      appliedEffects: []
+    rIlioO5GTaE3QhxX:
+      type: utility
+      name: Omniscient
+      _id: rIlioO5GTaE3QhxX
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: PwwDU2Z1LX1n9tCx
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
       roll:
-        formula: ''
-        name: ''
         prompt: false
         visible: false
-      sort: 0
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects:
+        - PwwDU2Z1LX1n9tCx
   identifier: seeing
   enchant: {}
   prerequisites:
@@ -148,9 +263,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385690409
-  modifiedTime: 1726385690409
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727211088222
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!GvoZBz0DzdhC0TVz'
 
