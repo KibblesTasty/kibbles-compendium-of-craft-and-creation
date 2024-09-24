@@ -33,7 +33,7 @@ items:
             use: true
             resource: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -168,7 +168,7 @@ items:
       core:
         sourceId: Item.LlK6d5pzfvWWfb0D
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -189,8 +189,8 @@ items:
           <p>Every time that creature strikes another creature with a melee
           attack, a spell with a range of touch, is struck by another creature
           with a melee attack, or ends their turn while grappling or being
-          grappled by another creature, they deal [[/damage 1d6 lightning]] damage to
-          that creature.</p>
+          grappled by another creature, they deal [[/damage 1d6 lightning]]
+          damage to that creature.</p>
 
           <p>Once this spell has discharged 6 times (dealing up to 6d6 damage),
           the spell ends.</p>
@@ -286,7 +286,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -376,7 +376,7 @@ items:
       core:
         sourceId: Item.kqdXJjtYpOK8hcme
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -463,7 +463,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -602,7 +602,7 @@ items:
       core:
         sourceId: Item.MxYox8g83HnZR337
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -764,7 +764,7 @@ items:
       core:
         sourceId: Item.KTVeSCdbRT5qsQBI
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -780,8 +780,8 @@ items:
         value: >-
           <p>Crackling beams of blue energy leap from your hands. For the
           duration of the spell, as an action, you can direct them toward a
-          creature within range, dealing [[/damage 1d12 lightning]] damage to that
-          creature.</p>
+          creature within range, dealing [[/damage 1d12 lightning]] damage to
+          that creature.</p>
 
           <p><em><strong>At Higher Levels.</strong></em> When you cast this
           spell using a 2nd- or 3rd-level spell slot, the damage increases to
@@ -904,7 +904,7 @@ items:
             use: true
             resource: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1041,7 +1041,7 @@ items:
             use: true
             resource: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1179,7 +1179,7 @@ items:
             use: true
             resource: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1313,7 +1313,7 @@ items:
             use: true
             resource: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1424,7 +1424,7 @@ items:
       core:
         sourceId: Item.094090din8bu19vk
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1517,7 +1517,7 @@ items:
       core:
         sourceId: Item.O8FFFeo1NBXvT4yg
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1627,7 +1627,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1767,7 +1767,7 @@ items:
       core:
         sourceId: Item.ssqkbXg1aiTjbl1O
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1905,7 +1905,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -2032,7 +2032,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -2418,6 +2418,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -2437,6 +2439,10 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -2450,12 +2456,26 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.330'
   createdTime: null
   modifiedTime: 1721697585652
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.sP34e5vQSS59tcRs
+  duplicateSource: null
 _key: '!actors!HfsexXhpcsaW1oiT'
 

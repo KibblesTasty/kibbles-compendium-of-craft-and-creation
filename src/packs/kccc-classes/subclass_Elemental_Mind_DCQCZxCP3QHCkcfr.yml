@@ -11,38 +11,26 @@ flags:
 system:
   description:
     value: >-
-      <h2 style="border-bottom:1px solid
-      var(--color-underline-header)">Elemental Mind</h2>
-
       <p>An Elemental Mind is a Psion that can manifest and control elements as
-      an extension of their will.</p>
-
-      <p>1st Level:
+      an extension of their will.</p><p>1st Level:
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.bHzyXopLce62kJ6S]{Elemental
       Power}
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.GUzolWpYyhvrkfQg]{Primordial
-      Aspect}</p>
-
-      <p>3rd Level:
+      Aspect}</p><p>3rd Level:
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.gcEOfCaLuey7axlb]{Living
-      Power}</p>
-
-      <p>6th Level:
+      Power}</p><p>6th Level:
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.L7d6gjnRDKaN0CjL]{Empowered
-      Psionics}</p>
-
-      <p>10th Level:
+      Psionics}</p><p>10th Level:
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.TSfTiIQGoIrZ7EUi]{Full
-      Manifestation}</p>
-
-      <p>14th Level:
+      Manifestation}</p><p>14th Level:
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.iCZnpMIeS45ZJO1j]{Elemental
       Form}</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
+    rules: '2014'
+    revision: 1
   identifier: elemental-mind
   classIdentifier: psion
   advancement:
@@ -119,15 +107,20 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation:
+      formula: ''
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.UD7ZVBJNDDZtLC0l
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721752393696
+  systemVersion: 4.0.3
+  createdTime: 1726385676301
+  modifiedTime: 1727197754430
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!DCQCZxCP3QHCkcfr'
 

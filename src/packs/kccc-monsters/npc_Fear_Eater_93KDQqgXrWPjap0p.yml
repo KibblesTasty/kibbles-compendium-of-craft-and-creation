@@ -52,7 +52,8 @@ items:
         value: >-
           <p><strong>Bite. </strong>Melee Weapon Attack: +5 to hit, reach 5 ft.,
           one target. Hit: 7 ([[/r 1d8 + 3]]) piercing damage. If the target is
-          frightened, it takes an extra [[/damage 2d6 psychic average]] damage.</p>
+          frightened, it takes an extra [[/damage 2d6 psychic average]]
+          damage.</p>
         chat: ''
         unidentified: ''
       source: ''
@@ -141,7 +142,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -234,7 +235,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -568,6 +569,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -587,6 +590,10 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -600,12 +607,26 @@ prototypeToken:
   detectionModes: []
   appendNumber: false
   prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.330'
   createdTime: null
   modifiedTime: 1721697585652
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.y3IdZ29iL9pDwzwm
+  duplicateSource: null
 _key: '!actors!93KDQqgXrWPjap0p'
 

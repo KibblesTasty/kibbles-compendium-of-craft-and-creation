@@ -49,10 +49,16 @@ system:
     units: ft
     type: cube
     prompt: false
+    affects:
+      count: ''
+      type: ''
+    template:
+      count: ''
   range:
     value: 90
     long: null
     units: ft
+    special: ''
   uses:
     value: null
     max: ''
@@ -146,10 +152,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1721415950071
+  modifiedTime: 1727203738452
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.QmSWJ7THQ46XwECD
   duplicateSource: null

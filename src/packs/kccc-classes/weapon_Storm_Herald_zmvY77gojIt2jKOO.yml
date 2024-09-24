@@ -37,6 +37,10 @@ flags:
       altValue:
         '0': true
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -55,6 +59,8 @@ system:
   source:
     book: KCCC
     custom: ''
+    revision: 1
+    rules: '2014'
   quantity: 1
   weight:
     value: 15
@@ -82,15 +88,17 @@ system:
     type: creature
     prompt: true
   range:
-    value: 60
+    value: null
     long: 180
     units: ft
+    reach: 60
   uses:
     value: null
     max: ''
     per: null
-    recovery: ''
+    recovery: []
     prompt: true
+    spent: 0
   consume:
     type: ''
     target: ''
@@ -106,7 +114,31 @@ system:
     parts:
       - - 1d12 + @mod
         - piercing
-    versatile: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 12
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   formula: ''
   save:
     ability: ''
@@ -139,17 +171,85 @@ system:
   enchantment: null
   summons: null
   magicalBonus: 1
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      sort: 0
+  identifier: storm-herald
+  ammunition: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
+  systemVersion: 4.0.0
+  coreVersion: '12.331'
   createdTime: 1721844037868
-  modifiedTime: 1721844669644
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: 1726385661006
+  lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: zmvY77gojIt2jKOO
 sort: 0
 _key: '!items!zmvY77gojIt2jKOO'

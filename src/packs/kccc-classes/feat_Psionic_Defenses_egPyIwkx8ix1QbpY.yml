@@ -27,14 +27,14 @@ effects:
     flags: {}
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.328'
-      systemId: null
-      systemVersion: null
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
     name: Psionic Defenses
     img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
     type: base
@@ -68,70 +68,37 @@ system:
       are not wearing any armor or carrying a shield, your AC equals 13 + your
       Intelligence modifier.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: psionicTalent
   requirements: Psion 1
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 1
+  identifier: psionic-defenses
+  activities: {}
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.qghl0aIwSs4O7fwY
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721799103346
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385705996
+  modifiedTime: 1726385705996
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!egPyIwkx8ix1QbpY'
 

@@ -9,15 +9,18 @@ flags:
     sourceId: Item.u46PukhPRpO1SVYR
 _id: YoNk95f4YpXAlLgB
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.u46PukhPRpO1SVYR
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721777954877
+  systemVersion: 4.0.3
+  createdTime: 1726385615693
+  modifiedTime: 1727199277811
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -34,12 +37,14 @@ system:
       /><p>The following are some optional quirks for a player that selects
       Order of Creation. You can optionally roll or select a quirk that suits
       your
-      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.3l2gMlS4LjvTW6y5]</p>
+      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.3l2gMlS4LjvTW6y5
+      rollable]</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
+    rules: '2014'
+    revision: 1
   identifier: order-of-creation
   classIdentifier: wizard
   advancement:
@@ -121,5 +126,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation:
+      formula: ''
 _key: '!items!YoNk95f4YpXAlLgB'
 

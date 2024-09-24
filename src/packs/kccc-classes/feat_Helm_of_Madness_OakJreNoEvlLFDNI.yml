@@ -30,6 +30,11 @@ flags:
       altValue: true
   core:
     sourceId: Item.cubsACtVCxUJbsKU
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 system:
   description:
     value: >-
@@ -45,70 +50,97 @@ system:
       <p><strong>Curse:</strong> When you activate this helm, your AC and bonus
       to saving throws is reduced by 5 until the start of your next turn.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: bonus
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: self
-  range:
-    value: null
-    long: null
-    units: self
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '1'
-    per: sr
-    recovery: ''
-  consume:
-    type: charges
-    target: ''
-    amount: 1
-  ability: ''
-  actionType: ''
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
   type:
     value: class
     subtype: upgrade
   requirements: Cursesmith 3
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: helm-of-madness
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.cubsACtVCxUJbsKU
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721836343926
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385695962
+  modifiedTime: 1726385695962
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!OakJreNoEvlLFDNI'
 

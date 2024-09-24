@@ -25,70 +25,37 @@ system:
   description:
     value: "<p>You consume your Forbidden Artifact, destroying it and afflicting yourself with a terrible curse. You gain a melee natural weapon as the manifestation of this cursed power. On hit, this weapon deals 1d8 damage of your choice of bludgeoning, piercing, or slashing damage (selected when you gain this feature), and 1d4 necrotic damage. All effects that apply to a Forbidden Artifact apply to this natural weapon. You can apply Soul Investiture to this natural weapon.\_</p>\n<p>Additionally, you can absorb any item you create with this specialization, innately gaining its effect and curse. At the start of your turn while you are not incapacitated you gain temporary hit points equal to 1 + the number of cursed items you have consumed with this ability. If you are under the effect of bane, this becomes 1d4 + the number of cursed items you have consumed with this ability.</p>\n<p>Additionally, when you gain temporary hit points from this feature, you can instead regain hit points equal to the temporary hit points you would have gained. You can regain hit points this way a number of times equal to your proficiency bonus, regaining all uses on a long rest.</p>\n<p>When you select this path, you learn the following spells at the following levels. These spells do not count against your spells known, and are Inventor spells for you.</p>\n<table style=\"width:403px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary)\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Inventor Level</strong></td>\n<td style=\"text-align:center;width:268.953px\"><strong>Spell</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\">3rd</td>\n<td style=\"text-align:center;width:268.953px\">@Compendium[dnd5e.spells.ksaaTxIbKx2sJfia]{Inflict Wounds}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\">5th</td>\n<td style=\"text-align:center;width:268.953px\">@Compendium[dnd5e.spells.S7VbUetIfVT7B6Eq]{Darkness}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\">9th</td>\n<td style=\"text-align:center;width:268.953px\">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.q4y6ERr3SBxm6zWt]{Mutate}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\">13th</td>\n<td style=\"text-align:center;width:268.953px\">\_</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\">17th</td>\n<td style=\"text-align:center;width:268.953px\">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.DULroJrfyUiDGRny]{Devouring Darkness}</td>\n</tr>\n</tbody>\n</table>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Cursesmith 3
-  recharge:
-    value: null
-    charged: false
+  identifier: curse-eater
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
-  createdTime: null
-  modifiedTime: 1721425276040
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.ryHZn4MoSvPn3F5x
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385669741
+  modifiedTime: 1726385669741
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!7J3BmfBTpuBpQ0Zv'
 

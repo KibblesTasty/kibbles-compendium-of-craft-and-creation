@@ -9,15 +9,18 @@ flags:
     sourceId: Item.bTLvqJz5TNwRTdEu
 _id: YirGmWgpxlONtUKP
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.bTLvqJz5TNwRTdEu
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721763959180
+  systemVersion: 4.0.3
+  createdTime: 1726385615673
+  modifiedTime: 1727198969050
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -30,12 +33,14 @@ system:
       those they believe have earned such a grim fate.</p><hr /><p>The following
       are some optional quirks for a player of the Mind Reaper. You can
       optionally roll or select a quirk that suits your
-      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.081JMHbbTaNWtcsN]</p>
+      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.081JMHbbTaNWtcsN
+      rollable]</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
+    rules: '2014'
+    revision: 1
   identifier: mind-reaper
   classIdentifier: ranger
   advancement:
@@ -110,5 +115,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation:
+      formula: ''
 _key: '!items!YirGmWgpxlONtUKP'
 

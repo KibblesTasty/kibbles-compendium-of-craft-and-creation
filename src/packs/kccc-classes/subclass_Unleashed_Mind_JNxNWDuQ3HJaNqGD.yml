@@ -11,55 +11,41 @@ flags:
 system:
   description:
     value: >-
-      <h2>Unleashed Mind</h2>
-
       <p>An Unleashed Mind’s power is most often an innate force they struggle
       to understand or control, a reflection of their state of mind and mood
       projected onto the world around them, often to devastating results. The
       life of an Unleashed Psion is frequently their journey to control their
-      unruly powers... or one of embracing the destructive powers fully.</p>
-
-      <p>What the wellspring of their innate power is varies: they could be a
-      psionic race, born under the influence of distant twisted powers, warped
-      by fey blood, or a herald of something more sinister brushing against the
-      material world. Sometimes their power will show itself in simple
-      applications, but most often their power becomes known and feared when
-      their temper flares.</p>
-
-      <p>Their alignment frequently depends on the approach to their powers they
-      have taken. An Unleashed Psion who emphasizes control and restraint,
-      keeping their emotions from running wild and their powers from running
-      rampant will most often be lawful, following strict personal codes. On the
-      other hand, an Unleashed Psion who lets their power run rampant will
-      almost always be chaotic in nature, acting on impulse... with great
-      emphasis.</p>
-
-      <p>1st Level:
+      unruly powers... or one of embracing the destructive powers
+      fully.</p><p>What the wellspring of their innate power is varies: they
+      could be a psionic race, born under the influence of distant twisted
+      powers, warped by fey blood, or a herald of something more sinister
+      brushing against the material world. Sometimes their power will show
+      itself in simple applications, but most often their power becomes known
+      and feared when their temper flares.</p><p>Their alignment frequently
+      depends on the approach to their powers they have taken. An Unleashed
+      Psion who emphasizes control and restraint, keeping their emotions from
+      running wild and their powers from running rampant will most often be
+      lawful, following strict personal codes. On the other hand, an Unleashed
+      Psion who lets their power run rampant will almost always be chaotic in
+      nature, acting on impulse... with great emphasis.</p><p>1st Level:
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.eqtXoFfy2ht1vjmw]{Unshackled
       Power}
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.CfDJqyWcthOzPlI7]{Overwhelming
-      Power}</p>
-
-      <p>3rd Level:
+      Power}</p><p>3rd Level:
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.qlI6WV7zeJOAZggS]{Rampaging
-      Power}</p>
-
-      <p>6th Level:
+      Power}</p><p>6th Level:
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.LN3iejXbKb8X3NA1]{Empowered
-      Psionics}</p>
-
-      <p>10th Level:
+      Psionics}</p><p>10th Level:
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.StLx5aNWyW4RUtK2]{Uncontrollable
-      Mind}</p>
-
-      <p>14th Level:
+      Mind}</p><p>14th Level:
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.CHVwK9pLHmfTqZmQ]{Unstoppable
       Rampage}</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
+    rules: '2014'
+    revision: 1
   identifier: unleashed-mind
   classIdentifier: psion
   advancement:
@@ -129,15 +115,20 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation:
+      formula: ''
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.HbO6GiscfYxKXx0S
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721752394085
+  systemVersion: 4.0.3
+  createdTime: 1726385691809
+  modifiedTime: 1727197771476
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!JNxNWDuQ3HJaNqGD'
 

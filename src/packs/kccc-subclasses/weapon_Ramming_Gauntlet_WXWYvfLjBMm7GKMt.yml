@@ -39,17 +39,24 @@ flags:
         '0': true
   core:
     sourceId: Item.rhdxLhwlHk8b2xj5
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: WXWYvfLjBMm7GKMt
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.rhdxLhwlHk8b2xj5
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721759158180
+  systemVersion: 4.0.3
+  createdTime: 1726385615492
+  modifiedTime: 1727196974040
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -61,58 +68,56 @@ system:
       <p><em><strong>Excessive Force (Ramming Gauntlet): </strong>The target is
       knocked 10 feet backwards.</em></p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
+    rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
   range:
-    value: 5
+    value: null
     long: null
     units: ft
+    reach: null
   uses:
-    value: null
     max: ''
-    per: ''
-  consume:
-    type: charges
-    target: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.VQPTKxU6XFQkVg3g
-    amount: 1
-  ability: ''
-  actionType: mwak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts:
-      - - 1d8 + @mod
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 8
+      bonus: ''
+      types:
         - bludgeoning
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   armor:
     value: 10
   hp:
@@ -120,28 +125,129 @@ system:
     max: 0
     dt: null
     conditions: ''
-  weaponType: martialM
-  baseItem: ''
   properties:
-    ada: false
-    amm: false
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: false
-    lod: false
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: true
-    thr: false
-    two: false
-    ver: false
-  proficient: true
+    - lgt
+    - spc
+  proficient: 1
   type:
     value: simpleM
+    baseItem: ''
+  identifier: ramming-gauntlet
+  unidentified:
+    description: ''
+  activities:
+    Ldxqsy2GlntxIsub:
+      _id: Ldxqsy2GlntxIsub
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+    UOLHt1cxmuepAsyI:
+      type: attack
+      name: Power Attack
+      _id: UOLHt1cxmuepAsyI
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: '- @prof'
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: true
+              formula: 2 * @prof
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+  container: null
+  attuned: false
+  cover: null
+  crewed: false
+  ammunition: {}
+  magicalBonus: null
+  mastery: ''
 _key: '!items!WXWYvfLjBMm7GKMt'
 

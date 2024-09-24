@@ -20,17 +20,24 @@ flags:
       altValue: true
   core:
     sourceId: Item.9NIupJzWmcMfRBeV
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: MCWMsupyY26mLQtl
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.9NIupJzWmcMfRBeV
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721757859245
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385614807
+  modifiedTime: 1726385614807
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -53,54 +60,77 @@ system:
       your turn (or if your rage ends) all orbiting weapons drop to the ground
       around you.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: special
-    cost: 0
-    condition: At the start of your turn
-  duration:
-    value: '1'
-    units: turn
-  target:
-    value: '60'
-    width: null
-    units: ft
-    type: radius
-  range:
-    value: null
-    long: null
-    units: self
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: Raging Mind 3
-  recharge:
-    value: null
-    charged: false
   type:
     value: class
+    subtype: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 0
+        condition: At the start of your turn
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: turn
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '60'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: telekinetic-fury
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _key: '!items!MCWMsupyY26mLQtl'
 

@@ -26,43 +26,30 @@ system:
     value: >-
       <p>Enhancement is the ability to interact with a creature’s nature and
       abilities with your psionic
-      power.</p><h2>Features</h2><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.LuHHhNLIFXTWPD25]{Enhancing
+      power.</p><h3>Features</h3><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.LuHHhNLIFXTWPD25]{Enhancing
       Skill}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.9Qjfi2J4ScCTvhHg]{Enhancing
-      Surge}</p><h2 style="border-bottom:1px solid
-      var(--color-underline-header)">Alternate Effects</h2><p>Additionally, when
-      you learn the Enhancement psionic discipline you can use your Psionics
-      feature to cast the following spells as per the rules defined in the
-      feature:</p><table style="width:100%" border="1"><tbody><tr><td
-      style="text-align:center;width:24.912%"><p><strong>Point
-      Cost</strong></p></td><td
-      style="text-align:center;width:75.088%"><p><strong>Alternate
-      Effect</strong></p></td></tr><tr><td
-      style="text-align:center;width:24.912%"><p>1</p></td><td
-      style="text-align:center;width:75.088%"><p>@Compendium[dnd5e.spells.ge3Saet9zPTDyaoL]{Heroism},
+      Surge}</p><h3>Alternate Effects</h3><p>Additionally, when you learn the
+      Enhancement psionic discipline you can use your Psionics feature to cast
+      the following spells as per the rules defined in the feature:</p><table
+      border="1"><thead><tr><th><p><strong>Point
+      Cost</strong></p></th><th><p><strong>Alternate
+      Effect</strong></p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@Compendium[dnd5e.spells.ge3Saet9zPTDyaoL]{Heroism},
       @Compendium[dnd5e.spells.B0pnIcc52O6G8hi8]{Longstrider},
       @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.3UcZJiA35PX12rvE]{Unlocked
-      Potential}</p></td></tr><tr><td
-      style="text-align:center;width:24.912%"><p>2</p></td><td
-      style="text-align:center;width:75.088%"><p>@Compendium[dnd5e.spells.8RTDOt80u8aBv9qx]{Alter
+      Potential}</p></td></tr><tr><td><p>2</p></td><td><p>@Compendium[dnd5e.spells.8RTDOt80u8aBv9qx]{Alter
       Self}, @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Enlarge/Reduce},
       @Compendium[dnd5e.spells.F0GsG0SJzsIOacwV]{Lesser
-      Restoration}</p></td></tr><tr><td
-      style="text-align:center;width:24.912%"><p>3</p></td><td
-      style="text-align:center;width:75.088%"><p>@Compendium[dnd5e.spells.Szvk5FEVQW3uhJi5]{Haste},
+      Restoration}</p></td></tr><tr><td><p>3</p></td><td><p>@Compendium[dnd5e.spells.Szvk5FEVQW3uhJi5]{Haste},
       @Compendium[dnd5e.spells.j8NtLXOOJ3GAKF8I]{Protection from
-      Energy}</p></td></tr><tr><td
-      style="text-align:center;width:24.912%"><p>4</p></td><td
-      style="text-align:center;width:75.088%"><p>@Compendium[dnd5e.spells.da0a1t2FqaTjRZGT]{Freedom
+      Energy}</p></td></tr><tr><td><p>4</p></td><td><p>@Compendium[dnd5e.spells.da0a1t2FqaTjRZGT]{Freedom
       of Movement},
-      @Compendium[dnd5e.spells.ReMbjfeOKoSj3O79]{Stoneskin}</p></td></tr><tr><td
-      style="text-align:center;width:24.912%"><p>5</p></td><td
-      style="text-align:center;width:75.088%"><p>@Compendium[dnd5e.spells.WzvJ7G3cqvIubsLk]{Greater
+      @Compendium[dnd5e.spells.ReMbjfeOKoSj3O79]{Stoneskin}</p></td></tr><tr><td><p>5</p></td><td><p>@Compendium[dnd5e.spells.WzvJ7G3cqvIubsLk]{Greater
       Restoration},
       @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.EWejRRWRaKQS98Td]{Invested
       Competency}</p></td></tr></tbody></table><p>If a spell can be cast at a
       higher level, you can spend additional psi points to cast it at a level
-      equal to the psi points spent.</p><h2>Available
-      Talents</h2><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.zgxVn1mmYOKv3frm]{Talent:
+      equal to the psi points spent.</p><h3>Available
+      Talents</h3><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.zgxVn1mmYOKv3frm]{Talent:
       Enhanced
       Regrowth}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.uu6Ur1UnWgcUbt3z]{Talent:
       Metamorphosis}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.OX78YGxEJPJyWt05]{Talent:
@@ -76,6 +63,7 @@ system:
   source:
     book: KCCC
     custom: ''
+    rules: '2014'
   activation:
     type: ''
     cost: 0
@@ -125,15 +113,16 @@ system:
   recharge:
     value: null
     charged: false
+  identifier: enhancement-discipline
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1721435179154
+  modifiedTime: 1727210709398
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.bchVLxuUTuxKJHub
   duplicateSource: null

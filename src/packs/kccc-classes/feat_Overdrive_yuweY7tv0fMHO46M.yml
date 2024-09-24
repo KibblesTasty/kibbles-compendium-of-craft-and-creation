@@ -21,6 +21,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.YQCo90g5toTrHZQo
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -35,6 +39,8 @@ system:
   source:
     book: KCCC
     custom: ''
+    revision: 1
+    rules: '2014'
   activation:
     type: action
     cost: 1
@@ -57,7 +63,8 @@ system:
     value: null
     max: ''
     per: ''
-    recovery: ''
+    recovery: []
+    spent: 0
   consume:
     type: ''
     target: ''
@@ -86,15 +93,73 @@ system:
     charged: false
   prerequisites:
     level: 9
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: spec
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: overdrive
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
+  systemVersion: 4.0.0
+  coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1721836343926
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: 1726385660015
+  lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: Item.YQCo90g5toTrHZQo
+  duplicateSource: null
 _key: '!items!yuweY7tv0fMHO46M'
 

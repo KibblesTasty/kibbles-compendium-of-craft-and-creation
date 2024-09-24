@@ -9,23 +9,27 @@ flags:
     sourceId: Item.ql7OZQajQm7sZUuK
 _id: GiURJypLnfCMZWoN
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.ql7OZQajQm7sZUuK
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721760599935
+  systemVersion: 4.0.3
+  createdTime: 1726385614410
+  modifiedTime: 1727199492179
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
-    value: "<p>A Tech Knight believes that it is neither brains nor brawn that determine the best fighter, but the combination thereof.\_</p><p>Why limit yourself to what nature has provided you when you can supplement your combat superiority in unique and inventive ways that give you the edge? You build and innovate on the cutting edge... and use that edge to hew through your foes. There are few things more dangerous than weaponized creativity in the hands of someone that knows how to use it.</p><p>A Tech Knight could be called an inventor that opened the door of innovation, found the deadliest thing they could invent, and closed it once more, but that wouldn’t be accurate. They innovate continuously, improving their art, just with a highly specialized focus.</p><p>Some perhaps adventure and fight to test their weapons, others perhaps turned to innovation to overcome some obstacle or seek to change the world, and others still care little for the science and engineering of the weapon, and merely cobbled together something to annihilate their foes.</p><hr /><p>The following are some optional quirks for a player of the Tech Knight. You can optionally roll or select a quirk that suits your character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.XFN17PG13Y58zTbF]</p>"
+    value: "<p>A Tech Knight believes that it is neither brains nor brawn that determine the best fighter, but the combination thereof.\_</p><p>Why limit yourself to what nature has provided you when you can supplement your combat superiority in unique and inventive ways that give you the edge? You build and innovate on the cutting edge... and use that edge to hew through your foes. There are few things more dangerous than weaponized creativity in the hands of someone that knows how to use it.</p><p>A Tech Knight could be called an inventor that opened the door of innovation, found the deadliest thing they could invent, and closed it once more, but that wouldn’t be accurate. They innovate continuously, improving their art, just with a highly specialized focus.</p><p>Some perhaps adventure and fight to test their weapons, others perhaps turned to innovation to overcome some obstacle or seek to change the world, and others still care little for the science and engineering of the weapon, and merely cobbled together something to annihilate their foes.</p><hr /><p>The following are some optional quirks for a player of the Tech Knight. You can optionally roll or select a quirk that suits your character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.XFN17PG13Y58zTbF rollable]</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
+    rules: '2014'
+    revision: 1
   identifier: tech-knight
   classIdentifier: fighter
   advancement:
@@ -38,6 +42,9 @@ system:
             optional: false
           - uuid: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.YuxY2LrGdLY6Hoo8
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.sWvYtGEDZ1Ls1GiY
             optional: false
         optional: false
         spell: null
@@ -273,5 +280,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation:
+      formula: ''
 _key: '!items!GiURJypLnfCMZWoN'
 

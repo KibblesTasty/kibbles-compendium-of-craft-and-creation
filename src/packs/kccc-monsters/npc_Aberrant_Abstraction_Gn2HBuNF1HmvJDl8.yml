@@ -36,7 +36,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -51,8 +51,8 @@ items:
       description:
         value: >-
           <p><strong>Shred Reality. </strong>The aberrant abstraction deals 
-          [[/damage 5d4 force average]] damage to all non-aberration creatures within 5
-          feet of it.</p>
+          [[/damage 5d4 force average]] damage to all non-aberration creatures
+          within 5 feet of it.</p>
         chat: ''
         unidentified: ''
       source: ''
@@ -135,7 +135,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -151,9 +151,9 @@ items:
         value: >-
           <p><strong>Cause Madness.</strong> A creature that starts its turn
           within 10 feet of the aberrant abstraction must succeed on a DC 15
-          Wisdom saving throw or take [[/damage 2d10 psychic average]] damage and be
-          under the effect of the confusion spell until the start of its next
-          turn.</p>
+          Wisdom saving throw or take [[/damage 2d10 psychic average]] damage
+          and be under the effect of the confusion spell until the start of its
+          next turn.</p>
         chat: ''
         unidentified: ''
       source: ''
@@ -233,7 +233,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -325,7 +325,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -414,7 +414,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -487,12 +487,14 @@ flags:
   dnd5e:
     showTokenPortrait: false
 _stats:
-  coreVersion: '11.315'
+  coreVersion: '12.330'
   systemId: dnd5e
   systemVersion: 3.3.0
   createdTime: null
   modifiedTime: 1721697969524
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.Q2Fj2WSvFdZ2bqyh
+  duplicateSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -821,6 +823,8 @@ prototypeToken:
       max: 1
     attenuation: 0.5
     color: null
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -837,6 +841,10 @@ prototypeToken:
     offsetY: 0
     rotation: 0
     tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -850,5 +858,17 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _key: '!actors!Gn2HBuNF1HmvJDl8'
 

@@ -56,52 +56,12 @@ system:
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 1
-    condition: ''
-  duration:
-    value: ''
-    units: inst
-  cover: null
-  crewed: false
-  target:
-    value: '1'
-    width: null
-    units: ''
-    type: creature
-    prompt: true
-  range:
-    value: 5
-    long: null
-    units: ft
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: ''
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d6 + @mod
-        - bludgeoning
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   properties:
     - fin
     - lgt
@@ -109,28 +69,26 @@ system:
   type:
     value: class
     subtype: upgrade
-  attack:
-    bonus: ''
-    flat: false
-  enchantment: null
-  summons: null
   prerequisites:
     level: null
   requirements: Gadgetsmith 1
-  recharge:
-    value: null
-    charged: false
+  identifier: impact-gauntlet
+  activities: {}
+  enchant: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.XHTmNdRMOYDEwaJi
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: 1721837105795
-  modifiedTime: 1721837150838
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385716063
+  modifiedTime: 1726385716063
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: uFnFFrTvjsqcY9Xm
 _key: '!items!uFnFFrTvjsqcY9Xm'
 

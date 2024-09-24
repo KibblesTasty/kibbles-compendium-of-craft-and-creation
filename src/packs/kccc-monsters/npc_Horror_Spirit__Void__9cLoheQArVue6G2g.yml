@@ -412,6 +412,10 @@ prototypeToken:
     offsetY: 0
     rotation: 0
     tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   width: 1
   height: 1
   lockRotation: false
@@ -443,6 +447,8 @@ prototypeToken:
       min: 0
       max: 1
     color: null
+    negative: false
+    priority: 0
   sight:
     enabled: false
     range: 60
@@ -456,6 +462,18 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 items:
   - name: Multiattack
     type: feat
@@ -539,7 +557,7 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.0
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: 1721364185891
       modifiedTime: 1721407747217
       lastModifiedBy: pJeIW7qCa0HkURWq
@@ -629,7 +647,7 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.0
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: 1721364185927
       modifiedTime: 1721407945885
       lastModifiedBy: pJeIW7qCa0HkURWq
@@ -722,7 +740,7 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.0
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: 1721364185956
       modifiedTime: 1721407862078
       lastModifiedBy: pJeIW7qCa0HkURWq
@@ -740,10 +758,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.330'
   createdTime: 1721364185767
   modifiedTime: 1721697585652
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: null
+  duplicateSource: null
 sort: 0
 _id: 9cLoheQArVue6G2g
 _key: '!actors!9cLoheQArVue6G2g'

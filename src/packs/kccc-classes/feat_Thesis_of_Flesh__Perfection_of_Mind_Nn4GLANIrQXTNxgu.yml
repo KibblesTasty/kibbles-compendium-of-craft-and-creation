@@ -34,6 +34,11 @@ flags:
         '0': true
   core:
     sourceId: Item.NgdI1FTfvJuabyMI
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 system:
   description:
     value: >-
@@ -50,72 +55,105 @@ system:
       proficiency bonus at a time. You regain this pool of d8s at the end of a
       long rest.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: special
-    cost: null
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '@classes.inventor.levels'
-    per: lr
-    recovery: ''
-  consume:
-    type: charges
-    target: ''
-    amount: 1
-  ability: ''
-  actionType: heal
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d8
-        - healing
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
   type:
     value: class
     subtype: ''
   requirements: Fleshsmith 1
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: special
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: 1
+        denomination: 8
+        bonus: ''
+        types:
+          - healing
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+  identifier: thesis-of-flesh-perfection-of-mind
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
-  createdTime: null
-  modifiedTime: 1721425379791
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.NgdI1FTfvJuabyMI
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385695381
+  modifiedTime: 1726385695381
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!Nn4GLANIrQXTNxgu'
 

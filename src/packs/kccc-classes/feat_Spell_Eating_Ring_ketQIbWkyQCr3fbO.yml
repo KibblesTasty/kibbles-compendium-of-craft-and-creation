@@ -25,70 +25,37 @@ system:
   description:
     value: "<p>You make a magical item that consumes magic around you. You can activate the item, casting counterspell or dispel magic against a target within 15 feet of you. When you cancel a spell in this way, you can consume the spell to recover 1d4 hit points per level of the spell.\_</p>\n<p>Alternatively, if the spell would have had a non-Instantaneous duration and would have affected a creature, you can transfer one spell to yourself. A spell stolen in this way doesn’t require concentration to maintain, but lasts only a number of turns equal to your Intelligence modifier or the spell’s duration, whichever is shorter.</p>\n<p>Once you use this Upgrade, you can’t use it again until you finish a long rest.</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: upgrade
   requirements: Cursesmith 9
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 9
+  identifier: spell-eating-ring
+  activities: {}
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.e5pVPPHNbk9huABM
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721836343926
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385709239
+  modifiedTime: 1726385709239
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!ketQIbWkyQCr3fbO'
 

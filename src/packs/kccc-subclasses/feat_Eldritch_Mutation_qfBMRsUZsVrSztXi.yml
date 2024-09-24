@@ -20,17 +20,24 @@ flags:
       altValue: true
   core:
     sourceId: Item.5veqL8A7QgO2O78Z
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: qfBMRsUZsVrSztXi
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.5veqL8A7QgO2O78Z
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721753946021
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385616378
+  modifiedTime: 1726385616378
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -47,56 +54,85 @@ system:
       early if you dismiss it as an action, are incapacitated, or use this
       feature again.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: bonus
-    cost: 1
-    condition: ''
-  duration:
-    value: '10'
-    units: minute
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: ''
-  actionType: heal
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - '@classes.druid.levels + @abilities.wis.mod'
-        - temphp
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: Circle of Nightmares 2
-  recharge:
-    value: null
-    charged: false
   type:
     value: class
+    subtype: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '10'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@classes.druid.levels + @abilities.wis.mod'
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+  identifier: eldritch-mutation
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _key: '!items!qfBMRsUZsVrSztXi'
 

@@ -25,70 +25,37 @@ system:
   description:
     value: "<p>Starting at 14th level, your Mind Leech ability always gains the Shredding modifier, and it doesn’t cost a psi point to add the modifier.</p>\n<p>Further, you can use additional power to leave their mind further vulnerable. You can spend additional psi points on the Shredding modifier to further reduce their next Intelligence, Wisdom, or Charisma saving throw (up to 2 additional points to reduce it by a total of 3d4). Once this effect has been applied to a creature, you can’t spend additional psi points on the Shredding modifier against the creature until 1 hour has passed.\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Consuming Mind 14
-  recharge:
-    value: null
-    charged: false
+  identifier: shattered-husks
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
-  createdTime: null
-  modifiedTime: 1721424938438
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.11CcwOKsdxzf96uX
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385714064
+  modifiedTime: 1726385714064
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!r7juVGUdR1Clq9mQ'
 

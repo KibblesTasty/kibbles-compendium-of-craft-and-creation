@@ -28,7 +28,7 @@ items:
       core:
         sourceId: Item.dmq10q8sy5mztjxt
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -116,7 +116,7 @@ items:
       core:
         sourceId: Item.Z5r8QR8ai8bYpclI
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -210,7 +210,7 @@ items:
       core:
         sourceId: Item.uYUScjhaB8j5lgHU
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -296,7 +296,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -312,9 +312,9 @@ items:
         value: >-
           <p><strong>Crushing Descent.</strong> If the drake flies at least 20
           feet downward and then hits a target with a Crushing Stomp attack, the
-          target takes an extra [[/damage 1d12 bludgeoning average]] damage, and it must
-          succeed on a DC 19 Strength saving throw or be knocked prone and
-          grappled by the drake (escape DC 17). Until the grapple ends, the
+          target takes an extra [[/damage 1d12 bludgeoning average]] damage, and
+          it must succeed on a DC 19 Strength saving throw or be knocked prone
+          and grappled by the drake (escape DC 17). Until the grapple ends, the
           target is restrained and has disadvantage on Strength checks and
           Strength saving throws, and the drake can’t use the same claw on
           another target.</p>
@@ -387,7 +387,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -481,7 +481,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -574,7 +574,7 @@ items:
       core:
         sourceId: Item.094090din8bu19vk
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -679,7 +679,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -819,7 +819,7 @@ items:
       core:
         sourceId: Item.CnGHl7gvz7TTvv20
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -939,7 +939,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1045,7 +1045,7 @@ items:
           altValue:
             charge: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1062,12 +1062,12 @@ items:
           <p><em><strong>Flaming Tar Breath (Recharge 5–6).</strong></em> The
           drake unleashes a blast of flaming tar in a 30-foot cone. Each
           creature in the area must make a DC 19 Dexterity saving throw. On a
-          failed save, a creature takes [[/damage 13d6 fire average]] damage and becomes
-          covered in a thick layer of flaming tar. On a successful save, the
-          creature takes half as much damage and isn’t covered in tar. While a
-          creature is covered in tar, its speed is halved and it takes 10 ([[/r
-          3d6]]) fire damage at the start of each of its turns. A creature can
-          spend an action clearing the flaming tar from itself or another
+          failed save, a creature takes [[/damage 13d6 fire average]] damage and
+          becomes covered in a thick layer of flaming tar. On a successful save,
+          the creature takes half as much damage and isn’t covered in tar. While
+          a creature is covered in tar, its speed is halved and it takes 10
+          ([[/r 3d6]]) fire damage at the start of each of its turns. A creature
+          can spend an action clearing the flaming tar from itself or another
           creature within 5 feet of it.</p>
         chat: ''
         unidentified: ''
@@ -1140,7 +1140,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1242,7 +1242,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1332,7 +1332,7 @@ items:
           altValue:
             resource: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1430,7 +1430,7 @@ items:
           altValue:
             resource: true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1537,7 +1537,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -1939,6 +1939,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -1958,6 +1960,10 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -1971,12 +1977,26 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   detectionModes: []
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
-  coreVersion: '11.315'
+  coreVersion: '12.330'
   createdTime: null
   modifiedTime: 1721839728767
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.xXoCvxNsvubdJqC5
+  duplicateSource: null
 _key: '!actors!gS7dlw1buv0qqW8y'
 

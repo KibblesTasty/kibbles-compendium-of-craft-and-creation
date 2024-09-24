@@ -23,72 +23,43 @@ flags:
     sourceId: Item.S6FmYecbkNbKGDxn
 system:
   description:
-    value: "<p>After using your Mind Leech on a target, you can gain one skill, tool or language proficiency that creature has until the end of your next long rest. If you use this ability again, you lose the last proficiency or language to acquire the new one.</p>\n<p>\_</p>"
+    value: >-
+      <p>After using your Mind Leech on a target, you can gain one skill, tool
+      or language proficiency that creature has until the end of your next long
+      rest. If you use this ability again, you lose the last proficiency or
+      language to acquire the new one.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Consumption 1
-  recharge:
-    value: null
-    charged: false
+  identifier: adaptive-hunter
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
-  createdTime: null
-  modifiedTime: 1721424698057
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.S6FmYecbkNbKGDxn
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1726385704473
+  modifiedTime: 1727209265922
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!cJCUyt6oR2sR1Mfl'
 

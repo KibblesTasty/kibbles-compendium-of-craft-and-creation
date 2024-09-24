@@ -40,6 +40,10 @@ flags:
         '0': true
   core:
     sourceId: Item.t3x6toPpIcPYBQ37
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: "<p>After dealing thunder damage on your turn, you can create a burst of thunderous sound that can be heard up to 100 feet away as a bonus action. Each creature within 5 feet, other than you, must make a Constitution saving throw or take [[/damage 3d6 thunder]] damage You can do this a number of times equal to your Intelligence modifier, regaining all uses after a long rest. This damage increases by 1d6 when you reach 17th level to a total of [[/r 4d6]].\_</p>"
@@ -48,6 +52,8 @@ system:
   source:
     book: KCCC
     custom: ''
+    revision: 1
+    rules: '2014'
   activation:
     type: action
     cost: 1
@@ -70,7 +76,10 @@ system:
     value: 2
     max: '2'
     per: lr
-    recovery: ''
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
   consume:
     type: charges
     target: ''
@@ -101,15 +110,94 @@ system:
     charged: false
   prerequisites:
     level: 11
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '5'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 6
+            bonus: ''
+            types:
+              - thunder
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: backblast
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
+  systemVersion: 4.0.0
+  coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1721836343926
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: 1726385663527
+  lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: Item.t3x6toPpIcPYBQ37
+  duplicateSource: null
 _key: '!items!zGNx3usjLzNCNc9k'
 

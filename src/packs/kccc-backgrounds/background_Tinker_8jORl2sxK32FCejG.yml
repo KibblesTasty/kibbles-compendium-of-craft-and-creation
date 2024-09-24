@@ -45,55 +45,13 @@ system:
       help with larger crafting pieces as
       appropriate.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.2Dag77XRtrpnvaZr]</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.eETdlZQ1kIxCcpdi]</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.qxmoRD5ZCAfSJqZg]</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     page: ''
     custom: ''
     license: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  requirements: Background
-  recharge:
-    value: null
-    charged: false
+    rules: '2014'
+    revision: 1
   startingEquipment:
     - type: linked
       count: null
@@ -126,7 +84,6 @@ system:
           - skills:ins
           - skills:nat
         choices: []
-        hint: ''
       value:
         chosen: []
       level: 0
@@ -140,7 +97,6 @@ system:
         grants:
           - tool:art:tinker
         choices: []
-        hint: ''
       value:
         chosen: []
       level: 0
@@ -156,23 +112,24 @@ system:
           - count: 1
             pool:
               - languages:*
-        hint: ''
       value:
         chosen: []
       level: 0
       title: ''
       icon: null
+  identifier: tinker
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.2.1
-  coreVersion: '12.328'
-  createdTime: null
-  modifiedTime: 1721341422588
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.HC7sf8gMCIGJYB7k
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385608185
+  modifiedTime: 1726385608185
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!8jORl2sxK32FCejG'
 

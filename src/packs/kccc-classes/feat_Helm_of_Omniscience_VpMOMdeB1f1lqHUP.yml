@@ -29,76 +29,109 @@ flags:
         '0': true
   core:
     sourceId: Item.mt1qqLhnvXrp4Rv6
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: "<p><em>\_(You can only wear 1 Helm at a time.)</em></p>\n<p><em>Attunement, Cursed.</em></p>\n<p>You make a helm granting you unlimited knowledge. As a bonus action, you can gain the effect of the foresight spell until the start of your next turn. Once you use this helm, you can’t use it again until you finish a short or long rest.</p>\n<p><strong>Curse: </strong>When you activate this helm, your mind becomes overloaded, causing you to take 1d6 psychic damage when you make a roll that benefits from this foresight until the start of your next turn.</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: bonus
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: self
-  range:
-    value: null
-    long: null
-    units: self
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: other
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d6
-        - psychic
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: upgrade
   requirements: Cursesmith 3
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+  identifier: helm-of-omniscience
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.mt1qqLhnvXrp4Rv6
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721836343926
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385700644
+  modifiedTime: 1726385700644
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!VpMOMdeB1f1lqHUP'
 

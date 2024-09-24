@@ -25,70 +25,37 @@ system:
   description:
     value: "<p><em>\_(Prerequisite: Adaptable Weapon)</em></p>\n<p>Select 3 of Thunder Cannon, Hand Cannon, Kinetic Hammer, Charged Blade, and Lightning Pike. As a bonus action, you can transform your Stormforged Weapon between them.</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: upgrade
   requirements: Thundersmith 9
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 9
+  identifier: transforming-weapon
+  activities: {}
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.UXjfCu1IEy1lQE9b
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721836343926
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385666532
+  modifiedTime: 1726385666532
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!3mCNlKIwlRNZ7JPm'
 

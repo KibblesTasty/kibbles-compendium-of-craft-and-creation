@@ -9,15 +9,18 @@ flags:
   core:
     sourceId: Item.0RbIyZBNVEMp31OF
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.0RbIyZBNVEMp31OF
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721761372094
+  systemVersion: 4.0.3
+  createdTime: 1726385615029
+  modifiedTime: 1727199616022
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: >-
@@ -26,12 +29,14 @@ system:
       psionic powers—primarily into a blade of pure psionic power: a Soul
       Blade.</p><hr /><p>The following are some optional quirks for a player of
       this
-      Way</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.RjxvPFeIR2jqw6iN]</p>
+      Way</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.RjxvPFeIR2jqw6iN
+      rollable]</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
+    rules: '2014'
+    revision: 1
   identifier: way-of-the-soulblade
   classIdentifier: monk
   advancement:
@@ -105,5 +110,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation:
+      formula: ''
 _key: '!items!PWMqx1JBcdfOTq0l'
 

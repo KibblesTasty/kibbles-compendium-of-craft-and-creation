@@ -36,55 +36,12 @@ system:
     book: KCCC
     page: ''
     license: ''
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: '1'
-    width: null
-    units: ''
-    type: creatureOrObject
-    prompt: true
-  range:
-    value: 30
-    long: null
-    units: ft
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: psionicPower
@@ -92,21 +49,93 @@ system:
     level: null
   properties: []
   requirements: 'Components: S'
-  recharge:
-    value: null
-    charged: false
+  activities:
+    sMi1XSOFxnvN7Ov4:
+      type: attack
+      _id: sMi1XSOFxnvN7Ov4
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '0'
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: 1 + @scaling
+          type: object
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      appliedEffects: []
+  identifier: telekinetic-weapons
+  enchant: {}
 effects: []
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
-  createdTime: 1721840041575
-  modifiedTime: 1721840401576
+  systemVersion: 4.0.3
+  createdTime: 1726385696842
+  modifiedTime: 1727219751749
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!PzEnSqEAYsqoG33H'
 

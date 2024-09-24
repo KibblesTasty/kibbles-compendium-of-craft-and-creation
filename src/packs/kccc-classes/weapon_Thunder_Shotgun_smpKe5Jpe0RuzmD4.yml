@@ -37,6 +37,10 @@ flags:
       altValue:
         '0': true
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -56,6 +60,8 @@ system:
   source:
     book: KCCC
     custom: ''
+    revision: 1
+    rules: '2014'
   quantity: 1
   weight:
     value: 15
@@ -67,52 +73,43 @@ system:
   equipped: false
   rarity: uncommon
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: ''
-    units: inst
   cover: null
   crewed: false
-  target:
-    value: '1'
-    width: null
-    units: ''
-    type: creature
-    prompt: true
   range:
-    value: 30
+    value: null
     long: 90
     units: ft
+    reach: 30
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: ''
-    amount: null
-    scale: false
-  ability: ''
-  actionType: rwak
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    recovery: []
+    spent: 0
   damage:
-    parts:
-      - - 1d4 + @mod
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 4
+      bonus: ''
+      types:
         - piercing
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   armor:
     value: 10
   hp:
@@ -131,25 +128,89 @@ system:
   type:
     value: simpleM
     baseItem: ''
-  attack:
-    bonus: ''
-    flat: false
   container: null
   attuned: false
-  enchantment: null
-  summons: null
   magicalBonus: null
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      sort: 0
+  identifier: thunder-shotgun
+  ammunition: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   pJeIW7qCa0HkURWq: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
-  createdTime: 1721844037868
-  modifiedTime: 1721844888987
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385715159
+  modifiedTime: 1726385715159
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: smpKe5Jpe0RuzmD4
 sort: 0
 _key: '!items!smpKe5Jpe0RuzmD4'

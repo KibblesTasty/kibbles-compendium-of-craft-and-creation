@@ -17,55 +17,12 @@ system:
     book: KCCC
     page: ''
     license: ''
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: eldritchInvocation
@@ -73,22 +30,25 @@ system:
     level: null
   properties: []
   requirements: Ancient Invocations
-  recharge:
-    value: null
-    charged: false
+  identifier: mechanical-arm
+  activities: {}
+  enchant: {}
 effects: []
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
+  q6n1efCGVB98drEQ: 3
 flags:
   core: {}
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: 1721762091890
-  modifiedTime: 1721777414835
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385614154
+  modifiedTime: 1726385614154
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: BlkkuqQ1SrVA6o1x
 sort: 200000
 _key: '!items!BlkkuqQ1SrVA6o1x'

@@ -37,6 +37,10 @@ flags:
         '0': true
   core:
     sourceId: Item.T2XhGJKFBo9sUArh
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: Zuw7NOfOHAzLpSyO
 system:
   description:
@@ -69,10 +73,16 @@ system:
     width: null
     units: ft
     type: radius
+    affects:
+      count: ''
+      type: ''
+    template:
+      count: ''
   range:
     value: 60
     long: null
     units: ft
+    special: ''
   uses:
     value: null
     max: ''
@@ -119,15 +129,36 @@ system:
   scaling:
     mode: level
     formula: 1d6
+  activities:
+    dnd5eactivity000:
+      name: ''
+      img: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: 3d6x
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: null
+              formula: 1d6x
+      appliedEffects: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
+  systemVersion: 4.0.3
+  coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1721839914101
+  modifiedTime: 1727206153871
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Item.T2XhGJKFBo9sUArh
+  duplicateSource: null
 _key: '!items!Zuw7NOfOHAzLpSyO'
 

@@ -33,66 +33,37 @@ system:
       <p>When you cast a spell with an item, you can make a single weapon attack
       with a weapon held in your other hand as a bonus action.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: ''
-  recharge:
-    value: null
-    charged: false
   type:
     value: feat
+    subtype: ''
+  identifier: wand-slinger
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.2.1
-  coreVersion: '12.328'
-  createdTime: null
-  modifiedTime: 1721343415091
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.wNr7SJWaPGrkNcD4
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385609240
+  modifiedTime: 1726385609240
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!jDzPmSg8ZpIzoLvo'
 

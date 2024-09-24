@@ -25,70 +25,37 @@ system:
   description:
     value: "<p>When you mark a rune on yourself, you gain both the weapon and armor effects of it. You add your Intelligence modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with unarmed strikes, and your Intelligence modifier, instead of your Dexterity modifier, to AC calculations for armor.</p>\n<p>\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Runesmith 3
-  recharge:
-    value: null
-    charged: false
+  identifier: runic-mystic
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
-  createdTime: null
-  modifiedTime: 1721425882521
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.rIbyQUc9Xhej6Y9u
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385695663
+  modifiedTime: 1726385695663
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!OI4uZjC4K3tDaXzP'
 

@@ -19,6 +19,8 @@ system:
     book: KCCC
     page: ''
     license: ''
+    revision: 1
+    rules: '2014'
   identified: true
   unidentified:
     description: ''
@@ -34,55 +36,14 @@ system:
   attunement: ''
   attuned: false
   equipped: false
-  activation:
-    type: bonus
-    cost: 1
-    condition: ''
-  duration:
-    value: ''
-    units: ''
   cover: null
   crewed: false
-  target:
-    value: ''
-    width: null
-    units: ''
-    type: self
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: 1
     max: '1'
-    per: sr
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
   armor:
     value: null
     magicalBonus: null
@@ -101,18 +62,87 @@ system:
     conditions: ''
   strength: null
   proficient: null
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: rocket-boots
 effects: []
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 _stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: 1721759482114
-  modifiedTime: 1721759588145
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385615813
+  modifiedTime: 1726385615813
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!cT9D31LnHvUkJp5Y'
 

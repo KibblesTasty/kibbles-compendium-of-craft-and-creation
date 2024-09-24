@@ -2,7 +2,79 @@ _id: F2n6Vo1Ie0MkeCtL
 name: Telepathic Intrusion
 type: feat
 img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
-effects: []
+effects:
+  - name: Overwhelming
+    img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2n6Vo1Ie0MkeCtL
+    transfer: false
+    _id: YKVYFM9h9LnhsTmB
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target is stunned until the end of its next turn if it fails its
+      saving throw</p>
+    tint: '#ffffff'
+    statuses:
+      - stunned
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: 1727215648516
+      modifiedTime: 1727215736044
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!F2n6Vo1Ie0MkeCtL.YKVYFM9h9LnhsTmB'
+  - name: Terrifying
+    img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2n6Vo1Ie0MkeCtL
+    transfer: false
+    _id: YcM6KoI5ecRUxmVk
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target is frightened of you until the end of your next turn if it
+      fails its saving throw</p>
+    tint: '#ffffff'
+    statuses:
+      - frightened
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: 1727215761848
+      modifiedTime: 1727216138265
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!F2n6Vo1Ie0MkeCtL.YcM6KoI5ecRUxmVk'
 folder: yBMc7tnwZ8a7OMCu
 sort: 400000
 flags:
@@ -32,6 +104,10 @@ flags:
         '0': true
   core:
     sourceId: Item.OuIO6xFBnhxpYM0F
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: >-
@@ -59,70 +135,119 @@ system:
       <p><strong>Terrifying (1 psi point):</strong> The target is frightened of
       you until the end of your next turn if it fails its saving throw.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: 1
-    units: round
-  cover: null
-  crewed: false
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-  range:
-    value: 60
-    long: null
-    units: ft
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d8
-        - psychic
-    versatile: ''
-  formula: ''
-  save:
-    ability: wis
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: psionicPower
   requirements: 'Components: S'
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '0'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+              formula: ''
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: round
+        special: ''
+        override: false
+      effects:
+        - _id: YKVYFM9h9LnhsTmB
+          onSave: false
+        - _id: YcM6KoI5ecRUxmVk
+          onSave: false
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: whole
+              number: 1
+      save:
+        ability: wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
+  identifier: telepathic-intrusion
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.OuIO6xFBnhxpYM0F
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721840535590
+  systemVersion: 4.0.3
+  createdTime: 1726385677857
+  modifiedTime: 1727215761893
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!F2n6Vo1Ie0MkeCtL'
 

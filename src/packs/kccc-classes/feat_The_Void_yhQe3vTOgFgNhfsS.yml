@@ -20,6 +20,8 @@ system:
     page: ''
     custom: ''
     license: ''
+    revision: 1
+    rules: '2014'
   activation:
     type: reaction
     cost: 1
@@ -43,8 +45,9 @@ system:
     value: null
     max: ''
     per: null
-    recovery: ''
+    recovery: []
     prompt: true
+    spent: 0
   consume:
     type: ''
     target: null
@@ -79,18 +82,80 @@ system:
   recharge:
     value: null
     charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: reaction
+        value: 1
+        condition: A creature within 5 feet takes damage from a magical source
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: the-void
+  enchant: {}
 effects: []
 sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
+  systemVersion: 4.0.0
+  coreVersion: '12.331'
   createdTime: 1721843767710
-  modifiedTime: 1721843833763
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  modifiedTime: 1726385659824
+  lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _key: '!items!yhQe3vTOgFgNhfsS'
 

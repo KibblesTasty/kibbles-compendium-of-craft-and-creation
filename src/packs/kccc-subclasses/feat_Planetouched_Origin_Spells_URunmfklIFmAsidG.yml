@@ -22,67 +22,40 @@ flags:
     sourceId: Item.6UT0jZhF7E3rA3Qu
 _id: URunmfklIFmAsidG
 _stats:
-  coreVersion: '11.315'
+  compendiumSource: Item.6UT0jZhF7E3rA3Qu
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  createdTime: null
-  modifiedTime: 1721763654932
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385615321
+  modifiedTime: 1726385615321
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 system:
   description:
     value: "<p>If you allow Sorcerers to take additional spells based on their subclass, the following are the recommended Origin Spells for the Planetouched Origin.</p><table border=\"1\"><thead><tr><th><p><strong>Sorcerer Level</strong></p></th><th><p><strong>Spell</strong></p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.BDNZqFxUSSsFq8xl]{Flicker}</p></td></tr><tr><td><p>3rd</p></td><td><p>@Compendium[dnd5e.spells.wqfAVANuQonNBgnL]{Misty Step}</p></td></tr><tr><td><p>5th</p></td><td><p>@Compendium[dnd5e.spells.GSvLWcdCZLQkilXT]{Blink}</p></td></tr><tr><td><p>7th</p></td><td><p>@Compendium[dnd5e.spells.A4RsPuSvB9wFtz1j]{Dimension Door}</p></td></tr><tr><td><p>9th</p></td><td><p>@Compendium[dnd5e.spells.8aWtP5hcrmcEesBW]{Teleportation Circle}</p></td></tr></tbody></table><p>\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: Planetouched  1
-  recharge:
-    value: null
-    charged: false
   type:
     value: class
+    subtype: ''
+  identifier: planetouched-origin-spells
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 _key: '!items!URunmfklIFmAsidG'
 

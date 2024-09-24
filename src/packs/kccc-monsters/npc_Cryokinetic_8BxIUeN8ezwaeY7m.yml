@@ -89,7 +89,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -232,7 +232,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -363,7 +363,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -525,7 +525,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -608,8 +608,8 @@ items:
           <p>You attempt to encase a Medium or smaller creature you can see
           within ice. The creature must make a Strength saving throw or become
           restrained by ice for the duration. At the end of each of its turns,
-          the target takes [[/damage 1d8 cold]] damage and can make another Strength
-          saving throw. On success, the spell ends on the target.</p>
+          the target takes [[/damage 1d8 cold]] damage and can make another
+          Strength saving throw. On success, the spell ends on the target.</p>
 
           <p>If the creature takes more than 5 fire or bludgeoning damage from a
           single damage roll while restrained, the ice breaks and the target is
@@ -690,7 +690,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -772,9 +772,9 @@ items:
         value: >-
           <p>A freezing wind ripples outward. Each creature in a 30-foot cone
           must make a Constitution saving throw. On a failed save, a creature
-          takes [[/damage 4d8 cold]] damage and is restrained by ice until the start
-          of your next turn. On a successful save, the target takes half as much
-          damage and isn't restrained.</p>
+          takes [[/damage 4d8 cold]] damage and is restrained by ice until the
+          start of your next turn. On a successful save, the target takes half
+          as much damage and isn't restrained.</p>
 
           <p><em><strong>At Higher Levels.</strong></em> When you cast this
           spell using a spell slot of 4th level or higher, the damage increases
@@ -851,7 +851,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -988,7 +988,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1073,9 +1073,9 @@ items:
         value: >-
           <p>You create a lance of ice that shoots up from the ground to impale
           a creature within range. The target must make a Dexterity saving
-          throw. The target takes [[/damage 4d8 piercing]] damage and [[/damage 4d8 cold]]
-          damage on a failed save. The target takes only the [[/damage 4d8 cold]]
-          damage on a successful save.</p>
+          throw. The target takes [[/damage 4d8 piercing]] damage and [[/damage
+          4d8 cold]] damage on a failed save. The target takes only the
+          [[/damage 4d8 cold]] damage on a successful save.</p>
 
           <p><em><strong>At Higher Levels.</strong> </em>When you cast this
           spell using a spell slot of 6th or 7th level, you can create a second
@@ -1156,7 +1156,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1242,7 +1242,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1331,7 +1331,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1475,7 +1475,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1619,7 +1619,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1723,7 +1723,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.328'
+      coreVersion: '12.330'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -2054,6 +2054,8 @@ prototypeToken:
       max: 1
     color: null
     attenuation: 0.5
+    negative: false
+    priority: 0
   disposition: -1
   displayBars: 40
   bar1:
@@ -2073,6 +2075,10 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
   sight:
     angle: 360
     enabled: false
@@ -2086,12 +2092,26 @@ prototypeToken:
   detectionModes: []
   appendNumber: false
   prependAdjective: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 _stats:
   systemId: dnd5e
   systemVersion: 3.3.0
-  coreVersion: '11.315'
+  coreVersion: '12.330'
   createdTime: null
   modifiedTime: 1721697585652
   lastModifiedBy: pJeIW7qCa0HkURWq
+  compendiumSource: Actor.j2yscsnxLXwxdrFK
+  duplicateSource: null
 _key: '!actors!8BxIUeN8ezwaeY7m'
 

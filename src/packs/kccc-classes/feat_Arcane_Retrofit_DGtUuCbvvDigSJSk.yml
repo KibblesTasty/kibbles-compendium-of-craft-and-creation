@@ -25,70 +25,37 @@ system:
   description:
     value: "<p>Additionally at 2nd level, you gain the ability to retrofit magical gear. During a long rest you can perform a ritual using any +1, +2, or +3 weapon—excluding artifacts and sentient weapons—to transfer the magic into an inventor weapon (a weapon created by a subclass feature or upgrade). For example, you can turn a +1 longsword and your Impact Gauntlet into a +1 Impact Gauntlet. This includes weapon-like Upgrades that make attack and damage rolls, such as a Warsmith’s Force Blast.</p>\n<p>You can’t transfer any properties from a magical weapon besides a bonus to attack and damage rolls, and the original weapon is destroyed in the process.</p>\n<p>Additionally, you can convert a set of armor with a magical bonus to AC to a lighter armor type.</p>\n<blockquote>\n<p><strong>Additional Retrofits.\_</strong></p>\n<p>At the GM’s option, this feature can be expanded to do similar tasks. For example, you may be allowed to turn a +1 heavy crossbow into a +1 light crossbow, or the GM may choose to allow this feature to work with other magical armor or weapons, such as converting adamantine chain mail into an adamantine chain shirt.</p>\n</blockquote>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Inventor 2
-  recharge:
-    value: null
-    charged: false
+  identifier: arcane-retrofit
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '12.328'
-  createdTime: null
-  modifiedTime: 1721423310881
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.wEuKF7Rm8nqXb7i6
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385676420
+  modifiedTime: 1726385676420
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!DGtUuCbvvDigSJSk'
 

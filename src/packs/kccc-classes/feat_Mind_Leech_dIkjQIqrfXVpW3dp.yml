@@ -2,7 +2,42 @@ _id: dIkjQIqrfXVpW3dp
 name: Mind Leech
 type: feat
 img: icons/magic/control/fear-fright-monster-grin-purple-blue.webp
-effects: []
+effects:
+  - name: Stunned
+    img: icons/magic/control/fear-fright-monster-grin-purple-blue.webp
+    _id: JuRW1UrtLIUY3oGN
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>On a failed saving throw, the target becomes stunned until the start of
+      your next turn.</p>
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses:
+      - stunned
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: 1727206896746
+      modifiedTime: 1727206954529
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!dIkjQIqrfXVpW3dp.JuRW1UrtLIUY3oGN'
 folder: hbXzOh1dZ6W1OXSR
 sort: -100000
 flags:
@@ -35,74 +70,547 @@ flags:
         '1': true
   core:
     sourceId: Item.ueDw4MzjudMXO8pG
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 system:
   description:
     value: "<p>You assault the mind of a target you can see within range, rending and devouring its psionic energy. The target must succeed on a Charisma saving throw or take [[/damage 1d6 psychic]] damage. If the target is frightened, charmed, stunned, restrained, grappled, or paralyzed, the psychic damage becomes [[/r 1d12]] instead. On a failed save, you gain a psionic charge of consumed power until the end of your next turn. You can expend this charge when you deal damage to deal additional damage equal to your Intelligence modifier, or consume this charge at the end of your turn to gain temporary hit points equal to your Intelligence modifier. You can spend only one charge at a time.</p>\n<p>You can target the corpse of a recently perished creature with this power, as long as the target has died within the last minute and not been previously leeched by this power.</p>\n<p><strong>Devouring (2 psi points):</strong> The range of Mind Leech becomes a radius of 5 feet, centered on you.</p>\n<p><strong>Nourishing (1 psi point):</strong> On a failed saving throw, you gain an additional psionic charge.</p>\n<p><strong>Rending (1+ psi points):</strong> The target takes an additional die of damage ([[/r 1d6]] or [[/r 1d12]] as applicable if they are under the effect of a listed condition) per psi point spent on a failed save.</p>\n<p><strong>Shredding (1 psi point): </strong>You leave the target’s mind and soul shredded, reducing their next saving throw before the end of your next turn by [[/r 1d4]].</p>\n<p><strong>Stunning (3 psi points):</strong> On a failed saving throw, the target becomes stunned until the start of your next turn. If the power affects multiple targets, select one target for this effect.</p>\n<p><strong>Thieving (1 psi point): </strong>On a failed saving throw, you can draw a 5th level or lower spell the target can cast\_ from its mind (from a Spellcasting or Psionics feature). You must be aware that it can cast that spell; the target retains the ability to cast the spell, but you gain the ability to cast the spell using your Psionics feature by spending psi points equal to the level of the spell (restricted by your psi point limit; you can’t use Psionic Mastery to cast this spell).</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-  range:
-    value: 30
-    long: null
-    units: ft
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
-    max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d6
-        - psychic
-    versatile: 1d12
-  formula: ''
-  save:
-    ability: cha
-    dc: null
-    scaling: spell
+    max: '5'
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: psionicPower
   requirements: 'Components: S'
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '0'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+              formula: '1'
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: none
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: whole
+              number: 1
+      save:
+        ability: cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+      name: Base
+      img: ''
+      appliedEffects: []
+    ajoR5cv2J9gdQLXP:
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '0'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+              formula: ''
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: none
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 12
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability: cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+      _id: ajoR5cv2J9gdQLXP
+      name: Disabled Target
+      img: ''
+      appliedEffects: []
+    2uf7YXUrkjfsIIRc:
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '5'
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '5'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability: cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+      name: Devouring
+      _id: 2uf7YXUrkjfsIIRc
+      img: ''
+      appliedEffects: []
+    qDePDsw1jvCWfquY:
+      type: damage
+      name: Psionic Charge
+      _id: qDePDsw1jvCWfquY
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: You deal damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@abilities.int.mod'
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+    HBqF1UxClqbCpuO1:
+      type: heal
+      name: Psionic Charge
+      _id: HBqF1UxClqbCpuO1
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: You deal damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@abilities.int.mod'
+        scaling:
+          number: 1
+        bonus: ''
+      img: ''
+      appliedEffects: []
+    wT8kYKALK7q8Ey9C:
+      type: utility
+      name: Gain Charge
+      _id: wT8kYKALK7q8Ey9C
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: A creature fails its saving throw
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling: {}
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+    zwYd7TwfpsRzntWc:
+      type: utility
+      name: Stunning
+      _id: zwYd7TwfpsRzntWc
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: JuRW1UrtLIUY3oGN
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects:
+        - JuRW1UrtLIUY3oGN
+    MkhUlRegvP8Tlgxe:
+      type: utility
+      name: Thieving
+      _id: MkhUlRegvP8Tlgxe
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  identifier: mind-leech
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.ueDw4MzjudMXO8pG
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721840432311
+  systemVersion: 4.0.3
+  createdTime: 1726385704778
+  modifiedTime: 1727213184723
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!dIkjQIqrfXVpW3dp'
 

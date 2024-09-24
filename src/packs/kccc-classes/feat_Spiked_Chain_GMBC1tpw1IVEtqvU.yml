@@ -25,70 +25,37 @@ system:
   description:
     value: "<p><em>(Prerequisite: Flaying Hook)</em></p>\n<p>You lace the chain of your Flaying Hook with spikes. When you attack a creature within 5 feet with your Flaying Hook, you can opt to make a Spiked Chain attack instead. This attack deals 2d4 piercing damage on hit, and has the Special property.</p>\n<p>Special. When you hit a creature with this weapon, that target loses 10 feet of movement (hindered by the chain) and takes 1d4 damage each time they move 5 feet, up to 2d4 damage (for 10 feet of movement). You can’t use this weapon against another creature until the start of your next turn, but have advantage on opportunity attacks against that target. If it doesn’t move before the start of your next turn, you reel your chain back in, dealing 1d4 slashing damage to that target.\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: upgrade
   requirements: Fleshsmith 3
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 3
+  identifier: spiked-chain
+  activities: {}
+  enchant: {}
+  properties: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
+  q6n1efCGVB98drEQ: 3
 _stats:
+  compendiumSource: Item.sX7LnVX7cCgCiOUk
+  duplicateSource: null
+  coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.0
-  coreVersion: '11.315'
-  createdTime: null
-  modifiedTime: 1721836343926
-  lastModifiedBy: pJeIW7qCa0HkURWq
+  systemVersion: 4.0.0
+  createdTime: 1726385690017
+  modifiedTime: 1726385690017
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!GMBC1tpw1IVEtqvU'
 
