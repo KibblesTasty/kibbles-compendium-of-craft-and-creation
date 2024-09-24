@@ -13,10 +13,10 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385614365
-  modifiedTime: 1726385614365
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727198985530
+  lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -42,7 +42,8 @@ system:
       proficiency bonus + your Intelligence modifier</p><hr /><p>The following
       are some optional quirks for a player of the Gadgeteer You can optionally
       roll or select a quirk that suits your
-      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.lsyEV6oWwpgrKFzE]</p>
+      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.lsyEV6oWwpgrKFzE
+      rollable]</p>
     chat: ''
   source:
     book: KCCC
@@ -161,6 +162,7 @@ system:
   spellcasting:
     progression: none
     ability: int
-    preparation: {}
+    preparation:
+      formula: ''
 _key: '!items!GbFqIk3behJQBszs'
 

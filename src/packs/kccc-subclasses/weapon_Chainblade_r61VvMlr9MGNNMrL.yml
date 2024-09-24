@@ -42,23 +42,27 @@ flags:
         '1': true
   core:
     sourceId: Item.GzzMlf69XZiUmQcp
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: r61VvMlr9MGNNMrL
 _stats:
   compendiumSource: Item.GzzMlf69XZiUmQcp
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385616424
-  modifiedTime: 1726385616424
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727196890144
+  lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   q6n1efCGVB98drEQ: 3
 system:
   description:
-    value: "<p><strong>Chainblade.</strong> When you roll damage dice for this weapon, you can reroll as many damage dice as you would like once per attack, but you must use the new roll for any dice rolled this way. After hitting an attack with this weapon as part of the Attack action, if you have additional attacks you can make as part of the action, you can forgo them to deal an extra [[/damage 4d4 slashing]] damage per attack forgone.</p><p><em><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px;font-style:italic\">Reckless Power (Chainblade):\_</strong></em><span style=\"color:#191813;font-size:13px;font-style:italic\"><em>The weapon’s damage dice become d6’s for that attack (including the special property if activated).</em></span></p><p>Base: [[/damage 2d6 slashing]]</p><p>Versatile: [[/damage 3d6 slashing]]</p><p>Special: [[/damage 4d6 slashing]]</p>"
+    value: "<p><strong>Chainblade.</strong> When you roll damage dice for this weapon, you can reroll as many damage dice as you would like once per attack, but you must use the new roll for any dice rolled this way. After hitting an attack with this weapon as part of the Attack action, if you have additional attacks you can make as part of the action, you can forgo them to deal an extra [[/damage 4d4 slashing]] damage per attack forgone.</p><p><em><strong>Reckless Power (Chainblade):\_</strong></em><span><em>The weapon’s damage dice become d6’s for that attack (including the special property if activated).</em></span></p><p>Base: [[/damage 2d6 slashing]]</p><p>Versatile: [[/damage 3d6 slashing]]</p><p>Special: [[/damage 4d6 slashing]]</p>"
     chat: ''
   source:
     book: KCCC
@@ -122,7 +126,7 @@ system:
     - ver
   proficient: 1
   type:
-    value: simpleM
+    value: ''
     baseItem: ''
   identifier: chainblade
   unidentified:
@@ -169,11 +173,190 @@ system:
         critical: {}
         includeBase: true
         parts: []
+    meuJMHyZWWwEc1S5:
+      type: damage
+      _id: meuJMHyZWWwEc1S5
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: You forgo an additional attack to deal additional damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 4
+            bonus: ''
+            types:
+              - slashing
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
+    60iJfBBAARisYKmk:
+      type: attack
+      name: Reckless Power
+      _id: 60iJfBBAARisYKmk
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.sWvYtGEDZ1Ls1GiY
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+    nAYUHe3R6DxHNRn0:
+      type: damage
+      name: Reckless Power
+      _id: nAYUHe3R6DxHNRn0
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: You forgo an additional attack to deal additional damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
   container: null
   attuned: false
   cover: null
   crewed: false
   ammunition: {}
   magicalBonus: null
+  mastery: ''
 _key: '!items!r61VvMlr9MGNNMrL'
 

@@ -542,7 +542,8 @@ system:
   spellcasting:
     progression: none
     ability: int
-    preparation: {}
+    preparation:
+      formula: ''
   startingEquipment:
     - type: OR
       requiresProficiency: false
@@ -621,9 +622,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385694628
-  modifiedTime: 1726385694628
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727197600536
+  lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!Mq0CZy1NQm1B1OoF'
 

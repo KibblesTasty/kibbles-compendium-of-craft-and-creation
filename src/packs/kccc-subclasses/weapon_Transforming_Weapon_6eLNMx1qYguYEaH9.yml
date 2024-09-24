@@ -28,23 +28,27 @@ flags:
         quantity: false
   core:
     sourceId: Item.VKlW69vSPPoWkbQz
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: 6eLNMx1qYguYEaH9
 _stats:
   compendiumSource: Item.VKlW69vSPPoWkbQz
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385613934
-  modifiedTime: 1726385613934
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727197183765
+  lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
   q6n1efCGVB98drEQ: 3
 system:
   description:
-    value: "<p>When you gain this weapon, select 3 simple or martial weapons. This weapon can transform between any of those weapons as a bonus action. When you convert the weapon, it becomes overcharged with power, and the next time you roll damage with it before the end of your turn you deal an extra [[/damage 1d4 lightning]] damage.</p><p><em><strong style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px;font-style:italic\">Overcharge (Transforming Weapon):</strong></em><span style=\"color:#191813;font-size:13px;font-style:italic\"><em>\_You deal an extra [[/damage 2d4 lightning]] damage.</em></span></p>"
+    value: "<p>When you gain this weapon, select 3 simple or martial weapons. This weapon can transform between any of those weapons as a bonus action. When you convert the weapon, it becomes overcharged with power, and the next time you roll damage with it before the end of your turn you deal an extra [[/damage 1d4 lightning]] damage.</p><p><em><strong>Overcharge (Transforming Weapon):</strong></em><span><em>\_You deal an extra [[/damage 2d4 lightning]] damage.</em></span></p>"
     chat: ''
   source:
     book: KCCC
@@ -85,12 +89,13 @@ system:
         formula: ''
     base:
       number: null
-      denomination: null
+      denomination: 0
       types: []
       custom:
         enabled: false
       scaling:
         number: 1
+      bonus: ''
   armor:
     value: 10
   hp:
@@ -148,11 +153,129 @@ system:
         critical: {}
         includeBase: true
         parts: []
+    9mVXqdnzaEi8wun8:
+      type: damage
+      name: Transform
+      _id: 9mVXqdnzaEi8wun8
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: You convert the weapon
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+    NcmytnsQ7uOpHy8m:
+      type: damage
+      name: Overcharge
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: You hit with an attack
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.sWvYtGEDZ1Ls1GiY
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 4
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              number: 1
+      _id: NcmytnsQ7uOpHy8m
+      img: ''
+      appliedEffects: []
   container: null
   attuned: false
   cover: null
   crewed: false
   ammunition: {}
   magicalBonus: null
+  mastery: ''
 _key: '!items!6eLNMx1qYguYEaH9'
 

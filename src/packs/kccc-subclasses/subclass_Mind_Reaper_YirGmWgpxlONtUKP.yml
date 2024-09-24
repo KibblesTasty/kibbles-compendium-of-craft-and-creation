@@ -13,10 +13,10 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385615673
-  modifiedTime: 1726385615673
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727198969050
+  lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -33,7 +33,8 @@ system:
       those they believe have earned such a grim fate.</p><hr /><p>The following
       are some optional quirks for a player of the Mind Reaper. You can
       optionally roll or select a quirk that suits your
-      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.081JMHbbTaNWtcsN]</p>
+      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.081JMHbbTaNWtcsN
+      rollable]</p>
     chat: ''
   source:
     book: KCCC
@@ -114,6 +115,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 _key: '!items!YirGmWgpxlONtUKP'
 

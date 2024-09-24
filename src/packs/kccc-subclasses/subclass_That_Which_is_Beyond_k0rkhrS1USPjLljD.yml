@@ -1,4 +1,4 @@
-name: That Which is Beyond
+name: That Which Is Beyond
 type: subclass
 img: icons/creatures/magical/spirit-fear-energy-pink.webp
 effects: []
@@ -13,10 +13,10 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385616135
-  modifiedTime: 1726385616135
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727199552760
+  lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -38,7 +38,8 @@ system:
       your mind.</p><hr /><p>The following are some optional quirks for a player
       who has formed a pact with That Which Is Beyond. You can optionally roll
       or select a quirk that suits your
-      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.ZCh8QK953rX6YY5c]</p>
+      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.ZCh8QK953rX6YY5c
+      rollable]</p>
     chat: ''
   source:
     book: KCCC
@@ -125,6 +126,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 _key: '!items!k0rkhrS1USPjLljD'
 

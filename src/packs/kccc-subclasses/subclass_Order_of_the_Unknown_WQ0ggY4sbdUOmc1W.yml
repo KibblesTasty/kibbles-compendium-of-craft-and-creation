@@ -13,10 +13,10 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385615465
-  modifiedTime: 1726385615465
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727199312608
+  lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -36,7 +36,8 @@ system:
       and diligent study.</p><hr /><p>The following are some optional quirks for
       a player that selects Order of the Unknown. You can optionally roll or
       select a quirk that suits your
-      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.acKlpKpIYY0lpW9b]</p>
+      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.acKlpKpIYY0lpW9b
+      rollable]</p>
     chat: ''
   source:
     book: KCCC
@@ -184,6 +185,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 _key: '!items!WQ0ggY4sbdUOmc1W'
 

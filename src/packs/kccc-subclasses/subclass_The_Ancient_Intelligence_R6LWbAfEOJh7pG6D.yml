@@ -13,10 +13,10 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726385615073
-  modifiedTime: 1726385615073
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1727199593505
+  lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -37,7 +37,8 @@ system:
       power.</p><hr /><p>The following are some optional quirks for a player who
       has formed a pact with an Ancient Intelligence You can optionally roll or
       select a quirk that suits your
-      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.4IQaEIVXgvKCcHKG]</p>
+      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.4IQaEIVXgvKCcHKG
+      rollable]</p>
     chat: ''
   source:
     book: KCCC
@@ -136,6 +137,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 _key: '!items!R6LWbAfEOJh7pG6D'
 
