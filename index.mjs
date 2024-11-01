@@ -22,5 +22,6 @@ Hooks.once('init', () => {
     ability: 'int',
     fullKey: 'psionics',
     icon: 'modules/kibbles-compendium-of-craft-and-creation/assets/psionics.svg',
+    reference: 'Compendium.kibbles-compendium-of-craft-and-creation.kccc-journals.JournalEntry.22xGZTi3QtxVkqUH.JournalEntryPage.88IVFMQiTyGjoXEP'
   };
 });
