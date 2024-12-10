@@ -1,6 +1,6 @@
 folder: Equ1PGc0EYvVRbdr
 name: 'Gather Materials: Underground'
-img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+img: icons/environment/wilderness/wall-ruins.webp
 description: >-
   <p>Materials can be harvested with your choice of a Strength, Dexterity, or
   Wisdom check. If you have proficiency with the Survival skill, you can add
@@ -20,17 +20,18 @@ results:
     documentId: null
     flags: {}
     _key: '!tables.results!Jlyh6oKY06uyQLEr.Ji5wLg9iQAUBP5tV'
-  - type: text
+  - type: pack
     weight: 10
     range:
       - 11
       - 20
     drawn: false
     _id: KfuGF67twUk3glth
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Parts
+    img: icons/tools/fasteners/screw-flat-steel-grey.webp
+    documentId: ozicmc1Qigq0uQ5o
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!Jlyh6oKY06uyQLEr.KfuGF67twUk3glth'
   - type: text
     weight: 20
@@ -39,7 +40,9 @@ results:
       - 40
     drawn: false
     _id: BjXddEFHLS44Oh0b
-    text: ''
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.z3TedhTQJUonD5uM]{Supplies}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -51,46 +54,49 @@ results:
       - 60
     drawn: false
     _id: wDh7586VEGfOV4zE
-    text: ''
+    text: mithril ore
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
     _key: '!tables.results!Jlyh6oKY06uyQLEr.wDh7586VEGfOV4zE'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 61
       - 80
     drawn: false
     _id: 8U0saQKBw5o9ARYm
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Uncommon Branch
+    img: icons/commodities/wood/kindling-stick-tan.webp
+    documentId: Sv1VcRedFUHaoL7T
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!Jlyh6oKY06uyQLEr.8U0saQKBw5o9ARYm'
-  - type: text
+  - type: pack
     weight: 15
     range:
       - 81
       - 95
     drawn: false
     _id: caLEICWfQ41uQP4F
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Large Carapace
+    img: icons/commodities/biological/shell-ridged-blue.webp
+    documentId: mfhnits1GDktVZEb
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!Jlyh6oKY06uyQLEr.caLEICWfQ41uQP4F'
-  - type: text
+  - type: pack
     weight: 5
     range:
       - 96
       - 100
     drawn: false
     _id: Vg2nWjcOaLzsGFIk
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Common Arcane Essence
+    img: icons/commodities/materials/slime-thick-blue.webp
+    documentId: LkEj679XBcRmkAdK
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!Jlyh6oKY06uyQLEr.Vg2nWjcOaLzsGFIk'
 replacement: true
 displayRoll: true
@@ -106,7 +112,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861433412
-  modifiedTime: 1733861598300
+  modifiedTime: 1733869016803
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _id: Jlyh6oKY06uyQLEr

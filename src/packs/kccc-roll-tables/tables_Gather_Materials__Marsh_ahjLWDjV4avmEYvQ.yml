@@ -1,6 +1,6 @@
 folder: wmfleLAfbRXuZBjL
 name: 'Gather Materials: Marsh'
-img: icons/environment/wilderness/terrain-rocky-ground.webp
+img: icons/magic/nature/plant-undersea-seaweed-glow-green.webp
 description: >-
   <p>Materials can be harvested with your choice of a Strength, Dexterity, or
   Wisdom check. If you have proficiency with the Survival skill, you can add
@@ -29,7 +29,10 @@ results:
       - 40
     drawn: false
     _id: RZMvxcewmEPIrWv4
-    text: ''
+    text: >-
+      [[1d12]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.1syJdXQlsYumhzCo]{Wood
+      Scrap}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -41,46 +44,53 @@ results:
       - 60
     drawn: false
     _id: HKmEeAvXZD7eHIv5
-    text: ''
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.3nXm5uOpYeTtfV6T]{Quality
+      Branch}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
+    documentCollection: ''
     _key: '!tables.results!ahjLWDjV4avmEYvQ.HKmEeAvXZD7eHIv5'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 61
       - 80
     drawn: false
     _id: m6Vdb0BwewScndOg
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Supplies
+    img: icons/consumables/grains/sack-rice-flour-brown.webp
+    documentId: z3TedhTQJUonD5uM
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!ahjLWDjV4avmEYvQ.m6Vdb0BwewScndOg'
-  - type: text
+  - type: pack
     weight: 15
     range:
       - 81
       - 95
     drawn: false
     _id: diCpceKjhSFKl8aI
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Uncommon Branch
+    img: icons/commodities/wood/kindling-stick-tan.webp
+    documentId: Sv1VcRedFUHaoL7T
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!ahjLWDjV4avmEYvQ.diCpceKjhSFKl8aI'
-  - type: text
+  - type: pack
     weight: 5
     range:
       - 96
       - 100
     drawn: false
     _id: ECBAqP7rRSbL2wWz
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Common Primal Essence
+    img: icons/commodities/materials/slime-thick-orange.webp
+    documentId: 6AjdA2wDMBQ2Y6Mk
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!ahjLWDjV4avmEYvQ.ECBAqP7rRSbL2wWz'
 replacement: true
 displayRoll: true
@@ -96,7 +106,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861708265
-  modifiedTime: 1733861750481
+  modifiedTime: 1733867188033
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _id: ahjLWDjV4avmEYvQ

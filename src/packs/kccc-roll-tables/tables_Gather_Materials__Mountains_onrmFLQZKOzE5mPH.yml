@@ -1,6 +1,6 @@
 folder: DvWiJ9kHWbP2j7Cd
 name: 'Gather Materials: Mountains'
-img: icons/environment/wilderness/terrain-rocky-ground.webp
+img: icons/environment/wilderness/cave-entrance-mountain.webp
 description: >-
   <p>Materials can be harvested with your choice of a Strength, Dexterity, or
   Wisdom check. If you have proficiency with the Survival skill, you can add
@@ -29,7 +29,9 @@ results:
       - 40
     drawn: false
     _id: RZMvxcewmEPIrWv4
-    text: ''
+    text: >-
+      [[1d12]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.eHZBdsAGsUjTIuhh]{Fletching}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -41,7 +43,7 @@ results:
       - 60
     drawn: false
     _id: HKmEeAvXZD7eHIv5
-    text: ''
+    text: Adamantine Ore
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -53,34 +55,36 @@ results:
       - 80
     drawn: false
     _id: m6Vdb0BwewScndOg
-    text: ''
+    text: Mithril Ore
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
     _key: '!tables.results!onrmFLQZKOzE5mPH.m6Vdb0BwewScndOg'
-  - type: text
+  - type: pack
     weight: 15
     range:
       - 81
       - 95
     drawn: false
     _id: diCpceKjhSFKl8aI
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Uncommon Branch
+    img: icons/commodities/wood/kindling-stick-tan.webp
+    documentId: Sv1VcRedFUHaoL7T
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!onrmFLQZKOzE5mPH.diCpceKjhSFKl8aI'
-  - type: text
+  - type: pack
     weight: 5
     range:
       - 96
       - 100
     drawn: false
     _id: ECBAqP7rRSbL2wWz
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Common Primal Essence
+    img: icons/commodities/materials/slime-thick-orange.webp
+    documentId: 6AjdA2wDMBQ2Y6Mk
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!onrmFLQZKOzE5mPH.ECBAqP7rRSbL2wWz'
 replacement: true
 displayRoll: true
@@ -96,7 +100,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861709113
-  modifiedTime: 1733861760254
+  modifiedTime: 1733867356303
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _id: onrmFLQZKOzE5mPH

@@ -1,6 +1,6 @@
 folder: PziclZHZolaUsH9e
 name: 'Gather Materials: Tundra'
-img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+img: icons/magic/nature/plant-sprout-snow-green.webp
 description: >-
   <p>Materials can be harvested with your choice of a Strength, Dexterity, or
   Wisdom check. If you have proficiency with the Survival skill, you can add
@@ -20,53 +20,57 @@ results:
     documentId: null
     flags: {}
     _key: '!tables.results!gnfRTwr2s2SRAoO7.Ji5wLg9iQAUBP5tV'
-  - type: text
+  - type: pack
     weight: 10
     range:
       - 11
       - 20
     drawn: false
     _id: KfuGF67twUk3glth
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Wood Scrap
+    img: icons/commodities/wood/bark-beige.webp
+    documentId: 1syJdXQlsYumhzCo
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!gnfRTwr2s2SRAoO7.KfuGF67twUk3glth'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 21
       - 40
     drawn: false
     _id: BjXddEFHLS44Oh0b
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Firewood
+    img: icons/commodities/wood/kindling-sticks-brown.webp
+    documentId: iGeVDlbbr5HmdO3N
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!gnfRTwr2s2SRAoO7.BjXddEFHLS44Oh0b'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 41
       - 60
     drawn: false
     _id: wDh7586VEGfOV4zE
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Supplies
+    img: icons/consumables/grains/sack-rice-flour-brown.webp
+    documentId: z3TedhTQJUonD5uM
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!gnfRTwr2s2SRAoO7.wDh7586VEGfOV4zE'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 61
       - 80
     drawn: false
     _id: 8U0saQKBw5o9ARYm
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Uncommon Supplies
+    img: icons/consumables/food/preserves-jam-jelly-jar-brown-red.webp
+    documentId: CZnu0nVY57xd3qTu
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!gnfRTwr2s2SRAoO7.8U0saQKBw5o9ARYm'
   - type: text
     weight: 15
@@ -75,22 +79,23 @@ results:
       - 95
     drawn: false
     _id: caLEICWfQ41uQP4F
-    text: ''
+    text: '[[1d4]] Icesteel Ore'
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
     _key: '!tables.results!gnfRTwr2s2SRAoO7.caLEICWfQ41uQP4F'
-  - type: text
+  - type: pack
     weight: 5
     range:
       - 96
       - 100
     drawn: false
     _id: Vg2nWjcOaLzsGFIk
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Common Primal Essence
+    img: icons/commodities/materials/slime-thick-orange.webp
+    documentId: 6AjdA2wDMBQ2Y6Mk
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!gnfRTwr2s2SRAoO7.Vg2nWjcOaLzsGFIk'
 replacement: true
 displayRoll: true
@@ -106,7 +111,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861438073
-  modifiedTime: 1733861594308
+  modifiedTime: 1733868843368
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _id: gnfRTwr2s2SRAoO7

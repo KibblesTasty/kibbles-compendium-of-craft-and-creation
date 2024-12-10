@@ -1,6 +1,6 @@
 folder: CPRm1IgkTej9cwIP
 name: 'Gather Materials: Grasslands'
-img: icons/environment/wilderness/terrain-rocky-ground.webp
+img: icons/environment/wilderness/tomb-entrance.webp
 description: >-
   <p>Materials can be harvested with your choice of a Strength, Dexterity, or
   Wisdom check. If you have proficiency with the Survival skill, you can add
@@ -29,22 +29,26 @@ results:
       - 40
     drawn: false
     _id: RZMvxcewmEPIrWv4
-    text: ''
+    text: >-
+      [[1d12]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.1syJdXQlsYumhzCo]{Wood
+      Scrap}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
     _key: '!tables.results!TU8fUnihlXkMi3TO.RZMvxcewmEPIrWv4'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 41
       - 60
     drawn: false
     _id: HKmEeAvXZD7eHIv5
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Uncommon Supplies
+    img: icons/consumables/food/preserves-jam-jelly-jar-brown-red.webp
+    documentId: CZnu0nVY57xd3qTu
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!TU8fUnihlXkMi3TO.HKmEeAvXZD7eHIv5'
   - type: text
     weight: 20
@@ -53,34 +57,39 @@ results:
       - 80
     drawn: false
     _id: m6Vdb0BwewScndOg
-    text: ''
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.ovlOizetljPnOiB7]{Hide}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
+    documentCollection: ''
     _key: '!tables.results!TU8fUnihlXkMi3TO.m6Vdb0BwewScndOg'
-  - type: text
+  - type: pack
     weight: 15
     range:
       - 81
       - 95
     drawn: false
     _id: diCpceKjhSFKl8aI
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Rare Supplies
+    img: icons/consumables/drinks/wine-amphora-clay-red.webp
+    documentId: QldzlEKZe8VNcEv5
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!TU8fUnihlXkMi3TO.diCpceKjhSFKl8aI'
-  - type: text
+  - type: pack
     weight: 5
     range:
       - 96
       - 100
     drawn: false
     _id: ECBAqP7rRSbL2wWz
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Common Divine Essence
+    img: icons/commodities/materials/feather-white-glowing-beams.webp
+    documentId: s1DIcMDpF81bVSSz
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!TU8fUnihlXkMi3TO.ECBAqP7rRSbL2wWz'
 replacement: true
 displayRoll: true
@@ -96,7 +105,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861707169
-  modifiedTime: 1733861730066
+  modifiedTime: 1733866241188
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _id: TU8fUnihlXkMi3TO

@@ -20,17 +20,18 @@ results:
     documentId: null
     flags: {}
     _key: '!tables.results!Nx6TRMIxgphVE9Kp.Ji5wLg9iQAUBP5tV'
-  - type: text
+  - type: pack
     weight: 10
     range:
       - 11
       - 20
     drawn: false
     _id: KfuGF67twUk3glth
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Armor Padding
+    img: icons/equipment/chest/breastplate-quilted-brown.webp
+    documentId: efqgS0YA2l821r2r
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!Nx6TRMIxgphVE9Kp.KfuGF67twUk3glth'
   - type: text
     weight: 20
@@ -39,7 +40,9 @@ results:
       - 40
     drawn: false
     _id: BjXddEFHLS44Oh0b
-    text: ''
+    text: >-
+      [[1d12]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.EmcLtMkqWLmXhZf4]{Scales}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -51,22 +54,23 @@ results:
       - 60
     drawn: false
     _id: wDh7586VEGfOV4zE
-    text: ''
+    text: Adamantine Ore
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
     _key: '!tables.results!Nx6TRMIxgphVE9Kp.wDh7586VEGfOV4zE'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 61
       - 80
     drawn: false
     _id: 8U0saQKBw5o9ARYm
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Large Carapace
+    img: icons/commodities/biological/shell-ridged-blue.webp
+    documentId: mfhnits1GDktVZEb
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!Nx6TRMIxgphVE9Kp.8U0saQKBw5o9ARYm'
   - type: text
     weight: 15
@@ -75,22 +79,23 @@ results:
       - 95
     drawn: false
     _id: caLEICWfQ41uQP4F
-    text: ''
+    text: '[[1d4]] Mithril Ore'
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
     _key: '!tables.results!Nx6TRMIxgphVE9Kp.caLEICWfQ41uQP4F'
-  - type: text
+  - type: pack
     weight: 5
     range:
       - 96
       - 100
     drawn: false
     _id: Vg2nWjcOaLzsGFIk
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Common Primal Essence
+    img: icons/commodities/materials/slime-thick-orange.webp
+    documentId: 6AjdA2wDMBQ2Y6Mk
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!Nx6TRMIxgphVE9Kp.Vg2nWjcOaLzsGFIk'
 replacement: true
 displayRoll: true
@@ -106,7 +111,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861438792
-  modifiedTime: 1733861567432
+  modifiedTime: 1733864629733
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _id: Nx6TRMIxgphVE9Kp

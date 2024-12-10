@@ -1,24 +1,25 @@
 folder: Is2QCkpGee6wpunA
 name: 'Hunt Game: Jungles'
 _id: hRMVdw6W8UuxlYbG
-img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+img: icons/magic/nature/plant-bamboo-green.webp
 description: >-
   <p>Food can be gathered with your choice of a Dexterity or Wisdom check. If
   you have proficiency with the Survival skill, you can add your survival
   modifier to the roll.</p><p>[[/check ability=dex skill=sur
   dc=12]]</p><p>[[/check ability=wis skill=sur dc=12]]</p><p></p>
 results:
-  - type: text
+  - type: pack
     weight: 30
     range:
       - 1
       - 30
     drawn: false
     _id: 2QVMa8rNGa0kHiCM
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Common Fresh Ingredient
+    img: icons/consumables/vegetable/root-potato-brown.webp
+    documentId: F5A0A39sGQvXiDaA
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!hRMVdw6W8UuxlYbG.2QVMa8rNGa0kHiCM'
   - type: text
     weight: 30
@@ -27,7 +28,10 @@ results:
       - 60
     drawn: false
     _id: 8a16wQBS2fXFlSo2
-    text: ''
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA]{Common
+      Fresh Ingredient}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -39,7 +43,12 @@ results:
       - 90
     drawn: false
     _id: teNk5jcNwWcXx4C1
-    text: ''
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA]{Common
+      Fresh Ingredient}, [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.xs9In5K0EIQjnDYj]{Hide
+      Scraps}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -51,7 +60,11 @@ results:
       - 100
     drawn: false
     _id: hEuJz6PeIq4HCr35
-    text: ''
+    text: >-
+      [[1d6]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA]{Common
+      Fresh Ingredient}, [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.ovlOizetljPnOiB7]{Hide}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -70,7 +83,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861827123
-  modifiedTime: 1733862022691
+  modifiedTime: 1733866759736
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _key: '!tables!hRMVdw6W8UuxlYbG'

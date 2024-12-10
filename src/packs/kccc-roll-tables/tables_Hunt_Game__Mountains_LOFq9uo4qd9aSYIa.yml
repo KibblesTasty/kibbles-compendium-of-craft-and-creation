@@ -1,6 +1,6 @@
 folder: DvWiJ9kHWbP2j7Cd
 name: 'Hunt Game: Mountains'
-img: icons/environment/wilderness/terrain-rocky-ground.webp
+img: icons/environment/wilderness/cave-entrance-mountain.webp
 description: >-
   <p>Food can be gathered with your choice of a Dexterity or Wisdom check. If
   you have proficiency with the Survival skill, you can add your survival
@@ -14,22 +14,23 @@ results:
       - 30
     drawn: false
     _id: xgH9t9VXV0C2sQWN
-    text: ''
+    text: —
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
     _key: '!tables.results!LOFq9uo4qd9aSYIa.xgH9t9VXV0C2sQWN'
-  - type: text
+  - type: pack
     weight: 30
     range:
       - 31
       - 60
     drawn: false
     _id: YLGzDi18h1sUg88T
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Supplies
+    img: icons/consumables/grains/sack-rice-flour-brown.webp
+    documentId: z3TedhTQJUonD5uM
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!LOFq9uo4qd9aSYIa.YLGzDi18h1sUg88T'
   - type: text
     weight: 30
@@ -38,7 +39,9 @@ results:
       - 90
     drawn: false
     _id: Bou9WO6KIVy1rSa1
-    text: ''
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.z3TedhTQJUonD5uM]{Supplies}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -50,7 +53,12 @@ results:
       - 100
     drawn: false
     _id: bpR4GjjlZtl0CPHM
-    text: ''
+    text: >-
+      [[1d6]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA]{Common
+      Fresh Ingredient}, 1
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.mfhnits1GDktVZEb]{Large
+      Carapace}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -69,7 +77,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733862203583
-  modifiedTime: 1733862242044
+  modifiedTime: 1733868498606
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _id: LOFq9uo4qd9aSYIa

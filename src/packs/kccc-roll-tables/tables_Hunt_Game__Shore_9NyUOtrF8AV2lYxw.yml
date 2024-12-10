@@ -1,23 +1,24 @@
 folder: XOXqKR8JXHvnNngH
 name: 'Hunt Game: Shore'
-img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+img: icons/environment/wilderness/cave-entrance-island.webp
 description: >-
   <p>Food can be gathered with your choice of a Dexterity or Wisdom check. If
   you have proficiency with the Survival skill, you can add your survival
   modifier to the roll.</p><p>[[/check ability=dex skill=sur
   dc=12]]</p><p>[[/check ability=wis skill=sur dc=12]]</p><p></p>
 results:
-  - type: text
+  - type: pack
     weight: 30
     range:
       - 1
       - 30
     drawn: false
     _id: 2QVMa8rNGa0kHiCM
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Common Fresh Ingredient
+    img: icons/consumables/vegetable/root-potato-brown.webp
+    documentId: F5A0A39sGQvXiDaA
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!9NyUOtrF8AV2lYxw.2QVMa8rNGa0kHiCM'
   - type: text
     weight: 30
@@ -26,7 +27,10 @@ results:
       - 60
     drawn: false
     _id: 8a16wQBS2fXFlSo2
-    text: ''
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA]{Common
+      Fresh Ingredient}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -38,7 +42,11 @@ results:
       - 90
     drawn: false
     _id: teNk5jcNwWcXx4C1
-    text: ''
+    text: >-
+      [[1d8]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA]{Common
+      Fresh Ingredient}, 1
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.z3TedhTQJUonD5uM]{Supplies}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -50,7 +58,12 @@ results:
       - 100
     drawn: false
     _id: hEuJz6PeIq4HCr35
-    text: ''
+    text: >-
+      [[1d6]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA]{Common
+      Fresh Ingredient}, 1
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.llWxtgWRAT8yLnAa]{Medium
+      Carapace}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -69,7 +82,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733862000496
-  modifiedTime: 1733862032238
+  modifiedTime: 1733868765677
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _id: 9NyUOtrF8AV2lYxw

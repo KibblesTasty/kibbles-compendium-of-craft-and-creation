@@ -15,9 +15,7 @@ results:
       - 20
     drawn: false
     _id: RxJrDpn4ND8OR0bk
-    text: >-
-      [[1d4]]
-      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.iGeVDlbbr5HmdO3N]{Firewood}
+    text: —
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -29,7 +27,9 @@ results:
       - 40
     drawn: false
     _id: RZMvxcewmEPIrWv4
-    text: ''
+    text: >-
+      [[1d12]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.EmcLtMkqWLmXhZf4]{Scales}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -41,46 +41,52 @@ results:
       - 60
     drawn: false
     _id: HKmEeAvXZD7eHIv5
-    text: ''
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.llWxtgWRAT8yLnAa]{Medium
+      Carapace}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
     _key: '!tables.results!BUnvbTR3AGOxpFrT.HKmEeAvXZD7eHIv5'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 61
       - 80
     drawn: false
     _id: m6Vdb0BwewScndOg
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Large Carapace
+    img: icons/commodities/biological/shell-ridged-blue.webp
+    documentId: mfhnits1GDktVZEb
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!BUnvbTR3AGOxpFrT.m6Vdb0BwewScndOg'
-  - type: text
+  - type: pack
     weight: 15
     range:
       - 81
       - 95
     drawn: false
     _id: diCpceKjhSFKl8aI
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Rare Supplies
+    img: icons/consumables/drinks/wine-amphora-clay-red.webp
+    documentId: QldzlEKZe8VNcEv5
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!BUnvbTR3AGOxpFrT.diCpceKjhSFKl8aI'
-  - type: text
+  - type: pack
     weight: 5
     range:
       - 96
       - 100
     drawn: false
     _id: ECBAqP7rRSbL2wWz
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Common Arcane Essence
+    img: icons/commodities/materials/slime-thick-blue.webp
+    documentId: LkEj679XBcRmkAdK
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!BUnvbTR3AGOxpFrT.ECBAqP7rRSbL2wWz'
 replacement: true
 displayRoll: true
@@ -96,7 +102,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861709842
-  modifiedTime: 1733861709842
+  modifiedTime: 1733865285706
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _id: BUnvbTR3AGOxpFrT

@@ -1,7 +1,7 @@
 folder: UwhhzrsnMCMAdGk1
 name: 'Gather Materials: Forest'
 _id: WpelJGgzEixixWUT
-img: icons/environment/wilderness/terrain-rocky-ground.webp
+img: icons/environment/wilderness/tree-spruce.webp
 description: >-
   <p>Materials can be harvested with your choice of a Strength, Dexterity, or
   Wisdom check. If you have proficiency with the Survival skill, you can add
@@ -17,7 +17,7 @@ results:
     drawn: false
     _id: RxJrDpn4ND8OR0bk
     text: >-
-      [[1d4]]
+      [[1d4 * 10]]
       @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.iGeVDlbbr5HmdO3N]{Firewood}
     img: icons/svg/d20-black.svg
     documentId: null
@@ -30,7 +30,10 @@ results:
       - 40
     drawn: false
     _id: RZMvxcewmEPIrWv4
-    text: ''
+    text: >-
+      [[1d12]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.0bZpiZQCurPIVkuJ]{Common
+      Branch}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -42,22 +45,26 @@ results:
       - 60
     drawn: false
     _id: HKmEeAvXZD7eHIv5
-    text: ''
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.3nXm5uOpYeTtfV6T]{Quality
+      Branch}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
     _key: '!tables.results!WpelJGgzEixixWUT.HKmEeAvXZD7eHIv5'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 61
       - 80
     drawn: false
     _id: m6Vdb0BwewScndOg
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Uncommon Branch
+    img: icons/commodities/wood/kindling-stick-tan.webp
+    documentId: Sv1VcRedFUHaoL7T
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!WpelJGgzEixixWUT.m6Vdb0BwewScndOg'
   - type: text
     weight: 15
@@ -66,22 +73,26 @@ results:
       - 95
     drawn: false
     _id: diCpceKjhSFKl8aI
-    text: ''
+    text: >-
+      [[1d2]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.Sv1VcRedFUHaoL7T]{Uncommon
+      Branch}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
     _key: '!tables.results!WpelJGgzEixixWUT.diCpceKjhSFKl8aI'
-  - type: text
+  - type: pack
     weight: 5
     range:
       - 96
       - 100
     drawn: false
     _id: ECBAqP7rRSbL2wWz
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Common Primal Essence
+    img: icons/commodities/materials/slime-thick-orange.webp
+    documentId: 6AjdA2wDMBQ2Y6Mk
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!WpelJGgzEixixWUT.ECBAqP7rRSbL2wWz'
 replacement: true
 displayRoll: true
@@ -97,7 +108,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861617647
-  modifiedTime: 1733861719197
+  modifiedTime: 1733865955705
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _key: '!tables!WpelJGgzEixixWUT'

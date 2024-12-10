@@ -7,17 +7,18 @@ description: >-
   modifier to the roll.</p><p>[[/check ability=dex skill=sur
   dc=12]]</p><p>[[/check ability=wis skill=sur dc=12]]</p><p></p>
 results:
-  - type: text
+  - type: pack
     weight: 30
     range:
       - 1
       - 30
     drawn: false
     _id: 2QVMa8rNGa0kHiCM
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Common Fresh Ingredient
+    img: icons/consumables/vegetable/root-potato-brown.webp
+    documentId: F5A0A39sGQvXiDaA
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!fIfJSyBGKXqjs3HP.2QVMa8rNGa0kHiCM'
   - type: text
     weight: 30
@@ -26,10 +27,14 @@ results:
       - 60
     drawn: false
     _id: 8a16wQBS2fXFlSo2
-    text: ''
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA]{Common
+      Fresh Ingredient}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
+    documentCollection: ''
     _key: '!tables.results!fIfJSyBGKXqjs3HP.8a16wQBS2fXFlSo2'
   - type: text
     weight: 30
@@ -38,7 +43,9 @@ results:
       - 90
     drawn: false
     _id: teNk5jcNwWcXx4C1
-    text: ''
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.ovlOizetljPnOiB7]{Hide}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -50,7 +57,11 @@ results:
       - 100
     drawn: false
     _id: hEuJz6PeIq4HCr35
-    text: ''
+    text: >-
+      [[1d6]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA]{Common
+      Fresh Ingredient}, [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.ovlOizetljPnOiB7]{Hide}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
@@ -69,7 +80,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861999369
-  modifiedTime: 1733861999369
+  modifiedTime: 1733865162090
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _id: fIfJSyBGKXqjs3HP

@@ -1,6 +1,6 @@
 folder: XOXqKR8JXHvnNngH
 name: 'Gather Materials: Shore'
-img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+img: icons/environment/wilderness/cave-entrance-island.webp
 description: >-
   <p>Materials can be harvested with your choice of a Strength, Dexterity, or
   Wisdom check. If you have proficiency with the Survival skill, you can add
@@ -20,41 +20,44 @@ results:
     documentId: null
     flags: {}
     _key: '!tables.results!ltNtnXFQNJkuc6zL.Ji5wLg9iQAUBP5tV'
-  - type: text
+  - type: pack
     weight: 10
     range:
       - 11
       - 20
     drawn: false
     _id: KfuGF67twUk3glth
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Short Haft
+    img: icons/commodities/wood/fence-post-tan.webp
+    documentId: ilfy0hcImKddXhw1
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!ltNtnXFQNJkuc6zL.KfuGF67twUk3glth'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 21
       - 40
     drawn: false
     _id: BjXddEFHLS44Oh0b
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Medium Carapace
+    img: icons/commodities/biological/shell-turtle-grey.webp
+    documentId: llWxtgWRAT8yLnAa
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!ltNtnXFQNJkuc6zL.BjXddEFHLS44Oh0b'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 41
       - 60
     drawn: false
     _id: wDh7586VEGfOV4zE
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Rare Supplies
+    img: icons/consumables/drinks/wine-amphora-clay-red.webp
+    documentId: QldzlEKZe8VNcEv5
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!ltNtnXFQNJkuc6zL.wDh7586VEGfOV4zE'
   - type: text
     weight: 20
@@ -63,34 +66,40 @@ results:
       - 80
     drawn: false
     _id: 8U0saQKBw5o9ARYm
-    text: ''
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.0bZpiZQCurPIVkuJ]{Common
+      Branch}
     img: icons/svg/d20-black.svg
     documentId: null
     flags: {}
+    documentCollection: ''
     _key: '!tables.results!ltNtnXFQNJkuc6zL.8U0saQKBw5o9ARYm'
-  - type: text
+  - type: pack
     weight: 15
     range:
       - 81
       - 95
     drawn: false
     _id: caLEICWfQ41uQP4F
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Fancy Parts
+    img: icons/tools/fasteners/bolt-steel-blue.webp
+    documentId: vEq6WmaPAXffL6Zg
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!ltNtnXFQNJkuc6zL.caLEICWfQ41uQP4F'
-  - type: text
+  - type: pack
     weight: 5
     range:
       - 96
       - 100
     drawn: false
     _id: Vg2nWjcOaLzsGFIk
-    text: ''
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Common Primal Essence
+    img: icons/commodities/materials/slime-thick-orange.webp
+    documentId: 6AjdA2wDMBQ2Y6Mk
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!ltNtnXFQNJkuc6zL.Vg2nWjcOaLzsGFIk'
 replacement: true
 displayRoll: true
@@ -106,7 +115,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861437166
-  modifiedTime: 1733861590463
+  modifiedTime: 1733868592806
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _id: ltNtnXFQNJkuc6zL
