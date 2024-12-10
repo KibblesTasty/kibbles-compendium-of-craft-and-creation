@@ -1,0 +1,104 @@
+folder: CPRm1IgkTej9cwIP
+name: 'Gather Materials: Grasslands'
+img: icons/environment/wilderness/terrain-rocky-ground.webp
+description: >-
+  <p>Materials can be harvested with your choice of a Strength, Dexterity, or
+  Wisdom check. If you have proficiency with the Survival skill, you can add
+  your proficiency bonus to the roll.</p><p>[[/check ability=str skill=sur
+  dc=10]]</p><p>[[/check ability=dex skill=sur dc=10]]</p><p>[[/check
+  ability=wis skill=sur dc=10]]</p>
+results:
+  - type: text
+    weight: 20
+    range:
+      - 1
+      - 20
+    drawn: false
+    _id: RxJrDpn4ND8OR0bk
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.iGeVDlbbr5HmdO3N]{Firewood}
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!TU8fUnihlXkMi3TO.RxJrDpn4ND8OR0bk'
+  - type: text
+    weight: 20
+    range:
+      - 21
+      - 40
+    drawn: false
+    _id: RZMvxcewmEPIrWv4
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!TU8fUnihlXkMi3TO.RZMvxcewmEPIrWv4'
+  - type: text
+    weight: 20
+    range:
+      - 41
+      - 60
+    drawn: false
+    _id: HKmEeAvXZD7eHIv5
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!TU8fUnihlXkMi3TO.HKmEeAvXZD7eHIv5'
+  - type: text
+    weight: 20
+    range:
+      - 61
+      - 80
+    drawn: false
+    _id: m6Vdb0BwewScndOg
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!TU8fUnihlXkMi3TO.m6Vdb0BwewScndOg'
+  - type: text
+    weight: 15
+    range:
+      - 81
+      - 95
+    drawn: false
+    _id: diCpceKjhSFKl8aI
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!TU8fUnihlXkMi3TO.diCpceKjhSFKl8aI'
+  - type: text
+    weight: 5
+    range:
+      - 96
+      - 100
+    drawn: false
+    _id: ECBAqP7rRSbL2wWz
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!TU8fUnihlXkMi3TO.ECBAqP7rRSbL2wWz'
+replacement: true
+displayRoll: true
+sort: 200000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733861707169
+  modifiedTime: 1733861730066
+  lastModifiedBy: pJeIW7qCa0HkURWq
+formula: 1d100
+_id: TU8fUnihlXkMi3TO
+_key: '!tables!TU8fUnihlXkMi3TO'
+

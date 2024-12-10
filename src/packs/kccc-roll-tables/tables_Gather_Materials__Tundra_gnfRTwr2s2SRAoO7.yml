@@ -1,0 +1,114 @@
+folder: PziclZHZolaUsH9e
+name: 'Gather Materials: Tundra'
+img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+description: >-
+  <p>Materials can be harvested with your choice of a Strength, Dexterity, or
+  Wisdom check. If you have proficiency with the Survival skill, you can add
+  your proficiency bonus to the roll.</p><p>[[/check ability=str skill=sur
+  dc=12]]</p><p>[[/check ability=dex skill=sur dc=12]]</p><p>[[/check
+  ability=wis skill=sur dc=12]]</p>
+results:
+  - type: text
+    weight: 10
+    range:
+      - 1
+      - 10
+    drawn: false
+    _id: Ji5wLg9iQAUBP5tV
+    text: —
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gnfRTwr2s2SRAoO7.Ji5wLg9iQAUBP5tV'
+  - type: text
+    weight: 10
+    range:
+      - 11
+      - 20
+    drawn: false
+    _id: KfuGF67twUk3glth
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gnfRTwr2s2SRAoO7.KfuGF67twUk3glth'
+  - type: text
+    weight: 20
+    range:
+      - 21
+      - 40
+    drawn: false
+    _id: BjXddEFHLS44Oh0b
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gnfRTwr2s2SRAoO7.BjXddEFHLS44Oh0b'
+  - type: text
+    weight: 20
+    range:
+      - 41
+      - 60
+    drawn: false
+    _id: wDh7586VEGfOV4zE
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gnfRTwr2s2SRAoO7.wDh7586VEGfOV4zE'
+  - type: text
+    weight: 20
+    range:
+      - 61
+      - 80
+    drawn: false
+    _id: 8U0saQKBw5o9ARYm
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gnfRTwr2s2SRAoO7.8U0saQKBw5o9ARYm'
+  - type: text
+    weight: 15
+    range:
+      - 81
+      - 95
+    drawn: false
+    _id: caLEICWfQ41uQP4F
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gnfRTwr2s2SRAoO7.caLEICWfQ41uQP4F'
+  - type: text
+    weight: 5
+    range:
+      - 96
+      - 100
+    drawn: false
+    _id: Vg2nWjcOaLzsGFIk
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!gnfRTwr2s2SRAoO7.Vg2nWjcOaLzsGFIk'
+replacement: true
+displayRoll: true
+sort: 200000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733861438073
+  modifiedTime: 1733861594308
+  lastModifiedBy: pJeIW7qCa0HkURWq
+formula: 1d100
+_id: gnfRTwr2s2SRAoO7
+_key: '!tables!gnfRTwr2s2SRAoO7'
+

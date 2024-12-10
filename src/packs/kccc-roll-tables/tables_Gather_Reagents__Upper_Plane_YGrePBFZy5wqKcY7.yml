@@ -1,0 +1,108 @@
+folder: FtqAfmO0DHsynLqj
+name: 'Gather Reagents: Upper Plane'
+img: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+description: >-
+  <p>Reagents are harvested by making a Wisdom check. If you have an Herbalism
+  kit and are proficient with it, you can add your proficiency bonus to the
+  roll. [[/check ability=wis tool=herb dc=14]]</p>
+results:
+  - type: pack
+    weight: 20
+    range:
+      - 1
+      - 20
+    drawn: false
+    _id: UuTVARLVcQPwATrj
+    text: Common Curative Reagent
+    img: icons/commodities/materials/bowl-powder-teal.webp
+    documentId: nyuK97UnYxELFy2n
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!YGrePBFZy5wqKcY7.UuTVARLVcQPwATrj'
+  - type: pack
+    weight: 20
+    range:
+      - 21
+      - 40
+    drawn: false
+    _id: 9mnv8mTPyPt0R8YR
+    text: Common Reactive Reagent
+    img: icons/commodities/materials/bowl-powder-grey.webp
+    documentId: QkmTzOvBOQg1IYLS
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!YGrePBFZy5wqKcY7.9mnv8mTPyPt0R8YR'
+  - type: text
+    weight: 20
+    range:
+      - 41
+      - 60
+    drawn: false
+    _id: sZ4Q5HKpDNeokD1Q
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.nyuK97UnYxELFy2n]{Common
+      Curative Reagent}
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!YGrePBFZy5wqKcY7.sZ4Q5HKpDNeokD1Q'
+  - type: pack
+    weight: 20
+    range:
+      - 61
+      - 80
+    drawn: false
+    _id: XrOMpt5Sj9ZOEtfg
+    text: Uncommon Curative Reagent
+    img: icons/commodities/materials/bowl-liquid-white.webp
+    documentId: lg9FrHWcwS66fbVB
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!YGrePBFZy5wqKcY7.XrOMpt5Sj9ZOEtfg'
+  - type: pack
+    weight: 19
+    range:
+      - 81
+      - 99
+    drawn: false
+    _id: MkhF6K3yB9iS2XFr
+    text: Uncommon Divine Essence
+    img: icons/commodities/gems/gem-faceted-cushion-teal-black.webp
+    documentId: 4PM0Uukt9aAuvjtS
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!YGrePBFZy5wqKcY7.MkhF6K3yB9iS2XFr'
+  - type: pack
+    weight: 1
+    range:
+      - 100
+      - 100
+    drawn: false
+    _id: bNUbDlmgMcmDrBem
+    text: Rare Divine Essence
+    img: icons/commodities/biological/wing-insect-green.webp
+    documentId: Aapfqp9oa1KJidUe
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!YGrePBFZy5wqKcY7.bNUbDlmgMcmDrBem'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733855365762
+  modifiedTime: 1733861013169
+  lastModifiedBy: pJeIW7qCa0HkURWq
+formula: 1d100
+_id: YGrePBFZy5wqKcY7
+_key: '!tables!YGrePBFZy5wqKcY7'
+

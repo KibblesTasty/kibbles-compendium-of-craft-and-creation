@@ -1,0 +1,77 @@
+folder: DvWiJ9kHWbP2j7Cd
+name: 'Hunt Game: Mountains'
+img: icons/environment/wilderness/terrain-rocky-ground.webp
+description: >-
+  <p>Food can be gathered with your choice of a Dexterity or Wisdom check. If
+  you have proficiency with the Survival skill, you can add your survival
+  modifier to the roll.</p><p>[[/check ability=dex skill=sur
+  dc=10]]</p><p>[[/check ability=wis skill=sur dc=10]]</p>
+results:
+  - type: text
+    weight: 30
+    range:
+      - 1
+      - 30
+    drawn: false
+    _id: xgH9t9VXV0C2sQWN
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!LOFq9uo4qd9aSYIa.xgH9t9VXV0C2sQWN'
+  - type: text
+    weight: 30
+    range:
+      - 31
+      - 60
+    drawn: false
+    _id: YLGzDi18h1sUg88T
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!LOFq9uo4qd9aSYIa.YLGzDi18h1sUg88T'
+  - type: text
+    weight: 30
+    range:
+      - 61
+      - 90
+    drawn: false
+    _id: Bou9WO6KIVy1rSa1
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!LOFq9uo4qd9aSYIa.Bou9WO6KIVy1rSa1'
+  - type: text
+    weight: 10
+    range:
+      - 91
+      - 100
+    drawn: false
+    _id: bpR4GjjlZtl0CPHM
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!LOFq9uo4qd9aSYIa.bpR4GjjlZtl0CPHM'
+replacement: true
+displayRoll: true
+sort: 150000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733862203583
+  modifiedTime: 1733862242044
+  lastModifiedBy: pJeIW7qCa0HkURWq
+formula: 1d100
+_id: LOFq9uo4qd9aSYIa
+_key: '!tables!LOFq9uo4qd9aSYIa'
+

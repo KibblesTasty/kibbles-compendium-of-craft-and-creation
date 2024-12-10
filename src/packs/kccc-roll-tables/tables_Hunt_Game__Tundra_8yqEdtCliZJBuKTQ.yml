@@ -1,0 +1,77 @@
+folder: PziclZHZolaUsH9e
+name: 'Hunt Game: Tundra'
+img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+description: >-
+  <p>Food can be gathered with your choice of a Dexterity or Wisdom check. If
+  you have proficiency with the Survival skill, you can add your survival
+  modifier to the roll.</p><p>[[/check ability=dex skill=sur
+  dc=12]]</p><p>[[/check ability=wis skill=sur dc=12]]</p><p></p>
+results:
+  - type: text
+    weight: 30
+    range:
+      - 1
+      - 30
+    drawn: false
+    _id: 2QVMa8rNGa0kHiCM
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!8yqEdtCliZJBuKTQ.2QVMa8rNGa0kHiCM'
+  - type: text
+    weight: 30
+    range:
+      - 31
+      - 60
+    drawn: false
+    _id: 8a16wQBS2fXFlSo2
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!8yqEdtCliZJBuKTQ.8a16wQBS2fXFlSo2'
+  - type: text
+    weight: 30
+    range:
+      - 61
+      - 90
+    drawn: false
+    _id: teNk5jcNwWcXx4C1
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!8yqEdtCliZJBuKTQ.teNk5jcNwWcXx4C1'
+  - type: text
+    weight: 10
+    range:
+      - 91
+      - 100
+    drawn: false
+    _id: hEuJz6PeIq4HCr35
+    text: ''
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!8yqEdtCliZJBuKTQ.hEuJz6PeIq4HCr35'
+replacement: true
+displayRoll: true
+sort: 150000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733862001288
+  modifiedTime: 1733862042071
+  lastModifiedBy: pJeIW7qCa0HkURWq
+formula: 1d100
+_id: 8yqEdtCliZJBuKTQ
+_key: '!tables!8yqEdtCliZJBuKTQ'
+

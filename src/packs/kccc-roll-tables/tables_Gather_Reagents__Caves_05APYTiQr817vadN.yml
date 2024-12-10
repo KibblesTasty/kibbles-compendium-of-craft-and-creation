@@ -1,0 +1,148 @@
+folder: wbh8ULcvNPgjYBqw
+name: 'Gather Reagents: Caves'
+img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+description: >-
+  <p>Reagents are harvested by making a Wisdom check. If you have an Herbalism
+  kit and are proficient with it, you can add your proficiency bonus to the
+  roll. [[/check ability=wis tool=herb dc=12]]</p>
+results:
+  - type: text
+    weight: 10
+    range:
+      - 1
+      - 10
+    drawn: false
+    _id: EK9Ljhb2BQ4qWHy0
+    text: —
+    img: icons/svg/cancel.svg
+    documentId: null
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!05APYTiQr817vadN.EK9Ljhb2BQ4qWHy0'
+  - type: pack
+    weight: 20
+    range:
+      - 11
+      - 30
+    drawn: false
+    _id: Fx1VcOw7ZdcBqcbm
+    text: Common Reactive Reagent
+    img: icons/commodities/materials/bowl-powder-grey.webp
+    documentId: QkmTzOvBOQg1IYLS
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!05APYTiQr817vadN.Fx1VcOw7ZdcBqcbm'
+  - type: pack
+    weight: 20
+    range:
+      - 31
+      - 50
+    drawn: false
+    _id: JLeA2twcITN0dGrs
+    text: Common Poisonous Reagent
+    img: icons/commodities/materials/bowl-powder-pink.webp
+    documentId: 9vVyV3bTBjAvktqD
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!05APYTiQr817vadN.JLeA2twcITN0dGrs'
+  - type: text
+    weight: 10
+    range:
+      - 51
+      - 60
+    drawn: false
+    _id: 5xrey896cEBmDjdy
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.QkmTzOvBOQg1IYLS]{Common
+      Reactive Reagent}
+    img: icons/commodities/materials/bowl-powder-grey.webp
+    documentId: null
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!05APYTiQr817vadN.5xrey896cEBmDjdy'
+  - type: pack
+    weight: 10
+    range:
+      - 61
+      - 70
+    drawn: false
+    _id: ZxKnWTlzewbaavkH
+    text: Uncommon Reactive Reagent
+    img: icons/commodities/materials/bowl-powder-gold.webp
+    documentId: QR3VyyUnHKMua0Lr
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!05APYTiQr817vadN.ZxKnWTlzewbaavkH'
+  - type: pack
+    weight: 10
+    range:
+      - 71
+      - 80
+    drawn: false
+    _id: HI72hDec5pImr4YT
+    text: Uncommon Curative Reagent
+    img: icons/commodities/materials/bowl-liquid-white.webp
+    documentId: lg9FrHWcwS66fbVB
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!05APYTiQr817vadN.HI72hDec5pImr4YT'
+  - type: pack
+    weight: 10
+    range:
+      - 81
+      - 90
+    drawn: false
+    _id: k227PrNSYvxnY5fT
+    text: Common Divine Essence
+    img: icons/commodities/materials/feather-white-glowing-beams.webp
+    documentId: s1DIcMDpF81bVSSz
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!05APYTiQr817vadN.k227PrNSYvxnY5fT'
+  - type: pack
+    weight: 5
+    range:
+      - 91
+      - 95
+    drawn: false
+    _id: sKucwz3PynQiYaae
+    text: Uncommon Poisonous Reagent
+    img: icons/commodities/biological/tail-spiked-green.webp
+    documentId: 5bgfoiOWZydLskRB
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!05APYTiQr817vadN.sKucwz3PynQiYaae'
+  - type: pack
+    weight: 5
+    range:
+      - 96
+      - 100
+    drawn: false
+    _id: fmpre1OHpkUV7nt5
+    text: Uncommon Divine Essence
+    img: icons/commodities/gems/gem-faceted-cushion-teal-black.webp
+    documentId: 4PM0Uukt9aAuvjtS
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!05APYTiQr817vadN.fmpre1OHpkUV7nt5'
+replacement: true
+displayRoll: true
+sort: 100000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733855008451
+  modifiedTime: 1733856152652
+  lastModifiedBy: pJeIW7qCa0HkURWq
+formula: 1d100
+_id: 05APYTiQr817vadN
+_key: '!tables!05APYTiQr817vadN'
+

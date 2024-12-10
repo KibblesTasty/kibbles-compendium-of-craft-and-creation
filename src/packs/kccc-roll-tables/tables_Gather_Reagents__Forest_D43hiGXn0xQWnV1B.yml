@@ -1,0 +1,164 @@
+folder: UwhhzrsnMCMAdGk1
+name: 'Gather Reagents: Forest'
+img: icons/environment/wilderness/tree-spruce.webp
+description: >-
+  <p>Reagents are harvested by making a Wisdom check. If you have an Herbalism
+  kit and are proficient with it, you can add your proficiency bonus to the
+  roll. [[/check ability=wis tool=herb dc=10]]</p><p></p>
+results:
+  - type: text
+    weight: 10
+    range:
+      - 1
+      - 10
+    drawn: false
+    _id: aOz4eNfUkmsq7Zzh
+    text: —
+    img: icons/svg/cancel.svg
+    documentId: null
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!D43hiGXn0xQWnV1B.aOz4eNfUkmsq7Zzh'
+  - type: pack
+    weight: 10
+    range:
+      - 11
+      - 20
+    drawn: false
+    _id: m5CDBvMPaykY0Rez
+    text: Common Curative Reagent
+    img: icons/commodities/materials/bowl-powder-teal.webp
+    documentId: nyuK97UnYxELFy2n
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!D43hiGXn0xQWnV1B.m5CDBvMPaykY0Rez'
+  - type: pack
+    weight: 10
+    range:
+      - 21
+      - 30
+    drawn: false
+    _id: bsDmYrKyrpL4gkKs
+    text: Common Curative Reagent
+    img: icons/commodities/materials/bowl-powder-teal.webp
+    documentId: nyuK97UnYxELFy2n
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!D43hiGXn0xQWnV1B.bsDmYrKyrpL4gkKs'
+  - type: pack
+    weight: 20
+    range:
+      - 31
+      - 50
+    drawn: false
+    _id: AUrKhzdKC22z6LKR
+    text: Common Poisonous Reagent
+    img: icons/commodities/materials/bowl-powder-pink.webp
+    documentId: 9vVyV3bTBjAvktqD
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!D43hiGXn0xQWnV1B.AUrKhzdKC22z6LKR'
+  - type: pack
+    weight: 10
+    range:
+      - 51
+      - 60
+    drawn: false
+    _id: TJgU1p7NkMnxesAu
+    text: Common Reactive Reagent
+    img: icons/commodities/materials/bowl-powder-grey.webp
+    documentId: QkmTzOvBOQg1IYLS
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!D43hiGXn0xQWnV1B.TJgU1p7NkMnxesAu'
+  - type: text
+    weight: 10
+    range:
+      - 61
+      - 70
+    drawn: false
+    _id: 7otyyNAm9LLDGOhI
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.9vVyV3bTBjAvktqD]{Common
+      Poisonous Reagent}
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    documentCollection: ''
+    _key: '!tables.results!D43hiGXn0xQWnV1B.7otyyNAm9LLDGOhI'
+  - type: text
+    weight: 10
+    range:
+      - 71
+      - 80
+    drawn: false
+    _id: d9uWdnklLGPVJcta
+    text: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.nyuK97UnYxELFy2n]{Common
+      Curative Reagent}
+    img: icons/commodities/materials/bowl-powder-teal.webp
+    documentId: null
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!D43hiGXn0xQWnV1B.d9uWdnklLGPVJcta'
+  - type: pack
+    weight: 10
+    range:
+      - 81
+      - 90
+    drawn: false
+    _id: KjRyI8QVAnL98bW4
+    text: Uncommon Curative Reagent
+    img: icons/commodities/materials/bowl-liquid-white.webp
+    documentId: lg9FrHWcwS66fbVB
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!D43hiGXn0xQWnV1B.KjRyI8QVAnL98bW4'
+  - type: pack
+    weight: 5
+    range:
+      - 91
+      - 95
+    drawn: false
+    _id: rN8IxiYJM6zMXyXg
+    text: Uncommon Poisonous Reagent
+    img: icons/commodities/biological/tail-spiked-green.webp
+    documentId: 5bgfoiOWZydLskRB
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!D43hiGXn0xQWnV1B.rN8IxiYJM6zMXyXg'
+  - type: pack
+    weight: 5
+    range:
+      - 96
+      - 100
+    drawn: false
+    _id: JjDlBgTsQAilXQ6G
+    text: Common Primal Essence
+    img: icons/commodities/materials/slime-thick-orange.webp
+    documentId: 6AjdA2wDMBQ2Y6Mk
+    flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _key: '!tables.results!D43hiGXn0xQWnV1B.JjDlBgTsQAilXQ6G'
+replacement: true
+displayRoll: true
+sort: 100000
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733854878603
+  modifiedTime: 1733858381679
+  lastModifiedBy: pJeIW7qCa0HkURWq
+formula: 1d100
+_id: D43hiGXn0xQWnV1B
+_key: '!tables!D43hiGXn0xQWnV1B'
+
