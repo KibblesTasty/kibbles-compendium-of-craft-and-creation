@@ -70,10 +70,15 @@ system:
     width: null
     units: ''
     type: object
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: 60
     long: null
     units: ft
+    special: ''
   uses:
     value: null
     max: ''
@@ -130,7 +135,7 @@ _stats:
   systemVersion: 4.1.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1733871953454
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.iTBLJvErWwrUkqXR
   duplicateSource: null

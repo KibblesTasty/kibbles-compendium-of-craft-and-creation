@@ -20,6 +20,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.OL9f95H4YU3avD2F
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: vdYHjYOGbbf24q1a
 system:
   description:
@@ -72,7 +76,675 @@ system:
     subtype: psionicDiscipline
   requirements: Psion 1
   identifier: transposition-discipline
-  activities: {}
+  activities:
+    zMtqnK4U8db9QxHi:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.zPGohqJRir6MyQ3U
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: zMtqnK4U8db9QxHi
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    IXD2YDjG64jFvZX8:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.BDNZqFxUSSsFq8xl
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: IXD2YDjG64jFvZX8
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    yaxeOYAVkKt80x6A:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: yaxeOYAVkKt80x6A
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    051XAQ5YrmGuwWel:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.UDUnlfPsOAbq2RSE
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: 051XAQ5YrmGuwWel
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    Lr06BK3y8vxm9hzt:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.pRMvmknwLf2tdMTj
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: Lr06BK3y8vxm9hzt
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    xAMWvFdvOLTs7Fvk:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.GSvLWcdCZLQkilXT
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: xAMWvFdvOLTs7Fvk
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    ksNV4IJcUVtfZKxA:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.aU62xVUBYkAQWIHv
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: ksNV4IJcUVtfZKxA
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    heY3jJ6WP7DFPs3i:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.2apB5AIIyElnAkoJ
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: heY3jJ6WP7DFPs3i
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    NVnsqeW7dg0PQ5yV:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: NVnsqeW7dg0PQ5yV
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    3jJA1fz62k5uAg7h:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.xdJtoXpWjYWHdNaw
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: 3jJA1fz62k5uAg7h
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    Ch9jVwDqezinYlRw:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.A4RsPuSvB9wFtz1j
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: Ch9jVwDqezinYlRw
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    7Hej1ihq8ZYM8kgg:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.LDGH4pmMBdQ0aIPS
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '5'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: 7Hej1ihq8ZYM8kgg
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    XFbh1tvItBAcsdf6:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.HsnaaMUOTjseylez
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '5'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+      _id: XFbh1tvItBAcsdf6
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
   enchant: {}
   prerequisites:
     level: null
@@ -86,9 +758,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.1.2
   createdTime: 1726385716805
-  modifiedTime: 1727213959678
+  modifiedTime: 1733872281630
   lastModifiedBy: pJeIW7qCa0HkURWq
 _key: '!items!vdYHjYOGbbf24q1a'
 
