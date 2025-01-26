@@ -70,6 +70,10 @@ flags:
       altValue: false
   core:
     sourceId: Item.Usog9YxzT1vGQMbT
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: RDll5odK6xtxXXgx
 system:
   description:
@@ -165,15 +169,121 @@ system:
     - vocal
     - somatic
     - concentration
+  activities:
+    S9Fdl4LjyMbCGaRL:
+      type: save
+      _id: S9Fdl4LjyMbCGaRL
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 4
+            bonus: ''
+            types:
+              - acid
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+    6VDkY8N0WQuXinSq:
+      type: damage
+      _id: 6VDkY8N0WQuXinSq
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 4
+            bonus: ''
+            types:
+              - acid
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737867059567
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.Usog9YxzT1vGQMbT
   duplicateSource: null

@@ -67,23 +67,25 @@ flags:
       altValue: false
   core:
     sourceId: Item.kb9dwT1bXcukbQ6b
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: vIG4qHxOD5NmLbcA
 system:
   description:
     value: >-
       <p>You channel unholy strength into you hand, and reach out to grab a
       creature. The creature must make a Strength saving throw or become
-      restrained by your deathly iron grasp. As an action on its turn, the
-      creature can attempt to escape using a Strength (Athletics) or Dexterity
-      (Acrobatics) check against your Spell Save DC.</p>
-
-      <p>At the start of the creatures turn while you maintain the grip and the
-      spell, it takes [[/damage 1d8 necrotic]] damage as you drain the life from
-      it, and regain hit points equal to half the damage dealt.</p>
-
-      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
-      using a spell slot of 2nd level or higher, the damage increases by [[/r
-      1d8]] for each slot level above 1st.</p>
+      &amp;Reference[restrained] by your deathly iron grasp. As an action on its
+      turn, the creature can attempt to escape using a [[/check
+      activity=VJfUGvQQ5tBKRMVL]] or [[/check activity=fjwrfpxVgPPu0StH]] check
+      against your Spell Save DC.</p><p>At the start of the creatures turn while
+      you maintain the grip and the spell, it takes 1d8 necrotic damage as you
+      drain the life from it, and regain hit points equal to half the damage
+      dealt.</p><p><em><strong>At Higher Levels.</strong></em> When you cast
+      this spell using a spell slot of 2nd level or higher, the damage increases
+      by 1d8 for each slot level above 1st.</p>
     chat: ''
     unidentified: ''
   source:
@@ -104,10 +106,15 @@ system:
     width: null
     units: ''
     type: creature
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: touch
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -156,15 +163,222 @@ system:
     - vocal
     - somatic
     - concentration
+  activities:
+    30HpY8wbOQHVGf1d:
+      type: save
+      _id: 30HpY8wbOQHVGf1d
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: '8'
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    fjwrfpxVgPPu0StH:
+      type: check
+      _id: fjwrfpxVgPPu0StH
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - acr
+        dc:
+          calculation: spellcasting
+          formula: ''
+        ability: ''
+      name: Escape (Acrobatics)
+      img: ''
+      appliedEffects: []
+    VJfUGvQQ5tBKRMVL:
+      type: check
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - ath
+        dc:
+          calculation: spellcasting
+          formula: ''
+        ability: ''
+      name: Escape (Athletics)
+      _id: VJfUGvQQ5tBKRMVL
+      img: ''
+      appliedEffects: []
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737867059567
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.kb9dwT1bXcukbQ6b
   duplicateSource: null

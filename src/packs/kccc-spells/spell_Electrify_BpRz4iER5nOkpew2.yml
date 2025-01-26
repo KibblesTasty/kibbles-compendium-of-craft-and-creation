@@ -67,10 +67,14 @@ flags:
       altValue: false
   core:
     sourceId: Item.TarewS7Vvoc8Ghhh
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: BpRz4iER5nOkpew2
 system:
   description:
-    value: "<p>You channel lightning into your hands. The next time you hit a creature with a melee attack (including a melee spell attack) before the start of your next turn, the target takes [[/damage 1d12 lightning]] damage and must make a Constitution saving throw. On a failed save, the target becomes stunned until the start of their next turn.</p>\n<p>The spell ends after dealing damage, or at the start of your next turn, whichever occurs first.</p>\n<p>\_</p>"
+    value: "<p>You channel lightning into your hands. The next time you hit a creature with a melee attack (including a melee spell attack) before the start of your next turn, the target takes 1d12 lightning damage and must make a Constitution saving throw. On a failed save, the target becomes &amp;Reference[stunned] until the start of their next turn.</p><p>The spell ends after dealing damage, or at the start of your next turn, whichever occurs first.</p><p>\_</p>"
     chat: ''
     unidentified: ''
   source:
@@ -91,10 +95,15 @@ system:
     width: null
     units: ''
     type: self
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: self
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -142,15 +151,134 @@ system:
   properties:
     - vocal
     - somatic
+  activities:
+    Kvh013ek6pbcct9F:
+      type: save
+      _id: Kvh013ek6pbcct9F
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: '12'
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              mode: ''
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 12
+            bonus: ''
+            types:
+              - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737867059567
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.TarewS7Vvoc8Ghhh
   duplicateSource: null

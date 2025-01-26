@@ -67,6 +67,38 @@ effects:
     system: {}
     sort: 0
     _key: '!items.effects!IxRbUdf15dilvPfW.mhKPVwYEdOdjFTpD'
+  - type: enchantment
+    name: Returning Weapon
+    img: icons/weapons/thrown/shuriken-triple-purple.webp
+    disabled: true
+    _id: NQkihX6l3YNuN4c0
+    system: {}
+    changes: []
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.2.2
+      createdTime: 1737864443068
+      modifiedTime: 1737864443068
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!IxRbUdf15dilvPfW.NQkihX6l3YNuN4c0'
 folder: frXX6IqoOjC9LAfE
 sort: 0
 flags:
@@ -123,6 +155,10 @@ flags:
       altValue: false
   core:
     sourceId: Item.4SZAods2ts8OCJDe
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: IxRbUdf15dilvPfW
 system:
   description:
@@ -150,10 +186,15 @@ system:
     width: null
     units: ''
     type: object
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: touch
+    special: ''
   uses:
     value: null
     max: ''
@@ -205,15 +246,111 @@ system:
   properties:
     - vocal
     - somatic
+  activities:
+    i0Cn1IwnzjJO4a3c:
+      type: enchant
+      _id: i0Cn1IwnzjJO4a3c
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: NQkihX6l3YNuN4c0
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant: {}
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: weapon
+      name: ''
+      img: ''
+      appliedEffects:
+        - NQkihX6l3YNuN4c0
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: enchant
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: mhKPVwYEdOdjFTpD
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+            activity: []
+            item: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      enchant:
+        identifier: ''
+      restrictions:
+        allowMagical: true
+        type: ''
+        categories: []
+        properties: []
+      sort: 0
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: 1721351321060
-  modifiedTime: 1733869531166
+  modifiedTime: 1737867059567
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.4SZAods2ts8OCJDe
   duplicateSource: null

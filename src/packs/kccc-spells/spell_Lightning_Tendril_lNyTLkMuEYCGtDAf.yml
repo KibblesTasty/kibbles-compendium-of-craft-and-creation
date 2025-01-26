@@ -67,21 +67,23 @@ flags:
       altValue: false
   core:
     sourceId: Item.KTVeSCdbRT5qsQBI
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: lNyTLkMuEYCGtDAf
 system:
   description:
     value: >-
       <p>Crackling beams of blue energy leap from your hands. For the duration
       of the spell, as an action, you can direct them toward a creature within
-      range, dealing [[/damage 1d12 lightning]] damage to that creature.</p>
-
-      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
-      using a 2nd- or 3rd-level spell slot, the damage increases to [[/r 2d12]]
-      and the range increases to 30 feet. When you cast it using a 4th- or
-      5th-level spell slot, the damage increases to [[/r 3d12]] and the range
-      increases to 60 feet. When you cast it using a spell slot of 6th level or
-      higher, the damage increases to [[/r 4d12]] and the range increases to 120
-      feet.</p>
+      range, dealing 1d12 lightning damage to that
+      creature.</p><p><em><strong>At Higher Levels.</strong></em> When you cast
+      this spell using a 2nd- or 3rd-level spell slot, the damage increases to
+      2d12 and the range increases to 30 feet. When you cast it using a 4th- or
+      5th-level spell slot, the damage increases to 3d12 and the range increases
+      to 60 feet. When you cast it using a spell slot of 6th level or higher,
+      the damage increases to 4d12 and the range increases to 120 feet.</p>
     chat: ''
     unidentified: ''
   source:
@@ -102,10 +104,15 @@ system:
     width: null
     units: ''
     type: creature
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: 20
     long: null
     units: ft
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -155,15 +162,125 @@ system:
     - somatic
     - material
     - concentration
+  activities:
+    QNMiOCVHg027oK95:
+      type: damage
+      _id: QNMiOCVHg027oK95
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: (min(4, floor(@scaling / 2) + 1))d12
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              mode: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 12
+            bonus: ''
+            types:
+              - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737867059567
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.KTVeSCdbRT5qsQBI
   duplicateSource: null

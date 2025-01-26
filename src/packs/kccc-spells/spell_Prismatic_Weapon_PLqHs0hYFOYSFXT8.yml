@@ -1193,19 +1193,22 @@ flags:
       altValue: true
   core:
     sourceId: Item.ujPikJmIj7qf4MWR
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: PLqHs0hYFOYSFXT8
 system:
   description:
     value: >-
       <p>A weapon you touch is infused with elemental power, becoming a magical
       weapon. Choose of the following damage types: acid, cold, fire, lightning,
-      poison, or thunder. The weapon deals [[/damage 1d6]] damage of the chosen
-      weapon type, and if it doesn’t already have a bonus to attack and damage,
-      it gains a +1 bonus to attack and damage rolls.</p><p><em><strong>At
-      Higher Levels.</strong></em> When you cast this spell with a 4th- or
-      5th-level spell slot, the damage increases by 1d6 (to [[/damage 2d6]]).
-      When you use a spell slot of 6th level or higher, the damage increases by
-      2d6 (to [[/damage 3d6]]).</p>
+      poison, or thunder. The weapon deals 1d6 damage of the chosen weapon type,
+      and if it doesn’t already have a bonus to attack and damage, it gains a +1
+      bonus to attack and damage rolls.</p><p><em><strong>At Higher
+      Levels.</strong></em> When you cast this spell with a 4th- or 5th-level
+      spell slot, the damage increases by 1d6 (to 2d6). When you use a spell
+      slot of 6th level or higher, the damage increases by 2d6 (to 3d6).</p>
     chat: ''
     unidentified: ''
   source:
@@ -1225,10 +1228,15 @@ system:
     width: null
     units: ''
     type: object
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: touch
+    special: ''
   uses:
     value: null
     max: ''
@@ -1281,15 +1289,221 @@ system:
     - vocal
     - somatic
     - concentration
+  activities:
+    Yz51ugopucFTbwoo:
+      type: enchant
+      _id: Yz51ugopucFTbwoo
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: pYDB1ku0cW1wv4Me
+          level:
+            min: null
+            max: 3
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: da1vMHsknLd7mJtY
+          level:
+            min: 4
+            max: 5
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: OyxF247m3hQoszRN
+          level:
+            min: 6
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: 1Fuu4MtD8o3z97g5
+          level:
+            min: null
+            max: 3
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: S6tp4g3GYatqPc9v
+          level:
+            min: 4
+            max: 5
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: i9RapdTtd3fTb7uh
+          level:
+            min: 6
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: XtInYRQpN7IXmtk8
+          level:
+            min: null
+            max: 3
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: 42dkJyIk9tkJ3XkR
+          level:
+            min: 4
+            max: 5
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: oaQ95ZWO8f1PjBL7
+          level:
+            min: 6
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: A3jLo1KRds8NdqCc
+          level:
+            min: null
+            max: 3
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: 6B7QTwHrutIguJUT
+          level:
+            min: 4
+            max: 5
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: XGa6a42xOKmfWnP2
+          level:
+            min: 6
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: 9e4NmqxTQVNODRng
+          level:
+            min: null
+            max: 3
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: ZNTVKGBDs1Xp1DpU
+          level:
+            min: 4
+            max: 5
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: FkCbPqNYn5YjJIxn
+          level:
+            min: 6
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: dxHkL2sKl5g6PxPh
+          level:
+            min: null
+            max: 3
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: B47MSZkVZYSgaZ6U
+          level:
+            min: 4
+            max: 5
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: ccuPQX38Re6Gq0ut
+          level:
+            min: 6
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant: {}
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: weapon
+      name: ''
+      img: ''
+      appliedEffects:
+        - pYDB1ku0cW1wv4Me
+        - da1vMHsknLd7mJtY
+        - OyxF247m3hQoszRN
+        - 1Fuu4MtD8o3z97g5
+        - S6tp4g3GYatqPc9v
+        - i9RapdTtd3fTb7uh
+        - XtInYRQpN7IXmtk8
+        - 42dkJyIk9tkJ3XkR
+        - oaQ95ZWO8f1PjBL7
+        - A3jLo1KRds8NdqCc
+        - 6B7QTwHrutIguJUT
+        - XGa6a42xOKmfWnP2
+        - 9e4NmqxTQVNODRng
+        - ZNTVKGBDs1Xp1DpU
+        - FkCbPqNYn5YjJIxn
+        - dxHkL2sKl5g6PxPh
+        - B47MSZkVZYSgaZ6U
+        - ccuPQX38Re6Gq0ut
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: 1721351495472
-  modifiedTime: 1733869531166
+  modifiedTime: 1737867732396
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.ujPikJmIj7qf4MWR
   duplicateSource: null

@@ -67,6 +67,10 @@ flags:
       altValue: false
   core:
     sourceId: Item.S1RexEVTgdlP1NCR
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: jO1P5liw3rps9Or8
 system:
   description:
@@ -75,11 +79,9 @@ system:
       can see within range to make a Constitution saving throw. If the target
       fails, it becomes crippled with horrific pain. Whenever the creation moves
       more than half of it's movement speed or takes an action, the crippling
-      pain causes it to take [[/damage 1d6 necrotic]] damage.</p>
-
-      <p>It can repeat the saving throw at the end of each of its turns, the
-      target can make a Constitution saving throw. On a success, the spell
-      ends.</p>
+      pain causes it to take 1d6 necrotic damage.</p><p>It can repeat the saving
+      throw at the end of each of its turns, the target can make a Constitution
+      saving throw. On a success, the spell ends.</p>
     chat: ''
     unidentified: ''
   source:
@@ -100,10 +102,15 @@ system:
     width: null
     units: ''
     type: creature
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: 60
     long: null
     units: ft
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -153,15 +160,134 @@ system:
     - somatic
     - material
     - concentration
+  activities:
+    9Yj2DEkRtAa5N8xw:
+      type: save
+      _id: 9Yj2DEkRtAa5N8xw
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: '6'
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737867059567
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.S1RexEVTgdlP1NCR
   duplicateSource: null

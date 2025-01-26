@@ -7,10 +7,11 @@ system:
       <p>You draw an ethereal mark in the air at a point within range. The area
       within 5 feet of this glyph becomes difficult terrain.</p><p>As an action,
       you can force all creatures within 15 feet of this glyph to pass a
-      Constitution saving throw, or take 1d8 cold damage and become restrained
-      until the end of your next turn, or half as much damage on success are not
-      restrained. After using this action, the spell ends.</p><p>You can end the
-      spell early by deactivating it with a bonus action</p>
+      Constitution saving throw, or take 1d8 cold damage and become
+      &amp;Reference[restrained] until the end of your next turn, or half as
+      much damage on success are not restrained. After using this action, the
+      spell ends.</p><p>You can end the spell early by deactivating it with a
+      bonus action</p>
     chat: ''
   materials:
     value: ''
@@ -30,6 +31,7 @@ system:
     units: ft
     value: 5
     long: null
+    special: ''
   source:
     custom: ''
     book: KCCC
@@ -44,6 +46,10 @@ system:
     units: ''
     type: ''
     prompt: true
+    affects:
+      type: ''
+    template:
+      type: ''
   uses:
     value: null
     max: ''
@@ -83,11 +89,113 @@ system:
   scaling:
     mode: none
     formula: ''
+  activities:
+    x7icpjpytAU3lgrY:
+      type: utility
+      name: Create Glyph
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+      _id: x7icpjpytAU3lgrY
+    Ws1RY9hh0xvpmpGA:
+      type: save
+      name: Detonate
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          count: ''
+          type: radius
+          size: '15'
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: '8'
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              mode: ''
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      _id: Ws1RY9hh0xvpmpGA
+      img: ''
+      appliedEffects: []
 folder: W6XLqLAP7CJCppah
 flags:
   dnd5e:
     migratedProperties:
       - somatic
+    riders:
+      activity: []
+      effect: []
 _id: eJxT9hIDvrF6PRv4
 effects: []
 sort: 0
@@ -96,10 +204,10 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: 1721845388483
-  modifiedTime: 1733869531166
+  modifiedTime: 1737869183936
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: null
   duplicateSource: null

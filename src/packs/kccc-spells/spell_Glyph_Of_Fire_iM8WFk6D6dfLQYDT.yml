@@ -30,6 +30,7 @@ system:
     units: ft
     value: 5
     long: null
+    special: ''
   source:
     custom: ''
     book: KCCC
@@ -44,6 +45,10 @@ system:
     units: ''
     type: ''
     prompt: true
+    affects:
+      type: ''
+    template:
+      type: ''
   uses:
     value: null
     max: ''
@@ -84,11 +89,113 @@ system:
   scaling:
     mode: none
     formula: ''
+  activities:
+    YPf5AAELcwNumBxv:
+      type: utility
+      name: Create Glyph
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+      _id: YPf5AAELcwNumBxv
+    jeon1qSMWa6IxvrN:
+      type: save
+      name: Detonate
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '15'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: '6'
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: ''
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      _id: jeon1qSMWa6IxvrN
+      img: ''
+      appliedEffects: []
 folder: W6XLqLAP7CJCppah
 flags:
   dnd5e:
     migratedProperties:
       - somatic
+    riders:
+      activity: []
+      effect: []
 _id: iM8WFk6D6dfLQYDT
 effects: []
 sort: 0
@@ -97,10 +204,10 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: 1721845367376
-  modifiedTime: 1733869531166
+  modifiedTime: 1737869134335
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: null
   duplicateSource: null

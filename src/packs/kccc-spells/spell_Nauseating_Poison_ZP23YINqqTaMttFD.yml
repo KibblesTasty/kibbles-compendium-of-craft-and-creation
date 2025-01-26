@@ -67,6 +67,10 @@ flags:
       altValue: false
   core:
     sourceId: Item.2qqXAihJMXPxBpwI
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: ZP23YINqqTaMttFD
 system:
   description:
@@ -74,12 +78,10 @@ system:
       <p>You shroud your hand, a weapon you are holding, or a natural weapon in
       dark ichorous miasma. The next time you hit a creature with a melee attack
       (including a melee spell attack) before the start of your next turn, the
-      attack deals an extra [[/damage 1d12 poison]] damage and the target must
-      succeed on a Constitution saving throw or be poisoned until the end of
-      your next turn.</p>
-
-      <p>The spell ends after dealing damage, or at the start of your next turn,
-      whichever occurs first.</p>
+      attack deals an extra 1d12 poison damage and the target must succeed on a
+      Constitution saving throw or be &amp;Reference[poisoned] until the end of
+      your next turn.</p><p>The spell ends after dealing damage, or at the start
+      of your next turn, whichever occurs first.</p>
     chat: ''
     unidentified: ''
   source:
@@ -100,10 +102,15 @@ system:
     width: null
     units: ''
     type: self
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: self
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -151,15 +158,192 @@ system:
   properties:
     - vocal
     - somatic
+  activities:
+    kgKkaQG4PrHCeNAN:
+      type: save
+      _id: kgKkaQG4PrHCeNAN
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: '12'
+            bonus: ''
+            types:
+              - poison
+            scaling:
+              mode: ''
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 12
+            bonus: ''
+            types:
+              - poison
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+    dnd5eactivity100:
+      _id: dnd5eactivity100
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 12
+            bonus: ''
+            types:
+              - poison
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737867059567
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.2qqXAihJMXPxBpwI
   duplicateSource: null

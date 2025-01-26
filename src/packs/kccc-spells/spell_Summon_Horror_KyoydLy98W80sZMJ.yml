@@ -26,6 +26,10 @@ flags:
       altValue: true
   core:
     sourceId: Item.QmSWJ7THQ46XwECD
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: KyoydLy98W80sZMJ
 system:
   description:
@@ -148,15 +152,95 @@ system:
           max: null
     match:
       attacks: true
+  activities:
+    rdEbkiCERU6NmgcE:
+      type: summon
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '@item.level'
+        hd: ''
+        hp: 5 * @scaling.increase
+        attackDamage: '@item.level'
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: true
+        saves: false
+        ability: ''
+      profiles:
+        - count: ''
+          name: ''
+          _id: MPMMb6aWiOrujfIf
+          uuid: >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.O8fFPXg0Q9TR9wkG
+          level:
+            min: null
+            max: null
+        - count: ''
+          name: ''
+          _id: qWRROprAkAORda1D
+          uuid: >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.9cLoheQArVue6G2g
+          level:
+            min: null
+            max: null
+        - count: ''
+          name: ''
+          _id: 8B8mjIjeiOr8GkdJ
+          uuid: >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.EFePonnzYj6bXjYB
+          level:
+            min: null
+            max: null
+      summon:
+        prompt: true
+        mode: ''
+      name: ''
+      _id: rdEbkiCERU6NmgcE
+      img: ''
+      appliedEffects: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737865319165
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.QmSWJ7THQ46XwECD
   duplicateSource: null

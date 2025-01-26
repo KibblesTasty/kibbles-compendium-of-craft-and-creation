@@ -70,19 +70,21 @@ flags:
       altValue: false
   core:
     sourceId: Item.FbKPVxzfcWPZdp9y
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: liEjXhiZQPmJ3MNd
 system:
   description:
     value: >-
       <p>You exhale a cloud of poison that magically expands to fill a 30 foot
-      cone. Creatures in that area must make a Constitution saving throw. On a
-      failure, they take [[/damage 4d12 poison]] damage and become poisoned
-      until the start of their next turn. On a success, the target takes half as
-      much damage and is not poisoned.</p>
-
-      <p>The area is lightly obscured until the start of your turn, and any
-      creature that ends their turn within the area takes [[/damage 2d4 poison]]
-      damage.</p>
+      cone. Each creature in the area must make a Constitution saving throw. On
+      a failure, it takes 4d12 poison damage and becomes
+      &amp;Reference[poisoned] until the start of its next turn. On a success,
+      it takes half as much damage and is not poisoned.</p><p>The area is
+      lightly obscured until the start of your turn, and any creature that ends
+      its turn within the area takes 2d4 poison damage.</p>
     chat: ''
     unidentified: ''
   source:
@@ -103,10 +105,15 @@ system:
     width: null
     units: ft
     type: cone
+    affects:
+      type: ''
+    template:
+      count: ''
   range:
     value: null
     long: null
     units: self
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -156,15 +163,122 @@ system:
   properties:
     - vocal
     - somatic
+  activities:
+    KNMVxEdF7IQL2Pnx:
+      type: save
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 12
+            bonus: ''
+            types:
+              - poison
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      _id: KNMVxEdF7IQL2Pnx
+    mbwU7GgGD2yRwD3r:
+      type: damage
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 4
+            bonus: ''
+            types:
+              - poison
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+      _id: mbwU7GgGD2yRwD3r
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737868729114
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.FbKPVxzfcWPZdp9y
   duplicateSource: null

@@ -34,6 +34,10 @@ flags:
         '1': true
   core:
     sourceId: Item.beZ9D2iBbiYpfZ13
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: 60h2h01A4iG2rQuk
 system:
   description:
@@ -65,10 +69,15 @@ system:
     width: null
     units: ''
     type: self
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: self
+    special: ''
   uses:
     value: null
     max: ''
@@ -120,15 +129,117 @@ system:
   properties:
     - vocal
     - somatic
+  activities:
+    ncfUBcIUVsPwgyIJ:
+      type: heal
+      _id: ncfUBcIUVsPwgyIJ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@scaling * 5'
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    sCuiCjFinCdL8L6Z:
+      type: damage
+      _id: sCuiCjFinCdL8L6Z
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: 5 * @scaling
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              mode: ''
+      name: ''
+      img: ''
+      appliedEffects: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737830801561
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.beZ9D2iBbiYpfZ13
   duplicateSource: null

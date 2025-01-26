@@ -64,18 +64,20 @@ flags:
       altValue: false
   core:
     sourceId: Item.H7TfJIzUUQufIBdh
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: YfbWpFbri1Dvqwbj
 system:
   description:
     value: >-
       <p>You touch an item weighing no more than 100 pounds and form a link
       between you and it. Until the spell ends, you can recall it to your hand
-      as a bonus action.</p>
-
-      <p>If another creature is holding or wearing the item when you try to
-      recall it, they make a Charisma saving throw to retain possession of the
-      item, and if they succeed, the spell fails. They make this save with
-      advantage if they have had possession of the item for more than 1
+      as a bonus action.</p><p>If another creature is holding or wearing the
+      item when you try to recall it, they make a [[/save]] to retain possession
+      of the item, and if they succeed, the spell fails. They make this save
+      with advantage if they have had possession of the item for more than 1
       minute.</p>
     chat: ''
     unidentified: ''
@@ -96,10 +98,15 @@ system:
     width: null
     units: ''
     type: object
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: touch
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -145,15 +152,194 @@ system:
   properties:
     - vocal
     - somatic
+  activities:
+    6VvbZxOQzJ3Lbsv5:
+      type: utility
+      name: Cast
+      _id: 6VvbZxOQzJ3Lbsv5
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    bTpoR2awgVxtVN4K:
+      type: save
+      _id: bTpoR2awgVxtVN4K
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+    dnd5eactivity100:
+      _id: dnd5eactivity100
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737867059567
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.H7TfJIzUUQufIBdh
   duplicateSource: null

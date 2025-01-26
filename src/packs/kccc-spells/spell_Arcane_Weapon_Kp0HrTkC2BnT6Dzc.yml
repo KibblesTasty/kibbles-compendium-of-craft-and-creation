@@ -54,6 +54,42 @@ effects:
     system: {}
     sort: 0
     _key: '!items.effects!Kp0HrTkC2BnT6Dzc.dovPyBC9SoaiStR0'
+  - type: enchantment
+    name: Arcane Weapon
+    img: icons/magic/symbols/runes-etched-steel-blade.webp
+    disabled: true
+    _id: 6Rg7z8UiBi2xCjIb
+    system: {}
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.2.2
+      createdTime: 1737758759140
+      modifiedTime: 1737758779632
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!Kp0HrTkC2BnT6Dzc.6Rg7z8UiBi2xCjIb'
 folder: frXX6IqoOjC9LAfE
 sort: 0
 flags:
@@ -116,6 +152,10 @@ flags:
       altValue: false
   core:
     sourceId: Item.VrGvTT3z4qMnjwRQ
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: Kp0HrTkC2BnT6Dzc
 system:
   description:
@@ -149,10 +189,15 @@ system:
     width: null
     units: ''
     type: object
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: touch
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -202,15 +247,117 @@ system:
   properties:
     - vocal
     - somatic
+  activities:
+    Wwo5D8oHtNXHwplz:
+      type: enchant
+      _id: Wwo5D8oHtNXHwplz
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 6Rg7z8UiBi2xCjIb
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant: {}
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: weapon
+      name: ''
+      img: ''
+      appliedEffects:
+        - 6Rg7z8UiBi2xCjIb
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: enchant
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: dovPyBC9SoaiStR0
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+            activity: []
+            item: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      enchant:
+        identifier: ''
+      restrictions:
+        allowMagical: true
+        type: ''
+        categories: []
+        properties: []
+      sort: 0
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: 1721351127405
-  modifiedTime: 1733869531166
+  modifiedTime: 1737867059567
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.VrGvTT3z4qMnjwRQ
   duplicateSource: null

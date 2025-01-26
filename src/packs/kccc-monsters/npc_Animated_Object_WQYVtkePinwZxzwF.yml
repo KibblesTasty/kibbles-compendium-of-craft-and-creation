@@ -1,7 +1,8 @@
-name: Ooze Spirit (Red)
-type: npc
 folder: RKOrrPX9DFuI6S6Y
-img: icons/creatures/slimes/bubbling-purple.webp
+name: Animated Object
+type: npc
+_id: WQYVtkePinwZxzwF
+img: icons/svg/mystery-man.svg
 system:
   currency:
     pp: 0
@@ -11,35 +12,35 @@ system:
     cp: 0
   abilities:
     str:
-      value: 12
+      value: 4
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     dex:
-      value: 6
+      value: 18
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     con:
-      value: 12
+      value: 10
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     int:
-      value: 1
+      value: 3
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     wis:
-      value: 1
+      value: 3
       proficient: 0
       max: null
       bonuses:
@@ -252,6 +253,16 @@ system:
       bonuses:
         check: ''
         passive: ''
+    psi:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
   tools: {}
   spells:
     spell1:
@@ -295,21 +306,21 @@ system:
     movement:
       burrow: null
       climb: null
-      fly: null
+      fly: 30
       swim: null
-      walk: 10
-      units: null
+      walk: 30
+      units: ft
       hover: false
     attunement:
       max: 3
     senses:
       darkvision: null
-      blindsight: 10
+      blindsight: 30
       tremorsense: null
       truesight: null
-      units: null
-      special: blind beyond blindsight radius
-    spellcasting: int
+      units: ft
+      special: ''
+    spellcasting: str
     exhaustion: 0
     concentration:
       ability: ''
@@ -320,17 +331,19 @@ system:
       bonuses:
         save: ''
       limit: 1
+    loyalty:
+      value: null
     ac:
-      flat: 6
-      calc: flat
+      flat: 14
+      calc: natural
     hd:
       spent: 0
     hp:
-      value: 5
-      max: 5
+      value: 20
+      max: 20
       temp: null
       tempmax: null
-      formula: '0'
+      formula: ''
     death:
       ability: ''
       roll:
@@ -339,23 +352,29 @@ system:
         mode: 0
       success: 0
       failure: 0
+      bonuses:
+        save: ''
   details:
     biography:
       value: ''
       public: ''
-    alignment: Unaligned
+    alignment: ''
     ideal: ''
     bond: ''
     flaw: ''
     race: null
     type:
-      value: ooze
-    environment: ''
-    cr: null
-    spellLevel: 0
-    source:
-      book: KCCC
+      value: construct
       custom: ''
+      subtype: ''
+      swarm: ''
+    habitat:
+      value: []
+      custom: ''
+    cr: 1
+    spellLevel: 0
+    treasure:
+      value: []
   resources:
     legact:
       value: 0
@@ -366,65 +385,56 @@ system:
     lair:
       value: false
       initiative: null
+      inside: false
+  source:
+    revision: 1
+    rules: '2024'
   traits:
-    size: sm
+    size: tiny
     di:
-      bypasses: []
-      value:
-        - acid
-        - fire
-        - lightning
-        - poison
-      custom: ''
-    dr:
-      bypasses:
-        - mgc
-      value:
-        - bludgeoning
-        - piercing
-        - slashing
-      custom: ''
-    dv:
-      bypasses: []
       value: []
       custom: ''
+      bypasses: []
+    dr:
+      value: []
+      custom: ''
+      bypasses: []
+    dv:
+      value: []
+      custom: ''
+      bypasses: []
     dm:
       amount: {}
       bypasses: []
     ci:
-      value:
-        - blinded
-        - charmed
-        - deafened
-        - exhaustion
-        - frightened
-        - prone
+      value: []
       custom: ''
     languages:
       value: []
-      custom: Understands the languages you speak
-  source:
-    rules: '2014'
+      custom: ''
+      communication: {}
+    important: false
 prototypeToken:
-  name: Ooze Spirit
+  name: Animated Object
   displayName: 0
   actorLink: false
   appendNumber: false
   prependAdjective: false
+  width: 0.5
+  height: 0.5
   texture:
-    src: icons/creatures/slimes/bubbling-purple.webp
-    scaleX: 1
-    scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
-    tint: '#ffffff'
+    src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
     fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
     alphaThreshold: 0.75
-  width: 1
-  height: 1
+  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -435,9 +445,12 @@ prototypeToken:
   bar2:
     attribute: null
   light:
+    negative: false
+    priority: 0
     alpha: 0.5
     angle: 360
     bright: 0
+    color: null
     coloration: 1
     dim: 0
     attenuation: 0.5
@@ -453,23 +466,17 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
-    color: null
-    negative: false
-    priority: 0
   sight:
     enabled: false
-    range: 10
+    range: 0
     angle: 360
     visionMode: basic
+    color: null
     attenuation: 0.1
     brightness: 0
     saturation: 0
     contrast: 0
-    color: null
   detectionModes: []
-  flags: {}
-  randomImg: false
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -481,202 +488,141 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  flags: {}
+  randomImg: false
 items:
-  - name: Multiattack
+  - name: Attack
     type: feat
-    img: icons/magic/death/skull-trio-badge-purple.webp
+    _id: 3GbfvhwEVJcP7oXw
+    img: systems/dnd5e/icons/svg/items/feature.svg
     system:
-      description:
-        value: >-
-          The ooze makes a number of attacks equal to half this spell’s level
-          (rounded down).
-        chat: ''
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      source: {}
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      activities:
+        lFl7iR6jK2fNkcFv:
+          type: attack
+          _id: lFl7iR6jK2fNkcFv
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: ft
+            special: ''
+            value: '5'
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+            ability: none
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: '4'
+                bonus: ''
+                types:
+                  - bludgeoning
+                  - piercing
+                  - slashing
+          name: ''
+          img: ''
+          appliedEffects: []
       uses:
-        value: null
-        max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      summons: null
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-      recharge:
-        value: null
-        charged: false
-    _id: nrV8OM9zhecG7OTA
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      pJeIW7qCa0HkURWq: 3
-    flags: {}
-    _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.0
-      coreVersion: '12.330'
-      createdTime: 1721364201678
-      modifiedTime: 1721364201678
-      lastModifiedBy: pJeIW7qCa0HkURWq
-      compendiumSource: null
-      duplicateSource: null
-    _key: '!actors.items!7ll5ENZ43vRv9ZTT.nrV8OM9zhecG7OTA'
-  - name: Pseudopod
-    type: feat
-    img: icons/magic/acid/projectile-faceted-glob.webp
-    system:
+        spent: 0
+        recovery: []
       description:
-        value: >-
-          Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft. ,
-          one target. Hit: 1d4 + 3 + the spell’s level acid damage.
+        value: ''
         chat: ''
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      range:
-        value: 5
-        units: ft
-        long: null
-      actionType: msak
+      identifier: attack
       source:
-        custom: ''
-      duration:
-        value: ''
-        units: ''
+        revision: 1
+        rules: '2024'
+      advancement: []
       cover: null
       crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      uses:
-        value: null
-        max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: ''
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 1d4+3
-            - acid
-        versatile: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      summons: null
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+      properties: []
+      requirements: ''
       type:
         value: monster
         subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-      recharge:
-        value: null
-        charged: false
-    _id: GgGRlkmJsUtJ2EiA
     effects: []
     folder: null
     sort: 0
     ownership:
       default: 0
       pJeIW7qCa0HkURWq: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.0
-      coreVersion: '12.330'
-      createdTime: 1721364201709
-      modifiedTime: 1721415591813
-      lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
-    _key: '!actors.items!7ll5ENZ43vRv9ZTT.GgGRlkmJsUtJ2EiA'
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.2.2
+      createdTime: 1737868175000
+      modifiedTime: 1737868256523
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!actors.items!WQYVtkePinwZxzwF.3GbfvhwEVJcP7oXw'
 effects: []
+sort: 0
 ownership:
   default: 0
   pJeIW7qCa0HkURWq: 3
 flags:
-  core: {}
   dnd5e:
     showTokenPortrait: false
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '12.331'
-  createdTime: 1721364201641
-  modifiedTime: 1737865274956
-  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: null
   duplicateSource: null
-sort: 0
-_id: 7ll5ENZ43vRv9ZTT
-_key: '!actors!7ll5ENZ43vRv9ZTT'
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1737867815410
+  modifiedTime: 1737868320079
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!actors!WQYVtkePinwZxzwF'
 

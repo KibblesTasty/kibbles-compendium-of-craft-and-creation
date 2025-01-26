@@ -328,8 +328,8 @@ system:
     hp:
       value: 5
       max: 5
-      temp: 0
-      tempmax: 0
+      temp: null
+      tempmax: null
       formula: '0'
     death:
       ability: ''
@@ -351,7 +351,7 @@ system:
     type:
       value: ooze
     environment: ''
-    cr: 1
+    cr: null
     spellLevel: 0
     source:
       book: KCCC
@@ -669,10 +669,10 @@ flags:
     showTokenPortrait: false
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: 1721364201641
-  modifiedTime: 1733869532966
+  modifiedTime: 1737865269125
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: null
   duplicateSource: null

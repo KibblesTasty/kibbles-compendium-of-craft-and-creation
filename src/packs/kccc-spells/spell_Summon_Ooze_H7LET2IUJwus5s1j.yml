@@ -58,6 +58,10 @@ flags:
       altValue: false
   core:
     sourceId: Item.waq4ffn1oSP9Bzrb
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: H7LET2IUJwus5s1j
 system:
   description:
@@ -179,15 +183,91 @@ system:
     match:
       proficiency: true
       attacks: true
+  activities:
+    Y2XI4KN0mxqztCZE:
+      type: summon
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      bonuses:
+        ac: '@item.level'
+        hd: ''
+        hp: 10 * (@item.level - 1)
+        attackDamage: ''
+        saveDamage: '@item.level'
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        proficiency: true
+        attacks: true
+        ability: ''
+        saves: false
+      profiles:
+        - uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.bQMeZb9oTSEeKwRv
+          _id: 9WX4lY7sSRD05ESb
+          level:
+            min: null
+            max: null
+          types: []
+        - _id: tULaUMA0xrlhmals
+          level:
+            min: null
+            max: null
+          types: []
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.bQMeZb9oTSEeKwRv
+        - _id: FPOlBqKItlrln9to
+          level:
+            min: null
+            max: null
+          types: []
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.aXK7B17lMcVFqT2s
+      summon:
+        identifier: ''
+        mode: ''
+        prompt: false
+      sort: 0
+      _id: Y2XI4KN0mxqztCZE
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737867059567
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.waq4ffn1oSP9Bzrb
   duplicateSource: null

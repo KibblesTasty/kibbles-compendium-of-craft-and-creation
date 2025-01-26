@@ -64,6 +64,10 @@ flags:
       altValue: false
   core:
     sourceId: Item.3Fs60ldE2lRSsuMp
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: 6cFfHnF9WfDGESQV
 system:
   description:
@@ -153,15 +157,62 @@ system:
     - vocal
     - somatic
     - material
+  activities:
+    Lx7J6O2eG98WTcnL:
+      type: save
+      _id: Lx7J6O2eG98WTcnL
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: P4s0tEv2aQM65Vsa
+          onSave: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737867059567
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.3Fs60ldE2lRSsuMp
   duplicateSource: null

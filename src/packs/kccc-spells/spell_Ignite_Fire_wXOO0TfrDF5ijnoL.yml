@@ -37,19 +37,22 @@ flags:
         '0': true
   core:
     sourceId: Item.pLNNEwyUjciZsa5D
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: wXOO0TfrDF5ijnoL
 system:
   description:
     value: >-
       <p>You ignite a magical fire that fills a 5-foot cube in a space you can
       see on the ground. A creature in the fire’s space when you cast the spell
-      must suceeed a Dexterity saving throw or take [[/damage 1d8 fire]] damage.
-      A creature that enters the fire’s space for the first time or ends their
-      turn there must repeat the saving throw against the effect. Flamable
-      objects in the area that aren’t being worn or carried catch fire.</p>
-
-      <p>The spell’s damage increases by 1d8 when you reach 5th level ([[/r
-      2d8]]), 11th level ([[/r 3d8]]), and 17th level ([[/r 4d8]])</p>
+      must suceeed a Dexterity saving throw or take 1d8 fire damage. A creature
+      that enters the fire’s space for the first time or ends their turn there
+      must repeat the saving throw against the effect. Flamable objects in the
+      area that aren’t being worn or carried catch fire.</p><p>The spell’s
+      damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8),
+      and 17th level (4d8)</p>
     chat: ''
     unidentified: ''
   source:
@@ -70,10 +73,15 @@ system:
     width: null
     units: ft
     type: cube
+    affects:
+      type: ''
+    template:
+      count: ''
   range:
     value: 60
     long: null
     units: ft
+    special: ''
   uses:
     value: null
     max: ''
@@ -124,15 +132,72 @@ system:
     - vocal
     - somatic
     - concentration
+  activities:
+    54rXLhhH3CrBBEpS:
+      type: save
+      _id: 54rXLhhH3CrBBEpS
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: '8'
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+        onSave: none
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1733869531166
+  modifiedTime: 1737868681260
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.pLNNEwyUjciZsa5D
   duplicateSource: null
