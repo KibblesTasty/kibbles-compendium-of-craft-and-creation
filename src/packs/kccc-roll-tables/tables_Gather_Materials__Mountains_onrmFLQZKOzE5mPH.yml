@@ -36,19 +36,20 @@ results:
     documentId: null
     flags: {}
     _key: '!tables.results!onrmFLQZKOzE5mPH.RZMvxcewmEPIrWv4'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 41
       - 60
     drawn: false
     _id: HKmEeAvXZD7eHIv5
-    text: Adamantine Ore
-    img: icons/svg/d20-black.svg
-    documentId: null
+    text: Adamant Ore
+    img: icons/commodities/materials/powder-black.webp
+    documentId: 4f8MVyEgnVXa3jjz
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!onrmFLQZKOzE5mPH.HKmEeAvXZD7eHIv5'
-  - type: text
+  - type: pack
     weight: 20
     range:
       - 61
@@ -56,9 +57,10 @@ results:
     drawn: false
     _id: m6Vdb0BwewScndOg
     text: Mithril Ore
-    img: icons/svg/d20-black.svg
-    documentId: null
+    img: icons/commodities/materials/powder-black.webp
+    documentId: 9TKCZX3GMZJzg5Rj
     flags: {}
+    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
     _key: '!tables.results!onrmFLQZKOzE5mPH.m6Vdb0BwewScndOg'
   - type: pack
     weight: 15
@@ -100,7 +102,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861709113
-  modifiedTime: 1733867356303
+  modifiedTime: 1737919107255
   lastModifiedBy: pJeIW7qCa0HkURWq
 formula: 1d100
 _id: onrmFLQZKOzE5mPH

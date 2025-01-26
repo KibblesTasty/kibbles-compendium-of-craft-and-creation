@@ -10,9 +10,9 @@ system:
       closer to it if there is space available.</p><p>As an action, you can
       force all creatures within 30 feet of this glyph to make a Strength saving
       throw or be flung 40 feet away from this glyph, taking 4d6 bludgeoning
-      damage and falling prone. After using this action, the spell
-      ends.</p><p>You can end the spell early by deactivating it with a bonus
-      action.</p><p></p>
+      damage and falling &amp;Reference[prone]. After using this action, the
+      spell ends.</p><p>You can end the spell early by deactivating it with a
+      bonus action.</p>
     chat: ''
   materials:
     value: ''
@@ -32,6 +32,7 @@ system:
     units: ft
     value: 5
     long: null
+    special: ''
   source:
     custom: ''
     book: KCCC
@@ -46,6 +47,10 @@ system:
     units: ''
     type: ''
     prompt: true
+    affects:
+      type: ''
+    template:
+      type: ''
   uses:
     value: null
     max: ''
@@ -84,11 +89,113 @@ system:
   scaling:
     mode: none
     formula: ''
+  activities:
+    G24m6iL865mAO7b3:
+      type: utility
+      name: Create Glyph
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+      _id: G24m6iL865mAO7b3
+    Gvpcn1Tme1wwYYWs:
+      type: save
+      name: Detonate
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '15'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: '6'
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      _id: Gvpcn1Tme1wwYYWs
+      img: ''
+      appliedEffects: []
 folder: W6XLqLAP7CJCppah
 flags:
   dnd5e:
     migratedProperties:
       - somatic
+    riders:
+      activity: []
+      effect: []
 _id: lecdqFIcrBpe11SW
 effects: []
 sort: 0
@@ -97,10 +204,10 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: 1721845395358
-  modifiedTime: 1733869531166
+  modifiedTime: 1737912541619
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: null
   duplicateSource: null

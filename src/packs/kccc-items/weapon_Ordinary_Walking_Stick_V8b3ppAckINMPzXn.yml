@@ -1,0 +1,141 @@
+folder: cdQaq6Woz4eR93X3
+name: Ordinary Walking Stick
+type: weapon
+_id: V8b3ppAckINMPzXn
+img: >-
+  modules/kibbles-compendium-of-craft-and-creation/assets/OrdinaryWalkingStick.png
+system:
+  activities:
+    MaT5O73xlWXlBgOB:
+      _id: MaT5O73xlWXlBgOB
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You can use a bonus action to twist the shaft of this quarterstaff and
+      deploy or retract the limbs of a light crossbow built into its head. It is
+      indistinguishable from a walking stick while the limbs are retracted. It
+      functions as a quarterstaff in either mode, however it only functions as a
+      crossbow when the limbs are deployed. This crossbow lacks the loading
+      property and is fitted with an internal magazine that can hold up to six
+      crossbow bolts. It automatically reloads after firing until the magazine
+      runs out of ammunition. Reloading the magazine takes an action. You are
+      proficient with this magical weapon if you are proficient in either light
+      crossbows or quarterstaffs.</p>
+    chat: ''
+  identifier: ordinary-walking-stick
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 120
+    denomination: gp
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  cover: null
+  crewed: false
+  type:
+    value: simpleM
+    baseItem: quarterstaff
+  ammunition: {}
+  armor:
+    value: null
+  damage:
+    base:
+      number: 1
+      denomination: 6
+      types:
+        - bludgeoning
+        - piercing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      bonus: ''
+    versatile:
+      number: null
+      denomination: 0
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      bonus: ''
+  magicalBonus: null
+  properties:
+    - ver
+  proficient: null
+  range:
+    value: null
+    long: null
+    reach: null
+    units: ft
+  mastery: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1737922086559
+  modifiedTime: 1737922221369
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!V8b3ppAckINMPzXn'
+

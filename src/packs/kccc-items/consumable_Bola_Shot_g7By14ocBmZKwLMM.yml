@@ -1,0 +1,128 @@
+folder: cdQaq6Woz4eR93X3
+name: Bola Shot
+type: consumable
+_id: g7By14ocBmZKwLMM
+img: icons/weapons/thrown/bolas-steel.webp
+system:
+  activities:
+    GuIO6W4yDe6grbGh:
+      type: save
+      _id: GuIO6W4yDe6grbGh
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: material
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: ''
+          formula: '12'
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p>This special piece of ammunition entangles a target it hits. On hit, a
+      Large or smaller target must make a DC 12 Dexterity saving throw, or
+      become &amp;Reference[restrained], as if by a net.</p>
+    chat: ''
+  identifier: bola-shot
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 15
+    denomination: gp
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: ammo
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: 0
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      bonus: ''
+    replace: false
+  magicalBonus: null
+  properties: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1737920523986
+  modifiedTime: 1737920672267
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!g7By14ocBmZKwLMM'
+

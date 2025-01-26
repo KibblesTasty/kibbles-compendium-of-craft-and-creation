@@ -1,0 +1,129 @@
+folder: cdQaq6Woz4eR93X3
+name: Spell Shot (Fog Cloud)
+type: consumable
+_id: CHFpxWeQqLWjQMVp
+img: icons/magic/air/fog-gas-smoke-dense-gray.webp
+system:
+  activities:
+    B1FXKnfCXNTUEAom:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.IBJmWjzbQGu7M4UX
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        ability: ''
+      _id: B1FXKnfCXNTUEAom
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: material
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p>You can target a creature or a point within the normal range of your
+      weapon with this arrow. This functions as a normal piece of ammunition,
+      but casts @UUID[Compendium.dnd5e.spells.Item.IBJmWjzbQGu7M4UX]{fog cloud}
+      at the point of impact. The spell lasts 1d4 rounds and doesn’t require
+      concentration.</p><p>Once the magic effect is discharged by firing it, the
+      magic of the arrow is expended, and it becomes a mundane arrow.</p>
+    chat: ''
+  identifier: spell-shot-fog-cloud
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 80
+    denomination: gp
+  rarity: uncommon
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: ammo
+    subtype: arrow
+  damage:
+    base:
+      number: null
+      denomination: 0
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      bonus: ''
+    replace: false
+  magicalBonus: null
+  properties:
+    - mgc
+effects: []
+sort: 0
+ownership:
+  default: 0
+  pJeIW7qCa0HkURWq: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1737922262888
+  modifiedTime: 1737922529442
+  lastModifiedBy: pJeIW7qCa0HkURWq
+_key: '!items!CHFpxWeQqLWjQMVp'
+

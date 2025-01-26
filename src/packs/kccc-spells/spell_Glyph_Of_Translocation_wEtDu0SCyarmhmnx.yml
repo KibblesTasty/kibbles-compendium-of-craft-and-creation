@@ -34,6 +34,7 @@ system:
     units: ft
     value: 5
     long: null
+    special: ''
   source:
     custom: ''
     book: KCCC
@@ -48,6 +49,10 @@ system:
     units: ''
     type: ''
     prompt: true
+    affects:
+      type: ''
+    template:
+      type: ''
   uses:
     value: null
     max: ''
@@ -86,11 +91,51 @@ system:
   scaling:
     mode: none
     formula: ''
+  activities:
+    J0oCSnyq2MnYgGA5:
+      type: utility
+      name: Create Glyph
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+      _id: J0oCSnyq2MnYgGA5
 folder: W6XLqLAP7CJCppah
 flags:
   dnd5e:
     migratedProperties:
       - somatic
+    riders:
+      activity: []
+      effect: []
 _id: wEtDu0SCyarmhmnx
 effects: []
 sort: 0
@@ -99,10 +144,10 @@ ownership:
   pJeIW7qCa0HkURWq: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   coreVersion: '12.331'
   createdTime: 1721845408822
-  modifiedTime: 1733869531166
+  modifiedTime: 1737912764452
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: null
   duplicateSource: null
