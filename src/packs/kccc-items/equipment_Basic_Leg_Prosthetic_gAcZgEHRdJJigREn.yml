@@ -59,6 +59,14 @@ effects:
         mode: 2
         value: '-10'
         priority: null
+      - key: system.abilities.dex.save.roll.mode
+        mode: 2
+        value: '-1'
+        priority: null
+      - key: system.skills.acr.roll.mode
+        mode: 2
+        value: '-1'
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -73,15 +81,18 @@ effects:
     transfer: true
     statuses: []
     sort: 0
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.2.2
+      systemVersion: 4.3.8
       createdTime: 1737920308972
-      modifiedTime: 1737920318231
+      modifiedTime: 1744838511787
       lastModifiedBy: pJeIW7qCa0HkURWq
     _key: '!items.effects!gAcZgEHRdJJigREn.t7tsgQ5fMLpTXJ7L'
 sort: 0

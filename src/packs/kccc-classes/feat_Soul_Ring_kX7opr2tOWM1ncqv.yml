@@ -1,7 +1,47 @@
 name: Soul Ring
 type: feat
 img: icons/equipment/finger/ring-band-engraved-teal.webp
-effects: []
+effects:
+  - name: Soul Ring
+    img: icons/equipment/finger/ring-band-engraved-teal.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.kX7opr2tOWM1ncqv
+    _id: SiG9rSr8gSjdZcSL
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.death.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744838080960
+      modifiedTime: 1744838132260
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!kX7opr2tOWM1ncqv.SiG9rSr8gSjdZcSL'
 folder: OGskAJrRIvNFdWpi
 sort: 2400000
 flags:

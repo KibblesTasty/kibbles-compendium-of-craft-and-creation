@@ -7,11 +7,15 @@ effects:
       - key: system.attributes.ac.value
         mode: 2
         value: '+2'
-        priority: 20
+        priority: null
       - key: system.attributes.movement.walk
         mode: 2
         value: '+30'
-        priority: 20
+        priority: null
+      - key: system.attributes.dex.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
     disabled: true
     duration:
       startTime: null
@@ -23,15 +27,18 @@ effects:
       startTurn: null
     origin: Item.coP7ErmmTpTuxEfT
     transfer: true
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.328'
-      systemId: null
-      systemVersion: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1744835066100
+      lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
     name: Alacrity
@@ -139,10 +146,15 @@ system:
     width: null
     units: ''
     type: self
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: self
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -240,10 +252,10 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.2.2
+  systemVersion: 4.3.8
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1744825882171
+  modifiedTime: 1744835068083
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: null
   duplicateSource: null

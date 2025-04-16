@@ -15,7 +15,9 @@ effects:
       startTurn: null
     disabled: false
     flags:
-      dnd5e: {}
+      dnd5e:
+        riders:
+          statuses: []
     _id: hQlnhcytmFjJYUut
     changes:
       - key: system.traits.ci.value
@@ -25,6 +27,22 @@ effects:
       - key: system.traits.ci.value
         mode: 2
         value: frightened
+        priority: null
+      - key: system.abilities.int.check.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.abilities.int.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.abilities.wis.check.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.abilities.wis.save.roll.mode
+        mode: 2
+        value: '1'
         priority: null
     description: >-
       <ul><li><p>You are immune to the charmed and frightened
@@ -40,10 +58,10 @@ effects:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.0
+      systemVersion: 4.3.8
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1744838668633
+      lastModifiedBy: pJeIW7qCa0HkURWq
     img: icons/magic/time/arrows-circling-green.webp
     type: base
     system: {}

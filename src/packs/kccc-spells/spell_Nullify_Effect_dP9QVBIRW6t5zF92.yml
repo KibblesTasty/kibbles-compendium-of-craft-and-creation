@@ -1,7 +1,64 @@
 name: Nullify Effect
 type: spell
 img: icons/magic/defensive/shield-barrier-blue.webp
-effects: []
+effects:
+  - name: Nullify Effect
+    img: icons/magic/defensive/shield-barrier-blue.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.dP9QVBIRW6t5zF92
+    transfer: false
+    _id: 0Hs0RKUYGJ1U6zXo
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.int.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.abilities.wis.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.abilities.cha.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: psychic
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: force
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: >-
+        Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.dP9QVBIRW6t5zF92.ActiveEffect.opk7jUOJAzdxK0Fg
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744835206634
+      modifiedTime: 1744835206634
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!dP9QVBIRW6t5zF92.0Hs0RKUYGJ1U6zXo'
 folder: O6hZgRZFkj4UG3IA
 sort: 0
 flags:
@@ -94,10 +151,15 @@ system:
     width: null
     units: ''
     type: self
+    affects:
+      special: ''
+    template:
+      type: ''
   range:
     value: null
     long: null
     units: self
+    special: ''
   uses:
     value: 0
     max: '0'
@@ -153,11 +215,10 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
+            target: ''
             scaling:
               mode: ''
-              formula: ''
         scaling:
           allowed: false
           max: ''
@@ -168,7 +229,8 @@ system:
         units: inst
         concentration: false
         override: false
-      effects: []
+      effects:
+        - _id: 0Hs0RKUYGJ1U6zXo
       range:
         override: false
       target:
@@ -189,15 +251,19 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects:
+        - 0Hs0RKUYGJ1U6zXo
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.2.2
+  systemVersion: 4.3.8
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1744825882171
+  modifiedTime: 1744835213101
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: null
   duplicateSource: null

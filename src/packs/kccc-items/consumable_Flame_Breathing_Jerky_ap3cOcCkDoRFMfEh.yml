@@ -1,7 +1,55 @@
 name: Flame Breathing Jerky
 type: consumable
 img: icons/consumables/food/short-ribs-cooked-meat-brown.webp
-effects: []
+effects:
+  - name: Flame Breathing Jerky
+    img: icons/consumables/food/short-ribs-cooked-meat-brown.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-items.Item.ap3cOcCkDoRFMfEh
+    transfer: false
+    _id: L1JiGp0ALfqwAqRx
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.ci.custom
+        mode: 2
+        value: ; sleep
+        priority: null
+      - key: system.abilities.wis.check.roll.mode
+        mode: 2
+        value: '-1'
+        priority: null
+      - key: system.attributes.concentration.roll.mode
+        mode: 2
+        value: '-1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: 1744838285195
+      modifiedTime: 1744838365129
+      lastModifiedBy: pJeIW7qCa0HkURWq
+    _key: '!items.effects!ap3cOcCkDoRFMfEh.L1JiGp0ALfqwAqRx'
 folder: kkK138bcC9Kc8xfX
 sort: 112500
 flags:
@@ -25,6 +73,10 @@ flags:
         quantity: false
   core:
     sourceId: Item.7nablrcHCtzu5B3b
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _id: ap3cOcCkDoRFMfEh
 system:
   description:
@@ -107,15 +159,127 @@ system:
     dc: null
     scaling: spell
   consumableType: food
+  activities:
+    pqQpqsrKxDveAyIB:
+      type: save
+      _id: pqQpqsrKxDveAyIB
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '10'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: any
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: '6'
+            bonus: ''
+            types:
+              - fire
+        onSave: half
+      save:
+        ability: []
+        dc:
+          calculation: dex
+          formula: '13'
+      name: Exhale Fire
+      img: ''
+      appliedEffects: []
+    wYYAm79nwLxXAIui:
+      type: utility
+      _id: wYYAm79nwLxXAIui
+      sort: -100000
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: L1JiGp0ALfqwAqRx
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Consume
+      img: ''
+      appliedEffects: []
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.3.8
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1744825882771
+  modifiedTime: 1744838285225
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: null
   duplicateSource: null

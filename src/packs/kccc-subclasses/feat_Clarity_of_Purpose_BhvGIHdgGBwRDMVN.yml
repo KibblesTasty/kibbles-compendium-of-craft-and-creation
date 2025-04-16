@@ -15,7 +15,9 @@ effects:
       startTurn: null
     disabled: true
     flags:
-      dnd5e: {}
+      dnd5e:
+        riders:
+          statuses: []
     _id: RcdpiPiOoTeKOlDf
     changes:
       - key: system.traits.di.value
@@ -23,24 +25,13 @@ effects:
         value: psychic
         priority: null
     description: >-
-      <ul style="box-sizing:border-box;user-select:text;margin:0.5em
-      0px;padding:0px 0px 0px 1.5em;color:rgb(25, 24, 19);font-family:Signika,
-      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">You can gain truesight with a
-      range of 120 feet.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">You are immune to psychic
-      damage.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">You have advantage on saving
-      throws against magical or psionic effects.</span></li><li
-      style="box-sizing:border-box;user-select:text"><span
-      style="font-family:Signika, sans-serif">When you strike an enemy with a
-      Divine Smite you can choose to cast dispel magic on the target as a bonus
-      action without expending a spell slot. If the level of the spell slot
-      spent on Divine Smite was higher than 3rd level, you cast dispel magic at
-      the level of spell slot spent.</span></li></ul>
+      <ul><li>You can gain truesight with a range of 120 feet.</li><li>You are
+      immune to psychic damage.</li><li>You have advantage on saving throws
+      against magical or psionic effects.</li><li>When you strike an enemy with
+      a Divine Smite you can choose to cast dispel magic on the target as a
+      bonus action without expending a spell slot. If the level of the spell
+      slot spent on Divine Smite was higher than 3rd level, you cast dispel
+      magic at the level of spell slot spent.</li></ul>
     transfer: true
     statuses: []
     tint: '#ffffff'
@@ -49,10 +40,10 @@ effects:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.0
+      systemVersion: 4.3.8
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1744838604162
+      lastModifiedBy: pJeIW7qCa0HkURWq
     img: icons/magic/control/silhouette-hold-change-blue.webp
     type: base
     system: {}
@@ -86,9 +77,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.3.8
   createdTime: 1726385614130
-  modifiedTime: 1744825879768
+  modifiedTime: 1744838606109
   lastModifiedBy: pJeIW7qCa0HkURWq
 ownership:
   default: 0
@@ -100,26 +91,14 @@ system:
       <p>At 20th level, as an action, you can fully perceive the world around
       you for what it is, shattering the foul magics that bind and piercing the
       veils that hide, unrelenting and focused, gaining the following benefits
-      for 1 minute:</p>
-
-      <ul>
-
-      <li>You can gain truesight with a range of 120 feet.</li>
-
-      <li>You are immune to psychic damage.</li>
-
-      <li>You have advantage on saving throws against magical or psionic
-      effects.</li>
-
-      <li>When you strike an enemy with a Divine Smite you can choose to cast
-      dispel magic on the target as a bonus action without expending a spell
-      slot. If the level of the spell slot spent on Divine Smite was higher than
-      3rd level, you cast dispel magic at the level of spell slot spent.</li>
-
-      </ul>
-
-      <p>Once you use this feature, you can’t use it again until you finish a
-      long rest.</p>
+      for 1 minute:</p><ul><li>You can gain truesight with a range of 120
+      feet.</li><li>You are immune to psychic damage.</li><li>You have advantage
+      on saving throws against magical or psionic effects.</li><li>When you
+      strike an enemy with a Divine Smite you can choose to cast dispel magic on
+      the target as a bonus action without expending a spell slot. If the level
+      of the spell slot spent on Divine Smite was higher than 3rd level, you
+      cast dispel magic at the level of spell slot spent.</li></ul><p>Once you
+      use this feature, you can’t use it again until you finish a long rest.</p>
     chat: ''
   source:
     book: KCCC
