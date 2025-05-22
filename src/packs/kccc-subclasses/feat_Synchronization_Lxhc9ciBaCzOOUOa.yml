@@ -56,12 +56,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.344'
       systemId: dnd5e
       systemVersion: 4.3.8
       createdTime: null
       modifiedTime: 1744838668633
       lastModifiedBy: pJeIW7qCa0HkURWq
+      exportSource: null
     img: icons/magic/time/arrows-circling-green.webp
     type: base
     system: {}
@@ -83,8 +84,7 @@ flags:
     quickFlavor:
       value: true
       altValue: true
-  core:
-    sourceId: Item.utPszzjP5XYFaaoU
+  core: {}
   dnd5e:
     riders:
       activity: []
@@ -92,14 +92,15 @@ flags:
     migratedUses: 1
 _id: Lxhc9ciBaCzOOUOa
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.utPszzjP5XYFaaoU
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726385614762
   modifiedTime: 1744825879768
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -208,4 +209,3 @@ system:
     level: null
   properties: []
 _key: '!items!Lxhc9ciBaCzOOUOa'
-

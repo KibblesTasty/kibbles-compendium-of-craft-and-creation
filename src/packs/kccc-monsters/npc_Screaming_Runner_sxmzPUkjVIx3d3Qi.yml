@@ -45,7 +45,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -53,6 +53,7 @@ items:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -177,7 +178,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -185,6 +186,7 @@ items:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -276,7 +278,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -284,6 +286,7 @@ items:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -377,7 +380,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -385,6 +388,7 @@ items:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -450,8 +454,7 @@ effects: []
 folder: UAjbuif60qyLYM29
 sort: 112500
 flags:
-  core:
-    sourceId: Actor.LX1QpYp58luLYjOb
+  core: {}
 system:
   abilities:
     str:
@@ -812,7 +815,6 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   detectionModes: []
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -824,14 +826,20 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: null
   modifiedTime: 1733869532966
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Actor.LX1QpYp58luLYjOb
   duplicateSource: null
+  exportSource: null
 _key: '!actors!sxmzPUkjVIx3d3Qi'
-

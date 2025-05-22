@@ -46,7 +46,7 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -54,6 +54,7 @@ effects:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     img: icons/skills/melee/sword-stuck-glowing-pink.webp
     type: base
     system: {}
@@ -119,8 +120,7 @@ flags:
       type: Boolean
       value: false
       altValue: false
-  core:
-    sourceId: Item.wnAXSTE0arf5YLJs
+  core: {}
   dnd5e:
     riders:
       activity: []
@@ -277,11 +277,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 4.2.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: 1721352966452
   modifiedTime: 1744825882171
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: null
+  compendiumSource: Item.wnAXSTE0arf5YLJs
   duplicateSource: null
+  exportSource: null
 _key: '!items!0J6UPqVYUHlPMEGU'
-

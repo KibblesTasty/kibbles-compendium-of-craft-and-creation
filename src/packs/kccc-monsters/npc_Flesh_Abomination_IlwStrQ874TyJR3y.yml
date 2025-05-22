@@ -86,12 +86,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!IlwStrQ874TyJR3y.5gj85qiCYebeRrvv'
   - _id: 9xJXGE1VJAI3w1J1
     name: Unnatural Health
@@ -183,12 +184,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!IlwStrQ874TyJR3y.9xJXGE1VJAI3w1J1'
   - _id: QR9KuuTk2qkfte14
     name: Multiattack
@@ -211,8 +213,7 @@ items:
         quickFlavor:
           value: true
           altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
+      core: {}
     system:
       description:
         value: >-
@@ -272,12 +273,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: Item.094090din8bu19vk
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!IlwStrQ874TyJR3y.QR9KuuTk2qkfte14'
   - _id: f3CvqLxFQchp5zhM
     name: Bite
@@ -411,12 +413,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!IlwStrQ874TyJR3y.f3CvqLxFQchp5zhM'
   - _id: 25FZVJSZuvxkQOSG
     name: Claws
@@ -550,12 +553,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!IlwStrQ874TyJR3y.25FZVJSZuvxkQOSG'
   - _id: GMhmTAQ3NDZyUmqt
     name: Tentacle
@@ -692,19 +696,19 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!IlwStrQ874TyJR3y.GMhmTAQ3NDZyUmqt'
 effects: []
 folder: gKpC4bKnr6iv33Iv
 sort: 100391
 flags:
-  core:
-    sourceId: Actor.gpINm9X2ZXjendDQ
+  core: {}
 system:
   abilities:
     str:
@@ -1062,7 +1066,6 @@ prototypeToken:
   detectionModes: []
   appendNumber: false
   prependAdjective: false
-  hexagonalShape: 1
   occludable:
     radius: 0
   ring:
@@ -1074,14 +1077,20 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: null
   modifiedTime: 1733869532966
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Actor.gpINm9X2ZXjendDQ
   duplicateSource: null
+  exportSource: null
 _key: '!actors!IlwStrQ874TyJR3y'
-

@@ -483,7 +483,6 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: false
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -495,6 +494,12 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Folding Space
     type: feat
@@ -576,12 +581,13 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.1
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: 1721840734720
       modifiedTime: 1721840734720
       lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!EdQWoxy1XNs2Stn7.xIZDWEq5FG1RRlet'
   - name: Spider Climb
     type: feat
@@ -663,12 +669,13 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.1
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: 1721840734796
       modifiedTime: 1721840734796
       lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!EdQWoxy1XNs2Stn7.1FfIISjeBMux1Qgv'
   - name: Innate Psionics
     type: feat
@@ -752,12 +759,13 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.1
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: 1721840734846
       modifiedTime: 1721840734846
       lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!EdQWoxy1XNs2Stn7.gAXgibynUEcvq5w3'
   - name: Abstract Existence
     type: feat
@@ -848,12 +856,13 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.1
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: 1721840784290
       modifiedTime: 1721840828607
       lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!EdQWoxy1XNs2Stn7.suPr52GgmL8bIw4L'
   - name: Arcane Vulnerability
     type: feat
@@ -939,12 +948,13 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.1
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: 1721840846504
       modifiedTime: 1721840864241
       lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!EdQWoxy1XNs2Stn7.GpCImL9K2cXFA83v'
 effects: []
 ownership:
@@ -957,13 +967,13 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: 1721840734641
   modifiedTime: 1733869532966
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: null
   duplicateSource: null
+  exportSource: null
 _id: EdQWoxy1XNs2Stn7
 sort: 0
 _key: '!actors!EdQWoxy1XNs2Stn7'
-

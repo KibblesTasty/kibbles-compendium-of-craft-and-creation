@@ -15,12 +15,22 @@ results:
       - 20
     drawn: false
     _id: RxJrDpn4ND8OR0bk
-    text: >-
+    img: icons/commodities/wood/kindling-sticks-brown.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       [[1d4]]
       @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.iGeVDlbbr5HmdO3N]{Firewood}
-    img: icons/commodities/wood/kindling-sticks-brown.webp
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!TU8fUnihlXkMi3TO.RxJrDpn4ND8OR0bk'
   - type: text
     weight: 20
@@ -29,26 +39,47 @@ results:
       - 40
     drawn: false
     _id: RZMvxcewmEPIrWv4
-    text: >-
+    img: icons/commodities/wood/bark-beige.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       [[1d12]]
       @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.1syJdXQlsYumhzCo]{Wood
       Scrap}
-    img: icons/commodities/wood/bark-beige.webp
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!TU8fUnihlXkMi3TO.RZMvxcewmEPIrWv4'
-  - type: pack
+  - type: document
     weight: 20
     range:
       - 41
       - 60
     drawn: false
     _id: HKmEeAvXZD7eHIv5
-    text: Uncommon Supplies
     img: icons/consumables/food/preserves-jam-jelly-jar-brown-red.webp
-    documentId: CZnu0nVY57xd3qTu
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Uncommon Supplies
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.CZnu0nVY57xd3qTu
+    description: ''
     _key: '!tables.results!TU8fUnihlXkMi3TO.HKmEeAvXZD7eHIv5'
   - type: text
     weight: 20
@@ -57,39 +88,70 @@ results:
       - 80
     drawn: false
     _id: m6Vdb0BwewScndOg
-    text: >-
+    img: icons/commodities/leather/fur-pelt-off-white.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       [[1d4]]
       @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.ovlOizetljPnOiB7]{Hide}
-    img: icons/commodities/leather/fur-pelt-off-white.webp
-    documentId: null
-    flags: {}
-    documentCollection: ''
+    name: ''
     _key: '!tables.results!TU8fUnihlXkMi3TO.m6Vdb0BwewScndOg'
-  - type: pack
+  - type: document
     weight: 15
     range:
       - 81
       - 95
     drawn: false
     _id: diCpceKjhSFKl8aI
-    text: Rare Supplies
     img: icons/consumables/drinks/wine-amphora-clay-red.webp
-    documentId: QldzlEKZe8VNcEv5
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Rare Supplies
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.QldzlEKZe8VNcEv5
+    description: ''
     _key: '!tables.results!TU8fUnihlXkMi3TO.diCpceKjhSFKl8aI'
-  - type: pack
+  - type: document
     weight: 5
     range:
       - 96
       - 100
     drawn: false
     _id: ECBAqP7rRSbL2wWz
-    text: Common Divine Essence
     img: icons/commodities/materials/feather-white-glowing-beams.webp
-    documentId: s1DIcMDpF81bVSSz
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Divine Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.s1DIcMDpF81bVSSz
+    description: ''
     _key: '!tables.results!TU8fUnihlXkMi3TO.ECBAqP7rRSbL2wWz'
 replacement: true
 displayRoll: true
@@ -101,13 +163,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861707169
   modifiedTime: 1733866241188
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 formula: 1d100
 _id: TU8fUnihlXkMi3TO
 _key: '!tables!TU8fUnihlXkMi3TO'
-

@@ -1,10 +1,9 @@
 name: Fiend CR 0-4
 img: icons/creatures/unholy/demon-fire-horned-mask.webp
-description: If a material is found, it can successfully collected with no check.
+description: <p>If a material is found, it can successfully collected with no check.</p>
 results:
   - _id: sk3npaSC69tQ1XCd
     type: text
-    text: Nothing Useful Found
     weight: 1
     range:
       - 1
@@ -12,11 +11,21 @@ results:
     drawn: false
     flags: {}
     img: icons/svg/cancel.svg
-    documentId: null
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Nothing Useful Found
+    name: ''
     _key: '!tables.results!1cXG0EASzYuh0Qhm.sk3npaSC69tQ1XCd'
   - _id: DlRxqDSr3tQp8F5N
     type: text
-    text: Nothing Useful Found
     weight: 1
     range:
       - 51
@@ -24,11 +33,21 @@ results:
     drawn: false
     flags: {}
     img: icons/svg/cancel.svg
-    documentId: null
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Nothing Useful Found
+    name: ''
     _key: '!tables.results!1cXG0EASzYuh0Qhm.DlRxqDSr3tQp8F5N'
   - _id: wihBpv6B3nXqjWBW
-    type: pack
-    text: Common Reactive Reagent
+    type: document
     img: icons/commodities/materials/bowl-powder-grey.webp
     weight: 1
     range:
@@ -36,12 +55,23 @@ results:
       - 80
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: QkmTzOvBOQg1IYLS
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Reactive Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.QkmTzOvBOQg1IYLS
+    description: ''
     _key: '!tables.results!1cXG0EASzYuh0Qhm.wihBpv6B3nXqjWBW'
   - _id: Sl1bjoEQQXeJ6tyj
-    type: pack
-    text: Common Arcane Essence
+    type: document
     img: icons/commodities/materials/slime-thick-blue.webp
     weight: 1
     range:
@@ -49,12 +79,23 @@ results:
       - 95
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: LkEj679XBcRmkAdK
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Arcane Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.LkEj679XBcRmkAdK
+    description: ''
     _key: '!tables.results!1cXG0EASzYuh0Qhm.Sl1bjoEQQXeJ6tyj'
   - _id: mgiHB0x6oCdDDdsd
-    type: pack
-    text: Common Divine Essence
+    type: document
     img: icons/commodities/materials/feather-white-glowing-beams.webp
     weight: 1
     range:
@@ -62,8 +103,20 @@ results:
       - 100
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: s1DIcMDpF81bVSSz
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Divine Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.s1DIcMDpF81bVSSz
+    description: ''
     _key: '!tables.results!1cXG0EASzYuh0Qhm.mgiHB0x6oCdDDdsd'
 formula: 1d100
 replacement: true
@@ -71,8 +124,7 @@ displayRoll: true
 folder: qAZYGUUkTX9PyMez
 sort: 150000
 flags:
-  core:
-    sourceId: RollTable.eWq6pP9HUVLB3KG7
+  core: {}
 _id: 1cXG0EASzYuh0Qhm
 ownership:
   default: 0
@@ -80,11 +132,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 2.3.1
-  coreVersion: '12.328'
+  coreVersion: '13.344'
   createdTime: null
-  modifiedTime: 1693870747858
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1747941765909
+  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: RollTable.eWq6pP9HUVLB3KG7
   duplicateSource: null
+  exportSource: null
 _key: '!tables!1cXG0EASzYuh0Qhm'
-

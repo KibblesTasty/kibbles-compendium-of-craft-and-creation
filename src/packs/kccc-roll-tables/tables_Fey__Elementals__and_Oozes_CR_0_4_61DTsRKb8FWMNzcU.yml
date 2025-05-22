@@ -1,10 +1,9 @@
 name: Fey, Elementals, and Oozes CR 0-4
 img: icons/magic/fire/elemental-fire-flying.webp
-description: If a material is found, it can successfully collected with no check.
+description: <p>If a material is found, it can successfully collected with no check.</p>
 results:
   - _id: 0JT7j3uJj4LjqC2j
     type: text
-    text: Nothing Useful Found
     weight: 1
     range:
       - 1
@@ -12,11 +11,21 @@ results:
     drawn: false
     flags: {}
     img: icons/svg/cancel.svg
-    documentId: null
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Nothing Useful Found
+    name: ''
     _key: '!tables.results!61DTsRKb8FWMNzcU.0JT7j3uJj4LjqC2j'
   - _id: wrRz2sikMDEma8W4
-    type: pack
-    text: Common Reactive Reagent
+    type: document
     img: icons/commodities/materials/bowl-powder-grey.webp
     weight: 1
     range:
@@ -24,12 +33,23 @@ results:
       - 70
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: QkmTzOvBOQg1IYLS
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Reactive Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.QkmTzOvBOQg1IYLS
+    description: ''
     _key: '!tables.results!61DTsRKb8FWMNzcU.wrRz2sikMDEma8W4'
   - _id: sDBywOb0c0nld9DY
-    type: pack
-    text: Common Reactive Reagent
+    type: document
     img: icons/commodities/materials/bowl-powder-grey.webp
     weight: 1
     range:
@@ -37,12 +57,23 @@ results:
       - 80
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: QkmTzOvBOQg1IYLS
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Reactive Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.QkmTzOvBOQg1IYLS
+    description: ''
     _key: '!tables.results!61DTsRKb8FWMNzcU.sDBywOb0c0nld9DY'
   - _id: JYgxZYCTBfstL1l4
-    type: pack
-    text: Common Primal Essence
+    type: document
     img: icons/commodities/materials/slime-thick-orange.webp
     weight: 1
     range:
@@ -50,12 +81,23 @@ results:
       - 95
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: 6AjdA2wDMBQ2Y6Mk
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Primal Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.6AjdA2wDMBQ2Y6Mk
+    description: ''
     _key: '!tables.results!61DTsRKb8FWMNzcU.JYgxZYCTBfstL1l4'
   - _id: 0JgPqg966TtSf8l0
-    type: pack
-    text: Common Primal Essence
+    type: document
     img: icons/commodities/materials/slime-thick-orange.webp
     weight: 1
     range:
@@ -63,8 +105,20 @@ results:
       - 100
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: 6AjdA2wDMBQ2Y6Mk
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Primal Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.6AjdA2wDMBQ2Y6Mk
+    description: ''
     _key: '!tables.results!61DTsRKb8FWMNzcU.0JgPqg966TtSf8l0'
 formula: 1d100
 replacement: true
@@ -72,8 +126,7 @@ displayRoll: true
 folder: qAZYGUUkTX9PyMez
 sort: 500000
 flags:
-  core:
-    sourceId: RollTable.0JyTNcj2TA4gyqlj
+  core: {}
 _id: 61DTsRKb8FWMNzcU
 ownership:
   default: 0
@@ -81,11 +134,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 2.3.1
-  coreVersion: '12.328'
+  coreVersion: '13.344'
   createdTime: null
-  modifiedTime: 1693870747280
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1747941740479
+  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: RollTable.0JyTNcj2TA4gyqlj
   duplicateSource: null
+  exportSource: null
 _key: '!tables!61DTsRKb8FWMNzcU'
-

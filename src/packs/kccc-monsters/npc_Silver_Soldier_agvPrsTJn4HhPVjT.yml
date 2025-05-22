@@ -25,7 +25,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -33,6 +33,7 @@ items:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -111,7 +112,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -119,6 +120,7 @@ items:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -198,17 +200,17 @@ items:
         quickFlavor:
           value: true
           altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
+      core: {}
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: Item.094090din8bu19vk
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -305,17 +307,17 @@ items:
             '0': true
           altValue:
             '0': true
-      core:
-        sourceId: Item.MyRD2lyesKbFVaBX
+      core: {}
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: Item.MyRD2lyesKbFVaBX
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -444,17 +446,17 @@ items:
             '0': true
           altValue:
             '0': true
-      core:
-        sourceId: Item.MyRD2lyesKbFVaBX
+      core: {}
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: Item.MyRD2lyesKbFVaBX
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -563,7 +565,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -571,6 +573,7 @@ items:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -648,7 +651,7 @@ effects:
     flags: {}
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -656,6 +659,7 @@ effects:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     name: Advanced Technology
     img: icons/commodities/tech/cog-brass.webp
     type: base
@@ -667,8 +671,7 @@ effects:
 folder: 62noZI17GWqPgWJT
 sort: 150000
 flags:
-  core:
-    sourceId: Actor.NOhE7Cun9UM0hJuX
+  core: {}
 system:
   abilities:
     str:
@@ -1031,7 +1034,6 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   detectionModes: []
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -1043,14 +1045,20 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: null
   modifiedTime: 1733869532966
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Actor.NOhE7Cun9UM0hJuX
   duplicateSource: null
+  exportSource: null
 _key: '!actors!agvPrsTJn4HhPVjT'
-

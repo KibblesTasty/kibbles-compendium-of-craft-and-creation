@@ -41,7 +41,7 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -49,6 +49,7 @@ effects:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     img: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%204.png
     type: base
@@ -76,8 +77,7 @@ flags:
         quantity: false
       altValue:
         quantity: false
-  core:
-    sourceId: Item.7c3PkepFyxMQdBYK
+  core: {}
 _id: UtOy1gMqENIluBoU
 system:
   description:
@@ -150,11 +150,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: 1721349801607
   modifiedTime: 1744825882771
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: null
+  compendiumSource: Item.7c3PkepFyxMQdBYK
   duplicateSource: null
+  exportSource: null
 _key: '!items!UtOy1gMqENIluBoU'
-

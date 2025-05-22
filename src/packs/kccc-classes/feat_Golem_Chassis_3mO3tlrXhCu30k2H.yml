@@ -19,8 +19,7 @@ flags:
     quickFlavor:
       value: true
       altValue: true
-  core:
-    sourceId: Item.W78PVvCRFnzODSgG
+  core: {}
 system:
   description:
     value: "<p>When you create your golem, you can choose one of the chassis below, adding the prefix to its type. For example, if you select Ironwrought, your golem becomes an Ironwrought Golem and gains the corresponding modifications to its base statistics.</p>\n<p>\_</p>\n<h2>Launcher</h2>\n<p>Your golem becomes akin to a mobile turret, taking the frame of a ballista or other launching device. Its Dexterity becomes 16 (+3), its speed becomes 25 feet, and it has the following natural weapon attack, which uses its Dexterity for the attack and damage rolls:</p>\n<p><em><strong>Shoot.</strong> Ranged Weapon Attack:</em> +5 to hit, range 60/240 ft., one target. <strong><em>Hit:</em></strong> 1d10 + 3 piercing damage.</p>\n<p>\_</p>\n<h2>Quadrupedal</h2>\n<p>Your golem takes on a quadrupedal design. Larger and sturdier, it is more suitable to launch into the fray or carry its creator. Its size becomes Large, its base AC becomes 16, and its speed becomes 35 feet. In addition, its Strength and Constitution become 16 (+3), and it has the following natural weapon attack, which uses its Strength for the attack and damage rolls:</p>\n<p><em><strong>Bite.</strong> Melee Weapon Attack: </em>+5 to hit, reach 5 ft., one target. <strong><em>Hit:</em></strong> 1d10 + 3 piercing damage.</p>\n<p>\_</p>\n<h2>Specialized</h2>\n<p>Your golem defies all expectations, its design fueled by your own rampant creativity. A little less robust and stable, it is far more extensible to your visionary plans. Your golem starts with the basic golem statistics, but you can select two free upgrades for it that don’t count against your upgrade total. In addition, it has the following natural weapon attack, which uses its Strength for the attack and damage rolls:</p>\n<p><em><strong>Slam.</strong> Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 1d8 + 2 bludgeoning damage.</p>\n<p>\_</p>\n<h2>Ironwrought</h2>\n<p>Your golem is roughly humanoid and comes with the robust flexibility and options that this form provides. Its Strength becomes 16 (+3), it gains proficiency with shields, simple weapons, and martial weapons, and it has the following natural weapon attack, which uses its Strength for the attack and damage rolls:</p>\n<p><em><strong>Slam.</strong> Melee Weapon Attack: </em>+5 to hit, reach 5 ft., one target. <em><strong>Hit:</strong></em> 1d4 + 3 bludgeoning damage.</p>\n<p>\_</p>\n<h2>Winged</h2>\n<p>Your golem is modeled off a flying creature. Smaller and more lightweight than most golems, it is kept aloft by intricate wings. Its size becomes Small, it gains a flying speed of 30 feet, and it has the following natural weapon attack, which uses its Strength for the attack and damage rolls:</p>\n<p><em><strong>Talon.</strong> Melee Weapon Attack:</em> +4 to hit, reach 5ft., one target. <em><strong>Hit:</strong></em> 1d8 + 2 slashing damage.</p>"
@@ -49,13 +48,13 @@ ownership:
   ZltBRX3qCs8ZDdsL: 3
   q6n1efCGVB98drEQ: 3
 _stats:
-  compendiumSource: null
+  compendiumSource: Item.W78PVvCRFnzODSgG
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726385666595
   modifiedTime: 1744825881048
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 _key: '!items!3mO3tlrXhCu30k2H'
-

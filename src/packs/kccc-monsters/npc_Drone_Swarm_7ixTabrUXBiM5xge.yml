@@ -485,7 +485,6 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: false
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -497,6 +496,12 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Zap
     type: weapon
@@ -598,12 +603,13 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.1
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: 1721840637630
       modifiedTime: 1721840637630
       lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7ixTabrUXBiM5xge.oz21KMic073M31Er'
   - name: Swarm
     type: feat
@@ -685,12 +691,13 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.1
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: 1721840637692
       modifiedTime: 1721840637692
       lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7ixTabrUXBiM5xge.wXXDkkhOCSuQW2l9'
   - _id: 013JGvs366kpNeci
     name: Mending
@@ -787,12 +794,13 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.1
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: 1661787234215
       modifiedTime: 1721840637862
       lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7ixTabrUXBiM5xge.013JGvs366kpNeci'
   - _id: 9PG3TwKeOVIB78AK
     name: Minor Illusion
@@ -899,12 +907,13 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.1
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: 1661787234224
       modifiedTime: 1721840637899
       lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7ixTabrUXBiM5xge.9PG3TwKeOVIB78AK'
 effects: []
 ownership:
@@ -917,13 +926,13 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: 1721840637585
   modifiedTime: 1733869532966
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: null
   duplicateSource: null
+  exportSource: null
 _id: 7ixTabrUXBiM5xge
 sort: 0
 _key: '!actors!7ixTabrUXBiM5xge'
-

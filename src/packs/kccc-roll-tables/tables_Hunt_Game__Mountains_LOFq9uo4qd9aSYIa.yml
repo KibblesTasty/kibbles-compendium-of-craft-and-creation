@@ -14,23 +14,44 @@ results:
       - 30
     drawn: false
     _id: xgH9t9VXV0C2sQWN
-    text: —
     img: icons/svg/cancel.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: —
+    name: ''
     _key: '!tables.results!LOFq9uo4qd9aSYIa.xgH9t9VXV0C2sQWN'
-  - type: pack
+  - type: document
     weight: 30
     range:
       - 31
       - 60
     drawn: false
     _id: YLGzDi18h1sUg88T
-    text: Supplies
     img: icons/consumables/grains/sack-rice-flour-brown.webp
-    documentId: z3TedhTQJUonD5uM
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Supplies
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.z3TedhTQJUonD5uM
+    description: ''
     _key: '!tables.results!LOFq9uo4qd9aSYIa.YLGzDi18h1sUg88T'
   - type: text
     weight: 30
@@ -39,12 +60,22 @@ results:
       - 90
     drawn: false
     _id: Bou9WO6KIVy1rSa1
-    text: >-
+    img: icons/consumables/grains/sack-rice-flour-brown.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       [[1d4]]
       @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.z3TedhTQJUonD5uM]{Supplies}
-    img: icons/consumables/grains/sack-rice-flour-brown.webp
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!LOFq9uo4qd9aSYIa.Bou9WO6KIVy1rSa1'
   - type: text
     weight: 10
@@ -53,15 +84,25 @@ results:
       - 100
     drawn: false
     _id: bpR4GjjlZtl0CPHM
-    text: >-
+    img: icons/consumables/vegetable/root-potato-brown.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       [[1d6]]
       @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA]{Common
       Fresh Ingredient}, 1
       @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.mfhnits1GDktVZEb]{Large
       Carapace}
-    img: icons/consumables/vegetable/root-potato-brown.webp
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!LOFq9uo4qd9aSYIa.bpR4GjjlZtl0CPHM'
 replacement: true
 displayRoll: true
@@ -73,13 +114,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733862203583
   modifiedTime: 1733868498606
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 formula: 1d100
 _id: LOFq9uo4qd9aSYIa
 _key: '!tables!LOFq9uo4qd9aSYIa'
-

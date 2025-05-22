@@ -12,9 +12,7 @@ effects:
             max: null
           riders:
             effect: []
-      core:
-        sourceId: >-
-          Compendium.kibbles-compendium-of-craft-and-creation.kccc-items.Item.tjlvDDNSoXRRKtQU.ActiveEffect.5XlFNzkAM338DC9y
+      core: {}
     _id: 9TpZG5dVcws0blw5
     changes:
       - key: system.damage.parts
@@ -44,14 +42,16 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.328'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.kibbles-compendium-of-craft-and-creation.kccc-items.Item.tjlvDDNSoXRRKtQU.ActiveEffect.5XlFNzkAM338DC9y
       duplicateSource: null
+      exportSource: null
     img: icons/magic/fire/flame-burning-earth-yellow.webp
     type: base
     system: {}
@@ -78,8 +78,7 @@ flags:
         quantity: false
       altValue:
         quantity: false
-  core:
-    sourceId: Item.XoBtw4yo6e6N9ufk
+  core: {}
 _id: on4HyxjKDPI3QGOX
 system:
   description:
@@ -148,11 +147,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: 1721349989525
   modifiedTime: 1744825882771
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: null
+  compendiumSource: Item.XoBtw4yo6e6N9ufk
   duplicateSource: null
+  exportSource: null
 _key: '!items!on4HyxjKDPI3QGOX'
-

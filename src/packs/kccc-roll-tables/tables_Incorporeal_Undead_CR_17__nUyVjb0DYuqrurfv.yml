@@ -1,10 +1,9 @@
 name: Incorporeal Undead CR 17+
 img: icons/magic/death/undead-ghost-scream-teal.webp
-description: If a material is found, it can successfully collected with no check.
+description: <p>If a material is found, it can successfully collected with no check.</p>
 results:
   - _id: P8RHpH6Vy8Ydf2Kh
-    type: pack
-    text: Rare Poisonous Reagent
+    type: document
     img: icons/consumables/plants/tearthumb-dried-halberd-leaf-brown.webp
     weight: 1
     range:
@@ -12,12 +11,23 @@ results:
       - 20
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: pQUrnlI00BpWabwY
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Rare Poisonous Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.pQUrnlI00BpWabwY
+    description: ''
     _key: '!tables.results!nUyVjb0DYuqrurfv.P8RHpH6Vy8Ydf2Kh'
   - _id: uxcQZEH6hIEF5FnH
-    type: pack
-    text: Rare Arcane Essence
+    type: document
     img: icons/commodities/biological/organ-heart-black.webp
     weight: 1
     range:
@@ -25,12 +35,23 @@ results:
       - 50
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: S1IlBZUhshluk9TA
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Rare Arcane Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.S1IlBZUhshluk9TA
+    description: ''
     _key: '!tables.results!nUyVjb0DYuqrurfv.uxcQZEH6hIEF5FnH'
   - _id: y5VdEVEetO7VDIin
-    type: pack
-    text: Very Rare Poisonous Reagent
+    type: document
     img: icons/commodities/flowers/flower-grey-orange.webp
     weight: 1
     range:
@@ -38,12 +59,23 @@ results:
       - 69
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: luPCDCvBVwKmhHKP
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Very Rare Poisonous Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.luPCDCvBVwKmhHKP
+    description: ''
     _key: '!tables.results!nUyVjb0DYuqrurfv.y5VdEVEetO7VDIin'
   - _id: SjhCSFA8CLhc8Dsy
-    type: pack
-    text: Very Rare Arcane Essence
+    type: document
     img: icons/commodities/gems/gem-faceted-rough-blue.webp
     weight: 1
     range:
@@ -51,12 +83,23 @@ results:
       - 89
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: lArgF71EYaBV5oQe
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Very Rare Arcane Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.lArgF71EYaBV5oQe
+    description: ''
     _key: '!tables.results!nUyVjb0DYuqrurfv.SjhCSFA8CLhc8Dsy'
   - _id: 6s3vkxS7E56TEDRa
-    type: pack
-    text: Legendary Arcane Essence
+    type: document
     img: icons/magic/light/explosion-star-large-pink.webp
     weight: 1
     range:
@@ -64,8 +107,20 @@ results:
       - 100
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: cmqAAsT3MvGXRIhG
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Legendary Arcane Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.cmqAAsT3MvGXRIhG
+    description: ''
     _key: '!tables.results!nUyVjb0DYuqrurfv.6s3vkxS7E56TEDRa'
 formula: 1d100
 replacement: true
@@ -73,8 +128,7 @@ displayRoll: true
 folder: qAZYGUUkTX9PyMez
 sort: 100782
 flags:
-  core:
-    sourceId: RollTable.yfkrB3NZD7ZN8udE
+  core: {}
 _id: nUyVjb0DYuqrurfv
 ownership:
   default: 0
@@ -82,11 +136,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 2.3.1
-  coreVersion: '12.328'
+  coreVersion: '13.344'
   createdTime: null
-  modifiedTime: 1693870751496
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1747941794072
+  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: RollTable.yfkrB3NZD7ZN8udE
   duplicateSource: null
+  exportSource: null
 _key: '!tables!nUyVjb0DYuqrurfv'
-

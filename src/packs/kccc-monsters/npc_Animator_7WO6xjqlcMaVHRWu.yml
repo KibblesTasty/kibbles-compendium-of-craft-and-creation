@@ -12,8 +12,7 @@ items:
     folder: null
     sort: 0
     flags:
-      core:
-        sourceId: Compendium.dnd5e.items.sSs3hSzkKBMNBgTs
+      core: {}
       betterRolls5e:
         quickDesc:
           value: true
@@ -110,12 +109,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: Compendium.dnd5e.items.sSs3hSzkKBMNBgTs
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.2Zn6cu9qpLDoP7M3'
   - _id: GHbKoAX164YJQzxy
     name: Animated Shield
@@ -197,12 +197,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.GHbKoAX164YJQzxy'
   - _id: vgBHtMx1urfdyMJc
     name: Skilled Animator
@@ -284,12 +285,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.vgBHtMx1urfdyMJc'
   - _id: OxjNc6uzlGj6VxqP
     name: Multiattack
@@ -312,8 +314,7 @@ items:
         quickFlavor:
           value: true
           altValue: true
-      core:
-        sourceId: Item.094090din8bu19vk
+      core: {}
     system:
       description:
         value: >-
@@ -374,12 +375,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: Item.094090din8bu19vk
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.OxjNc6uzlGj6VxqP'
   - _id: k5FN5yv0cRv2hFkn
     name: Animated Dagger
@@ -513,12 +515,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.k5FN5yv0cRv2hFkn'
   - _id: Zgk2l8CMdJoNvFDN
     name: Animated Sword
@@ -560,8 +563,7 @@ items:
             '0': true
           altValue:
             '0': true
-      core:
-        sourceId: Item.k5FN5yv0cRv2hFkn
+      core: {}
     system:
       description:
         value: >-
@@ -654,12 +656,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: Item.k5FN5yv0cRv2hFkn
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.Zgk2l8CMdJoNvFDN'
   - _id: GGAv5OC0WKBKTz0z
     name: Animated Chain
@@ -749,12 +752,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.GGAv5OC0WKBKTz0z'
   - _id: twshVh0COedlo5wJ
     name: Animated Shield
@@ -837,12 +841,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.twshVh0COedlo5wJ'
   - _id: 3usQyirqfUGqElWc
     name: Retaliating Sword
@@ -925,19 +930,19 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.3usQyirqfUGqElWc'
 effects: []
 folder: gKpC4bKnr6iv33Iv
 sort: 150000
 flags:
-  core:
-    sourceId: Actor.ApG3TimDzMNTXMfj
+  core: {}
 system:
   abilities:
     str:
@@ -1295,7 +1300,6 @@ prototypeToken:
   detectionModes: []
   appendNumber: false
   prependAdjective: false
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -1307,14 +1311,20 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: null
   modifiedTime: 1733869532966
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Actor.ApG3TimDzMNTXMfj
   duplicateSource: null
+  exportSource: null
 _key: '!actors!7WO6xjqlcMaVHRWu'
-

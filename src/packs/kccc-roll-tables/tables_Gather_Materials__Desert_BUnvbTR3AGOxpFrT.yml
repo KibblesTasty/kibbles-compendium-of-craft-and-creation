@@ -15,10 +15,20 @@ results:
       - 20
     drawn: false
     _id: RxJrDpn4ND8OR0bk
-    text: —
     img: icons/svg/cancel.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: —
+    name: ''
     _key: '!tables.results!BUnvbTR3AGOxpFrT.RxJrDpn4ND8OR0bk'
   - type: text
     weight: 20
@@ -27,12 +37,22 @@ results:
       - 40
     drawn: false
     _id: RZMvxcewmEPIrWv4
-    text: >-
+    img: icons/commodities/leather/scales-white.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       [[1d12]]
       @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.EmcLtMkqWLmXhZf4]{Scales}
-    img: icons/commodities/leather/scales-white.webp
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!BUnvbTR3AGOxpFrT.RZMvxcewmEPIrWv4'
   - type: text
     weight: 20
@@ -41,52 +61,95 @@ results:
       - 60
     drawn: false
     _id: HKmEeAvXZD7eHIv5
-    text: >-
+    img: icons/commodities/biological/shell-turtle-grey.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       [[1d4]]
       @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.llWxtgWRAT8yLnAa]{Medium
       Carapace}
-    img: icons/commodities/biological/shell-turtle-grey.webp
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!BUnvbTR3AGOxpFrT.HKmEeAvXZD7eHIv5'
-  - type: pack
+  - type: document
     weight: 20
     range:
       - 61
       - 80
     drawn: false
     _id: m6Vdb0BwewScndOg
-    text: Large Carapace
     img: icons/commodities/biological/shell-ridged-blue.webp
-    documentId: mfhnits1GDktVZEb
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Large Carapace
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.mfhnits1GDktVZEb
+    description: ''
     _key: '!tables.results!BUnvbTR3AGOxpFrT.m6Vdb0BwewScndOg'
-  - type: pack
+  - type: document
     weight: 15
     range:
       - 81
       - 95
     drawn: false
     _id: diCpceKjhSFKl8aI
-    text: Rare Supplies
     img: icons/consumables/drinks/wine-amphora-clay-red.webp
-    documentId: QldzlEKZe8VNcEv5
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Rare Supplies
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.QldzlEKZe8VNcEv5
+    description: ''
     _key: '!tables.results!BUnvbTR3AGOxpFrT.diCpceKjhSFKl8aI'
-  - type: pack
+  - type: document
     weight: 5
     range:
       - 96
       - 100
     drawn: false
     _id: ECBAqP7rRSbL2wWz
-    text: Common Arcane Essence
     img: icons/commodities/materials/slime-thick-blue.webp
-    documentId: LkEj679XBcRmkAdK
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Arcane Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.LkEj679XBcRmkAdK
+    description: ''
     _key: '!tables.results!BUnvbTR3AGOxpFrT.ECBAqP7rRSbL2wWz'
 replacement: true
 displayRoll: true
@@ -98,13 +161,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1733861709842
   modifiedTime: 1733865285706
   lastModifiedBy: pJeIW7qCa0HkURWq
+  exportSource: null
 formula: 1d100
 _id: BUnvbTR3AGOxpFrT
 _key: '!tables!BUnvbTR3AGOxpFrT'
-

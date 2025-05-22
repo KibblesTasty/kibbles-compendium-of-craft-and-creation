@@ -1,10 +1,9 @@
 name: Fiend CR 11-16
 img: icons/creatures/unholy/demon-fire-horned-mask.webp
-description: If a material is found, it can successfully collected with no check.
+description: <p>If a material is found, it can successfully collected with no check.</p>
 results:
   - _id: bgbmZAmpo2FiP3wL
-    type: pack
-    text: Uncommon Reactive Reagent
+    type: document
     img: icons/commodities/materials/bowl-powder-gold.webp
     weight: 1
     range:
@@ -12,12 +11,23 @@ results:
       - 20
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: QR3VyyUnHKMua0Lr
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Uncommon Reactive Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.QR3VyyUnHKMua0Lr
+    description: ''
     _key: '!tables.results!2yHaDK9QHnNSDzWO.bgbmZAmpo2FiP3wL'
   - _id: YbOZIC6H6QWsliMB
-    type: pack
-    text: Uncommon Arcane Essence
+    type: document
     img: icons/commodities/gems/gem-rough-ball-purple.webp
     weight: 1
     range:
@@ -25,12 +35,23 @@ results:
       - 50
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: 8sFuEHlAoHAjJHPA
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Uncommon Arcane Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.8sFuEHlAoHAjJHPA
+    description: ''
     _key: '!tables.results!2yHaDK9QHnNSDzWO.YbOZIC6H6QWsliMB'
   - _id: DlKy9zZLnEJqxN0t
-    type: pack
-    text: Rare Reactive Reagent
+    type: document
     img: icons/consumables/plants/flax-leaves-spiked-bundle-orange.webp
     weight: 1
     range:
@@ -38,12 +59,23 @@ results:
       - 80
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: xeD32SGuo6SLnJKt
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Rare Reactive Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.xeD32SGuo6SLnJKt
+    description: ''
     _key: '!tables.results!2yHaDK9QHnNSDzWO.DlKy9zZLnEJqxN0t'
   - _id: Ap8LIkOxvKukF1Z7
-    type: pack
-    text: Rare Arcane Essence
+    type: document
     img: icons/commodities/biological/organ-heart-black.webp
     weight: 1
     range:
@@ -51,8 +83,20 @@ results:
       - 100
     drawn: false
     flags: {}
-    documentCollection: kibbles-compendium-of-craft-and-creation.kccc-crafting-materials
-    documentId: S1IlBZUhshluk9TA
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Rare Arcane Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.S1IlBZUhshluk9TA
+    description: ''
     _key: '!tables.results!2yHaDK9QHnNSDzWO.Ap8LIkOxvKukF1Z7'
 formula: 1d100
 replacement: true
@@ -60,8 +104,7 @@ displayRoll: true
 folder: qAZYGUUkTX9PyMez
 sort: 125000
 flags:
-  core:
-    sourceId: RollTable.8wnpr8YQ1mUyxYe7
+  core: {}
 _id: 2yHaDK9QHnNSDzWO
 ownership:
   default: 0
@@ -69,11 +112,11 @@ ownership:
 _stats:
   systemId: dnd5e
   systemVersion: 2.3.1
-  coreVersion: '12.328'
+  coreVersion: '13.344'
   createdTime: null
-  modifiedTime: 1693870748379
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1747941767537
+  lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: RollTable.8wnpr8YQ1mUyxYe7
   duplicateSource: null
+  exportSource: null
 _key: '!tables!2yHaDK9QHnNSDzWO'
-

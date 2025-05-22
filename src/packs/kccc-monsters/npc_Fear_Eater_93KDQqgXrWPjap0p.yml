@@ -142,12 +142,13 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!93KDQqgXrWPjap0p.wtSe3bL0YgFbxf0P'
   - _id: NBt4KiRDKiXFuVN6
     name: Twisted Visions
@@ -235,19 +236,19 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!93KDQqgXrWPjap0p.NBt4KiRDKiXFuVN6'
 effects: []
 folder: UAjbuif60qyLYM29
 sort: 125000
 flags:
-  core:
-    sourceId: Actor.y3IdZ29iL9pDwzwm
+  core: {}
 system:
   abilities:
     str:
@@ -609,7 +610,6 @@ prototypeToken:
   detectionModes: []
   appendNumber: false
   prependAdjective: false
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -621,14 +621,20 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: null
   modifiedTime: 1733869532966
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Actor.y3IdZ29iL9pDwzwm
   duplicateSource: null
+  exportSource: null
 _key: '!actors!93KDQqgXrWPjap0p'
-

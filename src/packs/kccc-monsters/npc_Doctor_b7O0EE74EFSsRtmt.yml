@@ -12,17 +12,17 @@ items:
     folder: null
     sort: 200000
     flags:
-      core:
-        sourceId: Compendium.dnd5e.items.WwdpHLXGX5r8uZu5
+      core: {}
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: Compendium.dnd5e.items.WwdpHLXGX5r8uZu5
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -120,7 +120,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -128,6 +128,7 @@ items:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -206,7 +207,7 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -214,6 +215,7 @@ items:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -277,8 +279,7 @@ items:
     folder: null
     sort: 100001
     flags:
-      core:
-        sourceId: Compendium.dnd5e.spells.F0GsG0SJzsIOacwV
+      core: {}
       betterRolls5e:
         quickOther:
           context: ''
@@ -304,14 +305,15 @@ items:
             use: true
             resource: true
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: Compendium.dnd5e.spells.F0GsG0SJzsIOacwV
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -395,17 +397,17 @@ items:
     folder: null
     sort: 3900000
     flags:
-      core:
-        sourceId: Compendium.dnd5e.items.6rocoBx5jdzG1QQH
+      core: {}
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
+      compendiumSource: Compendium.dnd5e.items.6rocoBx5jdzG1QQH
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -499,7 +501,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -507,6 +509,7 @@ items:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -608,7 +611,7 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
@@ -616,6 +619,7 @@ items:
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -709,8 +713,7 @@ effects: []
 folder: gKpC4bKnr6iv33Iv
 sort: 112500
 flags:
-  core:
-    sourceId: Actor.vfWO8hFmsMw2Wg7Z
+  core: {}
 system:
   abilities:
     str:
@@ -1066,7 +1069,6 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   detectionModes: []
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -1078,14 +1080,20 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 _stats:
   systemId: dnd5e
   systemVersion: 4.1.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: null
   modifiedTime: 1733869532966
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Actor.vfWO8hFmsMw2Wg7Z
   duplicateSource: null
+  exportSource: null
 _key: '!actors!b7O0EE74EFSsRtmt'
-

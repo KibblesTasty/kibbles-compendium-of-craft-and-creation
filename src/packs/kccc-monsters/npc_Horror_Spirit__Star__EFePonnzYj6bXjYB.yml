@@ -464,7 +464,6 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: false
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -476,6 +475,12 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -558,12 +563,13 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.0
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: 1721364185891
       modifiedTime: 1721415730749
       lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!EFePonnzYj6bXjYB.ZpDdYvQ65ij2jqUH'
   - name: Tentacle
     type: feat
@@ -648,12 +654,13 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.0
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: 1721364185927
       modifiedTime: 1721407945885
       lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!EFePonnzYj6bXjYB.C9YxgcCVwJCAULcT'
   - name: Fatal Destiny (Star Only)
     type: feat
@@ -739,12 +746,13 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.3.0
-      coreVersion: '12.330'
+      coreVersion: '13.344'
       createdTime: 1721364186049
       modifiedTime: 1721408042193
       lastModifiedBy: pJeIW7qCa0HkURWq
       compendiumSource: null
       duplicateSource: null
+      exportSource: null
     _key: '!actors.items!EFePonnzYj6bXjYB.gBv70SUgXJDINmBw'
 effects: []
 ownership:
@@ -757,13 +765,13 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 4.2.2
-  coreVersion: '12.331'
+  coreVersion: '13.344'
   createdTime: 1721364185767
   modifiedTime: 1737865259500
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: null
   duplicateSource: null
+  exportSource: null
 _id: EFePonnzYj6bXjYB
 sort: 0
 _key: '!actors!EFePonnzYj6bXjYB'
-
