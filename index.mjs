@@ -7,11 +7,8 @@ Hooks.once('init', () => {
     reference: '',
   };
 
-  // Adds KCCC as a suggested book when you define the source of an item
-  CONFIG.DND5E.sourceBooks.KCCC = "Kibbles' Compendium of Craft and Creation";
-
   // Add new class feature types for validation
-  foundry.utils.mergeObject(CONFIG.DND5E.featureTypes.class.subtypes, {
+  Object.assign(CONFIG.DND5E.featureTypes.class.subtypes, {
     psionicTalent: 'KCCC.PsionicTalent',
     psionicDiscipline: 'KCCC.PsionicDiscipline',
     upgrade: 'KCCC.Upgrade',
