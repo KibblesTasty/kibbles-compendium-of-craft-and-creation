@@ -213,12 +213,7 @@ system:
         value: null
         override: false
       consumption:
-        targets:
-          - type: itemUses
-            value: '1'
-            target: ''
-            scaling:
-              mode: ''
+        targets: []
         scaling:
           allowed: false
           max: ''

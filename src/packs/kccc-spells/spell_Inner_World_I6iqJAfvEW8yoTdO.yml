@@ -191,13 +191,7 @@ system:
         value: null
         override: false
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+        targets: []
         scaling:
           allowed: false
           max: ''
