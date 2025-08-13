@@ -45,6 +45,20 @@ system:
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - type: Trait
+      _id: hmXWgV4purQPhB28
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - tool:art:smith
+          - tool:art:tinker
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -52,11 +66,11 @@ ownership:
 _stats:
   compendiumSource: Item.BKBxGJZtc60cbPgu
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.0
   createdTime: 1726385675581
-  modifiedTime: 1744825881048
+  modifiedTime: 1755109911769
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!CX3jG60O1bKMAsxc'

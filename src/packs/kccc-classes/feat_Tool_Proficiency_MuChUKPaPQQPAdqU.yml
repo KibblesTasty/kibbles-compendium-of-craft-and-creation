@@ -43,6 +43,21 @@ system:
   activities: {}
   enchant: {}
   properties: []
+  advancement:
+    - type: Trait
+      _id: 8tgf7kKbQs0nyjB8
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:*
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -50,11 +65,11 @@ ownership:
 _stats:
   compendiumSource: Item.5kQ8oOEbAbWRXN7k
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.0
   createdTime: 1726385694797
-  modifiedTime: 1744825881048
+  modifiedTime: 1755110213301
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!MuChUKPaPQQPAdqU'

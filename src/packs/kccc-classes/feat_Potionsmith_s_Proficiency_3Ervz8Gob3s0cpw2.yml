@@ -49,6 +49,21 @@ system:
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - type: Trait
+      _id: xzS5lrFAbXG7MS1X
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:mar:blowgun
+          - tool:art:alchemist
+          - tool:herb
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -56,11 +71,11 @@ ownership:
 _stats:
   compendiumSource: Item.St5AocSvbtxAKmHs
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.0
   createdTime: 1726385666200
-  modifiedTime: 1744825881048
+  modifiedTime: 1755109970118
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!3Ervz8Gob3s0cpw2'

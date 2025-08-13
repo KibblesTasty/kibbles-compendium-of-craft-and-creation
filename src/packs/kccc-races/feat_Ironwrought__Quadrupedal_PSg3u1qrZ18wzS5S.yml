@@ -22,7 +22,7 @@ flags:
 _id: PSg3u1qrZ18wzS5S
 system:
   description:
-    value: "<p style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\">Your shape has four legs and no hands. You gain the following traits.</p><p style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\"><strong style=\"box-sizing:border-box;user-select:text\">Quadrupedal.</strong>\_You do not have hands. You can hold one object or grapple one thing using your mouth, but can’t speak when you do so, and any weapons held in this way are wielded with disadvantage. You can perform the somatic components of spells with one of your legs, however doing so requires 15 feet of your movement.</p><p style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\"><strong style=\"box-sizing:border-box;user-select:text\">Natural Weapons.</strong>\_You gain a selection of natural weapons. You are considered to be holding natural weapons for the purposes of abilities that require you to to hold a weapon (this doesn’t confer disadvantage to them). Select two of the following:</p><ul><li><p style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\"><strong style=\"box-sizing:border-box;user-select:text\">@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.s9N4FZk1LdPcTNmx]{Metal Chompers}.</strong>\_You have metal fangs suitable for chomping. On hit, they deal 1d10 piercing damage.</p></li><li><p style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\"><strong style=\"box-sizing:border-box;user-select:text\">@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.xM6b527pXFtCAhzt]{Razor Claws}.</strong>\_You have two sets of razor claws integrated into your front limbs. On hit, they deal 1d6 slashing damage and have the light property.</p></li><li><p style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\"><strong style=\"box-sizing:border-box;user-select:text\">@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.sH38bpkJHDpK5LKp]{Bladed Tail}.</strong>\_You have a lashing bladed tail. On hit, it deals 1d4 slashing damage. It has the reach property.</p></li></ul><p style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\"><strong style=\"box-sizing:border-box;user-select:text\">Barding.</strong>\_You can only wear armor specially adapted to your unique shape. This custom armor has the same price as normal armor, but may be harder to find or more expensive when custom ordered.</p>"
+    value: "<p>Your shape has four legs and no hands. You gain the following traits.</p><p>Quadrupedal.\_You do not have hands. You can hold one object or grapple one thing using your mouth, but can’t speak when you do so, and any weapons held in this way are wielded with disadvantage. You can perform the somatic components of spells with one of your legs, however doing so requires 15 feet of your movement.</p><p>Natural Weapons.\_You gain a selection of natural weapons. You are considered to be holding natural weapons for the purposes of abilities that require you to to hold a weapon (this doesn’t confer disadvantage to them). Select two of the following:</p><ul><li><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.s9N4FZk1LdPcTNmx]{Metal Chompers}.\_You have metal fangs suitable for chomping. On hit, they deal 1d10 piercing damage.</p></li><li><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.xM6b527pXFtCAhzt]{Razor Claws}.\_You have two sets of razor claws integrated into your front limbs. On hit, they deal 1d6 slashing damage and have the light property.</p></li><li><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.sH38bpkJHDpK5LKp]{Bladed Tail}.\_You have a lashing bladed tail. On hit, it deals 1d4 slashing damage. It has the reach property.</p></li></ul><p>Barding.\_You can only wear armor specially adapted to your unique shape. This custom armor has the same price as normal armor, but may be harder to find or more expensive when custom ordered.</p>"
     chat: ''
     unidentified: ''
   source:
@@ -73,15 +73,17 @@ system:
     charged: false
   type:
     value: race
+  prerequisites:
+    level: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882911
+  modifiedTime: 1755111416218
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.Bhbebd83tZGMf1Xm
   duplicateSource: null

@@ -125,6 +125,19 @@ system:
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - type: Trait
+      _id: odkbEksL573tE08J
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:mar
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -132,11 +145,11 @@ ownership:
 _stats:
   compendiumSource: Item.qZi7Bul4TPmE4w8k
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.0
   createdTime: 1726385672814
-  modifiedTime: 1744825881048
+  modifiedTime: 1755111029392
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!8Lg34UZ1ERl9Rf81'

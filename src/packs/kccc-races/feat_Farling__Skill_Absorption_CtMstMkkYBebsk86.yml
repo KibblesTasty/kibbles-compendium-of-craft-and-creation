@@ -23,11 +23,11 @@ _id: CtMstMkkYBebsk86
 system:
   description:
     value: >-
-      <p><span style="color:#191813;font-size:13px">Your rapid ability to learn
-      new skills grants you proficiency in one artisan tool and one skill of
-      your choice. At your GM’s discretion, if your game allows for the training
-      in tools and skills, you may gain proficiency in them twice as fast using
-      your Crystalized Memory feature daily.</span></p>
+      <p>Your rapid ability to learn new skills grants you proficiency in one
+      artisan tool and one skill of your choice. At your GM’s discretion, if
+      your game allows for the training in tools and skills, you may gain
+      proficiency in them twice as fast using your Crystalized Memory feature
+      daily.</p>
     chat: ''
     unidentified: ''
   source:
@@ -78,15 +78,35 @@ system:
     charged: false
   type:
     value: race
+  prerequisites:
+    level: null
+  advancement:
+    - type: Trait
+      _id: yuvu3cGHqN1nZwfM
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:*
+          - count: 1
+            pool:
+              - tool:art:*
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882911
+  modifiedTime: 1755111513411
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.zPnkvHNTzNZQATbT
   duplicateSource: null

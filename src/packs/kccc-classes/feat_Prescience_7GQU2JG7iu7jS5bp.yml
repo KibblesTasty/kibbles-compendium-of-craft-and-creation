@@ -9,10 +9,6 @@ effects:
     type: base
     system: {}
     changes:
-      - key: system.skills.prc.bonuses.check
-        mode: 2
-        value: '@prof'
-        priority: null
       - key: system.attributes.init.bonus
         mode: 2
         value: '@prof'
@@ -32,15 +28,18 @@ effects:
     transfer: true
     statuses: []
     sort: 0
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
+      coreVersion: '13.347'
       systemId: dnd5e
-      systemVersion: 4.0.3
+      systemVersion: 5.1.0
       createdTime: 1727210025025
-      modifiedTime: 1727211525078
+      modifiedTime: 1755110875042
       lastModifiedBy: pJeIW7qCa0HkURWq
       exportSource: null
     _key: '!items.effects!7GQU2JG7iu7jS5bp.XUyAja6XAuK0DDJN'
@@ -189,6 +188,19 @@ system:
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - type: Trait
+      _id: 2Y5tyb4VryG7lsbA
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:prc
+        mode: upgrade
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -196,11 +208,11 @@ ownership:
 _stats:
   compendiumSource: Item.TwvwUvyIR1eepFG6
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 5.1.0
   createdTime: 1726385669686
-  modifiedTime: 1744825881048
+  modifiedTime: 1755110844511
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!7GQU2JG7iu7jS5bp'

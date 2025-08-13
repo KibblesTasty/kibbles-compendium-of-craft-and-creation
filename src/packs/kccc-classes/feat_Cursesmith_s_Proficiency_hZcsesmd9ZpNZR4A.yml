@@ -22,7 +22,12 @@ flags:
 _id: hZcsesmd9ZpNZR4A
 system:
   description:
-    value: "<p>When you choose this specialization at 1st level, you gain proficiency with one artisan’s tool of your choice, and learn one language of your choice from Infernal, Abyssal, Deepspeech, or Primordial.</p>\n<p>Additionally, you have advantage on any check to determine the nature of a curse.</p>\n<p>\_</p>"
+    value: >-
+      <p>When you choose this specialization at 1st level, you gain proficiency
+      with one artisan’s tool of your choice, and learn one language of your
+      choice from Infernal, Abyssal, Deepspeech, or
+      Primordial.</p><p>Additionally, you have advantage on any check to
+      determine the nature of a curse.</p>
     chat: ''
   source:
     book: KCCC
@@ -43,6 +48,27 @@ system:
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - type: Trait
+      _id: EaZClaLm2wQ7fwJt
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:art:*
+          - count: 1
+            pool:
+              - languages:exotic:abyssal
+              - languages:exotic:deep
+              - languages:exotic:infernal
+              - languages:exotic:primordial
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -50,11 +76,11 @@ ownership:
 _stats:
   compendiumSource: Item.vIIa2lDHOuVziZdl
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.0
   createdTime: 1726385707532
-  modifiedTime: 1744825881048
+  modifiedTime: 1755109476774
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!hZcsesmd9ZpNZR4A'

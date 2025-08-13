@@ -23,9 +23,8 @@ _id: a8hIgrCH3Ii21NzK
 system:
   description:
     value: >-
-      <p><span style="color:#191813;font-size:13px">You process all inputs twice
-      to ensure they are logical. You have advantage on saving throws against
-      becoming frightened or charmed.</span></p>
+      <p>You process all inputs twice to ensure they are logical. You have
+      advantage on saving throws against becoming frightened or charmed.</p>
     chat: ''
     unidentified: ''
   source:
@@ -76,15 +75,18 @@ system:
     charged: false
   type:
     value: race
+  advancement: []
+  prerequisites:
+    level: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882911
+  modifiedTime: 1755111391692
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.dDKaePFu9Q9k7cLu
   duplicateSource: null

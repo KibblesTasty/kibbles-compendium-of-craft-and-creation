@@ -43,6 +43,21 @@ system:
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - type: Trait
+      _id: jdZ5XIJmllUbkSNW
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - weapon:*
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -50,11 +65,11 @@ ownership:
 _stats:
   compendiumSource: Item.16u4S4hOI6EPohnN
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.0
   createdTime: 1726385609135
-  modifiedTime: 1744825879350
+  modifiedTime: 1755111170216
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!XiIsuAZkwzEJJru7'

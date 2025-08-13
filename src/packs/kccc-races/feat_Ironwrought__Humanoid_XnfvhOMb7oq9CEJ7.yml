@@ -22,7 +22,7 @@ flags:
 _id: XnfvhOMb7oq9CEJ7
 system:
   description:
-    value: "<p style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\">Your shape is roughly that of a bipedal humanoid. You gain the following traits.</p>\n<p style=\"box-sizing:border-box;user-select:text;color:#191813;font-size:13px\"><strong style=\"box-sizing:border-box;user-select:text\">Adaptable Design.</strong>\_You can make one additional selection from your modular design trait.</p>"
+    value: "<p>Your shape is roughly that of a bipedal humanoid. You gain the following traits.</p><p>Adaptable Design.\_You can make one additional selection from your modular design trait.</p>"
     chat: ''
     unidentified: ''
   source:
@@ -73,15 +73,17 @@ system:
     charged: false
   type:
     value: race
+  prerequisites:
+    level: null
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882911
+  modifiedTime: 1755111402681
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.JKNhjg34PWVyaLtn
   duplicateSource: null

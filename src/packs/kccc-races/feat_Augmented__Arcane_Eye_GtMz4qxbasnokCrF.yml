@@ -83,15 +83,28 @@ system:
     charged: false
   type:
     value: race
+  advancement:
+    - type: Trait
+      _id: Zp3iq0jGjA81xsJ6
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:prc
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882911
+  modifiedTime: 1755111443859
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.RTXwB0tDjmGhlLXS
   duplicateSource: null

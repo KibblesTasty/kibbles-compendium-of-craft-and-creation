@@ -22,9 +22,7 @@ flags:
 _id: w1XhFe9lbTt0gyP4
 system:
   description:
-    value: >-
-      <p><span style="color:#191813;font-size:13px">You gain proficiency in one
-      skill of your choice.</span></p>
+    value: <p>You gain proficiency in one skill of your choice.</p>
     chat: ''
     unidentified: ''
   source:
@@ -75,15 +73,32 @@ system:
     charged: false
   type:
     value: race
+  prerequisites:
+    level: null
+  advancement:
+    - type: Trait
+      _id: HLjIuOMZgE0fj4Uy
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:*
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882911
+  modifiedTime: 1755111342460
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.z6wYceheqZy6Aqd7
   duplicateSource: null

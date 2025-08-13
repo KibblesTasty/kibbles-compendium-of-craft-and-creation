@@ -72,11 +72,40 @@ system:
           cha: 0
         locked: []
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+    - type: Trait
+      _id: KTZTNbVL85raXngE
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:*
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: Trait
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:*
+        grants: []
+        mode: expertise
+      level: 0
+      title: Tool Expertise
+      hint: ''
+      _id: YWf6sVNkzO9UUwrJ
+      value: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
@@ -84,11 +113,11 @@ ownership:
 _stats:
   compendiumSource: Item.XC8znE420rGW4idN
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.2.2
+  systemVersion: 5.1.0
   createdTime: 1726385609122
-  modifiedTime: 1744825879350
+  modifiedTime: 1755111273567
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!Upif6oo2tB5Y5crP'

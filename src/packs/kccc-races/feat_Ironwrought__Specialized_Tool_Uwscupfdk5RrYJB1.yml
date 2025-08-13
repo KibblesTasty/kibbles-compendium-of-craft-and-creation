@@ -23,8 +23,8 @@ _id: Uwscupfdk5RrYJB1
 system:
   description:
     value: >-
-      <p><span style="color:#191813;font-size:13px">You gain one tool built into
-      your frame. You gain proficiency with this tool.</span></p>
+      <p>You gain one tool built into your frame. You gain proficiency with this
+      tool.</p>
     chat: ''
     unidentified: ''
   source:
@@ -75,15 +75,32 @@ system:
     charged: false
   type:
     value: race
+  prerequisites:
+    level: null
+  advancement:
+    - type: Trait
+      _id: evuMfvpW9HikTAq0
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:*
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882911
+  modifiedTime: 1755111372665
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.oRzCLjxGY6k7ckS7
   duplicateSource: null
