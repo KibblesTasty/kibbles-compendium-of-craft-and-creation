@@ -1,4 +1,4 @@
-name: Withering Soul (Injury)
+name: Withering Soul
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
 effects: []
@@ -96,15 +96,18 @@ system:
     dc: null
     scaling: spell
   consumableType: potion
+  type:
+    value: poison
+    subtype: injury
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882771
+  modifiedTime: 1755104680723
   lastModifiedBy: pJeIW7qCa0HkURWq
   compendiumSource: Item.x2oNzszmShx5HU8J
   duplicateSource: null

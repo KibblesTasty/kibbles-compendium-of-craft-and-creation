@@ -1,9 +1,9 @@
-name: Simple Inhaled Poison (Inhaled)
+name: Potent Contact Poison
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
 effects: []
 folder: 0wZARZc6SbhT7yM2
-sort: 300000
+sort: 900000
 flags:
   betterRolls5e:
     quickDesc:
@@ -24,18 +24,19 @@ flags:
       altValue:
         quantity: false
   core: {}
-_id: 2GkD62mIqWkLjNnN
+_id: TImNhsuRyz6EYhCd
 system:
   description:
     value: >-
-      <p><em>Poison, common</em></p>
+      <p><em>Poison, uncommon</em></p>
 
-      <p>When released, this poison fills a 10-foot radius around the source.
-      You can accurately throw a vial of it (shattering on impact) at a point up
-      to 30 feet away, or release it by other means. A creature subjected to
-      this poison must make a Constitution saving throw with a DC equal to the
-      crafter's Poison DC. On failure, they take [[/damage 2d4 Poison]]
-      damage.</p>
+      <p>Applied to an object. The first creature that touches that object after
+      it is applied must make a Constitution saving throw with a DC equal to the
+      crafter's Poison DC.</p>
+
+      <p>On failure, they take 4d4 Poison damage and become Poisoned for 1 hour.
+      At the end of a poisoned creature’s turn, it can repeat the saving throw,
+      ending the condition on success.</p>
     chat: ''
     unidentified: ''
   source:
@@ -44,10 +45,10 @@ system:
     rules: '2014'
   quantity: 1
   weight: 0.1
-  price: 60
+  price: 100
   attunement: 0
   equipped: false
-  rarity: common
+  rarity: uncommon
   identified: true
   activation:
     type: ''
@@ -90,17 +91,20 @@ system:
     dc: null
     scaling: spell
   consumableType: potion
+  type:
+    value: poison
+    subtype: contact
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882771
+  modifiedTime: 1755104581423
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.lnT8hPgPhqLduAgD
+  compendiumSource: Item.wmqWYRQdxIp8dlXU
   duplicateSource: null
   exportSource: null
-_key: '!items!2GkD62mIqWkLjNnN'
+_key: '!items!TImNhsuRyz6EYhCd'

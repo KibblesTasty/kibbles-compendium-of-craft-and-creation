@@ -1,9 +1,9 @@
-name: Potent Contact Poison (Contact)
+name: Paralyzing Poison
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
 effects: []
 folder: 0wZARZc6SbhT7yM2
-sort: 900000
+sort: 1000000
 flags:
   betterRolls5e:
     quickDesc:
@@ -24,19 +24,23 @@ flags:
       altValue:
         quantity: false
   core: {}
-_id: TImNhsuRyz6EYhCd
+_id: CG9ZnNp2oQ6aIWzS
 system:
   description:
     value: >-
-      <p><em>Poison, uncommon</em></p>
+      <p><em>Poison, rare</em></p>
 
-      <p>Applied to an object. The first creature that touches that object after
-      it is applied must make a Constitution saving throw with a DC equal to the
-      crafter's Poison DC.</p>
+      <p>Applied to a melee weapon or up to 5 pieces of ammunition. A creature
+      subjected to this poison must make a Constitution saving throw with a DC
+      equal to the crafter's Poison DC.</p>
 
-      <p>On failure, they take 4d4 Poison damage and become Poisoned for 1 hour.
-      At the end of a poisoned creature’s turn, it can repeat the saving throw,
-      ending the condition on success.</p>
+      <p>On failure, the target becomes poisoned for 1 minute. A creature is
+      paralyzed while poisoned this way. At the end of each of the creature’s
+      turns, it can repeat the saving throw, ending the effect on success.</p>
+
+      <p>Once applied, the poison retains potency for 1 minute before drying,
+      and wears off of a weapon after that weapon has delivered the effect 5
+      times.</p>
     chat: ''
     unidentified: ''
   source:
@@ -45,10 +49,10 @@ system:
     rules: '2014'
   quantity: 1
   weight: 0.1
-  price: 100
+  price: 590
   attunement: 0
   equipped: false
-  rarity: uncommon
+  rarity: rare
   identified: true
   activation:
     type: ''
@@ -91,17 +95,20 @@ system:
     dc: null
     scaling: spell
   consumableType: potion
+  type:
+    value: poison
+    subtype: injury
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882771
+  modifiedTime: 1755104569553
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.wmqWYRQdxIp8dlXU
+  compendiumSource: Item.c7pfPHVNfwPhQiuN
   duplicateSource: null
   exportSource: null
-_key: '!items!TImNhsuRyz6EYhCd'
+_key: '!items!CG9ZnNp2oQ6aIWzS'

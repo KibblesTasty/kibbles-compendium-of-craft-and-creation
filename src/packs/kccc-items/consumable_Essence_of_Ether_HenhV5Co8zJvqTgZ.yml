@@ -1,9 +1,9 @@
-name: Simple Contact Poison (Contact)
+name: Essence of Ether
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
 effects: []
 folder: 0wZARZc6SbhT7yM2
-sort: 500000
+sort: 1700000
 flags:
   betterRolls5e:
     quickDesc:
@@ -24,16 +24,24 @@ flags:
       altValue:
         quantity: false
   core: {}
-_id: ZP1p31TFXIGpUAIt
+_id: HenhV5Co8zJvqTgZ
 system:
   description:
     value: >-
-      <p><em>Poison, common</em></p>
+      <p><em>Poison, rare</em></p>
 
-      <p>Applied to an object. The first creature that touches must make a
-      Constitution saving throw with a DC equal to the crafter's Poison DC or
-      take [[/damage 2d4 Poison]] damage, after which the poison is rubbed
-      off.</p>
+      <p>When released, this poison fills a 5-foot radius around the source. You
+      can accurately throw a vial of it (shattering on impact) at a point up to
+      30 feet away, or release it by other means. A creature subjected to this
+      poison must make a Constitution saving throw with a DC equal to the
+      crafter's Poison DC.</p>
+
+      <p>On failure, the creature becomes Poisoned for 8 hours. The Poisoned
+      creature is Unconscious. The creature wakes up if it takes damage or if
+      another creature takes an action to shake it awake.</p>
+
+      <p>If stored as powder, you can throw this powder 5 feet. If stored in a
+      vial, you can throw 30 feet.</p>
     chat: ''
     unidentified: ''
   source:
@@ -42,10 +50,10 @@ system:
     rules: '2014'
   quantity: 1
   weight: 0.1
-  price: 40
+  price: 270
   attunement: 0
   equipped: false
-  rarity: common
+  rarity: rare
   identified: true
   activation:
     type: ''
@@ -88,17 +96,20 @@ system:
     dc: null
     scaling: spell
   consumableType: potion
+  type:
+    value: poison
+    subtype: inhaled
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882771
+  modifiedTime: 1755104423435
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.Q8o9NfjtNqmc1DWg
+  compendiumSource: Item.g1GWY7lnVCEl9n5d
   duplicateSource: null
   exportSource: null
-_key: '!items!ZP1p31TFXIGpUAIt'
+_key: '!items!HenhV5Co8zJvqTgZ'

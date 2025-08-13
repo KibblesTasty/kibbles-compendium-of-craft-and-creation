@@ -1,9 +1,9 @@
-name: Malice (Inhaled)
+name: Veins of Tar
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
 effects: []
 folder: 0wZARZc6SbhT7yM2
-sort: 1300000
+sort: 125000
 flags:
   betterRolls5e:
     quickDesc:
@@ -24,22 +24,16 @@ flags:
       altValue:
         quantity: false
   core: {}
-_id: DaZQ1fhBY7GG4Yau
+_id: c20i2O3PG9rBlUcO
 system:
   description:
     value: >-
       <p><em>Poison, rare</em></p>
 
-      <p>When released (by throwing powder or breaking a vial of it), this
-      poison affects a 5-foot radius from where it was released. A creature
-      subjected to this poison must make a Constitution saving throw with a DC
-      equal to the crafter's Poison DC.</p>
-
-      <p>On failure, the creature becomes Poisoned for 1 hour. The Poisoned
-      creature is Blinded.</p>
-
-      <p>If stored as powder, you can throw this powder 5 feet. If stored in a
-      vial, you can throw 20 feet.</p>
+      <p>Applied to food or beverage. A creature that consumes this poison must
+      make a Constitution saving throw with a DC equal to the crafter's Poison
+      DC. On failure, they are under the effect of the slow spell for 8 hours.
+      This effect can be removed by effects that remove poison.</p>
     chat: ''
     unidentified: ''
   source:
@@ -48,7 +42,7 @@ system:
     rules: '2014'
   quantity: 1
   weight: 0.1
-  price: 250
+  price: 300
   attunement: 0
   equipped: false
   rarity: rare
@@ -94,17 +88,20 @@ system:
     dc: null
     scaling: spell
   consumableType: potion
+  type:
+    value: poison
+    subtype: ingested
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882771
+  modifiedTime: 1755104664153
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.cR55ZM1tIjzp53Ce
+  compendiumSource: Item.QpskD4run9v7toA7
   duplicateSource: null
   exportSource: null
-_key: '!items!DaZQ1fhBY7GG4Yau'
+_key: '!items!c20i2O3PG9rBlUcO'

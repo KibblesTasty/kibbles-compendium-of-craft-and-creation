@@ -1,9 +1,9 @@
-name: Potent Inhaled Poison (Inhaled)
+name: Potent Ingested Poison
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
 effects: []
 folder: 0wZARZc6SbhT7yM2
-sort: 700000
+sort: 800000
 flags:
   betterRolls5e:
     quickDesc:
@@ -24,25 +24,16 @@ flags:
       altValue:
         quantity: false
   core: {}
-_id: OV5awDE9pfIReRE3
+_id: fCrVv1WlSWW9OUIV
 system:
   description:
     value: >-
       <p><em>Poison, uncommon</em></p>
 
-      <p>When released, this poison fills a 10-foot radius around the source.
-      You can accurately throw a vial of it (shattering on impact) at a point up
-      to 30 feet away, or release it by other means. A creature subjected to
-      this poison must make a Constitution saving throw with a DC equal to the
-      crafter's Poison DC.</p>
-
-      <p>On failure, they take 4d4 Poison damage and become Poisoned for 1 hour.
-      At the end of a poisoned creature’s turn, it can repeat the saving throw,
-      ending the condition on success.</p>
-
-      <p>This effect lingers in the area it was released for 1d4 rounds. A
-      strong wind will clear away and disperse the poison. A creature that
-      enters the area for the first time must save against the poison.</p>
+      <p>A creature subjected to this poison must make a Constitution saving
+      throw with a DC equal to the crafter's Poison DC. On failure, they take
+      [[/damage 3d6 Poison]] damage and suffer the poisoned condition for 1
+      hour.</p>
     chat: ''
     unidentified: ''
   source:
@@ -51,7 +42,7 @@ system:
     rules: '2014'
   quantity: 1
   weight: 0.1
-  price: 140
+  price: 95
   attunement: 0
   equipped: false
   rarity: uncommon
@@ -97,17 +88,20 @@ system:
     dc: null
     scaling: spell
   consumableType: potion
+  type:
+    value: poison
+    subtype: ingested
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882771
+  modifiedTime: 1755104588522
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.EUmRe5srwsNC51iJ
+  compendiumSource: Item.IjyR7ptPSPUSQdHR
   duplicateSource: null
   exportSource: null
-_key: '!items!OV5awDE9pfIReRE3'
+_key: '!items!fCrVv1WlSWW9OUIV'

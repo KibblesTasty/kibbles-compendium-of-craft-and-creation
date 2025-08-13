@@ -1,9 +1,9 @@
-name: Potent Ingested Poison (Ingested)
+name: Simple Inhaled Poison
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
 effects: []
 folder: 0wZARZc6SbhT7yM2
-sort: 800000
+sort: 300000
 flags:
   betterRolls5e:
     quickDesc:
@@ -24,16 +24,18 @@ flags:
       altValue:
         quantity: false
   core: {}
-_id: fCrVv1WlSWW9OUIV
+_id: 2GkD62mIqWkLjNnN
 system:
   description:
     value: >-
-      <p><em>Poison, uncommon</em></p>
+      <p><em>Poison, common</em></p>
 
-      <p>A creature subjected to this poison must make a Constitution saving
-      throw with a DC equal to the crafter's Poison DC. On failure, they take
-      [[/damage 3d6 Poison]] damage and suffer the poisoned condition for 1
-      hour.</p>
+      <p>When released, this poison fills a 10-foot radius around the source.
+      You can accurately throw a vial of it (shattering on impact) at a point up
+      to 30 feet away, or release it by other means. A creature subjected to
+      this poison must make a Constitution saving throw with a DC equal to the
+      crafter's Poison DC. On failure, they take [[/damage 2d4 Poison]]
+      damage.</p>
     chat: ''
     unidentified: ''
   source:
@@ -42,10 +44,10 @@ system:
     rules: '2014'
   quantity: 1
   weight: 0.1
-  price: 95
+  price: 60
   attunement: 0
   equipped: false
-  rarity: uncommon
+  rarity: common
   identified: true
   activation:
     type: ''
@@ -88,17 +90,20 @@ system:
     dc: null
     scaling: spell
   consumableType: potion
+  type:
+    value: poison
+    subtype: inhaled
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882771
+  modifiedTime: 1755104638460
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.IjyR7ptPSPUSQdHR
+  compendiumSource: Item.lnT8hPgPhqLduAgD
   duplicateSource: null
   exportSource: null
-_key: '!items!fCrVv1WlSWW9OUIV'
+_key: '!items!2GkD62mIqWkLjNnN'

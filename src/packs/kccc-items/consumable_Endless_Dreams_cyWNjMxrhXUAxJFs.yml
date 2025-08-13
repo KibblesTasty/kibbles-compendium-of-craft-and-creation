@@ -1,9 +1,9 @@
-name: Old Reliable (Injury)
+name: Endless Dreams
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
 effects: []
 folder: 0wZARZc6SbhT7yM2
-sort: 1100000
+sort: 1800000
 flags:
   betterRolls5e:
     quickDesc:
@@ -24,16 +24,21 @@ flags:
       altValue:
         quantity: false
   core: {}
-_id: z7ycdI1eQM4db4YL
+_id: cyWNjMxrhXUAxJFs
 system:
   description:
     value: >-
-      <p><em>Poison, uncommon</em></p>
+      <p><em>Poison, legendary</em></p>
 
-      <p>Applied to a melee weapon or up to 5 pieces of ammunition. This poison
-      is exceptionally durable, lasting on a weapon for 1 hour and an unlimited
-      number of hits during that time. On hit, weapons with this poison applied
-      deal [[/r 1d4]] additional poison damage.</p>
+      <p>Applied to food or beverage. A creature that consumes this poison must
+      make a Constitution saving throw with a DC equal to the crafter's Poison
+      DC. On failure, the next time the creature falls asleep they enter endless
+      slumber in stasis. They do not wake and can’t be roused by any normal
+      means. A creature sleeping in this way doesn’t require food or drink, and
+      doesn’t age.</p>
+
+      <p>This effect can only be ended by greater restoration cast at 7th level
+      or higher, or wish.</p>
     chat: ''
     unidentified: ''
   source:
@@ -42,10 +47,10 @@ system:
     rules: '2014'
   quantity: 1
   weight: 0.1
-  price: 70
+  price: 11000
   attunement: 0
   equipped: false
-  rarity: uncommon
+  rarity: legendary
   identified: true
   activation:
     type: ''
@@ -88,17 +93,20 @@ system:
     dc: null
     scaling: spell
   consumableType: potion
+  type:
+    value: poison
+    subtype: ingested
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882771
+  modifiedTime: 1755104415902
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.HXglkvTpKWQqI01j
+  compendiumSource: Item.M9izv7YBvzq3oqi4
   duplicateSource: null
   exportSource: null
-_key: '!items!z7ycdI1eQM4db4YL'
+_key: '!items!cyWNjMxrhXUAxJFs'

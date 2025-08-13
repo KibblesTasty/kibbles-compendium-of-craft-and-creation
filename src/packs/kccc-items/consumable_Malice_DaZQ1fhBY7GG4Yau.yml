@@ -1,9 +1,9 @@
-name: Knockout Poison (Injury)
+name: Malice
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
 effects: []
 folder: 0wZARZc6SbhT7yM2
-sort: 1400000
+sort: 1300000
 flags:
   betterRolls5e:
     quickDesc:
@@ -24,24 +24,22 @@ flags:
       altValue:
         quantity: false
   core: {}
-_id: 7TAGFG5Xq4NPD3YP
+_id: DaZQ1fhBY7GG4Yau
 system:
   description:
     value: >-
       <p><em>Poison, rare</em></p>
 
-      <p>Applied to a melee weapon or up to 5 pieces of ammunition. A creature
+      <p>When released (by throwing powder or breaking a vial of it), this
+      poison affects a 5-foot radius from where it was released. A creature
       subjected to this poison must make a Constitution saving throw with a DC
       equal to the crafter's Poison DC.</p>
 
-      <p>On failure, the target becomes poisoned for 1 hour. If the saving throw
-      fails by 5 or more, the creature is also unconscious while poisoned in
-      this way. The creature wakes up if it takes damage or if another creature
-      takes an action to shake it awake.</p>
+      <p>On failure, the creature becomes Poisoned for 1 hour. The Poisoned
+      creature is Blinded.</p>
 
-      <p>Once applied, the poison retains potency for 1 minute before drying,
-      and wears off of a weapon after that weapon has delivered the effect 5
-      times.</p>
+      <p>If stored as powder, you can throw this powder 5 feet. If stored in a
+      vial, you can throw 20 feet.</p>
     chat: ''
     unidentified: ''
   source:
@@ -50,7 +48,7 @@ system:
     rules: '2014'
   quantity: 1
   weight: 0.1
-  price: 760
+  price: 250
   attunement: 0
   equipped: false
   rarity: rare
@@ -96,17 +94,20 @@ system:
     dc: null
     scaling: spell
   consumableType: potion
+  type:
+    value: poison
+    subtype: inhaled
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882771
+  modifiedTime: 1755104461205
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.T3MfDgLqpR4Qzd3m
+  compendiumSource: Item.cR55ZM1tIjzp53Ce
   duplicateSource: null
   exportSource: null
-_key: '!items!7TAGFG5Xq4NPD3YP'
+_key: '!items!DaZQ1fhBY7GG4Yau'

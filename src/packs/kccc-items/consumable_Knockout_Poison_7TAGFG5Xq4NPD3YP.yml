@@ -1,9 +1,9 @@
-name: Slow Death (Ingested)
+name: Knockout Poison
 type: consumable
 img: icons/magic/acid/dissolve-bone-skull.webp
 effects: []
 folder: 0wZARZc6SbhT7yM2
-sort: 150000
+sort: 1400000
 flags:
   betterRolls5e:
     quickDesc:
@@ -24,23 +24,24 @@ flags:
       altValue:
         quantity: false
   core: {}
-_id: vzLMwlZrTfZ6H0Kt
+_id: 7TAGFG5Xq4NPD3YP
 system:
   description:
     value: >-
-      <p><em>Poison, very rare</em></p>
+      <p><em>Poison, rare</em></p>
 
-      <p>Applied to food or beverage. A creature that consumes this poison
-      begins to slowly die if they aren’t immune to poison. Each time that
-      creature finishes a long rest, its hit point maximum is reduced by 1. If
-      the creature’s hit point maximum hit is reduced to 0 by this effect, it
-      dies. While its hit points are less than half of its original maximum, it
-      is poisoned. This effect can be removed by effects that remove the
-      poisoned condition, and can be only be identified by magic or a DC 15
-      Wisdom (Medicine) check.</p>
+      <p>Applied to a melee weapon or up to 5 pieces of ammunition. A creature
+      subjected to this poison must make a Constitution saving throw with a DC
+      equal to the crafter's Poison DC.</p>
 
-      <p>If a creature is cured, it regains its lost hit points after it
-      finishes a long rest.</p>
+      <p>On failure, the target becomes poisoned for 1 hour. If the saving throw
+      fails by 5 or more, the creature is also unconscious while poisoned in
+      this way. The creature wakes up if it takes damage or if another creature
+      takes an action to shake it awake.</p>
+
+      <p>Once applied, the poison retains potency for 1 minute before drying,
+      and wears off of a weapon after that weapon has delivered the effect 5
+      times.</p>
     chat: ''
     unidentified: ''
   source:
@@ -49,10 +50,10 @@ system:
     rules: '2014'
   quantity: 1
   weight: 0.1
-  price: 6800
+  price: 760
   attunement: 0
   equipped: false
-  rarity: veryRare
+  rarity: rare
   identified: true
   activation:
     type: ''
@@ -95,17 +96,20 @@ system:
     dc: null
     scaling: spell
   consumableType: potion
+  type:
+    value: poison
+    subtype: injury
 ownership:
   default: 0
   ZltBRX3qCs8ZDdsL: 3
 _stats:
   systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
   createdTime: null
-  modifiedTime: 1744825882771
+  modifiedTime: 1755104453506
   lastModifiedBy: pJeIW7qCa0HkURWq
-  compendiumSource: Item.lLdoTEQJ5bTA8eHv
+  compendiumSource: Item.T3MfDgLqpR4Qzd3m
   duplicateSource: null
   exportSource: null
-_key: '!items!vzLMwlZrTfZ6H0Kt'
+_key: '!items!7TAGFG5Xq4NPD3YP'
