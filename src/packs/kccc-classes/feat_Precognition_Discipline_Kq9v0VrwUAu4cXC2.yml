@@ -56,6 +56,7 @@ system:
           - vocal
           - material
         spellbook: true
+        ability: ''
       _id: m4pM733vv4b2rlq2
       sort: 0
       activation:
@@ -64,14 +65,16 @@ system:
         override: false
       consumption:
         scaling:
-          allowed: false
+          allowed: true
+          max: ''
         spellSlot: true
         targets:
           - type: itemUses
             value: '1'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling: {}
+            scaling:
+              mode: amount
       description:
         chatFlavor: ''
       duration:
@@ -108,6 +111,7 @@ system:
           - vocal
           - material
         spellbook: true
+        ability: ''
       _id: EBKMY1bTWrxYB3ox
       sort: 0
       activation:
@@ -116,14 +120,16 @@ system:
         override: false
       consumption:
         scaling:
-          allowed: false
+          allowed: true
+          max: ''
         spellSlot: true
         targets:
           - type: itemUses
             value: '1'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling: {}
+            scaling:
+              mode: amount
       description:
         chatFlavor: ''
       duration:
@@ -159,6 +165,7 @@ system:
           - vocal
           - material
         spellbook: true
+        ability: ''
       _id: 2fEgul9XhdHBPPxZ
       sort: 0
       activation:
@@ -167,14 +174,16 @@ system:
         override: false
       consumption:
         scaling:
-          allowed: false
+          allowed: true
+          max: ''
         spellSlot: true
         targets:
           - type: itemUses
             value: '2'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling: {}
+            scaling:
+              mode: amount
       description:
         chatFlavor: ''
       duration:
@@ -212,6 +221,7 @@ system:
           - somatic
           - material
         spellbook: true
+        ability: ''
       _id: YsPKuvKF1xcm4Pi2
       sort: 0
       activation:
@@ -220,14 +230,16 @@ system:
         override: false
       consumption:
         scaling:
-          allowed: false
+          allowed: true
+          max: ''
         spellSlot: true
         targets:
           - type: itemUses
             value: '2'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling: {}
+            scaling:
+              mode: amount
       description:
         chatFlavor: ''
       duration:
@@ -263,6 +275,7 @@ system:
           - vocal
           - material
         spellbook: true
+        ability: ''
       _id: Oxp7W7NahUZH4nm1
       sort: 0
       activation:
@@ -271,14 +284,16 @@ system:
         override: false
       consumption:
         scaling:
-          allowed: false
+          allowed: true
+          max: ''
         spellSlot: true
         targets:
           - type: itemUses
             value: '3'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling: {}
+            scaling:
+              mode: amount
       description:
         chatFlavor: ''
       duration:
@@ -314,6 +329,7 @@ system:
           - vocal
           - material
         spellbook: true
+        ability: ''
       _id: AGojnezj6nptNUaN
       sort: 0
       activation:
@@ -322,14 +338,16 @@ system:
         override: false
       consumption:
         scaling:
-          allowed: false
+          allowed: true
+          max: ''
         spellSlot: true
         targets:
           - type: itemUses
             value: '4'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling: {}
+            scaling:
+              mode: amount
       description:
         chatFlavor: ''
       duration:
@@ -365,6 +383,7 @@ system:
           - vocal
           - material
         spellbook: true
+        ability: ''
       _id: OOSyyg03Ujn8u2OY
       sort: 0
       activation:
@@ -373,14 +392,16 @@ system:
         override: false
       consumption:
         scaling:
-          allowed: false
+          allowed: true
+          max: ''
         spellSlot: true
         targets:
           - type: itemUses
             value: '4'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling: {}
+            scaling:
+              mode: amount
       description:
         chatFlavor: ''
       duration:
@@ -416,6 +437,7 @@ system:
           - vocal
           - material
         spellbook: true
+        ability: ''
       _id: rrwv4n0RrbfuFPPl
       sort: 0
       activation:
@@ -424,14 +446,16 @@ system:
         override: false
       consumption:
         scaling:
-          allowed: false
+          allowed: true
+          max: ''
         spellSlot: true
         targets:
           - type: itemUses
             value: '5'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling: {}
+            scaling:
+              mode: amount
       description:
         chatFlavor: ''
       duration:
@@ -465,11 +489,11 @@ ownership:
 _stats:
   compendiumSource: Item.n4258037r3wA1FI5
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 5.1.0
   createdTime: 1726385692922
-  modifiedTime: 1744825881048
+  modifiedTime: 1755107518068
   lastModifiedBy: pJeIW7qCa0HkURWq
   exportSource: null
 _key: '!items!Kq9v0VrwUAu4cXC2'
