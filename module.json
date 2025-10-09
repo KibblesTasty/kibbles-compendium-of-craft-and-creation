@@ -8,12 +8,15 @@
   }],
   "media": [],
   "version": "AUTOMATIC",
-  "esmodules": ["index.mjs"],
+  "esmodules": ["kccc.mjs"],
   "languages": [{
     "lang": "en",
     "name": "English",
     "path": "lang/en.json"
   }],
+	"styles": [
+		{ "src": "kccc.css", "layer": "modules" }
+	],
   "compatibility": {
     "minimum": "13",
     "verified": "13"
