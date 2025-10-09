@@ -1,0 +1,69 @@
+name: Power Fist
+type: feat
+img: icons/equipment/hand/gauntelet-tooled-blue.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 146875
+flags:
+  core: {}
+_id: 1G98zSEFtbfWz9Wp
+system:
+  description:
+    value: >-
+      <p><em>(You can apply this upgrade twice.)</em></p><p>Your Warplate
+      Gauntlet becomes a melee weapon while you aren’t holding anything in it.
+      You have proficiency in this weapon, and it has the Light and Special
+      properties. It deals 1d8 bludgeoning
+      damage.</p><p><strong>Special:</strong> When you make an attack roll, you
+      can choose to forgo adding your proficiency bonus to the attack roll. If
+      the attack hits, you can add double your proficiency bonus to the damage
+      roll.</p><p>You can apply this upgrade up to 2 times, making a separate
+      weapon with the same properties the second time.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 3
+  prerequisites:
+    level: 3
+    repeatable: true
+  identifier: power-fist
+  activities: {}
+  enchant: {}
+  properties: []
+  advancement:
+    - type: ItemGrant
+      _id: 2qPHIozUHeBdA1i6
+      configuration:
+        items:
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.KjCwxXd2ENifa5Jl
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.VHVTcYBKPSM9wMsW
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385665088
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!1G98zSEFtbfWz9Wp'

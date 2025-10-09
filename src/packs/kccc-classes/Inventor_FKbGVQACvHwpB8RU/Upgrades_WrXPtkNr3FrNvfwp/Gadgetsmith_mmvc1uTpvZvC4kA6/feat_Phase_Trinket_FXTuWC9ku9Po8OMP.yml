@@ -1,0 +1,51 @@
+_id: FXTuWC9ku9Po8OMP
+name: Phase Trinket
+type: feat
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 199976
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You create a magical gadget that manipulates ethereal magic. As an
+      action, you can use this device to cast
+      @Compendium[dnd5e.spells.GSvLWcdCZLQkilXT]{Blink} or
+      @Compendium[dnd5e.spells.A4RsPuSvB9wFtz1j]{Dimension Door} without
+      expending a spell slot. Once used, this gadget can’t be used again until
+      you finish a long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Gadgetsmith 9
+  prerequisites:
+    level: 9
+  identifier: phase-trinket
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.NAUyNPFs8Vu2gCi0
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385689364
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!FXTuWC9ku9Po8OMP'

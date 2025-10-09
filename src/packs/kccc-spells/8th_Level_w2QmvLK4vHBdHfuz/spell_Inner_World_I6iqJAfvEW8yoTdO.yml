@@ -1,0 +1,181 @@
+name: Inner World
+type: spell
+img: icons/environment/wilderness/altar-hidden.webp
+effects: []
+folder: w2QmvLK4vHBdHfuz
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: I6iqJAfvEW8yoTdO
+system:
+  description:
+    value: >-
+      <p>As an action, you create and enter an imaginary world. All other
+      creatures within 120 feet are pulled this world with you. This world is
+      centered on you, and extends in 120 feet in all directions.</p>
+
+      <p>A creature that reaches the edge of this world can make a Charisma
+      saving throw to attempt to exit, spending 5 feet of movement to return
+      where they were before being pulled into the world on success, and being
+      unable to move out the world until the start of their next turn on
+      failure. A creature outside the world can attempt to enter it by moving to
+      where you cast the spell (which is marked by a glowing psionic rift) and
+      making a Charisma saving throw to enter the world. You can allow a
+      creature to automatically pass their save to enter or exit the world.</p>
+
+      <p>When you create this world, you can create obstacles and terrain of
+      your choice, creating walls, pillars, and other obstacles that take up to
+      twenty 5 by 5 square foot areas (stylistically, these can appear however
+      you choose). These can be placed consecutively or spread out in any method
+      of your choosing, but any area with a creature must contain a path that
+      creature can fit through to both you and the edge of the of the world.</p>
+
+      <p>You can additionally create up to five hazardous spaces on the ground
+      that are 5 foot squares. These can be fires, spikes, biting mouthes, or
+      whatever you choose, but regardless of its form if a creature takes [[/r
+      4d4 + 4]] psychic damage when it enters the effect's area for the first
+      time on a turn or starts its turn there. Each of these hazards must be at
+      least 20 feet from another hazard.</p>
+
+      <p>While in this inner world, if you fail saving throw, you choose to
+      succeed instead. You can do up to 3 times during the duration of the
+      spell. All spells and powers have their psi point cost reduced by one.</p>
+
+      <p>During the spell, as an action, you can attempt to destroy a creature
+      within the world. The target must make an Intelligence saving throw. On
+      failure, it takes [[/r 8d8 + 8]] psychic damage and is removed from the
+      imaginary world, returning to where they were before being pulled into
+      it.</p>
+
+      <p>The world can be brightly or dimly lit, and you control the weather
+      within it.</p>
+
+      <p>When the spell ends, you and any creature that remains in the world
+      exit the world returning to space you entered the world from.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 120
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 8
+  school: psi
+  components:
+    vocal: false
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - somatic
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.OnlKOiwbTKYBdEmR
+  duplicateSource: null
+  exportSource: null
+_key: '!items!I6iqJAfvEW8yoTdO'

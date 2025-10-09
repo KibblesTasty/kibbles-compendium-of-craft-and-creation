@@ -1,0 +1,60 @@
+_id: 0hM062tfXVoNUYEr
+name: Divided Mind
+type: feat
+img: icons/magic/control/energy-stream-link-white.webp
+effects: []
+folder: snJgRU6pIt9nIVxY
+sort: -100000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You learn the
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.kaUayb4bEhtI80cE]{Divide
+      Self} spell, and can cast it by expending 5 psi points. When you gain
+      access to the Innate Psionics feature, you may expend a use of Innate
+      Psionics to cast
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.kaUayb4bEhtI80cE]{Divide
+      Self} at the level of the use of Innate Psionics expended. For example, if
+      you choose the teleport spell for your Innate Psionics feature at 13th
+      level, you could expend a casting of teleport to instead cast
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.kaUayb4bEhtI80cE]{Divide
+      Self} as a 7th-level spell, and can’t cast teleport or divide selfK as a
+      7th-level spell in this way until you finish a long rest.</p>
+
+      <p>You do not require the material components of the spell when you cast
+      it by expending psi points or a use of Innate Psionics.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Psion 9
+  prerequisites:
+    level: 9
+  identifier: divided-mind
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.9KQrX05bAQ7wUm8G
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385664847
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!0hM062tfXVoNUYEr'

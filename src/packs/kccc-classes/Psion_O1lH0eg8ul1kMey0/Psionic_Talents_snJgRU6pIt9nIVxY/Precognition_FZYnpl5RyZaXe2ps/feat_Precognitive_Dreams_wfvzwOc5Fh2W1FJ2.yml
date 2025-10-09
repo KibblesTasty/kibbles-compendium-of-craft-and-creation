@@ -1,0 +1,50 @@
+_id: wfvzwOc5Fh2W1FJ2
+name: Precognitive Dreams
+type: feat
+img: icons/magic/perception/eye-slit-pink.webp
+effects: []
+folder: FZYnpl5RyZaXe2ps
+sort: -100000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>When you finish a long rest, your dreams have prepared you for the day
+      to come. Upon waking, you issue reassuring words and advice to your
+      companions to help them survive the day, giving them temporary hit points
+      equal to your Intelligence modifier. During the next 24 hours, you can’t
+      be surprised.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Precognition 11
+  prerequisites:
+    level: 11
+  identifier: precognitive-dreams
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.QS60Lvngse8ohyNp
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385717613
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!wfvzwOc5Fh2W1FJ2'

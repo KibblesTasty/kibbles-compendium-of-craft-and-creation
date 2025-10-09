@@ -1,0 +1,51 @@
+name: Corrosive Critter?!
+type: feat
+img: icons/creatures/claws/claw-curved-poison-purple.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 350000
+flags:
+  core: {}
+_id: h1YW19sttwTHFmiU
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: 5th level, Perfection of Creation)</em></p>
+
+      <p>Your adorable critter’s natural weapon deals an extra 1d6 acid damage
+      on hit.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 5
+  prerequisites:
+    level: 5
+    items:
+      - thesis-of-flesh-perfection-of-creation
+  identifier: corrosive-critter
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.eHGHK3L1HqV2U2yy
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385707294
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!h1YW19sttwTHFmiU'

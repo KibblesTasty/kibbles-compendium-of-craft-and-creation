@@ -1,0 +1,143 @@
+name: Soul Blade
+type: weapon
+img: icons/weapons/swords/sword-flanged-lightning.webp
+effects: []
+folder: B7JG1A1xufT9VN8p
+sort: 106250
+flags:
+  core: {}
+_id: 3zr3gNASxITpl2jQ
+_stats:
+  compendiumSource: Item.k5c1lpBP6a5zQd93
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385613778
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: ''
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
+  equipped: false
+  rarity: ''
+  identified: true
+  range:
+    value: 20
+    long: 60
+    units: ft
+    reach: null
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  damage:
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 8
+      bonus: ''
+      types:
+        - psychic
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  properties:
+    - fin
+    - lgt
+    - thr
+  proficient: 1
+  type:
+    value: simpleM
+    baseItem: ''
+  identifier: soul-blade
+  unidentified:
+    description: ''
+  activities:
+    YSW8YBN1CQi53DD1:
+      _id: YSW8YBN1CQi53DD1
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  container: null
+  attuned: false
+  cover: null
+  crewed: false
+  ammunition: {}
+  magicalBonus: null
+_key: '!items!3zr3gNASxITpl2jQ'

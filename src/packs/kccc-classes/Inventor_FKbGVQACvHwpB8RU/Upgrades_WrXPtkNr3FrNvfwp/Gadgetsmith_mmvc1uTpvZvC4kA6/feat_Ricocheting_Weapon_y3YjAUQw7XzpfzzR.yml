@@ -1,0 +1,107 @@
+name: Ricocheting Weapon
+type: feat
+img: icons/weapons/thrown/shuriken-double-red.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 206250
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.RbTNVi6F2PRU4Dta]{Ricocheting
+      Weapon}</p><p>You create a thrown melee weapon enchanted or engineered to
+      ricochet off its targets and return to your hand. You have proficiency
+      with this weapon, which has a normal range of 30 feet and a long range of
+      90 feet, and it has the finesse and thrown properties, as well as the
+      special property (described below). It deals 1d8 bludgeoning, piercing, or
+      slashing damage on a hit (your choice when you choose this upgrade). You
+      can Arcane Retrofit this weapon.</p><p><strong>Special.</strong> When this
+      weapon is thrown, you can target two creatures within 10 feet of each
+      other, making a separate attack roll against each target; the damage dealt
+      by the attack is halved for each target hit after the first. In addition,
+      the weapon flies back to your hand immediately after the attack.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: '2'
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: 30
+    long: 90
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+    scale: false
+  ability: ''
+  actionType: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8 + @mod
+        - slashing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  properties:
+    - fin
+    - ret
+    - thr
+  type:
+    value: class
+    subtype: upgrade
+  attack:
+    bonus: ''
+    flat: false
+  enchantment: null
+  summons: null
+  prerequisites:
+    level: 1
+  requirements: Gadgetsmith 1
+  recharge:
+    value: null
+    charged: false
+  identifier: ricocheting-weapon
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  coreVersion: '13.344'
+  createdTime: 1721837383546
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.zJETR4oJfKO2cl6L
+  duplicateSource: null
+  exportSource: null
+_id: y3YjAUQw7XzpfzzR
+_key: '!items!y3YjAUQw7XzpfzzR'

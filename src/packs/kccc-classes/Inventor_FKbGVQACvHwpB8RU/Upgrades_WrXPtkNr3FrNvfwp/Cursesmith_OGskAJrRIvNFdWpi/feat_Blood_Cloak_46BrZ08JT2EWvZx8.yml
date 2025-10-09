@@ -1,0 +1,45 @@
+name: Blood Cloak
+type: feat
+img: icons/equipment/back/cloak-collared-red-silver.webp
+effects: []
+folder: OGskAJrRIvNFdWpi
+sort: 3200000
+flags:
+  core: {}
+_id: 46BrZ08JT2EWvZx8
+system:
+  description:
+    value: "<p><em>(You can only wear 1 cloak at a time.)</em></p>\n<p><em>Attunement, Cursed</em></p>\n<p>You forge a blood-red cloak that drinks blood to empower you. Unfortunately, mostly your blood. When you take damage from slashing or piercing damage while below half of your maximum hit points, you gain temporary hit points equal to half the damage taken (after taking the damage). If you hit a creature while you have temporary hit points, you can expend them, adding them to your damage roll.</p>\n<p>Curse: If you are healed while you have temporary hit points, the temporary points are lost and the healing is reduced by the\_</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Cursesmith 11
+  prerequisites:
+    level: 11
+  identifier: blood-cloak
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.AhJyVnXaPOS67ELF
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385667022
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!46BrZ08JT2EWvZx8'

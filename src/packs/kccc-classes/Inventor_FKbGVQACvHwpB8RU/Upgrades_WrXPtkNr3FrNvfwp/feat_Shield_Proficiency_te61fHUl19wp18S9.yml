@@ -1,0 +1,58 @@
+_id: te61fHUl19wp18S9
+name: Shield Proficiency
+type: feat
+img: icons/equipment/shield/heater-wooden-steel-boss.webp
+effects: []
+folder: WrXPtkNr3FrNvfwp
+sort: 200000
+flags:
+  core: {}
+system:
+  description:
+    value: <p>You gain proficiency with shields.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Inventor 3
+  prerequisites:
+    level: 3
+  identifier: shield-proficiency
+  activities: {}
+  enchant: {}
+  properties: []
+  advancement:
+    - type: Trait
+      _id: 9G4PkyeX5qSXLCoG
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - armor:shl
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.8YgTNNf33q3QaXUP
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  createdTime: 1726385715632
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!te61fHUl19wp18S9'

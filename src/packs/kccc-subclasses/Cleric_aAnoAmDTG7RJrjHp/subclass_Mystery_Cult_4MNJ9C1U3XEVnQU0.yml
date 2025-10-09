@@ -1,0 +1,146 @@
+name: Mystery Cult
+type: subclass
+img: icons/magic/unholy/silhouette-robe-evil-power.webp
+effects: []
+folder: aAnoAmDTG7RJrjHp
+sort: 100000
+flags:
+  core: {}
+_id: 4MNJ9C1U3XEVnQU0
+_stats:
+  compendiumSource: Item.m6LeA1nmTd2lAlHN
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1726385613807
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: "<p>While most clerics follow defined gods who seek to convert others to the cause, those of the Mystery Cults often intentionally obscure their faith with esoteric references and cloaked intentions. No less devoted than their more classically divine peers, they are not merely warlocks, but people of true faith in their dark and unknown deities.</p><p>Standing at the blasphemous confluence of divine and psionic power, they are almost universally condemned and feared, often shrouding their nature and abilities with mystery and working toward esoteric goals.\_</p><hr /><p>The following are some optional quirks for a player of the Mystery Cult. You can optionally roll or select a quirk that suits your character</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.2pN5lYf9blJ6qsIm]</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  identifier: mystery-cult
+  classIdentifier: cleric
+  advancement:
+    - _id: jtypmwgtb3cakg2b
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.waTL1pqaSFW0Ruvo
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.aCH2YQhHrtQ0K0UT
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.nZ0YafnvBd4AxVOQ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Features
+    - _id: 4ypnlwr8skxaxk3p
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.9nF4GNAlQVGpFlo4
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Features
+      icon: null
+    - _id: ndrhmfyb0ou587ik
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.mm6gL6Me8EungheR
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 8
+      title: Features
+      icon: null
+    - _id: qerhbew87vy4k75a
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.npUI9B9WROiQYaLa
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Features
+      icon: null
+    - _id: eTSIsL9CHmY57xBY
+      type: ItemChoice
+      configuration:
+        choices:
+          '6':
+            count: 1
+            replacement: false
+          '10':
+            count: 1
+            replacement: false
+          '14':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: feat
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.KpwfHN5EyEuY8E35
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.YQfzp3I5KpmPL3ag
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.zAVem8cMJiOTULQ4
+        spell: null
+        restriction:
+          type: class
+          subtype: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Esoteric Rites
+      hint: >-
+        Starting at 6th level, you can develop your faith in one of the
+        following ways, unlocking special powers as a reward for your
+        conviction. You select one of the following features. You can select
+        additional Esoteric Rites at 10th and 14th levels.
+      icon: null
+    - _id: pk4bRvldi6C5rsgn
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - di:psychic
+        choices: []
+      value:
+        chosen: []
+      level: 17
+      title: Dark Truths
+      hint: You are immune to psychic damage
+      icon: null
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+_key: '!items!4MNJ9C1U3XEVnQU0'

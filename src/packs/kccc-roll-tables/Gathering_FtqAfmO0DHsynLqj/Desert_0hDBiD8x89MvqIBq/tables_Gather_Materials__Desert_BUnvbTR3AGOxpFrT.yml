@@ -1,0 +1,172 @@
+folder: 0hDBiD8x89MvqIBq
+name: 'Gather Materials: Desert'
+img: icons/environment/wilderness/terrain-rocky-ground.webp
+description: >-
+  <p>Materials can be harvested with your choice of a Strength, Dexterity, or
+  Wisdom check. If you have proficiency with the Survival skill, you can add
+  your proficiency bonus to the roll.</p><p>[[/check ability=str skill=sur
+  dc=10]]</p><p>[[/check ability=dex skill=sur dc=10]]</p><p>[[/check
+  ability=wis skill=sur dc=10]]</p>
+results:
+  - type: text
+    weight: 20
+    range:
+      - 1
+      - 20
+    drawn: false
+    _id: RxJrDpn4ND8OR0bk
+    img: icons/svg/cancel.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: —
+    name: ''
+    _key: '!tables.results!BUnvbTR3AGOxpFrT.RxJrDpn4ND8OR0bk'
+  - type: text
+    weight: 20
+    range:
+      - 21
+      - 40
+    drawn: false
+    _id: RZMvxcewmEPIrWv4
+    img: icons/commodities/leather/scales-white.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      [[1d12]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.EmcLtMkqWLmXhZf4]{Scales}
+    name: ''
+    _key: '!tables.results!BUnvbTR3AGOxpFrT.RZMvxcewmEPIrWv4'
+  - type: text
+    weight: 20
+    range:
+      - 41
+      - 60
+    drawn: false
+    _id: HKmEeAvXZD7eHIv5
+    img: icons/commodities/biological/shell-turtle-grey.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.llWxtgWRAT8yLnAa]{Medium
+      Carapace}
+    name: ''
+    _key: '!tables.results!BUnvbTR3AGOxpFrT.HKmEeAvXZD7eHIv5'
+  - type: document
+    weight: 20
+    range:
+      - 61
+      - 80
+    drawn: false
+    _id: m6Vdb0BwewScndOg
+    img: icons/commodities/biological/shell-ridged-blue.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Large Carapace
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.mfhnits1GDktVZEb
+    description: ''
+    _key: '!tables.results!BUnvbTR3AGOxpFrT.m6Vdb0BwewScndOg'
+  - type: document
+    weight: 15
+    range:
+      - 81
+      - 95
+    drawn: false
+    _id: diCpceKjhSFKl8aI
+    img: icons/consumables/drinks/wine-amphora-clay-red.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Rare Supplies
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.QldzlEKZe8VNcEv5
+    description: ''
+    _key: '!tables.results!BUnvbTR3AGOxpFrT.diCpceKjhSFKl8aI'
+  - type: document
+    weight: 5
+    range:
+      - 96
+      - 100
+    drawn: false
+    _id: ECBAqP7rRSbL2wWz
+    img: icons/commodities/materials/slime-thick-blue.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Arcane Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.LkEj679XBcRmkAdK
+    description: ''
+    _key: '!tables.results!BUnvbTR3AGOxpFrT.ECBAqP7rRSbL2wWz'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733861709842
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+formula: 1d100
+_id: BUnvbTR3AGOxpFrT
+_key: '!tables!BUnvbTR3AGOxpFrT'

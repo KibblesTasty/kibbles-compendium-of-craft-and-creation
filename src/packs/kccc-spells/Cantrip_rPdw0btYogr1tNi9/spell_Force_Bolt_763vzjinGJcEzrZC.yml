@@ -1,0 +1,170 @@
+name: Force Bolt
+type: spell
+img: icons/magic/light/projectile-flare-blue.webp
+effects: []
+folder: rPdw0btYogr1tNi9
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: 763vzjinGJcEzrZC
+system:
+  description:
+    value: >-
+      <p>You hurl a mote of arcane energy at a creature or object within range.
+      Make a ranged spell attack against the target. On a hit, the target takes
+      [[/damage 2d4 force]] damage.</p>
+
+      <p>This spell's damage increases by [[/r 2d4]] when you reach 5th level
+      ([[/r 4d4]]), 11th level ([[/r 6d4]]), and 17th level ([[/r 8d4]]).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: rsak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d4
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 0
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 2d4
+  properties:
+    - vocal
+    - somatic
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: 2
+            denomination: 4
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 2
+              formula: ''
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.dMgITTAszH3Pf59M
+  duplicateSource: null
+  exportSource: null
+_key: '!items!763vzjinGJcEzrZC'

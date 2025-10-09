@@ -1,0 +1,133 @@
+_id: 6lj4gCsWkLVlFpn2
+name: Frostbloom Reaction
+type: feat
+img: icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: 37500
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>As an action, you can produce an instant reaction, throwing a
+      combination of devastating, endothermically reactive reagents at a point
+      within 20 feet of you, which causes a bloom of ice to erupt. The area
+      within 5 feet of that point becomes difficult terrain until the end of
+      your next turn.</p>
+
+      <p>Each creature in the area must succeed on a Dexterity saving throw
+      against your spell save DC or be caught by the ice, taking 1d6 cold
+      damage. If a creature that fails its saving throw is entirely in the area
+      of effect, it becomes restrained until the end of its next turn. A
+      restrained creature can use its action to make a Strength saving throw
+      against your spell save DC, ending the effect on itself on a success.</p>
+
+      <p>The damage increases by 1d6 when you reach 5th level (2d6), 11th level
+      (3d6), and 17th level (4d6).</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 3
+  prerequisites:
+    level: 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: round
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '20'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '5'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - cold
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: dex
+        dc:
+          calculation: int
+          formula: ''
+      sort: 0
+  identifier: frostbloom-reaction
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.VWerRFYq04tgCduC
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385669312
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!6lj4gCsWkLVlFpn2'

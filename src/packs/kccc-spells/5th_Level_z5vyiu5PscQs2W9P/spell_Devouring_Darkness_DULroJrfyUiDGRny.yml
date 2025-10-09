@@ -1,0 +1,171 @@
+name: Devouring Darkness
+type: spell
+img: icons/magic/unholy/energy-smoke-pink.webp
+effects: []
+folder: z5vyiu5PscQs2W9P
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: DULroJrfyUiDGRny
+system:
+  description:
+    value: >-
+      <p>Dark tendrils burst out from you in all directions. Creatures of your
+      choice within must make a Constitution saving throw. On failure, they take
+      [[/damage 6d8 necrotic]] damage, and you can move them in a straight line
+      to within 5 feet of you if there is an empty space they can be pulled to.
+      On success, they take half as much damage and are not moved.</p>
+
+      <p>You regain hit points equal to one quarter (rounded down) of the
+      necrotic damage taken by all targets effected by the spell.</p>
+
+      <p><em><strong>At Higher Levels</strong></em>. When you cast this spell
+      using a spell slot of 6th level or higher, the damage increases by 1d8 for
+      each slot level above 5th.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 6d8
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 5
+  school: nec
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 6
+            denomination: 8
+            bonus: ''
+            types:
+              - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.8uvZYyv3Saz2F8Gt
+  duplicateSource: null
+  exportSource: null
+_key: '!items!DULroJrfyUiDGRny'

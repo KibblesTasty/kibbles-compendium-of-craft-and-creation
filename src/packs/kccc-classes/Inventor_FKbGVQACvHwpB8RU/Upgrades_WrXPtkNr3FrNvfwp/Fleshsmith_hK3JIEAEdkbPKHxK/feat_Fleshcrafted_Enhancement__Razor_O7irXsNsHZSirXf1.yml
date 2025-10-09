@@ -1,0 +1,55 @@
+name: 'Fleshcrafted Enhancement: Razor'
+type: feat
+img: icons/creatures/claws/claw-talons-glowing-purple.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 1600000
+flags:
+  core: {}
+_id: O7irXsNsHZSirXf1
+system:
+  description:
+    value: >-
+      <p><strong>Qualified Mutations:</strong> Extra Fangs, Extra Claws</p>
+
+      <p><strong>Effect:</strong> The damage die of your natural weapon becomes
+      one step higher (for example, Extra Fangs go from 1d10 to 1d12).</p>
+
+      <p><strong>Empowered Effect: </strong>You can maximize one die of your
+      choice after rolling damage for this mutation.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshcrafted Enhancement
+  identifier: fleshcrafted-enhancement-razor
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    items:
+      - extra-fangs
+      - extra-claws
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.MuIFP8wvwZlCI0JN
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385695491
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!O7irXsNsHZSirXf1'

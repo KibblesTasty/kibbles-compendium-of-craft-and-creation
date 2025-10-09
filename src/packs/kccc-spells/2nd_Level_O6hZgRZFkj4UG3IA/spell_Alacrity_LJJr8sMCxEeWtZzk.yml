@@ -1,0 +1,199 @@
+name: Alacrity
+type: spell
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+effects:
+  - _id: l7MKPrmjuhsi1b4K
+    changes:
+      - key: system.attributes.ac.value
+        mode: 2
+        value: '+2'
+        priority: null
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '+30'
+        priority: null
+      - key: system.attributes.dex.save.roll.mode
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      rounds: 1
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: Item.coP7ErmmTpTuxEfT
+    transfer: true
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Alacrity
+    img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
+    _key: '!items.effects!LJJr8sMCxEeWtZzk.l7MKPrmjuhsi1b4K'
+folder: O6hZgRZFkj4UG3IA
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: LJJr8sMCxEeWtZzk
+system:
+  description:
+    value: >-
+      <p>Until the start of your next turn, your speed is doubled, you gain a +2
+      bonus to AC, you have advantage on Dexterity saving throws, and you gain
+      an additional action. That action can be used only to take the Attack (one
+      weapon attack only), Dash, Disengage, Hide, or Use an Object action.</p>
+
+      <p>If you are under the effect of <em>haste</em>, you gain no benefit from
+      this spell.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: round
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+    affects:
+      special: ''
+    template:
+      type: ''
+  range:
+    value: null
+    long: null
+    units: self
+    special: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 2
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.3.8
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.coP7ErmmTpTuxEfT
+  duplicateSource: null
+  exportSource: null
+_key: '!items!LJJr8sMCxEeWtZzk'

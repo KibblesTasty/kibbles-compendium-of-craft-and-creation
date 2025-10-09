@@ -1,0 +1,108 @@
+name: The Contraption
+type: feat
+img: icons/magic/symbols/runes-carved-stone-green.webp
+effects: []
+folder: UoEmzJUuHffx4QzF
+sort: 200000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
+_id: xYoCyuI3tJkTPACc
+_stats:
+  compendiumSource: Item.1G2xcgPLrSQe7tDu
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385616785
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: "<p>At 1st level, you gain access to a device granted to by your patron that grants some access to their vast knowledge, systems, and power. Your contraption is a Tiny object, and you can use it as a spellcasting focus for your warlock spells.</p><p>If the contraption is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron.\_</p><p>This ceremony can be performed during a short or long rest, and the previous contraption is destroyed if it still exists. The contraption may vanish in a flash of light when you die.</p><blockquote><p><strong>Form of the Contraption</strong></p><p>The form of your contraption can vary based on your selection of pact, perhaps even adapting with its alien technology to suit your pact choice, taking the form of an exotic alien weapon, data storage device, or even unique familiar for Pact of the Chain (a GM can allow you to select \"Construct\" as the creature type of your familiar, for example, or consider if the contraption is perhaps the source of your eldritch blast or other Warlock magical effects.</p></blockquote><p>While you are possession of the contraption, you gain the following benefits:</p><h4><strong>Autocaster</strong></h4><p>Your contraption serves as a repository for additional spells. At the end of a long rest, you can store spells from your Expanded Spell List, or any spell of the divination school of magic that is of a level you could cast. You can have a combined\_ prepared level of spells equal to your proficiency bonus (for example, at 5th level when your proficiency bonus is +3, you can have it store three 1st-level spells, or one 3rd-level spell).</p><p>Each spell stored in the Autocaster can be cast without expending a warlock spell slot to cast the spell once, after which you can’t cast it without expending a spell slot again until you finish a long rest. You can cast the spell stored again before finishing a long rest by expending a warlock spell slot of equal or greater level to the stored spell.</p><h4><strong>Firing Solution</strong></h4><p>Your contraption begins to develop the best way to hit a target. While you possess your contraption, you can use it to cast true strike. You can accelerate the calculations and cast @UUID[Compendium.dnd5e.spells.Item.mGGlcLdggHwcL7MG]{true strike} as a bonus action a number of times equal to your Spellcasting modifier. When you cast true strike using your contraption, it doesn’t require concentration.</p><p>You can do this a number of times equal to your spellcasting ability modifier before you must finish a long rest to do so again.</p><p>\_</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '@abilities.int.mod'
+    spent: 0
+    recovery: []
+  requirements: The Ancient Intelligence 1
+  type:
+    value: class
+    subtype: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: the-contraption
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_key: '!items!xYoCyuI3tJkTPACc'

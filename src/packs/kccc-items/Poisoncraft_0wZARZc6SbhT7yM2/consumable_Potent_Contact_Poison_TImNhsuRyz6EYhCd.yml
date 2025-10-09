@@ -1,0 +1,91 @@
+name: Potent Contact Poison
+type: consumable
+img: icons/magic/acid/dissolve-bone-skull.webp
+effects: []
+folder: 0wZARZc6SbhT7yM2
+sort: 900000
+flags:
+  core: {}
+_id: TImNhsuRyz6EYhCd
+system:
+  description:
+    value: >-
+      <p><em>Poison, uncommon</em></p>
+
+      <p>Applied to an object. The first creature that touches that object after
+      it is applied must make a Constitution saving throw with a DC equal to the
+      crafter's Poison DC.</p>
+
+      <p>On failure, they take 4d4 Poison damage and become Poisoned for 1 hour.
+      At the end of a poisoned creature’s turn, it can repeat the saving throw,
+      ending the condition on success.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  quantity: 1
+  weight: 0.1
+  price: 100
+  attunement: 0
+  equipped: false
+  rarity: uncommon
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+  type:
+    value: poison
+    subtype: contact
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.wmqWYRQdxIp8dlXU
+  duplicateSource: null
+  exportSource: null
+_key: '!items!TImNhsuRyz6EYhCd'

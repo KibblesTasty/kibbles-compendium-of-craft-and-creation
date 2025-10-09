@@ -1,0 +1,53 @@
+name: Purifier Rounds
+type: feat
+img: icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp
+effects: []
+folder: 6RbJFAVpFkze0lLy
+sort: 198438
+flags:
+  core: {}
+_id: qnhFQsGbpIqlelz8
+system:
+  description:
+    value: >-
+      <p>You can make a number of pieces of ammunition equal to your
+      Intelligence modifier imbued with special divine power. On hit, these
+      rounds do deal an extra [[/damage 1d6 radiant]] damage. If the creature is
+      undead or a fiend and the damage from this round reduces its hit points to
+      a number less than your Inventor level, it has to make a Charisma saving
+      throw. On failure, it dies and explodes to ash.</p>
+
+      <p>You can replenish any spent rounds after a long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Relicsmith 9
+  prerequisites:
+    level: 9
+  identifier: purifier-rounds
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.eQDngMTFbK3mQR25
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385713776
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!qnhFQsGbpIqlelz8'

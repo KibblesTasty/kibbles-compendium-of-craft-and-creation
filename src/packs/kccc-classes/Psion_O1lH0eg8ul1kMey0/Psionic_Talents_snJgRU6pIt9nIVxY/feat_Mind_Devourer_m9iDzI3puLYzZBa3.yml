@@ -1,0 +1,51 @@
+_id: m9iDzI3puLYzZBa3
+name: Mind Devourer
+type: feat
+img: icons/magic/control/fear-fright-monster-grin-purple-blue.webp
+effects: []
+folder: snJgRU6pIt9nIVxY
+sort: 143750
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You gain the ability to cast
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.WwGEJqANVTHASfIB]{Psychic
+      Drain} for 2 psi points. Additionally, whenever a creature within 10 feet
+      of you with an Intelligence score of 6 or higher dies, you can expend your
+      reaction to draw in its psionic power, regaining 1d4 hit points and 1
+      expended psi point.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Psion 5
+  prerequisites:
+    level: 5
+  identifier: mind-devourer
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.dlK98lzUxqiDh8pc
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385710147
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!m9iDzI3puLYzZBa3'

@@ -1,0 +1,868 @@
+_id: ls6BHGwEG6dAnuat
+name: Ironwrought Soldier
+type: npc
+img: >-
+  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Ironwrought.png
+items:
+  - _id: X2ngWMkL1MMhuEy9
+    name: Ironwrought Fortitude
+    type: feat
+    img: icons/equipment/chest/breastplate-layered-steel-grey.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Ironwrought Fortitude.</strong> If damage reduces the
+          soldier to 0 hit points, it must make a Constitution saving throw with
+          a DC of 5 + the damage taken, unless the damage is lightning or from a
+          critical hit. On a success, the soldier drops to 1 hit point
+          instead.</p>
+        chat: ''
+        unidentified: ''
+      source: KCCC
+      activation:
+        type: ''
+        cost: null
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ls6BHGwEG6dAnuat.X2ngWMkL1MMhuEy9'
+  - _id: 8jK0kquAsutBtjH3
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
+    effects: []
+    folder: null
+    sort: -200000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.094090din8bu19vk
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: <p><strong>Multiattack. </strong>The soldier makes two attacks.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: 0
+    _key: '!actors.items!ls6BHGwEG6dAnuat.8jK0kquAsutBtjH3'
+  - _id: SbpwbNKDRqFUl7Hg
+    name: Vigilant Sentinel
+    type: feat
+    img: icons/weapons/polearms/spear-flared-bronze-teal.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Vigilant Sentinel.</strong> When the soldier is holding its
+          bladed warstaff, other creatures provoke an opportunity attack from it
+          when they move 5 feet or more while within 10 feet of it, or when they
+          hit it with an attack while within its reach.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: reaction
+        cost: 1
+        condition: >-
+          A creature moves 5 feet or more while within 10 feet of it, or when
+          they hit it with an attack while within its reach.
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ls6BHGwEG6dAnuat.SbpwbNKDRqFUl7Hg'
+  - _id: ktxyECMmNZt93yqs
+    name: Bladed Warstaff
+    type: feat
+    img: icons/weapons/polearms/spear-flared-bronze-teal.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: "<p><em><strong>Bladed Warstaff. </strong>Melee Weapon Attack:</em> +5 to hit, reach 10 ft., one target. <em>Hit: </em>10 (3d4 + 3) slashing damage.\_</p>"
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 10
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 3d4 + @mod
+            - piercing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ls6BHGwEG6dAnuat.ktxyECMmNZt93yqs'
+  - _id: GdxUG9ofTcihm9LI
+    name: Energy Staff
+    type: feat
+    img: icons/magic/light/beam-rays-teal.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><em><strong>Energy Staff. </strong>Ranged Weapon Attack: </em>+4 to
+          hit, range 60/120 ft., one target.<em> Hit: </em>5 (1d6 + 2) force
+          damage.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: 120
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: int
+      actionType: rsak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d6 + @mod
+            - force
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ls6BHGwEG6dAnuat.GdxUG9ofTcihm9LI'
+effects: []
+folder: jG9BbIMFuylsAyj7
+sort: 200000
+flags:
+  core: {}
+system:
+  abilities:
+    str:
+      value: 16
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 12
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 16
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 14
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 14
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 1
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+  attributes:
+    ac:
+      flat: null
+      calc: custom
+      formula: '16'
+    hp:
+      value: 45
+      min: 0
+      max: 45
+      temp: 0
+      tempmax: 0
+      formula: 6d8 + 18
+    init:
+      value: 0
+      bonus: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 30
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 60
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: ''
+    spellcasting: int
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: Unaligned
+    race: ''
+    type:
+      value: construct
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 4
+    spellLevel: 0
+    xp:
+      value: 10
+    source:
+      book: KCCC
+      custom: ''
+  traits:
+    size: med
+    di:
+      value:
+        - poison
+        - psychic
+      custom: ''
+    dr:
+      value: []
+      custom: >-
+        bludgeoning, piercing, and slashing from nonmagical attacks that aren’t
+        adamantine
+    dv:
+      value: []
+      custom: ''
+    ci:
+      value:
+        - charmed
+        - exhaustion
+        - frightened
+        - petrified
+        - poisoned
+      custom: ''
+    languages:
+      value:
+        - common
+      custom: one language known by its creator
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+  source:
+    rules: '2014'
+ownership:
+  default: 0
+prototypeToken:
+  name: Ironwrought Soldier
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  disposition: -1
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  flags:
+    splatter:
+      bloodColor: ''
+  randomImg: false
+  texture:
+    src: >-
+      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Ironwrought.png
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+    color: null
+  appendNumber: false
+  prependAdjective: false
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Actor.GJ5jlaIUDcnsIOcF
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!ls6BHGwEG6dAnuat'

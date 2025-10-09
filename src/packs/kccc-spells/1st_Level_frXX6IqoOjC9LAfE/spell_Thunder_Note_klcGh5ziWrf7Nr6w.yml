@@ -1,0 +1,167 @@
+name: Thunder Note
+type: spell
+img: icons/magic/sonic/bell-alarm-red-purple.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: klcGh5ziWrf7Nr6w
+system:
+  description:
+    value: >-
+      <p>You emit a crashing bang with a localized point of intensity targeting
+      a creature within range. The target must succeed on a Constitution saving
+      throw or take [[/damage 1d8 thunder]] damage and become deafened until the
+      start of their next turn. Constitution saving throws to maintain
+      concentration on spells triggered by this damage are made with
+      disadvantage.</p><p>This spell's damage increases by 1d8 when you reach
+      5th level ([[/damage 2d8 thunder]]), 11th level ([[/damage 3d8 thunder]]),
+      and 17th level ([[/damage 4d8 thunder]]).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts:
+      - - 1d8
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 1
+  school: abj
+  components:
+    vocal: false
+    somatic: false
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - thunder
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.4ayHkFUO9RtRNPob
+  duplicateSource: null
+  exportSource: null
+_key: '!items!klcGh5ziWrf7Nr6w'

@@ -1,0 +1,307 @@
+name: Returning Weapon
+type: spell
+img: icons/weapons/thrown/shuriken-triple-purple.webp
+effects:
+  - name: Returning Weapon
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    _id: mhKPVwYEdOdjFTpD
+    changes:
+      - key: system.properties
+        mode: 2
+        value: ret
+        priority: null
+      - key: system.properties
+        mode: 2
+        value: thr
+        priority: null
+      - key: system.properties
+        mode: 2
+        value: mgc
+        priority: null
+      - key: system.range.value
+        mode: 2
+        value: '20'
+        priority: null
+      - key: system.range.long
+        mode: 2
+        value: '60'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span style="font-family:Signika, sans-serif">You touch a weapon
+      granting it the throwing 20/60 property. If it already has the thrown
+      property, it's range increases by 20/60. It also gains the "returning"
+      property. After being thrown it automatically reappears in the throwers
+      hand.</span></p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/weapons/thrown/shuriken-triple-purple.webp
+    type: base
+    system: {}
+    sort: 0
+    _key: '!items.effects!IxRbUdf15dilvPfW.mhKPVwYEdOdjFTpD'
+  - type: enchantment
+    name: Returning Weapon
+    img: icons/weapons/thrown/shuriken-triple-purple.webp
+    disabled: true
+    _id: NQkihX6l3YNuN4c0
+    system: {}
+    changes: []
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.2.2
+      createdTime: 1737864443068
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!IxRbUdf15dilvPfW.NQkihX6l3YNuN4c0'
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: IxRbUdf15dilvPfW
+system:
+  description:
+    value: >-
+      <p>You touch a weapon granting it the throwing 20/60 property. If it
+      already has the thrown property, it's range increases by 20/60. It also
+      gains the "returning" property. After being thrown it automatically
+      reappears in the throwers hand.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 24
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+    affects:
+      special: ''
+    template:
+      type: ''
+  range:
+    value: null
+    long: null
+    units: touch
+    special: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ench
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  enchantment:
+    restrictions:
+      allowMagical: true
+      type: ''
+  properties:
+    - vocal
+    - somatic
+  activities:
+    i0Cn1IwnzjJO4a3c:
+      type: enchant
+      _id: i0Cn1IwnzjJO4a3c
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: NQkihX6l3YNuN4c0
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant: {}
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: weapon
+      name: ''
+      img: ''
+      appliedEffects:
+        - NQkihX6l3YNuN4c0
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: enchant
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: mhKPVwYEdOdjFTpD
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+            activity: []
+            item: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      enchant:
+        identifier: ''
+      restrictions:
+        allowMagical: true
+        type: ''
+        categories: []
+        properties: []
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: 1721351321060
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.4SZAods2ts8OCJDe
+  duplicateSource: null
+  exportSource: null
+_key: '!items!IxRbUdf15dilvPfW'

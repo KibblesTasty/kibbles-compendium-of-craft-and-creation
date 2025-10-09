@@ -1,0 +1,124 @@
+_id: MHfAuIMJvLEkLj5e
+name: Harsh Chord
+type: feat
+img: icons/magic/sonic/explosion-shock-sound-wave.webp
+effects: []
+folder: SxopjqB8iAgRkb6p
+sort: 200000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.NWxQIg3aK9bIALpo
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385614829
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, as an action you can expend one use of your
+      Bardic Inspiration to play a powerful chord that sweeps outward. Each
+      creature of your choice within 20 feet of you must make a Constitution
+      saving throw. A creature takes thunder damage equal to your bardic
+      inspiration die + your bard level on a failed saving throw, and half as
+      much damage on a successful one. Constitution saving throws to maintain
+      concentration on spells triggered by this damage are made with
+      disadvantage.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  requirements: College of Thunder 3
+  type:
+    value: class
+    subtype: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '20'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types:
+              - thunder
+            custom:
+              enabled: true
+              formula: 1@scale.bard.inspiration @classes.bard.levels
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: ''
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: harsh-chord
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_key: '!items!MHfAuIMJvLEkLj5e'

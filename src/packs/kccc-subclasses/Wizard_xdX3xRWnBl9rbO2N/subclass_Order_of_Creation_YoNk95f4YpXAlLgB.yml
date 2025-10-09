@@ -1,0 +1,129 @@
+name: Order of Creation
+type: subclass
+img: icons/commodities/tech/cog-copper.webp
+effects: []
+folder: xdX3xRWnBl9rbO2N
+sort: 100000
+flags:
+  core: {}
+_id: YoNk95f4YpXAlLgB
+_stats:
+  compendiumSource: Item.u46PukhPRpO1SVYR
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1726385615693
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: >-
+      <p>Wizards that belong to this order of thought seek to advance the
+      application of magic through the merging of mechanical and magical pieces.
+      They share much in common with Inventors in mind set, but delve deeper
+      into the knowledge of magic, relying more heavily on it to power their
+      mechanical inventions, and in turn creating mechanical inventions that
+      more primarily serve to further their magic.</p><p>They often seek to look
+      beyond tradition and common knowledge, to seek out new spells and new ways
+      of doing things. The value of new research and new technology is often
+      more than dusty old tomes unless those dusty old tomes contain secrets of
+      those who had reached the heights they seek in ages gone by.</p><hr
+      /><p>The following are some optional quirks for a player that selects
+      Order of Creation. You can optionally roll or select a quirk that suits
+      your
+      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.3l2gMlS4LjvTW6y5
+      rollable]</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  identifier: order-of-creation
+  classIdentifier: wizard
+  advancement:
+    - _id: 50fludl0a7poeb7y
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.8r8HBpLe6f89acUd
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.BXZ8dPL4xhSj8pjc
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Kp78cO7nACGMSCcM
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Features
+      icon: null
+    - _id: g0diwjibx6reb78t
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.snwAFtlvFuw2LN35
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.FNpVKiR9Keb1bFqB
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Features
+      icon: null
+    - _id: 2d1w4l9kln6cnyei
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.6N7lE7LYN6l1ahWD
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Features
+      icon: null
+    - _id: 5fv56pg3mte2dxa2
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.QJY54eYWLXM2dB9r
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Features
+      icon: null
+    - _id: 4NZJAH9d3CfA880G
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - tool:art:tinker
+        choices: []
+      value:
+        chosen: []
+      level: 2
+      title: Crafting Fundamentals
+      hint: ''
+      icon: null
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+_key: '!items!YoNk95f4YpXAlLgB'

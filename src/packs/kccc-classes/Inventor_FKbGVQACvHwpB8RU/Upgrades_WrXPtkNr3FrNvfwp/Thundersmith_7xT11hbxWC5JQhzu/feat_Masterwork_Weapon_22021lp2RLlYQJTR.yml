@@ -1,0 +1,52 @@
+_id: 22021lp2RLlYQJTR
+name: Masterwork Weapon
+type: feat
+img: icons/weapons/guns/rifle-brown.webp
+effects: []
+folder: 7xT11hbxWC5JQhzu
+sort: -112500
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Weapon Improvement)</em></p>
+
+      <p>The bonus to attack and damage rolls for your Stormforged Weapon
+      increases by +2 (stacking with any existing bonus from Weapon Improvement
+      or Arcane Retrofit), up to a maximum of +4.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Thundersmith 15
+  prerequisites:
+    level: 15
+    items:
+      - weapon-improvement
+  identifier: masterwork-weapon
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.wBzBMkwpK6nrfbn4
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385665460
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!22021lp2RLlYQJTR'

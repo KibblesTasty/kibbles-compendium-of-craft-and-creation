@@ -1,0 +1,141 @@
+name: Runic Sage
+type: feat
+img: icons/sundries/books/book-symbol-spiral-silver-blue.webp
+effects: []
+folder: lwPCtYsmQNxrSfic
+sort: -100000
+flags:
+  core: {}
+_id: BGdONN2FtLBpbg6C
+system:
+  description:
+    value: >-
+      <p>You gain the ability to invoke spells with the magical power of the
+      runes. You can use the runes you’ve marked to channel magic. You gain the
+      following spells based on which runes you currently have marked.</p>
+
+      <table style="width:100%" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center;width:39.3492%"><strong>Rune</strong></td>
+
+      <td style="text-align:center;width:43.4867%"><strong>Cantrip</strong></td>
+
+      <td style="text-align:center;width:17.1642%"><strong>Spell</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:39.3492%">Rune of Fire</td>
+
+      <td
+      style="text-align:center;width:43.4867%">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.M78OwzPvXD8KwbVN]{Burn}</td>
+
+      <td
+      style="text-align:center;width:17.1642%">@Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]{Burning
+      Hands}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:39.3492%">Rune of Lightning</td>
+
+      <td
+      style="text-align:center;width:43.4867%">@Compendium[dnd5e.spells.XvbiNhNqXXIFisIy]{Shocking
+      Grasp}</td>
+
+      <td
+      style="text-align:center;width:17.1642%">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.lNyTLkMuEYCGtDAf]{Lightning
+      Tendril}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:39.3492%">Rune of Power</td>
+
+      <td
+      style="text-align:center;width:43.4867%">@Compendium[dnd5e.spells.Bnn9Nzajixvow9xi]{Light}</td>
+
+      <td
+      style="text-align:center;width:17.1642%">@Compendium[dnd5e.spells.41JIhpDyM9Anm7cs]{Magic
+      Missile}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:39.3492%">Rune of Warding</td>
+
+      <td style="text-align:center;width:43.4867%">N/A</td>
+
+      <td
+      style="text-align:center;width:17.1642%">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.60h2h01A4iG2rQuk]{Freezing
+      Shell}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:39.3492%">Rune of Gravity</td>
+
+      <td style="text-align:center;width:43.4867%">N/A</td>
+
+      <td
+      style="text-align:center;width:17.1642%">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.LsN7VnOsd5yYTjze]{Fall}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:39.3492%">Rune of Blood</td>
+
+      <td style="text-align:center;width:43.4867%">N/A</td>
+
+      <td
+      style="text-align:center;width:17.1642%">@Compendium[dnd5e.spells.uUWb1wZgtMou0TVP]{Cure
+      Wounds}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Runesmith 3
+  identifier: runic-sage
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.f3FaQO8lUlAsEdwc
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385674611
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!BGdONN2FtLBpbg6C'

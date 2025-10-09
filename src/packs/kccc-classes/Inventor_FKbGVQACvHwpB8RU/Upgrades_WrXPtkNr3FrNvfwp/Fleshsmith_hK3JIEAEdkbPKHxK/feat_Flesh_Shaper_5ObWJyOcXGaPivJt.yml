@@ -1,0 +1,49 @@
+name: Flesh Shaper
+type: feat
+img: icons/skills/wounds/blood-cells-vessel-red-orange.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 374903
+flags:
+  core: {}
+_id: 5ObWJyOcXGaPivJt
+system:
+  description:
+    value: >-
+      <p>You gain the ability to cast
+      @Compendium[dnd5e.spells.h830iyqParFleNqR]{Clone} without expending a
+      spell slot. You still require material components. Once you cast this
+      spell, you can’t cast it again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 15
+  prerequisites:
+    level: 15
+  identifier: flesh-shaper
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.4mO3eQbQvb5aBfo8
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385668364
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!5ObWJyOcXGaPivJt'

@@ -1,0 +1,88 @@
+name: Dwarven Alcohol
+type: consumable
+img: icons/consumables/drinks/alcohol-jar-spirits-gray.webp
+effects: []
+folder: OIj2eu41aDq4PrlM
+sort: 200000
+flags:
+  core: {}
+_id: 7cvItNJLW6oGtPku
+system:
+  description:
+    value: >-
+      <p>Only dwarves really know if the name of this liquid explosive is a joke
+      or not, but must assume it is an acquired taste. An explosively flammable
+      liquid that comes in a flask, this flask can be splashed across a 5 foot
+      square within 5 feet. Once splashed, it can be ignited by 1 or more fire
+      or lightning damage. When ignited it explodes in a plume of fire, dealing
+      [[/damage 2d4 fire]] damage to all creatures within 5 feet of the
+      container, or within a square that has been soaked with it.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: special
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    autoDestroy: false
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d4
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.1Q3TgYz5lnp9eNmw
+  duplicateSource: null
+  exportSource: null
+_key: '!items!7cvItNJLW6oGtPku'

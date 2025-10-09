@@ -1,0 +1,54 @@
+_id: KmMCZ6Z46WtPjFcF
+name: Mutation Mixture
+type: feat
+img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: 43555
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You concoct an infused potion that can rapidly warp a creature’s body,
+      temporarily mutating it in extreme ways. You add the polymorph spell to
+      your list of available spells for your Alchemical Infusions. When a
+      creature consumes this infused potion, the spell has a duration of 1 hour,
+      but the creature that consumed it can end the effect early as an
+      action.</p>
+
+      <p>Once a creature consumes this infused potion, it can’t be affected by
+      the polymorph spell in this way again until it finishes a long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 13
+  prerequisites:
+    level: 13
+  identifier: mutation-mixture
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.zIi6VoCQkMhSwtOV
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385692864
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!KmMCZ6Z46WtPjFcF'

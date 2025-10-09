@@ -1,0 +1,56 @@
+_id: uKDFPZ5GniaxuNHM
+name: Spell-Trapping Ring
+type: feat
+img: icons/equipment/finger/ring-band-engraved-teal.webp
+effects: []
+folder: qdxFDNciGzMz3Uzf
+sort: 26466
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>At the end of a long rest, you can set a powerful magic into a
+      nonmagical ring you touch. You can use this ring to cast
+      @Compendium[dnd5e.spells.Ek45cBpVXvJdv1Qy]{Counterspell}without expending
+      a spell slot. When you cast
+      @Compendium[dnd5e.spells.Ek45cBpVXvJdv1Qy]{Counterspell} in this way and
+      it succeeds, the spell you countered is stored in the ring. You can cast
+      the stored spell from the ring without expending a spell slot, but that
+      spell fades if you don’t cast it before you finish a long rest.</p>
+
+      <p>Once you cast counterspell to store a spell in this ring, you can’t do
+      so again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Infusionsmith 9
+  prerequisites:
+    level: 9
+  identifier: spell-trapping-ring
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.R4iyKpoCBHZfDVMp
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385716117
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!uKDFPZ5GniaxuNHM'

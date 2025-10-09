@@ -1,0 +1,48 @@
+_id: RYborPmyguqIi2pK
+name: Arcane Resonance
+type: feat
+img: icons/commodities/tech/tube-chamber-lightning.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: 500000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You craft a magical essence connector and install it into your golem’s
+      core, allowing you and the golem to share certain magical effects. You can
+      make any spell you cast that targets only you also target your golem.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 3
+  prerequisites:
+    level: 3
+  identifier: arcane-resonance
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.vkWWnZOI43esmLe0
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385697695
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!RYborPmyguqIi2pK'

@@ -1,0 +1,229 @@
+name: Entomb
+type: spell
+img: icons/magic/water/barrier-ice-water-cube.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: L0QrRetzjScv7Toe
+system:
+  description:
+    value: >-
+      <p>You attempt to encase a Medium or smaller creature you can see within
+      ice. The creature must make a Strength saving throw or become
+      &amp;Reference[restrained] by ice for the duration. At the end of each of
+      its turns, the target takes 1d8 cold damage and can make another Strength
+      saving throw. On success, the spell ends on the target.</p><p>If the
+      creature takes more than 5 fire or bludgeoning damage from a single damage
+      roll while restrained, the ice breaks and the target is freed, ending the
+      spell for the target.</p><p><em><strong>At Higher Levels.
+      </strong></em>When you cast this spell using a spell slot of 2nd level or
+      higher, the damage increases by 1d8 for each slot level above 1st.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    affects:
+      special: ''
+    template:
+      type: ''
+  range:
+    value: 60
+    long: null
+    units: ft
+    special: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 1d8
+        - cold
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  level: 1
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: true
+  scaling:
+    mode: level
+    formula: 1d8
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  activities:
+    qEuT3mAZclU8iqjR:
+      type: save
+      _id: qEuT3mAZclU8iqjR
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: '8'
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              mode: whole
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - cold
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.PspUkLgiMGwy4MN7
+  duplicateSource: null
+  exportSource: null
+_key: '!items!L0QrRetzjScv7Toe'

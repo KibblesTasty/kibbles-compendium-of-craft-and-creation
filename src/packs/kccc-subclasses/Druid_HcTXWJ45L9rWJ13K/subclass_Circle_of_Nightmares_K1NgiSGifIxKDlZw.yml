@@ -1,0 +1,144 @@
+name: Circle of Nightmares
+type: subclass
+img: icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+effects: []
+folder: HcTXWJ45L9rWJ13K
+sort: 100000
+flags:
+  core: {}
+_id: K1NgiSGifIxKDlZw
+_stats:
+  compendiumSource: Item.0PB5PXCxWsW3A3DB
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.1
+  createdTime: 1726385614585
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: >-
+      <p>Druids are often thought of as the guardians of the natural order and
+      having a deep connection to the creatures of the land. Sometimes that
+      connection goes horribly wrong. A druid of this circle has found their
+      mind entangled with the horrors of the beyond, their natural connection to
+      nature and its beasts becoming warped by the dark dreams.</p><p>Druids of
+      this circle may be haunted by the terrors they see, but many simply find
+      their minds inoculated against the horror (perhaps by the touch of
+      madness). Some even treat twisted abominations with the same care other
+      druids might take to vicious and wild animals, treating them with
+      pragmatic understanding and empathy.</p><p>Sometimes their connection even
+      seems to be mutual.</p><hr /><p>The following are some optional quirks for
+      a player of the Circle of Nightmares. You can optionally roll or select a
+      quirk that suits your
+      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.KU3nLkOxQDPUqA8P
+      rollable]</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  identifier: circle-of-nightmares
+  classIdentifier: druid
+  advancement:
+    - _id: n175lfif21en2h8d
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Y1DBqnsojvLg5nVZ
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.qfBMRsUZsVrSztXi
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.WpORYIxtbMDo9w37
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.gLubc3p1gdmXjpMi
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Features
+      icon: null
+    - _id: po34i35aaho8f8co
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.YhMdwysD9liAku4O
+          - optional: false
+            uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.q4y6ERr3SBxm6zWt
+        optional: false
+        spell:
+          preparation: innate
+          uses:
+            max: '@prof'
+            per: lr
+            requireSlot: false
+          ability: []
+      value: {}
+      level: 6
+      title: Features
+      icon: null
+      hint: ''
+    - _id: cvqo77d0vlozfl39
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.vGyQlIm2agMXxVpa
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Features
+      icon: null
+    - _id: f94xldygjl64smv5
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.3V6iTZYYHViBenQY
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.eJSmdiyLEs0UOZ0R
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Features
+      icon: null
+    - _id: MNBrUmcGEroGJVQG
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 1
+          '10':
+            value: 2
+      value: {}
+      title: Mutation Damage
+      hint: Damage Dice for Eldritch Mutation attacks
+      icon: null
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+_key: '!items!K1NgiSGifIxKDlZw'

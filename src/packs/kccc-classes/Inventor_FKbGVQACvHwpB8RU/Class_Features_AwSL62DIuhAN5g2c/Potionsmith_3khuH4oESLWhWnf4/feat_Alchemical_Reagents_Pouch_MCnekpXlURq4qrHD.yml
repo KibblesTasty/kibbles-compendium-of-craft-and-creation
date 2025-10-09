@@ -1,0 +1,55 @@
+_id: MCnekpXlURq4qrHD
+name: Alchemical Reagents Pouch
+type: feat
+img: icons/containers/bags/pouch-leather-brown-green.webp
+effects: []
+folder: 3khuH4oESLWhWnf4
+sort: -100000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>At 1st level, you’ve acquired a pouch of useful basic reagents, much as
+      a wizard might carry a component pouch. You’ve tucked away things that
+      will come in handy, and can retrieve them as part of using an ability that
+      might require them. As long as you have this pouch on you, you can use the
+      potion-smith’s features. This pouch is considered to be alchemist’s
+      supplies for the purposes of crafting.</p>
+
+      <p>If you lose your reagent pouch, you can spend 50 gp to reacquire the
+      various stocks you need, or spend 1 full day gathering them from a natural
+      environment without expense.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Potionsmith 1
+  identifier: alchemical-reagents-pouch
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.sv1JYOiu0SpVNzgW
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385694084
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!MCnekpXlURq4qrHD'

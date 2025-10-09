@@ -1,0 +1,68 @@
+_id: TSfTiIQGoIrZ7EUi
+name: Full Manifestation
+type: feat
+img: icons/magic/water/elemental-water.webp
+effects: []
+folder: cqjnJoFctQh3NqRf
+sort: -100000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>Starting at 10th level, when you enter a primordial aspect, you can
+      expend 1 psi point to fully manifest that element, replacing the
+      primordial aspect with the following effect. If you are specialized in
+      that element, it doesn’t require a psi point to fully manifest the
+      power.</p>
+
+      <ul>
+
+      <li>Cold: Your speed becomes 0 until the end of your next turn, but you
+      have resistance to all damage types except fire and force.</li>
+
+      <li>Fire: Fire fills a 10-foot radius around you. When a creature enters
+      the area for the first time on a turn or starts its turn there, it takes
+      fire damage equal to 1d4 + your proficiency bonus.</li>
+
+      <li>Lightning: You can use your movement to teleport a distance up to your
+      speed for the duration.</li>
+
+      </ul>
+
+      <p>If you are not in a primordial aspect, you can fully manifest a power
+      as a bonus action for 2 psi points (or 1 psi point if you are specialized
+      in that power).</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: ''
+  identifier: full-manifestation
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.PVfc35o35aUxPmXV
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385699194
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!TSfTiIQGoIrZ7EUi'

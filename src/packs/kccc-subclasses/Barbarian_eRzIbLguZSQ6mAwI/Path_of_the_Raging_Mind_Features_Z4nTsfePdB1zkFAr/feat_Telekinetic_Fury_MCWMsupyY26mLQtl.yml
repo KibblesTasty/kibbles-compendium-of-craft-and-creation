@@ -1,0 +1,120 @@
+name: Telekinetic Fury
+type: feat
+img: icons/weapons/swords/sword-broad-crystal-paired.webp
+effects: []
+folder: Z4nTsfePdB1zkFAr
+sort: 100000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: MCWMsupyY26mLQtl
+_stats:
+  compendiumSource: Item.9NIupJzWmcMfRBeV
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385614807
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: >-
+      <p>Starting when you choose this path at 3rd level, when you enter a rage,
+      you can telekinetically project your rage onto the world around you. All
+      melee weapons gain a thrown 30/60 property for you. This range is reduced
+      to 15/45 if the weapon has the heavy property and increased to 60/120 if
+      the weapon has the light property.</p>
+
+      <p>You can apply your Rage bonus damage to damage rolls made by thrown
+      weapons, and can gain advantage from Reckless Attack on attacks made with
+      thrown weapons.</p>
+
+      <p>At the start of your turn while you are raging, you can call a number
+      of weapons or Tiny objects equal to your proficiency bonus within 60 feet
+      to you, as long as they are not being worn or carried. You call these to
+      your hands or to telekinetically orbit around you until the end of your
+      turn (after which they fall to the ground). Weapons telekinetically
+      orbiting you can only be used when throwing that weapon. At the end of
+      your turn (or if your rage ends) all orbiting weapons drop to the ground
+      around you.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  requirements: Raging Mind 3
+  type:
+    value: class
+    subtype: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: 0
+        condition: At the start of your turn
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: turn
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '60'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: telekinetic-fury
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_key: '!items!MCWMsupyY26mLQtl'

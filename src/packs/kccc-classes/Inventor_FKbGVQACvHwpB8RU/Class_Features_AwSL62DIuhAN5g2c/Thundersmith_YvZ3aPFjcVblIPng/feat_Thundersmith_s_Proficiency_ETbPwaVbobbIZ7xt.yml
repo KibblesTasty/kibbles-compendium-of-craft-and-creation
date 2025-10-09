@@ -1,0 +1,66 @@
+_id: ETbPwaVbobbIZ7xt
+name: Thundersmith’s Proficiency
+type: feat
+img: icons/tools/hand/wrench-iron-grey.webp
+effects: []
+folder: YvZ3aPFjcVblIPng
+sort: 0
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>When you choose this specialization at 1st level, you gain proficiency
+      with tinker’s tools and smith’s tools.</p>
+
+      <p>If your weapon requires ammunition, you gain the knowledge of how to
+      forge and create it with smith’s tools during a long rest. You can create
+      up to 50 rounds of ammunition during a long rest, with materials costing 1
+      gp per 10 rounds.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Thundersmith 1
+  identifier: thundersmiths-proficiency
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+  advancement:
+    - type: Trait
+      _id: 72ExMtyHfzcxDmSJ
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - tool:art:smith
+          - tool:art:tinker
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.gAqeiYs3qCKJAlh9
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  createdTime: 1726385677529
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!ETbPwaVbobbIZ7xt'

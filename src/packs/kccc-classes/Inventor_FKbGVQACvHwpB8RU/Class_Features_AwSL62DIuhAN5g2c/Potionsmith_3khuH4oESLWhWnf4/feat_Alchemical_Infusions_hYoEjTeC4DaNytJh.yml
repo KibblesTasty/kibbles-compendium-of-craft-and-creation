@@ -1,0 +1,148 @@
+_id: hYoEjTeC4DaNytJh
+name: Alchemical Infusions
+type: feat
+img: icons/consumables/potions/flask-corked-blue-glow.webp
+effects: []
+folder: 3khuH4oESLWhWnf4
+sort: -200000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>At 3rd level, you have discovered the secrets to drastically bypass the
+      alchemical brewing process, crafting potent magical effects through the
+      direct infusion of the potion with your own magic. When you finish a short
+      or long rest, you can create any number of potions, choosing one of the
+      following spells for each potion and expending a spell slot as if you were
+      casting the spell. You must provide an empty vial for each potion you
+      create in this way.</p>
+
+      <table style="width:100%" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center;width:25.6639%"><strong>Spell
+      Level</strong></td>
+
+      <td style="text-align:center;width:74.3361%"><strong>Infusion
+      Spells</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:25.6639%">1st</td>
+
+      <td
+      style="text-align:center;width:74.3361%">@Compendium[dnd5e.spells.uUWb1wZgtMou0TVP]{Cure
+      Wounds}, @Compendium[dnd5e.spells.IBJmWjzbQGu7M4UX]{Fog Cloud},
+      @Compendium[dnd5e.spells.etgcR9wqmrhyZ0tx]{Grease},
+      @Compendium[dnd5e.spells.ge3Saet9zPTDyaoL]{Heroism}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:25.6639%">2nd</td>
+
+      <td
+      style="text-align:center;width:74.3361%">@Compendium[dnd5e.spells.JPwIEfgUPVebr5AH]{Barkskin},
+      @Compendium[dnd5e.spells.F0GsG0SJzsIOacwV]{Lesser Restoration},
+      @Compendium[dnd5e.spells.wJKpSvSTbSkTjqyb]{Shatter},
+      @Compendium[dnd5e.spells.UJJu9c2UvCzVljiP]{Web}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:25.6639%">3rd</td>
+
+      <td
+      style="text-align:center;width:74.3361%">@Compendium[dnd5e.spells.GSvLWcdCZLQkilXT]{Blink},
+      @Compendium[dnd5e.spells.Szvk5FEVQW3uhJi5]{Haste},
+      @Compendium[dnd5e.spells.TwlD4PLcltv7Xh7j]{Stinking Cloud},
+      @Compendium[dnd5e.spells.13uVuBQP6VaiSPvC]{Water Breathing}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:25.6639%">4th</td>
+
+      <td
+      style="text-align:center;width:74.3361%">@Compendium[dnd5e.spells.9hQXdMSmerkTsHDe]{Confusion},
+      @Compendium[dnd5e.spells.ReMbjfeOKoSj3O79]{Stoneskin}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:25.6639%">5th</td>
+
+      <td
+      style="text-align:center;width:74.3361%">@Compendium[dnd5e.spells.LkvI11Uue774QBKZ]{Cloudkill}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <p>When you do so, the spell doesn’t take effect immediately, but is
+      instead infused into the potion. If the spell grants an effect or restores
+      hit points, a creature can consume it or administer it to another creature
+      as an action.</p>
+
+      <p>If a spell targets an area of effect, you can accurately throw the vial
+      up to 30 feet, dealing no inherent damage, but breaking the vial on
+      impact. The area of effect takes place when the vial is broken, with the
+      effect centered on where the vial breaks. If the spell targets a creature,
+      you can treat the vial as a ranged weapon with which you are proficient,
+      and it has the thrown (20/60) property. You replace the spell attack with
+      making a weapon attack made with the vial.</p>
+
+      <p>If the spell has a non-instantaneous effect that normally requires
+      concentration, it doesn’t require your concentration when it takes effect
+      in this way, but its duration is shortened to a number of rounds equal to
+      your Intelligence modifier (minimum 1). A spell that doesn’t require
+      concentration lasts its normal duration. An infused potion loses its
+      potency if it isn’t used by the end of your next long rest.</p>
+
+      <p>You can gain additional spells for your Alchemical Infusions through
+      your potionsmith upgrades.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Potionsmith 3
+  identifier: alchemical-infusions
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.o1B07BSWd3AihjiL
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385707467
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!hYoEjTeC4DaNytJh'

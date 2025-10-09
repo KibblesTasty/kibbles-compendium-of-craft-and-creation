@@ -1,0 +1,351 @@
+_id: e5RreYuy3ycf72qE
+name: Astral Construct
+type: feat
+img: icons/creatures/magical/spirit-undead-ghost-purple.webp
+effects:
+  - name: Grab
+    img: icons/creatures/magical/spirit-undead-ghost-purple.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.e5RreYuy3ycf72qE
+    transfer: false
+    _id: HfKFOIqWGEiI1SRX
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A target creature within 5 feet of your construct that is no more than
+      one size larger than the construct must make a Strength saving throw or
+      become restrained by the construct. At the end of each of the restrained
+      creature’s turns it can repeat the saving throw. The condition ends if the
+      construct becomes ethereal again, or becomes more than one size smaller
+      than the target.</p>
+    tint: '#ffffff'
+    statuses:
+      - restrained
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: 1727212148275
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!e5RreYuy3ycf72qE.HfKFOIqWGEiI1SRX'
+folder: fNhobyNgDgI9FxMa
+sort: 150000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You project an ethereal creation from your mind at a space you can see
+      within range, taking the shape of a Medium or smaller creature, weapon, or
+      other object. This creation is clearly ethereal in nature. When you create
+      it, and on subsequent turns using your action to mentally control it, you
+      can move it up to 30 feet in any direction and attack, so long as it
+      doesn’t move beyond the range of the power. To attack with it, make a
+      melee spell attack. On a hit, the target takes 1d8 force damage. If the
+      Astral Construct moves out of range of the spell, it fades away into
+      nothing, ending the spell.</p>
+
+      <p>While the Astral Construct is active, you can spend psi points up to
+      your per use limit to issue commands that affect and empower your
+      construct. Commands require no action, but you can’t exceed your psi point
+      limit in total commands issued, and each command can only be issued once
+      per turn.</p>
+
+      <p><strong>Grab (1 psi point):</strong> Can only be used while your
+      construct is Solidified. A target creature within 5 feet of your construct
+      that is no more than one size larger than the construct must make a
+      Strength saving throw or become restrained by the construct. At the end of
+      each of the restrained creature’s turns it can repeat the saving throw.
+      The condition ends if the construct becomes ethereal again, or becomes
+      more than one size smaller than the target.</p>
+
+      <p><strong>Grow (1 psi point):</strong> Your construct increases by one
+      size, and its number of damage dice increases by one. It returns to its
+      normal size at the start of your next turn. It can only gain one
+      additional die (for example, up to 2d8).</p>
+
+      <p><strong>Relocate (1 psi point):</strong> The construct disappears and
+      reappears anywhere within 60 feet of you.</p>
+
+      <p><strong>Replicate (3 psi points):</strong> You use Relocate, but the
+      original doesn’t disappear. Until the end of your turn, you have another
+      construct and control both with the same action (commands only affect one
+      of your choice). Pick one construct to fade at the start of your next turn
+      or use Sustain.</p>
+
+      <p><strong>Solidify (1 psi point):</strong> Your construct becomes solid,
+      blocking its space until the start of your next turn. You can only use
+      this command if it is in an unoccupied space. It has an armor class of 16
+      and hit points equal to your Intelligence modifier + your psion level. The
+      construct becomes ethereal again if it drops to zero hit points.</p>
+
+      <p><strong>Strike (2 psi points):</strong> The construct makes an attack
+      (even if it has already attacked).</p>
+
+      <p><strong>Sustain (1+ psi points):</strong> At the start of your turn,
+      you can sustain the effect of a Solidify, Grow or Replicate command for an
+      additional round. An effect that has been replicated can be sustained
+      across all replicated constructs with a single use, but each effect can
+      only be sustained once per turn (for example, you can never sustain more
+      than one replicated construct). This costs 1 psi point for each effect
+      sustained. Sustaining Solidify refreshes the construct’s hit points to its
+      maximum.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: psionicPower
+  requirements: 'Components: S'
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - force
+            scaling:
+              number: 1
+      sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
+    O4lkpuXz6c2Qgg9w:
+      type: summon
+      _id: O4lkpuXz6c2Qgg9w
+      sort: -100000
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: '@abilities.int.mod + @classes.psion.levels'
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: false
+        saves: true
+      profiles:
+        - count: ''
+          name: ''
+          _id: fNQ2tEL3pGmXJkib
+          uuid: >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.NRGyeCxoUqW33wh5
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+        identifier: psion
+      name: ''
+      img: ''
+      appliedEffects: []
+    WpLHprwQG1lL0jGd:
+      type: save
+      name: Grab
+      _id: WpLHprwQG1lL0jGd
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: HfKFOIqWGEiI1SRX
+          onSave: false
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability: str
+        dc:
+          calculation: int
+          formula: ''
+      img: ''
+      appliedEffects: []
+  identifier: astral-construct
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.6sHj9JlUWziFnsZD
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1726385705478
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!e5RreYuy3ycf72qE'

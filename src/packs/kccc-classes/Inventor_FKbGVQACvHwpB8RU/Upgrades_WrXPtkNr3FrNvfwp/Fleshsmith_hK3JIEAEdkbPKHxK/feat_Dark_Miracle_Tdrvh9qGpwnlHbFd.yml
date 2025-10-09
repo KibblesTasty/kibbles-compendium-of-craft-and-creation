@@ -1,0 +1,49 @@
+name: Dark Miracle
+type: feat
+img: icons/magic/unholy/strike-body-life-soul-green.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 700000
+flags:
+  core: {}
+_id: Tdrvh9qGpwnlHbFd
+system:
+  description:
+    value: >-
+      <p>When you use an action that restores hit points to another creature,
+      you can expend up to 4d4 of your own hit points to increase the amount of
+      health restored by that much. Creatures that receive this strange surge of
+      vitality have advantage on their next attack or saving throw.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 11
+  prerequisites:
+    level: 11
+  identifier: dark-miracle
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.yQTKDo1Nwpvvsax4
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385699366
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!Tdrvh9qGpwnlHbFd'

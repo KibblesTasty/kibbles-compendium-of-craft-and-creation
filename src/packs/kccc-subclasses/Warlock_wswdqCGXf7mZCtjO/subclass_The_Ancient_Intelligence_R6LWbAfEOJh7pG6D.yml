@@ -1,0 +1,140 @@
+name: The Ancient Intelligence
+type: subclass
+img: icons/magic/symbols/cog-shield-white-blue.webp
+effects: []
+folder: wswdqCGXf7mZCtjO
+sort: 200000
+flags:
+  core: {}
+_id: R6LWbAfEOJh7pG6D
+_stats:
+  compendiumSource: Item.awqFmUV8VfXj30uH
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1726385615073
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: >-
+      <p>You have made a pact of sorts with an intelligence that defies normal
+      understanding; its aims are mysterious and often incomprehensible. This
+      being could be an artificial intelligence of some lost race of ancients
+      with fabulous technology, perhaps a high ranking mechanical overmind. They
+      could even be an ancient lost rogue one, perhaps an Inventor of another
+      era whose last act was to upload themselves in an incorporeal form, or
+      perhaps it some-thing more alien, the ancient navigation system of an
+      otherworldly ship that has gained sentience.</p><p>The possibilities are
+      endless, but whatever its nature, it can grant you sufficiently advanced
+      knowledge that for all intents and purposes is fabulous magical
+      power.</p><hr /><p>The following are some optional quirks for a player who
+      has formed a pact with an Ancient Intelligence You can optionally roll or
+      select a quirk that suits your
+      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.4IQaEIVXgvKCcHKG
+      rollable]</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  identifier: the-ancient-intelligence
+  classIdentifier: warlock
+  advancement:
+    - _id: qc56rtcyp70xjg8b
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.P71koGLvTJihvT5a
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.xYoCyuI3tJkTPACc
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Features
+    - _id: tihpkgse17bstedo
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.OMcL4AYV8yuCkPGC
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Features
+      icon: null
+    - _id: vpucnturfx6lbpnk
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.EQ3qSMHLk8fjCPh0
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Features
+      icon: null
+    - _id: komjg6k6tayop408
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Lxhc9ciBaCzOOUOa
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Features
+      icon: null
+    - _id: EtmOO1gdqk3W8f9Y
+      type: ItemChoice
+      configuration:
+        choices:
+          '6':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: null
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.gPZaVZdkdsxPA5sI
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.jMYP6QPSbNWDLNNf
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.GmqjVYKlyw6Y6zny
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.2VbjrLTsWivL1haH
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.BlkkuqQ1SrVA6o1x
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.xFTemhGvL1msaSun
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.RHqkJ2XII3LmqmTx
+        spell: null
+        restriction: {}
+      value:
+        added: {}
+        replaced: {}
+      title: Ancient Invocations
+      hint: ''
+      icon: null
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+_key: '!items!R6LWbAfEOJh7pG6D'

@@ -1,0 +1,52 @@
+_id: rhLFH4P2ywgUedcQ
+name: Inoculations
+type: feat
+img: icons/tools/laboratory/mortar-liquid-pink.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: 48438
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You gain resistance to poison damage. Additionally, at the end of a
+      long rest, you can choose up to five creatures (including yourself) to
+      become inoculated against poisonous effects you can produce that require a
+      Constitution saving throw (such as the Poisonous Gas instant reaction or
+      the cloudkill alchemical infusion). You and each of the chosen creatures
+      automatically succeed on saving throws against these effects until the end
+      of your next long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 3
+  prerequisites:
+    level: 3
+  identifier: inoculations
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.ppzv3bIU9G7xhaY6
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385714650
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!rhLFH4P2ywgUedcQ'

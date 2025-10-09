@@ -1,0 +1,215 @@
+name: Arcane Ablation
+type: spell
+img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: hJhqF63LIPLsrR4Z
+system:
+  description:
+    value: >-
+      <p>You touch a piece of worn armor or clothing and imbue it with magic.
+      The creature wearing this imbued item gains 4 temporary hit points. When
+      these temporary hit points are exhausted, at the start of the creature's
+      next turn it will gain hit points equal to 1 hit point less than the
+      previous amount gained from this spell (for example, from 4 to 3), until
+      no temporary hit points would be gained and the spell ends. Temporary hit
+      points from this spell are lost when this spell ends</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> The initial temporary hit
+      points increases by 1 for each slot level above 1st.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    affects:
+      special: ''
+    template:
+      type: ''
+  range:
+    value: null
+    long: null
+    units: touch
+    special: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - '4'
+        - temphp
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: abj
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: '1'
+  properties:
+    - vocal
+    - somatic
+  activities:
+    Em289v2cLKPVQxHB:
+      type: heal
+      _id: Em289v2cLKPVQxHB
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types: []
+        custom:
+          enabled: true
+          formula: 4 + @scaling.increase
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types:
+              - temphp
+            custom:
+              enabled: true
+              formula: '4'
+            scaling:
+              mode: whole
+              number: null
+              formula: '1'
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.RDMtkJD198IEl9En
+  duplicateSource: null
+  exportSource: null
+_key: '!items!hJhqF63LIPLsrR4Z'

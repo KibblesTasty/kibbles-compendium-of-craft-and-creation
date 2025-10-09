@@ -1,0 +1,227 @@
+name: Summon Horror
+type: spell
+img: icons/creatures/magical/spirit-undead-ghost-purple.webp
+effects: []
+folder: wqurCGNuGvq7wcyB
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: KyoydLy98W80sZMJ
+system:
+  description:
+    value: "<p>You call forth a twisted horror. It manifests in an unoccuptied space that you can see within Range. This manifested form uses the Horror Spirit stat block. When you cast the spell, choose Star, Sea, or Void. The creature takes on elements of the selected type, which determine certain traits in its stat block. The creature disappears when it drops to 0 hit points or the spell ends.\_</p>\n<p>The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell of 5th level or higher, use the higher level whenever the spell’s level appears in the stat block.</p>"
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cube
+    prompt: false
+    affects:
+      count: ''
+      type: ''
+    template:
+      count: ''
+  range:
+    value: 90
+    long: null
+    units: ft
+    special: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: summ
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 4
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: >-
+      a book with an ornate cover filled with the records of madmen worth at
+      least 400 gp
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  summons:
+    prompt: false
+    mode: ''
+    bonuses:
+      ac: ''
+      hd: '@item.level'
+      hp: 5 * (@item.level - 4)
+      attackDamage: '@item.level'
+      saveDamage: ''
+      healing: ''
+    profiles:
+      - count: ''
+        name: ''
+        _id: T5Q6cRuydjWieBsD
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.O8fFPXg0Q9TR9wkG
+        level:
+          min: null
+          max: null
+      - count: ''
+        name: ''
+        _id: pDqmMxnZ0N0gWr1a
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.EFePonnzYj6bXjYB
+        level:
+          min: null
+          max: null
+      - count: ''
+        name: ''
+        _id: ldF6jDjErJNh1n8v
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.9cLoheQArVue6G2g
+        level:
+          min: null
+          max: null
+    match:
+      attacks: true
+  activities:
+    rdEbkiCERU6NmgcE:
+      type: summon
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '@item.level'
+        hd: ''
+        hp: 5 * @scaling.increase
+        attackDamage: '@item.level'
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: true
+        saves: false
+        ability: ''
+      profiles:
+        - count: ''
+          name: ''
+          _id: MPMMb6aWiOrujfIf
+          uuid: >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.O8fFPXg0Q9TR9wkG
+          level:
+            min: null
+            max: null
+        - count: ''
+          name: ''
+          _id: qWRROprAkAORda1D
+          uuid: >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.9cLoheQArVue6G2g
+          level:
+            min: null
+            max: null
+        - count: ''
+          name: ''
+          _id: 8B8mjIjeiOr8GkdJ
+          uuid: >-
+            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.EFePonnzYj6bXjYB
+          level:
+            min: null
+            max: null
+      summon:
+        prompt: true
+        mode: ''
+      name: ''
+      _id: rdEbkiCERU6NmgcE
+      img: ''
+      appliedEffects: []
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.QmSWJ7THQ46XwECD
+  duplicateSource: null
+  exportSource: null
+_key: '!items!KyoydLy98W80sZMJ'

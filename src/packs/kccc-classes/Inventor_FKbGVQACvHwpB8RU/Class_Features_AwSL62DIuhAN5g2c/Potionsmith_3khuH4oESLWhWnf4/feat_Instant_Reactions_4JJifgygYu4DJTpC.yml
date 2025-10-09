@@ -1,0 +1,62 @@
+_id: 4JJifgygYu4DJTpC
+name: Instant Reactions
+type: feat
+img: icons/magic/fire/flame-burning-earth-yellow.webp
+effects: []
+folder: 3khuH4oESLWhWnf4
+sort: 0
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>At 1st level, you know how to get instant reactions to occur without
+      the niceties of grinding, simmering, and brewing required for more refined
+      concoctions.</p><p>Moreover, you know enough ways to do these processes
+      that with just a few standard supplies, you can get results out of a wide
+      range of things you can gather in almost any locale and a pinch from your
+      reagent pouch.</p><p>Pick three instant reactions from the following:
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.AUZL1dZmcjT2zZXW]{Alchemical
+      Acid},
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.7aY32E9WZrdIBLen]{Alchemical
+      Fire},
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.nxFEldjl0KITVJYp]{Fortifying
+      Fumes},
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.C4grZlhFeDhpyIyw]{Healing
+      Draught}, and
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.KqIkzUg8gndKlpAB]{Poisonous
+      Gas}. These instant reactions don’t count against your number of upgrades
+      known.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Potionsmith 1
+  identifier: instant-reactions
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.odUSab7ZteBjcquy
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385667287
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!4JJifgygYu4DJTpC'

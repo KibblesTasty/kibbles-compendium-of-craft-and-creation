@@ -1,0 +1,47 @@
+_id: BLMDuIblUNAwsYjH
+name: Magical Essence
+type: feat
+img: icons/magic/light/explosion-star-blue-large.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: 400000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You infuse a fragment of magical essence into your golem, allowing it
+      to attune to one magic item. This follows all normal attunement rules.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 3
+  prerequisites:
+    level: 3
+  identifier: magical-essence
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.eJrd8UMIKt2Xf9Om
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385674734
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!BLMDuIblUNAwsYjH'

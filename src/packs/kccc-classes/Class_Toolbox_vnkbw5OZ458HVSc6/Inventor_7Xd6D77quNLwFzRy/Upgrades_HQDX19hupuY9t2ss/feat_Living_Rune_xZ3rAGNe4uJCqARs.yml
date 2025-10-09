@@ -1,0 +1,97 @@
+folder: HQDX19hupuY9t2ss
+name: Living Rune
+type: feat
+_id: xZ3rAGNe4uJCqARs
+img: icons/magic/symbols/rune-sigil-horned-blue.webp
+system:
+  description:
+    value: >-
+      <p>When you cast a concentration spell, you can mark a rune that maintains
+      concentration on the spell. The rune be can marked on a willing creature,
+      or into the air (in which case it can’t move). The rune can be targeted
+      and has an AC of 10 and 10 hit points, with resistance to nonmagical
+      damage. It lasts for the duration of the spell unless destroyed. You can
+      only have one Living Rune marked at a time.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+    rules: '2014'
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: class
+    subtype: upgrade
+  prerequisites:
+    level: 19
+  properties: []
+  requirements: Runesmith 19
+  recharge:
+    value: null
+    charged: false
+  identifier: living-rune
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  coreVersion: '13.344'
+  createdTime: 1721842488961
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!xZ3rAGNe4uJCqARs'

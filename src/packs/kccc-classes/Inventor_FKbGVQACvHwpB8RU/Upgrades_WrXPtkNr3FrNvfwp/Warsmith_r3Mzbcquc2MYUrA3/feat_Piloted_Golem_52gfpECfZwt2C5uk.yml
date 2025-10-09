@@ -1,0 +1,62 @@
+name: Piloted Golem
+type: feat
+img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 500000
+flags:
+  core: {}
+_id: 52gfpECfZwt2C5uk
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Warplate, 9th-level inventor; incompatible with
+      Collapsible and Flight)</em></p>
+
+      <p>You enlarge your Warplate, turning it into a piloted mechanical golem.
+      Your size category when wearing the armor increases by one.</p>
+
+      <p>You have advantage on Strength saving throws and Strength checks
+      against creatures the same size as you or smaller than you, but you have
+      disadvantage on Dexterity saving throws and Dexterity checks (including
+      initiative rolls). At the end of a short or long rest, your Warplate gains
+      temporary hit points equal to your Inventor level.</p>
+
+      <p>You are no longer a valid target for spells that require a humanoid
+      target, but can be targeted by spells that require a construct target
+      while wearing this armor.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 9
+  prerequisites:
+    level: 9
+    items:
+      - warplate
+  identifier: piloted-golem
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.X5PbVjrCBEGJB9ZX
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385668050
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!52gfpECfZwt2C5uk'

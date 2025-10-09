@@ -1,0 +1,98 @@
+name: Simple Explosive
+type: consumable
+img: icons/magic/fire/explosion-fireball-medium-red-orange.webp
+effects: []
+folder: OIj2eu41aDq4PrlM
+sort: 106250
+flags:
+  core: {}
+_id: 4DmvOoKcIwFl4Tpq
+system:
+  description:
+    value: >-
+      <p>A bundled explosive alchemical preparation. It can be detonated by
+      dealing 1 fire or lightning damage to it. As an action, a packet of this
+      explosive can be accurately thrown 20 feet, but will not detonate on
+      impact (usually). When it detonates, all creatures within 10 feet (for
+      common) of the target point must make a Dexterity saving throw with a DC
+      equal to the crafter’s Alchemy DC. On failure, they take [[/r 1d8]] fire +
+      [[/damage 1d8 thunder]] damage, or half as much on a success. Creatures in
+      range of more than one explosive take damage only from the highest damage
+      effect.</p>
+
+      <p>You can fuse your explosives. When fused, intentionally dealing fire
+      damage to the explosives (or otherwise lighting the fuse) causes it to
+      detonate on a delay, selected from: short (the end of your turn), medium
+      (the start of your next turn), and long (2 rounds, at the start of your
+      turn).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: radius
+  range:
+    value: 20
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    autoDestroy: false
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - fire
+      - - 1d8
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: 12
+    scaling: flat
+  consumableType: potion
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.dlrVUSfdlQ0BhU44
+  duplicateSource: null
+  exportSource: null
+_key: '!items!4DmvOoKcIwFl4Tpq'

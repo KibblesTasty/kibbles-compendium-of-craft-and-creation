@@ -1,0 +1,165 @@
+name: Gadgeteer
+type: subclass
+img: icons/tools/fishing/hook-multi-steel-brown.webp
+effects: []
+folder: 0U5opixJiRtUiUPs
+sort: 101563
+flags:
+  core: {}
+_id: GbFqIk3behJQBszs
+_stats:
+  compendiumSource: Item.MmBJ797QEERvP6Dn
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1726385614365
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: >-
+      <p>Swinging from a grappling hook before dropping a smoke bomb, rigging a
+      stubborn lock to blow, or rejiggering traps to spring on those that set
+      them, the Gadgeteer lives by fast paced innovation and thinking outside
+      the box on the fly... sometimes literally.</p><p>Specializing tools that
+      let themselves get in and out of trouble, they don’t fight fair, relying
+      on things that go "boom", "zap" or "whirr". They live on the edge of their
+      own explosions, though often rewriting the story in later retellings that
+      they doffed their darkened goggles as they walked away slowly, omitting
+      the singed seat of their trousers and yelping.</p><h3><strong>Gadget
+      DC</strong></h3><p>Your gadgets are a combination of innovative mechanical
+      parts and magic. You use your Intelligence for gadget-based effects when
+      they refer to a spell attack roll or spell save DC.</p><p
+      style="text-align:center"><strong>Gadget DC</strong> = 8 + your
+      proficiency bonus + your Intelligence modifier</p><p
+      style="text-align:center"><strong>Gadget modifier</strong> = your
+      proficiency bonus + your Intelligence modifier</p><hr /><p>The following
+      are some optional quirks for a player of the Gadgeteer You can optionally
+      roll or select a quirk that suits your
+      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.lsyEV6oWwpgrKFzE
+      rollable]</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  identifier: gadgeteer
+  classIdentifier: rogue
+  advancement:
+    - _id: ytfpfow5semuidfl
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.qMjbsb6zODmvDuye
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.1PPNNlXM1os5Lldd
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.jFSBq9RJyKB6w0Wb
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Features
+      icon: null
+    - _id: do5p9gyg16wljrjl
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.bZtravaIF5CLEkHq
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.vDqdqipsArM2gK5A
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Features
+      icon: null
+    - _id: i4ls0x8b1qtx1ki7
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.jue0PtIRykLZiyqy
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: Features
+      icon: null
+    - _id: ygzb3phn7u5br2oy
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.wc7uGSRaI60gnEGF
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Features
+      icon: null
+    - _id: hCRfRdpMiZvtDO3z
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: true
+        grants:
+          - tool:art:tinker
+        choices: []
+      value:
+        chosen: []
+      level: 3
+      title: ''
+      hint: ''
+      icon: null
+    - _id: dN6bLeCYq6SVQgZh
+      type: ItemChoice
+      configuration:
+        choices:
+          '9':
+            count: 2
+            replacement: false
+          '13':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.LFxGIoSrjLBCngu9
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.V1auc75WML62RVWd
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.NXVmFbq9xumZODnw
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.JCjqps5dEmZI5RQP
+        spell: null
+        restriction:
+          type: class
+          subtype: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Clever Inventions
+      hint: ''
+      icon: null
+  spellcasting:
+    progression: none
+    ability: int
+    preparation:
+      formula: ''
+_key: '!items!GbFqIk3behJQBszs'

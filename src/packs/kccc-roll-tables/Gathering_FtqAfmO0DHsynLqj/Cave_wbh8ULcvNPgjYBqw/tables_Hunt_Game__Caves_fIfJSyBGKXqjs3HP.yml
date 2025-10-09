@@ -1,0 +1,127 @@
+folder: wbh8ULcvNPgjYBqw
+name: 'Hunt Game: Caves'
+img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
+description: >-
+  <p>Food can be gathered with your choice of a Dexterity or Wisdom check. If
+  you have proficiency with the Survival skill, you can add your survival
+  modifier to the roll.</p><p>[[/check ability=dex skill=sur
+  dc=12]]</p><p>[[/check ability=wis skill=sur dc=12]]</p><p></p>
+results:
+  - type: document
+    weight: 30
+    range:
+      - 1
+      - 30
+    drawn: false
+    _id: 2QVMa8rNGa0kHiCM
+    img: icons/consumables/vegetable/root-potato-brown.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Fresh Ingredient
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA
+    description: ''
+    _key: '!tables.results!fIfJSyBGKXqjs3HP.2QVMa8rNGa0kHiCM'
+  - type: text
+    weight: 30
+    range:
+      - 31
+      - 60
+    drawn: false
+    _id: 8a16wQBS2fXFlSo2
+    img: icons/consumables/vegetable/root-potato-brown.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA]{Common
+      Fresh Ingredient}
+    name: ''
+    _key: '!tables.results!fIfJSyBGKXqjs3HP.8a16wQBS2fXFlSo2'
+  - type: text
+    weight: 30
+    range:
+      - 61
+      - 90
+    drawn: false
+    _id: teNk5jcNwWcXx4C1
+    img: icons/commodities/leather/fur-pelt-off-white.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.ovlOizetljPnOiB7]{Hide}
+    name: ''
+    _key: '!tables.results!fIfJSyBGKXqjs3HP.teNk5jcNwWcXx4C1'
+  - type: text
+    weight: 10
+    range:
+      - 91
+      - 100
+    drawn: false
+    _id: hEuJz6PeIq4HCr35
+    img: icons/consumables/vegetable/root-potato-brown.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      [[1d6]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.F5A0A39sGQvXiDaA]{Common
+      Fresh Ingredient}, [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.ovlOizetljPnOiB7]{Hide}
+    name: ''
+    _key: '!tables.results!fIfJSyBGKXqjs3HP.hEuJz6PeIq4HCr35'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733861999369
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+formula: 1d100
+_id: fIfJSyBGKXqjs3HP
+_key: '!tables!fIfJSyBGKXqjs3HP'

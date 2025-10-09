@@ -1,0 +1,2018 @@
+_id: gS7dlw1buv0qqW8y
+name: Clockwork Drake
+type: npc
+img: >-
+  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/ClockworkDrake.png
+items:
+  - _id: AMVjxVi4aXCSaeZZ
+    name: Adamantine Weapons.
+    type: feat
+    img: icons/commodities/metal/plate-steel-pink.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.dmq10q8sy5mztjxt
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Adamantine Weapons.</strong> The drake's weapon attacks are
+          adamantine.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: null
+    _key: '!actors.items!gS7dlw1buv0qqW8y.AMVjxVi4aXCSaeZZ'
+  - _id: lXl6u5wAJQ8N11pp
+    name: Immutable Form
+    type: feat
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.Z5r8QR8ai8bYpclI
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Immutable Form.</strong> The drake is immune to any spell
+          or effect that would alter its form.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: null
+    _key: '!actors.items!gS7dlw1buv0qqW8y.lXl6u5wAJQ8N11pp'
+  - _id: ooofSmNvc7PIubxR
+    name: Legendary Resistance (3/day)
+    type: feat
+    img: icons/magic/defensive/barrier-shield-dome-pink.webp
+    effects: []
+    folder: null
+    sort: 700000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.uYUScjhaB8j5lgHU
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Legendary Resistance (3/Day).</strong> If the drake fails a
+          saving throw, it can choose to succeed instead.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: special
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legres.value
+        amount: 1
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: null
+    _key: '!actors.items!gS7dlw1buv0qqW8y.ooofSmNvc7PIubxR'
+  - _id: BSl1zWQtL6AsaxAi
+    name: Crushing Descent
+    type: feat
+    img: icons/creatures/claws/claw-talons-glowing-orange.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Crushing Descent.</strong> If the drake flies at least 20
+          feet downward and then hits a target with a Crushing Stomp attack, the
+          target takes an extra [[/damage 1d12 bludgeoning average]] damage, and
+          it must succeed on a DC 19 Strength saving throw or be knocked prone
+          and grappled by the drake (escape DC 17). Until the grapple ends, the
+          target is restrained and has disadvantage on Strength checks and
+          Strength saving throws, and the drake can’t use the same claw on
+          another target.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.BSl1zWQtL6AsaxAi'
+  - _id: qFUhvoGtw1l7c6CM
+    name: Lightning Powered
+    type: feat
+    img: icons/magic/lightning/orb-ball-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Lightning Powered. </strong>If the drake takes at least 10
+          lightning damage from any source, it regains 1 spent legendary
+          action.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: special
+        cost: 1
+        condition: Taking 10 or more lightning damage
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.qFUhvoGtw1l7c6CM'
+  - _id: ZgdohkwWMv3PCUnm
+    name: 'Bloodied: Overcharged'
+    type: feat
+    img: icons/magic/lightning/bolt-strike-embers-teal.webp
+    effects: []
+    folder: null
+    sort: 800000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Overcharged.</strong> If the drake is bloodied (reduced to
+          less than half of its hit points), it starts to crackle with arcs of
+          lightning. Its Flaming Tar Breath automatically recharges, and any
+          creature that hits it with a melee attack before the start of its next
+          turn (including the attack that bloodied it, if applicable) takes 
+          [[/damage 1d12 lightning average]] damage.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: special
+        cost: 0
+        condition: The drake is reduced to
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d12
+            - lightning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.ZgdohkwWMv3PCUnm'
+  - _id: H0pTkVFuVWoysBmN
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
+    effects: []
+    folder: null
+    sort: -200000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.094090din8bu19vk
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Multiattack. </strong>The drake makes two attacks: one with
+          its bladed tail and one with its crushing stomp.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: null
+    _key: '!actors.items!gS7dlw1buv0qqW8y.H0pTkVFuVWoysBmN'
+  - _id: IzQXCl9n3wL2cz7r
+    name: Bladed Tail
+    type: weapon
+    img: icons/creatures/claws/claw-curved-jagged-gray.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><em><strong>Bladed Tail.</strong> Melee Weapon Attack: </em>+12 to
+          hit, reach 15 ft., one target. <em>Hit:</em> 16 ([[/r 2d8 + 7]])
+          slashing damage.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 15
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 2d8 + @mod
+            - slashing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: true
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: true
+        lgt: false
+        lod: false
+        mgc: false
+        rch: true
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    _key: '!actors.items!gS7dlw1buv0qqW8y.IzQXCl9n3wL2cz7r'
+  - _id: C6lBIAQpU0nK3yoX
+    name: Crushing Stomp
+    type: weapon
+    img: icons/magic/earth/strike-stone-stalactite-blood-red.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.CnGHl7gvz7TTvv20
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong><em>Crushing Stomp. </em></strong><em>Melee Weapon
+          Attack:</em> +12 to hit, reach 5 ft., one Medium or smaller
+          target.<em> Hit:</em> 13 (1d12 + 7) bludgeoning damage.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: common
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 5
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d12 + @mod
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: true
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: true
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    _key: '!actors.items!gS7dlw1buv0qqW8y.C6lBIAQpU0nK3yoX'
+  - _id: nBxvh4RUKdxh5zHG
+    name: Arcane Nullification
+    type: feat
+    img: icons/magic/light/explosion-impact-purple.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Arcane Nullification.</strong> The drake ends one spell
+          effect within 30 feet of it. If the spell is of 6th level or higher,
+          the drake must succeed on an Intelligence (Arcana) check (DC 10 + the
+          level of the spell) to end it.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: 30
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.nBxvh4RUKdxh5zHG'
+  - _id: qQeqLtQ9L8UQoQ2L
+    name: Flaming Tar Breath
+    type: feat
+    img: icons/magic/fire/blast-jet-stream-embers-orange.webp
+    effects: []
+    folder: null
+    sort: -300000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: Burning Damage
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickCharges:
+          value:
+            charge: true
+          altValue:
+            charge: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><em><strong>Flaming Tar Breath (Recharge 5–6).</strong></em> The
+          drake unleashes a blast of flaming tar in a 30-foot cone. Each
+          creature in the area must make a DC 19 Dexterity saving throw. On a
+          failed save, a creature takes [[/damage 13d6 fire average]] damage and
+          becomes covered in a thick layer of flaming tar. On a successful save,
+          the creature takes half as much damage and isn’t covered in tar. While
+          a creature is covered in tar, its speed is halved and it takes 10
+          ([[/r 3d6]]) fire damage at the start of each of its turns. A creature
+          can spend an action clearing the flaming tar from itself or another
+          creature within 5 feet of it.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 30
+        width: null
+        units: ft
+        type: cone
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 13d6
+            - ''
+        versatile: ''
+      formula: 3d6
+      save:
+        ability: dex
+        dc: null
+        scaling: con
+      requirements: ''
+      recharge:
+        value: 5
+        charged: true
+    _key: '!actors.items!gS7dlw1buv0qqW8y.qQeqLtQ9L8UQoQ2L'
+  - _id: YxxP3wfpuiW1Hc2Q
+    name: Windy Flapping
+    type: feat
+    img: icons/creatures/abilities/wing-batlike-white-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Windy Flapping. </strong>The drake adds 5 to its AC against
+          one ranged weapon attack that would hit it. To do so, the dragon must
+          see the attacker and be flying.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: reaction
+        cost: 1
+        condition: Being hit by a ranged attack.
+      duration:
+        value: null
+        units: inst
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.YxxP3wfpuiW1Hc2Q'
+  - _id: wDsRbTvUSsHmYHO8
+    name: 'Legendary Action: Arc'
+    type: feat
+    img: icons/magic/lightning/bolt-strike-purple-pink.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: ''
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 60
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 1
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d4
+            - lightning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.wDsRbTvUSsHmYHO8'
+  - _id: hpvl196ngDTDJwdf
+    name: 'Legendary Action: Tail Attack'
+    type: feat
+    img: icons/creatures/claws/claw-curved-jagged-gray.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Tail Attack.</strong> The drake makes a bladed tail
+          attack.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 1
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.hpvl196ngDTDJwdf'
+  - _id: lz648boOB7jH1pRA
+    name: 'Legendary Action: Wind Up'
+    type: feat
+    img: icons/commodities/tech/cog-gold.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Wind Up.</strong> The drake conserves energy to unleash in
+          a burst. It gains 10 temporary hit points, and it can take the Dash
+          action as a bonus action on its next turn.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 1
+      ability: ''
+      actionType: heal
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - '10'
+            - temphp
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.lz648boOB7jH1pRA'
+  - _id: eGScHfiYGPk6Xlnn
+    name: 'Legendary Action: Wing Attack'
+    type: feat
+    img: icons/creatures/abilities/wing-batlike-white-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Wing Attack (Costs 2 Actions).</strong> The drake beats its
+          wings. Each creature within 10 feet of the drake must succeed on a DC
+          19 Dexterity saving throw or take 14 ([[/r 2d6 + 7]]) bludgeoning
+          damage and be knocked prone. The drake can then fly up to half its
+          flying speed.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 2
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 10
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 2
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 2d6 + 7
+            - ''
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: null
+        scaling: con
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!gS7dlw1buv0qqW8y.eGScHfiYGPk6Xlnn'
+effects: []
+folder: RgLgSAM7fPsrV84e
+sort: 112500
+flags:
+  core: {}
+  dnd5e:
+    showTokenPortrait: false
+system:
+  abilities:
+    str:
+      value: 25
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 8
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 23
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 12
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 15
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 8
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+  attributes:
+    ac:
+      flat: null
+      calc: custom
+      formula: '18'
+    hp:
+      value: 225
+      min: 0
+      max: 225
+      temp: 0
+      tempmax: 0
+      formula: 18d12 + 108
+    init:
+      value: 0
+      bonus: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 80
+      swim: 0
+      walk: 40
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 120
+      blindsight: 60
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: ''
+    spellcasting: int
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: unaligned
+    race: ''
+    type:
+      value: construct
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 16
+    spellLevel: 0
+    xp:
+      value: 10
+    source:
+      book: KCCC
+      custom: ''
+  traits:
+    size: huge
+    di:
+      value:
+        - poison
+        - psychic
+      custom: ''
+    dr:
+      value:
+        - fire
+        - lightning
+      custom: >-
+        bludgeoning, piercing, and slashing from nonmagical attacks that aren’t
+        adamantine
+    dv:
+      value: []
+      custom: ''
+    ci:
+      value:
+        - charmed
+        - exhaustion
+        - frightened
+        - paralyzed
+        - petrified
+        - poisoned
+      custom: ''
+    languages:
+      value: []
+      custom: understands the languages of its creator but can’t speak
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 1
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 1
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 2
+      max: 3
+    legres:
+      value: 3
+      max: 3
+    lair:
+      value: false
+      initiative: 0
+  source:
+    rules: '2014'
+ownership:
+  default: 0
+prototypeToken:
+  name: Clockwork Drake
+  displayName: 40
+  actorLink: false
+  width: 3
+  height: 3
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  disposition: -1
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  flags:
+    splatter:
+      bloodColor: ''
+  randomImg: false
+  texture:
+    src: >-
+      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/ClockworkDrake.png
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+    color: null
+  appendNumber: false
+  prependAdjective: false
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Actor.xXoCvxNsvubdJqC5
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!gS7dlw1buv0qqW8y'

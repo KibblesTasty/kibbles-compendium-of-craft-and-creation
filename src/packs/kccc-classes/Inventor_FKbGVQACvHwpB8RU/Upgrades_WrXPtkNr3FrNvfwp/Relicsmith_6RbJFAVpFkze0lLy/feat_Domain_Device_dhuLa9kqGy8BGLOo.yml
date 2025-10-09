@@ -1,0 +1,51 @@
+name: Domain Device
+type: feat
+img: icons/magic/symbols/star-rising-purple.webp
+effects: []
+folder: 6RbJFAVpFkze0lLy
+sort: 199903
+flags:
+  core: {}
+_id: dhuLa9kqGy8BGLOo
+system:
+  description:
+    value: >-
+      <p>With careful inscription and rituals you create a divine device that
+      focuses the holy power of a particular domain. At the time of selecting
+      this upgrade, select a cleric domain. This device can be used to activate
+      that domain’s Channel Divinity feature once, after which it can’t be used
+      again until you finish a long rest. Your Inventor level is your Cleric
+      level for the purpose of calculating any bonuses to it.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Relicsmith 15
+  prerequisites:
+    level: 15
+  identifier: domain-device
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.4UK2pNOyg7cnE5UO
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385705031
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!dhuLa9kqGy8BGLOo'

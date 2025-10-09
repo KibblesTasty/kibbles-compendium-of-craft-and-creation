@@ -1,0 +1,145 @@
+_id: iMBg9JqQZsyM8wPc
+name: 'Stormforged Weapon: Kinetic Hammer'
+type: weapon
+img: icons/weapons/hammers/hammer-double-studded.webp
+effects: []
+folder: YvZ3aPFjcVblIPng
+sort: 375000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>Rather than launching a projectile with the thundering force, you keep
+      that force imbued in the weapon, allowing for devastating force to be
+      applied to the attack.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 200
+    denomination: gp
+  attunement: ''
+  equipped: false
+  rarity: common
+  identified: true
+  cover: null
+  crewed: false
+  range:
+    value: null
+    long: null
+    units: ft
+    reach: null
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  damage:
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 10
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  properties:
+    - hvy
+    - two
+  proficient: 1
+  identifier: stormforged-weapon-kinetic-hammer
+  unidentified:
+    description: ''
+  type:
+    value: simpleM
+    baseItem: ''
+  activities:
+    JmDKOna6wHqqrW8c:
+      _id: JmDKOna6wHqqrW8c
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  container: null
+  attuned: false
+  ammunition: {}
+  magicalBonus: null
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.iBuNTZJUltWKhQom
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385708056
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!iMBg9JqQZsyM8wPc'

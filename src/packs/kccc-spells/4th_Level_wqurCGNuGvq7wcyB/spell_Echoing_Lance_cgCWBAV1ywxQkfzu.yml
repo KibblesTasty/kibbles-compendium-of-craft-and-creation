@@ -1,0 +1,172 @@
+name: Echoing Lance
+type: spell
+img: icons/magic/sonic/explosion-impact-shock-wave.webp
+effects: []
+folder: wqurCGNuGvq7wcyB
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: cgCWBAV1ywxQkfzu
+system:
+  description:
+    value: >-
+      <p>You emit a targeted burst of intense sonic energy at a creature within
+      range. The target must make a Constitution saving throw. On a failure,
+      they take [[/damage 3d8 thunder]] damage and become stunned for the
+      duration by the intense sound. On a successful save, the target takes half
+      as much damage and isn't stunned.</p>
+
+      <p>At the end of each of its turns, the target can make another
+      Constitution saving throw. On a success, the spell ends, on failure, they
+      take an additional [[/r 1d8]] thunder from the echoes within their
+      mind.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell slot of 5th level or higher, the damage increases by [[/r
+      1d8]] for each slot level above 4th.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 3d8
+        - thunder
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 4
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 8
+            bonus: ''
+            types:
+              - thunder
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.PPxOVjcUnZD0fiPq
+  duplicateSource: null
+  exportSource: null
+_key: '!items!cgCWBAV1ywxQkfzu'

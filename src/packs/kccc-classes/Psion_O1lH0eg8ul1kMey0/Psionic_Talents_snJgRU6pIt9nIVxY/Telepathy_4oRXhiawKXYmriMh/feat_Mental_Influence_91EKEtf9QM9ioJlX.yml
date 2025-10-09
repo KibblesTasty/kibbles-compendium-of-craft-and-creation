@@ -1,0 +1,50 @@
+_id: 91EKEtf9QM9ioJlX
+name: Mental Influence
+type: feat
+img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+effects: []
+folder: 4oRXhiawKXYmriMh
+sort: -50000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You specialize in the subtle touch, picking stray thoughts and soothing
+      concerns without overtly intruding upon a mind. You gain expertise in the
+      Persuasion skill, though you are reduced to normal proficiency against
+      creatures that are immune to mental influence or charm (such a creature
+      under the effect of mind blank).</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Telepathy 2
+  prerequisites:
+    level: 2
+  identifier: mental-influence
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.NitGPDZCbPyPjAX5
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385673258
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!91EKEtf9QM9ioJlX'

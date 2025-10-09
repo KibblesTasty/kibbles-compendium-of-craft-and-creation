@@ -1,0 +1,48 @@
+name: Duplicate Rune
+type: feat
+img: icons/magic/symbols/cross-circle-blue.webp
+effects: []
+folder: vVVqOSKX5M9roJKu
+sort: -6250
+flags:
+  core: {}
+_id: wPFQbnHDRLpxK35I
+system:
+  description:
+    value: >-
+      <p>For one of the runes you mark, you can mark it on two different items
+      or creatures counting it as a single instance of marking that rune. This
+      applies to a single application (not a single type of rune).</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Runesmith 5
+  prerequisites:
+    level: 5
+  identifier: duplicate-rune
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.ZUZPDhjtrJqh5Aef
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385717397
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!wPFQbnHDRLpxK35I'

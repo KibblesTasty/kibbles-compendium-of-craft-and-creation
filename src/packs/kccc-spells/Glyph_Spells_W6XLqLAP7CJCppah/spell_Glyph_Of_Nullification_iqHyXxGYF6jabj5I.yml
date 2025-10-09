@@ -1,0 +1,150 @@
+name: Glyph Of Nullification
+type: spell
+img: icons/magic/symbols/triangle-glow-purple.webp
+system:
+  description:
+    value: >-
+      <p>You draw an ethereal mark in the air at a point within range. Creatures
+      within 5 feet of this glyph have resistance to force damage.</p><p>As an
+      action for the duration of the spell, you can cause the glyph to form a
+      @UUID[Compendium.dnd5e.spells.Item.WmQpxfjZwF3MGUby]{globe of
+      invulnerability} centered on the glyph, which lasts until the start of
+      your next turn, at which point the spell ends.</p><p>You can end the spell
+      early by deactivating it with a bonus action.</p>
+    chat: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  level: 3
+  school: abj
+  activation:
+    condition: ''
+    cost: 1
+    type: bonus
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: ft
+    value: 5
+    long: null
+    special: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+    rules: '2014'
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+    affects:
+      type: ''
+    template:
+      type: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  properties:
+    - somatic
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  activities:
+    zwPjR0394qEJo3Zz:
+      type: utility
+      name: Create Glyph
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+      _id: zwPjR0394qEJo3Zz
+folder: W6XLqLAP7CJCppah
+flags:
+  dnd5e:
+    migratedProperties:
+      - somatic
+    riders:
+      activity: []
+      effect: []
+_id: iqHyXxGYF6jabj5I
+effects: []
+sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: 1721845400520
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!iqHyXxGYF6jabj5I'

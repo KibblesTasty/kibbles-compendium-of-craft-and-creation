@@ -1,0 +1,127 @@
+name: Phase Slash
+type: feat
+img: icons/magic/movement/trail-streak-pink.webp
+effects: []
+folder: QibG8z5ImiXNbJRT
+sort: 500000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: HHAsC00w43BUccVv
+system:
+  description:
+    value: >-
+      <p>You can expend 1 psi point to make a single melee weapon attack against
+      any targets you pass through with Phase Rift as part of the same action.
+      You must spend 1 psi point per creature attacked this way. You can make
+      this attack against a target once per turn. You can spend Psionic Mastery
+      points on this talent.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Transposition 11
+  prerequisites:
+    level: 11
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: special
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: touch
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: '@mod'
+            types:
+              - slashing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+  identifier: phase-slash
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.AI3P38kAVrZBfVtM
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385690728
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!HHAsC00w43BUccVv'

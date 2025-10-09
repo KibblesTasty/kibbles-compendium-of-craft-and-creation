@@ -1,0 +1,52 @@
+_id: Afyex6VWU1rtCM4H
+name: Infusion Stone
+type: feat
+img: icons/commodities/treasure/token-engraved-purple-glowing.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: 31250
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You use the secrets of alchemy to create an Infusion Stone. You can use
+      this stone in the process of infusing potions in place of expending a
+      spell slot level. The spell you infuse in this way must be of a level for
+      which you have spell slots.</p>
+
+      <p>Once you use the Infusion Stone, you can’t use it again until you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 9
+  prerequisites:
+    level: 9
+  identifier: infusion-stone
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.BLQa4c2stZ3c0HgE
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385674176
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!Afyex6VWU1rtCM4H'

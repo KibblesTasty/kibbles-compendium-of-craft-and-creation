@@ -1,0 +1,163 @@
+name: Force Blade
+type: spell
+img: icons/weapons/swords/sword-flanged-lightning.webp
+effects: []
+folder: O6hZgRZFkj4UG3IA
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: WmJbhDpYBherDAgH
+system:
+  description:
+    value: >-
+      <p>You create an oversized blade of pure scintillating force energy in
+      your hand. For the duration of the spell, as an action, you can sweep the
+      blade through up to two creatures are within 5 feet of each other and
+      within reach, dealing [[/r 2d12]] + your spell casting modifier force
+      damage to each.</p>
+
+      <p>At Higher Levels. When you cast it using a 5th- or 6th-level spell
+      slot, the damage increases to [[/r 3d12]]. When you cast it using a spell
+      slot of 7th level or higher, the damage increases to [[/r 4d12]].</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: 10
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 2d12+@mod
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 2
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d12
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 2
+            denomination: 12
+            bonus: '@mod'
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.5vmGIMbvW5kzTSJS
+  duplicateSource: null
+  exportSource: null
+_key: '!items!WmJbhDpYBherDAgH'

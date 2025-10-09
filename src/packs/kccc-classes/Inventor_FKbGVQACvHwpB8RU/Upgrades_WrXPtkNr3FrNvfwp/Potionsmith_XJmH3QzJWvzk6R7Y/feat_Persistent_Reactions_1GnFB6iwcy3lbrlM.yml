@@ -1,0 +1,51 @@
+_id: 1GnFB6iwcy3lbrlM
+name: Persistent Reactions
+type: feat
+img: icons/magic/fire/explosion-flame-lightning-strike.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: 49610
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>Your instant reactions that have an area of effect persist in that area
+      until the start of your next turn. While they persist, each creature that
+      enters the area for the first time on a turn or ends its turn there must
+      repeat the saving throw against the effect. You can choose to make the
+      effect not persist in this way when you take the action to produce the
+      instant reaction.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 3
+  prerequisites:
+    level: 3
+  identifier: persistent-reactions
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.eJ6QGLrWImyoxCL0
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385665161
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!1GnFB6iwcy3lbrlM'

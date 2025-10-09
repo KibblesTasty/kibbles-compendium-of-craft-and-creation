@@ -1,0 +1,51 @@
+_id: cys6vPr2rqtvATFV
+name: Airburst Mine
+type: feat
+img: icons/magic/sonic/explosion-shock-wave-teal.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 100000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You create a mechanical device capable of producing a devastating
+      blast. You can use this device to cast
+      @Compendium[dnd5e.spells.wJKpSvSTbSkTjqyb]{Shatter} or
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.UoMaFcapMsiMQm8B]{Thunderburst
+      Mine} without expending a spell slot. Once used, this gadget can’t be used
+      again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Gadgetsmith 1
+  prerequisites:
+    level: 1
+  identifier: airburst-mine
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.l86LFvyVDOALDwNb
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385704645
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!cys6vPr2rqtvATFV'

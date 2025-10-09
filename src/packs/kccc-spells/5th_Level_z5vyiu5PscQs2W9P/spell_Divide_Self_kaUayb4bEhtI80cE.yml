@@ -1,0 +1,170 @@
+name: Divide Self
+type: spell
+img: icons/magic/unholy/strike-body-life-soul-purple.webp
+effects: []
+folder: z5vyiu5PscQs2W9P
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: kaUayb4bEhtI80cE
+system:
+  description:
+    value: >-
+      <p>You you create an exact duplicate of yourself in an empty space you can
+      see within 30 feet of you. When you cast this spell at the start of each
+      of your turns for the duration, you can switch places with your
+      duplicate.</p>
+
+      <p>The duplicate has all of your stats, abilities, and equipment
+      (including magic items). It acts on your initiative, and has its own
+      actions, though it shares its concentration on this spell, and if either
+      of you lose concentration, the spell ends.</p>
+
+      <p>Your current hit points are divided between you and the duplicate and
+      shares all other resources and abilities with you (including limited use
+      magic items), with any usage by either you or the duplicate depleting the
+      resource for both of you.</p>
+
+      <p>Your duplicate can take any action you can take, but it can deal a
+      maximum of 15 damage on its turn (any additional damage dealt deals no
+      further damage, when dealing area of effect damage, damage is split
+      between all targets equally up to the maximum).</p>
+
+      <p>If either you or the duplicate is reduced to zero hit points, the spell
+      ends and you become the copy that was not reduced to zero hit points. When
+      the spell ends, if both you and the duplicate are still present, decide
+      which is you, and the other vanishes. Anything that was copied during the
+      spell has the copied version vanish.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell slot of 6th level or higher, the starting hit points of you
+      and the duplicate both increase by 15 (up to a maximum of you and the
+      duplicate starting with your current hit points) and the maximum damage
+      the duplicate can do during its turn increases by 10 for each slot level
+      above 5th</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 5
+  school: ill
+  components:
+    vocal: false
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.OOMrf4c2Y41wyjIX
+  duplicateSource: null
+  exportSource: null
+_key: '!items!kaUayb4bEhtI80cE'

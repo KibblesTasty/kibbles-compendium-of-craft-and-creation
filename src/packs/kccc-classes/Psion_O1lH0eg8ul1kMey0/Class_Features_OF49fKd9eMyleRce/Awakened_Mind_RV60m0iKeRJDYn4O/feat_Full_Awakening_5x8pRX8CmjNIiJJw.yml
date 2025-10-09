@@ -1,0 +1,102 @@
+_id: 5x8pRX8CmjNIiJJw
+name: Full Awakening
+type: feat
+img: icons/magic/perception/third-eye-blue-red.webp
+effects: []
+folder: RV60m0iKeRJDYn4O
+sort: 31250
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: "<p>Starting at 14th level, you can briefly fully awaken your expanded mind to true comprehension. At the start of your turn, you can expend 2 psi points to gain advantage on all saving throws and attack rolls until the start of your next turn.</p>\n<p>\_</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Awakened Mind 14
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: ''
+        value: 1
+        condition: Start of your turn
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: turn
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: full-awakening
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.Tw6VeoXLrZ9NQLL7
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385668804
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!5x8pRX8CmjNIiJJw'

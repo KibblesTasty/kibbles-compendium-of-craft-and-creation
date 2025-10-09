@@ -1,0 +1,65 @@
+_id: PJ8Iq4pkphER3Rhb
+name: Infusionsmith’s Proficiency
+type: feat
+img: icons/tools/scribal/ink-quill-pink.webp
+effects: []
+folder: lKyczfRewSQTbTBf
+sort: 0
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>When you choose this specialization at 1st level, you gain proficiency
+      with calligrapher’s supplies and jeweler’s tools.</p>
+
+      <p>Your knowledge of infusion magic also gives you a natural affinity for
+      scribing spell scrolls. The time you must spend to create a magic spell
+      scroll is halved.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Infusionsmith 1
+  identifier: infusionsmiths-proficiency
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+  advancement:
+    - type: Trait
+      _id: MaIGmbgRJftiYL8n
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - tool:art:calligrapher
+          - tool:art:jeweler
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.9646PDYKVPLNyyIi
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  createdTime: 1726385696428
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!PJ8Iq4pkphER3Rhb'

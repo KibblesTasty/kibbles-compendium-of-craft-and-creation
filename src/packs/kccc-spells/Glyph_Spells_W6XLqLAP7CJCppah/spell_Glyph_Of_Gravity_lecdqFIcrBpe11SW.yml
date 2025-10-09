@@ -1,0 +1,214 @@
+name: Glyph Of Gravity
+type: spell
+img: icons/magic/symbols/rune-sigil-horned-white-purple.webp
+system:
+  description:
+    value: >-
+      <p>You draw an ethereal mark in the air at a point within range. Within 30
+      feet of this Glyph, moving away from it requires twice as much movement,
+      and any creature that ends its turn within 30 feet of it is pulled 10 feet
+      closer to it if there is space available.</p><p>As an action, you can
+      force all creatures within 30 feet of this glyph to make a Strength saving
+      throw or be flung 40 feet away from this glyph, taking 4d6 bludgeoning
+      damage and falling &amp;Reference[prone]. After using this action, the
+      spell ends.</p><p>You can end the spell early by deactivating it with a
+      bonus action.</p>
+    chat: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  level: 4
+  school: trs
+  activation:
+    condition: ''
+    cost: 1
+    type: bonus
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: ft
+    value: 5
+    long: null
+    special: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+    rules: '2014'
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+    affects:
+      type: ''
+    template:
+      type: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  properties:
+    - somatic
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  activities:
+    G24m6iL865mAO7b3:
+      type: utility
+      name: Create Glyph
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+      _id: G24m6iL865mAO7b3
+    Gvpcn1Tme1wwYYWs:
+      type: save
+      name: Detonate
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '15'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: '6'
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      _id: Gvpcn1Tme1wwYYWs
+      img: ''
+      appliedEffects: []
+folder: W6XLqLAP7CJCppah
+flags:
+  dnd5e:
+    migratedProperties:
+      - somatic
+    riders:
+      activity: []
+      effect: []
+_id: lecdqFIcrBpe11SW
+effects: []
+sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: 1721845395358
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!lecdqFIcrBpe11SW'

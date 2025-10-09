@@ -1,0 +1,101 @@
+_id: koU9H7pUchfawVee
+name: Fleshcrafted Enhancement
+type: feat
+img: icons/creatures/claws/claw-hooked-barbed.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 275000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Applicable Fleshcrafted Mutation)</em></p>
+
+      <p>You use your knowledge of inhuman anatomy and the twisted powers you
+      gain from it to formulate an unnatural enhancement of your Fleshcrafted
+      Mutation, granting it an additional power. The table below shows which
+      enhancements can be applied to which mutations.</p>
+
+      <p>Each enhancement has an empowered effect. An empowered effect
+      automatically occurs when you roll a 20 to hit with your mutation on an
+      attack with the enhancement, or once per turn on your turn, you can
+      manually activate the empowered condition by expending a spell slot of 1st
+      level or higher.</p>
+
+      <p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.XQUPeJVG9uEMikiz]{Fleshcrafted
+      Enhancement: Vampiric}</p>
+
+      <p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.kAaMnjTVhSqr58qp]{Fleshcrafted
+      Enhancement: Infernal}</p>
+
+      <p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.TSxYR0HYcb9OU9rW]{Fleshcrafted
+      Enhancement: Venomous}</p>
+
+      <p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.O7irXsNsHZSirXf1]{Fleshcrafted
+      Enhancement: Razor}</p>
+
+      <p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.Xuq8EruqZ391qupg]{Fleshcrafted
+      Enhancement: Relentless}</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 3
+  prerequisites:
+    level: 3
+  identifier: fleshcrafted-enhancement
+  activities: {}
+  enchant: {}
+  properties: []
+  advancement:
+    - type: ItemChoice
+      _id: Bf4WVHKaiufWHQCS
+      configuration:
+        allowDrops: true
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.kAaMnjTVhSqr58qp
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.O7irXsNsHZSirXf1
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.Xuq8EruqZ391qupg
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.XQUPeJVG9uEMikiz
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.TSxYR0HYcb9OU9rW
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.NTHFFJ06v06pZXss
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385709345
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!koU9H7pUchfawVee'

@@ -1,0 +1,134 @@
+_id: bvSGzaZnAXP26YRB
+name: Death Flail
+type: feat
+img: icons/weapons/maces/flail-triple-grey.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 50000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Perfection of Technique)</em></p>
+
+      <p>Rather than cast out the Flaying Hook, you master the art of spinning
+      your attached martial weapon by the chain in a windmill of death. Your
+      weapon gains the Reach property when used in this way.</p>
+
+      <p>Additionally, instead of attacking a target with it normally, as an
+      action, you can spin the weapon wildly in giant deadly sweeps. Up to four
+      creatures within 10 feet must make a Dexterity saving throw against a DC
+      of 8 + your Strength modifier + your proficiency bonus. On failure they
+      take damage equal to your weapon’s damage dice + your Strength modifier of
+      your weapon’s damage type.</p>
+
+      <p>If you have the Spiked Chain upgrade and hit one or more targets, you
+      can select one of them to be affected by the special property of Spiked
+      Chain.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 3
+  prerequisites:
+    level: 3
+    items:
+      - thesis-of-flesh-perfection-of-technique
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '10'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 2
+            denomination: 6
+            bonus: '@mod'
+            types:
+              - slashing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: str
+        dc:
+          calculation: str
+          formula: ''
+      sort: 0
+  identifier: death-flail
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.ZlDKhVPOzPMnRjLL
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385704280
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!bvSGzaZnAXP26YRB'

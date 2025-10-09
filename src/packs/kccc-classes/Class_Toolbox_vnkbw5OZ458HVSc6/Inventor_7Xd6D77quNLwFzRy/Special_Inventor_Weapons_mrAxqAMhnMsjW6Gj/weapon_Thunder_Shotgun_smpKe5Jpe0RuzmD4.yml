@@ -1,0 +1,182 @@
+name: Thunder Shotgun
+type: weapon
+img: icons/weapons/guns/gun-topbarrel.webp
+effects: []
+folder: mrAxqAMhnMsjW6Gj
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You use the power of thunder to launch a projectile with terrible
+      power, if limited accuracy, over long distances. Ringing out with a
+      booming crash, it brings fear to the battlefield.</p><p>A special cannon
+      made to devastate at close range. This weapon has a range of 30/90, but
+      doesn’t suffer disadvantage when there is a creature within melee range of
+      you. It deals [[/damage 4d4]] damage to targets within 10 feet, [[/damage
+      3d4]] damage to targets within 20 feet, [[/damage 2d4]] damage to targets
+      within 30 feet, and [[/damage 1d4]] damage to targets beyond 30 feet. This
+      weapon has advantage on targets within 10 feet of you so long as there is
+      nothing between you and the target.</p><p>This weapon must be reloaded
+      with your bonus action once fired, and has disadvantage on all attacks if
+      you have a Strength of 12 or less.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  quantity: 1
+  weight:
+    value: 15
+    units: lb
+  price:
+    value: 200
+    denomination: gp
+  attunement: ''
+  equipped: false
+  rarity: uncommon
+  identified: true
+  cover: null
+  crewed: false
+  range:
+    value: null
+    long: 90
+    units: ft
+    reach: 30
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  damage:
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 4
+      bonus: ''
+      types:
+        - piercing
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  properties:
+    - ada
+    - fir
+    - lod
+    - two
+  proficient: 1
+  unidentified:
+    description: ''
+  type:
+    value: simpleM
+    baseItem: ''
+  container: null
+  attuned: false
+  magicalBonus: null
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      sort: 0
+  identifier: thunder-shotgun
+  ammunition: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385715159
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_id: smpKe5Jpe0RuzmD4
+sort: 0
+_key: '!items!smpKe5Jpe0RuzmD4'

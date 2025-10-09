@@ -1,0 +1,54 @@
+_id: nQush3tyzU54UqJ9
+name: Lightning Generator
+type: feat
+img: icons/magic/lightning/bolt-strike-sparks-yellow.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 201563
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You upgrade your Shock Generator with additional lightning
+      capabilities. You can overload your Shock Generator to cast lightning bolt
+      without expending a spell slot. Once you cast
+      @Compendium[dnd5e.spells.IyikgTEOTv701jgQ]{Lightning Bolt} in this way,
+      you can’t do so again until you finish a short or long rest.</p>
+
+      <p>Additionally, once per turn when you deal lightning damage with a
+      spell, you can add your Intelligence modifier to the spell’s damage
+      roll.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Gadgetsmith 11
+  prerequisites:
+    level: 11
+  identifier: lightning-generator
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.CU8jC39tgTeS2KZf
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385711265
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!nQush3tyzU54UqJ9'

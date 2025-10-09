@@ -1,0 +1,68 @@
+_id: Y7KJmp0PJVkS7CCO
+name: Rocketry
+type: feat
+img: icons/skills/ranged/rocket-skull-fire-blue.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: 43360
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>Combining your understanding of explosives with advances in delivery
+      and stabilization, you produce the logical extreme: powering a
+      rocket-based payload with your devastating knowledge.</p>
+
+      <p>You can choose any instant reaction you know as the payload for your
+      rocket. Rockets must be prepared ahead of time, and you can prepare a
+      number of them up to your Intelligence modifier (minimum of 1) at the end
+      of a short or long rest. When you finish a rest, any unused rockets lose
+      their potency and must be remade due to their volatile components.</p>
+
+      <p>A rocket targets a point you can see within 500 feet of you, but the DC
+      of the instant reaction’s saving throw is reduced by 2 for every 100 feet
+      it travels. When the rocket reaches its desti-</p>
+
+      <p>nation, the instant reaction takes effect, centered on that point.</p>
+
+      <p>Alternatively, you can load an alternate payload into your rockets,
+      which can be an object that weighs no more than 1 pound, replacing the
+      effect of the instant reaction. This alternate payload can be salvaged
+      during a rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 9
+  prerequisites:
+    level: 9
+    items:
+      - explosive-reaction
+      - delivery-mechanism
+  identifier: rocketry
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.jqaGiejtnquhgLgV
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385701933
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!Y7KJmp0PJVkS7CCO'

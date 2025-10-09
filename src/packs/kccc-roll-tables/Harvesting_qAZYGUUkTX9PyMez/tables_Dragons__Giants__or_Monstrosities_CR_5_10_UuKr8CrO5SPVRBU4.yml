@@ -1,0 +1,148 @@
+name: Dragons, Giants, or Monstrosities CR 5-10
+img: icons/creatures/abilities/dragon-fire-breath-orange.webp
+description: >-
+  <p>If a material is found, to successfully harvest it, you will need to roll a
+  [[/check medicine dc=10]] ability check.</p>
+results:
+  - _id: 4CjI8BnJpzBobXFb
+    type: document
+    img: icons/commodities/materials/bowl-powder-gold.webp
+    weight: 1
+    range:
+      - 1
+      - 30
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Uncommon Reactive Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.QR3VyyUnHKMua0Lr
+    description: ''
+    _key: '!tables.results!UuKr8CrO5SPVRBU4.4CjI8BnJpzBobXFb'
+  - _id: TbjSQc1tPKhtDT2H
+    type: document
+    img: icons/commodities/biological/tail-spiked-green.webp
+    weight: 1
+    range:
+      - 31
+      - 60
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Uncommon Poisonous Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.5bgfoiOWZydLskRB
+    description: ''
+    _key: '!tables.results!UuKr8CrO5SPVRBU4.TbjSQc1tPKhtDT2H'
+  - _id: sjl1aXKiTBasD2Gm
+    type: text
+    img: icons/commodities/materials/bowl-powder-gold.webp
+    weight: 1
+    range:
+      - 61
+      - 80
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      [[/r 1d4]]
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.QR3VyyUnHKMua0Lr]{Uncommon
+      Reactive Reagent}
+    name: ''
+    _key: '!tables.results!UuKr8CrO5SPVRBU4.sjl1aXKiTBasD2Gm'
+  - _id: rOCEwrxQIiwqcpeU
+    type: document
+    img: icons/commodities/gems/gem-oval-red.webp
+    weight: 1
+    range:
+      - 81
+      - 90
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Uncommon Primal Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.tVxOYNqfvlHNsGlZ
+    description: ''
+    _key: '!tables.results!UuKr8CrO5SPVRBU4.rOCEwrxQIiwqcpeU'
+  - _id: nR8EoMEwfyDoDJfM
+    type: document
+    img: icons/commodities/gems/gem-oval-red.webp
+    weight: 1
+    range:
+      - 91
+      - 100
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Uncommon Primal Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.tVxOYNqfvlHNsGlZ
+    description: ''
+    _key: '!tables.results!UuKr8CrO5SPVRBU4.nR8EoMEwfyDoDJfM'
+formula: 1d100
+replacement: true
+displayRoll: true
+folder: qAZYGUUkTX9PyMez
+sort: 600000
+flags:
+  core: {}
+_id: UuKr8CrO5SPVRBU4
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.3.1
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: RollTable.rlyqGgLYtIWBzvKi
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!UuKr8CrO5SPVRBU4'

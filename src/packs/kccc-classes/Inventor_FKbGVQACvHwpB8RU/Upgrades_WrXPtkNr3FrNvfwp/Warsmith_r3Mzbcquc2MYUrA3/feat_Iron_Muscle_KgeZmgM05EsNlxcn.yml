@@ -1,0 +1,53 @@
+name: Iron Muscle
+type: feat
+img: icons/equipment/hand/gauntlet-plate-steel-grey.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 118750
+flags:
+  core: {}
+_id: KgeZmgM05EsNlxcn
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Integrated Armor or Warplate)</em></p>
+
+      <p>You reinforce the structure of your armor, giving it the strength of
+      giants. While wearing your armor, your current Strength ability score is
+      increased by 2, and your maximum Strength ability score becomes 24.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 14
+  prerequisites:
+    level: 14
+    items:
+      - integrated-armor
+      - warplate
+  identifier: iron-muscle
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.JqSUMPgsegS34Sm6
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385692686
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!KgeZmgM05EsNlxcn'

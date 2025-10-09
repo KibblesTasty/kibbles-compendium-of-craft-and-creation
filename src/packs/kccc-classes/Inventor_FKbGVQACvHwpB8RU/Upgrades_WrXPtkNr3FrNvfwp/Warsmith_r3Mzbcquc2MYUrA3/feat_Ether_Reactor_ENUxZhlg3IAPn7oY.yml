@@ -1,0 +1,123 @@
+name: Ether Reactor
+type: feat
+img: icons/magic/light/circle-window-clock-blue.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 700000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 6
+_id: ENUxZhlg3IAPn7oY
+system:
+  description:
+    value: >-
+      <p>You construct an ether reactor that feeds your armor, powering its
+      upgrades with arcane energy. The Ether Reactor has 6 charges, and can be
+      used to power upgrades that cast spells, even upgrades that would normally
+      only recharge after a rest can instead be cast by using charges, spending
+      1 charge per level of the spell you are casting. You can cast spells at a
+      higher level by expending more charges. It regains all charges at the end
+      of a long rest.</p>
+
+      <p>If your Ether Reactor has no charges left, you can overdraw your Ether
+      Reactor for one last burst of power, but your armor is temporarily
+      immobilized and your speed while wearing your armor becomes zero for a
+      number of rounds equal to the level of the spell cast. Once you overdraw
+      it, you can’t do this again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '6'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 9
+  prerequisites:
+    level: 9
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: ether-reactor
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.5iILDBRQxU4Oq9xD
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385677282
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!ENUxZhlg3IAPn7oY'

@@ -1,0 +1,89 @@
+_id: BtAuoNkAJfuCqBWz
+name: Salvation’s Shield
+type: feat
+img: icons/magic/holy/barrier-shield-winged-cross.webp
+effects:
+  - _id: SyWf6S251Uoq0Cyw
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: '+2'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: Compendium.world.kccc-classes.BtAuoNkAJfuCqBWz
+    transfer: true
+    flags: {}
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    name: Salvation's Shield
+    img: icons/magic/holy/barrier-shield-winged-cross.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
+    _key: '!items.effects!BtAuoNkAJfuCqBWz.SyWf6S251Uoq0Cyw'
+folder: 6RbJFAVpFkze0lLy
+sort: 43750
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Relic Lantern)</em></p>
+
+      <p>While carrying the relic lantern in your hand, you are under the effect
+      of the @Compendium[dnd5e.spells.jZ6JNykRtdQ90MOo]{Shield of Faith}
+      spell.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Relicsmith 3
+  prerequisites:
+    level: 3
+    items:
+      - ingenious-reliquary-relic-lantern
+  identifier: salvations-shield
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.mKa6RH02KzMIcf59
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385675103
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!BtAuoNkAJfuCqBWz'

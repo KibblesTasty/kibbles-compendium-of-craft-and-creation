@@ -1,0 +1,56 @@
+_id: i5tvTbECif6SJI4a
+name: Recycle Gadgets
+type: feat
+img: icons/commodities/tech/cog-brass.webp
+effects: []
+folder: Z2DG7epkhNg8rL75
+sort: -200000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you can disassemble your gadgets and create
+      different ones during a long rest. When you finish the rest, you can
+      replace any upgrade you have with a new one.</p>
+
+      <p>The chosen upgrade must still be one that is valid for the level at
+      which you gained the replaced upgrade. For example, at 9th level, you can
+      only have one upgrade that has a 9th-level prerequisite.</p>
+
+      <p>Additionally, if one of your gadgets is destroyed, you can use this
+      feature to recreate it over the course of a long rest, which requires
+      materials worth 20 gp.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Gadgetsmith 3
+  identifier: recycle-gadgets
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.DzQ64CtKAfMq5Yrx
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385707873
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!i5tvTbECif6SJI4a'

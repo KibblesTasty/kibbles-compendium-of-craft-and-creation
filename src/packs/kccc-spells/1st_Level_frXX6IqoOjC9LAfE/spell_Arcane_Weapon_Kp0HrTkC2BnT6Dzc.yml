@@ -1,0 +1,302 @@
+name: Arcane Weapon
+type: spell
+img: icons/magic/symbols/runes-etched-steel-blade.webp
+effects:
+  - name: Arcane Weapon
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    _id: dovPyBC9SoaiStR0
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+        priority: null
+      - key: ''
+        mode: 2
+        value: ''
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You touch a weapon and imbue it with magic. For the duration the weapon
+      counts as a magical weapon and any damage dealt by it is Force damage.
+      When casting this one a weapon with the ammunition property, it no longer
+      consumes ammunition when fired, and does not need to be reloaded.</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: icons/magic/symbols/runes-etched-steel-blade.webp
+    type: base
+    system: {}
+    sort: 0
+    _key: '!items.effects!Kp0HrTkC2BnT6Dzc.dovPyBC9SoaiStR0'
+  - type: enchantment
+    name: Arcane Weapon
+    img: icons/magic/symbols/runes-etched-steel-blade.webp
+    disabled: true
+    _id: 6Rg7z8UiBi2xCjIb
+    system: {}
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.2.2
+      createdTime: 1737758759140
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!items.effects!Kp0HrTkC2BnT6Dzc.6Rg7z8UiBi2xCjIb'
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: Kp0HrTkC2BnT6Dzc
+system:
+  description:
+    value: >-
+      <p>You touch a weapon and imbue it with magic. For the duration the weapon
+      counts as a magical weapon and any damage dealt by it is Force damage.
+      When casting this one a weapon with the ammunition property, it no longer
+      consumes ammunition when fired, and does not need to be reloaded.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell slot of 3rd or 4th level, the duration becomes 8 hours. When
+      you use a spell slot of 5th level or higher, the duration becomes 24
+      hours.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+    affects:
+      special: ''
+    template:
+      type: ''
+  range:
+    value: null
+    long: null
+    units: touch
+    special: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ench
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  enchantment:
+    restrictions:
+      allowMagical: true
+      type: ''
+  properties:
+    - vocal
+    - somatic
+  activities:
+    Wwo5D8oHtNXHwplz:
+      type: enchant
+      _id: Wwo5D8oHtNXHwplz
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 6Rg7z8UiBi2xCjIb
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant: {}
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: weapon
+      name: ''
+      img: ''
+      appliedEffects:
+        - 6Rg7z8UiBi2xCjIb
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: enchant
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: dovPyBC9SoaiStR0
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+            activity: []
+            item: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      enchant:
+        identifier: ''
+      restrictions:
+        allowMagical: true
+        type: ''
+        categories: []
+        properties: []
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: 1721351127405
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.VrGvTT3z4qMnjwRQ
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Kp0HrTkC2BnT6Dzc'

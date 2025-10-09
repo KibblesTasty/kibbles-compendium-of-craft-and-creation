@@ -1,0 +1,198 @@
+_id: D9iiOQKWGwgU2iQM
+name: Curse Bringer
+type: feat
+img: icons/magic/unholy/strike-hand-glow-pink.webp
+effects: []
+folder: 1FEFTA5H9DfdQVYG
+sort: 187500
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 2
+system:
+  description:
+    value: >-
+      <p>You can force your soul's burdens onto others. When you make an attack
+      roll while under the effect of bane, if you hit the creature after rolling
+      a 3 or 4 on the d4 from bane, the target suffers the effect of bane until
+      the end of your next turn. This effect is extended to the end of your
+      subsequent next turn if you hit them your Forbidden Artifact again while
+      they are afflicted (regardless of the roll of the bane die)</p>
+
+      <p>Additionally, when you suffer the effect of any curse of one of the
+      upgrades granted by this class, as a reaction, you can force another
+      creature within 30 feet to make a Charisma saving throw against your spell
+      save DC or suffer the same effect. You can do this a number of times equal
+      to your proficiency bonus, regaining all uses on a long rest.</p>
+
+      <p>When you select this path, you learn the following spells at the
+      following levels. These spells do not count against your spells known, and
+      are Inventor spells for you.</p>
+
+      <table style="width:403px;border-top:1px solid
+      var(--color-border-light-tertiary);border-bottom:1px solid
+      var(--color-border-light-tertiary)" border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center;width:129.047px"><strong>Inventor
+      Level</strong></td>
+
+      <td style="text-align:center;width:268.953px"><strong>Spell</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:129.047px">3rd</td>
+
+      <td
+      style="text-align:center;width:268.953px">@Compendium[dnd5e.spells.95K2aUhAGV9qXjnf]{Bane}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:129.047px">5th</td>
+
+      <td
+      style="text-align:center;width:268.953px">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.6cFfHnF9WfDGESQV]{Disorient}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:129.047px">9th</td>
+
+      <td
+      style="text-align:center;width:268.953px">@Compendium[dnd5e.spells.pO4zGe5LmFIYqJiL]{Bestow
+      Curse}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:129.047px">13th</td>
+
+      <td
+      style="text-align:center;width:268.953px">@Compendium[dnd5e.spells.BYNvBJzHcF5VJhXw]{Phantasmal
+      Killer}</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center;width:129.047px">17th</td>
+
+      <td
+      style="text-align:center;width:268.953px">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.Y1JG6RgBaHe6t1XV]{Killing
+      Curse}</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '@prof'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Cursesmith 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: special
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: round
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability: cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: curse-bringer
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.bYjP8TyhFyawlVJr
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385676238
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!D9iiOQKWGwgU2iQM'

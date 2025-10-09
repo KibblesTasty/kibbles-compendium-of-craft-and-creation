@@ -1,0 +1,62 @@
+name: Warsmith’s Proficiency
+type: feat
+img: icons/skills/trades/smithing-tongs-metal-red.webp
+effects: []
+folder: 1pc1LwAWqS4EWJRB
+sort: 0
+flags:
+  core: {}
+_id: jLLgVm8rySWdw2QX
+system:
+  description:
+    value: >-
+      <p>At 1st level, you gain proficiency with heavy armor, tinker’s tools and
+      smith’s tools.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Warsmith 1
+  identifier: warsmiths-proficiency
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+  advancement:
+    - type: Trait
+      _id: 9hA1JVjjKp8Kyra4
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - armor:hvy
+          - tool:art:smith
+          - tool:art:tinker
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.R2ipZjU5PQfcIqzn
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  createdTime: 1726385708618
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!jLLgVm8rySWdw2QX'

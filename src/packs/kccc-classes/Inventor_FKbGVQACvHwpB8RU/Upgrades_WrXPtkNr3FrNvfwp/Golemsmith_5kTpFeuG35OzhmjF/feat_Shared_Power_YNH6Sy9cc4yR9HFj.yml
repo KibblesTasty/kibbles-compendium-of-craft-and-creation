@@ -1,0 +1,59 @@
+_id: YNH6Sy9cc4yR9HFj
+name: Shared Power
+type: feat
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: -31250
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You bind your golem’s power source to your own soul, allowing you to
+      tap its power and it to tap your power. Your golem can use its action and
+      expend one of your spell slots to cast a spell you know of the slot’s
+      level or lower.</p>
+
+      <p>In addition, you can use your action to cause your golem to lose a
+      number of hit points up to twice your inventor level, granting you a
+      number of temporary hit points equal to that amount.</p>
+
+      <p>Finally, on your turn, you can forgo your action to grant your golem an
+      additional action, or you can command your golem to forgo its action,
+      granting yourself an additional action. That action can only be used to
+      take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an
+      Object action.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 15
+  prerequisites:
+    level: 15
+  identifier: shared-power
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.NNV6wVIMjkKr7yRs
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385702111
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!YNH6Sy9cc4yR9HFj'

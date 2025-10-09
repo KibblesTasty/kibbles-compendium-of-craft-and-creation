@@ -1,0 +1,119 @@
+_id: MKmt60XVWepvVQl1
+name: Reflected Agony
+type: feat
+img: icons/skills/wounds/injury-pain-body-orange.webp
+effects: []
+folder: 4oRXhiawKXYmriMh
+sort: -200000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>When a creature within 120 feet that you can see deals damage to you,
+      you can use your reaction to spend 1 or more psi points (up to your psi
+      limit) to share the pain you experienced back at them, dealing 1d10
+      psychic damage per point spent. The damage this deals can’t exceed the
+      damage taken from the attack.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Telepathy 2
+  prerequisites:
+    level: 2
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '120'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 10
+            bonus: ''
+            types:
+              - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+  identifier: reflected-agony
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.Fu3aMN57odWMTBkq
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385694142
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!MKmt60XVWepvVQl1'

@@ -1,0 +1,144 @@
+name: Unleashed Psyche
+type: feat
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+effects: []
+folder: CNupeq6WKLNvZly9
+sort: 800000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
+_id: 3M57NjUfAUkJOYB1
+_stats:
+  compendiumSource: Item.IHbhRe2FYOD4JQ3n
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385613713
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, you gain enough mental control to form the
+      twisted nightmares that dwell within your mind into the world. As an
+      action, targeting a point within 60 feet you spawn a malignant
+      otherworldly nightmare, taking the form of a twisted aberration of
+      terror.</p>
+
+      <p>The first time a creature other than you is within 20 feet of it during
+      their turn (including starting their turn there), they must make a Wisdom
+      saving throw. On failure they take 4d8 psychic damage and become
+      frightened of it.</p>
+
+      <p>The spawned nightmare lasts until the start of your turn, when it fades
+      away unless at least one creature has failed their saving throw against
+      its effect, in which case it persists for another round (indefinitely
+      until no creatures fail their saving throw against it, after which it
+      fades away at the start of your next turn).</p>
+
+      <p>Once you use this ability, you can’t do so until you finish a short or
+      long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+  requirements: That Which Is Beyond 14
+  type:
+    value: class
+    subtype: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: round
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '20'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: unleashed-psyche
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_key: '!items!3M57NjUfAUkJOYB1'

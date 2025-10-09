@@ -1,0 +1,54 @@
+name: Flickering Presence
+type: feat
+img: icons/magic/symbols/question-stone-yellow.webp
+effects: []
+folder: hUW2IdYw56P65RkO
+sort: 500000
+flags:
+  core: {}
+_id: I8nxCsuyyM07Ze48
+system:
+  description:
+    value: >-
+      <p>Starting at 10th level, your unspent Psionic Mastery points are not
+      lost until the start of your next turn, but can only be used to cast
+      flicker.</p>
+
+      <p>Additionally, when you roll for the effect of
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.BDNZqFxUSSsFq8xl]{Flicker}
+      or @Compendium[dnd5e.spells.GSvLWcdCZLQkilXT]{Blink} you can expend 1 psi
+      point to reroll the result. You can select which of the two results you
+      would like to use.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Wandering Mind 10
+  identifier: flickering-presence
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.hZQnkyD2bbfjM3Vy
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385691417
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!I8nxCsuyyM07Ze48'

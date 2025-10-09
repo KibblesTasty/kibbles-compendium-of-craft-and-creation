@@ -1,0 +1,62 @@
+name: Relicsmith’s Proficiency
+type: feat
+img: icons/sundries/lights/candle-lit-red.webp
+effects: []
+folder: OSA210MS3x9DU4JF
+sort: 0
+flags:
+  core: {}
+_id: tXrdSM8uRRX14EeS
+system:
+  description:
+    value: >-
+      <p>When you choose this specialization at 1st level, you gain proficiency
+      with martial weapons, the Religion skill and calligrapher’s supplies.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Relicsmith 1
+  identifier: relicsmiths-proficiency
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+  advancement:
+    - type: Trait
+      _id: BXKWXrKRXCRyZhYv
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:mar
+          - skills:rel
+          - tool:art:calligrapher
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.4EbJryakHowFEu2U
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  createdTime: 1726385715562
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!tXrdSM8uRRX14EeS'

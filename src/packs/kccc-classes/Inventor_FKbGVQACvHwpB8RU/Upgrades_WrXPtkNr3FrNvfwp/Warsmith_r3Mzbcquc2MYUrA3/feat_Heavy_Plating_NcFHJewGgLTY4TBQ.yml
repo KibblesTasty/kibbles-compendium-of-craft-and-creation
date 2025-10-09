@@ -1,0 +1,52 @@
+name: Heavy Plating
+type: feat
+img: icons/equipment/chest/breastplate-layered-steel.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 121875
+flags:
+  core: {}
+_id: NcFHJewGgLTY4TBQ
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Warplate)</em></p>
+
+      <p>You install special heavy plating, giving you resistance to
+      bludgeoning, piercing, and slashing damage from non-magical sources while
+      wearing your Warplate.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 15
+  prerequisites:
+    level: 15
+    items:
+      - warplate
+  identifier: heavy-plating
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.ikYyuS0JKG846TjP
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385695228
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!NcFHJewGgLTY4TBQ'

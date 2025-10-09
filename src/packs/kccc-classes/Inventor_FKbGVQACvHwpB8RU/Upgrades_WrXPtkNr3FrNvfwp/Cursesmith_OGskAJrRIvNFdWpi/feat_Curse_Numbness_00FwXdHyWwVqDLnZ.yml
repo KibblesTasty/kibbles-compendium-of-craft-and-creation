@@ -1,0 +1,49 @@
+name: Curse Numbness
+type: feat
+img: icons/magic/death/projectile-skull-fire-orange.webp
+effects: []
+folder: OGskAJrRIvNFdWpi
+sort: 3600000
+flags:
+  core: {}
+_id: 00FwXdHyWwVqDLnZ
+system:
+  description:
+    value: >-
+      <p>(Prerequisite: Curse Bearer)</p><p>You become immune to the effects of
+      bane, bestow curse, and hex, even when self-inflicted.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Cursesmith 15
+  prerequisites:
+    level: 15
+    items:
+      - curse-bearer
+  identifier: curse-numbness
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.GnBIf8gVwntziHgb
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385664317
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!00FwXdHyWwVqDLnZ'

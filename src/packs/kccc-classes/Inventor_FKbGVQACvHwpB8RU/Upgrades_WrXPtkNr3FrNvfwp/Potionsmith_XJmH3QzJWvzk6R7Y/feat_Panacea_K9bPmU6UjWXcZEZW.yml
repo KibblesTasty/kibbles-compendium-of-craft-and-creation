@@ -1,0 +1,51 @@
+_id: K9bPmU6UjWXcZEZW
+name: Panacea
+type: feat
+img: icons/consumables/potions/potion-flask-corked-yellow.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: 9375
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>When you create a Healing Draught, you can add a more potent concoction
+      to it. A creature that consumes this potent draught can treat any dice
+      rolled to determine the hit points it regains as having rolled their
+      maximum value, and the creature gains the benefit of a greater restoration
+      spell. Once you make create a Healing Draught in this way, you can’t do so
+      again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 11
+  prerequisites:
+    level: 11
+  identifier: panacea
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.2NcuHdyyK2TcGFen
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385692419
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!K9bPmU6UjWXcZEZW'

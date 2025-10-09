@@ -1,0 +1,165 @@
+name: Rain of Spiders
+type: spell
+img: icons/creatures/invertebrates/spider-web-red.webp
+effects: []
+folder: 3C2eSjufkNJJHedg
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: S7g2Zpx2bCmYJDt3
+system:
+  description:
+    value: "<p>A vertical column of spiders begins to rain down in 20 foot radius, 40 foot high cylinder, centered on a location you specify. A <strong>Swarm of Spiders</strong> (Basic Rules , pg. 391) descends onto each creature within the cylinder when the spell is cast.</p>\n<p>This swarm is considered to be climbing on the target creature and moves with it, even if they leave the affected area, and takes its turn immediately after that creature's turn. A creature can make use its action to attempt to remove the spiders, making a Strength (Athletics) or Dexterity (Acrobatics) check against the spell save DC of the caster.</p>\n<p>The swarm uses the caster's spell attack modifier when attacking (if it is higher than their attack modifier). A swarm will attack the creature it fell on if it can, or move to chase the creature if it has been knocked off of them. Any spiders that remain when the spell ends disappear.</p>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: msak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 4d4
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 3
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: a spider leg
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+    - material
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: 4
+            denomination: 4
+            bonus: ''
+            types:
+              - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.Ug35idghRWKSXQ3d
+  duplicateSource: null
+  exportSource: null
+_key: '!items!S7g2Zpx2bCmYJDt3'

@@ -1,0 +1,66 @@
+_id: 3Ervz8Gob3s0cpw2
+name: Potionsmith’s Proficiency
+type: feat
+img: icons/tools/laboratory/vials-blue-pink.webp
+effects: []
+folder: 3khuH4oESLWhWnf4
+sort: 200000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>When you choose this specialization at 1st level, you gain proficiency
+      with blowguns, alchemist’s supplies, and the herbalism kit.</p>
+
+      <p>Your knowledge of alchemy gives you a natural affinity for brewing
+      potions. Creating a potion through normal crafting takes you only half the
+      time it would normally take.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Potionsmith 1
+  identifier: potionsmiths-proficiency
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+  advancement:
+    - type: Trait
+      _id: xzS5lrFAbXG7MS1X
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:mar:blowgun
+          - tool:art:alchemist
+          - tool:herb
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.St5AocSvbtxAKmHs
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  createdTime: 1726385666200
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!3Ervz8Gob3s0cpw2'

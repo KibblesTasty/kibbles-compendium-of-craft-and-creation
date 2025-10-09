@@ -1,0 +1,51 @@
+_id: 2Kcs7KUAhopbwnLD
+name: Homunculus Familiar
+type: feat
+img: icons/creatures/magical/construct-golem-stone-blue.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: -25000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You learn the alchemical process for creating a homunculus minion. You
+      can cast find familiar without expending a spell slot or material
+      components other than your alchemical reagents and blood. This familiar
+      can appear in any Tiny shape you want, though it uses the statistics of a
+      creature that can normally be chosen by the spell, and it is a construct
+      or monstrosity, rather than one of the types listed in the spell.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 3
+  prerequisites:
+    level: 3
+  identifier: homunculus-familiar
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.yvLTQRnpwPq3uFJC
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385665594
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!2Kcs7KUAhopbwnLD'

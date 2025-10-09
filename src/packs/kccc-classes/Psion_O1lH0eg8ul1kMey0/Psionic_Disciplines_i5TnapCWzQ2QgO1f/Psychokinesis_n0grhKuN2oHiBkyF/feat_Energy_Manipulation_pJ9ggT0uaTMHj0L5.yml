@@ -1,0 +1,109 @@
+_id: pJ9ggT0uaTMHj0L5
+name: Energy Manipulation
+type: feat
+img: icons/magic/lightning/orb-ball-spiral-blue.webp
+effects: []
+folder: n0grhKuN2oHiBkyF
+sort: -25000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>When you gain this feature, you can manipulate energy in minor ways at
+      will. As an action, you can cause a light that emits 30 feet of bright
+      light and 30 feet of dim light, cause objects you touch to catch fire as
+      if touched by a match, cause small arcs of electricity, or freeze or thaw
+      up to 5-foot cube of water. Any ongoing effect you create lasts 1 minute.
+      You can have a number of simultaneous effects active up your Intelligence
+      modifier, after which creating another ends the oldest ongoing effect.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Psychokinesis 1
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '10'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: touch
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: energy-manipulation
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.qHjKIYLLfSEqsRyl
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385712204
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!pJ9ggT0uaTMHj0L5'

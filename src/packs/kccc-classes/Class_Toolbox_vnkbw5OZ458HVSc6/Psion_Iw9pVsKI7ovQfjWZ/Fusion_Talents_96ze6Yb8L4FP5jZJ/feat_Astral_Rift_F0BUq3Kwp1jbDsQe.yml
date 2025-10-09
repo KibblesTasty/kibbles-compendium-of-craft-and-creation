@@ -1,0 +1,110 @@
+folder: 96ze6Yb8L4FP5jZJ
+name: Astral Rift
+type: feat
+_id: F0BUq3Kwp1jbDsQe
+img: icons/magic/control/silhouette-hold-beam-blue.webp
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you can Phase Rift to where your Astral Construct
+      is; this movement counts as a Phase Rift, and you can apply modifiers to
+      it as normal. Your Astral Construct is moved to where you started this
+      movement along the Phase Rift; during the movement you can command your
+      Astral Construct to attack a creature it passes with your action.</p>
+    chat: ''
+  source:
+    book: KCCC
+    page: ''
+    custom: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: psionicTalent
+  prerequisites:
+    level: null
+  properties: []
+  requirements: >-
+    Psionic Synthesis, Transposition Discipline, Projection Discipline, Astral
+    Swap Talent
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: astral-rift
+  enchant: {}
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385677792
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!F0BUq3Kwp1jbDsQe'

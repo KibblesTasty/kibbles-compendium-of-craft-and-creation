@@ -1,0 +1,128 @@
+folder: Nw45grUv16P60Ccg
+name: Charged Armor
+type: feat
+_id: fzYWDexfn7CDp7Xd
+img: icons/magic/lightning/fist-unarmed-strike-blue.webp
+system:
+  description:
+    value: >-
+      <p><span style="font-family:Signika, sans-serif">As a bonus action, you
+      can juice your armor with power with the effect of the
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.KPD2lGomCEvma7Nj]{lightning
+      charged} spell.</span></p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '1'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Contingent Option
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+  identifier: charged-armor
+  enchant: {}
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385615915
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!fzYWDexfn7CDp7Xd'

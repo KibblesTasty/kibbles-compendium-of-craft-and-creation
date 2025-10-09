@@ -1,0 +1,58 @@
+_id: FZC2HcVULmQru6Vg
+name: Mortar Shells
+type: feat
+img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
+effects: []
+folder: 7xT11hbxWC5JQhzu
+sort: -75000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Stormforged weapon with the Ammunition
+      property)</em></p>
+
+      <p>You build an alternate fire mode allowing you to fire your Stormforged
+      Weapon like a mortar. Pick a target point within range, and make an attack
+      roll. Apply the attack roll to all creatures within a 5-foot radius of the
+      target point. Creatures hit take the weapon's damage plus half of the
+      Thundermonger bonus damage. Dealing damage this way counts as applying
+      Thundermonger damage for the turn. If you miss all targets, you can apply
+      Devestating Blasts as normal.</p>
+
+      <p>Creatures do not benefit from cover against this fire mode unless they
+      have overhead cover as well.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Thundersmith 9
+  prerequisites:
+    level: 9
+  identifier: mortar-shells
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.Tklc56NBIwdcrs2z
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385689420
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!FZC2HcVULmQru6Vg'

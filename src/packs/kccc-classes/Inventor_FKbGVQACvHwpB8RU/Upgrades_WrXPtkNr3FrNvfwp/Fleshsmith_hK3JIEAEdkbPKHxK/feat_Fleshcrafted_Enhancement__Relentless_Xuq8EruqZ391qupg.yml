@@ -1,0 +1,57 @@
+name: 'Fleshcrafted Enhancement: Relentless'
+type: feat
+img: icons/creatures/abilities/fang-tooth-blood-red.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 1500000
+flags:
+  core: {}
+_id: Xuq8EruqZ391qupg
+system:
+  description:
+    value: >-
+      <p><strong>Qualified Mutations: </strong>Extra Arm, Extra Tentacle</p>
+
+      <p><strong>Effect:</strong> You gain an additional reaction you can only
+      use to make an opportunity attack with that Fleshcrafted Mutation.</p>
+
+      <p><strong>Empowered Effect:</strong> You can make an additional single
+      attack with your Fleshcrafted addition. This attack only deals the weapon
+      damage of the attack, and doesn’t add your modifier to the damage
+      dealt.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshcrafted Enhancement
+  identifier: fleshcrafted-enhancement-relentless
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    items:
+      - extra-arm
+      - extra-tentacle
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.aWMEHb31bMQcuESy
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385701795
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!Xuq8EruqZ391qupg'

@@ -1,0 +1,978 @@
+_id: Zzm6TJ72AcGuxHGe
+name: Adaptive Slime
+type: npc
+img: icons/creatures/slimes/slime-face-hollow-green.webp
+items:
+  - _id: vcGGrJcN1hGIIAKP
+    name: Adaptive Improvisation
+    type: feat
+    img: icons/creatures/magical/humanoid-silhouette-glowing-pink.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Adaptive Improvisation.</strong> The slime mimics all of
+          the spells, features, weapons, and other abilities used during the
+          turn of one creature of its choice within 300 feet of it since the
+          start of the Adaptive Slime’s last turn. Any attacks it makes in this
+          way have an attack bonus of +7, and the saving throws of any effects
+          it creates have a save DC of 15. It chooses its targets for the
+          abilities it uses. The slime can’t mimic spells above 5th level.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: 300
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!Zzm6TJ72AcGuxHGe.vcGGrJcN1hGIIAKP'
+  - _id: XPRUvLpHPbX8aIce
+    name: Adaptive AC
+    type: feat
+    img: icons/magic/defensive/armor-stone-skin.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Adaptive AC</strong>. The slime assumes an AC equal to the
+          highest AC creature within 60 feet of it, its form taking on a rough,
+          somewhat amorphous facsimile of that creature’s defenses.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!Zzm6TJ72AcGuxHGe.XPRUvLpHPbX8aIce'
+  - _id: cbB7mDsqd6dPQgpn
+    name: Adaptive Resistance
+    type: feat
+    img: icons/magic/defensive/armor-shield-barrier-steel.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Adaptive Resistance.</strong> After taking damage from a
+          damage type, the slime gains resistance to that damage type for 1
+          minute.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!Zzm6TJ72AcGuxHGe.cbB7mDsqd6dPQgpn'
+  - _id: tPrhzEsDpyS1PwvZ
+    name: Amorphous
+    type: feat
+    img: icons/creatures/magical/spirit-undead-ghost-purple.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Amorphous.</strong> The slime can move through a space as
+          narrow as 1 inch wide without squeezing.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!Zzm6TJ72AcGuxHGe.tPrhzEsDpyS1PwvZ'
+  - _id: ojDSgoxO16JdMlYz
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
+    effects: []
+    folder: null
+    sort: -200000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.094090din8bu19vk
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Multiattack. </strong>The slime makes two Amorphous Weapon
+          attacks or uses Adaptive Improvisation to mimic another creature’s
+          turn.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: 0
+    _key: '!actors.items!Zzm6TJ72AcGuxHGe.ojDSgoxO16JdMlYz'
+  - _id: ArlYWMTLMDSnd8zp
+    name: Amorphous Weapon
+    type: weapon
+    img: icons/weapons/clubs/club-spiked-glowing.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><em><strong>Amorphous Weapon.</strong> Melee Weapon Attack: </em>+7
+          to hit, reach 10 ft., one target.<em> Hit:</em> 10 (1d10 + 5)
+          bludgeoning, piercing, or slashing damage (slime’s choice).</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 10
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '4'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d10 + 5
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    _key: '!actors.items!Zzm6TJ72AcGuxHGe.ArlYWMTLMDSnd8zp'
+effects: []
+folder: RgLgSAM7fPsrV84e
+sort: 100000
+flags:
+  core: {}
+  dnd5e:
+    showTokenPortrait: false
+system:
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 16
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 18
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 6
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 12
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 1
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+  attributes:
+    ac:
+      flat: null
+      calc: default
+      formula: ''
+    hp:
+      value: 127
+      min: 0
+      max: 127
+      temp: 0
+      tempmax: 0
+      formula: 15d8 + 60
+    init:
+      value: 0
+      bonus: 0
+    movement:
+      burrow: 0
+      climb: 20
+      fly: 0
+      swim: 0
+      walk: 30
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 60
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: ''
+    spellcasting: int
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: unaligned
+    race: ''
+    type:
+      value: aberration
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 5
+    spellLevel: 0
+    xp:
+      value: 10
+    source:
+      book: KCCC
+      custom: ''
+  traits:
+    size: med
+    di:
+      value:
+        - psychic
+      custom: ''
+    dr:
+      value: []
+      custom: ''
+    dv:
+      value: []
+      custom: ''
+    ci:
+      value:
+        - exhaustion
+        - frightened
+        - grappled
+        - paralyzed
+        - petrified
+        - poisoned
+        - prone
+        - restrained
+      custom: ''
+    languages:
+      value: []
+      custom: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 1
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 1
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+  source:
+    rules: '2014'
+ownership:
+  default: 0
+prototypeToken:
+  name: Adaptive Slim
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    attenuation: 0.5
+    color: null
+    negative: false
+    priority: 0
+  disposition: -1
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  flags: {}
+  randomImg: false
+  texture:
+    src: icons/creatures/slimes/slime-face-hollow-green.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+    color: null
+  appendNumber: false
+  prependAdjective: false
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Actor.FipaKBujNmaULCJD
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!Zzm6TJ72AcGuxHGe'

@@ -1,0 +1,120 @@
+_id: qlI6WV7zeJOAZggS
+name: Rampaging Power
+type: feat
+img: icons/skills/melee/strike-flail-destructive-yellow.webp
+effects: []
+folder: vy7yjVMmEk404ENU
+sort: 25000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you gain a d4 rampage die. Once on each of your
+      turns when making a damage roll, you can add this rampage die to the
+      damage roll. If you dealt damage during your last turn, your rampage die
+      becomes a d6, increasing with each subsequent turn you deal damage by one
+      step, up to a d12; if you did not deal damage during your last turn or
+      become incapacitated, it becomes a d4 once more. If you maintain a
+      continuous d12 rampage die for more than one minute, you gain one level of
+      exhaustion.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Unleashed 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: ''
+        value: 1
+        condition: Once per turn on your turn when you roll damage.
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 4
+            bonus: ''
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+  identifier: rampaging-power
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.FwU4FK5Dcpl1aNK9
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385713713
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!qlI6WV7zeJOAZggS'

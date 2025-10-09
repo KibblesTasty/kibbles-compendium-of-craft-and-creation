@@ -1,0 +1,138 @@
+_id: nxFEldjl0KITVJYp
+name: Fortifying Fumes Reaction
+type: feat
+img: icons/magic/air/wind-tornado-wall-blue.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: 25000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>As an action, you can produce an instant reaction, throwing a
+      fortifying stimulus of reagents at a point within 20 feet of you, which
+      causes fumes to erupt. Each creature within 10 feet of that point can
+      choose to hold its breath and not inhale the fumes, but creatures that do
+      inhale them gain 1d4 tempo-rary hit points, deal an extra 1d4 damage on
+      their next melee weapon attack, and have advantage on their next
+      Constitution saving throw. Any remaining benefits from this effect fade at
+      the end of your next turn.</p>
+
+      <p>Both the temporary hit points and the extra damage increase by 1d4 when
+      you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 1
+  prerequisites:
+    level: 1
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: round
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '20'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: radius
+          size: '10'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - temphp
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+          - number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+  identifier: fortifying-fumes-reaction
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.uFuieASlPuk1MsQS
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385711536
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!nxFEldjl0KITVJYp'

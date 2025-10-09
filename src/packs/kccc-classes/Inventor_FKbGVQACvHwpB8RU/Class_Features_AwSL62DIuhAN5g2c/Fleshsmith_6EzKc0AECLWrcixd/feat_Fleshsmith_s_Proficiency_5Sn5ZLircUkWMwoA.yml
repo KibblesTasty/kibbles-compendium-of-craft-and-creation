@@ -1,0 +1,67 @@
+name: Fleshsmith’s Proficiency
+type: feat
+img: icons/tools/hand/saw-steel-grey.webp
+effects: []
+folder: 6EzKc0AECLWrcixd
+sort: 0
+flags:
+  core: {}
+_id: 5Sn5ZLircUkWMwoA
+system:
+  description:
+    value: >-
+      <p>When you choose this specialization at 1st level, you gain proficiency
+      in the Medicine skill, as well as proficiency with Leatherworker’s tools
+      (it’s best if you don’t think about the details on that one too
+      much...)</p>
+
+      <p>Additionally, you can make all Medicine checks as Intelligence
+      (Medicine) checks. When you take an Intelligence (Medicine) check to
+      stabilize a creature, they regain 1 hit point.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Fleshsmith 1
+  identifier: fleshsmiths-proficiency
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+  advancement:
+    - type: Trait
+      _id: pMWd4d84Az2hhdEg
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:med
+          - tool:art:leatherworker
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.HEYQfKvI0LZvJn3D
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  createdTime: 1726385668553
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!5Sn5ZLircUkWMwoA'

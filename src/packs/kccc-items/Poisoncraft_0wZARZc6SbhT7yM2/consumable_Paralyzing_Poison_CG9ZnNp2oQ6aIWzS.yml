@@ -1,0 +1,95 @@
+name: Paralyzing Poison
+type: consumable
+img: icons/magic/acid/dissolve-bone-skull.webp
+effects: []
+folder: 0wZARZc6SbhT7yM2
+sort: 1000000
+flags:
+  core: {}
+_id: CG9ZnNp2oQ6aIWzS
+system:
+  description:
+    value: >-
+      <p><em>Poison, rare</em></p>
+
+      <p>Applied to a melee weapon or up to 5 pieces of ammunition. A creature
+      subjected to this poison must make a Constitution saving throw with a DC
+      equal to the crafter's Poison DC.</p>
+
+      <p>On failure, the target becomes poisoned for 1 minute. A creature is
+      paralyzed while poisoned this way. At the end of each of the creature’s
+      turns, it can repeat the saving throw, ending the effect on success.</p>
+
+      <p>Once applied, the poison retains potency for 1 minute before drying,
+      and wears off of a weapon after that weapon has delivered the effect 5
+      times.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  quantity: 1
+  weight: 0.1
+  price: 590
+  attunement: 0
+  equipped: false
+  rarity: rare
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+  type:
+    value: poison
+    subtype: injury
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.c7pfPHVNfwPhQiuN
+  duplicateSource: null
+  exportSource: null
+_key: '!items!CG9ZnNp2oQ6aIWzS'

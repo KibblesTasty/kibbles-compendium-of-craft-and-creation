@@ -1,0 +1,56 @@
+name: Sealed Suit
+type: feat
+img: icons/equipment/chest/breastplate-layered-gilded-orange.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 299805
+flags:
+  core: {}
+_id: 8QDy3fT3QYAZpHiU
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Warplate)</em></p>
+
+      <p>As a bonus action on your turn you can environmentally seal your
+      Warplate, giving you an air supply for up to 1 hour and making you immune
+      to poison (but not curing you of existing poisoned conditions).</p>
+
+      <p>In addition to the above, you are also considered acclimated to cold
+      and hot climates while wearing your armor, and you’re also acclimated to
+      high altitude while wearing your armor.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 5
+  prerequisites:
+    level: 5
+    items:
+      - warplate
+  identifier: sealed-suit
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.w2Lrbhdo9MdwaOLg
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385672962
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!8QDy3fT3QYAZpHiU'

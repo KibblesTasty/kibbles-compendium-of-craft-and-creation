@@ -1,0 +1,173 @@
+folder: DvWiJ9kHWbP2j7Cd
+name: 'Gather Materials: Mountains'
+img: icons/environment/wilderness/cave-entrance-mountain.webp
+description: >-
+  <p>Materials can be harvested with your choice of a Strength, Dexterity, or
+  Wisdom check. If you have proficiency with the Survival skill, you can add
+  your proficiency bonus to the roll.</p><p>[[/check ability=str skill=sur
+  dc=10]]</p><p>[[/check ability=dex skill=sur dc=10]]</p><p>[[/check
+  ability=wis skill=sur dc=10]]</p>
+results:
+  - type: text
+    weight: 20
+    range:
+      - 1
+      - 20
+    drawn: false
+    _id: RxJrDpn4ND8OR0bk
+    img: icons/commodities/wood/kindling-sticks-brown.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.iGeVDlbbr5HmdO3N]{Firewood}
+    name: ''
+    _key: '!tables.results!onrmFLQZKOzE5mPH.RxJrDpn4ND8OR0bk'
+  - type: text
+    weight: 20
+    range:
+      - 21
+      - 40
+    drawn: false
+    _id: RZMvxcewmEPIrWv4
+    img: icons/commodities/materials/feather-black-blue.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      [[1d12]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.eHZBdsAGsUjTIuhh]{Fletching}
+    name: ''
+    _key: '!tables.results!onrmFLQZKOzE5mPH.RZMvxcewmEPIrWv4'
+  - type: document
+    weight: 20
+    range:
+      - 41
+      - 60
+    drawn: false
+    _id: HKmEeAvXZD7eHIv5
+    img: icons/commodities/materials/powder-black.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Adamant Ore
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.4f8MVyEgnVXa3jjz
+    description: ''
+    _key: '!tables.results!onrmFLQZKOzE5mPH.HKmEeAvXZD7eHIv5'
+  - type: document
+    weight: 20
+    range:
+      - 61
+      - 80
+    drawn: false
+    _id: m6Vdb0BwewScndOg
+    img: icons/commodities/materials/powder-black.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Mithril Ore
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.9TKCZX3GMZJzg5Rj
+    description: ''
+    _key: '!tables.results!onrmFLQZKOzE5mPH.m6Vdb0BwewScndOg'
+  - type: document
+    weight: 15
+    range:
+      - 81
+      - 95
+    drawn: false
+    _id: diCpceKjhSFKl8aI
+    img: icons/commodities/wood/kindling-stick-tan.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Uncommon Branch
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.Sv1VcRedFUHaoL7T
+    description: ''
+    _key: '!tables.results!onrmFLQZKOzE5mPH.diCpceKjhSFKl8aI'
+  - type: document
+    weight: 5
+    range:
+      - 96
+      - 100
+    drawn: false
+    _id: ECBAqP7rRSbL2wWz
+    img: icons/commodities/materials/slime-thick-orange.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Primal Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.6AjdA2wDMBQ2Y6Mk
+    description: ''
+    _key: '!tables.results!onrmFLQZKOzE5mPH.ECBAqP7rRSbL2wWz'
+replacement: true
+displayRoll: true
+sort: 200000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733861709113
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+formula: 1d100
+_id: onrmFLQZKOzE5mPH
+_key: '!tables!onrmFLQZKOzE5mPH'

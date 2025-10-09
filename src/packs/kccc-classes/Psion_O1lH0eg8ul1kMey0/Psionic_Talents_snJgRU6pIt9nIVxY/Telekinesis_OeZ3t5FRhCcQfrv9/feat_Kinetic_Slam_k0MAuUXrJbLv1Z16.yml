@@ -1,0 +1,123 @@
+_id: k0MAuUXrJbLv1Z16
+name: Kinetic Slam
+type: feat
+img: icons/magic/air/air-pressure-shield-blue.webp
+effects: []
+folder: OeZ3t5FRhCcQfrv9
+sort: -100000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: "<p>When you use the Telekinetic Force power, you can unleash it as a blast of kinetic power. You can use your power as a ranged spell attack (applying damage and effects on hit)\_ instead of requiring a Strength saving throw. You can only select the Hammering modifier when you use it in this way.</p>\n<h2>Telekinetic Force</h2>\n<p>You smash a target creature or object you can see with your mental power. The target must succeed on a Strength saving throw or take 1d10 bludgeoning damage, and either be shoved 5 feet in a direction of your choosing or be knocked prone.</p>\n<p>You can spend psi points up to your per use limit to add the following modifiers to Telekinetic Force (you can add multiple modifiers). The points must be spent when choosing the target of the power.\_</p>\n<p><strong>Hammering (1+ psi points):</strong>\_The target takes 1d10 bludgeoning damage for each point spent if it fails its saving throw.</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Telekinesis 2
+  prerequisites:
+    level: 2
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: 1
+            denomination: 10
+            bonus: ''
+            types:
+              - bludgeoning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+  identifier: kinetic-slam
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.D02kkFzz11FWtJ5c
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385708955
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!k0MAuUXrJbLv1Z16'

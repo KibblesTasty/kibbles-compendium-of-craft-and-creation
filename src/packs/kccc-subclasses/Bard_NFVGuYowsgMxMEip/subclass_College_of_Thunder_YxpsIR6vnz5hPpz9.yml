@@ -1,0 +1,87 @@
+name: College of Thunder
+type: subclass
+img: icons/magic/sonic/explosion-shock-wave-teal.webp
+effects: []
+folder: NFVGuYowsgMxMEip
+sort: 100000
+flags:
+  core: {}
+_id: YxpsIR6vnz5hPpz9
+_stats:
+  compendiumSource: Item.JRNAAWuHoljGJKlr
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1726385615733
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: "<p>Some bards grow in talent, weaving beautiful ballads that move their listeners to tears. Some bards just turn up the volume. The College of Thunder is a path for those who want to be heard—to convey their message with great emphasis to as many people as possible. They often are keenly interested in innovating their instruments, finding new improvements that allow them to make new, louder, sounds... even if the musicality of those sounds is sometimes debated by more classical artists.\_</p><p>Lacking in subtlety, these bards are viewed as innovators and pioneers by themselves... and generally a large pain in the ears by most others, especially their preceding generation.</p><hr /><p>The following are some optional quirks for a player of the College of Thunder. You can optionally roll or select a quirk that suits your character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.gSiFhZvkCapL9GJy rollable]</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  identifier: college-of-thunder
+  classIdentifier: bard
+  advancement:
+    - _id: vyqyf13dazcewysm
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.X9jJN8SWIrxoQ2Nt
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.MHfAuIMJvLEkLj5e
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.9FRdUbaBKTzjCJ0I
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Features
+      icon: null
+    - _id: khpqrb30vmb8tjwj
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.jHJw7NthVI5tQju5
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.imfSQ7wnLLuQMxs8
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Features
+      icon: null
+    - _id: dagnrrmwsm9tjwdg
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.0Kx3n1kAWVjLTlzc
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Features
+      icon: null
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+_key: '!items!YxpsIR6vnz5hPpz9'

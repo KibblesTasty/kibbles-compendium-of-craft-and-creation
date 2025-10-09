@@ -1,0 +1,90 @@
+name: Safe Revival Technique
+type: feat
+img: icons/magic/lightning/bolt-strike-creature-pink.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 43750
+flags:
+  core: {}
+_id: xxmW4A39RgQ7EnVV
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Field Surgery)</em></p>
+
+      <p>You can cast revivify without expending a spell slot or material
+      component. For some reason the target gains a level of exhaustion, and is
+      frightened of you for one minute upon reviving.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 5
+  recharge:
+    value: null
+    charged: false
+  prerequisites:
+    level: 5
+    items:
+      - field-surgery
+  identifier: safe-revival-technique
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  coreVersion: '13.350'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.yQ0DT9quR6Wv5bdg
+  duplicateSource: null
+  exportSource: null
+_key: '!items!xxmW4A39RgQ7EnVV'

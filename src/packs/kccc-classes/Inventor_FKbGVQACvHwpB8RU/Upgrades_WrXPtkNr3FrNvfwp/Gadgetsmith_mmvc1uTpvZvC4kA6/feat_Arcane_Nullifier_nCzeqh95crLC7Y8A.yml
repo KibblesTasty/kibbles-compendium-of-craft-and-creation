@@ -1,0 +1,50 @@
+_id: nCzeqh95crLC7Y8A
+name: Arcane Nullifier
+type: feat
+img: icons/magic/light/light-lantern-lit-white.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 199952
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You make a device that nullifies the arcane through means you assure
+      everyone else you understand. As an action, you can use this device to
+      cast @Compendium[dnd5e.spells.15Fa6q1nH27XfbR8]{Dispel Magic} without
+      expending a spell slot. Once used, this gadget can’t be used again until
+      you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Gadgetsmith 9
+  prerequisites:
+    level: 9
+  identifier: arcane-nullifier
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.NBdP2mbZ31TQX69L
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385711065
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!nCzeqh95crLC7Y8A'

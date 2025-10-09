@@ -1,0 +1,60 @@
+_id: MuChUKPaPQQPAdqU
+name: Tool Proficiency
+type: feat
+img: icons/tools/hand/spinning-wheel-brown.webp
+effects: []
+folder: WrXPtkNr3FrNvfwp
+sort: 100000
+flags:
+  core: {}
+system:
+  description:
+    value: <p>You gain proficiency with a tool of your choice.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Inventor 3
+  prerequisites:
+    level: 3
+  identifier: tool-proficiency
+  activities: {}
+  enchant: {}
+  properties: []
+  advancement:
+    - type: Trait
+      _id: 8tgf7kKbQs0nyjB8
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:*
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.5kQ8oOEbAbWRXN7k
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  createdTime: 1726385694797
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!MuChUKPaPQQPAdqU'

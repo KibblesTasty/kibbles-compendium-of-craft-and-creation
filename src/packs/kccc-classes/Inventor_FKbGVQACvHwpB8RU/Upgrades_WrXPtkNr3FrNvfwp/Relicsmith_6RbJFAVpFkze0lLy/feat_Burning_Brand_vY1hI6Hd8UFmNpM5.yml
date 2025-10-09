@@ -1,0 +1,50 @@
+name: Burning Brand
+type: feat
+img: icons/magic/fire/flame-burning-skeleton-explosion.webp
+effects: []
+folder: 6RbJFAVpFkze0lLy
+sort: 199610
+flags:
+  core: {}
+_id: vY1hI6Hd8UFmNpM5
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Relic Melee Weapon)</em></p>
+
+      <p>When you hit a creature with your ignited relic melee weapon, it lights
+      the creature on fire. At the start of each of its turns, it takes 1d6 fire
+      damage, until someone takes an action to douse the fire.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Relicsmith 15
+  prerequisites:
+    level: 15
+  identifier: burning-brand
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.DXNq2P00FA9az5rf
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385716734
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!vY1hI6Hd8UFmNpM5'

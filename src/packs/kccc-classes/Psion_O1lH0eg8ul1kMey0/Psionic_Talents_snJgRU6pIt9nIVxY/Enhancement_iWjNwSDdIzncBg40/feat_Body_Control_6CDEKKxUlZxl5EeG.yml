@@ -1,0 +1,49 @@
+_id: 6CDEKKxUlZxl5EeG
+name: Body Control
+type: feat
+img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+effects: []
+folder: iWjNwSDdIzncBg40
+sort: 200000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You can cast @UUID[Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx]{alter
+      self} at will, without expending a spell slot or psi points. Additionally,
+      when you cast enlarge/reduce on yourself, you may expend 1 psi point
+      instead of 2.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Enhancement 5
+  prerequisites:
+    level: 5
+  identifier: body-control
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.AlzNLTM8haGUUiGu
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385669013
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!6CDEKKxUlZxl5EeG'

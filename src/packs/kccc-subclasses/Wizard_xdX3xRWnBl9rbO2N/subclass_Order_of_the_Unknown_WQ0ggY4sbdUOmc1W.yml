@@ -1,0 +1,188 @@
+name: Order of the Unknown
+type: subclass
+img: icons/magic/unholy/orb-beam-pink.webp
+effects: []
+folder: xdX3xRWnBl9rbO2N
+sort: 200000
+flags:
+  core: {}
+_id: WQ0ggY4sbdUOmc1W
+_stats:
+  compendiumSource: Item.KSiFDBpsZasXGlvk
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1726385615465
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: >-
+      <p>To the order of the unknown, a cautionary tale where everyone went mad
+      is called "a lead". These strange folk delve what is best left forgotten,
+      seeking answers to questions best left unspoken.</p><p>Sometimes compelled
+      down the path by some grave purpose, sometimes by nothing more than an
+      insatiable curiosity, and sometimes even stumbling upon it by accident,
+      what is always true is that once set on this path, few find themselves
+      able to leave it.</p><p>Wizards that go this path master Psionics, but
+      master it in a completely different way and uniquely wizardly way,
+      bringing psionics into their frame of reference of ordered spells slots
+      and diligent study.</p><hr /><p>The following are some optional quirks for
+      a player that selects Order of the Unknown. You can optionally roll or
+      select a quirk that suits your
+      character.</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.acKlpKpIYY0lpW9b
+      rollable]</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  identifier: order-of-the-unknown
+  classIdentifier: wizard
+  advancement:
+    - _id: agdefdfg6j7xuigk
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.uo4yPpoozfNN95Hk
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.SmA8PBZqNzgvavoW
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.PUfii3urwGqiB52V
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Features
+      icon: null
+    - _id: lph8j9rlaoqvxpwo
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.NHRYZhUU3NM5HtBM
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.wb8ZGXt6X2U9b89U
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Features
+      icon: null
+    - _id: x1aljgtonxjftdrk
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.OD6Zdf7rRb8LBj42
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.xGw5DOzDM9N698zN
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Features
+      icon: null
+    - _id: erbp1ihg6toptim1
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.s9jluFzOkGGJbXfX
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.5gURpw5D0HkbYCPw
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Features
+      icon: null
+    - _id: KuIXVopJdPvevLNe
+      type: ItemChoice
+      configuration:
+        choices:
+          '2':
+            count: 1
+            replacement: false
+          '6':
+            count: 1
+            replacement: false
+          '10':
+            count: 1
+            replacement: false
+          '14':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: feat
+        pool:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.vzhDqMfgUKridgGX
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.yxgllLp326hAK5sL
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ySoN4xWIjxz5gDVP
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.Kq9v0VrwUAu4cXC2
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ovuccRboym69GsRq
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.zpI5hOKg2ENrOe4C
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.3CunKcMvbfKwAORU
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ml77R8jdtfin80DX
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.vdYHjYOGbbf24q1a
+        spell:
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          ability: []
+        restriction:
+          level: ''
+          type: class
+          subtype: psionicDiscipline
+      value:
+        added: {}
+        replaced: {}
+      title: Study of the Unknown
+      hint: ''
+      icon: null
+    - _id: rDYInUtoHQtMQ47T
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:psi
+        choices: []
+      value:
+        chosen: []
+      level: 6
+      title: Psionic Transparency
+      hint: ''
+      icon: null
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+_key: '!items!WQ0ggY4sbdUOmc1W'

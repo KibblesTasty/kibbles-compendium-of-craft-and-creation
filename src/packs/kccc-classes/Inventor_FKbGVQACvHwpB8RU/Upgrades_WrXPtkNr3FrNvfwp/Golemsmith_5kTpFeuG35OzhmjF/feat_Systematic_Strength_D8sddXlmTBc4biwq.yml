@@ -1,0 +1,54 @@
+_id: D8sddXlmTBc4biwq
+name: Systematic Strength
+type: feat
+img: icons/equipment/hand/gauntlet-cuffed-steel-grey.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: 300000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You build an improved frame and power source for your golem. Your
+      golem’s Strength score increases by 2, increasing its ability to perform
+      tasks that require raw strength. If this upgrade increases the golem’s
+      Strength to 16 or higher, it gains proficiency in Strength saving throws;
+      if this upgrade increases its Strength to 18, it gains proficiency in the
+      Athletics skill.</p>
+
+      <p>You can select this upgrade multiple times, but you can’t increase the
+      golem’s Strength above 18 using this upgrade.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 3
+  prerequisites:
+    level: 3
+  identifier: systematic-strength
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.YOynKhornm9sIVaQ
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385676170
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!D8sddXlmTBc4biwq'

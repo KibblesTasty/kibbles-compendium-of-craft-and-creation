@@ -1,0 +1,58 @@
+name: Dissection
+type: feat
+img: icons/weapons/daggers/dagger-double-engraved-black.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 400000
+flags:
+  core: {}
+_id: dzu8F2cu7bmUe3fy
+system:
+  description:
+    value: >-
+      <p>If you are holding a melee finesse weapon you have proficiency with, as
+      an action you can make an Intelligence (Medicine) check against a creature
+      within reach with a DC equal to its armor class. If you succeed on the
+      check, you can deal damage to that creature equal to your weapon's damage
+      dice plus your Intelligence modifier. On a roll of 20, treat the damage
+      dice as you would on a critical hit.</p>
+
+      <p>If you could normally make more than one weapon attack as part of the
+      Attack action, you can deal a number of additional dice equal to the
+      number of attacks you could normally make as part of an Attack action when
+      taking this action (for example, if you have the Extra Attack feature and
+      take this action with a dagger, you would deal 2d4 + your Intelligence
+      modifier damage).</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 3
+  prerequisites:
+    level: 3
+  identifier: dissection
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.nXl6MR7HgaicccLT
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385705415
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!dzu8F2cu7bmUe3fy'

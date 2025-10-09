@@ -1,0 +1,45 @@
+name: Spell-Eating Ring
+type: feat
+img: icons/equipment/finger/ring-cabochon-silver-purple.webp
+effects: []
+folder: OGskAJrRIvNFdWpi
+sort: 3000000
+flags:
+  core: {}
+_id: ketQIbWkyQCr3fbO
+system:
+  description:
+    value: "<p>You make a magical item that consumes magic around you. You can activate the item, casting counterspell or dispel magic against a target within 15 feet of you. When you cancel a spell in this way, you can consume the spell to recover 1d4 hit points per level of the spell.\_</p>\n<p>Alternatively, if the spell would have had a non-Instantaneous duration and would have affected a creature, you can transfer one spell to yourself. A spell stolen in this way doesn’t require concentration to maintain, but lasts only a number of turns equal to your Intelligence modifier or the spell’s duration, whichever is shorter.</p>\n<p>Once you use this Upgrade, you can’t use it again until you finish a long rest.</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Cursesmith 9
+  prerequisites:
+    level: 9
+  identifier: spell-eating-ring
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.e5pVPPHNbk9huABM
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385709239
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!ketQIbWkyQCr3fbO'

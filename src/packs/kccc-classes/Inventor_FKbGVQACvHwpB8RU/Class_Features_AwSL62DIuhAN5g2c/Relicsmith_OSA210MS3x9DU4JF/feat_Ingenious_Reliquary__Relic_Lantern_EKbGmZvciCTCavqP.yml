@@ -1,0 +1,114 @@
+_id: EKbGmZvciCTCavqP
+name: 'Ingenious Reliquary: Relic Lantern'
+type: feat
+img: icons/magic/light/light-lantern-lit-white.webp
+effects: []
+folder: OSA210MS3x9DU4JF
+sort: 25000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You power a sacred lantern with the divine relic, causing it to shed a
+      brilliant pure light for 20-foot radius and an additional 20 feet of dim
+      light. As a bonus action, you can grant one creature within the light of
+      the lantern 1d4 temporary hit points.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Relicsmith 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '40'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: 1
+        denomination: 4
+        bonus: ''
+        types:
+          - temphp
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+  identifier: ingenious-reliquary-relic-lantern
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.Nj61tUxZr5dhswYZ
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385677220
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!EKbGmZvciCTCavqP'

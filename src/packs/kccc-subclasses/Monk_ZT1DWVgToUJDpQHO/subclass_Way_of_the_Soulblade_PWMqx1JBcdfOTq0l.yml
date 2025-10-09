@@ -1,0 +1,113 @@
+_id: PWMqx1JBcdfOTq0l
+name: Way of the Soulblade
+type: subclass
+img: icons/magic/control/silhouette-hold-change-blue.webp
+effects: []
+folder: ZT1DWVgToUJDpQHO
+sort: 100000
+flags:
+  core: {}
+_stats:
+  compendiumSource: Item.0RbIyZBNVEMp31OF
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1726385615029
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: >-
+      <p>Monks of the Way of the Soul Blade are monks who have learned to
+      harness and focus their ki, using their inner will and focus to control
+      psionic powers—primarily into a blade of pure psionic power: a Soul
+      Blade.</p><hr /><p>The following are some optional quirks for a player of
+      this
+      Way</p><p>@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-roll-tables.RollTable.RjxvPFeIR2jqw6iN
+      rollable]</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  identifier: way-of-the-soulblade
+  classIdentifier: monk
+  advancement:
+    - _id: pq1e4fa9ltmerz5f
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.D1uU14jR2gAjlZu1
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.djJyjLKXxDcmuNt1
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.3zr3gNASxITpl2jQ
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.3CunKcMvbfKwAORU
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.M1tMkGG7XCY8P9Bl
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.gjLwogVhuUrKHW2n
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Features
+      icon: null
+    - _id: ykvm8uvg59anj62w
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.v4dlqA2sX1IrkovP
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Features
+      icon: null
+    - _id: ybuxrfkxdbtjfu1v
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.JGIxIbXOPR81UTxy
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Features
+      icon: null
+    - _id: ra1j89devykbnvir
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.JzSIQGAMIAt8NZIA
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Features
+      icon: null
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+_key: '!items!PWMqx1JBcdfOTq0l'

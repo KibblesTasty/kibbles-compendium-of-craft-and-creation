@@ -1,0 +1,49 @@
+_id: miaUNxPtlLEYdISs
+name: Gravity Switch
+type: feat
+img: icons/magic/air/air-wave-gust-smoke-yellow.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 175000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You build a switch that turns off gravity. You can use it to cast
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.LsN7VnOsd5yYTjze]{Fall}
+      without expending a spell slot. Once used, this gadget can’t be used again
+      until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Gadgetsmith 1
+  prerequisites:
+    level: 1
+  identifier: gravity-switch
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.mrRVLIA0qgfMMMJT
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385710737
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!miaUNxPtlLEYdISs'

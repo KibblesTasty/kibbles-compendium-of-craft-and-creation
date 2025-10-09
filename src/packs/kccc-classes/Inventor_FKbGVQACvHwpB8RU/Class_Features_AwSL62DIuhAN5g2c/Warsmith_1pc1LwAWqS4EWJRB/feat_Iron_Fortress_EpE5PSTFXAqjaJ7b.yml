@@ -1,0 +1,49 @@
+name: Iron Fortress
+type: feat
+img: icons/equipment/shield/buckler-iron-cross-gray.webp
+effects: []
+folder: 1pc1LwAWqS4EWJRB
+sort: 450000
+flags:
+  core: {}
+_id: EpE5PSTFXAqjaJ7b
+system:
+  description:
+    value: "<p><em>(Prerequisite: Piloted Golem)</em></p>\n<p>You count as three quarters cover for creatures within 5 feet (so long as you are between them and the attacker). Additionally, you can’t be moved against your will while in contact with the ground.\_</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+    page: ''
+    license: ''
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Warsmith Piloted Golem
+  identifier: iron-fortress
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    items:
+      - piloted-golem
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.Gvtf8M13zLaNXdNv
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385677731
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!EpE5PSTFXAqjaJ7b'

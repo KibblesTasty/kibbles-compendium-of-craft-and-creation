@@ -1,0 +1,110 @@
+_id: 9nF4GNAlQVGpFlo4
+name: 'Channel Divinity: Invoke Betrayal'
+type: feat
+img: icons/magic/control/control-influence-puppet.webp
+effects: []
+folder: v9fyNTaouXwQoOyE
+sort: 125000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: Item.a7tBZP8pKjkAbiQS
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385614042
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: >-
+      <p>Starting at 2nd level, you can use your Channel Divinity to influence
+      the mind of a target within range. When a creature within 30 feet makes an
+      attack roll, as a reaction you can force that creature to make a Wisdom
+      saving throw. On failure, you can direct the attack at another creature
+      within range.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  requirements: Mystery Cult 2
+  type:
+    value: class
+    subtype: channelDivinity
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability: wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: channel-divinity-invoke-betrayal
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_key: '!items!9nF4GNAlQVGpFlo4'

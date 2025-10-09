@@ -1,0 +1,67 @@
+name: Arcane Visor
+type: feat
+img: icons/equipment/head/goggles-leather-blue.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 300000
+flags:
+  core: {}
+_id: 2t3EFes2UlFIa9zN
+system:
+  description:
+    value: >-
+      <p><em>(You can take this upgrade multiple times, selecting a different
+      option each time.)</em></p>
+
+      <p>You magically enchant your visor. You gain one of the following effects
+      while wearing your armor; you pick the effect when selecting the
+      upgrade.</p>
+
+      <ul>
+
+      <li>You gain darkvision to a range of 60 feet. If you already have
+      darkvision, the range of that darkvision is increased by 60 feet.</li>
+
+      <li>You can ignore Sunlight Sensitivity.</li>
+
+      <li>Divination spells no longer require your concentration to maintain.
+      You can only use this effect on one spell at a time.</li>
+
+      </ul>
+
+      <p>Regardless of the selection, you have advantage on saving throws
+      against being blinded while wearing your armor.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 3
+  prerequisites:
+    level: 3
+    repeatable: true
+  identifier: arcane-visor
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.l1s1Heih40D4C0r2
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385665939
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!2t3EFes2UlFIa9zN'

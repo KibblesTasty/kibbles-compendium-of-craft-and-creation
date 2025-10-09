@@ -1,0 +1,173 @@
+name: Killing Curse
+type: spell
+img: icons/magic/death/skull-flames-white-blue.webp
+effects: []
+folder: z5vyiu5PscQs2W9P
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: Y1JG6RgBaHe6t1XV
+system:
+  description:
+    value: >-
+      <p>You curse a target to die. The targets current and maximum hit points
+      are reduced by [[/r 3d10 + 10]]. If this causes a creatures to have zero
+      hit points, the creature dies.</p>
+
+      <p>For the duration of the spell, the target cannot regain hit points
+      unless from a spell cast using a spell slot of higher level than the spell
+      slot this curse was cast with, and any death saving throw they roll is
+      automatically considered a 1.</p>
+
+      <p>At the start of a creatures turn while they are under the effect of
+      this spell, they make a Charisma saving throw. On failure, their current
+      and maximum hit points is reduced by [[/r 1d10 + 10]]. On a successful
+      save, the spell ends. A creature's maximum hit points are restored when it
+      takes a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 3d10 + 10
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  level: 5
+  school: nec
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: >-
+      something from the target creature (such as blood, hair, or scales) which
+      the spell consumes
+    consumed: true
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 10
+            bonus: '10'
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.WPpEODCA0eCeRgMm
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Y1JG6RgBaHe6t1XV'

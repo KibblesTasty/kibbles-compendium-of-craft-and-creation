@@ -1,0 +1,70 @@
+folder: cdQaq6Woz4eR93X3
+name: Bouncing Shot
+type: consumable
+_id: HfswQAZ5nO6HsIl9
+img: icons/skills/ranged/target-bullseye-archer-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p>You can attack a target out of line of sight of with it if you know
+      their location by bouncing it off a surface. They have the benefit of half
+      cover instead of full cover when firing this shot. </p><p>When you recover
+      this arrow, roll a d6. On a 1, it is broken.</p>
+    chat: ''
+  identifier: bouncing-shot
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 30
+    denomination: gp
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: ammo
+    subtype: arrow
+  damage:
+    base:
+      number: null
+      denomination: 0
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      bonus: ''
+    replace: false
+  magicalBonus: null
+  properties: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1737922701319
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!HfswQAZ5nO6HsIl9'

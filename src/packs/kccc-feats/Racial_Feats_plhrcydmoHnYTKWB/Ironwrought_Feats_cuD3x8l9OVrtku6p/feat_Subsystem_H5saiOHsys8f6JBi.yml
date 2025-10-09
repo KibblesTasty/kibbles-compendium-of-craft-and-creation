@@ -1,0 +1,123 @@
+name: Subsystem
+type: feat
+img: icons/magic/symbols/triangle-glowing-green.webp
+effects: []
+folder: cuD3x8l9OVrtku6p
+sort: 150000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: H5saiOHsys8f6JBi
+system:
+  description:
+    value: >-
+      <p>You gain the ability to divide your attention into a subroutine that
+      can operate somewhat independently from your primary mind. You gain the
+      following benefits from it:</p>
+
+      <ul>
+
+      <li>You can use this subsystem to maintain concentration on a cantrip.
+      Effects that would cause you to make a Constitution saving throw to
+      maintain your concentration apply to it, and it makes its save with a +0
+      bonus. It can maintain concentration on only one cantrip at a time.</li>
+
+      <li>If the subsystem is not concentrating on a spell, you can use it to
+      make a Intelligence or Wisdom check (no action required) once per turn on
+      your turn.</li>
+
+      <li>Each time you fail at the same specific task during your turn (saving
+      against the same spell effect, attacking the same target, searching for a
+      specific hidden creature), if you attempt the exact same task on your next
+      turn, you can roll an additional die, taking the higher die. All
+      additional dice are reset when you succeed the task.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  requirements: Ironwrought
+  type:
+    value: feat
+    subtype: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: ''
+        value: 0
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: subsystem
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.IH1sIqKUoydLuR6M
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385609089
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!H5saiOHsys8f6JBi'

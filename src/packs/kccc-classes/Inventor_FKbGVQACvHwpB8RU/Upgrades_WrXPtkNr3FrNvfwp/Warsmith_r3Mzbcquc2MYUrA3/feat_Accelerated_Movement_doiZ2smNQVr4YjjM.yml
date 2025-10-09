@@ -1,0 +1,51 @@
+name: Accelerated Movement
+type: feat
+img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 100000
+flags:
+  core: {}
+_id: doiZ2smNQVr4YjjM
+system:
+  description:
+    value: >-
+      <p><em>(You can apply this upgrade twice.)</em></p>
+
+      <p>You reduce the weight of your armor by 15 pounds (to a minimum of 0
+      pounds). While wearing your armor your speed increases by 10 feet. This
+      applies to all movement speeds you have while wearing your armor.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 3
+  prerequisites:
+    level: 3
+    repeatable: true
+  identifier: accelerated-movement
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.IDfJ3Hw1snmKz3wV
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385705131
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!doiZ2smNQVr4YjjM'

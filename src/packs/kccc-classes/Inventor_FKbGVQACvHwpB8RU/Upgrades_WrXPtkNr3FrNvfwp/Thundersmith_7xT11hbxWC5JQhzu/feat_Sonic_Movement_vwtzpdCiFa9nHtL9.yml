@@ -1,0 +1,50 @@
+_id: vwtzpdCiFa9nHtL9
+name: Sonic Movement
+type: feat
+img: icons/magic/movement/trail-streak-zigzag-teal.webp
+effects: []
+folder: 7xT11hbxWC5JQhzu
+sort: 37500
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You recalibrate and rebalance your weapon to leverage the backdraft of
+      the force it exerts. When you make an attack with your Stormforged weapon
+      that would deal thunder damage on your turn, you are knocked 5 feet away
+      from the target you attacked. This movement doesn’t provoke opportunity
+      attacks.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Thundersmith 3
+  prerequisites:
+    level: 3
+  identifier: sonic-movement
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.1rxtQvqKr6wCCqk5
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385716938
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!vwtzpdCiFa9nHtL9'

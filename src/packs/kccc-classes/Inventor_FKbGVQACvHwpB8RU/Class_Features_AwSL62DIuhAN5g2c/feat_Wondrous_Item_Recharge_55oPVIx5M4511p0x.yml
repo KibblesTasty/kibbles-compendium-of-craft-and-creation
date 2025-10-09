@@ -1,0 +1,54 @@
+_id: 55oPVIx5M4511p0x
+name: Wondrous Item Recharge
+type: feat
+img: icons/magic/lightning/bolt-strike-explosion-blue.webp
+effects: []
+folder: AwSL62DIuhAN5g2c
+sort: -25000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>Starting at 10th level, you can recharge a magic item that has charges
+      or per rest uses, as long as those charges or uses can only be used to
+      cast spells. To restore charges or uses, you perform a ritual that takes 1
+      minute and expend a spell slot of a level equal to or greater than the
+      spell slot level of a spell cast by the item.</p>
+
+      <p>The number of charges or uses restored to the item is equal to the
+      number of charges or uses required to cast that spell using the item
+      once.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Inventor 10
+  identifier: wondrous-item-recharge
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.udbKFrtbnpVj5anP
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385668173
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!55oPVIx5M4511p0x'

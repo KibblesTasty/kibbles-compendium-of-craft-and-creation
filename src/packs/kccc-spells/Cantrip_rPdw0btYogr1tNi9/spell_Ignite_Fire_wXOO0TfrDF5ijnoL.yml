@@ -1,0 +1,173 @@
+name: Ignite Fire
+type: spell
+img: icons/magic/fire/flame-burning-campfire-rocks.webp
+effects: []
+folder: rPdw0btYogr1tNi9
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: wXOO0TfrDF5ijnoL
+system:
+  description:
+    value: >-
+      <p>You ignite a magical fire that fills a 5-foot cube in a space you can
+      see on the ground. A creature in the fire’s space when you cast the spell
+      must suceeed a Dexterity saving throw or take 1d8 fire damage. A creature
+      that enters the fire’s space for the first time or ends their turn there
+      must repeat the saving throw against the effect. Flamable objects in the
+      area that aren’t being worn or carried catch fire.</p><p>The spell’s
+      damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8),
+      and 17th level (4d8)</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cube
+    affects:
+      type: ''
+    template:
+      count: ''
+  range:
+    value: 60
+    long: null
+    units: ft
+    special: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 0
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: cantrip
+    formula: 1d8
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  activities:
+    54rXLhhH3CrBBEpS:
+      type: save
+      _id: 54rXLhhH3CrBBEpS
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: '8'
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+        onSave: none
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.pLNNEwyUjciZsa5D
+  duplicateSource: null
+  exportSource: null
+_key: '!items!wXOO0TfrDF5ijnoL'

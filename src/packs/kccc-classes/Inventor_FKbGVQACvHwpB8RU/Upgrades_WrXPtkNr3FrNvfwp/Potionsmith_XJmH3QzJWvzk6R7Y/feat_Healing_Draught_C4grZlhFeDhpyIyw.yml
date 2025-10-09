@@ -1,0 +1,123 @@
+_id: C4grZlhFeDhpyIyw
+name: Healing Draught
+type: feat
+img: icons/consumables/potions/vial-cork-red.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: 43750
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>As a bonus action, you can produce an instant reaction that provides
+      potent magical healing. A creature can use its action to consume this
+      draught or administer it to another creature within 5 feet of it before
+      the start of your next turn, causing the target to regain 1d8 hit points.
+      If you have the Practiced Quaff feature, you can consume a Healing Draught
+      as part of the bonus action used to make it.</p>
+
+      <p>A creature can benefit from a number of these draughts up to its
+      Constitution modifier (minimum of 1), after which they provide no benefit
+      to that creature until it finishes a long rest. A Healing Draught that
+      isn’t consumed before the start of your next turn loses its potency.</p>
+
+      <p>The number of hit points the draught restores increases by 1d8 when you
+      reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 1
+  prerequisites:
+    level: 1
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: heal
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: touch
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      healing:
+        number: 1
+        denomination: 8
+        bonus: ''
+        types:
+          - healing
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      sort: 0
+  identifier: healing-draught
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.rxwyauVokAtDJ8TP
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385675341
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!C4grZlhFeDhpyIyw'

@@ -1,0 +1,58 @@
+name: Cloaking Device
+type: feat
+img: icons/magic/control/silhouette-grow-shrink-tan.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 142969
+flags:
+  core: {}
+_id: AY4jqqxPtD3oixQY
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Active Camouflage)</em></p>
+
+      <p>If you do not move during your turn with Active Camouflage engaged, you
+      can use your reaction to take the Hide action using an Intelligence
+      (Stealth) check. You make this check with disadvantage if you are within 5
+      feet of another creature or you attacked during your turn.</p>
+
+      <p>You can overload your camouflage to cast
+      @Compendium[dnd5e.spells.tEpDmYZNGc9f5OhJ]{Greater Invisibility} without
+      expending a spell slot. Once you do this, you can’t do this again until
+      you finish a long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 14
+  prerequisites:
+    level: 14
+    items:
+      - active-camouflage
+  identifier: cloaking-device
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.9tgodO9lqpjZuP6F
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385674117
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!AY4jqqxPtD3oixQY'

@@ -1,0 +1,50 @@
+_id: CuzI3QEx4MfqhG06
+name: Gliding Cloak
+type: feat
+img: icons/equipment/back/cloak-collared-blue-iron.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 300000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You make a cloak that allows you to glide while falling. When you fall
+      more than 10 feet and aren’t incapacitated, you can spread the cloak to
+      reduce your rate of descent to 30 feet per round, taking no falling damage
+      when you land. While falling in this manner under normal gravity, you can
+      move up to 2 feet horizontally for every 1 foot you descend.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Gadgetsmith 1
+  prerequisites:
+    level: 1
+  identifier: gliding-cloak
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.3676usWoD1Hrado7
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385675920
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!CuzI3QEx4MfqhG06'

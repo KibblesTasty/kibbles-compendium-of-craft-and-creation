@@ -1,0 +1,116 @@
+folder: Nw45grUv16P60Ccg
+name: Thunder Grenade
+type: feat
+_id: GujB5yLLLRZm2Yt7
+img: icons/magic/fire/explosion-fireball-medium-blue.webp
+system:
+  description:
+    value: >-
+      <p>As an action or in place of one attack as part of the Attack action,
+      you can use this to cast
+      @UUID[Compendium.dnd5e.spells.Item.wJKpSvSTbSkTjqyb]{shatter} without
+      expending a spell slot.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '1'
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: special
+        value: null
+        condition: As an action or in place of one attack as part of the Attack action
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: thunder-grenade
+  enchant: {}
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385614456
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!GujB5yLLLRZm2Yt7'

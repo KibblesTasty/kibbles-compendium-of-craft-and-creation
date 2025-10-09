@@ -1,0 +1,52 @@
+_id: AptZtWtzfxKyJGbF
+name: Shocking Hook
+type: feat
+img: icons/magic/lightning/bolt-strike-sparks-blue.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 500000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You can integrate your Shock Generator and your Grappling Hook.
+      Immediately after using your Grappling Hook to pull a creature to you or
+      to pull yourself to a creature, you can use your bonus action to cast
+      @Compendium[dnd5e.spells.XvbiNhNqXXIFisIy]{Shocking Grasp} from your Shock
+      Generator targeting that creature.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Shock Generator upgrade
+  prerequisites:
+    level: 1
+    items:
+      - shock-generator
+  identifier: shocking-hook
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.8jZiN0AcUKDRri8S
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385674354
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!AptZtWtzfxKyJGbF'

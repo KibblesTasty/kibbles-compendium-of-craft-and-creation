@@ -1,0 +1,45 @@
+name: Radiant Bolt
+type: feat
+img: icons/magic/light/projectile-beam-yellow.webp
+effects: []
+folder: 6RbJFAVpFkze0lLy
+sort: -25000
+flags:
+  core: {}
+_id: WMdNaZCQ3rJegkSX
+system:
+  description:
+    value: "<p>You learn the spell @Compendium[dnd5e.spells.7buEm5KhI5lP8m1z]{Guiding Bolt}. You can cast it without expending a spell slot once,\_ after which it requires a spell slot as normal until you complete a short or long rest.</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Relicsmith 3
+  prerequisites:
+    level: 3
+  identifier: radiant-bolt
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.R45Jsq8Th96oU0Bk
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385701003
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!WMdNaZCQ3rJegkSX'

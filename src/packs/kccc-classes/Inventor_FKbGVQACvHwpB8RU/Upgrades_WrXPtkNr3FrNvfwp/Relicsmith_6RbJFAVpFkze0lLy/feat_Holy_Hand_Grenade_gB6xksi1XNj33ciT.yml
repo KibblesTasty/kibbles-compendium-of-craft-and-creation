@@ -1,0 +1,49 @@
+name: Holy Hand Grenade
+type: feat
+img: icons/magic/light/beam-strike-village-yellow.webp
+effects: []
+folder: 6RbJFAVpFkze0lLy
+sort: 193750
+flags:
+  core: {}
+_id: gB6xksi1XNj33ciT
+system:
+  description:
+    value: >-
+      <p>You build a sacred device for dispensing justice. You can use it to
+      cast @Compendium[dnd5e.spells.5e1xTohkzqFqbYH4]{Flame Strike} without
+      expending a spell slot. Once used, you can’t use it again until you finish
+      a long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Relicsmith 9
+  prerequisites:
+    level: 9
+  identifier: holy-hand-grenade
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.DCrihOm5i0r9WpVI
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385706772
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!gB6xksi1XNj33ciT'

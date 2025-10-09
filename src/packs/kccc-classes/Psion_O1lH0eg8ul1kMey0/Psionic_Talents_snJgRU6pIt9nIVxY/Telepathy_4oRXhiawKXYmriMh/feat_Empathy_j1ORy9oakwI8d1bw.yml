@@ -1,0 +1,114 @@
+_id: j1ORy9oakwI8d1bw
+name: Empathy
+type: feat
+img: icons/magic/control/energy-stream-link-teal.webp
+effects: []
+folder: 4oRXhiawKXYmriMh
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You can psionically link yourself to other creatures. As a reaction to
+      a creature you can see within 120 feet of you taking damage, you can grant
+      them resistance to the damage taken, but you take psychic damage equal to
+      the damage they take (after resistance). The damage you take can’t be
+      reduced or prevented in any way.</p>
+
+      <p>If the damage would inflict any further negative status effect on the
+      target, you can choose for that effect to affect you instead.</p>
+
+      <p>If you have any form of telepathic bond that allows long-distance
+      telepathic communication affecting the creature taking this damage, the
+      range is unlimited and you do not need to be able to see them.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Telepathy 2
+  prerequisites:
+    level: 2
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: reaction
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '120'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: empathy
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.mZjX9NOSxijgRYsa
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385708450
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!j1ORy9oakwI8d1bw'

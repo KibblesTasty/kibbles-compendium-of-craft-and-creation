@@ -1,0 +1,70 @@
+folder: cdQaq6Woz4eR93X3
+name: Payload Shot
+type: consumable
+_id: EYZ8DJzIHexvSUs7
+img: icons/skills/ranged/arrow-strike-apple-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p>This shot can be fired at half the normal range of the weapon firing
+      it. You can deliver any object less than 2 inches in any dimension
+      weighing less than 2 pounds to a target creature or point within that
+      range. </p><p>When you recover this arrow, roll a [[/r d6]]. On a 1, it is
+      broken.</p>
+    chat: ''
+  identifier: payload-shot
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 35
+    denomination: gp
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: ''
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  magicalBonus: null
+  properties: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1737922795503
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!EYZ8DJzIHexvSUs7'

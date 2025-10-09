@@ -1,0 +1,50 @@
+_id: 56RPI9lmjtbz1wZH
+name: Skill Thief
+type: feat
+img: icons/magic/control/fear-fright-white.webp
+effects: []
+folder: olCsyjz86V4wV3lN
+sort: 50000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You can gain an additional number of skill, tool, or language
+      proficiencies from Adaptive Hunter equal to half your proficiency bonus
+      (rounded down) before losing the previously gained proficiency. If you
+      would gain an additional proficiency from it beyond that, the first one
+      you gained is lost.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Consumption 2
+  prerequisites:
+    level: 2
+  identifier: skill-thief
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.sMzfZKFOjjY39zQr
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385668238
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!56RPI9lmjtbz1wZH'

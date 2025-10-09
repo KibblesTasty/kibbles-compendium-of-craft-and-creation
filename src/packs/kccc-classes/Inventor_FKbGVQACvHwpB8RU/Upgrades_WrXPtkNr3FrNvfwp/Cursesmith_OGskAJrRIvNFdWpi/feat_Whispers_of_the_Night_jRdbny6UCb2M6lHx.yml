@@ -1,0 +1,55 @@
+name: Whispers of the Night
+type: feat
+img: icons/magic/control/sleep-bubble-purple.webp
+effects: []
+folder: OGskAJrRIvNFdWpi
+sort: 1900000
+flags:
+  core: {}
+_id: jRdbny6UCb2M6lHx
+system:
+  description:
+    value: >-
+      <p>After tinkering with the properties of your Artifact, you can hear
+      it... whisper. You can hear that too, right? You gain the ability to cast
+      @Compendium[dnd5e.spells.P7mF2MxSuVJwHRRY]{Guidance} and
+      @Compendium[dnd5e.spells.icZokbgV1jIMpNCv]{Message}, but the message is
+      always delivered in a haunting, unearthly, or creepy voice.</p>
+
+      <p>You can amplify these whispers to cast
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.qfu2E5u8hTQfGiX3]{Terrifying
+      Visions} without expending a spell slot. Once you do so, you can’t do so
+      again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Cursesmith 3
+  prerequisites:
+    level: 3
+  identifier: whispers-of-the-night
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.xwi5UFPVyKMNm51j
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385708675
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!jRdbny6UCb2M6lHx'

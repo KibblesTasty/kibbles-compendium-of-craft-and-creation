@@ -1,0 +1,51 @@
+_id: iyxd4023pyYYU5a7
+name: Elemental Swapping
+type: feat
+img: icons/magic/fire/projectile-embers-orange.webp
+effects: []
+folder: 7xT11hbxWC5JQhzu
+sort: -50000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You upgrade the firing chamber for more adaptable damage. When you take
+      the attack action with your Stormforged Weapon you can adjust its
+      elemental properties, causing any bonus damage granted by Thundermonger to
+      deal acid, cold, fire, lightning, or thunder damage instead of thunder
+      damage. Alternatively, you can use a vial of holy water to cause your next
+      Thundermonger bonus damage to deal radiant damage.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Thundersmith 9
+  prerequisites:
+    level: 9
+  identifier: elemental-swapping
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.mWeoxZ5o19qwG5RQ
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385708393
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!iyxd4023pyYYU5a7'

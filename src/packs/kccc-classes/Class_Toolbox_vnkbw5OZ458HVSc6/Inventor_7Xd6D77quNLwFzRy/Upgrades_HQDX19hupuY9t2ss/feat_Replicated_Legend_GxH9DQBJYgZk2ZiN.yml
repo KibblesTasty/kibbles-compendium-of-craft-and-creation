@@ -1,0 +1,117 @@
+folder: HQDX19hupuY9t2ss
+name: Replicated Legend
+type: feat
+_id: GxH9DQBJYgZk2ZiN
+img: icons/consumables/potions/potion-faceted-corked-blue.webp
+system:
+  description:
+    value: >-
+      <p>Combining your mastery of reactions and alchemical infusions, you
+      create an unstable replica of a very rare or legendary potion. You can
+      create this potion as an action, which lasts 1 minute or until consumed,
+      having the effect of the potion it replicates. Once you do this, you can’t
+      do so again until you finish a long rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: upgrade
+  prerequisites:
+    level: 19
+  properties: []
+  requirements: Potionsmith 19
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: replicated-legend
+  enchant: {}
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385690473
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!GxH9DQBJYgZk2ZiN'

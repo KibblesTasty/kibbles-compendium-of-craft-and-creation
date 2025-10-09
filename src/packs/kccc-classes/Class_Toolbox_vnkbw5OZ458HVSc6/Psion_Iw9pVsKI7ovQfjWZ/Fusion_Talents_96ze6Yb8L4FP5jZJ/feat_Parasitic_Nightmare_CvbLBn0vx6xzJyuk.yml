@@ -1,0 +1,112 @@
+folder: 96ze6Yb8L4FP5jZJ
+name: Parasitic Nightmare
+type: feat
+_id: CvbLBn0vx6xzJyuk
+img: icons/magic/control/fear-fright-shadow-monster-purple.webp
+system:
+  description:
+    value: >-
+      <p>You gain the ability to add Telepathic Intrusion modifiers to Mind
+      Leech.</p><p>Additionally, when you deal psychic damage to a creature that
+      is frightened of you, you can render yourself invisible to that creature
+      until the start of your next turn; you can immediately (no action
+      required) roll an Intelligence (Stealth) check affecting only creatures
+      you are invisible from as a result of this talent.</p><p>If you are hidden
+      from a creature that is frightened of you, when it moves, you can use your
+      reaction to teleport to an unoccupied space within 5 feet of that creature
+      (at the completion of their movement).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: psionicTalent
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Psionic Synthesis, Consumption Discipline, Telepathy Discipline
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: reaction
+        value: 1
+        condition: A create that is frightened of you moves
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: parasitic-nightmare
+  enchant: {}
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385675981
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!CvbLBn0vx6xzJyuk'

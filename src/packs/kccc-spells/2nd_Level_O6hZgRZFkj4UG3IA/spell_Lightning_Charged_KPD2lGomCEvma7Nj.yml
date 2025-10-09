@@ -1,0 +1,168 @@
+name: Lightning Charged
+type: spell
+img: icons/magic/lightning/fist-unarmed-strike-blue.webp
+effects: []
+folder: O6hZgRZFkj4UG3IA
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: KPD2lGomCEvma7Nj
+system:
+  description:
+    value: >-
+      <p>You channel lightning energy into a creature. The energy is harmless to
+      the creature, but escapes in dangerous bursts to other nearby
+      creatures.</p>
+
+      <p>Every time that creature strikes another creature with a melee attack,
+      a spell with a range of touch, is struck by another creature with a melee
+      attack, or ends their turn while grappling or being grappled by another
+      creature, they deal [[/damage 1d6 lightning]] damage to that creature.</p>
+
+      <p>Once this spell has discharged 6 times (dealing up to 6d6 damage), the
+      spell ends.</p>
+
+      <p><strong>At Higher Levels.</strong> The spell can discharge damage 2
+      additional times (dealing 2d6 more total damage) before the spell ends for
+      each slot level above 2nd.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 10
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 1d6
+        - lightning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 2
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: a piece of metal once used in a lightning rod
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+    - material
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.LlK6d5pzfvWWfb0D
+  duplicateSource: null
+  exportSource: null
+_key: '!items!KPD2lGomCEvma7Nj'

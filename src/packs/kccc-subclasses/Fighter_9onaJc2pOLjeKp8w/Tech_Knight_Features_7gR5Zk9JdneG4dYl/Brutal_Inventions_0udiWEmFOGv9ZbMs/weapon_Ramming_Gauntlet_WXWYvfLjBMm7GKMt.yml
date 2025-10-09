@@ -1,0 +1,218 @@
+name: Ramming Gauntlet
+type: weapon
+img: icons/equipment/hand/gauntlet-armored-leather-teal-orange.webp
+effects: []
+folder: 0udiWEmFOGv9ZbMs
+sort: 200000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: WXWYvfLjBMm7GKMt
+_stats:
+  compendiumSource: Item.rhdxLhwlHk8b2xj5
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1726385615492
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: >-
+      <p><strong>Ramming Gauntlet.</strong> When you make an attack roll, you
+      can choose to forgo adding your proficiency bonus to the attack roll. If
+      the attack hits, you can add double your proficiency bonus to the damage
+      roll.</p>
+
+      <p><em><strong>Excessive Force (Ramming Gauntlet): </strong>The target is
+      knocked 10 feet backwards.</em></p>
+    chat: ''
+  source:
+    book: KCCC
+    rules: '2014'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
+  equipped: false
+  rarity: common
+  identified: true
+  range:
+    value: null
+    long: null
+    units: ft
+    reach: null
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  damage:
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 8
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  properties:
+    - lgt
+    - spc
+  proficient: 1
+  type:
+    value: simpleM
+    baseItem: ''
+  identifier: ramming-gauntlet
+  unidentified:
+    description: ''
+  activities:
+    Ldxqsy2GlntxIsub:
+      _id: Ldxqsy2GlntxIsub
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+    UOLHt1cxmuepAsyI:
+      type: attack
+      name: Power Attack
+      _id: UOLHt1cxmuepAsyI
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: '- @prof'
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: true
+              formula: 2 * @prof
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+  container: null
+  attuned: false
+  cover: null
+  crewed: false
+  ammunition: {}
+  magicalBonus: null
+  mastery: ''
+_key: '!items!WXWYvfLjBMm7GKMt'

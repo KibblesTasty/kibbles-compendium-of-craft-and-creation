@@ -1,0 +1,45 @@
+name: Runic Marks
+type: feat
+img: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+effects: []
+folder: lwPCtYsmQNxrSfic
+sort: 50000
+flags:
+  core: {}
+_id: 4HPz0NBOs4AxK9iJ
+system:
+  description:
+    value: "<p>Starting at 1st level, you can mark magical runes, imbuing the things they are marked onto with magic. A rune can be marked on a weapon, on a suit of armor, a shield, or directly onto yourself, as a type of runic tattoo.</p>\n<p>The affected creature of a rune is the creature wielding the weapon or armor it is marked on, or you if the rune is directly marked on you. A weapon or set of armor can only bear one rune, but there is no limit to the number of runes that can be marked on a creature.</p>\n<p>If a rune is marked on a creature, select either the weapon effect (affecting its natural weapons or unarmed strikes) or armor effect (affecting its natural armor).</p>\n<p>You know the following runes, and can learn more from upgrades. You can mark your runes during a long rest, and can have two runes marked at a time, gaining the ability to have an additional rune marked at 3rd level (to three runes), 5th level (to four runes), and 14th level (to five runes). These last until you mark a new rune, with the oldest rune fading when you mark a new one after reaching your maximum number of runes. Upgrades that grant new runes do not increase this number, but only expand the range of runes you can mark.</p>\n<h2>Runic Effects</h2>\n<p>Each rune grants a passive ability based on what it is marked on that enhances the ability of what it is marked on, and has an active ability that can be activated by you as an action or in place of an attack as part of the Attack action while it is marked. A rune can only be activated in this way once per turn.</p>\n<p>\_</p>\n<h3><strong>Rune of Power</strong></h3>\n<p>An imposing rune that speaks to raw power. It has the following effects:</p>\n<table style=\"width:100%\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center;width:32.8513%\"><strong>Target</strong></td>\n<td style=\"text-align:center;width:67.1487%\"><strong>Effect</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:32.8513%\"><strong>Weapon</strong></td>\n<td style=\"text-align:center;width:67.1487%\">The base damage of the weapon becomes 1d6 (if it was lower), and the weapon adds +1 to damage rolls.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:32.8513%\"><strong>Armor</strong></td>\n<td style=\"text-align:center;width:67.1487%\">The base AC of the armor becomes 12 (if it was lower), and the armor’s AC bonus is increased by +1.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:32.8513%\"><strong>Active (Empower)</strong></td>\n<td style=\"text-align:center;width:67.1487%\">The next attack of the affected creature before the start of your next turn deals an extra 1d8 + your Intelligence modifier force damage.</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<h3><strong>Rune of Fire</strong></h3>\n<p>A swirling rune that represents fire and burning. It has the following effects:</p>\n<table style=\"width:403px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary)\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Target</strong></td>\n<td style=\"text-align:center;width:268.953px\"><strong>Effect</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Weapon</strong></td>\n<td style=\"text-align:center;width:268.953px\">The first time the weapon deals damage on a turn, it deals an extra 1d4 fire damage.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Armor</strong></td>\n<td style=\"text-align:center;width:268.953px\">When the affected creature is hit by a melee weapon attack, they can use their reaction to deal 1d4 fire damage to the attacker.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Active (Explode)</strong></td>\n<td style=\"text-align:center;width:268.953px\">Creatures within a 5-foot radius of the affected creature must pass a Dexterity saving throw, or take 1d8 fire damage.</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<h3><strong>Rune of Lightning</strong></h3>\n<p>A jagged rune that manipulates energy and controls lightning. It has the following effects:</p>\n<table style=\"width:403px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary)\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Target</strong></td>\n<td style=\"text-align:center;width:268.953px\"><strong>Effect</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Weapon</strong></td>\n<td style=\"text-align:center;width:268.953px\">The first time the weapon deals damage on a turn, it deals an extra 1d4 lightning damage.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Armor</strong></td>\n<td style=\"text-align:center;width:268.953px\">The affected creature’s speed increases by 5 feet.</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Active (Hasten)</strong></td>\n<td style=\"text-align:center;width:268.953px\">During the affected creature’s turn, it gains an additional action that can be used to attack (one weapon attack with a light weapon or unarmed strike only), Dash, Disengage, Hide, or Use an Object. The creature can’t gain multiple actions from this. Actions not used by the end of the creature’s turn are lost.</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<h3><strong>Rune of Warding</strong></h3>\n<p>A stalwart rune that wards off harm. It has the following effects:</p>\n<table style=\"width:403px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary);height:68px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:129.047px;height:17px\"><strong>Target</strong></td>\n<td style=\"text-align:center;width:268.953px;height:17px\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:129.047px;height:17px\"><strong>Weapon</strong></td>\n<td style=\"text-align:center;width:268.953px;height:17px\">The first time the affected creature deals damage with this weapon on their turn, they gain 1d4 temporary hit points.</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:129.047px;height:17px\"><strong>Armor</strong></td>\n<td style=\"text-align:center;width:268.953px;height:17px\">Damage taken by the affected creature is reduced by 1.</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"text-align:center;width:129.047px;height:17px\"><strong>Active (Protect)</strong></td>\n<td style=\"text-align:center;width:268.953px;height:17px\">The next time the affected creature takes damage before the start of your next turn, the damage is reduced by 1d4 + your Intelligence modifier.</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<p>\_</p>\n<p>\_</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Runesmith 1
+  identifier: runic-marks
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.viAm2XG0iDabn4k8
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385667149
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!4HPz0NBOs4AxK9iJ'

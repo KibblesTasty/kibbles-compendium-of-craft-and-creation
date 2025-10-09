@@ -1,0 +1,49 @@
+_id: mLYoSVglbjI0cJLU
+name: Silencer
+type: feat
+img: icons/skills/ranged/cannon-barrel-gray.webp
+effects: []
+folder: 7xT11hbxWC5JQhzu
+sort: 300000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You upgrade your Stormforged Weapon with a sound dampening module. Your
+      Stormforged Weapon loses the loud property. Additionally, you can expend a
+      2nd-level spell slot to overcharge the Silencer, casting the silence
+      spell.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Thundersmith 3
+  prerequisites:
+    level: 3
+  identifier: silencer
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.qZhZxchgwsd2eT80
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385710461
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!mLYoSVglbjI0cJLU'

@@ -1,0 +1,106 @@
+_id: VXBTfGN1IXVXlGGd
+name: Transforming Golem
+type: feat
+img: icons/commodities/tech/cog-brass.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: -100390
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You install clever, multifunctional components into your golem,
+      allowing it to reduce its size. Your golem can collapse itself down,
+      decreasing its size by one category—from Medium to Small, for example.
+      While collapsed in this way, its speed is reduced by 10 feet. It takes 1
+      minute for your golem to collapse itself or revert to its normal size.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 11
+  prerequisites:
+    level: 11
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: minute
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: transforming-golem
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.D22rvvMAXfTOSghp
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385700373
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!VXBTfGN1IXVXlGGd'

@@ -1,0 +1,51 @@
+_id: 4Ok4QFXI1cp5EzIC
+name: Stopwatch Trinket
+type: feat
+img: icons/magic/time/clock-spinning-gold-pink.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 199415
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You create a magical stopwatch that manipulates time magic. As an
+      action, you can use the stopwatch to cast
+      @Compendium[dnd5e.spells.Szvk5FEVQW3uhJi5]{Haste} or
+      @Compendium[dnd5e.spells.yqUDoxk4x0NWG5Bz]{Slow} without expending a spell
+      slot. Once used, this gadget can’t be used again until you finish a long
+      rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Gadgetsmith 9
+  prerequisites:
+    level: 9
+  identifier: stopwatch-trinket
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.JoBlZVHmVEmVFulB
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385667350
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!4Ok4QFXI1cp5EzIC'

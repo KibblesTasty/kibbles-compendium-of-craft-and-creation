@@ -1,0 +1,51 @@
+_id: VvUch5rAO4YHE8h9
+name: Telekinetic Movement
+type: feat
+img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+effects: []
+folder: OeZ3t5FRhCcQfrv9
+sort: 150000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You can expend 1 psi point to gain 10 additional feet of movement and
+      the effect of @Compendium[dnd5e.spells.KJRVzeMQXPj8Gtyx]{Spider Climb},
+      @Compendium[dnd5e.spells.pub0OWVEB71XQx1n]{Feather Fall}, or
+      @Compendium[dnd5e.spells.MRxldJd6C4bsBo3O]{Levitate} until the start of
+      your next turn (no action required). At the start of your next turn, you
+      can expend 1 psi point to maintain the effect before it would end.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Telekinesis 2
+  prerequisites:
+    level: 2
+  identifier: telekinetic-movement
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.T9izExqkzq4rwG7M
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385700760
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!VvUch5rAO4YHE8h9'

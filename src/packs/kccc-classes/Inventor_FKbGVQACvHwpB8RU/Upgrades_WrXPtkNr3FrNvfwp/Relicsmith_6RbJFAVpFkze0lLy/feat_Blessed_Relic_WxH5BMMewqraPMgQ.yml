@@ -1,0 +1,47 @@
+name: Blessed Relic
+type: feat
+img: icons/commodities/treasure/token-gold-gem-purple.webp
+effects: []
+folder: 6RbJFAVpFkze0lLy
+sort: 124805
+flags:
+  core: {}
+_id: WxH5BMMewqraPMgQ
+system:
+  description:
+    value: >-
+      <p>While carrying your divine relic, you are under the effect of the
+      @Compendium[dnd5e.spells.8dzaICjGy6mTUaUr]{Bless} spell.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Relicsmith 15
+  prerequisites:
+    level: 15
+  identifier: blessed-relic
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.WIYHQzPPDS17fN4z
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385701362
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!WxH5BMMewqraPMgQ'

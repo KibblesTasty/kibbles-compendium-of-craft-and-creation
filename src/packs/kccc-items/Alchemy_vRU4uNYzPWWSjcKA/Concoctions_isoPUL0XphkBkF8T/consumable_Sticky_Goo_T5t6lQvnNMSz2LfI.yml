@@ -1,0 +1,84 @@
+name: Sticky Goo
+type: consumable
+img: icons/commodities/materials/slime-thick-green.webp
+effects: []
+folder: isoPUL0XphkBkF8T
+sort: 112500
+flags:
+  core: {}
+_id: T5t6lQvnNMSz2LfI
+system:
+  description:
+    value: >-
+      <p>When broken and exposed to air, it creates a very sticky rapidly
+      expanding web like foam, with the effect of the spell
+      @Compendium[dnd5e.spells.UJJu9c2UvCzVljiP]{Web} centered on where the
+      flask breaks. You can reliably throw the flask to a target point within 30
+      feet, shattering it on impact.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  target:
+    value: 20
+    width: null
+    units: ft
+    type: cube
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+    autoDestroy: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: 12
+    scaling: flat
+  consumableType: potion
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.jM0QCu2EyV8FfIzC
+  duplicateSource: null
+  exportSource: null
+_key: '!items!T5t6lQvnNMSz2LfI'

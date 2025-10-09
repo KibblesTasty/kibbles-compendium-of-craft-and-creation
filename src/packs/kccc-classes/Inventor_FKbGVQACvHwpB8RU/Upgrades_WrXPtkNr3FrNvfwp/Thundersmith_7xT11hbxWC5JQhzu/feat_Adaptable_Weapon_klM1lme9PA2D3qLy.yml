@@ -1,0 +1,49 @@
+_id: klM1lme9PA2D3qLy
+name: Adaptable Weapon
+type: feat
+img: icons/weapons/guns/rifle-bayonet.webp
+effects: []
+folder: 7xT11hbxWC5JQhzu
+sort: 100000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You can adapt a weapon without the ammunition property to have an
+      alternate attack type giving it the functionality of a Hand Cannon, or
+      give a weapon with the ammunition property an alternate attack with the
+      properties of a Charged Blade.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Thundersmith 3
+  prerequisites:
+    level: 3
+  identifier: adaptable-weapon
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.pz8IaNzyP9o7uYTK
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385709291
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!klM1lme9PA2D3qLy'

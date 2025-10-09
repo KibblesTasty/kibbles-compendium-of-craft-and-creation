@@ -1,0 +1,141 @@
+name: Frost Oil
+type: consumable
+img: >-
+  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%204.png
+effects:
+  - name: Frost Oil
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+    _id: z7tIMAyUNQQktaBq
+    changes:
+      - key: system.damage.parts
+        mode: 2
+        value: '[["1d6", "cold"]]'
+        priority: null
+      - key: name
+        mode: 5
+        value: Frost {}
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>As an action, you can coat a weapon in this oil, causing it freeze
+      over, covered in icy crystals. For 1 minute, the weapon deals an extra
+      [[/damage 1d6 cold]] damage on hit.</p>
+    origin: null
+    transfer: true
+    statuses: []
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    img: >-
+      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%204.png
+    type: base
+    system: {}
+    sort: 0
+    _key: '!items.effects!UtOy1gMqENIluBoU.z7tIMAyUNQQktaBq'
+folder: 34hJDESbF50bPPrC
+sort: 200000
+flags:
+  core: {}
+_id: UtOy1gMqENIluBoU
+system:
+  description:
+    value: >-
+      <p>As an action, you can coat a weapon in this oil, causing it freeze
+      over, covered in icy crystals. For 1 minute, the weapon deals an extra
+      [[/damage 1d6 cold]] damage on hit.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+    autoDestroy: true
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: ench
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+  enchantment:
+    classIdentifier: ''
+    restrictions:
+      allowMagical: false
+      type: weapon
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  coreVersion: '13.344'
+  createdTime: 1721349801607
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.7c3PkepFyxMQdBYK
+  duplicateSource: null
+  exportSource: null
+_key: '!items!UtOy1gMqENIluBoU'

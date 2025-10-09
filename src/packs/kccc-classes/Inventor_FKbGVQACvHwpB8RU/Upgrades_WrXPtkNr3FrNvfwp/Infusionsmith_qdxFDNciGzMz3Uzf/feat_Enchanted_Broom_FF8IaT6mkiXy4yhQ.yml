@@ -1,0 +1,48 @@
+_id: FF8IaT6mkiXy4yhQ
+name: Enchanted Broom
+type: feat
+img: icons/tools/hand/broom-straw-brown.webp
+effects: []
+folder: qdxFDNciGzMz3Uzf
+sort: 25391
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You can enchant a broom (or broom-like object), turning it into a broom
+      of flying. You set the command word for the broom, and it only obeys
+      you.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Infusionsmith 11
+  prerequisites:
+    level: 11
+  identifier: enchanted-broom
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.nIUiTrZn6oOcUhYd
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385689205
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!FF8IaT6mkiXy4yhQ'

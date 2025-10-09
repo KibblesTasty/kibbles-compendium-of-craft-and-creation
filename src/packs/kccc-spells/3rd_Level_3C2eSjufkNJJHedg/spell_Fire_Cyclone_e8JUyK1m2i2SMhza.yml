@@ -1,0 +1,182 @@
+name: Fire Cyclone
+type: spell
+img: icons/magic/fire/beam-jet-stream-spiral-yellow.webp
+effects: []
+folder: 3C2eSjufkNJJHedg
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: e8JUyK1m2i2SMhza
+system:
+  description:
+    value: >-
+      <p>Targeting a point you can see, you cause a cyclone made of whipping
+      flames with a radius of 5 feet and height of 30 feet to form.</p>
+
+      <p>When a creature starts its turn inside the cyclone's radius or enters
+      it for the first time during a turn, it must make a Strength saving throw.
+      On a failed saving throw, it takes [[/damage 3d6 fire]] damage and, if it
+      is entirely inside the cyclone's area, it's also flung 15 feet upwards and
+      lands 15 feet in a randomly determined horizontal direction. On a
+      successful save, the creature takes half as much damage and is not
+      flung.</p>
+
+      <p>When a creature is not entirely inside the cyclone's radius but within
+      30 feet of its center at the start of its turn, it still feels the intense
+      draw of the raging cyclone, and must spend 2 feet (or 3 feet if it is
+      flying) of movement for every 1 foot it moves away from the cyclone. If a
+      creature starts its turn outside of the cyclone's radius but within 10
+      feet of its center, it must make a Strength saving throw or be pulled 5
+      feet toward the center of it.</p>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell slot of 4th level or higher, the damage increases by 1d6 and
+      the height of the cyclone as well as the distance a creature is thrown
+      upward increases by 5 feet for each level above 3rd.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 3d6
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: str
+    dc: null
+    scaling: spell
+  level: 3
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: a pinch of ashes from a forest fire
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 6
+            bonus: ''
+            types:
+              - fire
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.ht8bJRGurWnuvYfz
+  duplicateSource: null
+  exportSource: null
+_key: '!items!e8JUyK1m2i2SMhza'

@@ -1,0 +1,484 @@
+_id: Kq9v0VrwUAu4cXC2
+name: Precognition Discipline
+type: feat
+img: icons/magic/perception/orb-eye-scrying.webp
+effects: []
+folder: PlTkXe6XU4V6E7JU
+sort: 100000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: "<p>Precognition is the ability to see what lies ahead, piercing the veil of the future. Seeing things that most people cannot a Psion with Precognitive abilites can, to a limited extent, know the future; such a future is known by tracing its roots from the present, and grows more mysterious and cloudy as such roots grow distant.</p><p>Such a future can be changed by the actions of the present, particularly by knowledge of said future and action to prevent or change it. This is the function most often leveraged by Precognitive Psions, peering into the future to steer around courses they seek to prevent or steer toward a possible outcome they seek.</p><h3>Features</h3><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.7GQU2JG7iu7jS5bp]{Prescience}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.GvoZBz0DzdhC0TVz]{Seeing}</p><h3>Alternate Effects</h3><p>Additionally, when you learn the Precognition psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:</p><table><thead><tr><th><p><strong>Point Cost</strong></p></th><th><p><strong>Alternate Effects</strong></p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@Compendium[dnd5e.spells.Mzh95utKDPIrjiH8]{Detect Evil and Good}, @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.kMtGAzfBTuZJUlZZ]{Future Insight}</p></td></tr><tr><td><p>2</p></td><td><p>@Compendium[dnd5e.spells.4v2H3hHb3Ph9XLNd]{Augury}, @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.hpYYLrY7pXzdqnrs]{Glimpse the Future}</p></td></tr><tr><td><p>3</p></td><td><p>@Compendium[dnd5e.spells.cg50KpBkBdPK6vPL]{Clairvoyance}</p></td></tr><tr><td><p>4</p></td><td><p>@Compendium[dnd5e.spells.VtCXMdyM6mAdIJZb]{Death Ward}, @Compendium[dnd5e.spells.XqzXSKNR75ZdYTA9]{Divination}</p></td></tr><tr><td><p>5</p></td><td><p>@Compendium[dnd5e.spells.fVbCxFRaORalHB20]{Scrying}</p></td></tr></tbody></table><h3>Available Talents</h3><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.3JHeW2OYC8Bb2dMB]{Talent: Glimpsed Future}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.Xz1uNN5aV1d5HpiS]{Talent: One Step Ahead}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.wfvzwOc5Fh2W1FJ2]{Talent: Precognitive Dreams}</p><p>\_</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicDiscipline
+  requirements: Psion 1
+  identifier: precognition-discipline
+  activities:
+    m4pM733vv4b2rlq2:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.Mzh95utKDPIrjiH8
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+        ability: ''
+      _id: m4pM733vv4b2rlq2
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    EBKMY1bTWrxYB3ox:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.kMtGAzfBTuZJUlZZ
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '1'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+        ability: ''
+      _id: EBKMY1bTWrxYB3ox
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    2fEgul9XhdHBPPxZ:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.4v2H3hHb3Ph9XLNd
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+        ability: ''
+      _id: 2fEgul9XhdHBPPxZ
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    YsPKuvKF1xcm4Pi2:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.hpYYLrY7pXzdqnrs
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        ability: ''
+      _id: YsPKuvKF1xcm4Pi2
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    Oxp7W7NahUZH4nm1:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.cg50KpBkBdPK6vPL
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+        ability: ''
+      _id: Oxp7W7NahUZH4nm1
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    AGojnezj6nptNUaN:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+        ability: ''
+      _id: AGojnezj6nptNUaN
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    OOSyyg03Ujn8u2OY:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.XqzXSKNR75ZdYTA9
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '4'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+        ability: ''
+      _id: OOSyyg03Ujn8u2OY
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '4'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    rrwv4n0RrbfuFPPl:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '5'
+        properties:
+          - vocal
+          - material
+        spellbook: true
+        ability: ''
+      _id: rrwv4n0RrbfuFPPl
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.n4258037r3wA1FI5
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  createdTime: 1726385692922
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!Kq9v0VrwUAu4cXC2'

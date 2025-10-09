@@ -1,0 +1,270 @@
+name: Awaken Rope
+type: spell
+img: icons/sundries/survival/rope-coiled-tan.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: AETBBPIXA6ST4nzt
+system:
+  description:
+    value: >-
+      <p>As an action, you can touch a rope 10 to 60 feet long and issue a
+      single command to it, selecting from the following options:</p>
+
+      <ul>
+
+      <li><strong>Bind.</strong> The rope attempts to bind a creature of your
+      choice within 20 feet of you. The creature must make a Dexterity saving
+      throw or become restrained until it is freed. A creature can use its
+      action to make a DC 10 Strength check, freeing itself or another creature
+      within its reach on a success. Dealing 5 slashing damage to the rope (AC
+      10) also frees the creature without harming it, ending the effect and
+      destroying the rope.</li>
+
+      <li><strong>Fasten.</strong> The rope flies up 60 feet and ties one end to
+      an object or surface that a rope could be tied to, before becoming
+      inanimate again, hanging from the object.</li>
+
+      <li><strong>Grab.</strong> The rope lashes out grabs one Small or smaller
+      object that is not being worn by a creature within a range equal to the
+      length of the rope and pulls that object back to your hand. If that object
+      is being carried by a creature, it must make a Strength saving throw. On
+      success, it retains the object, and on failure the object is pulled from
+      the creature.</li>
+
+      </ul>
+
+      <p><em><strong>At Higher Levels.</strong></em> When you cast this spell
+      using a spell slot of 2nd level or higher, you can target a chain instead
+      of a rope. It has the same available actions, but it has a DC 15, an AC of
+      15, and resistance to slashing damage when taking the Bind action. When
+      cast with a spell slot of 3rd level or higher targeting a rope, that rope
+      is magically imbued for 1 minute, gaining an DC of 15, an AC 20, and 20
+      hit points.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: object
+    affects:
+      special: ''
+    template:
+      type: ''
+  range:
+    value: null
+    long: null
+    units: touch
+    special: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: 10 to 60 feet of cord or rope, worth at least 1 cp
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+    - material
+  activities:
+    InyENt8ytcr4CmaB:
+      type: save
+      _id: InyENt8ytcr4CmaB
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: Bind
+      img: ''
+      appliedEffects: []
+    kmrs4aUFAeUU2jJt:
+      type: save
+      name: Grab
+      _id: kmrs4aUFAeUU2jJt
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.zbxu5rzhOEsskahF
+  duplicateSource: null
+  exportSource: null
+_key: '!items!AETBBPIXA6ST4nzt'

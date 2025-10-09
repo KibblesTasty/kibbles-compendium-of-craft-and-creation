@@ -1,0 +1,55 @@
+name: Grappling Reel
+type: feat
+img: icons/tools/fishing/hook-multi-steel-brown.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 293750
+flags:
+  core: {}
+_id: PUKgxZZmla52BsNI
+system:
+  description:
+    value: >-
+      <p>Your Warsmith’s armor gains an integrated grappling reel set into your
+      gauntlet. As an attack or as an action, you may target a surface, object
+      or creature within 30 feet. If the target is Large or smaller, you can
+      make a Strength (Athletics) check as if grappling normally to pull it to
+      you and grapple it on success. Alternatively, if the target is Large or
+      larger, you can choose to be pulled to it (this doesn’t grapple it). This
+      movement provokes opportunity attacks as normal movement would.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 3
+  prerequisites:
+    level: 3
+    items:
+      - integrated-armor
+      - warplate
+  identifier: grappling-reel
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.NIstpxyL1lpkkyMx
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385696542
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!PUKgxZZmla52BsNI'

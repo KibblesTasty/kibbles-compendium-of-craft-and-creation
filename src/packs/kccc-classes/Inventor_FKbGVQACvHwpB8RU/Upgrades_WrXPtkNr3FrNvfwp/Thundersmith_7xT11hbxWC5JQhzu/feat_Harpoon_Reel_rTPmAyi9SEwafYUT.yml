@@ -1,0 +1,65 @@
+_id: rTPmAyi9SEwafYUT
+name: Harpoon Reel
+type: feat
+img: icons/tools/fasteners/chain-hook-grey.webp
+effects: []
+folder: 7xT11hbxWC5JQhzu
+sort: -200000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You devise an alternate attack method for your Stormforged Weapon that
+      launches a harpoon attached to a tightly coiled cord. This attack has a
+      normal range of 30 feet and a maximum range of 60 feet, and it deals 1d6
+      piercing damage. This attack doesn’t apply Thundermonger damage. This
+      attack can target a surface, object, or creature.</p>
+
+      <p>A creature struck by this attack is impaled by the Harpoon unless it
+      removes the Harpoon as an action, which causes it to take an extra 1d6
+      damage. While the Harpoon is stuck in the target, you are connected to the
+      target by a 60 foot cord. Dragging the connected party via the attached
+      cord causes the creature moving to move at half speed unless they are a
+      size category larger.</p>
+
+      <p>While connected in this manner, you can use your bonus action to
+      activate the Reel action, pulling yourself to the location if the target
+      is Medium or larger. A Small or smaller creature is pulled back to you,
+      ending the connection. Alternatively, you can opt to disconnect the
+      cord.</p>
+
+      <p>This attack can’t be used again until the Reel action is taken.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Thundersmith 5
+  prerequisites:
+    level: 5
+  identifier: harpoon-reel
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.DVqMPgKIEgztIm7B
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385714294
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!rTPmAyi9SEwafYUT'

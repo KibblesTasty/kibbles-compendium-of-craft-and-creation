@@ -1,0 +1,49 @@
+_id: OtvgeYLkeltF9cM8
+name: Beam of Annihilation
+type: feat
+img: icons/magic/lightning/bolt-beam-strike-blue.webp
+effects: []
+folder: snJgRU6pIt9nIVxY
+sort: 150000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You gain the ability to cast a beam of annihilationK for 6 psi points.
+      If you have a specialization of Psychokinesis, you can only select the
+      related elemental damage type, but the beam’s damage ignores resistance to
+      that damage type.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Psion 11, Elemental Mind Subclass
+  prerequisites:
+    level: 11
+  identifier: beam-of-annihilation
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.sov4NWcnGQxpXDvH
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385696315
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!OtvgeYLkeltF9cM8'

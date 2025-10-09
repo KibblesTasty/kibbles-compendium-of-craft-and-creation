@@ -1,0 +1,90 @@
+name: Adaptive Intuition
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+effects: []
+folder: or073gbM4MluE2UZ
+sort: 100000
+flags:
+  core: {}
+_id: e9BYCDEBhAFD6RoF
+system:
+  description:
+    value: >-
+      <p>You gain proficiency in Insight, and have advantage on Wisdom (Insight)
+      checks to determine social cues or cultural customs.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Farling
+  recharge:
+    value: null
+    charged: false
+  type:
+    value: race
+  advancement:
+    - type: Trait
+      _id: z2kj7Uoa4KWSq6pr
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:ins
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  coreVersion: '13.350'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.EJor3aQwo7QJknCV
+  duplicateSource: null
+  exportSource: null
+_key: '!items!e9BYCDEBhAFD6RoF'

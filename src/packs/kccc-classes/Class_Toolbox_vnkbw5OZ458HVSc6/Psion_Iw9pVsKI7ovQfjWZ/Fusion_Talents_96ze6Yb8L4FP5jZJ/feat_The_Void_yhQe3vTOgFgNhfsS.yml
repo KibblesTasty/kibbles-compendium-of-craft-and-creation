@@ -1,0 +1,160 @@
+folder: 96ze6Yb8L4FP5jZJ
+name: The Void
+type: feat
+_id: yhQe3vTOgFgNhfsS
+img: icons/magic/unholy/orb-glowing-purple.webp
+system:
+  description:
+    value: >-
+      <p>You devour all supernatural effects near you. Whenever a creature
+      (including yourself) within 5 feet of you takes damage from a magical
+      source, you can expend 1 or more psi points to use your reaction to reduce
+      the damage taken by 1d8 per psi point spent. You can divide this amount
+      between multiple creatures within range if they take damage at the same
+      time. </p><p>Additionally, whenever you successfully cast counterspell,
+      dispel magic, or remove curse, you regain hit points equal to the level of
+      spell stopped or ended.</p>
+    chat: ''
+  source:
+    book: KCCC
+    page: ''
+    custom: ''
+    license: ''
+    revision: 1
+    rules: '2014'
+  activation:
+    type: reaction
+    cost: 1
+    condition: A creature within 5 feet takes damage from a magical source
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: []
+    prompt: true
+    spent: 0
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: class
+    subtype: psionicTalent
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Consumption Discipline, Nullification Discipline
+  recharge:
+    value: null
+    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: reaction
+        value: 1
+        condition: A creature within 5 feet takes damage from a magical source
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: the-void
+  enchant: {}
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  coreVersion: '13.344'
+  createdTime: 1721843767710
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!yhQe3vTOgFgNhfsS'

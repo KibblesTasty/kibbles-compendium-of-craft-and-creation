@@ -1,0 +1,95 @@
+name: Slow Death
+type: consumable
+img: icons/magic/acid/dissolve-bone-skull.webp
+effects: []
+folder: 0wZARZc6SbhT7yM2
+sort: 150000
+flags:
+  core: {}
+_id: vzLMwlZrTfZ6H0Kt
+system:
+  description:
+    value: >-
+      <p><em>Poison, very rare</em></p>
+
+      <p>Applied to food or beverage. A creature that consumes this poison
+      begins to slowly die if they aren’t immune to poison. Each time that
+      creature finishes a long rest, its hit point maximum is reduced by 1. If
+      the creature’s hit point maximum hit is reduced to 0 by this effect, it
+      dies. While its hit points are less than half of its original maximum, it
+      is poisoned. This effect can be removed by effects that remove the
+      poisoned condition, and can be only be identified by magic or a DC 15
+      Wisdom (Medicine) check.</p>
+
+      <p>If a creature is cured, it regains its lost hit points after it
+      finishes a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  quantity: 1
+  weight: 0.1
+  price: 6800
+  attunement: 0
+  equipped: false
+  rarity: veryRare
+  identified: true
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    autoDestroy: false
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  consumableType: potion
+  type:
+    value: poison
+    subtype: ingested
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  coreVersion: '13.347'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.lLdoTEQJ5bTA8eHv
+  duplicateSource: null
+  exportSource: null
+_key: '!items!vzLMwlZrTfZ6H0Kt'

@@ -1,0 +1,51 @@
+name: Life Merchant
+type: feat
+img: icons/magic/life/cross-explosion-burst-green.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: -12500
+flags:
+  core: {}
+_id: 5g25wapphIaCQQEt
+system:
+  description:
+    value: >-
+      <p>You can share your considerable vitality with other creatures. You are
+      a generous person, after all. You learn the spell
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.8HgZEXkHBz2hcDkv]{Invest
+      Life}, and you can cast invest lifeK without expending a spell slot. Once
+      you cast in this way, you can’t cast it again with this upgrade until you
+      finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 5
+  prerequisites:
+    level: 5
+  identifier: life-merchant
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.JJ79Js6xqVLOGobw
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385668674
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!5g25wapphIaCQQEt'

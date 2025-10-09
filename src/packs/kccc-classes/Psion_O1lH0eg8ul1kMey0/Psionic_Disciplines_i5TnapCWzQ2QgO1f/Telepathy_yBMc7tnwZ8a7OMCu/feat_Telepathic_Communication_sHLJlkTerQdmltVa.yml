@@ -1,0 +1,107 @@
+_id: sHLJlkTerQdmltVa
+name: Telepathic Communication
+type: feat
+img: icons/magic/sonic/explosion-shock-sound-wave.webp
+effects: []
+folder: yBMc7tnwZ8a7OMCu
+sort: 300000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>When you gain this feature, you can communicate telepathically with any
+      creature you can see within 30 feet of you. You don’t need to share a
+      language with the creature for it to understand your telepathic
+      utterances, but the creature must be able to understand at least one
+      language. Creatures you communicate with can reply in kind.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  requirements: Telepathy 1
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: ''
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: telepathic-communication
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.0N8tMKVoIy2z392E
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385714757
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!sHLJlkTerQdmltVa'

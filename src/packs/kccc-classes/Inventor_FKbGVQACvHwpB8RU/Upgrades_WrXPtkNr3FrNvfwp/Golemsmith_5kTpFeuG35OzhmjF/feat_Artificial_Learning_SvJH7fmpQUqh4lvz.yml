@@ -1,0 +1,55 @@
+_id: SvJH7fmpQUqh4lvz
+name: Artificial Learning
+type: feat
+img: icons/skills/trades/academics-book-study-purple.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: -37500
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>Your Golem Companion begins to apply its abilities to learn new things,
+      gaining one level in a class of your choice. Your Golem Companion gains
+      all the 1st-level features of the chosen class. This doesn’t include hit
+      points, Hit Dice, or class proficiencies. For example, choosing the
+      Fighter class grants the golem the Fighting Style and Second Wind
+      features, but nothing else.</p>
+
+      <p>You can select this upgrade multiple times, granting your golem another
+      level of features from the same class or the 1st-level features from
+      another class each time it is selected.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 15
+  prerequisites:
+    level: 15
+  identifier: artificial-learning
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.y16OK0ZyxnH4kzDI
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385698770
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!SvJH7fmpQUqh4lvz'

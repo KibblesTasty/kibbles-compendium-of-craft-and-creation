@@ -1,0 +1,52 @@
+_id: p2NVT7CCMjTYj7Lm
+name: Arcane Armament
+type: feat
+img: icons/magic/defensive/barrier-shield-dome-pink.webp
+effects: []
+folder: qdxFDNciGzMz3Uzf
+sort: 0
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You master armoring yourself with magical enchantments. You learn the
+      mage armor spell. While under the effect of mage armor, you can add your
+      Intelligence modifier to your AC, in-</p>
+
+      <p>stead of your Dexterity modifier. You can only do this if you are not
+      adding your Intelligence modifier to your AC from another source.
+      Additionally, you gain resistance to force damage.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Infusionsmith 3
+  prerequisites:
+    level: 3
+  identifier: arcane-armament
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.vtAUI6BsjUzeIGsm
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385711976
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!p2NVT7CCMjTYj7Lm'

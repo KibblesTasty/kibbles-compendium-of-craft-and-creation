@@ -1,0 +1,1715 @@
+_id: roHaNhhldqWe1KbC
+name: Lurking Maw
+type: npc
+img: >-
+  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/LurkingMaw.png
+items:
+  - _id: 2ljBema4gzXt3O7A
+    name: Consuming Hunger
+    type: feat
+    img: icons/magic/unholy/strike-beam-blood-small-red-gray.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Consuming Hunger.</strong> If a creature swallowed by the
+          lurking maw dies, the lurking maw is psionically nourished, regaining
+          13 (2d12) hit points and either one legendary resistance or one
+          legendary action (its choice).</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!roHaNhhldqWe1KbC.2ljBema4gzXt3O7A'
+  - _id: frAAiYV3yv6pFhly
+    name: Expunge Light
+    type: feat
+    img: icons/magic/unholy/orb-glowing-purple.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Expunge Light. </strong>At the start of its turn, the
+          lurking maw can extinguish one light source within 120 feet of it (no
+          action required). A light-generating spell cast with a spell slot of
+          3rd level or higher can’t be extinguished in this way.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: special
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: space
+      range:
+        value: 120
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!roHaNhhldqWe1KbC.frAAiYV3yv6pFhly'
+  - _id: YCoX6vL6S6i6AhxB
+    name: Lurk
+    type: feat
+    img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Lurk.</strong> While in darkness, the lurking maw can take
+          the Hide action as a bonus action to hide one of its tentacles.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!roHaNhhldqWe1KbC.YCoX6vL6S6i6AhxB'
+  - _id: E1M68KlDEc0g4lO8
+    name: Radiant Weakness.
+    type: feat
+    img: icons/magic/light/explosion-impact-purple.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Radiant Weakness.</strong> Whenever the lurking maw takes
+          fire or radiant damage, or any damage while it’s in direct sunlight,
+          it takes an extra 3 (1d6) damage of that type.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!roHaNhhldqWe1KbC.E1M68KlDEc0g4lO8'
+  - _id: 45cKIHe9xyxubkTp
+    name: 'Bloodied: Hungering Abyss'
+    type: feat
+    img: icons/magic/unholy/orb-swirling-teal.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+          altValue:
+            use: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Hungering Abyss. </strong>The lurking maw’s wounds bleed an
+          inky black, magical smoke that boils up into a haze of magical
+          darkness when it is bloodied (reduced to less than half its maximum
+          hit points), filling the area within a 60-foot radius of it. This haze
+          lasts for 2 ([[/r 1d4]]) rounds. This magical darkness is treated as a
+          magical effect created by a 4th-level spell slot. It also immediately
+          gains 1 additional legendary action. It doesn’t regain this additional
+          legendary action at the start of its turn.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: special
+        cost: 1
+        condition: Maw is reduced to less than half hit points.
+      duration:
+        value: 2
+        units: round
+      target:
+        value: 60
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 1
+        max: '1'
+        per: lr
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!roHaNhhldqWe1KbC.45cKIHe9xyxubkTp'
+  - _id: hF27PTxmVqOLYNB4
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
+    effects: []
+    folder: null
+    sort: -200000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.094090din8bu19vk
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Multiattack. </strong>The lurking maw makes three attacks:
+          one with its bite and two with its tentacles.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: 0
+    _key: '!actors.items!roHaNhhldqWe1KbC.hF27PTxmVqOLYNB4'
+  - _id: XrDCzVAXWFjuhNWW
+    name: Bite
+    type: weapon
+    img: icons/creatures/abilities/mouth-teeth-long-red.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Bite.</strong> Melee Weapon Attack: +9 to hit, reach 20
+          ft., one target. Hit: 9 ([[/r 1d8 + 5]]) bludgeoning damage, and the
+          target is grappled (escape DC 15). Until this grapple ends, the target
+          is restrained. A creature grappled in this way takes [[/damage 3d4
+          piercing average]] damage at the start of each of its turns. If a
+          creature the lurking maw is grappling in this way has 0 hit points at
+          the start of the lurking maw’s turn, that creature is swallowed (no
+          action required), and the grapple ends. While swallowed, the creature
+          is blinded and restrained, it has total cover against attacks and
+          other effects outside the lurking maw, and it takes [[/damage 4d6 acid
+          average]] damage at the start of each of the lurking maw’s turns.</p>
+
+          <p>If the lurking maw takes 20 damage or more on a single turn from a
+          creature inside it, the lurking maw must succeed on a DC 18
+          Constitution saving throw at the end of that turn or regurgitate all
+          swallowed creatures, which fall prone in a space within 10 feet of the
+          lurking maw. If the lurking maw dies, a swallowed creature is no
+          longer restrained by it and can escape from the corpse using 15 feet
+          of movement, exiting prone. Such a creature can also escape by being
+          cut out of the corpse by a creature dealing 10 slashing damage to
+          it.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 5
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d8 + @mod
+            - piercing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    _key: '!actors.items!roHaNhhldqWe1KbC.XrDCzVAXWFjuhNWW'
+  - _id: fpos78PAdZAjLDs5
+    name: Tentacle
+    type: weapon
+    img: icons/creatures/tentacles/tentacles-suctioncups-pink.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Tentacle.</strong> Melee Weapon Attack: +9 to hit, reach 20
+          ft., one target. Hit: 9 ([[/r 1d8 + 5]]) bludgeoning damage, and the
+          target is grappled (escape DC 13). Until this grapple ends, the target
+          is restrained. The lurking maw has four tentacles, each of which can
+          grapple one target.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 20
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d8 + @mod
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: true
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    _key: '!actors.items!roHaNhhldqWe1KbC.fpos78PAdZAjLDs5'
+  - _id: HMAsmu9ak7WITHVm
+    name: 'Legendary Action:  Crush'
+    type: feat
+    img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+            '1': Additional Bite Damage
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Crush</strong>. The lurking maw crushes a target it is
+          grappling, dealing [[/damage 2d6 bludgeoning average]] damage to it.
+          If the target is grappled by the lurking maw’s bite, it takes an
+          extra  [[/damage 1d6 piercing average]] damage.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 1
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 2d6
+            - bludgeoning
+          - - 1d6
+            - piercing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!roHaNhhldqWe1KbC.HMAsmu9ak7WITHVm'
+  - _id: bzb9waqerKvfpQyH
+    name: 'Legendary Action: Tentacle Attack'
+    type: feat
+    img: icons/creatures/tentacles/tentacles-thing-green.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Tentacle Attack.</strong> The lurking maw makes a single
+          tentacle attack.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!roHaNhhldqWe1KbC.bzb9waqerKvfpQyH'
+  - _id: A2Pftaa7iMv0DBQQ
+    name: 'Legendary Action: Mind Terrors'
+    type: feat
+    img: icons/magic/control/fear-fright-monster-grin-purple-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            charge: true
+          altValue:
+            charge: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Mind Terrors (Recharge 5–6).</strong> Up to five creatures
+          within 60 feet of the lurking maw must make a DC 12 Wisdom saving
+          throw, with disadvantage if the creature is in darkness. On a failed
+          save, the creature becomes frightened for 1 minute. If the saving
+          throw fails by 5 or more, the creature is stunned until the end of its
+          next turn.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: wis
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: 12
+        scaling: flat
+      requirements: ''
+      recharge:
+        value: 5
+        charged: true
+    _key: '!actors.items!roHaNhhldqWe1KbC.A2Pftaa7iMv0DBQQ'
+  - _id: RZdU9vXIHUT78guM
+    name: 'Lair Action: Grasping Darkness'
+    type: feat
+    img: LurkingMawTendril.png
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Grasping Darkness</strong>. A new maw tendril appears in a
+          patch of darkness that is a 5-foot cube or larger. It has AC 15, 15
+          hit points, immunity to poison and psychic damage, and uses a single
+          tentacle attack as if it is the lurking maw. Roll initiative for the
+          tendril. It makes one tentacle attack immediately when it appears and
+          again on each of its turns until it is killed, or until its space is
+          fully illuminated by bright light, destroying the tendril.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: lair
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 5
+        width: null
+        units: ft
+        type: cube
+      range:
+        value: 120
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!roHaNhhldqWe1KbC.RZdU9vXIHUT78guM'
+  - _id: nEsOhpIvsu2qv4QA
+    name: 'Lair Action: Inky Pool'
+    type: feat
+    img: icons/magic/unholy/orb-glowing-purple.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Inky Pool. </strong>A 5-foot-radius sphere of magical
+          darkness (as if by the darkness spell) appears at a point of the
+          lurking maw’s choice within 120 feet of it. This magical darkness
+          grows by 5 feet every round on initiative count 20 until it reaches a
+          20-foot-radius sphere.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: lair
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: 5
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: 120
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!roHaNhhldqWe1KbC.nEsOhpIvsu2qv4QA'
+effects: []
+folder: RgLgSAM7fPsrV84e
+sort: 200000
+flags:
+  core: {}
+  dnd5e:
+    showTokenPortrait: false
+system:
+  abilities:
+    str:
+      value: 20
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 12
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 18
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 8
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 16
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 9
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+  attributes:
+    ac:
+      flat: null
+      calc: custom
+      formula: '15'
+    hp:
+      value: 115
+      min: 0
+      max: 115
+      temp: 0
+      tempmax: 0
+      formula: 11d12 + 44
+    init:
+      value: 0
+      bonus: 0
+    movement:
+      burrow: 0
+      climb: 30
+      fly: 0
+      swim: 30
+      walk: 30
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 0
+      blindsight: 120
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: ''
+    spellcasting: int
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: Chaotic Evil
+    race: ''
+    type:
+      value: aberration
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 9
+    spellLevel: 0
+    xp:
+      value: 10
+    source:
+      book: KCCC
+      custom: ''
+  traits:
+    size: huge
+    di:
+      value: []
+      custom: ''
+    dr:
+      value:
+        - poison
+        - psychic
+      custom: ''
+    dv:
+      value: []
+      custom: ''
+    ci:
+      value:
+        - charmed
+        - frightened
+        - paralyzed
+      custom: ''
+    languages:
+      value: []
+      custom: ''
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 1
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 1
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 1
+      max: 1
+    legres:
+      value: 2
+      max: 2
+    lair:
+      value: false
+      initiative: 0
+  source:
+    rules: '2014'
+ownership:
+  default: 0
+prototypeToken:
+  name: Lurking Maw
+  displayName: 40
+  actorLink: false
+  width: 3
+  height: 3
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  disposition: -1
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  flags:
+    splatter:
+      bloodColor: ''
+  randomImg: false
+  texture:
+    src: >-
+      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/LurkingMaw.png
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+    color: null
+  appendNumber: false
+  prependAdjective: false
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Actor.EpDaN6uHp54kGluk
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!roHaNhhldqWe1KbC'

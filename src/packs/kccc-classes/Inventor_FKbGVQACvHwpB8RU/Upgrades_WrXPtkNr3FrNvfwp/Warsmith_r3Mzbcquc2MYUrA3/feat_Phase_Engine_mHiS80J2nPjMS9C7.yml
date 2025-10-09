@@ -1,0 +1,55 @@
+name: Phase Engine
+type: feat
+img: icons/magic/symbols/triangle-glow-purple.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 118555
+flags:
+  core: {}
+_id: mHiS80J2nPjMS9C7
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Warskin or Warsuit)</em></p>
+
+      <p>When you are attacked, you can use your reaction to become intangible,
+      causing that attack to miss if it is a nonmagical attack, or to have
+      disadvantage if it is a magical attack. Once you do so, you can’t do so
+      again until you finish a short or long rest, or until you teleport or
+      enter the ethereal plane.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 15
+  prerequisites:
+    level: 15
+    items:
+      - warskin
+      - warsuit
+  identifier: phase-engine
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.E05EY0gh0sDXjT7b
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385710404
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!mHiS80J2nPjMS9C7'

@@ -1,0 +1,90 @@
+_id: wtRrdGOLKJHxgLXI
+name: Detonate Armament
+type: feat
+img: icons/magic/light/explosion-star-glow-silhouette.webp
+effects: []
+folder: qdxFDNciGzMz3Uzf
+sort: 26563
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>When you take damage while under the effects of mage armor, you can end
+      the effects of that spell as a reaction to cast
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.2apB5AIIyElnAkoJ]{Turbulent
+      Warp} without expending a spell slot.</p>
+
+      <p>Once you cast the spell in this way, you can’t do so again until you
+      finish a short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Infusionsmith 9
+  recharge:
+    value: null
+    charged: false
+  prerequisites:
+    level: 9
+  identifier: detonate-armament
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.dTBvDolBV0eV9Hq4
+  duplicateSource: null
+  exportSource: null
+_key: '!items!wtRrdGOLKJHxgLXI'

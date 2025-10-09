@@ -1,0 +1,57 @@
+name: 'Fleshcrafted Enhancement: Venomous'
+type: feat
+img: icons/creatures/abilities/fang-tooth-poison-green.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 1300000
+flags:
+  core: {}
+_id: TSxYR0HYcb9OU9rW
+system:
+  description:
+    value: >-
+      <p><strong>Qualified Mutations:</strong> Extra Fangs, Extra Claws</p>
+
+      <p><strong>Effect:</strong> Once per turn, on your turn, when you hit a
+      creature with your natural weapon you can inject venom, dealing an extra
+      1d8 poison damage.</p>
+
+      <p><strong>Empowered Effect:</strong> The target must make a Constitution
+      saving throw against your spell save DC or become poisoned for 1 minute.
+      They can repeat their saving throw at the end of each of their turns.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshcrafted Enhancement
+  identifier: fleshcrafted-enhancement-venomous
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+    items:
+      - extra-fangs
+      - extra-claws
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.zNRD9uuSfNNIgvgQ
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385699257
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!TSxYR0HYcb9OU9rW'

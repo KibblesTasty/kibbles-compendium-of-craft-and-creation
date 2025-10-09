@@ -1,0 +1,54 @@
+_id: Jjs9nNxF1xhbBlV4
+name: Explosive Powder
+type: feat
+img: icons/commodities/materials/bowl-powder-grey.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: -137500
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You’ve managed to stabilize and refine your Explosive Reaction. You can
+      prepare a number of Explosive Reactions up to your Intelligence modifier
+      (a minimum of 1). These Explosive Reactions don’t detonate instantly, but
+      rather last for 1 minute and will only detonate when exposed to fire. A
+      creature can be affected by the damage from no more than two Explosive
+      Reactions simultaneously, but structures take the full damage of all
+      Explosive Reactions in their area.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 5
+  prerequisites:
+    level: 5
+    items:
+      - explosive-reaction
+  identifier: explosive-powder
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.JnX20GPgSMATZfCe
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385692041
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!Jjs9nNxF1xhbBlV4'

@@ -1,0 +1,248 @@
+name: Bad Blood
+type: spell
+img: icons/magic/unholy/strike-body-explode-disintegrate.webp
+effects: []
+folder: frXX6IqoOjC9LAfE
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: LR9Gs6fXk31L16pi
+system:
+  description:
+    value: >-
+      <p>Targeting a creature you can see within range, you attempt to corrupt
+      its blood. Creatures without blood are immune to this effect. The target
+      must make a Constitution saving throw. On failure, they take 1d12 poison
+      damage and become &amp;Reference[poisoned] for the duration.</p><p>At the
+      end of each of its turns, the target can make another Constitution saving
+      throw. On a success, the spell ends on the target, on failure; they take
+      an additional [[/damage 1d4 poison]] damage as the poison continues to
+      ravage them.</p><p><em><strong>At Higher Levels.</strong></em> When you
+      cast this spell using a spell slot of 2nd level or higher, you can target
+      one additional target for each slot level above 2nd. The targets must be
+      within 30 feet of each other when you target them.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    affects:
+      special: ''
+      count: '@scaling'
+    template:
+      type: ''
+  range:
+    value: 60
+    long: null
+    units: ft
+    special: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 1d12
+        - poison
+      - - 1d4
+        - poison
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 1
+  school: nec
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: a piece of rotten meat
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  activities:
+    3Fr5kyDGiZodjD5Z:
+      type: save
+      _id: 3Fr5kyDGiZodjD5Z
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: '12'
+            bonus: ''
+            types:
+              - poison
+            scaling:
+              mode: ''
+              number: 1
+              formula: ''
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 12
+            bonus: ''
+            types:
+              - poison
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+          - number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - poison
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.2ytxTTP0IOiE6y03
+  duplicateSource: null
+  exportSource: null
+_key: '!items!LR9Gs6fXk31L16pi'

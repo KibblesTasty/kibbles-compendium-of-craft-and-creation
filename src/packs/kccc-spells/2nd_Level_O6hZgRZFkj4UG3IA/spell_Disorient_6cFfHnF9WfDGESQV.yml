@@ -1,0 +1,161 @@
+name: Disorient
+type: spell
+img: icons/magic/perception/eye-ringed-green.webp
+effects: []
+folder: O6hZgRZFkj4UG3IA
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: 6cFfHnF9WfDGESQV
+system:
+  description:
+    value: >-
+      <p>Targeting a creature with you can see, you flip their perception of
+      reality. The target creature must pass a Wisdom saving throw or become
+      disoriented. A disoriented creature has disadvantage on all attack rolls
+      and at the start of their turn moves 10 feet (up to its speed) in a random
+      direction before their speed becomes zero until the start of their next
+      turn.</p>
+
+      <p>At the end of each of its turns, the target can make another Wisdom
+      saving throw. On a success, the spell ends, but if the target fails by 5
+      or more, it fails prone.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    affects:
+      special: ''
+    template:
+      type: ''
+  range:
+    value: 60
+    long: null
+    units: ft
+    special: ''
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: save
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  level: 2
+  school: ill
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+    value: ''
+  materials:
+    value: a mobius strip
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+    - material
+  activities:
+    Lx7J6O2eG98WTcnL:
+      type: save
+      _id: Lx7J6O2eG98WTcnL
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: P4s0tEv2aQM65Vsa
+          onSave: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.3Fs60ldE2lRSsuMp
+  duplicateSource: null
+  exportSource: null
+_key: '!items!6cFfHnF9WfDGESQV'

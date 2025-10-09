@@ -1,0 +1,63 @@
+_id: OkJ0ryvv2TUnjaby
+name: Gadgetsmith’s Proficiency
+type: feat
+img: icons/tools/smithing/pincers.webp
+effects: []
+folder: Z2DG7epkhNg8rL75
+sort: 100000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>When you choose this specialization at 1st level, you gain proficiency
+      with nets, rapiers, whips, and tinker’s tools.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Gadgetsmith 1
+  identifier: gadgetsmiths-proficiency
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+  advancement:
+    - type: Trait
+      _id: naWjMhsrU1DqYEc0
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:mar:net
+          - weapon:mar:rapier
+          - weapon:mar:whip
+          - tool:art:tinker
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.QSpyqhzJXNqxNcfn
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  createdTime: 1726385696083
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!OkJ0ryvv2TUnjaby'

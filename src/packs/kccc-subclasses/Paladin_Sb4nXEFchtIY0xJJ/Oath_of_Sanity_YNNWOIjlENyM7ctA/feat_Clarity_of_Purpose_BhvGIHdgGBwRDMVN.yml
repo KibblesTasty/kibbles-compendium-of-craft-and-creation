@@ -1,0 +1,161 @@
+name: Clarity of Purpose
+type: feat
+img: icons/magic/control/silhouette-hold-change-blue.webp
+effects:
+  - name: Clarity of Purpose
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.BhvGIHdgGBwRDMVN
+    duration:
+      rounds: 10
+      startTime: null
+      seconds: null
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: true
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _id: RcdpiPiOoTeKOlDf
+    changes:
+      - key: system.traits.di.value
+        mode: 2
+        value: psychic
+        priority: null
+    description: >-
+      <ul><li>You can gain truesight with a range of 120 feet.</li><li>You are
+      immune to psychic damage.</li><li>You have advantage on saving throws
+      against magical or psionic effects.</li><li>When you strike an enemy with
+      a Divine Smite you can choose to cast dispel magic on the target as a
+      bonus action without expending a spell slot. If the level of the spell
+      slot spent on Divine Smite was higher than 3rd level, you cast dispel
+      magic at the level of spell slot spent.</li></ul>
+    transfer: true
+    statuses: []
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.3.8
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: icons/magic/control/silhouette-hold-change-blue.webp
+    type: base
+    system: {}
+    sort: 0
+    _key: '!items.effects!BhvGIHdgGBwRDMVN.RcdpiPiOoTeKOlDf'
+folder: YNNWOIjlENyM7ctA
+sort: 400000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: BhvGIHdgGBwRDMVN
+_stats:
+  compendiumSource: Item.CvlgqhlyZsCO1qpX
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.3.8
+  createdTime: 1726385614130
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+ownership:
+  default: 0
+system:
+  description:
+    value: >-
+      <p>At 20th level, as an action, you can fully perceive the world around
+      you for what it is, shattering the foul magics that bind and piercing the
+      veils that hide, unrelenting and focused, gaining the following benefits
+      for 1 minute:</p><ul><li>You can gain truesight with a range of 120
+      feet.</li><li>You are immune to psychic damage.</li><li>You have advantage
+      on saving throws against magical or psionic effects.</li><li>When you
+      strike an enemy with a Divine Smite you can choose to cast dispel magic on
+      the target as a bonus action without expending a spell slot. If the level
+      of the spell slot spent on Divine Smite was higher than 3rd level, you
+      cast dispel magic at the level of spell slot spent.</li></ul><p>Once you
+      use this feature, you can’t use it again until you finish a long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  requirements: Oath of Sanity 20
+  type:
+    value: class
+    subtype: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: clarity-of-purpose
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+_key: '!items!BhvGIHdgGBwRDMVN'

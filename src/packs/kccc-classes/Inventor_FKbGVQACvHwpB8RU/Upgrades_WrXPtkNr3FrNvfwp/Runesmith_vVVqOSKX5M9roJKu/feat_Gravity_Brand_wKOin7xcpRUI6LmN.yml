@@ -1,0 +1,47 @@
+name: Gravity Brand
+type: feat
+img: icons/magic/control/silhouette-hold-beam-blue.webp
+effects: []
+folder: vVVqOSKX5M9roJKu
+sort: -9375
+flags:
+  core: {}
+_id: wKOin7xcpRUI6LmN
+system:
+  description:
+    value: "<p><em>\_(Prerequisite: Rune of Gravity)</em></p>\n<p>When you hit a creature with a weapon marked with a Rune of Gravity, until the start of your next turn, any movement they make moving away from you costs an additional foot of movement.</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Runesmith 5
+  prerequisites:
+    level: 5
+    items:
+      - rune-of-gravity
+  identifier: gravity-brand
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.ZYYJQGlvu1IbA3ZO
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385717344
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!wKOin7xcpRUI6LmN'

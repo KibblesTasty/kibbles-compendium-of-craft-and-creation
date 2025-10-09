@@ -1,0 +1,198 @@
+folder: Is2QCkpGee6wpunA
+name: 'Gather Materials: Jungles'
+_id: t0PzvIIZv82bMvp5
+img: icons/magic/nature/plant-bamboo-green.webp
+description: >-
+  <p>Materials can be harvested with your choice of a Strength, Dexterity, or
+  Wisdom check. If you have proficiency with the Survival skill, you can add
+  your proficiency bonus to the roll.</p><p>[[/check ability=str skill=sur
+  dc=12]]</p><p>[[/check ability=dex skill=sur dc=12]]</p><p>[[/check
+  ability=wis skill=sur dc=12]]</p>
+results:
+  - type: text
+    weight: 10
+    range:
+      - 1
+      - 10
+    drawn: false
+    _id: Ji5wLg9iQAUBP5tV
+    img: icons/commodities/wood/kindling-sticks-brown.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.iGeVDlbbr5HmdO3N]{Firewood}
+    name: ''
+    _key: '!tables.results!t0PzvIIZv82bMvp5.Ji5wLg9iQAUBP5tV'
+  - type: text
+    weight: 10
+    range:
+      - 11
+      - 20
+    drawn: false
+    _id: KfuGF67twUk3glth
+    img: icons/commodities/wood/kindling-stick-grey.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.0bZpiZQCurPIVkuJ]{Common
+      Branch}
+    name: ''
+    _key: '!tables.results!t0PzvIIZv82bMvp5.KfuGF67twUk3glth'
+  - type: text
+    weight: 20
+    range:
+      - 21
+      - 40
+    drawn: false
+    _id: BjXddEFHLS44Oh0b
+    img: icons/consumables/grains/sack-rice-flour-brown.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.z3TedhTQJUonD5uM]{Supplies}
+    name: ''
+    _key: '!tables.results!t0PzvIIZv82bMvp5.BjXddEFHLS44Oh0b'
+  - type: document
+    weight: 20
+    range:
+      - 41
+      - 60
+    drawn: false
+    _id: wDh7586VEGfOV4zE
+    img: icons/consumables/food/preserves-jam-jelly-jar-brown-red.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Uncommon Supplies
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.CZnu0nVY57xd3qTu
+    description: ''
+    _key: '!tables.results!t0PzvIIZv82bMvp5.wDh7586VEGfOV4zE'
+  - type: document
+    weight: 20
+    range:
+      - 61
+      - 80
+    drawn: false
+    _id: 8U0saQKBw5o9ARYm
+    img: icons/commodities/wood/kindling-stick-tan.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Uncommon Branch
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.Sv1VcRedFUHaoL7T
+    description: ''
+    _key: '!tables.results!t0PzvIIZv82bMvp5.8U0saQKBw5o9ARYm'
+  - type: document
+    weight: 15
+    range:
+      - 81
+      - 95
+    drawn: false
+    _id: caLEICWfQ41uQP4F
+    img: icons/commodities/wood/kindling-stick-tan.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Uncommon Branch
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.Sv1VcRedFUHaoL7T
+    description: ''
+    _key: '!tables.results!t0PzvIIZv82bMvp5.caLEICWfQ41uQP4F'
+  - type: document
+    weight: 5
+    range:
+      - 96
+      - 100
+    drawn: false
+    _id: Vg2nWjcOaLzsGFIk
+    img: icons/commodities/materials/slime-thick-orange.webp
+    flags: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    name: Common Primal Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.6AjdA2wDMBQ2Y6Mk
+    description: ''
+    _key: '!tables.results!t0PzvIIZv82bMvp5.Vg2nWjcOaLzsGFIk'
+replacement: true
+displayRoll: true
+sort: 200000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1733861341866
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+formula: 1d100
+_key: '!tables!t0PzvIIZv82bMvp5'

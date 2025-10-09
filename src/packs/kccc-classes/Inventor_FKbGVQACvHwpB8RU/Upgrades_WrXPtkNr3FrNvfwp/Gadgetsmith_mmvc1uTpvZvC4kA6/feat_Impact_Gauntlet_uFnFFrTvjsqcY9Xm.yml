@@ -1,0 +1,58 @@
+name: Impact Gauntlet
+type: feat
+img: icons/equipment/hand/gauntlet-armored-leather-teal-orange.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 250000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.B7n099FicuOcJUrB]{Impact
+      Gauntlet}</p><p>You create a magic weapon capable of amplifying the impact
+      of your blows. You have proficiency with this weapon, and it has the
+      finesse and light properties, as well as the special property (described
+      below). It deals 1d6 bludgeoning damage on a hit. You can select this
+      upgrade up to two times, making a separate weapon each
+      time.</p><p><em><strong>Special.</strong></em> When you make an attack
+      with this weapon, you can choose to forgo adding your proficiency bonus to
+      the attack roll. If your attack hits, you can add double your proficiency
+      bonus to the damage roll.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  properties:
+    - fin
+    - lgt
+    - spc
+  type:
+    value: class
+    subtype: upgrade
+  prerequisites:
+    level: null
+  requirements: Gadgetsmith 1
+  identifier: impact-gauntlet
+  activities: {}
+  enchant: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.XHTmNdRMOYDEwaJi
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385716063
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_id: uFnFFrTvjsqcY9Xm
+_key: '!items!uFnFFrTvjsqcY9Xm'

@@ -1,0 +1,51 @@
+name: Grasping Form
+type: feat
+img: icons/creatures/tentacles/tentacles-suctioncups-pink.webp
+effects: []
+folder: OGskAJrRIvNFdWpi
+sort: 400000
+flags:
+  core: {}
+_id: EBTIEVxM4xablhGa
+system:
+  description:
+    value: >-
+      <p>You Forbidden Artifact can twist around, binding targets. When you hit
+      an attack with it, you can attempt to grapple the target as a bonus
+      action. If you have the Abhorrent Life property, you can make an
+      Intelligence (Athletics) check to initiate or sustain the grapple. You
+      can’t attack other creatures while grappling a creature with this
+      weapon.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Cursesmith 1
+  prerequisites:
+    level: 1
+  identifier: grasping-form
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.IQiZ78Qu3mu5uzM5
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385677101
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!EBTIEVxM4xablhGa'

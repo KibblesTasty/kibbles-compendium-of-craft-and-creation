@@ -1,0 +1,61 @@
+name: Nomad’s Gear
+type: feat
+img: icons/equipment/chest/breastplate-quilted-brown.webp
+effects: []
+folder: hUW2IdYw56P65RkO
+sort: 150000
+flags:
+  core: {}
+_id: HFC7UMfEsGjJZcw7
+system:
+  description:
+    value: >-
+      <p>Additionally at 1st level, you gain proficiency with martial weapons
+      and medium armor.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Wandering Mind 1
+  identifier: nomads-gear
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+  advancement:
+    - type: Trait
+      _id: oZq0WI8pE6g4Prrf
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:mar
+          - armor:med
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.8b0OB12yC63Lbj2q
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  createdTime: 1726385690655
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!HFC7UMfEsGjJZcw7'

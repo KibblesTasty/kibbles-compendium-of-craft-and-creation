@@ -1,0 +1,126 @@
+folder: cdQaq6Woz4eR93X3
+name: Spell Shot (Multishot)
+type: consumable
+_id: sqfb2uxTAitnzEuU
+img: icons/skills/ranged/arrows-flying-salvo-yellow.webp
+system:
+  activities:
+    Do4ofvXmMtP2m9gO:
+      type: cast
+      spell:
+        uuid: >-
+          Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Iz0bxGcgMImlATB9
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '3'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        ability: ''
+      _id: Do4ofvXmMtP2m9gO
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: material
+            value: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p>When you fire this arrow, you cast
+      @UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.Iz0bxGcgMImlATB9]{multishot}.
+      </p><p>Once the magic effect is discharged by firing it, the magic of the
+      arrow is expended, and it becomes a mundane arrow.</p>
+    chat: ''
+  identifier: spell-shot-multishot
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 80
+    denomination: gp
+  rarity: uncommon
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: ammo
+    subtype: arrow
+  damage:
+    base:
+      number: null
+      denomination: 0
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      bonus: ''
+    replace: false
+  magicalBonus: null
+  properties:
+    - mgc
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1737922485053
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!sqfb2uxTAitnzEuU'

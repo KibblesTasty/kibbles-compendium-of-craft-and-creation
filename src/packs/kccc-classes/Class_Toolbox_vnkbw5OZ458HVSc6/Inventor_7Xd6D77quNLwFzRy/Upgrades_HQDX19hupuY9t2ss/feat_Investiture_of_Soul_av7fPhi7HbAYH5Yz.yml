@@ -1,0 +1,55 @@
+folder: HQDX19hupuY9t2ss
+name: Investiture of Soul
+type: feat
+_id: av7fPhi7HbAYH5Yz
+img: icons/magic/earth/projectile-stone-boulder-purple.webp
+system:
+  description:
+    value: >-
+      <p>You learn the spell
+      @UUID[Compendium.dnd5e.spells.Item.ATo0Eb63TDtnu6iA]{animate objects}. It
+      does not count against your spells known, and if you already know animate
+      objects, you can learn a new spell of 5th level or lower that does not
+      count against your spells known. </p><p>When you cast animate objects, you
+      can expend a Hit Die in addition to the spell slot. When you do so, the
+      spell is invest with your soul, and no longer requires concentration. When
+      cast in this way, it lasts until you cast animate objects again, or until
+      all the animated objects are destroyed.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  prerequisites:
+    level: 19
+  properties: []
+  requirements: Infusionsmith 19
+  identifier: investiture-of-soul
+  activities: {}
+  enchant: {}
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385703912
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!av7fPhi7HbAYH5Yz'

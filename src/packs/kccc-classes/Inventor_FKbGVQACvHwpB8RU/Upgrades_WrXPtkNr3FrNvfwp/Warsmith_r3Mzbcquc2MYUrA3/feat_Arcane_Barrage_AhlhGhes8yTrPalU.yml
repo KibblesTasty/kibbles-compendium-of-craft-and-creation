@@ -1,0 +1,57 @@
+name: Arcane Barrage
+type: feat
+img: icons/magic/light/projectile-needles-salvo-yellow.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 298438
+flags:
+  core: {}
+_id: AhlhGhes8yTrPalU
+system:
+  description:
+    value: >-
+      <p>Your armor collects arcane energy whenever you expend a spell slot,
+      storing a number of charges equal to the level of the spell cast. These
+      charges fade after 1 minute if you do not expend additional spell slots.
+      You can store a maximum number of charges equal to half your Inventor
+      level. You can use this upgrade to cast magic missile without expending a
+      spell slot. This expends all charges, increasing the level of the magic
+      missile spell by one for each charge spent. If you have an Ether Reactor,
+      you can expend charges from it to add additional charges, up to the
+      maximum number of charges you can have stored.</p>
+
+      <p>Once activated, it can’t be used again until you finish a short or long
+      rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 5
+  prerequisites:
+    level: 5
+  identifier: arcane-barrage
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.bfXsnpi2VRsLJ5Jj
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385674237
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!AhlhGhes8yTrPalU'

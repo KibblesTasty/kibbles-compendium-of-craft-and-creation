@@ -1,0 +1,51 @@
+name: Massive Hulk
+type: feat
+img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 371875
+flags:
+  core: {}
+_id: DEU9FbXc3aqRcLPK
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Massive Mutation)</em></p>
+
+      <p>You no longer have a limit to how long you can stay in your larger
+      form.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 9
+  prerequisites:
+    level: 9
+    items:
+      - massive-mutation
+  identifier: massive-hulk
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.O5GuWqAmGuwdJYS0
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385676361
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!DEU9FbXc3aqRcLPK'

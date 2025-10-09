@@ -1,0 +1,2885 @@
+_id: ReoRzBWDUQxazFJz
+name: Unearthed Destroyer
+type: npc
+img: >-
+  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/UnearthedDestroyer.png
+items:
+  - _id: VXg9zzltCzv6cXt6
+    name: Death Burst
+    type: feat
+    img: icons/magic/lightning/bolt-strike-explosion-yellow.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Death Burst. </strong>When the destroyer is reduced to 0
+          hit points, its power containment fails, unleashing massive
+          destructive power. All creatures within 120 of it must make a DC 16
+          Constitution saving throw, taking [[/damage 8d8 lightning average]]
+          damage on a failed save, or half as much damage on a successful one.
+          This damage is halved for creatures that are more than 60 feet away
+          from the destroyer.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: special
+        cost: 1
+        condition: When the destroyer is reduced to 0 hit points.
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 120
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 1
+        max: '1'
+        per: lr
+      consume:
+        type: charges
+        target: VXg9zzltCzv6cXt6
+        amount: 1
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 8d8
+            - lightning
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 16
+        scaling: flat
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.VXg9zzltCzv6cXt6'
+  - _id: oMeHWsxSgiEMVdK6
+    name: Gravity Surge
+    type: feat
+    img: icons/magic/air/air-burst-spiral-pink.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Gravity Surge. </strong>As a bonus action at the start of
+          its turn, the destroyer can raise or lower gravity. If it raises
+          gravity, all other creatures within 60 feet of it must succeed on a DC
+          19 Strength saving throw or fall prone. A flying creature that fails
+          this save falls to the ground even if it has the ability to hover or
+          is being held aloft by magic. If the destroyer lowers gravity, all
+          other creatures in the area must succeed on a DC 19 Strength saving or
+          float 10 feet upwards (as if by the <em>levitate </em>spell) until the
+          start of the destroyer’s next turn.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: 60
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: str
+        dc: null
+        scaling: con
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.oMeHWsxSgiEMVdK6'
+  - _id: y5YPiO08bv9CLCRU
+    name: Innate Spellcasting
+    type: feat
+    img: icons/magic/lightning/barrier-shield-orb-pink.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p>Innate Spellcasting. The destroyer’s innate spellcasting ability is
+          Constitution (spell save DC 19). It can innately cast the following
+          spells, requiring no components:</p>
+
+          <p>At will:<em> crackle<sup>K</sup>, fling<sup>K</sup>, lightning
+          charged<sup>K</sup></em></p>
+
+          <p>3/day each:<em> electrocute<sup>K</sup>, jumping jolt<sup>K</sup>,
+          lightning bolt</em></p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.y5YPiO08bv9CLCRU'
+  - _id: EgysMWxDARIvCb2u
+    name: Crackle
+    type: spell
+    img: icons/magic/lightning/bolt-strike-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          value: null
+          type: String
+        critDamage:
+          value: ''
+          type: String
+        quickDesc:
+          value: true
+          altValue: true
+          type: Boolean
+        quickProperties:
+          value: true
+          altValue: true
+          type: Boolean
+        quickVersatile:
+          value: false
+          altValue: false
+          type: Boolean
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+          type: Boolean
+        quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickAttack:
+          value: true
+          altValue: true
+          type: Boolean
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+          type: Array
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.MxYox8g83HnZR337
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p>You create three arcs of lightning striking targets in range. You
+          can direct them at one target or several.</p>
+
+          <p>Make a ranged spell attack for each arc. On a hit, the target takes
+          [[/damage 1d12 lightning]] damage. If three or more arcs hit a single
+          target, they must make a Constitution saving throw or become shocked,
+          stunning them until the start of their next turn.</p>
+
+          <p><em><strong>At Higher Levels.</strong></em> When you cast this
+          spell using a spell slot of 3rd level or higher, you create one
+          additional arc for each slot level above 2nd.</p>
+        chat: ''
+        unidentified: ''
+      source: Kibbles' Generic Elemental Spells
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: rsak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d12
+            - lightning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      school: evo
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: level
+        formula: ''
+      attunement: null
+    _key: '!actors.items!ReoRzBWDUQxazFJz.EgysMWxDARIvCb2u'
+  - _id: C4ZeWRYG0e8YIwCG
+    name: Fling
+    type: spell
+    img: icons/magic/sonic/projectile-shock-wave-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          type: String
+          value: null
+        critDamage:
+          type: String
+          value: ''
+        quickDesc:
+          type: Boolean
+          value: true
+          altValue: true
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
+        quickDamage:
+          type: Array
+          value:
+            '0': true
+            '1': true
+            '2': true
+          altValue:
+            '0': true
+            '1': true
+            '2': true
+          context:
+            '0': Falling
+            '1': Flinging
+            '2': Colliding
+        quickVersatile:
+          type: Boolean
+          value: false
+          altValue: false
+        quickProperties:
+          type: Boolean
+          value: true
+          altValue: true
+        quickCharges:
+          type: Boolean
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickOther:
+          type: Boolean
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.Mye18hqn0WMjJXbo
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p>You manipulate gravity around one large or smaller creature. The
+          target creature makes a Strength saving throw. On failure, you can
+          fling them 40 feet straight up or 20 feet in any direction.</p>
+
+          <p>If you fling them straight up they immediately fall, taking [[/r
+          4d6]] damage falling damage, and fall prone. If you fling them any
+          other direction, they take [[/r 2d6]] damage and fall prone. If their
+          movement would be stopped early by a creature or object, both the
+          target and creature or object takes [[/damage 3d6 bludgeoning]]
+          damage.</p>
+        chat: ''
+        unidentified: ''
+      source: Kibbles' Casting Compendium
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 30
+        long: null
+        units: ft
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 4d6
+            - bludgeoning
+          - - 2d6
+            - bludgeoning
+          - - 3d6
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: str
+        dc: null
+        scaling: spell
+      level: 2
+      school: trs
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    _key: '!actors.items!ReoRzBWDUQxazFJz.C4ZeWRYG0e8YIwCG'
+  - _id: uRTQTomMVayNxGpr
+    name: Lightning Charged
+    type: spell
+    img: icons/magic/lightning/fist-unarmed-strike-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          type: String
+          value: null
+        critDamage:
+          type: String
+          value: ''
+        quickDesc:
+          type: Boolean
+          value: true
+          altValue: true
+        quickAttack:
+          type: Boolean
+          value: true
+          altValue: true
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
+        quickDamage:
+          type: Array
+          value:
+            '0': true
+          altValue:
+            '0': true
+          context:
+            '0': ''
+        quickVersatile:
+          type: Boolean
+          value: false
+          altValue: false
+        quickProperties:
+          type: Boolean
+          value: true
+          altValue: true
+        quickCharges:
+          type: Boolean
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickOther:
+          type: Boolean
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.LlK6d5pzfvWWfb0D
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p>You channel lightning energy into a creature. The energy is
+          harmless to the creature, but escapes in dangerous bursts to other
+          nearby creatures.</p>
+
+          <p>Every time that creature strikes another creature with a melee
+          attack, a spell with a range of touch, is struck by another creature
+          with a melee attack, or ends their turn while grappling or being
+          grappled by another creature, they deal [[/damage 1d6 lightning]]
+          damage to that creature.</p>
+
+          <p>Once this spell has discharged 6 times (dealing up to 6d6 damage),
+          the spell ends.</p>
+
+          <p><strong>At Higher Levels.</strong> The spell can discharge damage 2
+          additional times (dealing 2d6 more total damage) before the spell ends
+          for each slot level above 2nd.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: 10
+        units: minute
+      target:
+        value: null
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 0
+        max: '0'
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 1d6
+            - lightning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      school: evo
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+      materials:
+        value: a piece of metal once used in a lightning rod
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: true
+      scaling:
+        mode: none
+        formula: ''
+      attunement: null
+    _key: '!actors.items!ReoRzBWDUQxazFJz.uRTQTomMVayNxGpr'
+  - _id: nC1OGCpyAeBYNfwN
+    name: Electrocute
+    type: spell
+    img: icons/magic/lightning/bolt-strike-embers-teal.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          value: null
+          type: String
+        critDamage:
+          value: ''
+          type: String
+        quickDesc:
+          value: true
+          altValue: true
+          type: Boolean
+        quickProperties:
+          value: true
+          altValue: true
+          type: Boolean
+        quickVersatile:
+          value: false
+          altValue: false
+          type: Boolean
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+          type: Boolean
+        quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickAttack:
+          value: true
+          altValue: true
+          type: Boolean
+        quickSave:
+          value: true
+          altValue: true
+          type: Boolean
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+          type: Array
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.mMEzf4hsKDOAtc3z
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p>A massive arc of lightning leaps from your hand to a target you can
+          see within range. The target must make a Constitution saving throw. On
+          a failed save, the target takes [[/damage 4d12 lightning]] damage and
+          is stunned until the start of your next turn. On a successful save,
+          the target takes half as much damage and isn't stunned.</p>
+
+          <p><em><strong>At Higher Levels.</strong></em> When you cast this
+          spell using a spell slot of 4th level or higher, the damage increases
+          by [[/r 1d12]] for each slot level above 3rd.</p>
+        chat: ''
+        unidentified: ''
+      source: Kibbles' Generic Elemental Spells
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: 3
+        max: '3'
+        per: lr
+      consume:
+        type: charges
+        target: nC1OGCpyAeBYNfwN
+        amount: 1
+      ability: ''
+      actionType: save
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: null
+      damage:
+        parts:
+          - - 4d12
+            - lightning
+        versatile: ''
+      formula: ''
+      save:
+        ability: con
+        dc: null
+        scaling: spell
+      level: 3
+      school: evo
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d12
+      attunement: null
+    _key: '!actors.items!ReoRzBWDUQxazFJz.nC1OGCpyAeBYNfwN'
+  - _id: kq4gL1HEtykPxd4A
+    name: Jumping Jolt
+    type: spell
+    img: icons/magic/lightning/bolt-strike-creature-pink.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        critRange:
+          value: null
+          type: String
+        critDamage:
+          value: ''
+          type: String
+        quickDesc:
+          value: true
+          altValue: true
+          type: Boolean
+        quickProperties:
+          value: true
+          altValue: true
+          type: Boolean
+        quickVersatile:
+          value: false
+          altValue: false
+          type: Boolean
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+          type: Boolean
+        quickFlavor:
+          value: true
+          altValue: true
+          type: Boolean
+        quickCharges:
+          value:
+            use: false
+            resource: true
+          altValue:
+            use: false
+            resource: true
+          type: Boolean
+        quickAttack:
+          value: true
+          altValue: true
+          type: Boolean
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+          type: Array
+        quickSave:
+          type: Boolean
+          value: true
+          altValue: true
+        quickTemplate:
+          type: Boolean
+          value: true
+          altValue: true
+        quickPrompt:
+          type: Boolean
+          value: false
+          altValue: false
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.B623w6gg5mtRVMIO
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      6krcfu4V2rVq3RWy: 3
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p>You release an arc of lighting at a creature within range. Make a
+          ranged spell attack roll against the target. On hit, the target takes
+          [[/damage 4d12 lightning]] damage, and you can cause the spell to jump
+          to another target within 20 feet of the first target making a new
+          attack roll for each target. The spell cannot hit the same target
+          twice, or jump to a target out of the spells range. The spell can jump
+          a maximum of five times.</p>
+
+          <p>On a miss, the target takes half as much damage and the spell does
+          not jump to a new target.</p>
+
+          <p><em><strong>At Higher Levels.</strong></em> When you cast this
+          spell using a spell slot of 5th level or higher, the starting damage
+          increases by [[/r 1d12]] for each slot level above 4th.</p>
+        chat: ''
+        unidentified: ''
+      source: Kibbles' Generic Elemental Spells
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: 3
+        max: '3'
+        per: lr
+      consume:
+        type: charges
+        target: kq4gL1HEtykPxd4A
+        amount: 1
+      ability: ''
+      actionType: rwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 4d12
+            - lightning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 4
+      school: evo
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: false
+        ritual: false
+        concentration: false
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d12
+      attunement: null
+    _key: '!actors.items!ReoRzBWDUQxazFJz.kq4gL1HEtykPxd4A'
+  - _id: zDVvAkr1JiMccKBd
+    name: Lightning Bolt
+    type: spell
+    img: icons/magic/lightning/bolt-forked-large-blue.webp
+    effects: []
+    folder: null
+    sort: 100001
+    flags:
+      core: {}
+      betterRolls5e:
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickOther:
+          context: ''
+          value: true
+          altValue: true
+        quickDesc:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickTemplate:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.dnd5e.spells.IyikgTEOTv701jgQ
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p>A stroke of lightning forming a line 100 feet long and 5 feet wide
+          blasts out from you in a direction you choose. Each creature in the
+          line must make a Dexterity saving throw. A creature takes 8d6
+          lightning damage on a failed save, or half as much damage on a
+          successful one.</p><p>The lightning ignites flammable objects in the
+          area that aren't being worn or carried.</p><p><strong>At Higher
+          Levels.</strong> When you cast this spell using a spell slot of 4th
+          level or higher, the damage increases by 1d6 for each slot level above
+          3rd.</p>
+        chat: ''
+        unidentified: ''
+      source: PHB pg. 255
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 100
+        width: null
+        units: ft
+        type: line
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 3
+        max: '3'
+        per: lr
+      consume:
+        type: charges
+        target: zDVvAkr1JiMccKBd
+        amount: 1
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 8d6
+            - lightning
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 0
+        scaling: spell
+      level: 3
+      school: evo
+      components:
+        value: ''
+        vocal: true
+        somatic: true
+        material: true
+        ritual: false
+        concentration: false
+      materials:
+        value: A bit of fur and a rod of amber, crystal, or glass
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: true
+      scaling:
+        mode: level
+        formula: 1d6
+      attunement: null
+    _key: '!actors.items!ReoRzBWDUQxazFJz.zDVvAkr1JiMccKBd'
+  - _id: hJqIzwYnuQpiDaiW
+    name: Unstable Trajectories
+    type: feat
+    img: icons/magic/air/wind-swirl-pink-purple.webp
+    effects: []
+    folder: null
+    sort: 100000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Unstable Trajectories.</strong> If the destroyer has used
+          its Gravity Surge since the start of its last turn, all ranged weapon
+          attacks originating more than 30 feet away from the destroyer that
+          pass within 30 feet of the destroyer are made with disadvantage.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.hJqIzwYnuQpiDaiW'
+  - _id: OBRwcmrlaNoABQiO
+    name: Weak Point
+    type: feat
+    img: icons/skills/targeting/target-glowing-yellow.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: Additional Damage to Destroyer
+        quickFlavor:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Weak Point.</strong> When a creature within 10 feet of the
+          destroyer makes an attack against it, the creature can target its
+          power core. On a hit, the attack deals an extra 4 ([[/r 1d8]]) damage
+          to the destroyer, and the attacker takes [[/damage 1d8 lightning
+          average]] damage from the backlash.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d8
+            - lightning
+        versatile: ''
+      formula: 1d8
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.OBRwcmrlaNoABQiO'
+  - _id: AhX453YlteSPQGNJ
+    name: 'Bloodied: Meltdown'
+    type: feat
+    img: icons/magic/lightning/bolt-strike-explosion-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+          altValue:
+            use: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Meltdown.</strong> When the destroyer becomes bloodied
+          (reduced to less than half of its maximum hit points), it becomes too
+          damaged to contain its massive power core. At the start of each of its
+          turns, it and all creatures within 60 feet of it must make a DC 19
+          Constitution saving throw, taking [[/damage 4d8 lightning average]]
+          damage on a failed save, or half as much damage on a successful one.
+          This is a runaway process that can’t be stopped once started. The
+          third time this would occur, the destroyer is instead reduced to 0 hit
+          points, triggering its Death Burst.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: special
+        cost: 1
+        condition: Destroyer is reduced to half hit points or less.
+      duration:
+        value: 3
+        units: round
+      target:
+        value: 60
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 1
+        max: '1'
+        per: lr
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: con
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 4d8
+            - lightning
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.AhX453YlteSPQGNJ'
+  - _id: 4YCOYkyE11GnSXVK
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
+    effects: []
+    folder: null
+    sort: -200000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.094090din8bu19vk
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Multiattack. </strong>The destroyer makes two attacks: one
+          with its bite and one with its tail. It can use its Swallow instead of
+          its bite, and it can cast a spell in place of either attack.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: 0
+    _key: '!actors.items!ReoRzBWDUQxazFJz.4YCOYkyE11GnSXVK'
+  - _id: Wj7ryKHebzEdEZTD
+    name: Bite
+    type: weapon
+    img: icons/creatures/abilities/mouth-teeth-rows-red.webp
+    effects: []
+    folder: null
+    sort: -100000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><em><strong>Bite.</strong> Melee Weapon Attack:</em> +13 to hit,
+          reach 10 ft., one target. <em>Hit:</em> 27 (3d12 + 8) piercing damage.
+          If the target is a creature, it is grappled (escape DC 18). Until this
+          grapple ends, the target is restrained, and the destroyer can’t bite
+          another target.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 10
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 3d12 + @mod
+            - piercing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: true
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: true
+        lgt: false
+        lod: false
+        mgc: false
+        rch: true
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    _key: '!actors.items!ReoRzBWDUQxazFJz.Wj7ryKHebzEdEZTD'
+  - _id: nX7invOyJA2Exfr2
+    name: Tail
+    type: weapon
+    img: icons/creatures/abilities/tail-swipe-green.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><em><strong>Tail.</strong> Melee Weapon Attack:</em> +10 to hit,
+          reach 10 ft., one target. <em>Hit:</em> 21 ([[/r 3d8 + 8]])
+          bludgeoning damage. It can’t target a creature grappled by its bite
+          with this attack.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 10
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 3d8 + 8
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: true
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: true
+        lgt: false
+        lod: false
+        mgc: false
+        rch: true
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    _key: '!actors.items!ReoRzBWDUQxazFJz.nX7invOyJA2Exfr2'
+  - _id: rxPBgPm7SCmEmv14
+    name: Annihilation Blast
+    type: weapon
+    img: icons/magic/lightning/bolt-beam-strike-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickTemplate:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Annihilation Blast.</strong> The destroyer unleashes a
+          blast of power in a 30-feet cone. Any spell of 7th level or lower in
+          the area ends, and each creature in the area must make a DC 19
+          Dexterity saving throw, taking [[/damage 6d8 lightning average]]
+          damage on a failed save, or half as much damage on a successful one.
+          Structures automatically take maximum damage from this effect.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 30
+        width: null
+        units: ft
+        type: cone
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: con
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 6d8
+            - lightning
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    _key: '!actors.items!ReoRzBWDUQxazFJz.rxPBgPm7SCmEmv14'
+  - _id: pOj2qorJFgB1Jhky
+    name: Swallow
+    type: feat
+    img: icons/creatures/abilities/mouth-teeth-sharp.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+            '1': Start of turn
+          value:
+            '0': true
+            '1': true
+          altValue:
+            '0': true
+            '1': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Swallow. </strong>The destroyer makes one bite attack
+          against a Medium or smaller creature it is grappling. If the attack
+          hits, the target takes the bite’s damage, the target is swallowed, and
+          the grapple ends. While swallowed, the creature is blinded and
+          restrained, it has total cover against attacks and other effects
+          outside the destroyer, and it takes [[/damage 5d8 lightning average]]
+          damage at the start of each of the destroyer’s turns. If this damage
+          kills the target, it is reduced to fine ash.</p>
+
+          <p>If the destroyer takes 30 damage or more on a single turn from a
+          creature inside it, the destroyer must succeed on a DC 21 Constitution
+          saving throw at the end of that turn or regurgitate all swallowed
+          creatures, which fall prone in a space within 10 feet of the
+          destroyer. If the destroyer dies, a swallowed creature is no longer
+          restrained by it and can escape from the corpse by using 30 feet of
+          movement, exiting prone.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: Creature that is grappling with its mouth.
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: 10
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 3d12 + 8
+            - piercing
+          - - 5d8
+            - lightning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.pOj2qorJFgB1Jhky'
+  - _id: sfBot6GIMLusbIEE
+    name: 'Legendary Action: Lighting Power'
+    type: feat
+    img: icons/magic/lightning/bolt-forked-large-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Lightning Power.</strong> The destroyer casts one of its at
+          will spells.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 1
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.sfBot6GIMLusbIEE'
+  - _id: CALdAxw1egaWEVdF
+    name: 'Legendary Action: Move'
+    type: feat
+    img: icons/skills/movement/feet-winged-boots-glowing-yellow.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Move.</strong> The destroyer moves up to half its
+          speed.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 1
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.CALdAxw1egaWEVdF'
+  - _id: igKXJbNnumJhUBJL
+    name: 'Legendary Action: Tail Attack'
+    type: feat
+    img: icons/creatures/abilities/tail-swipe-green.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Tail Attack.</strong> The destroyer makes one tail
+          attack.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 10
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 1
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!ReoRzBWDUQxazFJz.igKXJbNnumJhUBJL'
+effects: []
+folder: RgLgSAM7fPsrV84e
+sort: 150000
+flags:
+  core: {}
+system:
+  abilities:
+    str:
+      value: 26
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 10
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 22
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 14
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 14
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 8
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+  attributes:
+    ac:
+      flat: null
+      calc: custom
+      formula: '18'
+    hp:
+      value: 187
+      min: 0
+      max: 187
+      temp: 0
+      tempmax: 0
+      formula: 15d12 + 90
+    init:
+      value: 0
+      bonus: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 40
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 120
+      blindsight: 60
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: ''
+    spellcasting: con
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: ''
+    race: ''
+    type:
+      value: construct
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 13
+    spellLevel: 0
+    xp:
+      value: 10
+    source:
+      book: KCCC
+      custom: ''
+  traits:
+    size: huge
+    di:
+      value:
+        - poison
+        - psychic
+      custom: ''
+    dr:
+      value:
+        - lightning
+      custom: >-
+        bludgeoning, piercing, and slashing from nonmagical attacks that aren’t
+        adamantine
+    dv:
+      value: []
+      custom: ''
+    ci:
+      value:
+        - charmed
+        - exhaustion
+        - frightened
+        - petrified
+        - poisoned
+      custom: ''
+    languages:
+      value: []
+      custom: understands the languages of its creator but can’t speak
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 1
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 3
+      max: 3
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: 0
+  source:
+    rules: '2014'
+ownership:
+  default: 0
+prototypeToken:
+  name: Unearthed Destroyer
+  displayName: 40
+  actorLink: false
+  width: 3
+  height: 3
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  disposition: -1
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  flags:
+    splatter:
+      bloodColor: ''
+  randomImg: false
+  texture:
+    src: >-
+      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/UnearthedDestroyer.png
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+    color: null
+  appendNumber: false
+  prependAdjective: false
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Actor.YJUtN3CXGg5n3EBf
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!ReoRzBWDUQxazFJz'

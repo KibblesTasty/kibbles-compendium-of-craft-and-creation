@@ -1,0 +1,214 @@
+name: Glyph Of Fire
+type: spell
+img: icons/magic/symbols/mask-yellow-orange.webp
+system:
+  description:
+    value: >-
+      <p>You draw an ethereal mark in the air at a point within range.</p><p>Any
+      creature that starts their turn within 5 feet of this glyph takes
+      [[/damage 1 fire]] damage. As an action, you can force all creatures
+      within 15 feet of this glyph to make a Dexterity saving throw, taking
+      [[/damage 3d6 fire]] damage on failure, or half as much on success. After
+      using this action, the spell ends.</p><p>You can end the spell early by
+      deactivating it with a bonus action.</p><p></p>
+    chat: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  level: 1
+  school: evo
+  activation:
+    condition: ''
+    cost: 1
+    type: bonus
+  duration:
+    units: minute
+    value: '1'
+  range:
+    units: ft
+    value: 5
+    long: null
+    special: ''
+  source:
+    custom: ''
+    book: KCCC
+    page: ''
+    license: ''
+    rules: '2014'
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+    affects:
+      type: ''
+    template:
+      type: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: save
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 3d6
+        - fire
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  summons: null
+  properties:
+    - somatic
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  activities:
+    YPf5AAELcwNumBxv:
+      type: utility
+      name: Create Glyph
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+      _id: YPf5AAELcwNumBxv
+    jeon1qSMWa6IxvrN:
+      type: save
+      name: Detonate
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '15'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: '6'
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: ''
+        onSave: half
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      _id: jeon1qSMWa6IxvrN
+      img: ''
+      appliedEffects: []
+folder: W6XLqLAP7CJCppah
+flags:
+  dnd5e:
+    migratedProperties:
+      - somatic
+    riders:
+      activity: []
+      effect: []
+_id: iM8WFk6D6dfLQYDT
+effects: []
+sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: 1721845367376
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!iM8WFk6D6dfLQYDT'

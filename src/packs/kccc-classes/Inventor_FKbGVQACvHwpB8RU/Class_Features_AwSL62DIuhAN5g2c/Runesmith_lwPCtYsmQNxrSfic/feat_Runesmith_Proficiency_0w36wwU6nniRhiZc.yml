@@ -1,0 +1,69 @@
+name: Runesmith Proficiency
+type: feat
+img: icons/tools/scribal/ink-quill-pink.webp
+effects: []
+folder: lwPCtYsmQNxrSfic
+sort: 0
+flags:
+  core: {}
+_id: 0w36wwU6nniRhiZc
+system:
+  description:
+    value: >-
+      <p>When you choose this specialization at 1st level, you gain proficiency
+      with martial weapons as well as smith's tools or calligrapher's supplies
+      (based on your preferred method of marking runes). You learn one
+      additional exotic language of your choice.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Runesmith 1
+  identifier: runesmith-proficiency
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+  advancement:
+    - type: Trait
+      _id: oLdJCJNIUkocECFL
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:art:calligrapher
+              - tool:art:smith
+          - count: 1
+            pool:
+              - languages:exotic:*
+        grants:
+          - weapon:mar
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.mJVDxUSUgQgDDb8w
+  duplicateSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.0
+  createdTime: 1726385665008
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!0w36wwU6nniRhiZc'

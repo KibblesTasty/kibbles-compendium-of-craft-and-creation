@@ -1,0 +1,57 @@
+name: Vivisection
+type: feat
+img: icons/skills/wounds/injury-pain-body-orange.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 374610
+flags:
+  core: {}
+_id: O8z5ETNNTvkQwPaX
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Perfection of Mind)</em></p>
+
+      <p>When dissecting a creature using an Intelligence (Medicine) check
+      granted by Perfection of Mind, if the creature’s remaining hit points are
+      lower than the result of your Intelligence (Medicine) check, you can
+      choose to vivisect the creature, killing it instantly instead of dealing
+      damage.</p>
+
+      <p>If you kill a creature in this manner, you have advantage on a Medicine
+      check to harvest organs, ingredients, or other items from it.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 11
+  prerequisites:
+    level: 11
+    items:
+      - thesis-of-flesh-perfection-of-mind
+  identifier: vivisection
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.XD4XbuZMheC5JX7e
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385695546
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!O8z5ETNNTvkQwPaX'

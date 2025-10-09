@@ -1,0 +1,54 @@
+_id: 61ii2N5IrVmuASJQ
+name: Structural Constitution
+type: feat
+img: icons/commodities/tech/frame-steel.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: -62500
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You have reinforced your golem with layers of protection and redundant
+      systems. Your golem’s Constitution score increases by 2, increasing its
+      stability and durability. If this upgrade increases the golem’s
+      Constitution to 16 or higher, it gains proficiency in Constitution saving
+      throws; if this upgrade increases its Constitution to 18, it has advantage
+      on death saving throws.</p>
+
+      <p>You can select this upgrade multiple times, but you can’t increase the
+      golem’s Constitution above 18 using this upgrade.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 3
+  prerequisites:
+    level: 3
+  identifier: structural-constitution
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.PASAYuEaR96uDnX8
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385668883
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!61ii2N5IrVmuASJQ'

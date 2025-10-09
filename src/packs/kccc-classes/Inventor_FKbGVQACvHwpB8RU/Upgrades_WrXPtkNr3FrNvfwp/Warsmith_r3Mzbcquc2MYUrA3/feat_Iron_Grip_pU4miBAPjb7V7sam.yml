@@ -1,0 +1,59 @@
+name: Iron Grip
+type: feat
+img: icons/equipment/hand/gauntlet-cuffed-steel-grey.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 118360
+flags:
+  core: {}
+_id: pU4miBAPjb7V7sam
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Iron Muscle; incompatible with Integrated
+      Attack)</em></p>
+
+      <p>You improve your grip strength and control of one of your gauntlets
+      beyond the limits of flesh. While wearing your suit, you gain the
+      following benefits:</p>
+
+      <p>You can wield Large-sized weapons without a penalty as a Medium-sized
+      creature.</p>
+
+      <p>You can wield two-handed or versatile weapons in one hand and still
+      treat them as if wielded with two.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith 15
+  prerequisites:
+    level: 15
+    items:
+      - iron-muscle
+  identifier: iron-grip
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.CqiaXgp6PNhKE9n6
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385712610
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!pU4miBAPjb7V7sam'

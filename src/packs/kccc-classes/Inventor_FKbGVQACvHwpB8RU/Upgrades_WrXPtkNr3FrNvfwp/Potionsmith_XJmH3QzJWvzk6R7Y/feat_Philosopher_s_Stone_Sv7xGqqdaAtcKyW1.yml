@@ -1,0 +1,62 @@
+_id: Sv7xGqqdaAtcKyW1
+name: Philosopher’s Stone
+type: feat
+img: icons/commodities/gems/gem-oval-red.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: -120312
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You create a Philosopher’s Stone, allowing you to recreate wonders of
+      alchemy. As long as you have a supply of non-gold metal, you can create up
+      to 1 pound of gold each day (50 gp worth). Additionally, the Philosopher’s
+      Stone can be used in place of a diamond worth up to 500 gp for a spell’s
+      material component; it isn’t consumed when used in this way, but it
+      becomes inert for 24 hours, providing no benefits.</p>
+
+      <p>You can brew a special potion using your Philosopher’s Stone called an
+      Elixir of Life. Brewing this potion takes 8 hours and requires crushing a
+      diamond worth at least 2,000 gp into it. An Elixir of Life causes a
+      creature that drinks it to cease aging for 4d4 years. A creature that
+      drinks this elixir also gains the effect of a death ward spell, which
+      lasts until it is triggered, instead of 8 hours.</p>
+
+      <p>A more potent Elixir of Life can be created, increasing the number of
+      years that the creature ceases aging by 1d4 for each additional diamond
+      spent.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 15
+  prerequisites:
+    level: 15
+  identifier: philosophers-stone
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.EFvyk8FUFKiStsRR
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385698711
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!Sv7xGqqdaAtcKyW1'

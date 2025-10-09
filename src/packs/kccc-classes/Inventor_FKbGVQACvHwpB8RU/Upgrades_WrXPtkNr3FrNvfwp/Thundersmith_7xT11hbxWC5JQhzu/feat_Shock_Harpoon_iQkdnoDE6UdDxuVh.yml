@@ -1,0 +1,59 @@
+_id: iQkdnoDE6UdDxuVh
+name: Shock Harpoon
+type: feat
+img: icons/magic/lightning/bolts-strike-salvo-blue.webp
+effects: []
+folder: 7xT11hbxWC5JQhzu
+sort: -12500
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Harpoon Reel)</em></p>
+
+      <p>After hitting a creature with the Harpoon fire mode, you can use a
+      bonus action to deliver a shock. If you have not dealt Thundermonger
+      damage since the start of your turn, you can deal damage equal to your
+      Thundermonger bonus damage as lightning damage. This counts as discharging
+      your Thundermonger damage. Additionally, the target must make a
+      Constitution saving throw against your spell save DC or be stunned until
+      the end of its next turn.</p>
+
+      <p>Once used, the Harpoon must be reeled in before this can be used
+      again.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Thundersmith 9
+  prerequisites:
+    level: 9
+    items:
+      - harpoon-reel
+  identifier: shock-harpoon
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.vYHZPWVonHdQT8cc
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385708172
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!iQkdnoDE6UdDxuVh'

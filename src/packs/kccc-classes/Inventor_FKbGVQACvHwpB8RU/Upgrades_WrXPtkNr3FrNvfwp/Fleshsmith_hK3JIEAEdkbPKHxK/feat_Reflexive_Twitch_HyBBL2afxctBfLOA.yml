@@ -1,0 +1,53 @@
+name: Reflexive Twitch
+type: feat
+img: icons/creatures/claws/claw-talons-glowing-orange.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 37500
+flags:
+  core: {}
+_id: HyBBL2afxctBfLOA
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Extra Arm)</em></p>
+
+      <p>When you take damage from a target within 5 feet of you, you can use
+      your reaction to reflexively attack them with your Extra Arm. This attack
+      doesn’t add your Strength or Dexterity modifier to damage dealt, unless
+      that modifier is negative.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 3
+  prerequisites:
+    level: 3
+    items:
+      - fleshcrafted-mutation-extra-arm
+  identifier: reflexive-twitch
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.CH7oW1G5kwHEj7Kg
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385691144
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!HyBBL2afxctBfLOA'

@@ -1,0 +1,55 @@
+_id: 6Z7SUp6g4UO0qEt6
+name: Empowered Strike
+type: feat
+img: icons/weapons/axes/axe-broad-energy-pink.webp
+effects: []
+folder: snJgRU6pIt9nIVxY
+sort: -25000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>Once per turn, as part of making a weapon attack as part of the Attack
+      action, you can empower a melee weapon you are holding with psionic power.
+      When you hit a creature with a weapon, you can apply Elemental Blast or
+      Telekinetic Force modifiers (you can only select a power you know) to the
+      attack (you can use Psionic Mastery on this). This doesn’t deal the base
+      damage of the power, but any added damage causes the additional effects of
+      the power to occur.</p><p>When applying a modifier that would make it
+      target an area of effect, only the target takes the weapon damage, but
+      other creatures in the radius become a target of the attack as if using
+      the power normally.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Psychokinesis or Telekinetics Discipline
+  prerequisites:
+    level: 1
+  identifier: empowered-strike
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.CmegesusEOvHaI5m
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385669191
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!6Z7SUp6g4UO0qEt6'

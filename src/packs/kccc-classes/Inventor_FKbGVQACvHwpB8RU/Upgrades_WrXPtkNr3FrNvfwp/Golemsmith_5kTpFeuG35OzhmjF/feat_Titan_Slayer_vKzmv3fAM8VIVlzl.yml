@@ -1,0 +1,50 @@
+_id: vKzmv3fAM8VIVlzl
+name: Titan Slayer
+type: feat
+img: icons/weapons/polearms/spear-hooked-broad.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: 200000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You build into your golem one oversized weapon. This weapon can be a
+      martial melee weapon or an improved version of any natural weapon the
+      golem has. The weapon’s base damage dice are doubled—from 1d8 to 2d8, for
+      example. The golem can only attack with this oversized weapon once per
+      turn (making any additional attacks it can make using other weapons).</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 15
+  prerequisites:
+    level: 15
+  identifier: titan-slayer
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.oKHW0aGLo5txmBus
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385716681
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!vKzmv3fAM8VIVlzl'

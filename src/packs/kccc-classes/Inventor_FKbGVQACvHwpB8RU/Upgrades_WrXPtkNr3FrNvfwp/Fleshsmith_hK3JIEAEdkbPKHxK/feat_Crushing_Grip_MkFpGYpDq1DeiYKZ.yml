@@ -1,0 +1,45 @@
+name: Crushing Grip
+type: feat
+img: icons/creatures/claws/claw-hooked-barbed.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 0
+flags:
+  core: {}
+_id: MkFpGYpDq1DeiYKZ
+system:
+  description:
+    value: "<p>You don’t let things go once you have them in your grip. Creatures that are grappled or restrained by you have disadvantage on attempts to escape the condition.\_</p>\n<p>Additionally, you can choose to apply damage equal to your Strength modifier to any creature that starts its turn grappled or restrained by you.</p>"
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Fleshsmith 3
+  prerequisites:
+    level: 3
+  identifier: crushing-grip
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.9VuHCbucvyvgaU8g
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385694498
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!MkFpGYpDq1DeiYKZ'

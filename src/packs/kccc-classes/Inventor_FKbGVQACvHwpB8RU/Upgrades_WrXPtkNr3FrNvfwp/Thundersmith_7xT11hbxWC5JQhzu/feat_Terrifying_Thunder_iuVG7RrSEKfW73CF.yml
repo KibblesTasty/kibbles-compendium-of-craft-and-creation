@@ -1,0 +1,59 @@
+_id: iuVG7RrSEKfW73CF
+name: Terrifying Thunder
+type: feat
+img: icons/magic/sonic/bell-alarm-red-purple.webp
+effects: []
+folder: 7xT11hbxWC5JQhzu
+sort: -150000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Echoing Boom)</em></p>
+
+      <p>You add an additional amplifier to maximize the shock and awe value of
+      your Stormforged Weapon. The first time a target takes damage from
+      Thundermonger, they are deafened until the end of their next turn.</p>
+
+      <p>Additionally, they must make a Wisdom saving throw against your spell
+      save DC or become frightened of you for one minute. They can repeat this
+      saving throw at the end of each of their turns.</p>
+
+      <p>On a successful saving throw, the creature is immune to Terrifying
+      Thunder for 24 hours.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Thundersmith 5, Echoing Boom
+  prerequisites:
+    level: 5
+    items:
+      - echoing-boom
+  identifier: terrifying-thunder
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.Je6RoPp59KwFcOzZ
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385708339
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!iuVG7RrSEKfW73CF'

@@ -1,0 +1,107 @@
+name: Self-Repair Matrix
+type: feat
+img: icons/magic/life/crosses-trio-red.webp
+effects: []
+folder: r3Mzbcquc2MYUrA3
+sort: 118604
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: 8o0gvnnclqBT67De
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Piloted Golem)</em></p>
+
+      <p>At the start of each of your turn you gain temporary hit points equal
+      to your proficiency bonus.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Warsmith Piloted Golem
+  identifier: self-repair-matrix
+  activities:
+    pehrARKrXK6vrWP4:
+      type: heal
+      _id: pehrARKrXK6vrWP4
+      sort: 0
+      activation:
+        type: turnStart
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+        bonus: '@prof'
+      name: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  prerequisites:
+    level: null
+    items:
+      - piloted-golem
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.wKp1WHBAyyuLA33N
+  duplicateSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1726385673078
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!8o0gvnnclqBT67De'

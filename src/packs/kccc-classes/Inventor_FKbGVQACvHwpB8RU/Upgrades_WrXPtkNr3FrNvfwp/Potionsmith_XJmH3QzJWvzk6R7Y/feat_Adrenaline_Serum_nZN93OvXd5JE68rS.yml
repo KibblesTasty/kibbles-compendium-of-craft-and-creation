@@ -1,0 +1,54 @@
+_id: nZN93OvXd5JE68rS
+name: Adrenaline Serum
+type: feat
+img: icons/consumables/potions/potion-tube-corked-glowing-red.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: -118750
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You learn to create a potent serum. As a bonus action, you can consume
+      a dose of this serum, increasing your Strength and Dexterity modifiers by
+      an amount equal to your Intelligence modifier (up to a maximum of +5) for
+      a number of rounds equal to your Constitution modifier (minimum of 1),
+      after which all effects of the serum fade at the start of your next turn.
+      While you are under the effect of this serum, you also gain the benefits
+      of the heroism spell. When these effects end, your speed is halved and you
+      can’t benefit from your Adrenaline Serum again until the start of your
+      next turn.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 5
+  prerequisites:
+    level: 5
+  identifier: adrenaline-serum
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.cT2bvaYD647CBwYJ
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385711321
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!nZN93OvXd5JE68rS'

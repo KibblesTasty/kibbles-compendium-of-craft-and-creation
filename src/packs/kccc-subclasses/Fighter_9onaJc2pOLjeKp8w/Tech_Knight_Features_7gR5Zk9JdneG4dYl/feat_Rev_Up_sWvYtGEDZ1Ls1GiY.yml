@@ -1,0 +1,61 @@
+folder: 7gR5Zk9JdneG4dYl
+name: Rev Up
+type: feat
+_id: sWvYtGEDZ1Ls1GiY
+img: icons/commodities/tech/dial-meter-gauge-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '@abilities.int.mod'
+  description:
+    value: >-
+      <p>When hit an attack with your Brutal Invention, you can overcharge with
+      an effect based on your Brutal Invention selection, granting it an
+      additional benefit: </p><ul><li><p><strong>Reckless Power
+      (Chainblade):</strong> The weapon’s damage dice become d6’s for that
+      attack (including the special property if activated).
+      </p></li><li><p><strong>Excessive Force (Ramming Gauntlet):</strong> The
+      target is knocked 10 feet backwards.</p></li><li><p><strong>Full Auto
+      (Repeating Hand Crossbow):</strong> You immediately make a single
+      additional attack as part of the same action, making the attack with
+      disadvantage; this disadvantage can’t be canceled out.
+      </p></li><li><p><strong>Hypervelocity (Ricocheting Weapon):</strong> The
+      weapon can target creatures within 20 feet of each other, and it can
+      bounce to an additional target.</p></li><li><p><strong>Overcharge
+      (Transforming Weapon):</strong> You deal an extra 2d4 lightning damage.
+      </p></li></ul><p>You can use this ability a number of times equal to your
+      Intelligence modifier (minimum 1), regaining all uses on a short or long
+      rest.</p>
+    chat: ''
+  identifier: rev-up
+  source:
+    revision: 1
+    rules: '2014'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  createdTime: 1727196561423
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!sWvYtGEDZ1Ls1GiY'

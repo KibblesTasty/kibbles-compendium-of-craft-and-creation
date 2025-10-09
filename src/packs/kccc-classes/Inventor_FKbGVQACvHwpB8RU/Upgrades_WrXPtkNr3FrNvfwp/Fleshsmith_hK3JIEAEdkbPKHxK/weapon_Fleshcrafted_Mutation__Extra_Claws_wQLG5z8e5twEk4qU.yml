@@ -1,0 +1,146 @@
+name: 'Fleshcrafted Mutation: Extra Claws'
+type: weapon
+img: icons/creatures/claws/claw-talons-glowing-orange.webp
+effects: []
+folder: hK3JIEAEdkbPKHxK
+sort: 1100000
+flags:
+  core: {}
+_id: wQLG5z8e5twEk4qU
+system:
+  description:
+    value: >-
+      <p>You gain a natural weapon that deals 1d8 slashing damage, and counts as
+      a light finesse weapon. You have proficiency with this weapon, and are
+      considered to be holding this weapon in one hand for the purposes of
+      attacking.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
+  equipped: false
+  rarity: common
+  identified: true
+  cover: null
+  crewed: false
+  range:
+    value: null
+    long: null
+    units: ft
+    reach: null
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  damage:
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 8
+      bonus: ''
+      types:
+        - slashing
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  properties:
+    - fin
+    - lgt
+  proficient: 1
+  identifier: fleshcrafted-mutation-extra-claws
+  unidentified:
+    description: ''
+  type:
+    value: simpleM
+    baseItem: ''
+  activities:
+    Fp07t1QzxblrA2W2:
+      _id: Fp07t1QzxblrA2W2
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  container: null
+  attuned: false
+  ammunition: {}
+  magicalBonus: null
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.hlUPqBVsAV476Cel
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385717505
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!wQLG5z8e5twEk4qU'

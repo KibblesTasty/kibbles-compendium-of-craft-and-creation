@@ -1,0 +1,50 @@
+_id: ZnZPwvBg9HyunI4R
+name: Animated Projections
+type: feat
+img: icons/skills/ranged/arrows-flying-salvo-yellow.webp
+effects: []
+folder: VTrXUjfUT9y2HoPS
+sort: 100000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You learn to project a swarm of ethereal objects. As an action, you can
+      expend 5 psi points to cast
+      @Compendium[dnd5e.spells.ATo0Eb63TDtnu6iA]{Animate Objects}. When cast in
+      this way, the spell creates new ethereal objects rather than animating
+      existing ones.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Projection 10
+  prerequisites:
+    level: 10
+  identifier: animated-projections
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.PCRrObmfMcyGVs9k
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385703271
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!ZnZPwvBg9HyunI4R'

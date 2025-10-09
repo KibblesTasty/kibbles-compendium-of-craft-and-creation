@@ -1,0 +1,52 @@
+name: Reckless Flare
+type: feat
+img: icons/magic/lightning/orb-ball-purple.webp
+effects: []
+folder: vVVqOSKX5M9roJKu
+sort: -3320
+flags:
+  core: {}
+_id: A6NMRL82zWzceqgb
+system:
+  description:
+    value: >-
+      <p>As an action, you flare all of your marked runes and glyphs of your
+      choice, causing their active effects to take place. Once you use this
+      ability, you can’t use the active effect of a rune flared in this way
+      again for 1 minute.</p>
+
+      <p>You can’t use this ability again once used until you finish a long
+      rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Runesmith 15
+  prerequisites:
+    level: 15
+  identifier: reckless-flare
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.g1nFI5YjPgzRzVmW
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385673855
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!A6NMRL82zWzceqgb'

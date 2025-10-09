@@ -1,0 +1,49 @@
+name: Inscribed Prayer
+type: feat
+img: icons/magic/symbols/rune-sigil-red-orange.webp
+effects: []
+folder: 6RbJFAVpFkze0lLy
+sort: 196875
+flags:
+  core: {}
+_id: sfkdL8kqCn54ppb1
+system:
+  description:
+    value: >-
+      <p>During a long rest, you can inscribe a special divine scripture. This
+      serves as a scroll of @Compendium[dnd5e.spells.34ddoYIrnOZ2GFYi]{Mass
+      Healing Word}. You can use this scroll without an ability check. This
+      scroll lasts until used or until you create another divine scripture.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Relicsmith 9
+  prerequisites:
+    level: 9
+  identifier: inscribed-prayer
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.GxR8Q5bS8QRoOxt8
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385714973
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!sfkdL8kqCn54ppb1'

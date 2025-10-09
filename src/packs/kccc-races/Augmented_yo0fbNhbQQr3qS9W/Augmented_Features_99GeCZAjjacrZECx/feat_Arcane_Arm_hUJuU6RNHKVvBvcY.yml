@@ -1,0 +1,81 @@
+name: Arcane Arm
+type: feat
+img: icons/equipment/hand/gauntlet-plate-steel-grey.webp
+effects: []
+folder: 99GeCZAjjacrZECx
+sort: 100000
+flags:
+  core: {}
+_id: hUJuU6RNHKVvBvcY
+system:
+  description:
+    value: >-
+      <p><span style="color:#191813;font-size:13px">Your arm is replaced by a
+      mechanical or magical replacement. Your Strength score increases by 1, and
+      it can serve as a natural weapon. It deals 1d6 bludgeoning damage on hit,
+      and counts as a simple weapon with the light property.</span></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  requirements: Augmented
+  recharge:
+    value: null
+    charged: false
+  type:
+    value: race
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  coreVersion: '13.350'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.xWq56n06OSqriMVS
+  duplicateSource: null
+  exportSource: null
+_key: '!items!hUJuU6RNHKVvBvcY'

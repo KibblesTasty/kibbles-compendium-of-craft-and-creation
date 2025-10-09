@@ -1,0 +1,69 @@
+_id: GUzolWpYyhvrkfQg
+name: Primordial Aspect
+type: feat
+img: icons/magic/fire/elemental-fire-humanoid.webp
+effects: []
+folder: cqjnJoFctQh3NqRf
+sort: 50000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>Additionally at 1st level, as an action or when you deal fire, cold, or
+      lightning damage (no action required), you take on an aspect of that
+      element until the end of your next turn or until you take a new primordial
+      aspect.</p>
+
+      <ul>
+
+      <li><strong>Cold:</strong> You gain an icy shell, reducing any nonmagical
+      bludgeoning, piercing or slashing damage taken by your proficiency
+      bonus.</li>
+
+      <li><strong>Fire:</strong> You gain a fiery aura. Once per turn, a
+      creature within 5 feet that hits you with a melee attack takes fire damage
+      equal to your proficiency bonus.</li>
+
+      <li><strong>Lightning:</strong> You flicker with lightning. Your walking
+      speed is increased by 5 feet for the duration.</li>
+
+      </ul>
+
+      <p>You can additionally spend 1 psi point to gain resistance to the
+      element to the start of your next turn. If you are specialized in an
+      element, you you can do this without spending a psi point for the element
+      you are specialized in.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  requirements: Elemental Mind 1
+  identifier: primordial-aspect
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.ewkp55oX9ZB4AoiP
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385690075
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!GUzolWpYyhvrkfQg'

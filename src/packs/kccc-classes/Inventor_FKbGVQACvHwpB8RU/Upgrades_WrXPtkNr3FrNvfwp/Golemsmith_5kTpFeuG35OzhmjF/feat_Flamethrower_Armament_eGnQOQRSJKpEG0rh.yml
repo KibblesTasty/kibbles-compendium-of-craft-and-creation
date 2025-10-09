@@ -1,0 +1,127 @@
+_id: eGnQOQRSJKpEG0rh
+name: Flamethrower Armament
+type: feat
+img: icons/magic/fire/beam-jet-stream-trails-orange.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: -50000
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+system:
+  description:
+    value: >-
+      <p>You install an armament to your golem, taking whatever form is most
+      appropriate, which is capable of producing powerful flames. As an action,
+      the golem can cast @Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]{Burning
+      Hands} through the armament, without expending a spell slot and requiring
+      no components. The spell save DC is equal to your spell save DC. Once the
+      golem casts the spell in this way, it can’t do so again until you finish a
+      short or long rest.</p>
+
+      <p>When you reach 5th level in this class, the spell is cast as a
+      2nd-level spell, and it increases again when you reach 11th level (as a
+      3rd-level spell) and 17th level (as a 4th-level spell).</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    revision: 1
+    rules: '2014'
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 3
+  prerequisites:
+    level: 3
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: cone
+          size: '15'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 6
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: flamethrower-armament
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.xHMMKQe4FhqZiRf0
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385705540
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!eGnQOQRSJKpEG0rh'

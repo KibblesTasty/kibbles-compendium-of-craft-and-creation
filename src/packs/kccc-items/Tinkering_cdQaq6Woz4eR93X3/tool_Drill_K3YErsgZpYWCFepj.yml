@@ -1,0 +1,97 @@
+folder: cdQaq6Woz4eR93X3
+name: Drill
+type: tool
+_id: K3YErsgZpYWCFepj
+img: icons/commodities/tech/metal-joint.webp
+system:
+  activities:
+    cKcoBWUg7jvY3dQZ:
+      _id: cKcoBWUg7jvY3dQZ
+      type: check
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      check:
+        associated: []
+        dc: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><span class="fontstyle0">Can make holes in things. Can destroy a lock
+      with a DC of 14 or lower to pick or break with 10 minutes of work.</span>
+      <br
+      style="font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px"
+      /></p>
+    chat: ''
+  identifier: drill
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 5
+    denomination: gp
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: ''
+    baseItem: ''
+  ability: ''
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1737920684632
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!K3YErsgZpYWCFepj'

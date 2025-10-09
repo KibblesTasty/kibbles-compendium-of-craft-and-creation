@@ -1,0 +1,129 @@
+name: Form of the Fiend
+type: feat
+img: icons/creatures/unholy/demon-horned-winged-laughing.webp
+effects: []
+folder: OGskAJrRIvNFdWpi
+sort: 1100000
+flags:
+  core: {}
+_id: LWG8gNC0jsuqwwJq
+system:
+  description:
+    value: >-
+      <p>As an action, you can expend a spell slot to assume the form of a fiend
+      from the following list. The transformation lasts for a number of rounds
+      equal to your spellcasting ability modifier + your proficiency bonus and
+      requires your concentration to maintain, as if concentrating on a spell,
+      or until you drop to 0 hit points or die. The new form can be a fiend from
+      the following table based on the level of spell slot spent. Your game
+      statistics, excluding mental ability scores, are replaced by the
+      statistics of the chosen fiend. You retain your alignment and
+      personality.</p>
+
+      <p>You assume the hit points of your new form. When you revert to your
+      normal form, you return to the number of hit points you had before you
+      transformed. If you revert as a result of dropping to 0 hit points, any
+      excess damage carries over to your normal form. As long as the excess
+      damage doesn’t reduce your normal form to 0 hit points, you aren’t knocked
+      unconscious.</p>
+
+      <p>You do not gain any spells the form can cast, legendary actions, or
+      legendary resistances it might have. Your gear melds into the new form.
+      The creature can’t activate, use, wield, or otherwise benefit from any of
+      its equipment.</p>
+
+      <table border="1">
+
+      <tbody>
+
+      <tr>
+
+      <td style="text-align:center"><strong>Spell Slot Level</strong></td>
+
+      <td style="text-align:center"><strong>Fiend Options</strong></td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">1st</td>
+
+      <td style="text-align:center">Imp</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">2nd</td>
+
+      <td style="text-align:center">CR 2 Devil*</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">3rd</td>
+
+      <td style="text-align:center">Bearded Devil</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">4th</td>
+
+      <td style="text-align:center">CR 4 Devil*</td>
+
+      </tr>
+
+      <tr>
+
+      <td style="text-align:center">5th</td>
+
+      <td style="text-align:center">Barbed Devil or CR 5 Devil*</td>
+
+      </tr>
+
+      </tbody>
+
+      </table>
+
+      <blockquote>
+
+      <p>* Consult with your GM for an appropriate devil that exists in your
+      setting for these levels.</p>
+
+      </blockquote>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Cursesmith 3
+  prerequisites:
+    level: 3
+  identifier: form-of-the-fiend
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.uQgqiCIZnRwAVuI6
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385693526
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!LWG8gNC0jsuqwwJq'

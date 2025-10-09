@@ -1,0 +1,2089 @@
+_id: lgIhmGwkKe711lVN
+name: Ancient Sentinel
+type: npc
+img: >-
+  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/AncientSentinel.png
+items:
+  - _id: SCicmaPecxfOhLsj
+    name: Bladed Trunk
+    type: weapon
+    img: icons/skills/melee/blade-tip-orange.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickSave:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><em><strong>Bladed Trunk</strong></em>. <em>Melee Weapon
+          Attack:</em> +14 to hit, reach 10 ft., one target. <em>Hit:</em> 27
+          (3d12 + 8) slashing damage, and the target must succeed on a DC 22
+          Strength saving throw or be pushed up to 10 feet in a direction of the
+          sentinel’s choice.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 10
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 3d12 + @mod
+            - ''
+        versatile: ''
+      formula: ''
+      save:
+        ability: str
+        dc: 22
+        scaling: flat
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: true
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: true
+        lgt: false
+        lod: false
+        mgc: false
+        rch: true
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    _key: '!actors.items!lgIhmGwkKe711lVN.SCicmaPecxfOhLsj'
+  - _id: CnGHl7gvz7TTvv20
+    name: Stomp
+    type: weapon
+    img: icons/magic/earth/strike-stone-stalactite-blood-red.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><em><strong>Stomp</strong>. Melee Weapon Attack:</em> +14 to hit,
+          reach 5 ft., one target. <em>Hit:</em> 27 (3d12 + 8) bludgeoning
+          damage.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: common
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 5
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 3d12 + @mod
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: true
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: true
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    _key: '!actors.items!lgIhmGwkKe711lVN.CnGHl7gvz7TTvv20'
+  - _id: l2g0wY0VfPG0qC7q
+    name: Tentacle
+    type: weapon
+    img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: false
+          altValue: false
+        quickProperties:
+          value: true
+          altValue: true
+        quickVersatile:
+          value: false
+          altValue: false
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            quantity: false
+          altValue:
+            quantity: false
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><em><strong>Tentacle.</strong></em> <em>Melee Weapon Attack:
+          </em>+14 to hit, reach 20 ft., one target. <em>Hit:</em> 18 (3d6 + 8)
+          bludgeoning damage, and the target is grappled (escape DC 16). Until
+          this grapple ends, the target is restrained. The sentinel has four
+          tentacles, each of which can grapple one target.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      quantity: 1
+      weight: 0
+      price: 0
+      attunement: 0
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 20
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 3d6 + @mod
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: true
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: true
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: true
+    _key: '!actors.items!lgIhmGwkKe711lVN.l2g0wY0VfPG0qC7q'
+  - _id: ktc1j5zS1orBh9W8
+    name: Fling
+    type: feat
+    img: icons/magic/movement/trail-streak-impact-blue.webp
+    effects: []
+    folder: null
+    sort: -100000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickAttack:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+        quickSave:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Fling.</strong> One Large or smaller object held or
+          creature grappled by the sentinel is thrown up to 60 feet in a
+          direction of the sentinel’s choice and knocked prone. If a thrown
+          target strikes a solid surface, the target takes 3 (1d6) bludgeoning
+          damage for every 10 feet it was thrown. If the target is thrown at
+          another creature, that creature must succeed on a DC 16 Dexterity
+          saving throw or take the same damage and be knocked prone.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 1
+        condition: Grappled by the sentinel
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: mwak
+      attackBonus: '0'
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d6
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 16
+        scaling: flat
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.ktc1j5zS1orBh9W8'
+  - _id: ez6Un5qfILGDc7d0
+    name: 'Legendary Action: Tentacle Attack or Fling'
+    type: feat
+    img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
+    effects: []
+    folder: null
+    sort: 600000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+            resource: true
+          altValue:
+            use: true
+            resource: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: "<p><strong>Tentacle Attack or Fling.</strong> The sentinel makes one tentacle attack or uses its Fling.\_</p>"
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 1
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.ez6Un5qfILGDc7d0'
+  - _id: fJGKwbe2Zawi6WSG
+    name: 'Legendary Action: Unstoppable Trample'
+    type: feat
+    img: icons/skills/movement/arrow-upward-blue.webp
+    effects: []
+    folder: null
+    sort: 550000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Unstoppable Trample.</strong> The sentinel moves up to half
+          its speed. This movement doesn’t provoke opportunity attacks.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: legendary
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legact.value
+        amount: 1
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.fJGKwbe2Zawi6WSG'
+  - _id: 6TDZipP4Fj99wSde
+    name: Trampling Advance
+    type: feat
+    img: icons/creatures/mammals/ox-bull-horned-glowing-orange.webp
+    effects: []
+    folder: null
+    sort: 500000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Trampling Advance.</strong> Any Large or smaller creature
+          in a space the sentinel passes through must succeed on a DC 16
+          Dexterity saving throw or take 13 (2d12) bludgeoning damage and be
+          knocked prone.</p>
+        chat: ''
+        unidentified: ''
+      source: KCC
+      activation:
+        type: special
+        cost: 0
+        condition: Sentinel enters the space of another creature.
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+      range:
+        value: 0
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 2d12
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: 16
+        scaling: flat
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.6TDZipP4Fj99wSde'
+  - _id: IRx1F9ARi2XUWsf8
+    name: Unstoppable Advance
+    type: feat
+    img: icons/magic/earth/barrier-stone-brown-green.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Unstoppable Advance.</strong> The sentinel’s advance cannot
+          be stopped. If the sentinel’s speed would be reduced to zero, it is
+          reduced to half its speed instead. Any obstacle or building that would
+          stop its advance takes 39 (6d12) bludgeoning damage. The sentinel
+          treats magical barriers that would stop its movement as difficult
+          terrain.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: special
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: object
+      range:
+        value: 5
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 6d12
+            - bludgeoning
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.IRx1F9ARi2XUWsf8'
+  - _id: Z5r8QR8ai8bYpclI
+    name: Immutable Form
+    type: feat
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Immutable Form.</strong> The sentinel is immune to any
+          spell or effect that would alter its form.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.Z5r8QR8ai8bYpclI'
+  - _id: uYUScjhaB8j5lgHU
+    name: Legendary Resistance (3/day)
+    type: feat
+    img: icons/magic/defensive/barrier-shield-dome-pink.webp
+    effects: []
+    folder: null
+    sort: 700000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            resource: true
+          altValue:
+            resource: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Legendary Resistance (3/Day).</strong> If the sentinel
+          fails a saving throw, it can choose to succeed instead.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: special
+        cost: 1
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: attribute
+        target: resources.legres.value
+        amount: 1
+      ability: ''
+      actionType: other
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.uYUScjhaB8j5lgHU'
+  - _id: dHLw3NVSCuNNu3yn
+    name: Magical Resistance
+    type: feat
+    img: icons/magic/defensive/shield-barrier-flaming-diamond-magenta.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Magic Resistance. </strong>The sentinel has advantage on
+          saving throws against spells and other magical effects.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.dHLw3NVSCuNNu3yn'
+  - _id: xuUWcUllnK6xhqrA
+    name: Scale Immunity
+    type: feat
+    img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Scale Immunity.</strong> The sentinel has resistance to the
+          damage of any spell that doesn’t target an area of effect, and it
+          suffers no other conditions or effects from them.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.xuUWcUllnK6xhqrA'
+  - _id: giwM003xyFC1g0db
+    name: Siege Monster
+    type: feat
+    img: icons/magic/earth/laval-stone-orange.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Siege Monster.</strong> The sentinel deals double damage to
+          objects and structures.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.giwM003xyFC1g0db'
+  - _id: pzNnbzV5gQtVNxdj
+    name: Whispering Madness
+    type: feat
+    img: icons/magic/sonic/explosion-shock-sound-wave.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: "<p>Whispering Madness. The sentinel is steeped in eldritch madness. If a creature starts its turn within 5 feet of the sentinel or while grappled by it, the creature must succeed on a DC 16 Wisdom saving throw or take [[/damage 3d6 psychic average]] damage and roll a [[/r d4]], suffering an additional condition until the start of its next turn, as noted in the following table.</p>\n<table style=\"width:100%;height:64px\" border=\"1\">\n<thead>\n<tr style=\"height:16px;background-color:#95a5a6;border-color:#34495e;text-align:center\">\n<td style=\"width:24.5583%;height:16px\">[[/r 1d4]]</td>\n<td style=\"width:75.4417%;height:16px\">Condition</td>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:24.5583%;height:16px\"><strong>1-2</strong></td>\n<td style=\"width:75.4417%;height:16px\">Frightened</td>\n</tr>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:24.5583%;height:16px\"><strong>3</strong></td>\n<td style=\"width:75.4417%;height:16px\">Blinded</td>\n</tr>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:24.5583%;height:16px\"><strong>4</strong></td>\n<td style=\"width:75.4417%;height:16px\">Paralyzed</td>\n</tr>\n</tbody>\n</table>\n<p>\_</p>\n<p>\_</p>"
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: ''
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+      consume:
+        type: ''
+        target: null
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.pzNnbzV5gQtVNxdj'
+  - _id: DZXzh6UbBizGKP3j
+    name: Multiattack
+    type: feat
+    img: icons/skills/melee/blade-tips-double-blue.webp
+    effects: []
+    folder: null
+    sort: -200000
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+        quickFlavor:
+          value: true
+          altValue: true
+      core: {}
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.094090din8bu19vk
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: "<p><strong>Multiattack. </strong>The sentinel makes a bladed trunk attack, a stomp attack, and two tentacle attacks. It can replace each tentacle attack with one use of Fling.\_</p>"
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: action
+        cost: 0
+        condition: ''
+      duration:
+        value: null
+        units: ''
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: ''
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: null
+      actionType: ''
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+      attunement: 0
+    _key: '!actors.items!lgIhmGwkKe711lVN.DZXzh6UbBizGKP3j'
+  - _id: 4dTqRROk2j7F0Qst
+    name: 'Bloodied: Eruption of Corruption'
+    type: feat
+    img: icons/magic/unholy/beam-impact-purple.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      betterRolls5e:
+        quickDesc:
+          value: true
+          altValue: true
+        quickProperties:
+          value: true
+          altValue: true
+        quickOther:
+          value: true
+          altValue: true
+          context: ''
+        quickFlavor:
+          value: true
+          altValue: true
+        quickTemplate:
+          value: true
+          altValue: true
+        quickCharges:
+          value:
+            use: true
+          altValue:
+            use: true
+        quickSave:
+          value: true
+          altValue: true
+        quickDamage:
+          context:
+            '0': ''
+          value:
+            '0': true
+          altValue:
+            '0': true
+    _stats:
+      coreVersion: '13.344'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+      ZltBRX3qCs8ZDdsL: 3
+    system:
+      description:
+        value: >-
+          <p><strong>Eruption of Corruption.</strong> If the sentinel is
+          bloodied (reduced to less than half of its maximum hit points), it
+          unleashes a psionic blast immediately (no action required), violently
+          discharging the eldritch corruption within it. All creatures within 60
+          feet of it must make a DC 16 Intelligence saving throw. On failed
+          save, a creature takes [[/damage 6d6 psychic average]] damage and
+          becomes stunned until the end of its next turn. On successful save,
+          the creature takes half as much damage and isn’t stunned. The range of
+          Whispering Madness then increases to 60 feet until the sentinel dies
+          or recovers hit points above half its maximum.</p>
+        chat: ''
+        unidentified: ''
+      source: ''
+      activation:
+        type: special
+        cost: 1
+        condition: The sentinel is reduced to half of its hit points.
+      duration:
+        value: null
+        units: inst
+      target:
+        value: 60
+        width: null
+        units: ft
+        type: radius
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: 1
+        max: '1'
+        per: lr
+      consume:
+        type: ''
+        target: ''
+        amount: null
+      ability: ''
+      actionType: save
+      attackBonus: 0
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 6d6
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: int
+        dc: 16
+        scaling: flat
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _key: '!actors.items!lgIhmGwkKe711lVN.4dTqRROk2j7F0Qst'
+effects: []
+folder: RgLgSAM7fPsrV84e
+sort: 106250
+flags:
+  core: {}
+  dnd5e:
+    showTokenPortrait: false
+system:
+  abilities:
+    str:
+      value: 26
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 6
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 24
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 6
+      proficient: 0
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 16
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 13
+      proficient: 1
+      bonuses:
+        check: ''
+        save: ''
+  attributes:
+    ac:
+      flat: null
+      calc: custom
+      formula: '18'
+    hp:
+      value: 297
+      min: 0
+      max: 297
+      temp: 0
+      tempmax: 0
+      formula: 17d20 + 119
+    init:
+      value: 0
+      bonus: 0
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 0
+      walk: 40
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 120
+      blindsight: 60
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: ''
+    spellcasting: int
+  details:
+    biography:
+      value: >-
+        <p>Legend speaks of ancient constructs built to hold back a terrible
+        calamity of untold horrors from beyond. Posted as eternal guards over
+        ancient lost portals, these construct sentinels were thought to be
+        immune to whispers of madness that seeped through—a theory that has
+        proved tragically misguided. Now twisted by the forces beyond, the
+        sentinels have warped into eldritch engines of destruction, completely
+        mad and not truly aware of their own actions.</p><p>Awakening from
+        ancient, forgotten sites, often long-lost vaults and shrines, these can
+        appear without warning and wreak terrible destruction in a maddened
+        rampage. These sentinels are massive creatures from an ancient era,
+        towering 30 feet tall, and crushing anything built to a human scale with
+        ease.</p><h3 id="deployment">Deployment</h3><p>The ancient sentinel is
+        intended primarily as a solo encounter, and particularly excels as an
+        event. A rampaging, gigantic mechanical elephant is most dramatic when
+        it has plenty of buildings—and maybe some villagers—to trample, and for
+        the players to save. It is a siege monster that is exceptionally good at
+        engaging many targets simultaneously. It can even enter a campaign a
+        little earlier than its CR might suggest as a set piece encounter where
+        the PCs are rallying a defense against it.</p><p>If you do need some
+        more chaos, you can have the ancient sentinel be the harbinger to a wave
+        of psionic monsters that have broken through in its wake. Its immunity
+        to psychic damage means it is largely unfazed by many of their effects,
+        making this a devastating pairing.</p><h3 id="simple-script">Simple
+        Script</h3><p>Here’s a simple script that you can follow to get an
+        effective use from an ancient sentinel:</p><ul><li>The sentinel should
+        always move when able, ideally trampling any smaller creatures in its
+        path and smashing buildings if possible. Move for maximum destruction
+        unless it has a specific objective.</li><li>Move towards something that
+        can be smashed.</li><li>During the advance, unleash a Bladed Trunk
+        attack, moving the target into or out of its path.</li><li>Move through
+        a target using Trampling Advance.</li><li>If it knocks a target prone or
+        is moving through its last target, use its stomp attack.</li><li>Lastly,
+        it should lash out with its tentacles against any target that is
+        attacking it, either grabbing the attackers or flinging things at
+        them.</li><li>If a target is bothering it with ranged attacks, it can
+        fling creatures or objects it is grappling at the target.</li></ul><h3
+        id="considerations">Considerations</h3><p>While the sentinel lacks
+        ranged abilities, it can use Fling as a ranged offensive tool quite
+        effectively, if needed, simply by picking up objects and throwing them.
+        While its speed isn’t particularly high, its Unstoppable Advance trait
+        and Unstoppable Trample legendary action mean its effective movement can
+        be quite substantial.</p><p>The sentinel may not care about the party at
+        all. If they are insufficiently powerful to stop it, it may simply
+        rampage through a city before wandering off to rampage elsewhere. Only
+        if players prove a danger to it will it focus on them. While a very
+        challenging monster, the dynamic nature of the fight will come from what
+        the sentinel is destroying.</p>
+      public: ''
+    alignment: Chaotic Evil
+    race: ''
+    type:
+      value: construct
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 19
+    spellLevel: 0
+    xp:
+      value: 10
+    source:
+      book: KCCC
+      custom: ''
+  traits:
+    size: grg
+    di:
+      value:
+        - poison
+        - psychic
+      custom: ''
+    dr:
+      value: []
+      custom: >-
+        bludgeoning, piercing, and slashing from nonmagical attacks that aren’t
+        adamantine
+    dv:
+      value: []
+      custom: ''
+    ci:
+      value:
+        - charmed
+        - exhaustion
+        - frightened
+        - paralyzed
+        - petrified
+        - poisoned
+        - prone
+      custom: ''
+    languages:
+      value:
+        - deep
+      custom: Can't speak.
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 1
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 3
+      max: 3
+    legres:
+      value: 3
+      max: 3
+    lair:
+      value: false
+      initiative: 0
+  source:
+    rules: '2014'
+ownership:
+  default: 0
+prototypeToken:
+  name: Ancient Sentinel
+  displayName: 40
+  actorLink: false
+  width: 4
+  height: 4
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  disposition: -1
+  displayBars: 40
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  flags:
+    splatter:
+      bloodColor: ''
+  randomImg: false
+  texture:
+    src: >-
+      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/AncientSentinel.png
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+    color: null
+  appendNumber: false
+  prependAdjective: false
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Actor.UEqMAdz2jLdEg3Rj
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!lgIhmGwkKe711lVN'

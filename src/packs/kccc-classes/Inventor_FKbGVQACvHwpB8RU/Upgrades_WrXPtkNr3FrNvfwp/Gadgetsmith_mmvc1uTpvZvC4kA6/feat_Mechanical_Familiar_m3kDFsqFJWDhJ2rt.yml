@@ -1,0 +1,51 @@
+_id: m3kDFsqFJWDhJ2rt
+name: Mechanical Familiar
+type: feat
+img: icons/commodities/tech/cog-steel-grey.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 700000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You create the blueprint for a small, mechanical creature. At the end
+      of a long rest, you can choose to create a familiar based on it, casting
+      the find familiar spell without expending a spell slot. When cast in this
+      way, the familiar is a construct. It stays active until you deactivate it
+      or it is destroyed. In either case, you can choose to reactivate it at the
+      end of a long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Gadgetsmith 1
+  prerequisites:
+    level: 1
+  identifier: mechanical-familiar
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.jYy67anlRMy6HE24
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385710089
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!m3kDFsqFJWDhJ2rt'

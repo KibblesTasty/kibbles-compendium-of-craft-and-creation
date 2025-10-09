@@ -1,0 +1,152 @@
+_id: B7n099FicuOcJUrB
+name: Impact Gauntlet
+type: weapon
+img: icons/equipment/hand/gauntlet-armored-leather-teal-orange.webp
+effects: []
+folder: mmvc1uTpvZvC4kA6
+sort: 250000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You create a magic weapon capable of amplifying the impact of your
+      blows. You have proficiency with this weapon, and it has the finesse and
+      light properties, as well as the special property (described below). It
+      deals 1d6 bludgeoning damage on a hit. You can select this upgrade up to
+      two times, making a separate weapon each time.</p>
+
+      <p>Special. When you make an attack with this weapon, you can choose to
+      forgo adding your proficiency bonus to the attack roll. If your attack
+      hits, you can add double your proficiency bonus to the damage roll.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  quantity: 1
+  weight:
+    value: 2
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
+  equipped: false
+  rarity: common
+  identified: true
+  cover: null
+  crewed: false
+  range:
+    value: null
+    long: null
+    units: ft
+    reach: null
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  damage:
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 6
+      bonus: ''
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  armor:
+    value: 10
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  properties:
+    - fin
+    - lgt
+    - spc
+  proficient: 1
+  identifier: impact-gauntlet
+  unidentified:
+    description: ''
+  type:
+    value: simpleM
+    baseItem: ''
+  activities:
+    GHzjfxRqnPO3kUec:
+      _id: GHzjfxRqnPO3kUec
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  container: null
+  attuned: false
+  ammunition: {}
+  magicalBonus: null
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.XHTmNdRMOYDEwaJi
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385674480
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!B7n099FicuOcJUrB'

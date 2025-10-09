@@ -1,0 +1,50 @@
+_id: WoSzwPoOmiZZzKPt
+name: Brutal Armaments
+type: feat
+img: icons/weapons/axes/axe-battle-worn.webp
+effects: []
+folder: 5kTpFeuG35OzhmjF
+sort: -100195
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You increase the effectiveness of your golem’s natural weapons,
+      allowing it to attack with lethal strikes. When your golem makes an
+      attack, you can choose to subtract its proficiency from the attack roll.
+      If you do so, and the attack hits, you can add double its proficiency
+      bonus to the damage roll of the attack.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Golemsmith 15
+  prerequisites:
+    level: 15
+  identifier: brutal-armaments
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.hXDz4FsRhRNSN87Z
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385701234
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!WoSzwPoOmiZZzKPt'

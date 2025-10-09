@@ -1,0 +1,52 @@
+_id: aoDzz5ZdQJzp3JuO
+name: Unchecked Power
+type: feat
+img: icons/magic/earth/explosion-lava-stone-orange.webp
+effects: []
+folder: OeZ3t5FRhCcQfrv9
+sort: 125000
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>The
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.Ld86H55nvBhmon9Z]{Fissure}
+      spell is added to your Telekinesis Alternate Effects list. Additionally,
+      as a reaction to a melee attack being made against you, you can expend 1
+      psi point to shove the creature away. The creature must make a Strength
+      saving throw, or be knocked 10 feet backwards. If this puts the attack out
+      of reach, the attack automatically misses.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Telekinesis 9
+  prerequisites:
+    level: 9
+  identifier: unchecked-power
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.aABCUZJkZYCw0qFh
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385703834
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!aoDzz5ZdQJzp3JuO'

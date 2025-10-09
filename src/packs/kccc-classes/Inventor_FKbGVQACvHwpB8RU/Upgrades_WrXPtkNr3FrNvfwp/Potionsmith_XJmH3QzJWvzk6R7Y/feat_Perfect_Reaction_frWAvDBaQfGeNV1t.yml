@@ -1,0 +1,50 @@
+_id: frWAvDBaQfGeNV1t
+name: Perfect Reaction
+type: feat
+img: icons/magic/fire/projectile-smoke-swirl-red.webp
+effects: []
+folder: XJmH3QzJWvzk6R7Y
+sort: 10938
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>In a moment of perfect focus, you can create a flawless instant
+      reaction. When you deal damage, grant temporary hit points, or restore hit
+      points to a creature with this instant reaction, you can use the maximum
+      possible result instead of rolling. Once you create a Perfect Reaction,
+      you can’t do so again until you finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Potionsmith 11
+  prerequisites:
+    level: 11
+  identifier: perfect-reaction
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.iUnqOqddr7hssTAA
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385706601
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!frWAvDBaQfGeNV1t'

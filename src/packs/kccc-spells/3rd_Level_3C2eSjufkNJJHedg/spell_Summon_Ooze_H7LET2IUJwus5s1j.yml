@@ -1,0 +1,222 @@
+name: Summon Ooze
+type: spell
+img: icons/creatures/slimes/bubbling-purple.webp
+effects: []
+folder: 3C2eSjufkNJJHedg
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: H7LET2IUJwus5s1j
+system:
+  description:
+    value: "<p>You call forth a magical ooze. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Ooze Spirit stat block. When you cast the spell, choose from Green, Red, or Yellow. The creature resembles the creature of your choice, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>\n<p>The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell of 2nd level or higher, use the higher level whenever the spell's level appears in the stat block.</p>\n<p>\_</p>"
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: 1
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cube
+    affects:
+      count: ''
+      type: ''
+    template:
+      count: ''
+  range:
+    value: 30
+    long: null
+    units: ft
+    special: ''
+  uses:
+    value: null
+    max: ''
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: summ
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: null
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 3
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: a statuette carved from a monster bone or fang worth at least 100 gp
+    consumed: false
+    cost: 100
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+  summons:
+    prompt: false
+    mode: ''
+    bonuses:
+      ac: '@item.level'
+      hd: ''
+      hp: 10 * (@item.level - 1)
+      attackDamage: ''
+      saveDamage: '@item.level'
+      healing: ''
+    profiles:
+      - count: ''
+        name: ''
+        _id: q4x9z02ymciK9qFl
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.JT6L3A4VP4BPmDhS
+        level:
+          min: null
+          max: null
+      - count: ''
+        name: ''
+        _id: iEstXVgD4orzxFgS
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.7ll5ENZ43vRv9ZTT
+        level:
+          min: null
+          max: null
+      - count: ''
+        name: ''
+        _id: 0ohBm8RkwSALiui7
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.YmeaU6qHAn5VVE5s
+        level:
+          min: null
+          max: null
+    match:
+      proficiency: true
+      attacks: true
+  activities:
+    Y2XI4KN0mxqztCZE:
+      type: summon
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      bonuses:
+        ac: '@item.level'
+        hd: ''
+        hp: 10 * (@item.level - 1)
+        attackDamage: ''
+        saveDamage: '@item.level'
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        proficiency: true
+        attacks: true
+        ability: ''
+        saves: false
+      profiles:
+        - uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.bQMeZb9oTSEeKwRv
+          _id: 9WX4lY7sSRD05ESb
+          level:
+            min: null
+            max: null
+          types: []
+        - _id: tULaUMA0xrlhmals
+          level:
+            min: null
+            max: null
+          types: []
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.bQMeZb9oTSEeKwRv
+        - _id: FPOlBqKItlrln9to
+          level:
+            min: null
+            max: null
+          types: []
+          uuid: >-
+            Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.aXK7B17lMcVFqT2s
+      summon:
+        identifier: ''
+        mode: ''
+        prompt: false
+      sort: 0
+      _id: Y2XI4KN0mxqztCZE
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.waq4ffn1oSP9Bzrb
+  duplicateSource: null
+  exportSource: null
+_key: '!items!H7LET2IUJwus5s1j'

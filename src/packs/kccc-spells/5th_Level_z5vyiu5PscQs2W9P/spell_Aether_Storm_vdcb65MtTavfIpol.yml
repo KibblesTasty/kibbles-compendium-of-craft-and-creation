@@ -1,0 +1,167 @@
+name: Aether Storm
+type: spell
+img: icons/magic/unholy/orb-swirling-teal.webp
+effects: []
+folder: z5vyiu5PscQs2W9P
+sort: 0
+flags:
+  core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_id: vdcb65MtTavfIpol
+system:
+  description:
+    value: >-
+      <p>You conjure a storm of aether erupting from a point of your choice
+      within range. The aether storm fills a 10-foot radius, 40-foot-high
+      cylinder. When the storm appears, each creature within its area takes [[/r
+      8d4]] force damage.</p>
+
+      <p>A creature takes [[/damage 1d4 force]] damage for each 5 feet they move
+      through the storm, and if a creature ends their turn within the aether
+      storm, they take [[/damage 8d4 force]] damage. On your turn, you can move
+      the storm 10 feet in any direction as a bonus action.</p>
+
+      <p>At Higher Levels. When you cast this spell using a spell slot of 6th
+      level or higher, the damage increases by [[/r 1d4]] for each slot level
+      above 5th.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: cylinder
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: 0
+    max: '0'
+    per: ''
+    recovery: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: other
+  attackBonus: 0
+  chatFlavor: ''
+  critical: null
+  damage:
+    parts:
+      - - 8d4
+        - force
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 5
+  school: evo
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+    value: ''
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d4
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 8
+            denomination: 4
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      sort: 0
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.2cVaV7Y9Al6fst2P
+  duplicateSource: null
+  exportSource: null
+_key: '!items!vdcb65MtTavfIpol'

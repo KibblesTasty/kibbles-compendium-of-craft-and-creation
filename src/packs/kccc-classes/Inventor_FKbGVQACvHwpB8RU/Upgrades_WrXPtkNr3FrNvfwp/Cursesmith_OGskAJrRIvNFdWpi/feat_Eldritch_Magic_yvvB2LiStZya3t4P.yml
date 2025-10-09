@@ -1,0 +1,91 @@
+name: Eldritch Magic
+type: feat
+img: icons/magic/unholy/hands-circle-light-green.webp
+effects: []
+folder: OGskAJrRIvNFdWpi
+sort: 2000000
+flags:
+  core: {}
+_id: yvvB2LiStZya3t4P
+system:
+  description:
+    value: >-
+      <p><em>(Prerequisite: Artifact with the Eldritch Eruption
+      upgrade)</em></p>
+
+      <p>Select a cantrip with a spell attack roll from the Wizard spell list
+      that deals the same damage type as your weapon (when awakened). Once per
+      turn, you can apply the secondary effect of that cantrip to your weapon’s
+      attack roll (for example, applying chill touch’s secondary effect to a
+      weapon that deals necrotic damage).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  activation:
+    type: ''
+    cost: 0
+    condition: ''
+  duration:
+    value: null
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  consume:
+    type: ''
+    target: null
+    amount: null
+  ability: null
+  actionType: ''
+  attackBonus: 0
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: upgrade
+  requirements: Cursesmith 5
+  recharge:
+    value: null
+    charged: false
+  prerequisites:
+    level: 5
+  identifier: eldritch-magic
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.QwiWcQiwRAAl7UZz
+  duplicateSource: null
+  exportSource: null
+_key: '!items!yvvB2LiStZya3t4P'

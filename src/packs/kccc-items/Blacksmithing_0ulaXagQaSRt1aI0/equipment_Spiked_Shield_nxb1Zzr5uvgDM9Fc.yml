@@ -1,0 +1,97 @@
+name: Spiked Shield
+type: equipment
+img: icons/equipment/shield/wardoor-wooden-boss-brown.webp
+effects: []
+folder: 0ulaXagQaSRt1aI0
+sort: 300000
+flags:
+  core: {}
+_id: nxb1Zzr5uvgDM9Fc
+system:
+  description:
+    value: >-
+      <p>Your shield is considered a martial melee weapon, dealing 1d4 damage on
+      hit.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+  quantity: 1
+  weight: 0
+  price: 0
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: null
+    units: inst
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: ''
+  consume:
+    type: ''
+    target: ''
+    amount: null
+  ability: ''
+  actionType: mwak
+  attackBonus: '0'
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d4 + @mod
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: 2
+    type: shield
+    dex: null
+  hp:
+    value: 0
+    max: 0
+    dt: null
+    conditions: ''
+  baseItem: ''
+  speed:
+    value: null
+    conditions: ''
+  strength: 0
+  stealth: false
+  proficient: true
+ownership:
+  default: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 4.1.2
+  coreVersion: '13.344'
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: Item.ieLViA9DcH62BeNL
+  duplicateSource: null
+  exportSource: null
+_key: '!items!nxb1Zzr5uvgDM9Fc'

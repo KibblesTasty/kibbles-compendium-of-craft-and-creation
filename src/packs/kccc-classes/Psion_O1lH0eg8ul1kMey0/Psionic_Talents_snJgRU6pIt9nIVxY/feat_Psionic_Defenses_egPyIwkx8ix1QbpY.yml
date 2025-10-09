@@ -1,0 +1,89 @@
+_id: egPyIwkx8ix1QbpY
+name: Psionic Defenses
+type: feat
+img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+effects:
+  - _id: 8q3u5aJKlBcMqVGr
+    changes:
+      - key: system.attributes.ac.calc
+        mode: 5
+        value: custom
+        priority: 50
+      - key: system.attributes.ac.formula
+        mode: 5
+        value: 13 + @abilities.int.mod
+        priority: 50
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    origin: Item.qghl0aIwSs4O7fwY
+    transfer: true
+    flags: {}
+    tint: '#ffffff'
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    name: Psionic Defenses
+    img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+    type: base
+    system: {}
+    description: ''
+    statuses: []
+    sort: 0
+    _key: '!items.effects!egPyIwkx8ix1QbpY.8q3u5aJKlBcMqVGr'
+folder: snJgRU6pIt9nIVxY
+sort: 174219
+flags:
+  core: {}
+system:
+  description:
+    value: >-
+      <p>You gain a way to defend yourself using your psionic powers. While you
+      are not wearing any armor or carrying a shield, your AC equals 13 + your
+      Intelligence modifier.</p>
+    chat: ''
+  source:
+    book: KCCC
+    custom: ''
+    rules: '2014'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psionicTalent
+  requirements: Psion 1
+  prerequisites:
+    level: 1
+  identifier: psionic-defenses
+  activities: {}
+  enchant: {}
+  properties: []
+ownership:
+  default: 0
+_stats:
+  compendiumSource: Item.qghl0aIwSs4O7fwY
+  duplicateSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726385705996
+  modifiedTime: null
+  lastModifiedBy: null
+  exportSource: null
+_key: '!items!egPyIwkx8ix1QbpY'
