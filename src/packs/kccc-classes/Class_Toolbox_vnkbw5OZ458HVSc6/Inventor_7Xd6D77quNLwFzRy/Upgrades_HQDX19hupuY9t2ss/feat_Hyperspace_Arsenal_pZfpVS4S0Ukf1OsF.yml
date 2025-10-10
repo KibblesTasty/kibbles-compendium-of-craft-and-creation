@@ -34,6 +34,8 @@ system:
     subtype: upgrade
   prerequisites:
     level: 19
+    items:
+      - recall
   properties: []
   requirements: Warsmith 19, Recall
   activities:
@@ -111,9 +113,9 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385712666
   modifiedTime: null
   lastModifiedBy: null

@@ -35,6 +35,9 @@ system:
     subtype: upgrade
   prerequisites:
     level: 5
+    items:
+      - warplate
+      - integrated-armor
   properties: []
   requirements: Warsmith 5, Warplate or Integrated Armor
   identifier: armor-entombed
@@ -99,9 +102,9 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385693109
   modifiedTime: null
   lastModifiedBy: null
