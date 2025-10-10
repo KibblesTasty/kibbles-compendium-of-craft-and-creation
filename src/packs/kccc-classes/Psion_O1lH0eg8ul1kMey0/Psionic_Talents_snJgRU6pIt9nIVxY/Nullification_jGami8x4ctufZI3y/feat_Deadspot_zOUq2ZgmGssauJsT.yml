@@ -70,13 +70,15 @@ system:
     charged: false
   prerequisites:
     level: 15
+    items:
+      - nullification-discipline
   identifier: deadspot
 ownership:
   default: 0
 _stats:
   systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
+  systemVersion: 5.1.9
+  coreVersion: '13.350'
   createdTime: null
   modifiedTime: null
   lastModifiedBy: null

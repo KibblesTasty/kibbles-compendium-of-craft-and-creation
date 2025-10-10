@@ -35,6 +35,8 @@ system:
   requirements: Transposition 11
   prerequisites:
     level: 11
+    items:
+      - rift-strike
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -117,9 +119,9 @@ ownership:
 _stats:
   compendiumSource: Item.AI3P38kAVrZBfVtM
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385690728
   modifiedTime: null
   lastModifiedBy: null

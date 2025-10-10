@@ -29,6 +29,8 @@ system:
   requirements: Enhancement 2
   prerequisites:
     level: 2
+    items:
+      - enhancement-discipline
   identifier: physical-surge
   activities: {}
   enchant: {}
@@ -38,9 +40,9 @@ ownership:
 _stats:
   compendiumSource: Item.5SyeS5ZixQ6eDqmE
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385695903
   modifiedTime: null
   lastModifiedBy: null

@@ -35,6 +35,8 @@ system:
   requirements: Telekinesis 2
   prerequisites:
     level: 2
+    items:
+      - telekinesis-discipline
   identifier: telekinetic-barrier
   activities: {}
   enchant: {}
@@ -44,9 +46,9 @@ ownership:
 _stats:
   compendiumSource: Item.0Y0ibUlCnKJqGf3B
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385676911
   modifiedTime: null
   lastModifiedBy: null

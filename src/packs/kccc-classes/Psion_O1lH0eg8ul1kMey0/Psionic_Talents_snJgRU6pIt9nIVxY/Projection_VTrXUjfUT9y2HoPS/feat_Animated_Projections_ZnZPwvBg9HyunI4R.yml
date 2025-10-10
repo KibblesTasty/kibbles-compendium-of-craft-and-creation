@@ -31,6 +31,8 @@ system:
   requirements: Projection 10
   prerequisites:
     level: 10
+    items:
+      - projection-discipline
   identifier: animated-projections
   activities: {}
   enchant: {}
@@ -40,9 +42,9 @@ ownership:
 _stats:
   compendiumSource: Item.PCRrObmfMcyGVs9k
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385703271
   modifiedTime: null
   lastModifiedBy: null

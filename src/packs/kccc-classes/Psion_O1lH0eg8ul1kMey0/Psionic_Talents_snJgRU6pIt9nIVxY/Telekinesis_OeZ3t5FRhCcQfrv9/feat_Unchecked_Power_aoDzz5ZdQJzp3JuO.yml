@@ -33,6 +33,8 @@ system:
   requirements: Telekinesis 9
   prerequisites:
     level: 9
+    items:
+      - telekinesis-discipline
   identifier: unchecked-power
   activities: {}
   enchant: {}
@@ -42,9 +44,9 @@ ownership:
 _stats:
   compendiumSource: Item.aABCUZJkZYCw0qFh
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385703834
   modifiedTime: null
   lastModifiedBy: null

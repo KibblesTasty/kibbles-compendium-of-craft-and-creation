@@ -26,6 +26,8 @@ system:
   requirements: Telekinesis 5
   prerequisites:
     level: 5
+    items:
+      - telekinesis-discipline
   identifier: mental-might
   activities: {}
   enchant: {}
@@ -35,9 +37,9 @@ ownership:
 _stats:
   compendiumSource: Item.4p2dFkJaP8DPibZ0
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385673912
   modifiedTime: null
   lastModifiedBy: null

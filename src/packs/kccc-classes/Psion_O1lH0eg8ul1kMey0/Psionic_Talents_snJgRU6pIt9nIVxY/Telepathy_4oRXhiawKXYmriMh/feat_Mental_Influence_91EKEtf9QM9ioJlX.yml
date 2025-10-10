@@ -31,6 +31,8 @@ system:
   requirements: Telepathy 2
   prerequisites:
     level: 2
+    items:
+      - telepathy-discipline
   identifier: mental-influence
   activities: {}
   enchant: {}
@@ -40,9 +42,9 @@ ownership:
 _stats:
   compendiumSource: Item.NitGPDZCbPyPjAX5
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385673258
   modifiedTime: null
   lastModifiedBy: null

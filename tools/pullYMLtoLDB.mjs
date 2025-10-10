@@ -3,6 +3,7 @@ import { promises as fs } from 'fs';
 
 const MODULE_ID = process.cwd();
 const yaml = true;
+const folders = true;
 
 const packs = await fs.readdir('./src/packs');
 for (const pack of packs) {
@@ -11,6 +12,6 @@ for (const pack of packs) {
   await compilePack(
     `${MODULE_ID}/src/packs/${pack}`,
     `${MODULE_ID}/packs/${pack}`,
-    { yaml }
+    { yaml, recursive: folders }
   );
 }

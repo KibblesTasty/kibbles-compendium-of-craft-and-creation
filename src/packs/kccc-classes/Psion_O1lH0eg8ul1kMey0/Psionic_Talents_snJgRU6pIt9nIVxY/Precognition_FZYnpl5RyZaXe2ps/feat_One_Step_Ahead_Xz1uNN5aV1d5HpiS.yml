@@ -32,6 +32,8 @@ system:
   requirements: Precognition 2
   prerequisites:
     level: 2
+    items:
+      - precognition-discipline
   identifier: one-step-ahead
   activities: {}
   enchant: {}
@@ -41,9 +43,9 @@ ownership:
 _stats:
   compendiumSource: Item.jregqRojaFOv0Qfj
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385701864
   modifiedTime: null
   lastModifiedBy: null

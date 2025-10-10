@@ -28,6 +28,8 @@ system:
   requirements: Projection 2
   prerequisites:
     level: 2
+    items:
+      - projection-discipline
   identifier: astral-swap
   activities: {}
   enchant: {}
@@ -37,9 +39,9 @@ ownership:
 _stats:
   compendiumSource: Item.HlaL8ko1Q0r9JdpD
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385666941
   modifiedTime: null
   lastModifiedBy: null

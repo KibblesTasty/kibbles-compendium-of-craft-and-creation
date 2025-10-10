@@ -33,6 +33,8 @@ system:
   requirements: Telepathy 2
   prerequisites:
     level: 2
+    items:
+      - telepathy-discipline
   identifier: attuned-argument
   activities: {}
   enchant: {}
@@ -42,9 +44,9 @@ ownership:
 _stats:
   compendiumSource: Item.ao0XjRcd4ygA5r8y
   duplicateSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 5.1.0
+  systemVersion: 5.1.9
   createdTime: 1726385694320
   modifiedTime: null
   lastModifiedBy: null

@@ -34,6 +34,8 @@ system:
   requirements: Nullification 2
   prerequisites:
     level: 2
+    items:
+      - nullification-discipline
   identifier: iron-templar
   activities: {}
   enchant: {}
@@ -62,9 +64,9 @@ ownership:
 _stats:
   compendiumSource: Item.tG8RBQY3O277F9nM
   duplicateSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 5.1.0
+  systemVersion: 5.1.9
   createdTime: 1726385695723
   modifiedTime: null
   lastModifiedBy: null
