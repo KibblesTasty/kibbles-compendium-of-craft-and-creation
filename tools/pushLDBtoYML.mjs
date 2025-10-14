@@ -25,6 +25,7 @@ for (const pack of packs) {
     },
   );
 }
+
 /**
  * Prefaces the document with its type.
  * @param {object} doc - The document data.
@@ -41,7 +42,7 @@ function transformName(doc, context) {
 }
 
 /**
- * Remove text content from wiki journal.
+ * Clean up churn-heavy properties.
  * @param {object} entry The entry data.
  * @returns {Promise<false|void>}  Return boolean false to indicate that this entry should be discarded.
  */
