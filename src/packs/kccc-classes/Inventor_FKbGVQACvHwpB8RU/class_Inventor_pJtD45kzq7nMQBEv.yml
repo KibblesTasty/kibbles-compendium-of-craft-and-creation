@@ -260,6 +260,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 4
@@ -279,6 +280,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 8
@@ -296,6 +298,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 12
@@ -313,6 +316,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 16
@@ -330,6 +334,7 @@ system:
           cha: 0
         cap: 2
         locked: []
+        recommendation: null
       value:
         type: asi
       level: 19
@@ -352,6 +357,7 @@ system:
         restriction:
           type: class
           subtype: ''
+          list: []
       value:
         added: {}
         replaced: {}
@@ -382,7 +388,9 @@ system:
     - _id: UWZILZpifwm0hmX3
       type: Subclass
       configuration: {}
-      value: {}
+      value:
+        document: null
+        uuid: null
       level: 1
       title: Inventor Specialization
       hint: >-
@@ -391,11 +399,42 @@ system:
         Potionsmith, Relicsmith, Thundersmith, or Warsmith, each of which are
         detailed at the end of the class description. Your choice grants you
         features at 1st level and again at 3rd, 5th, and 14th level.
+    - type: ScaleValue
+      _id: oFUceew8qY5tbDha
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 3
+          '3':
+            value: 4
+          '5':
+            value: 5
+          '7':
+            value: 6
+          '9':
+            value: 7
+          '11':
+            value: 8
+          '13':
+            value: 9
+          '15':
+            value: 10
+          '17':
+            value: 11
+          '19':
+            value: 12
+      value: {}
+      title: Spells Known
+      hint: ''
   spellcasting:
     progression: half
     ability: int
     preparation:
-      formula: ''
+      formula: '@scale.inventor.spells-known'
   wealth: 4d4 * 10
   startingEquipment:
     - type: OR

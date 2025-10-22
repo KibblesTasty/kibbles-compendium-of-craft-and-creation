@@ -10,9 +10,9 @@ _id: lD16JtMbLJoyi04Z
 _stats:
   compendiumSource: Item.jUISkDQ8EUKwnELy
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385616195
   modifiedTime: null
   lastModifiedBy: null
@@ -37,17 +37,82 @@ system:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '@prof'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   requirements: Aether Heart 1
   type:
     value: class
     subtype: ''
   identifier: aetherborn
-  activities: {}
+  activities:
+    iUl6MWqb9h9dnZPQ:
+      type: utility
+      name: Empower Spell
+      _id: iUl6MWqb9h9dnZPQ
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - type: ItemGrant
+      _id: 1L9UN09YP7HFYLYc
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.classes24.Item.phbmmoEmpoweredS
+          - optional: false
+            uuid: Compendium.dnd5e.classfeatures.Item.IWpe0Y9uAStHGiH1
+        optional: true
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
 _key: '!items!lD16JtMbLJoyi04Z'

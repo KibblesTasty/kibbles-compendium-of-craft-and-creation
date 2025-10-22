@@ -1,7 +1,47 @@
 name: Art of the Soul Blade
 type: feat
 img: icons/skills/melee/strike-dagger-arcane-pink.webp
-effects: []
+effects:
+  - type: enchantment
+    name: Extended Blade
+    img: icons/skills/melee/strike-dagger-arcane-pink.webp
+    disabled: true
+    _id: gAYIFv7uWTur1wWS
+    system: {}
+    changes:
+      - key: system.properties
+        mode: 2
+        value: reach
+        priority: null
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: <p>Your Soul Blade gains the Reach property</p>
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1761096033056
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!v4dlqA2sX1IrkovP.gAYIFv7uWTur1wWS'
 folder: B7JG1A1xufT9VN8p
 sort: 150000
 flags:
@@ -10,9 +50,9 @@ _id: v4dlqA2sX1IrkovP
 _stats:
   compendiumSource: Item.N4g09mo1V0ifnzW5
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385616523
   modifiedTime: null
   lastModifiedBy: null
@@ -57,7 +97,70 @@ system:
     value: class
     subtype: ''
   identifier: art-of-the-soul-blade
-  activities: {}
+  activities:
+    JeEoXujT9YqqbkaY:
+      type: enchant
+      _id: JeEoXujT9YqqbkaY
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: monks-focus
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: gAYIFv7uWTur1wWS
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: object
+          count: ''
+          special: Your Soul Blade
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+        identifier: ''
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: weapon
+      name: Extended Blade
+      img: ''
+      appliedEffects:
+        - gAYIFv7uWTur1wWS
   enchant: {}
   prerequisites:
     level: null

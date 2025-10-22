@@ -10,9 +10,9 @@ _id: oKBCLMhOZg6RrFHg
 _stats:
   compendiumSource: Item.MVlHLWlwQb7QyM8T
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385616321
   modifiedTime: null
   lastModifiedBy: null
@@ -64,15 +64,72 @@ system:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   requirements: ''
   type:
     value: class
     subtype: ''
   identifier: planar-collision
-  activities: {}
+  activities:
+    Hwpf8dImq21CmNkG:
+      type: utility
+      _id: Hwpf8dImq21CmNkG
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '5'
+            target: font-of-magic
+          - type: itemUses
+            value: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '@abilities.cha.mod'
+      effects: []
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '120'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '30'
+          count: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null

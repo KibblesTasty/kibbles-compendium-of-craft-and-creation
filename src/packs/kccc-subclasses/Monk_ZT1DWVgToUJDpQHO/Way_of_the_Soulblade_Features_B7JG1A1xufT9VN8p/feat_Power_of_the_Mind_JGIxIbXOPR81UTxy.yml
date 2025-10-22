@@ -10,9 +10,9 @@ _id: JGIxIbXOPR81UTxy
 _stats:
   compendiumSource: Item.JE1qNTZ3XQlefc9l
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385614542
   modifiedTime: null
   lastModifiedBy: null
@@ -62,7 +62,61 @@ system:
     value: class
     subtype: ''
   identifier: power-of-the-mind
-  activities: {}
+  activities:
+    Sr1debyVDD2xONUh:
+      type: heal
+      name: Consumptive Blade
+      _id: Sr1debyVDD2xONUh
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: monks-focus
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+        number: 1
+        denomination: 4
+        bonus: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null

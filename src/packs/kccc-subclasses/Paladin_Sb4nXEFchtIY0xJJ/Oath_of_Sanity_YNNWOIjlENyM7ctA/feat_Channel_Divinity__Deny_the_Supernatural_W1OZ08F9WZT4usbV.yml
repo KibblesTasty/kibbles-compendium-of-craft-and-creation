@@ -1,7 +1,46 @@
 name: 'Channel Divinity: Deny the Supernatural'
 type: feat
 img: icons/magic/control/silhouette-aura-energy.webp
-effects: []
+effects:
+  - name: 'Channel Divinity: Deny the Supernatural'
+    img: icons/magic/control/silhouette-aura-energy.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.W1OZ08F9WZT4usbV
+    transfer: false
+    _id: tfj82soh7HZh3bEk
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The target cannot cast spells or use psionic abilities until the end of
+      its next turn.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1761095009571
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!W1OZ08F9WZT4usbV.tfj82soh7HZh3bEk'
 folder: YNNWOIjlENyM7ctA
 sort: 200000
 flags:
@@ -10,9 +49,9 @@ _id: W1OZ08F9WZT4usbV
 _stats:
   compendiumSource: Item.ReVQ7aEQ3p3HZWnP
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385615445
   modifiedTime: null
   lastModifiedBy: null
@@ -42,7 +81,61 @@ system:
     value: class
     subtype: channelDivinity
   identifier: channel-divinity-deny-the-supernatural
-  activities: {}
+  activities:
+    1PSjfXWXLEZN6iTA:
+      type: save
+      _id: 1PSjfXWXLEZN6iTA
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: channel-divinity
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: tfj82soh7HZh3bEk
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null

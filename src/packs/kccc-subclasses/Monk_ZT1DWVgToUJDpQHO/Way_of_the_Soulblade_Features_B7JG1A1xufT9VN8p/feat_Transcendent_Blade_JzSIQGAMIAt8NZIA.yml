@@ -1,7 +1,55 @@
 name: Transcendent Blade
 type: feat
 img: icons/skills/melee/strike-blade-scimitar-green-purple.webp
-effects: []
+effects:
+  - type: enchantment
+    name: Transcendent Blade
+    img: icons/skills/melee/strike-blade-scimitar-green-purple.webp
+    disabled: true
+    _id: bDbFcVzDo2GVmcuD
+    system: {}
+    changes:
+      - key: system.properties
+        mode: 2
+        value: mgc
+        priority: null
+      - key: system.magicalBonus
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.properties
+        mode: 2
+        value: siege
+        priority: null
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1761096341826
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!JzSIQGAMIAt8NZIA.bDbFcVzDo2GVmcuD'
 folder: B7JG1A1xufT9VN8p
 sort: 112500
 flags:
@@ -10,9 +58,9 @@ _id: JzSIQGAMIAt8NZIA
 _stats:
   compendiumSource: Item.0ztF6QtGu7GtusGH
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385614563
   modifiedTime: null
   lastModifiedBy: null
@@ -48,7 +96,109 @@ system:
     value: class
     subtype: ''
   identifier: transcendent-blade
-  activities: {}
+  activities:
+    zUHhkb7ejN20FkLZ:
+      type: save
+      _id: zUHhkb7ejN20FkLZ
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: >-
+          A creature is hit by a critical hit from your Soul Blade and has fewer
+          than 50 hit points after damage is applied
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: spec
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts: []
+      save:
+        ability:
+          - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    TRcpO9JhBa6pihoP:
+      type: enchant
+      _id: TRcpO9JhBa6pihoP
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: bDbFcVzDo2GVmcuD
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+        identifier: ''
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
   prerequisites:
     level: null

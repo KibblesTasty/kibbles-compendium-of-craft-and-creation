@@ -1,23 +1,65 @@
 name: 'Channel Divinity: Turn the Aberrant'
 type: feat
 img: icons/magic/control/silhouette-hold-change-green.webp
-effects: []
+effects:
+  - name: Turned
+    img: icons/magic/control/silhouette-hold-change-green.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.xPXZbOMTyRcbkcHq
+    transfer: false
+    _id: HKMTRQ5zZz7ZgjsG
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A turned creature must spend its turns trying to move as far away from
+      you as it can, and it can’t willingly move to a space within 30 feet of
+      you. It also can’t take reactions. For its action, it can use only the
+      Dash action or try to escape from an effect that prevents it from moving.
+      If there’s nowhere to move, the creature can use the Dodge
+      action.</p><p>If the creature’s true form is concealed by an illusion,
+      shapeshifting, or other effect, that form is revealed while it is
+      turned.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1761095087936
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!xPXZbOMTyRcbkcHq.HKMTRQ5zZz7ZgjsG'
 folder: YNNWOIjlENyM7ctA
 sort: 300000
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
     migratedUses: 1
 _id: xPXZbOMTyRcbkcHq
 _stats:
   compendiumSource: Item.k72o0MYHZlHnAJNN
   duplicateSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726385616763
   modifiedTime: null
   lastModifiedBy: null
@@ -45,7 +87,7 @@ system:
     revision: 1
     rules: '2014'
   uses:
-    max: '1'
+    max: ''
     spent: 0
     recovery: []
   requirements: Oath of Sanity 2
@@ -64,11 +106,8 @@ system:
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: channel-divinity
         scaling:
           allowed: false
           max: ''
@@ -81,7 +120,8 @@ system:
         units: minute
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: HKMTRQ5zZz7ZgjsG
       range:
         units: self
         special: ''
@@ -115,6 +155,9 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: channel-divinity-turn-the-aberrant
   enchant: {}
   prerequisites:
