@@ -773,14 +773,29 @@ system:
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - type: ItemGrant
+      _id: 5my8eH2GslwUkbmB
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.sHLJlkTerQdmltVa
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2n6Vo1Ie0MkeCtL
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.hpyBLklkCKqDCbdn
   duplicateSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 5.1.0
+  systemVersion: 5.1.9
   createdTime: 1726385710792
   modifiedTime: null
   lastModifiedBy: null

@@ -756,12 +756,27 @@ system:
         max: ''
       name: ''
       img: ''
+  advancement:
+    - type: ItemGrant
+      _id: bcQRPPrGogIp7ZNc
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.LuHHhNLIFXTWPD25
+            optional: false
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.9Qjfi2J4ScCTvhHg
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
 ownership:
   default: 0
 _stats:
   systemId: dnd5e
-  systemVersion: 5.1.0
-  coreVersion: '13.347'
+  systemVersion: 5.1.9
+  coreVersion: '13.350'
   createdTime: null
   modifiedTime: null
   lastModifiedBy: null

@@ -1,89 +1,27 @@
-_id: 3CunKcMvbfKwAORU
-name: Telekinesis Discipline
+folder: n0grhKuN2oHiBkyF
+name: No Specialization
 type: feat
-img: icons/magic/air/air-smoke-casting.webp
-effects: []
-folder: DeNBa6TtWOplSdbX
-sort: 150000
-flags:
-  core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+_id: yjqhEGDylP8RVmvz
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
 system:
-  description:
-    value: >-
-      <p>Telekinesis is the ability to interact with physical objects and energy
-      with your psionic
-      powers.</p><h3>Features</h3><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.M1tMkGG7XCY8P9Bl]{Telekinetic
-      Hands}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.gjLwogVhuUrKHW2n]{Telekinetic
-      Force}</p><h3>Alternate Effects</h3><p>The following talents can be
-      selected if you have the Telekinesis Discipline:</p><table
-      border="1"><thead><tr><th><p><strong>Point
-      Cost</strong></p></th><th><p><strong>Alternate
-      Effects</strong></p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@Compendium[dnd5e.spells.ZrTc23tToJ0JpH2h]{Jump},
-      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.UoiUkrynefOm6jSf]{Launch
-      Object},
-      @Compendium[dnd5e.spells.WTbOQBsarsL1LuXJ]{Thunderwave}</p></td></tr><tr><td><p>2</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.jPl8UdYBda1BowvM]{Fling},
-      @Compendium[dnd5e.spells.MRxldJd6C4bsBo3O]{Levitate},
-      @Compendium[dnd5e.spells.wJKpSvSTbSkTjqyb]{Shatter}</p></td></tr><tr><td><p>3</p></td><td><p>@Compendium[dnd5e.spells.yfbK8gZqESlaoY5t]{Fly},
-      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.X40fTEW2n7ePJo6u]{Vortex
-      Blast}</p></td></tr><tr><td><p>4</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.b3BPK7kvSBIhMOZ9]{Orbital
-      Stones}, @Compendium[dnd5e.spells.1ADstb0Xec6HHRcU]{Resilient
-      Sphere}</p></td></tr><tr><td><p>5</p></td><td><p>@Compendium[dnd5e.spells.HQfd7jJyULIoGxrZ]{Telekinesis},
-      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.q8JSgTKqjWxVYDwU]{Shockwave}</p></td></tr></tbody></table><h3>Available
-      Talents</h3><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.ARE8rqJ66NeLqLoV]{Talent:
-      Mental
-      Might}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.Krwro0VZgAWz04Dn]{Talent:
-      Precise
-      Power}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.DlNFwjomszCfbcR9]{Talent:
-      Telekinetic
-      Barrier}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.VvUch5rAO4YHE8h9]{Talent:
-      Telekinetic
-      Movement}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.k0MAuUXrJbLv1Z16]{Talent:
-      Kinetic
-      Slam}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.NRzybVDplgJwIN5G]{Talent:
-      Telekinetic
-      Weapons}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.aoDzz5ZdQJzp3JuO]{Talent:
-      Unchecked Power}</p>
-    chat: ''
-  source:
-    book: KCCC
-    custom: ''
-    rules: '2014'
-    revision: 1
-    page: ''
-    license: ''
-  uses:
-    max: ''
-    spent: 0
-    recovery: []
-  type:
-    value: class
-    subtype: psionicDiscipline
-  requirements: ''
-  identifier: telekinesis-discipline
   activities:
-    T9E0MBTfkgPNlyRm:
+    GUMmEmA4WQSY6P7j:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.ZrTc23tToJ0JpH2h
+        uuid: Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F
         challenge:
-          attack: null
-          save: null
           override: false
-        level: '1'
         properties:
           - vocal
+          - somatic
           - material
         spellbook: true
         ability: ''
-      _id: T9E0MBTfkgPNlyRm
+        level: 1
+      _id: GUMmEmA4WQSY6P7j
       sort: 0
       activation:
         type: action
-        value: null
         override: false
       consumption:
         scaling:
@@ -104,6 +42,7 @@ system:
         concentration: false
         override: false
       range:
+        units: self
         override: false
       target:
         template:
@@ -119,39 +58,34 @@ system:
         max: ''
       name: ''
       img: ''
-    Sxl12Hqool7KlKnh:
+    MbgCvxmMQoF72Sbi:
       type: cast
       spell:
         uuid: >-
-          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.UoiUkrynefOm6jSf
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.lNyTLkMuEYCGtDAf
         challenge:
-          attack: null
-          save: null
           override: false
-        level: '1'
         properties:
           - vocal
+          - somatic
           - material
         spellbook: true
         ability: ''
-      _id: Sxl12Hqool7KlKnh
+        level: 1
+      _id: MbgCvxmMQoF72Sbi
       sort: 0
       activation:
         type: action
-        value: null
         override: false
       consumption:
         scaling:
           allowed: true
-          max: ''
         spellSlot: true
         targets:
           - type: itemUses
             value: '1'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling:
-              mode: amount
       description:
         chatFlavor: ''
       duration:
@@ -159,6 +93,7 @@ system:
         concentration: false
         override: false
       range:
+        units: self
         override: false
       target:
         template:
@@ -174,80 +109,23 @@ system:
         max: ''
       name: ''
       img: ''
-    3qQRhBPULgiSNsFX:
+    NFU8B466PYnABpGd:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.WTbOQBsarsL1LuXJ
+        uuid: Compendium.dnd5e.spells.Item.FjYE214HTERCRZNm
         challenge:
-          attack: null
-          save: null
           override: false
-        level: '1'
         properties:
           - vocal
+          - somatic
           - material
         spellbook: true
         ability: ''
-      _id: 3qQRhBPULgiSNsFX
+        level: 2
+      _id: NFU8B466PYnABpGd
       sort: 0
       activation:
         type: action
-        value: null
-        override: false
-      consumption:
-        scaling:
-          allowed: true
-          max: ''
-        spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling:
-              mode: amount
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      range:
-        override: false
-      target:
-        template:
-          contiguous: false
-          units: ft
-        affects:
-          choice: false
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      name: ''
-      img: ''
-    NfV6UDvshOcY33Mv:
-      type: cast
-      spell:
-        uuid: >-
-          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.jPl8UdYBda1BowvM
-        challenge:
-          attack: null
-          save: null
-          override: false
-        level: '2'
-        properties:
-          - vocal
-          - material
-        spellbook: true
-        ability: ''
-      _id: NfV6UDvshOcY33Mv
-      sort: 0
-      activation:
-        type: action
-        value: null
         override: false
       consumption:
         scaling:
@@ -268,6 +146,7 @@ system:
         concentration: false
         override: false
       range:
+        units: self
         override: false
       target:
         template:
@@ -283,25 +162,23 @@ system:
         max: ''
       name: ''
       img: ''
-    5H6ne4XiWu0vM9af:
+    9iMTbNJScxQ7Vmjx:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O
+        uuid: Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq
         challenge:
-          attack: null
-          save: null
           override: false
-        level: '2'
         properties:
           - vocal
+          - somatic
           - material
         spellbook: true
         ability: ''
-      _id: 5H6ne4XiWu0vM9af
+        level: 2
+      _id: 9iMTbNJScxQ7Vmjx
       sort: 0
       activation:
         type: action
-        value: null
         override: false
       consumption:
         scaling:
@@ -322,6 +199,7 @@ system:
         concentration: false
         override: false
       range:
+        units: self
         override: false
       target:
         template:
@@ -337,134 +215,78 @@ system:
         max: ''
       name: ''
       img: ''
-    6ukJSiQzy4gZ8TSR:
-      type: cast
-      spell:
-        uuid: Compendium.dnd5e.spells.Item.wJKpSvSTbSkTjqyb
-        challenge:
-          attack: null
-          save: null
-          override: false
-        level: '2'
-        properties:
-          - vocal
-          - material
-        spellbook: true
-        ability: ''
-      _id: 6ukJSiQzy4gZ8TSR
-      sort: 0
-      activation:
-        type: action
-        value: null
-        override: false
-      consumption:
-        scaling:
-          allowed: true
-          max: ''
-        spellSlot: true
-        targets:
-          - type: itemUses
-            value: '2'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling:
-              mode: amount
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      range:
-        override: false
-      target:
-        template:
-          contiguous: false
-          units: ft
-        affects:
-          choice: false
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      name: ''
-      img: ''
-    vG4LnVgJbJ8FAzHX:
-      type: cast
-      spell:
-        uuid: Compendium.dnd5e.spells.Item.yfbK8gZqESlaoY5t
-        challenge:
-          attack: null
-          save: null
-          override: false
-        level: '3'
-        properties:
-          - vocal
-          - material
-        spellbook: true
-        ability: ''
-      _id: vG4LnVgJbJ8FAzHX
-      sort: 0
-      activation:
-        type: action
-        value: null
-        override: false
-      consumption:
-        scaling:
-          allowed: true
-          max: ''
-        spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling:
-              mode: amount
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      range:
-        override: false
-      target:
-        template:
-          contiguous: false
-          units: ft
-        affects:
-          choice: false
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      name: ''
-      img: ''
-    y1SBp2aQWjxeehtI:
+    vkVGBmVc0ifI1Or8:
       type: cast
       spell:
         uuid: >-
-          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.X40fTEW2n7ePJo6u
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.jgOWJKvqYO6fJY9l
         challenge:
-          attack: null
-          save: null
           override: false
-        level: '3'
         properties:
           - vocal
+          - somatic
           - material
         spellbook: true
         ability: ''
-      _id: y1SBp2aQWjxeehtI
+        level: 3
+      _id: vkVGBmVc0ifI1Or8
       sort: 0
       activation:
         type: action
-        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      name: ''
+      img: ''
+    3SoHK0NB3k3MBrCq:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        ability: ''
+        level: 3
+      _id: 3SoHK0NB3k3MBrCq
+      sort: 0
+      activation:
+        type: action
         override: false
       consumption:
         scaling:
@@ -485,6 +307,7 @@ system:
         concentration: false
         override: false
       range:
+        units: self
         override: false
       target:
         template:
@@ -500,39 +323,34 @@ system:
         max: ''
       name: ''
       img: ''
-    u9V6WmkFw72i6pWh:
+    jBLyg1zJmUmqmCjX:
       type: cast
       spell:
         uuid: >-
-          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.b3BPK7kvSBIhMOZ9
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.w971EVavPBUgape4
         challenge:
-          attack: null
-          save: null
           override: false
-        level: '4'
         properties:
           - vocal
+          - somatic
           - material
         spellbook: true
         ability: ''
-      _id: u9V6WmkFw72i6pWh
+        level: 4
+      _id: jBLyg1zJmUmqmCjX
       sort: 0
       activation:
         type: action
-        value: null
         override: false
       consumption:
         scaling:
           allowed: true
-          max: ''
         spellSlot: true
         targets:
           - type: itemUses
             value: '4'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling:
-              mode: amount
       description:
         chatFlavor: ''
       duration:
@@ -540,6 +358,7 @@ system:
         concentration: false
         override: false
       range:
+        units: self
         override: false
       target:
         template:
@@ -555,25 +374,23 @@ system:
         max: ''
       name: ''
       img: ''
-    0URsYrWfJfLdQlnD:
+    mHXxKTzlk3lRfoEO:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.1ADstb0Xec6HHRcU
+        uuid: Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6
         challenge:
-          attack: null
-          save: null
           override: false
-        level: '4'
         properties:
           - vocal
+          - somatic
           - material
         spellbook: true
         ability: ''
-      _id: 0URsYrWfJfLdQlnD
+        level: 4
+      _id: mHXxKTzlk3lRfoEO
       sort: 0
       activation:
         type: action
-        value: null
         override: false
       consumption:
         scaling:
@@ -587,6 +404,7 @@ system:
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
+              formula: ''
       description:
         chatFlavor: ''
       duration:
@@ -594,6 +412,7 @@ system:
         concentration: false
         override: false
       range:
+        units: self
         override: false
       target:
         template:
@@ -609,38 +428,34 @@ system:
         max: ''
       name: ''
       img: ''
-    uzLh4lumWEdw1jgW:
+    WRHFTkquXaDpaDlJ:
       type: cast
       spell:
-        uuid: Compendium.dnd5e.spells.Item.HQfd7jJyULIoGxrZ
+        uuid: >-
+          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.vdcb65MtTavfIpol
         challenge:
-          attack: null
-          save: null
           override: false
-        level: '5'
         properties:
           - vocal
+          - somatic
           - material
         spellbook: true
         ability: ''
-      _id: uzLh4lumWEdw1jgW
+        level: 5
+      _id: WRHFTkquXaDpaDlJ
       sort: 0
       activation:
         type: action
-        value: null
         override: false
       consumption:
         scaling:
           allowed: true
-          max: ''
         spellSlot: true
         targets:
           - type: itemUses
             value: '1'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
-            scaling:
-              mode: amount
       description:
         chatFlavor: ''
       duration:
@@ -648,6 +463,7 @@ system:
         concentration: false
         override: false
       range:
+        units: self
         override: false
       target:
         template:
@@ -663,26 +479,23 @@ system:
         max: ''
       name: ''
       img: ''
-    lpqfO0aT1HaDZC5J:
+    hucfYnZgSxqVJoAm:
       type: cast
       spell:
-        uuid: >-
-          Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.q8JSgTKqjWxVYDwU
+        uuid: Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA
         challenge:
-          attack: null
-          save: null
           override: false
-        level: '5'
         properties:
           - vocal
+          - somatic
           - material
         spellbook: true
         ability: ''
-      _id: lpqfO0aT1HaDZC5J
+        level: 5
+      _id: hucfYnZgSxqVJoAm
       sort: 0
       activation:
         type: action
-        value: null
         override: false
       consumption:
         scaling:
@@ -703,6 +516,7 @@ system:
         concentration: false
         override: false
       range:
+        units: self
         override: false
       target:
         template:
@@ -718,35 +532,53 @@ system:
         max: ''
       name: ''
       img: ''
-  enchant: {}
-  prerequisites:
-    level: null
-  properties: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
   advancement:
     - type: ItemGrant
-      _id: VFFXPjoNbQZyELcv
+      _id: A2045Fo4iBE5vSBz
       configuration:
         items:
           - uuid: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.gjLwogVhuUrKHW2n
-            optional: false
-          - uuid: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.M1tMkGG7XCY8P9Bl
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.QBHLfLXYSARewI0E
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+  description:
+    value: "<h3>Alternate Effects</h3><p>Additionally, when you learn the Psychokinesis\_ psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:</p><table border=\"1\"><thead><tr><th><p><strong>Point Cost</strong></p></th><th><p><strong>Alternate Effects</strong></p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]{Burning Hands}, @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.lNyTLkMuEYCGtDAf]{Lightning Tendril}</p></td></tr><tr><td><p>2</p></td><td><p>@Compendium[dnd5e.spells.FjYE214HTERCRZNm]{Flaming Sphere}, @Compendium[dnd5e.spells.7u2obDvuvtZBkTfq]{Scorching Ray}</p></td></tr><tr><td><p>3</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.jgOWJKvqYO6fJY9l]{Aether Lance}, @Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Fireball}</p></td></tr><tr><td><p>4</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.w971EVavPBUgape4]{Jumping Jolt}, @Compendium[dnd5e.spells.X3DrXgxjwI2dvkD6]{Wall of Fire}</p></td></tr><tr><td><p>5</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.vdcb65MtTavfIpol]{Aether Storm}, @Compendium[dnd5e.spells.RpKjTlYASrfqUPVA]{Cone of Cold}</p></td></tr></tbody></table><p>\_</p><p>If a spell can be cast at a higher level, you can spend additional psi points to cast it at a level equal to the psi points spent.</p>"
+    chat: ''
+  identifier: no-specialization
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
 ownership:
   default: 0
+flags: {}
 _stats:
-  compendiumSource: Item.SWk9vSLObI3VeTHw
+  compendiumSource: null
   duplicateSource: null
+  exportSource: null
   coreVersion: '13.350'
   systemId: dnd5e
   systemVersion: 5.1.9
-  createdTime: 1726385666068
+  createdTime: 1761245946566
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
-_key: '!items!3CunKcMvbfKwAORU'
+_key: '!items!yjqhEGDylP8RVmvz'
