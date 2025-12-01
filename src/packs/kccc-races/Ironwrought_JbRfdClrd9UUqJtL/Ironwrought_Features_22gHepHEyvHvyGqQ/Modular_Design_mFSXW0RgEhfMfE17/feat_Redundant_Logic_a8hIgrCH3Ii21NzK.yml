@@ -13,68 +13,38 @@ system:
       <p>You process all inputs twice to ensure they are logical. You have
       advantage on saving throws against becoming frightened or charmed.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: ''
-  recharge:
-    value: null
-    charged: false
   type:
     value: race
+    subtype: ''
   advancement: []
   prerequisites:
     level: null
+    items: []
+    repeatable: false
+  activities: {}
+  identifier: redundant-logic
+  crewed: false
+  enchant: {}
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 5.1.0
-  coreVersion: '13.350'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.dDKaePFu9Q9k7cLu
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610824122
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!a8hIgrCH3Ii21NzK'

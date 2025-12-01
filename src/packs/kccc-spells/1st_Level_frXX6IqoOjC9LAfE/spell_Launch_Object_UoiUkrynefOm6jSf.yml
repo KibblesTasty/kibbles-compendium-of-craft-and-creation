@@ -7,9 +7,8 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedProperties:
+      - somatic
 _id: UoiUkrynefOm6jSf
 system:
   description:
@@ -28,79 +27,42 @@ system:
       that you can target with this spell increases by 5 pounds, and the damage
       increases by 1d8, for each slot level above 1st.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
     value: 1
-    width: null
-    units: ''
-    type: object
+  duration:
+    units: inst
+  target:
     affects:
       special: ''
+      type: object
+      count: '1'
+      choice: false
     template:
       type: ''
+      units: ft
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
     special: ''
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 3d8
-        - bludgeoning
-    versatile: ''
-  formula: ''
-  save:
-    ability: dex
-    dc: null
-    scaling: spell
   level: 1
   school: trs
-  components:
-    vocal: false
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: level
-    formula: 1d8
   properties:
     - somatic
   activities:
@@ -126,6 +88,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -144,7 +107,7 @@ system:
               enabled: false
               formula: ''
             number: 3
-            denomination: '8'
+            denomination: 8
             bonus: ''
             types:
               - bludgeoning
@@ -160,8 +123,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: save
@@ -184,6 +151,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -218,16 +186,25 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: launch-object
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.iTBLJvErWwrUkqXR
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610819807
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!UoiUkrynefOm6jSf'

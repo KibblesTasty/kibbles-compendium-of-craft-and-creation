@@ -11,6 +11,7 @@ system:
     custom: ''
     book: KCCC
     rules: '2014'
+    revision: 1
   identified: true
   unidentified:
     description: ''
@@ -26,57 +27,41 @@ system:
   attunement: ''
   attuned: false
   equipped: false
-  activation:
-    type: action
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
   cover: null
-  crewed: false
-  target:
-    value: '1'
-    width: null
-    units: ''
-    type: creature
-    prompt: true
   range:
     value: 5
     long: null
     units: ft
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: mwak
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts:
-      - - 1d10
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 10
+      bonus: ''
+      types:
         - piercing
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   armor:
     value: null
   hp:
@@ -90,19 +75,70 @@ system:
   magicalBonus: null
   properties: []
   proficient: null
+  activities:
+    jVs3fSQnlc2z15i2:
+      _id: jVs3fSQnlc2z15i2
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  identifier: metal-chompers
+  crew:
+    value: []
+  ammunition: {}
 effects: []
 sort: 0
 ownership:
   default: 0
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: 1721339670390
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: null
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610824310
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!s9N4FZk1LdPcTNmx'

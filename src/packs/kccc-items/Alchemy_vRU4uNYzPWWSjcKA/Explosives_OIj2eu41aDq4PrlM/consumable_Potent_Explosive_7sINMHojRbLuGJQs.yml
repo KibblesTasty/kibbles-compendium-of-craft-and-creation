@@ -26,73 +26,62 @@ system:
       (the start of your next turn), and long (2 rounds, at the start of your
       turn).</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: uncommon
   identified: true
-  activation:
-    type: special
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  target:
-    value: 15
-    width: null
-    units: ft
-    type: radius
-  range:
-    value: 20
-    long: null
-    units: ft
   uses:
-    value: null
     max: ''
-    per: ''
     autoDestroy: false
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts:
-      - - 2d8
+    base:
+      number: 2
+      denomination: 8
+      bonus: ''
+      types:
         - fire
-      - - 2d8
-        - thunder
-    versatile: ''
-  formula: ''
-  save:
-    ability: dex
-    dc: 14
-    scaling: flat
-  consumableType: potion
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    replace: false
+  unidentified:
+    description: ''
+  type:
+    value: potion
+    subtype: ''
+  activities: {}
+  identifier: potent-explosive
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.UzEjMbe7Y1ixh3fd
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822286
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!7sINMHojRbLuGJQs'

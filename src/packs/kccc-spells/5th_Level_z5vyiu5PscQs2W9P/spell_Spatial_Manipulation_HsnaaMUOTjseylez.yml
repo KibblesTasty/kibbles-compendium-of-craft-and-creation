@@ -7,9 +7,9 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedProperties:
+      - vocal
+      - somatic
 _id: HsnaaMUOTjseylez
 system:
   description:
@@ -22,72 +22,39 @@ system:
       using a spell slot of 6th level or higher, you can swap an additional set
       of creatures of each level about 5th.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
-    value: null
     units: inst
-  cover: null
-  crewed: false
   target:
-    value: 2
-    width: null
-    units: ''
-    type: creature
+    affects:
+      type: creature
+      count: '2'
+      choice: false
+    template:
+      units: ft
+      contiguous: false
   range:
-    value: 120
-    long: null
+    value: '120'
     units: ft
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: cha
-    dc: null
-    scaling: spell
   level: 5
   school: con
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
@@ -114,6 +81,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -136,16 +104,25 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: spatial-manipulation
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.LaSLr2jUZGvTwlzs
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610818941
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!HsnaaMUOTjseylez'

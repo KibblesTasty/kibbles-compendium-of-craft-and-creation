@@ -35,6 +35,8 @@ system:
   requirements: Infusionsmith 5
   prerequisites:
     level: 5
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -54,12 +56,12 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -70,7 +72,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -88,19 +90,27 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: translocation-binding
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.huwOzJySClzmIJtq
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385699483
+  systemVersion: 5.2.0
+  createdTime: 1764610797284
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!TrJCnu7fgSN175ob'

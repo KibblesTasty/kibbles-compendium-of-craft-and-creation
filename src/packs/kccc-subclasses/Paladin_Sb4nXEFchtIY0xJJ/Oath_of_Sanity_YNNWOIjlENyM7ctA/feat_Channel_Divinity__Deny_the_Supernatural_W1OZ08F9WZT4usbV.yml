@@ -34,12 +34,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: dnd5e
-      systemVersion: 5.1.9
-      createdTime: 1761095009571
-      modifiedTime: null
+      systemVersion: 5.2.0
       lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!W1OZ08F9WZT4usbV.tfj82soh7HZh3bEk'
 folder: YNNWOIjlENyM7ctA
 sort: 200000
@@ -49,13 +48,13 @@ _id: W1OZ08F9WZT4usbV
 _stats:
   compendiumSource: Item.ReVQ7aEQ3p3HZWnP
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1726385615445
+  systemVersion: 5.2.0
+  createdTime: 1764610775496
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -98,6 +97,7 @@ system:
           - type: itemUses
             value: '1'
             target: channel-divinity
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -106,6 +106,8 @@ system:
         override: false
       effects:
         - _id: tfj82soh7HZh3bEk
+          level: {}
+          onSave: false
       range:
         units: self
         override: false
@@ -134,10 +136,18 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _key: '!items!W1OZ08F9WZT4usbV'

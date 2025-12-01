@@ -26,61 +26,57 @@ system:
       (the start of your next turn), and long (2 rounds, at the start of your
       turn).</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: rare
   identified: true
-  activation:
-    type: special
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  target:
-    value: 20
-    width: null
-    units: ft
-    type: radius
   range:
-    value: 20
+    value: null
     long: null
     units: ft
+    reach: 20
   uses:
-    value: null
     max: ''
-    per: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts:
-      - - 4d8
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 4
+      denomination: 8
+      bonus: ''
+      types:
         - fire
-      - - 4d8
-        - thunder
-    versatile: ''
-  formula: ''
-  save:
-    ability: dex
-    dc: 16
-    scaling: flat
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   armor:
     value: 10
   hp:
@@ -88,37 +84,76 @@ system:
     max: 0
     dt: null
     conditions: ''
-  weaponType: simpleM
-  baseItem: ''
-  properties:
-    ada: false
-    amm: false
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: false
-    lod: false
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: false
-    thr: false
-    two: false
-    ver: false
-  proficient: true
+  properties: []
+  proficient: 1
+  unidentified:
+    description: ''
+  type:
+    value: simpleM
+    baseItem: ''
+  activities:
+    wxz1TqgBc6GS1ho5:
+      _id: wxz1TqgBc6GS1ho5
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  identifier: powerful-explosive
+  container: null
+  attuned: false
+  crew:
+    value: []
+  ammunition: {}
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.uzAvDB5xU0yiijNw
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610821948
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!05eJyZ9bawGuArEQ'

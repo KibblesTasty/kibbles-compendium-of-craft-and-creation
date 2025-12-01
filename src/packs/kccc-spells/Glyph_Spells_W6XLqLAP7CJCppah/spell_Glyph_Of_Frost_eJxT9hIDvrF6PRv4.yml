@@ -22,15 +22,14 @@ system:
   school: evo
   activation:
     condition: ''
-    cost: 1
     type: bonus
+    value: 1
   duration:
     units: minute
     value: '1'
   range:
     units: ft
-    value: 5
-    long: null
+    value: '5'
     special: ''
   source:
     custom: ''
@@ -38,57 +37,22 @@ system:
     page: ''
     license: ''
     rules: '2014'
-  cover: null
-  crewed: false
+    revision: 1
   target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
     affects:
       type: ''
+      choice: false
     template:
       type: ''
+      units: ft
+      contiguous: false
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d8
-        - cold
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: con
-    dc: null
-    scaling: spell
-  summons: null
-  properties: []
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
+  properties:
+    - somatic
   activities:
     x7icpjpytAU3lgrY:
       type: utility
@@ -111,6 +75,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -126,6 +91,12 @@ system:
         prompt: false
         visible: false
       _id: x7icpjpytAU3lgrY
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Ws1RY9hh0xvpmpGA:
       type: save
       name: Detonate
@@ -148,6 +119,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -172,12 +144,13 @@ system:
               enabled: false
               formula: ''
             number: 1
-            denomination: '8'
+            denomination: 8
             bonus: ''
             types:
               - cold
             scaling:
               mode: ''
+              number: 1
         onSave: half
       save:
         ability:
@@ -186,29 +159,31 @@ system:
           calculation: spellcasting
           formula: ''
       _id: Ws1RY9hh0xvpmpGA
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: glyph-of-frost
 folder: W6XLqLAP7CJCppah
 flags:
-  dnd5e:
-    migratedProperties:
-      - somatic
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 _id: eJxT9hIDvrF6PRv4
 effects: []
 sort: 0
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: 1721845388483
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: null
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610820251
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!eJxT9hIDvrF6PRv4'

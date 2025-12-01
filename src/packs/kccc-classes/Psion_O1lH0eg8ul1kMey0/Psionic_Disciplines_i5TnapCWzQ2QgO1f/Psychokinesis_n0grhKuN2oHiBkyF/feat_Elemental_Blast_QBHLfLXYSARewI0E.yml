@@ -35,13 +35,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: 1727216657200
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!QBHLfLXYSARewI0E.eS8sul6VgZx0ZSIo'
   - name: Burn
     img: icons/magic/fire/explosion-flame-lightning-strike.webp
@@ -72,13 +71,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: 1727216817553
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!QBHLfLXYSARewI0E.4jDkvVU3ATAUvBPJ'
 folder: n0grhKuN2oHiBkyF
 sort: 100000
@@ -178,7 +176,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -218,8 +216,12 @@ system:
               formula: ''
       sort: 250000
       name: Force
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Q9bUxEXFsBKyErTG:
       type: attack
       activation:
@@ -249,6 +251,7 @@ system:
         override: false
       effects:
         - _id: 4jDkvVU3ATAUvBPJ
+          level: {}
       range:
         value: '60'
         units: ft
@@ -262,7 +265,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -303,9 +306,12 @@ system:
       sort: 200000
       name: Fire
       _id: Q9bUxEXFsBKyErTG
-      img: ''
-      appliedEffects:
-        - 4jDkvVU3ATAUvBPJ
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     AkFdHJVmKoSd1N4T:
       type: attack
       activation:
@@ -335,6 +341,7 @@ system:
         override: false
       effects:
         - _id: eS8sul6VgZx0ZSIo
+          level: {}
       range:
         value: '60'
         units: ft
@@ -348,7 +355,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -389,8 +396,12 @@ system:
       sort: 100000
       name: Cold
       _id: AkFdHJVmKoSd1N4T
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     PdykW5fR1A5cHObK:
       type: attack
       activation:
@@ -432,7 +443,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -473,8 +484,12 @@ system:
       sort: 275000
       name: Lightning
       _id: PdykW5fR1A5cHObK
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     FtLL1mhFrhJtyILq:
       type: damage
       name: Burn
@@ -499,6 +514,7 @@ system:
         override: false
       effects:
         - _id: 4jDkvVU3ATAUvBPJ
+          level: {}
       range:
         override: false
         units: self
@@ -534,9 +550,12 @@ system:
               mode: whole
               number: 1
               formula: ''
-      img: ''
-      appliedEffects:
-        - 4jDkvVU3ATAUvBPJ
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     3BaQBAKA5L40yNmp:
       type: damage
       name: Arc
@@ -594,8 +613,12 @@ system:
               - lightning
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     f37nX2iX5YiWBZBz:
       type: save
       name: Massive
@@ -651,12 +674,17 @@ system:
         parts: []
         onSave: none
       save:
-        ability: dex
+        ability:
+          - dex
         dc:
           calculation: int
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     vempaaAtG5dA6niQ:
       type: damage
       name: Overcharged
@@ -711,23 +739,31 @@ system:
             types: []
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: elemental-blast-force
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.xE5Z9TUQCBDTwK3c
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1726385696965
+  systemVersion: 5.2.0
+  createdTime: 1764610794884
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!QBHLfLXYSARewI0E'

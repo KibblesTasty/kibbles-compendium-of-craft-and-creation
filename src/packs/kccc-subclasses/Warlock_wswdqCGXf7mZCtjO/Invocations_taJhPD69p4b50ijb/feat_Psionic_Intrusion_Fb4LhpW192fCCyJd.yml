@@ -10,13 +10,13 @@ _id: Fb4LhpW192fCCyJd
 _stats:
   compendiumSource: Item.6mrHGvSnfjwmCG9n
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385614323
+  systemVersion: 5.2.0
+  createdTime: 1764610774334
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -40,8 +40,12 @@ system:
     subtype: eldritchInvocation
   prerequisites:
     level: 7
+    items: []
+    repeatable: false
   identifier: psionic-intrusion
   activities: {}
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 _key: '!items!Fb4LhpW192fCCyJd'

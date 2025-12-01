@@ -10,13 +10,13 @@ _id: WQ0ggY4sbdUOmc1W
 _stats:
   compendiumSource: Item.KSiFDBpsZasXGlvk
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1726385615465
+  systemVersion: 5.2.0
+  createdTime: 1764610775544
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -150,16 +150,17 @@ system:
           - uuid: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.vdYHjYOGbbf24q1a
         spell:
-          preparation: ''
           uses:
             max: ''
             per: ''
             requireSlot: false
           ability: []
+          prepared: 0
         restriction:
           level: ''
           type: class
           subtype: psionicDiscipline
+          list: []
       value:
         added: {}
         replaced: {}

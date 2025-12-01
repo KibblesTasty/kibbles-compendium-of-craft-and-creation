@@ -45,6 +45,8 @@ system:
   requirements: Potionsmith 1
   prerequisites:
     level: 1
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -109,24 +111,33 @@ system:
               number: null
               formula: ''
       save:
-        ability: dex
+        ability:
+          - dex
         dc:
           calculation: int
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: alchemical-fire
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.kNeKMs7r2i7uWcZx
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385669911
+  systemVersion: 5.2.0
+  createdTime: 1764610784155
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!7aY32E9WZrdIBLen'

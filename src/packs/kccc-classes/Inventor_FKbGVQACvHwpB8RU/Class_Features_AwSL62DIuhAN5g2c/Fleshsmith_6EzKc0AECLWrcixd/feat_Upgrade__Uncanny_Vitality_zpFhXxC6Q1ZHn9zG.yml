@@ -28,64 +28,21 @@ system:
       <p>If you are missing any limbs at the start of a long rest, at the end of
       the long rest the missing limbs are regenerated.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     revision: 1
     rules: '2014'
-  activation:
-    type: special
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: inst
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: self
-  range:
-    value: null
-    long: null
-    units: self
   uses:
-    value: null
     max: ''
-    per: ''
     recovery: []
     spent: 0
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: con
-  actionType: heal
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d8 + @mod
-        - ''
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   type:
     value: class
     subtype: ''
   requirements: Fleshsmith 3
-  recharge:
-    value: null
-    charged: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -121,7 +78,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -146,21 +103,30 @@ system:
           number: null
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: upgrade-uncanny-vitality
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.733OiBX2fkbsVzt8
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610813590
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!zpFhXxC6Q1ZHn9zG'

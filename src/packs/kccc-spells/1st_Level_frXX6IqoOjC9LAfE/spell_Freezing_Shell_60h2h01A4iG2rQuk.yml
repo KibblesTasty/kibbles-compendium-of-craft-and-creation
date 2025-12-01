@@ -7,9 +7,9 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedProperties:
+      - vocal
+      - somatic
 _id: 60h2h01A4iG2rQuk
 system:
   description:
@@ -23,81 +23,41 @@ system:
       using a spell slot of 2nd level or higher, both the temporary hit points
       and the cold damage increase by 5 for each slot level above 1st.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
     value: 1
+  duration:
+    value: '1'
     units: hour
-  cover: null
-  crewed: false
   target:
-    value: null
-    width: null
-    units: ''
-    type: self
     affects:
       special: ''
+      type: self
+      choice: false
     template:
       type: ''
+      units: ft
+      contiguous: false
   range:
-    value: null
-    long: null
     units: self
     special: ''
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: util
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - '5'
-        - temphp
-      - - '5'
-        - cold
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 1
   school: abj
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: level
-    formula: 5d1
   properties:
     - vocal
     - somatic
@@ -124,6 +84,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -138,7 +99,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types:
           - temphp
         custom:
@@ -149,8 +110,12 @@ system:
           mode: ''
         bonus: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     sCuiCjFinCdL8L6Z:
       type: damage
       _id: sCuiCjFinCdL8L6Z
@@ -174,6 +139,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -200,19 +166,27 @@ system:
               - cold
             scaling:
               mode: ''
+              number: 1
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: freezing-shell
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.beZ9D2iBbiYpfZ13
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610818280
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!60h2h01A4iG2rQuk'

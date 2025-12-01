@@ -17,6 +17,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 6
       proficient: 0
@@ -24,6 +34,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 12
       proficient: 0
@@ -31,6 +51,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 1
       proficient: 0
@@ -38,6 +68,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 1
       proficient: 0
@@ -45,6 +85,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 1
       proficient: 0
@@ -52,6 +102,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   bonuses:
     mwak:
       attack: ''
@@ -293,13 +353,10 @@ system:
         mode: 0
       bonus: ''
     movement:
-      burrow: null
-      climb: null
-      fly: null
-      swim: null
-      walk: 10
+      walk: '10'
       units: null
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -332,13 +389,20 @@ system:
       tempmax: null
       formula: '0'
     death:
-      ability: ''
       roll:
         min: null
         max: null
         mode: 0
       success: 0
       failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    loyalty: {}
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: ''
@@ -350,22 +414,23 @@ system:
     race: null
     type:
       value: ooze
-    environment: ''
     cr: null
-    spellLevel: 0
-    source:
-      book: KCCC
+    habitat:
       custom: ''
+      value: []
+    treasure:
+      value: []
   resources:
     legact:
-      value: 0
       max: 0
+      spent: 0
     legres:
-      value: 0
       max: 0
+      spent: 0
     lair:
       value: false
       initiative: null
+      inside: false
   traits:
     size: sm
     di:
@@ -403,8 +468,13 @@ system:
     languages:
       value: []
       custom: Understands the languages you speak
+      communication: {}
+    important: false
   source:
     rules: '2014'
+    book: KCCC
+    custom: ''
+    revision: 1
 prototypeToken:
   name: Ooze Spirit
   displayName: 0
@@ -496,66 +566,87 @@ items:
           The ooze makes a number of attacks equal to half this spell’s level
           (rounded down).
         chat: ''
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      source: {}
-      duration:
-        value: ''
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       cover: null
       crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      summons: null
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: multiattack
+      enchant: {}
     _id: nrV8OM9zhecG7OTA
     effects: []
     folder: null
@@ -565,15 +656,14 @@ items:
       pJeIW7qCa0HkURWq: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.0
-      coreVersion: '13.344'
-      createdTime: 1721364201678
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!7ll5ENZ43vRv9ZTT.nrV8OM9zhecG7OTA'
   - name: Pseudopod
     type: feat
@@ -584,69 +674,110 @@ items:
           Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft. ,
           one target. Hit: 1d4 + 3 + the spell’s level acid damage.
         chat: ''
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      range:
-        value: 5
-        units: ft
-        long: null
-      actionType: msak
       source:
         custom: ''
-      duration:
-        value: ''
-        units: ''
+        revision: 1
+        rules: '2014'
       cover: null
       crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: ''
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 1d4+3
-            - acid
-        versatile: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      summons: null
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '5'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: spell
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - number: 1
+                denomination: 4
+                bonus: '3'
+                types:
+                  - acid
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: null
+                  formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: pseudopod
+      enchant: {}
     _id: GgGRlkmJsUtJ2EiA
     effects: []
     folder: null
@@ -656,15 +787,14 @@ items:
       pJeIW7qCa0HkURWq: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.0
-      coreVersion: '13.344'
-      createdTime: 1721364201709
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!7ll5ENZ43vRv9ZTT.GgGRlkmJsUtJ2EiA'
 effects: []
 ownership:
@@ -674,15 +804,15 @@ flags:
   dnd5e:
     showTokenPortrait: false
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: 1721364201641
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: null
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610833363
+  modifiedTime: null
+  lastModifiedBy: null
 sort: 0
 _id: 7ll5ENZ43vRv9ZTT
 _key: '!actors!7ll5ENZ43vRv9ZTT'

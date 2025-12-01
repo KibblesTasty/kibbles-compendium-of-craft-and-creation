@@ -7,9 +7,10 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - somatic
+      - concentration
 _id: QoHb6iEtaDnjpkjn
 system:
   description:
@@ -25,76 +26,44 @@ system:
       hours further back in the creature's memories for each slot level above
       3rd.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
-    value: 1
+    value: '1'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
     affects:
       special: ''
+      type: creature
+      count: '1'
+      choice: false
     template:
       type: ''
+      units: ft
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
     special: ''
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical: null
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: int
-    dc: null
-    scaling: spell
   level: 3
   school: psi
-  components:
-    vocal: false
-    somatic: true
-    material: false
-    ritual: false
-    concentration: true
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - somatic
     - concentration
@@ -121,6 +90,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -143,16 +113,25 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: delve-mind
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.vjWem5qBYxqMQrlA
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610819563
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!QoHb6iEtaDnjpkjn'

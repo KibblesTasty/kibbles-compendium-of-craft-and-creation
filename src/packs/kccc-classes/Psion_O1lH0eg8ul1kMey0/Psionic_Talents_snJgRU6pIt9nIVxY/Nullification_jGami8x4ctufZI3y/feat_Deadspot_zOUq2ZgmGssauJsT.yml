@@ -14,75 +14,41 @@ system:
       @Compendium[dnd5e.spells.Eon0jzGzQRNluTPQ]{Antimagic Field}. Once you cast
       it this way, you can’t cast it again until you finish a long rest.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: psionicTalent
   requirements: Nullification 15
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 15
     items:
       - nullification-discipline
+    repeatable: false
   identifier: deadspot
+  activities: {}
+  advancement: []
+  enchant: {}
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 5.1.9
-  coreVersion: '13.350'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.WEwVr196fynXJ5vP
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610813278
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!zOUq2ZgmGssauJsT'

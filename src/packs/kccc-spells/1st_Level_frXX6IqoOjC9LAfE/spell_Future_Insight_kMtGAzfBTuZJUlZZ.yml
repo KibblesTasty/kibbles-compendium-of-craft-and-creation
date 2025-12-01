@@ -7,9 +7,9 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - somatic
 _id: kMtGAzfBTuZJUlZZ
 system:
   description:
@@ -21,76 +21,41 @@ system:
       exhausted or the spell ends. You must expend the die after the roll is
       made, but before you know the outcome of the roll.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
-    value: 10
+    value: '10'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: null
-    width: null
-    units: ''
-    type: self
     affects:
       special: ''
+      type: self
+      choice: false
     template:
       type: ''
+      units: ft
+      contiguous: false
   range:
-    value: null
-    long: null
     units: self
     special: ''
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical: null
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 1
   school: psi
-  components:
-    vocal: false
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - somatic
   activities:
@@ -115,6 +80,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -129,6 +95,12 @@ system:
       roll:
         prompt: false
         visible: false
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: utility
@@ -151,6 +123,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -169,16 +142,25 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: future-insight
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.n5kIS9TFIzbfFpcD
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610820700
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!kMtGAzfBTuZJUlZZ'

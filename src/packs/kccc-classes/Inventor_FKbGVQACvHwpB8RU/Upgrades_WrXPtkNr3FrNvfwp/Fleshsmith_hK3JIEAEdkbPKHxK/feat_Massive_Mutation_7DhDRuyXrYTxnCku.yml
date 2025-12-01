@@ -45,6 +45,8 @@ system:
   requirements: Fleshsmith 3
   prerequisites:
     level: 3
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -64,7 +66,7 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
@@ -80,7 +82,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -98,19 +100,27 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: massive-mutation
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.iHMQPsXJEiPPtKKp
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385669627
+  systemVersion: 5.2.0
+  createdTime: 1764610783917
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!7DhDRuyXrYTxnCku'

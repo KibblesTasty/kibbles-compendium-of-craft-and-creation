@@ -18,69 +18,55 @@ system:
       and all the air is lost. You can get 10 minutes of breathable air from one
       bottle.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-  range:
-    value: null
-    long: null
-    units: self
   uses:
-    value: null
     max: ''
-    per: ''
     autoDestroy: true
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  consumableType: potion
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  unidentified:
+    description: ''
+  type:
+    value: potion
+    subtype: ''
+  activities: {}
+  identifier: bottled-wind
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.OuvNL69KiFCXd8U3
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822032
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!3uHKtEV7KcFFTh26'

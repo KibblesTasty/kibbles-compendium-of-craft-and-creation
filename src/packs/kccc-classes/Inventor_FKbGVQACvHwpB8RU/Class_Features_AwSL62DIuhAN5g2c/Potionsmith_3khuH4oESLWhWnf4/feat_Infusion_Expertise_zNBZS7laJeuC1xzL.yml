@@ -16,71 +16,39 @@ system:
       otherwise have a high enough level spell slot when making this
       infusion.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Potionsmith 14
-  recharge:
-    value: null
-    charged: false
   identifier: infusion-expertise
+  activities: {}
+  advancement: []
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.qWBrwrH96XssfSwa
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610813231
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!zNBZS7laJeuC1xzL'

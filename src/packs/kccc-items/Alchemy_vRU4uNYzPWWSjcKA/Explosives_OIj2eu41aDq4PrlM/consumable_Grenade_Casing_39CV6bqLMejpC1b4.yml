@@ -19,69 +19,55 @@ system:
       the explosion + [[/damage 1d4 piercing]] damage + [[/damage 1d4 fire]]
       damage.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: uncommon
   identified: true
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
     autoDestroy: false
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  consumableType: potion
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  unidentified:
+    description: ''
+  type:
+    value: potion
+    subtype: ''
+  activities: {}
+  identifier: grenade-casing
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.HqpjldOalPUDYuqP
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822014
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!39CV6bqLMejpC1b4'

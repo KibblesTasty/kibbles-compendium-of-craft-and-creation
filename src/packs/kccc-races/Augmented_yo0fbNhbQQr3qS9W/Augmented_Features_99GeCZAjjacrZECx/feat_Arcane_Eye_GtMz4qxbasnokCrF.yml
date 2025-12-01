@@ -21,55 +21,18 @@ system:
       long rest. You can also cast these spells using any spell slots you
       have.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: Augmented
-  recharge:
-    value: null
-    charged: false
   type:
     value: race
+    subtype: ''
   advancement:
     - type: Trait
       _id: Zp3iq0jGjA81xsJ6
@@ -83,16 +46,24 @@ system:
       title: ''
       hint: ''
       value: {}
+  activities: {}
+  identifier: arcane-eye
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 5.1.0
-  coreVersion: '13.350'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.RTXwB0tDjmGhlLXS
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610823949
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!GtMz4qxbasnokCrF'

@@ -27,15 +27,14 @@ items:
           altValue: true
       core: {}
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Item.dmq10q8sy5mztjxt
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -45,52 +44,27 @@ items:
           <p><strong>Adamantine Weapons.</strong> The drake's weapon attacks are
           adamantine.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: ''
-        cost: 0
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-      consume:
-        type: ''
-        target: null
-        amount: null
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
-      attunement: null
+      activities: {}
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.AMVjxVi4aXCSaeZZ'
   - _id: lXl6u5wAJQ8N11pp
     name: Immutable Form
@@ -115,15 +89,14 @@ items:
           altValue: true
       core: {}
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Item.Z5r8QR8ai8bYpclI
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -133,52 +106,27 @@ items:
           <p><strong>Immutable Form.</strong> The drake is immune to any spell
           or effect that would alter its form.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: ''
-        cost: 0
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-      consume:
-        type: ''
-        target: null
-        amount: null
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
-      attunement: null
+      activities: {}
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.lXl6u5wAJQ8N11pp'
   - _id: ooofSmNvc7PIubxR
     name: Legendary Resistance (3/day)
@@ -209,15 +157,14 @@ items:
             resource: true
       core: {}
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Item.uYUScjhaB8j5lgHU
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -227,52 +174,91 @@ items:
           <p><strong>Legendary Resistance (3/Day).</strong> If the drake fails a
           saving throw, it can choose to succeed instead.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: special
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: attribute
-        target: resources.legres.value
-        amount: 1
-      ability: ''
-      actionType: other
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
-      attunement: null
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: special
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legres.value
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.ooofSmNvc7PIubxR'
   - _id: BSl1zWQtL6AsaxAi
     name: Crushing Descent
@@ -296,15 +282,14 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -320,51 +305,85 @@ items:
           Strength saving throws, and the drake can’t use the same claw on
           another target.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: action
-        cost: 0
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 0
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.BSl1zWQtL6AsaxAi'
   - _id: qFUhvoGtw1l7c6CM
     name: Lightning Powered
@@ -388,15 +407,14 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -407,51 +425,85 @@ items:
           lightning damage from any source, it regains 1 spent legendary
           action.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: special
-        cost: 1
-        condition: Taking 10 or more lightning damage
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: self
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: special
+            value: 1
+            condition: Taking 10 or more lightning damage
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: self
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.qFUhvoGtw1l7c6CM'
   - _id: ZgdohkwWMv3PCUnm
     name: 'Bloodied: Overcharged'
@@ -483,15 +535,14 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -505,53 +556,97 @@ items:
           turn (including the attack that bloodied it, if applicable) takes 
           [[/damage 1d12 lightning average]] damage.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: special
-        cost: 0
-        condition: The drake is reduced to
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: ''
-      actionType: other
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 1d12
-            - lightning
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: damage
+          activation:
+            type: special
+            value: 0
+            condition: The drake is reduced to
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            critical:
+              allow: false
+              bonus: ''
+            parts:
+              - number: 1
+                denomination: 12
+                bonus: ''
+                types:
+                  - lightning
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: null
+                  formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.ZgdohkwWMv3PCUnm'
   - _id: H0pTkVFuVWoysBmN
     name: Multiattack
@@ -576,15 +671,14 @@ items:
           altValue: true
       core: {}
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Item.094090din8bu19vk
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -594,52 +688,85 @@ items:
           <p><strong>Multiattack. </strong>The drake makes two attacks: one with
           its bladed tail and one with its crushing stomp.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: action
-        cost: 0
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
-      attunement: null
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 0
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.H0pTkVFuVWoysBmN'
   - _id: IzQXCl9n3wL2cz7r
     name: Bladed Tail
@@ -682,15 +809,14 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -701,56 +827,55 @@ items:
           hit, reach 15 ft., one target. <em>Hit:</em> 16 ([[/r 2d8 + 7]])
           slashing damage.</p>
         chat: ''
-        unidentified: ''
-      source: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       quantity: 1
-      weight: 0
-      price: 0
-      attunement: 0
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      attunement: ''
       equipped: true
       rarity: ''
       identified: true
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: inst
-      target:
-        value: 1
-        width: null
-        units: ''
-        type: creature
       range:
         value: 15
         long: null
         units: ft
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: ''
-      actionType: mwak
-      attackBonus: '0'
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
+        spent: 0
+        recovery: []
       damage:
-        parts:
-          - - 2d8 + @mod
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 2
+          denomination: 8
+          bonus: ''
+          types:
             - slashing
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
       armor:
         value: 10
       hp:
@@ -758,27 +883,91 @@ items:
         max: 0
         dt: null
         conditions: ''
-      weaponType: natural
-      baseItem: ''
       properties:
-        ada: true
-        amm: false
-        fin: false
-        fir: false
-        foc: false
-        hvy: true
-        lgt: false
-        lod: false
-        mgc: false
-        rch: true
-        rel: false
-        ret: false
-        sil: false
-        spc: false
-        thr: false
-        two: false
-        ver: false
-      proficient: true
+        - ada
+        - hvy
+        - rch
+      proficient: 1
+      unidentified:
+        description: ''
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '15'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: '1'
+              type: creature
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: ''
+      container: null
+      attuned: false
+      crew:
+        value: []
+      ammunition: {}
     _key: '!actors.items!gS7dlw1buv0qqW8y.IzQXCl9n3wL2cz7r'
   - _id: C6lBIAQpU0nK3yoX
     name: Crushing Stomp
@@ -822,15 +1011,14 @@ items:
             '0': true
       core: {}
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Item.CnGHl7gvz7TTvv20
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -841,56 +1029,55 @@ items:
           Attack:</em> +12 to hit, reach 5 ft., one Medium or smaller
           target.<em> Hit:</em> 13 (1d12 + 7) bludgeoning damage.</p>
         chat: ''
-        unidentified: ''
-      source: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       quantity: 1
-      weight: 0
-      price: 0
-      attunement: 0
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      attunement: ''
       equipped: true
       rarity: common
       identified: true
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: inst
-      target:
-        value: 1
-        width: null
-        units: ''
-        type: creature
       range:
         value: 5
         long: null
         units: ft
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: ''
-      actionType: mwak
-      attackBonus: '0'
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
+        spent: 0
+        recovery: []
       damage:
-        parts:
-          - - 1d12 + @mod
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 12
+          bonus: ''
+          types:
             - bludgeoning
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
       armor:
         value: 10
       hp:
@@ -898,27 +1085,90 @@ items:
         max: 0
         dt: null
         conditions: ''
-      weaponType: natural
-      baseItem: ''
       properties:
-        ada: true
-        amm: false
-        fin: false
-        fir: false
-        foc: false
-        hvy: true
-        lgt: false
-        lod: false
-        mgc: false
-        rch: false
-        rel: false
-        ret: false
-        sil: false
-        spc: false
-        thr: false
-        two: false
-        ver: false
-      proficient: true
+        - ada
+        - hvy
+      proficient: 1
+      unidentified:
+        description: ''
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '5'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: '1'
+              type: creature
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: ''
+      container: null
+      attuned: false
+      crew:
+        value: []
+      ammunition: {}
     _key: '!actors.items!gS7dlw1buv0qqW8y.C6lBIAQpU0nK3yoX'
   - _id: nBxvh4RUKdxh5zHG
     name: Arcane Nullification
@@ -943,15 +1193,14 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -963,51 +1212,86 @@ items:
           the drake must succeed on an Intelligence (Arcana) check (DC 10 + the
           level of the spell) to end it.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: 30
-        long: null
-        units: ft
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: ''
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '30'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.nBxvh4RUKdxh5zHG'
   - _id: qQeqLtQ9L8UQoQ2L
     name: Flaming Tar Breath
@@ -1049,16 +1333,17 @@ items:
             charge: true
           altValue:
             charge: true
+      dnd5e:
+        migratedUses: null
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1076,53 +1361,170 @@ items:
           can spend an action clearing the flaming tar from itself or another
           creature within 5 feet of it.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: inst
-      target:
-        value: 30
-        width: null
-        units: ft
-        type: cone
-      range:
-        value: null
-        long: null
-        units: self
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
-        max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: ''
-      actionType: save
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 13d6
-            - ''
-        versatile: ''
-      formula: 3d6
-      save:
-        ability: dex
-        dc: null
-        scaling: con
+        max: '1'
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: 5
-        charged: true
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: ''
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: cone
+              size: '30'
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts:
+              - number: 13
+                denomination: 6
+                bonus: ''
+                types: []
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: null
+                  formula: ''
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: con
+              formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        dnd5eactivity300:
+          _id: dnd5eactivity300
+          type: utility
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: ''
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: cone
+              size: '30'
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: 3d6
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.qQeqLtQ9L8UQoQ2L'
   - _id: YxxP3wfpuiW1Hc2Q
     name: Windy Flapping
@@ -1146,15 +1548,14 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1165,51 +1566,85 @@ items:
           one ranged weapon attack that would hit it. To do so, the dragon must
           see the attacker and be flying.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: reaction
-        cost: 1
-        condition: Being hit by a ranged attack.
-      duration:
-        value: null
-        units: inst
-      target:
-        value: null
-        width: null
-        units: ''
-        type: self
-      range:
-        value: null
-        long: null
-        units: self
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: reaction
+            value: 1
+            condition: Being hit by a ranged attack.
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: self
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.YxxP3wfpuiW1Hc2Q'
   - _id: wDsRbTvUSsHmYHO8
     name: 'Legendary Action: Arc'
@@ -1249,15 +1684,14 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1265,53 +1699,103 @@ items:
       description:
         value: ''
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: legendary
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: inst
-      target:
-        value: 60
-        width: null
-        units: ft
-        type: radius
-      range:
-        value: null
-        long: null
-        units: self
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: attribute
-        target: resources.legact.value
-        amount: 1
-      ability: ''
-      actionType: other
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 1d4
-            - lightning
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: damage
+          activation:
+            type: legendary
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legact.value
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: radius
+              size: '60'
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            critical:
+              allow: false
+              bonus: ''
+            parts:
+              - number: 1
+                denomination: 4
+                bonus: ''
+                types:
+                  - lightning
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: null
+                  formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.wDsRbTvUSsHmYHO8'
   - _id: hpvl196ngDTDJwdf
     name: 'Legendary Action: Tail Attack'
@@ -1340,15 +1824,14 @@ items:
           altValue:
             resource: true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1358,51 +1841,91 @@ items:
           <p><strong>Tail Attack.</strong> The drake makes a bladed tail
           attack.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: legendary
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: attribute
-        target: resources.legact.value
-        amount: 1
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: legendary
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legact.value
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.hpvl196ngDTDJwdf'
   - _id: lz648boOB7jH1pRA
     name: 'Legendary Action: Wind Up'
@@ -1439,15 +1962,14 @@ items:
           altValue:
             resource: true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1458,53 +1980,99 @@ items:
           a burst. It gains 10 temporary hit points, and it can take the Dash
           action as a bonus action on its next turn.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: legendary
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: self
-      range:
-        value: null
-        long: null
-        units: self
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: attribute
-        target: resources.legact.value
-        amount: 1
-      ability: ''
-      actionType: heal
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - '10'
-            - temphp
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: heal
+          activation:
+            type: legendary
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legact.value
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: self
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          healing:
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - temphp
+            custom:
+              enabled: true
+              formula: '10'
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.lz648boOB7jH1pRA'
   - _id: eGScHfiYGPk6Xlnn
     name: 'Legendary Action: Wing Attack'
@@ -1547,15 +2115,14 @@ items:
           altValue:
             '0': true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1568,53 +2135,106 @@ items:
           damage and be knocked prone. The drake can then fly up to half its
           flying speed.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: legendary
-        cost: 2
-        condition: ''
-      duration:
-        value: null
-        units: inst
-      target:
-        value: 10
-        width: null
-        units: ft
-        type: radius
-      range:
-        value: null
-        long: null
-        units: self
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: attribute
-        target: resources.legact.value
-        amount: 2
-      ability: ''
-      actionType: save
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 2d6 + 7
-            - ''
-        versatile: ''
-      formula: ''
-      save:
-        ability: dex
-        dc: null
-        scaling: con
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: legendary
+            value: 2
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: attribute
+                target: resources.legact.value
+                value: '2'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: radius
+              size: '10'
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts:
+              - number: 2
+                denomination: 6
+                bonus: '7'
+                types: []
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: null
+                  formula: ''
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: con
+              formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gS7dlw1buv0qqW8y.eGScHfiYGPk6Xlnn'
 effects: []
 folder: RgLgSAM7fPsrV84e
@@ -1631,36 +2251,102 @@ system:
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 8
       proficient: 1
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 23
       proficient: 1
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 12
       proficient: 0
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 15
       proficient: 1
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 8
       proficient: 1
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   attributes:
     ac:
       flat: null
@@ -1668,22 +2354,26 @@ system:
       formula: '18'
     hp:
       value: 225
-      min: 0
       max: 225
       temp: 0
       tempmax: 0
       formula: 18d12 + 108
     init:
-      value: 0
-      bonus: 0
+      bonus: '0'
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     movement:
-      burrow: 0
-      climb: 0
-      fly: 80
-      swim: 0
-      walk: 40
+      burrow: '0'
+      climb: '0'
+      fly: '80'
+      swim: '0'
+      walk: '40'
       units: ft
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -1694,25 +2384,53 @@ system:
       units: ft
       special: ''
     spellcasting: int
+    spell:
+      level: 0
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    loyalty: {}
+    hd:
+      spent: 0
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: ''
       public: ''
     alignment: unaligned
-    race: ''
+    race: null
     type:
       value: construct
       subtype: ''
       swarm: ''
       custom: ''
-    environment: ''
     cr: 16
-    spellLevel: 0
-    xp:
-      value: 10
-    source:
-      book: KCCC
+    habitat:
       custom: ''
+      value: []
+    ideal: ''
+    bond: ''
+    flaw: ''
+    treasure:
+      value: []
   traits:
     size: huge
     di:
@@ -1720,6 +2438,7 @@ system:
         - poison
         - psychic
       custom: ''
+      bypasses: []
     dr:
       value:
         - fire
@@ -1727,9 +2446,11 @@ system:
       custom: >-
         bludgeoning, piercing, and slashing from nonmagical attacks that aren’t
         adamantine
+      bypasses: []
     dv:
       value: []
       custom: ''
+      bypasses: []
     ci:
       value:
         - charmed
@@ -1742,6 +2463,11 @@ system:
     languages:
       value: []
       custom: understands the languages of its creator but can’t speak
+      communication: {}
+    dm:
+      amount: {}
+      bypasses: []
+    important: false
   currency:
     pp: 0
     gp: 0
@@ -1755,108 +2481,180 @@ system:
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ani:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     arc:
       value: 1
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ath:
       value: 1
       ability: str
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     dec:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     his:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ins:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     itm:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     inv:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     med:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     nat:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prc:
       value: 1
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prf:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     per:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     rel:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     slt:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ste:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     sur:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
   spells:
     spell1:
       value: 0
@@ -1909,16 +2707,21 @@ system:
       dc: ''
   resources:
     legact:
-      value: 2
       max: 3
+      spent: 1
     legres:
-      value: 3
       max: 3
+      spent: 0
     lair:
       value: false
       initiative: 0
+      inside: false
   source:
     rules: '2014'
+    book: KCCC
+    custom: ''
+    revision: 1
+  tools: {}
 ownership:
   default: 0
 prototypeToken:
@@ -2006,13 +2809,13 @@ prototypeToken:
     disposition: false
   movementAction: null
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Actor.xXoCvxNsvubdJqC5
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610836837
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!actors!gS7dlw1buv0qqW8y'

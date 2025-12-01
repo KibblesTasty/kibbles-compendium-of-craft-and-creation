@@ -5,13 +5,13 @@ effects:
   - name: Vorpal Weapon
     flags:
       dnd5e:
-        type: enchantment
         enchantment:
           level:
             min: null
             max: null
           riders:
             effect: []
+        persistSourceMigration: true
     _id: 8d5hEpO0DlrKcoIM
     changes:
       - key: system.magicalBonus
@@ -46,17 +46,16 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     img: icons/skills/melee/sword-stuck-glowing-pink.webp
-    type: base
+    type: enchantment
     system: {}
     sort: 0
     _key: '!items.effects!0J6UPqVYUHlPMEGU.8d5hEpO0DlrKcoIM'
@@ -65,9 +64,12 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
+      - material
+      - concentration
 _id: 0J6UPqVYUHlPMEGU
 system:
   description:
@@ -83,75 +85,40 @@ system:
       creature with less than 50 hit points, the target creature is decapitated,
       killing it.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
-    value: 1
+    value: '1'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: 1
-    width: null
-    units: ''
-    type: object
+    affects:
+      type: object
+      count: '1'
+      choice: false
+    template:
+      units: ft
+      contiguous: false
   range:
-    value: null
-    long: null
     units: touch
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: ench
-  attackBonus: 0
-  chatFlavor: ''
-  critical: null
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 5
   school: trs
-  components:
-    vocal: true
-    somatic: true
-    material: true
-    ritual: false
-    concentration: true
-    value: ''
   materials:
     value: a weapon worth at least 1 cp
     consumed: false
     cost: 0.01
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
-  enchantment:
-    restrictions:
-      allowMagical: true
-      type: weapon
   properties:
     - vocal
     - somatic
@@ -188,6 +155,7 @@ system:
             item: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -201,23 +169,32 @@ system:
         max: ''
         recovery: []
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: true
         type: weapon
         categories: []
         properties: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: vorpal-weapon
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: 1721352966452
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.wnAXSTE0arf5YLJs
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610818093
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!0J6UPqVYUHlPMEGU'

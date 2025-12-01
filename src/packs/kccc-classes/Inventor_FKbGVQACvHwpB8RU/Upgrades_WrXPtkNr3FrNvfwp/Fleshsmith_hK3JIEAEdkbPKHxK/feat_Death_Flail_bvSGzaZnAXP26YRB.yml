@@ -48,6 +48,7 @@ system:
     level: 3
     items:
       - thesis-of-flesh-perfection-of-technique
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -111,24 +112,33 @@ system:
               number: null
               formula: ''
       save:
-        ability: str
+        ability:
+          - str
         dc:
           calculation: str
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: death-flail
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.ZlDKhVPOzPMnRjLL
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1726385704280
+  systemVersion: 5.2.0
+  createdTime: 1764610800745
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!bvSGzaZnAXP26YRB'

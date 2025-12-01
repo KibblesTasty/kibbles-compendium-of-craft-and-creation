@@ -38,7 +38,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - material
@@ -70,6 +70,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -83,7 +84,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     EBKMY1bTWrxYB3ox:
       type: cast
       spell:
@@ -93,7 +99,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - material
@@ -125,6 +131,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -138,7 +145,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     2fEgul9XhdHBPPxZ:
       type: cast
       spell:
@@ -147,7 +159,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - material
@@ -179,6 +191,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -192,7 +205,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     YsPKuvKF1xcm4Pi2:
       type: cast
       spell:
@@ -202,7 +220,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - somatic
@@ -235,6 +253,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -248,7 +267,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Oxp7W7NahUZH4nm1:
       type: cast
       spell:
@@ -257,7 +281,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - material
@@ -289,6 +313,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -302,7 +327,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     AGojnezj6nptNUaN:
       type: cast
       spell:
@@ -311,7 +341,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties:
           - vocal
           - material
@@ -343,6 +373,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -356,7 +387,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     OOSyyg03Ujn8u2OY:
       type: cast
       spell:
@@ -365,7 +401,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties:
           - vocal
           - material
@@ -397,6 +433,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -410,7 +447,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     rrwv4n0RrbfuFPPl:
       type: cast
       spell:
@@ -419,7 +461,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '5'
+        level: 5
         properties:
           - vocal
           - material
@@ -451,6 +493,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -464,10 +507,17 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   advancement:
     - type: ItemGrant
@@ -484,16 +534,17 @@ system:
         spell: null
       value: {}
       level: 0
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.n4258037r3wA1FI5
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1726385692922
+  systemVersion: 5.2.0
+  createdTime: 1764610791511
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!Kq9v0VrwUAu4cXC2'

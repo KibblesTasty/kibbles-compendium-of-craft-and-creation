@@ -7,9 +7,11 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
+      - concentration
 _id: HqobWDGvMeyzbiLZ
 system:
   description:
@@ -23,74 +25,40 @@ system:
       damage and must make a Constitution saving throw, taking [[/damage 2d12
       poison]] damage on failure.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
     value: 1
+  duration:
+    value: '1'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: 5
-    width: null
-    units: ft
-    type: cube
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: cube
+      size: '5'
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical: null
-  damage:
-    parts:
-      - - 2d4
-        - piercing
-      - - 2d12
-        - poison
-    versatile: ''
-  formula: ''
-  save:
-    ability: con
-    dc: null
-    scaling: spell
   level: 4
   school: con
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: true
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
@@ -118,6 +86,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -164,16 +133,25 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: stinging-swarm
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.kFUvqWWyYzkCB1M4
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610818917
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!HqobWDGvMeyzbiLZ'

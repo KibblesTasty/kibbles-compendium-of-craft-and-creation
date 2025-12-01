@@ -7,11 +7,7 @@ folder: mmvc1uTpvZvC4kA6
 sort: 203125
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 10
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -48,6 +44,8 @@ system:
   requirements: Gadgetsmith 5
   prerequisites:
     level: 5
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -91,7 +89,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -130,19 +128,27 @@ system:
               number: null
               formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: crossbow-spider
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.rNHXA6LbWKp0sxi3
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385669504
+  systemVersion: 5.2.0
+  createdTime: 1764610783807
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!75oFhN6jcBUUabcC'

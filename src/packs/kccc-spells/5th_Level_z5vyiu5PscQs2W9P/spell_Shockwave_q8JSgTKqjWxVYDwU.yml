@@ -7,9 +7,9 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - somatic
 _id: q8JSgTKqjWxVYDwU
 system:
   description:
@@ -20,73 +20,39 @@ system:
       bludgeoning]] damage and be knocked prone. A creature that succeeds on its
       saving throw takes half as much damage and isn't knocked prone.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
-    value: null
     units: inst
-  cover: null
-  crewed: false
   target:
-    value: 30
-    width: null
-    units: ft
-    type: radius
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: radius
+      size: '30'
+      contiguous: false
   range:
-    value: null
-    long: null
     units: self
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical: null
-  damage:
-    parts:
-      - - 8d6
-        - bludgeoning
-    versatile: ''
-  formula: ''
-  save:
-    ability: str
-    dc: null
-    scaling: spell
   level: 5
   school: psi
-  components:
-    vocal: false
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -110,6 +76,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -144,16 +111,27 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: shockwave
+  properties:
+    - somatic
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.aJl1TNngJuxfo8W4
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610821076
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!q8JSgTKqjWxVYDwU'

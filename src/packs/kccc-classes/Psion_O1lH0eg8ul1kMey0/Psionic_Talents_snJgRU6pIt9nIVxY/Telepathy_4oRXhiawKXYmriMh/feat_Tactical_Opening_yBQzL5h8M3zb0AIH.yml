@@ -11,75 +11,41 @@ system:
   description:
     value: "<p>You can communicate the openings in\_ a creature’s defenses to your allies. When a creature fails a saving throw against your Telepathic Intrusion, you can take the Help action targeting that creature as a bonus action, helping another creature that you can telepathically communicate with. When you take the Help action in this way, the range of it becomes 30 feet.</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: psionicTalent
   requirements: Telepathy 5
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 5
     items:
       - telepathy-discipline
+    repeatable: false
   identifier: tactical-opening
+  activities: {}
+  advancement: []
+  enchant: {}
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 5.1.9
-  coreVersion: '13.350'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.cAns1TYHVoEO3q9h
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610812363
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!yBQzL5h8M3zb0AIH'

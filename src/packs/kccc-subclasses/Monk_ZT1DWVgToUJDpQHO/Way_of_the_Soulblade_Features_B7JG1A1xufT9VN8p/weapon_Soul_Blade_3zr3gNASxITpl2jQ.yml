@@ -10,13 +10,13 @@ _id: 3zr3gNASxITpl2jQ
 _stats:
   compendiumSource: Item.k5c1lpBP6a5zQd93
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385613778
+  systemVersion: 5.2.0
+  createdTime: 1764610773807
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -114,6 +114,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -134,10 +135,17 @@ system:
         critical: {}
         includeBase: true
         parts: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   container: null
   attuned: false
   cover: null
-  crewed: false
   ammunition: {}
   magicalBonus: null
+  crew:
+    value: []
 _key: '!items!3zr3gNASxITpl2jQ'

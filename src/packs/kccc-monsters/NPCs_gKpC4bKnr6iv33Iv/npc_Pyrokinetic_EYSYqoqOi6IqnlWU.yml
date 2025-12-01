@@ -73,16 +73,22 @@ items:
           value: false
           altValue: false
       core: {}
+      dnd5e:
+        migratedUses: 2
+        migratedProperties:
+          - vocal
+          - somatic
+          - material
+          - concentration
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Item.ht8bJRGurWnuvYfz
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -114,70 +120,117 @@ items:
           creature is thrown upward increases by 5 feet for each level above
           3rd.</p>
         chat: ''
-        unidentified: ''
-      source: Kibbles' Casting Compendium
+      source:
+        custom: Kibbles' Casting Compendium
+        revision: 1
+        rules: '2014'
       activation:
         type: action
-        cost: 1
         condition: ''
-      duration:
         value: 1
+      duration:
+        value: '1'
         units: minute
       target:
-        value: 5
-        width: null
-        units: ft
-        type: cylinder
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: cylinder
+          size: '5'
+          contiguous: false
       range:
-        value: 60
-        long: null
+        value: '60'
         units: ft
       uses:
-        value: 2
         max: '2'
-        per: day
-      consume:
-        type: charges
-        target: G5yTIQTUIDpailAD
-        amount: 1
+        spent: 0
+        recovery: []
       ability: ''
-      actionType: save
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: null
-      damage:
-        parts:
-          - - 3d6
-            - fire
-        versatile: ''
-      formula: ''
-      save:
-        ability: str
-        dc: null
-        scaling: spell
       level: 3
       school: con
-      components:
-        value: ''
-        vocal: true
-        somatic: true
-        material: true
-        ritual: false
-        concentration: true
       materials:
         value: a pinch of ashes from a forest fire
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: innate
-        prepared: true
-      scaling:
-        mode: none
-        formula: ''
-      attunement: null
+      method: innate
+      prepared: 1
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: G5yTIQTUIDpailAD
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts:
+              - number: 3
+                denomination: 6
+                bonus: ''
+                types:
+                  - fire
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: ''
+                  number: null
+                  formula: ''
+          save:
+            ability:
+              - str
+            dc:
+              calculation: spellcasting
+              formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: ''
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
     _key: '!actors.items!EYSYqoqOi6IqnlWU.G5yTIQTUIDpailAD'
   - _id: MfJUFBbWRRbpsCyG
     name: Burning Hands
@@ -218,16 +271,20 @@ items:
         quickFlavor:
           value: true
           altValue: true
+      dnd5e:
+        migratedUses: 0
+        migratedProperties:
+          - vocal
+          - somatic
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Compendium.dnd5e.spells.5SuJewoa1CRWaj1F
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -244,70 +301,113 @@ items:
           spell using a spell slot of 2nd level or higher, the damage increases
           by 1d6 for each slot level above 1st.</p>
         chat: ''
-        unidentified: ''
-      source: PHB pg. 220
+      source:
+        custom: PHB pg. 220
+        revision: 1
+        rules: '2014'
       activation:
         type: action
-        cost: 1
         condition: ''
+        value: 1
       duration:
-        value: null
         units: inst
       target:
-        value: 15
-        width: null
-        units: ft
-        type: cone
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: cone
+          size: '15'
+          contiguous: false
       range:
-        value: null
-        long: null
         units: self
       uses:
-        value: 0
         max: '0'
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
+        spent: 0
+        recovery: []
       ability: ''
-      actionType: save
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 3d6
-            - fire
-        versatile: ''
-      formula: ''
-      save:
-        ability: dex
-        dc: 0
-        scaling: spell
       level: 1
       school: evo
-      components:
-        value: ''
-        vocal: true
-        somatic: true
-        material: false
-        ritual: false
-        concentration: false
       materials:
         value: ''
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: atwill
-        prepared: true
-      scaling:
-        mode: level
-        formula: 1d6
-      attunement: null
+      method: atwill
+      prepared: 1
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: ''
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts:
+              - number: 3
+                denomination: 6
+                bonus: ''
+                types:
+                  - fire
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: '0'
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: ''
+      properties:
+        - vocal
+        - somatic
     _key: '!actors.items!EYSYqoqOi6IqnlWU.MfJUFBbWRRbpsCyG'
   - _id: iqdodDPNVElPWHTw
     name: Hellish Rebuke
@@ -345,16 +445,20 @@ items:
         quickFlavor:
           value: true
           altValue: true
+      dnd5e:
+        migratedUses: 0
+        migratedProperties:
+          - vocal
+          - somatic
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Compendium.dnd5e.spells.22dPoeXfaaAv4K3h
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -370,72 +474,116 @@ items:
           level or higher, the damage increases by 1d10 for each slot level
           above 1st.</p>
         chat: ''
-        unidentified: ''
-      source: PHB pg. 250
+      source:
+        custom: PHB pg. 250
+        revision: 1
+        rules: '2014'
       activation:
         type: reaction
-        cost: 1
         condition: >-
           Which you take in response to being damaged by a creature within 60
           feet of you that you can see
+        value: 1
       duration:
-        value: null
         units: inst
       target:
-        value: 1
-        width: null
-        units: ''
-        type: creature
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ft
+          contiguous: false
       range:
-        value: 60
-        long: 0
+        value: '60'
         units: ft
       uses:
-        value: 0
         max: '0'
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
+        spent: 0
+        recovery: []
       ability: ''
-      actionType: save
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 2d10
-            - fire
-        versatile: ''
-      formula: ''
-      save:
-        ability: dex
-        dc: 0
-        scaling: spell
       level: 1
       school: evo
-      components:
-        value: ''
-        vocal: true
-        somatic: true
-        material: false
-        ritual: false
-        concentration: false
       materials:
         value: ''
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: atwill
-        prepared: true
-      scaling:
-        mode: level
-        formula: 1d10
-      attunement: null
+      method: atwill
+      prepared: 1
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: ''
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts:
+              - number: 2
+                denomination: 10
+                bonus: ''
+                types:
+                  - fire
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: '0'
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: ''
+      properties:
+        - vocal
+        - somatic
     _key: '!actors.items!EYSYqoqOi6IqnlWU.iqdodDPNVElPWHTw'
   - _id: UBjlpijMme68nMqV
     name: Fireball
@@ -483,16 +631,21 @@ items:
           altValue:
             use: true
             resource: true
+      dnd5e:
+        migratedUses: 2
+        migratedProperties:
+          - vocal
+          - somatic
+          - material
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Compendium.dnd5e.spells.ztgcdrWPshKRpFd0
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -510,70 +663,115 @@ items:
           spell using a spell slot of 4th level or higher, the damage increases
           by 1d6 for each slot level above 3rd.</p>
         chat: ''
-        unidentified: ''
-      source: PHB pg. 241
+      source:
+        custom: PHB pg. 241
+        revision: 1
+        rules: '2014'
       activation:
         type: action
-        cost: 1
         condition: ''
+        value: 1
       duration:
-        value: null
         units: inst
       target:
-        value: 20
-        width: null
-        units: ft
-        type: sphere
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: sphere
+          size: '20'
+          contiguous: false
       range:
-        value: 150
-        long: 0
+        value: '150'
         units: ft
       uses:
-        value: 2
         max: '2'
-        per: day
-      consume:
-        type: charges
-        target: UBjlpijMme68nMqV
-        amount: 1
+        spent: 0
+        recovery: []
       ability: ''
-      actionType: save
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 8d6
-            - fire
-        versatile: ''
-      formula: ''
-      save:
-        ability: dex
-        dc: 0
-        scaling: spell
       level: 3
       school: evo
-      components:
-        value: ''
-        vocal: true
-        somatic: true
-        material: true
-        ritual: false
-        concentration: false
       materials:
         value: A tiny ball of bat guano and sulfur
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: innate
-        prepared: true
-      scaling:
-        mode: level
-        formula: 1d6
-      attunement: null
+      method: innate
+      prepared: 1
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: UBjlpijMme68nMqV
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts:
+              - number: 8
+                denomination: 6
+                bonus: ''
+                types:
+                  - fire
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: '0'
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: ''
+      properties:
+        - vocal
+        - somatic
+        - material
     _key: '!actors.items!EYSYqoqOi6IqnlWU.UBjlpijMme68nMqV'
   - _id: sNLIYWiYOrBXG1QI
     name: Flaming Sphere
@@ -621,16 +819,22 @@ items:
           altValue:
             use: true
             resource: true
+      dnd5e:
+        migratedUses: 2
+        migratedProperties:
+          - vocal
+          - somatic
+          - material
+          - concentration
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Compendium.dnd5e.spells.FjYE214HTERCRZNm
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -653,70 +857,117 @@ items:
           level or higher, the damage increases by 1d6 for each slot level above
           2nd.</p>
         chat: ''
-        unidentified: ''
-      source: PHB pg. 242
+      source:
+        custom: PHB pg. 242
+        revision: 1
+        rules: '2014'
       activation:
         type: action
-        cost: 1
         condition: ''
-      duration:
         value: 1
+      duration:
+        value: '1'
         units: minute
       target:
-        value: 5
-        width: null
-        units: ft
-        type: sphere
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: sphere
+          size: '5'
+          contiguous: false
       range:
-        value: 60
-        long: 0
+        value: '60'
         units: ft
       uses:
-        value: 2
         max: '2'
-        per: day
-      consume:
-        type: charges
-        target: sNLIYWiYOrBXG1QI
-        amount: 1
+        spent: 0
+        recovery: []
       ability: ''
-      actionType: save
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 2d6
-            - fire
-        versatile: ''
-      formula: ''
-      save:
-        ability: dex
-        dc: null
-        scaling: spell
       level: 2
       school: con
-      components:
-        value: ''
-        vocal: true
-        somatic: true
-        material: true
-        ritual: false
-        concentration: true
       materials:
         value: A bit of tallow, a pinch of brimstone, and a dusting of powdered iron
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: innate
-        prepared: true
-      scaling:
-        mode: level
-        formula: 1d6
-      attunement: null
+      method: innate
+      prepared: 1
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: sNLIYWiYOrBXG1QI
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts:
+              - number: 2
+                denomination: 6
+                bonus: ''
+                types:
+                  - fire
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: ''
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
     _key: '!actors.items!EYSYqoqOi6IqnlWU.sNLIYWiYOrBXG1QI'
   - _id: 3paP9aWgpgtd4bhh
     name: Scorching Ray
@@ -761,16 +1012,20 @@ items:
           altValue:
             use: true
             resource: true
+      dnd5e:
+        migratedUses: 2
+        migratedProperties:
+          - vocal
+          - somatic
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Compendium.dnd5e.spells.7u2obDvuvtZBkTfq
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -784,71 +1039,119 @@ items:
           using a spell slot of 3rd level or higher, you create one additional
           ray for each slot level above 2nd.</p>
         chat: ''
-        unidentified: ''
-      source: PHB pg. 273
+      source:
+        custom: PHB pg. 273
+        revision: 1
+        rules: '2014'
       activation:
         type: action
-        cost: 1
         condition: ''
+        value: 1
       duration:
-        value: null
         units: inst
       target:
-        value: 3
-        width: null
-        units: ''
-        type: creature
+        affects:
+          type: creature
+          count: '3'
+          choice: false
+        template:
+          units: ft
+          contiguous: false
       range:
-        value: 120
-        long: 0
+        value: '120'
         units: ft
       uses:
-        value: 2
         max: '2'
-        per: day
-      consume:
-        type: charges
-        target: 3paP9aWgpgtd4bhh
-        amount: 1
+        spent: 0
+        recovery: []
       ability: ''
-      actionType: rsak
-      attackBonus: '0'
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 2d6
-            - fire
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-        value: ''
       level: 2
       school: evo
-      components:
-        value: ''
-        vocal: true
-        somatic: true
-        material: false
-        ritual: false
-        concentration: false
       materials:
         value: ''
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: innate
-        prepared: true
-      scaling:
-        mode: none
-        formula: ''
-      attunement: null
+      method: innate
+      prepared: 1
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: 3paP9aWgpgtd4bhh
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: spell
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - number: 2
+                denomination: 6
+                bonus: ''
+                types:
+                  - fire
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: ''
+                  number: null
+                  formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: ''
+      properties:
+        - vocal
+        - somatic
     _key: '!actors.items!EYSYqoqOi6IqnlWU.3paP9aWgpgtd4bhh'
   - _id: bPm9t9hDnzGElnZd
     name: Wall of Fire
@@ -896,16 +1199,22 @@ items:
           altValue:
             use: true
             resource: true
+      dnd5e:
+        migratedUses: 2
+        migratedProperties:
+          - vocal
+          - somatic
+          - material
+          - concentration
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Compendium.dnd5e.spells.X3DrXgxjwI2dvkD6
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -927,70 +1236,117 @@ items:
           you cast this spell using a spell slot of 5th level or higher, the
           damage increases by 1d8 for each slot level above 4th.</p>
         chat: ''
-        unidentified: ''
-      source: PHB pg. 285
+      source:
+        custom: PHB pg. 285
+        revision: 1
+        rules: '2014'
       activation:
         type: action
-        cost: 1
         condition: ''
-      duration:
         value: 1
+      duration:
+        value: '1'
         units: minute
       target:
-        value: 60
-        width: null
-        units: ft
-        type: wall
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: wall
+          size: '60'
+          contiguous: false
       range:
-        value: 120
-        long: 0
+        value: '120'
         units: ft
       uses:
-        value: 2
         max: '2'
-        per: day
-      consume:
-        type: charges
-        target: bPm9t9hDnzGElnZd
-        amount: 1
+        spent: 0
+        recovery: []
       ability: ''
-      actionType: save
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 5d8
-            - fire
-        versatile: ''
-      formula: ''
-      save:
-        ability: dex
-        dc: 0
-        scaling: spell
       level: 4
       school: evo
-      components:
-        value: ''
-        vocal: true
-        somatic: true
-        material: true
-        ritual: false
-        concentration: true
       materials:
         value: A small piece of phosphorous
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: innate
-        prepared: true
-      scaling:
-        mode: level
-        formula: 1d8
-      attunement: null
+      method: innate
+      prepared: 1
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: bPm9t9hDnzGElnZd
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts:
+              - number: 5
+                denomination: 8
+                bonus: ''
+                types:
+                  - fire
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: '0'
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: ''
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
     _key: '!actors.items!EYSYqoqOi6IqnlWU.bPm9t9hDnzGElnZd'
   - _id: pStyCiRydtR3CglO
     name: Innate Spellcasting (Psionics)
@@ -1014,15 +1370,14 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1038,51 +1393,27 @@ items:
           <p>2/day each: <em>fire cyclone<sup>K</sup>, fireball, flaming sphere,
           scorching ray, wall of fire</em></p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: ''
-        cost: 0
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-      consume:
-        type: ''
-        target: null
-        amount: null
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities: {}
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!EYSYqoqOi6IqnlWU.pStyCiRydtR3CglO'
   - _id: NPpGVs2fNekFiPYG
     name: One with Flame
@@ -1106,15 +1437,14 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1124,51 +1454,27 @@ items:
           <p><strong>One with Flame.</strong> The pyrokinetic is immune to fire
           damage from its own spells.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: ''
-        cost: 0
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-      consume:
-        type: ''
-        target: null
-        amount: null
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities: {}
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!EYSYqoqOi6IqnlWU.NPpGVs2fNekFiPYG'
   - _id: 936KZeyhmhxYCVoQ
     name: Schism (Recharge 5–6)
@@ -1197,16 +1503,17 @@ items:
             charge: true
           altValue:
             charge: true
+      dnd5e:
+        migratedUses: null
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1219,51 +1526,91 @@ items:
           becomes bloodied (is reduced to less than half its maximum hit
           points).</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: special
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
-        max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: ''
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        max: '1'
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: 5
-        charged: true
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: special
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: ''
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!EYSYqoqOi6IqnlWU.936KZeyhmhxYCVoQ'
   - _id: 2LkIbMvXnhWmhXu4
     name: Flame Blast
@@ -1309,15 +1656,14 @@ items:
             '0': true
             '1': true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1331,58 +1677,55 @@ items:
           [[/damage 1d6 fire average]] damage at the start of each of its
           turns.</p>
         chat: ''
-        unidentified: ''
-      source: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       quantity: 1
-      weight: 0
-      price: 0
-      attunement: 0
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      attunement: ''
       equipped: true
       rarity: ''
       identified: true
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: inst
-      target:
-        value: 1
-        width: null
-        units: ''
-        type: creature
       range:
         value: 60
         long: null
         units: ft
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: int
-      actionType: rsak
-      attackBonus: '0'
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
+        spent: 0
+        recovery: []
       damage:
-        parts:
-          - - 1d10 + @mod
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 10
+          bonus: ''
+          types:
             - fire
-          - - 1d6
-            - fire
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
       armor:
         value: 10
       hp:
@@ -1390,27 +1733,100 @@ items:
         max: 0
         dt: null
         conditions: ''
-      weaponType: natural
-      baseItem: ''
-      properties:
-        ada: false
-        amm: false
-        fin: false
-        fir: false
-        foc: false
-        hvy: false
-        lgt: false
-        lod: false
-        mgc: false
-        rch: false
-        rel: false
-        ret: false
-        sil: false
-        spc: false
-        thr: false
-        two: false
-        ver: false
-      proficient: true
+      properties: []
+      proficient: 1
+      unidentified:
+        description: ''
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '60'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: '1'
+              type: creature
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: int
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: spell
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - number: 1
+                denomination: 6
+                bonus: ''
+                types:
+                  - fire
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: null
+                  formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: ''
+      container: null
+      attuned: false
+      crew:
+        value: []
+      ammunition: {}
     _key: '!actors.items!EYSYqoqOi6IqnlWU.2LkIbMvXnhWmhXu4'
   - _id: oexsfnMxKFIViEZP
     name: Multiattack
@@ -1435,15 +1851,14 @@ items:
           altValue: true
       core: {}
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Item.094090din8bu19vk
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1453,52 +1868,85 @@ items:
           <p><strong>Multiattack.</strong> The pyrokinetic makes two flame blast
           attacks.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: action
-        cost: 0
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
-      attunement: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 0
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!EYSYqoqOi6IqnlWU.oexsfnMxKFIViEZP'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -1513,36 +1961,102 @@ system:
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 14
       proficient: 0
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 14
       proficient: 0
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 20
       proficient: 1
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 12
       proficient: 1
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 16
       proficient: 0
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   attributes:
     ac:
       flat: null
@@ -1550,22 +2064,26 @@ system:
       formula: '16'
     hp:
       value: 97
-      min: 0
       max: 97
       temp: 0
       tempmax: 0
       formula: 15d8 + 30
     init:
-      value: 0
-      bonus: 0
+      bonus: '0'
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     movement:
-      burrow: 0
-      climb: 0
-      fly: 0
-      swim: 0
-      walk: 30
+      burrow: '0'
+      climb: '0'
+      fly: '0'
+      swim: '0'
+      walk: '30'
       units: ft
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -1576,36 +2094,67 @@ system:
       units: ft
       special: ''
     spellcasting: int
+    spell:
+      level: 0
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    loyalty: {}
+    hd:
+      spent: 0
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: ''
       public: ''
     alignment: Lawful Neutral
-    race: ''
+    race: null
     type:
       value: humanoid
       subtype: ''
       swarm: ''
       custom: ''
-    environment: ''
     cr: 5
-    spellLevel: 0
-    xp:
-      value: 10
-    source:
-      book: KCCC
+    habitat:
       custom: ''
+      value: []
+    ideal: ''
+    bond: ''
+    flaw: ''
+    treasure:
+      value: []
   traits:
     size: med
     di:
       value: []
       custom: ''
+      bypasses: []
     dr:
       value: []
       custom: ''
+      bypasses: []
     dv:
       value: []
       custom: ''
+      bypasses: []
     ci:
       value: []
       custom: ''
@@ -1613,6 +2162,11 @@ system:
       value:
         - common
       custom: ''
+      communication: {}
+    dm:
+      amount: {}
+      bypasses: []
+    important: false
   currency:
     pp: 0
     gp: 0
@@ -1626,108 +2180,180 @@ system:
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ani:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     arc:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ath:
       value: 0
       ability: str
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     dec:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     his:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ins:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     itm:
       value: 1
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     inv:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     med:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     nat:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prc:
       value: 1
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prf:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     per:
       value: 1
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     rel:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     slt:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ste:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     sur:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
   spells:
     spell1:
       value: 0
@@ -1780,16 +2406,21 @@ system:
       dc: ''
   resources:
     legact:
-      value: 0
       max: 0
+      spent: 0
     legres:
-      value: 0
       max: 0
+      spent: 0
     lair:
       value: false
       initiative: 0
+      inside: false
   source:
     rules: '2014'
+    book: KCCC
+    custom: ''
+    revision: 1
+  tools: {}
 ownership:
   default: 0
 prototypeToken:
@@ -1877,13 +2508,13 @@ prototypeToken:
     disposition: false
   movementAction: null
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Actor.486V9hdKFnChLxA9
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610833939
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!actors!EYSYqoqOi6IqnlWU'

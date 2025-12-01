@@ -16,69 +16,55 @@ system:
       flask breaks. You can reliably throw the flask to a target point within 30
       feet, shattering it on impact.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: 1
-    units: minute
-  target:
-    value: 20
-    width: null
-    units: ft
-    type: cube
-  range:
-    value: 30
-    long: null
-    units: ft
   uses:
-    value: null
     max: ''
-    per: ''
     autoDestroy: true
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: dex
-    dc: 12
-    scaling: flat
-  consumableType: potion
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  unidentified:
+    description: ''
+  type:
+    value: potion
+    subtype: ''
+  activities: {}
+  identifier: sticky-goo
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.jM0QCu2EyV8FfIzC
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822759
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!T5t6lQvnNMSz2LfI'

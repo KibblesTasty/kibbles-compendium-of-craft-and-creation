@@ -11,71 +11,39 @@ system:
   description:
     value: "<p>At 3rd level, you’ve attained the knowledge of forging and arcane tinkering sufficient to create a set of armor that augments and expands your abilities from a standard, non-magical, set of heavy armor using resources you’ve gathered. This process takes 8 hours to complete, requiring the use of a forge, foundry or similar and it incorporates a Warplate Gauntlet (they do not require separate attunement). While wearing your armor, your Strength ability score increases by 2, and your maximum Strength ability score becomes 22.\_</p>\n<p>You can create a new set of armor by forging it from a set of gathered and purchased materials in a process that takes 2,000 gp and 8 hours. You can create multiple sets of armor, but you can only be attuned to one of them at a given time, and you can only change which one you are attuned to during a long rest. If you create a new set of Warsmith’s Armor, you can apply a number of Upgrades equal to the value on the class table, applying each at the level you get it on the class table.</p>\n<p>When you create your armor, you can create a heavy plated Warplate, medium balanced Warsuit, light flexible Warskin, or you can integrate your changes directly into your body as Integrated Armor. If your armor is Warplate or Integrated Armor, you gain the Powerful Build trait. Powerful Build means you count as one size larger when determining your carrying capacity and the weight you can push, drag, or left. Integrated Armor can’t be removed, but doesn’t confer any penalty when resting in it.</p>\n<p>Additionally, if you are Small, you become Medium while wearing Warplate.</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Warsmith 3
-  recharge:
-    value: null
-    charged: false
   identifier: warsmiths-armor
+  activities: {}
+  advancement: []
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.0ZvC32HUzywy6ZUu
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610811953
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!xWQdnJD8GliUdJ8Q'

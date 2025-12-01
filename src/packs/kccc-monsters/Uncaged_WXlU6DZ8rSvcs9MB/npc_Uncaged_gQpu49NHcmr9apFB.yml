@@ -27,15 +27,14 @@ items:
           altValue: true
       core: {}
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Item.094090din8bu19vk
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -43,52 +42,85 @@ items:
       description:
         value: <p><strong>Multiattack. </strong>The Uncaged makes two attacks.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
-      attunement: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gQpu49NHcmr9apFB.x3OjUM04rirY35q2'
   - _id: tOVW5D1QgaOstHwo
     name: Shortsword
@@ -135,15 +167,14 @@ items:
           altValue:
             quantity: false
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Compendium.dnd5e.items.osLzOwQdPtrK3rQH
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -155,58 +186,55 @@ items:
           1d6 + 3]]) piercing damage plus [[/damage 1d8 force average]]
           damage.</p>
         chat: ''
-        unidentified: ''
-      source: PHB pg. 149
+      source:
+        custom: PHB pg. 149
+        revision: 1
+        rules: '2014'
       quantity: 1
-      weight: 2
-      price: 10
-      attunement: 0
+      weight:
+        value: 2
+        units: lb
+      price:
+        value: 10
+        denomination: gp
+      attunement: ''
       equipped: true
       rarity: common
       identified: true
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
       range:
-        value: 5
+        value: null
         long: null
         units: ft
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: ''
-      actionType: mwak
-      attackBonus: '0'
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
+        spent: 0
+        recovery: []
       damage:
-        parts:
-          - - 1d6 + @mod
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 6
+          bonus: ''
+          types:
             - piercing
-          - - 1d8
-            - force
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
       armor:
         value: 10
       hp:
@@ -214,27 +242,101 @@ items:
         max: 0
         dt: null
         conditions: ''
-      weaponType: martialM
-      baseItem: shortsword
       properties:
-        fin: true
-        lgt: true
-        amm: false
-        hvy: false
-        fir: false
-        foc: false
-        lod: false
-        rch: false
-        rel: false
-        ret: false
-        spc: false
-        thr: false
-        two: false
-        ver: false
-        ada: false
-        mgc: false
-        sil: false
-      proficient: true
+        - fin
+        - lgt
+      proficient: 1
+      unidentified:
+        description: ''
+      type:
+        value: martialM
+        baseItem: shortsword
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - number: 1
+                denomination: 8
+                bonus: ''
+                types:
+                  - force
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: null
+                  formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: ''
+      container: null
+      attuned: false
+      crew:
+        value: []
+      ammunition: {}
     _key: '!actors.items!gQpu49NHcmr9apFB.tOVW5D1QgaOstHwo'
   - _id: PkAOQc7HmSVzSDtZ
     name: Shortbow
@@ -281,15 +383,14 @@ items:
           altValue:
             quantity: false
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: Compendium.dnd5e.items.GJv6WkD7D2J6rP6M
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -300,58 +401,55 @@ items:
           +6 to hit, range 80/320 ft., one target. <em>Hit:</em> 6 ([[/r 1d6
           +3]]) piercing damage plus [[/damage 1d8 force average]] damage.</p>
         chat: ''
-        unidentified: ''
-      source: PHB pg. 149
+      source:
+        custom: PHB pg. 149
+        revision: 1
+        rules: '2014'
       quantity: 1
-      weight: 2
-      price: 25
-      attunement: 0
+      weight:
+        value: 2
+        units: lb
+      price:
+        value: 25
+        denomination: gp
+      attunement: ''
       equipped: true
       rarity: common
       identified: true
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: 0
-        units: ''
-      target:
-        value: 0
-        width: null
-        units: ''
-        type: ''
       range:
         value: 80
         long: 320
         units: ft
       uses:
-        value: null
         max: ''
-        per: ''
-      consume:
-        type: ''
-        target: ''
-        amount: null
-      ability: ''
-      actionType: rwak
-      attackBonus: '0'
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
+        spent: 0
+        recovery: []
       damage:
-        parts:
-          - - 1d6 + @mod
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 6
+          bonus: ''
+          types:
             - piercing
-          - - 1d8
-            - force
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
       armor:
         value: 10
       hp:
@@ -359,27 +457,103 @@ items:
         max: 0
         dt: null
         conditions: ''
-      weaponType: simpleR
-      baseItem: shortbow
       properties:
-        two: true
-        amm: true
-        hvy: false
-        fin: false
-        fir: false
-        foc: false
-        lgt: false
-        rch: false
-        rel: false
-        ret: false
-        spc: false
-        thr: false
-        ver: false
-        lod: false
-        ada: false
-        mgc: false
-        sil: false
-      proficient: true
+        - two
+        - amm
+      proficient: 1
+      unidentified:
+        description: ''
+      type:
+        value: simpleR
+        baseItem: shortbow
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: '0'
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '80'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: '0'
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - number: 1
+                denomination: 8
+                bonus: ''
+                types:
+                  - force
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: null
+                  formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: ''
+      container: null
+      attuned: false
+      crew:
+        value: []
+      ammunition: {}
     _key: '!actors.items!gQpu49NHcmr9apFB.PkAOQc7HmSVzSDtZ'
   - _id: LhrB7bHXJwR7Pr51
     name: Turn Resistance
@@ -403,15 +577,14 @@ items:
           value: true
           altValue: true
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -421,51 +594,27 @@ items:
           <p><strong>Turn Resistance. </strong>The Uncaged has advantage on
           saving throws against any effect that turns undead.</p>
         chat: ''
-        unidentified: ''
-      source: ''
-      activation:
-        type: ''
-        cost: 0
-        condition: ''
-      duration:
-        value: null
-        units: ''
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-      consume:
-        type: ''
-        target: null
-        amount: null
-      ability: null
-      actionType: ''
-      attackBonus: 0
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities: {}
+      advancement: []
+      identifier: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+      properties: []
+      type:
+        value: ''
+        subtype: ''
     _key: '!actors.items!gQpu49NHcmr9apFB.LhrB7bHXJwR7Pr51'
 effects:
   - _id: fixlo6eZrteWduNT
@@ -488,15 +637,14 @@ effects:
     flags: {}
     tint: '#ffffff'
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     name: Natural Armor
     img: icons/magic/defensive/shield-barrier-blue.webp
     type: base
@@ -517,36 +665,102 @@ system:
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 16
       proficient: 0
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 18
       proficient: 1
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 10
       proficient: 0
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 14
       proficient: 1
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 8
       proficient: 0
       bonuses:
         check: ''
         save: ''
+      max: null
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   attributes:
     ac:
       flat: null
@@ -554,22 +768,26 @@ system:
       formula: '17'
     hp:
       value: 68
-      min: 0
       max: 68
       temp: null
       tempmax: 0
       formula: 8d8 + 32
     init:
-      value: 0
-      bonus: 0
+      bonus: '0'
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     movement:
-      burrow: 0
-      climb: 0
-      fly: 0
-      swim: 0
-      walk: 30
+      burrow: '0'
+      climb: '0'
+      fly: '0'
+      swim: '0'
+      walk: '30'
       units: ft
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -580,40 +798,71 @@ system:
       units: ft
       special: ''
     spellcasting: int
+    spell:
+      level: 0
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    loyalty: {}
+    hd:
+      spent: 0
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: ''
       public: ''
     alignment: Neutral Evil
-    race: ''
+    race: null
     type:
       value: undead
       subtype: ''
       swarm: ''
       custom: ''
-    environment: ''
     cr: 5
-    spellLevel: 0
-    xp:
-      value: 10
-    source:
-      book: KCCC
+    habitat:
       custom: ''
+      value: []
+    ideal: ''
+    bond: ''
+    flaw: ''
+    treasure:
+      value: []
   traits:
     size: med
     di:
       value:
         - necrotic
       custom: ''
+      bypasses: []
     dr:
       value:
         - cold
         - force
         - physical
       custom: ''
+      bypasses: []
     dv:
       value: []
       custom: ''
+      bypasses: []
     ci:
       value:
         - charmed
@@ -626,6 +875,11 @@ system:
         - common
         - deep
       custom: ''
+      communication: {}
+    dm:
+      amount: {}
+      bypasses: []
+    important: false
   currency:
     pp: 0
     gp: 0
@@ -639,108 +893,180 @@ system:
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ani:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     arc:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ath:
       value: 1
       ability: str
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     dec:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     his:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ins:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     itm:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     inv:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     med:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     nat:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prc:
       value: 1
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prf:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     per:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     rel:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     slt:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ste:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     sur:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
   spells:
     spell1:
       value: 0
@@ -793,16 +1119,21 @@ system:
       dc: ''
   resources:
     legact:
-      value: 0
       max: 0
+      spent: 0
     legres:
-      value: 0
       max: 0
+      spent: 0
     lair:
       value: false
       initiative: 0
+      inside: false
   source:
     rules: '2014'
+    book: KCCC
+    custom: ''
+    revision: 1
+  tools: {}
 ownership:
   default: 0
 prototypeToken:
@@ -890,13 +1221,13 @@ prototypeToken:
     disposition: false
   movementAction: null
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Actor.T1uhrC8WcwxCqm4P
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610836722
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!actors!gQpu49NHcmr9apFB'

@@ -12,71 +12,62 @@ system:
   description:
     value: "<p>Drinking this potion allows you to zip around for 1 minute as pure electricity. As a bonus action on each of your turns before the effect ends, you can transform into a bolt of lightning and instantly travel in a straight line to an unoccupied space you can see within 30 feet. This movement doesn’t provoke opportunity attacks and you are immune to lightning damage while in this form.\_</p>\n<p>You can pass through small holes, narrow openings, and even mere cracks, as well as through conductive materials such as metal. Each creature in your travel path must succeed on a DC 15 Dexterity saving throw, or take [[/damage 3d6 lightning]] damage. You immediately revert to your normal form upon reaching the destination. This potion’s stormy liquid arcs with tiny bolts of lightning and it numbs the tongue when sipped.</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: rare
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  target:
-    value: null
-    width: null
-    units: ''
-    type: self
-  range:
-    value: null
-    long: null
-    units: self
   uses:
-    value: null
     max: ''
-    per: ''
     autoDestroy: false
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts:
-      - - 3d6
+    base:
+      number: 3
+      denomination: 6
+      bonus: ''
+      types:
         - lightning
-    versatile: ''
-  formula: ''
-  save:
-    ability: dex
-    dc: 15
-    scaling: flat
-  consumableType: potion
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    replace: false
+  unidentified:
+    description: ''
+  type:
+    value: potion
+    subtype: ''
+  activities: {}
+  identifier: liquid-lightning
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.uqIvUw0EIcmHUIQx
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822206
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!77otmZspT6WaDc9b'

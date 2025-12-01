@@ -13,7 +13,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - somatic
@@ -34,6 +34,7 @@ system:
           - type: material
             value: '1'
             target: ''
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -42,6 +43,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -55,7 +57,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -118,11 +125,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1737922262888
+  systemVersion: 5.2.0
+  createdTime: 1764610822393
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!CHFpxWeQqLWjQMVp'

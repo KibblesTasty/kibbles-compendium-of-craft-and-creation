@@ -10,13 +10,13 @@ _id: oKBCLMhOZg6RrFHg
 _stats:
   compendiumSource: Item.MVlHLWlwQb7QyM8T
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1726385616321
+  systemVersion: 5.2.0
+  createdTime: 1764610776384
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -91,8 +91,10 @@ system:
           - type: itemUses
             value: '5'
             target: font-of-magic
+            scaling: {}
           - type: itemUses
             value: '1'
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -128,10 +130,18 @@ system:
         name: ''
         formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _key: '!items!oKBCLMhOZg6RrFHg'

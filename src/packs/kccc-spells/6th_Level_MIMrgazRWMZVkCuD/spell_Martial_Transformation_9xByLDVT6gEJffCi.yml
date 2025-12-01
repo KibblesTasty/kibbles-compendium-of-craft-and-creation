@@ -7,9 +7,11 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
+      - material
 _id: 9xByLDVT6gEJffCi
 system:
   description:
@@ -49,73 +51,39 @@ system:
       <p>Immediately after the spell ends, you must succeed on a DC 15
       Constitution saving throw or suffer one level of exhaustion.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
-    value: 10
+    value: '10'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: null
-    width: null
-    units: ''
-    type: self
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ft
+      contiguous: false
   range:
-    value: null
-    long: null
     units: self
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: heal
-  attackBonus: 0
-  chatFlavor: ''
-  critical: null
-  damage:
-    parts:
-      - - '50'
-        - temphp
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 6
   school: trs
-  components:
-    vocal: true
-    somatic: true
-    material: true
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: a few hairs from a bull
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
@@ -143,6 +111,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -169,16 +138,25 @@ system:
           number: null
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: martial-transformation
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.G7Nn8V6OCns2kThq
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610818490
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!9xByLDVT6gEJffCi'

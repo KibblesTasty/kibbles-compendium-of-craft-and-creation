@@ -7,83 +7,48 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
 _id: Plh223jKRmEmeXq8
 system:
   description:
     value: "<p>You prick a target with a tiny magical fang of venom. Make a melee spell attack against a creature within reach. On a hit, the target takes [[/damage 4d12 poison]] damage and must succeed on a Constitution saving throw or becoming poisoned for 1 minute. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the target is no longer poisoned.</p>\n<p>If you miss your melee attack roll, you can concentrate (as if concentrating on a spell) to maintain the attack for another attempt until the end of your next turn. (You may make subsequent attempts until you hit or lose concentration)</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 4th level or higher, the damage increases by [[/r 1d12]] for each slot level above 3rd.</p>\n<p>\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
     value: 1
-    width: null
-    units: ''
-    type: creature
+  duration:
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ft
+      contiguous: false
   range:
-    value: null
-    long: null
     units: touch
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: msak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 4d12
-        - poison
-    versatile: ''
-  formula: ''
-  save:
-    ability: con
-    dc: null
-    scaling: spell
   level: 3
   school: trs
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: level
-    formula: +1d12
   properties:
     - vocal
     - somatic
@@ -110,6 +75,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -149,6 +115,12 @@ system:
               number: null
               formula: +1d12
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     dnd5eactivity100:
       _id: dnd5eactivity100
       type: save
@@ -171,6 +143,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -205,16 +178,25 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: spider-bite
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.jZxnjEVx4EYOHYqj
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610819516
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!Plh223jKRmEmeXq8'

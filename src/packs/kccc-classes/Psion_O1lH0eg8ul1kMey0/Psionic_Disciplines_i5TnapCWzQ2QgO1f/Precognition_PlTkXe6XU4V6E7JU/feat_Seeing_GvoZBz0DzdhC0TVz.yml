@@ -53,13 +53,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: 1727210986578
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!GvoZBz0DzdhC0TVz.PwwDU2Z1LX1n9tCx'
 folder: PlTkXe6XU4V6E7JU
 sort: 50000
@@ -178,8 +177,12 @@ system:
               number: null
               formula: 1d8
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     rIlioO5GTaE3QhxX:
       type: utility
       name: Omniscient
@@ -208,6 +211,7 @@ system:
         override: false
       effects:
         - _id: PwwDU2Z1LX1n9tCx
+          level: {}
       range:
         override: false
         units: self
@@ -232,24 +236,31 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects:
-        - PwwDU2Z1LX1n9tCx
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: seeing
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.eVXJHujOpU2bdanR
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1726385690409
+  systemVersion: 5.2.0
+  createdTime: 1764610789610
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!GvoZBz0DzdhC0TVz'

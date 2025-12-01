@@ -7,9 +7,11 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
+      - material
 _id: SvOp331tPU7c4g4P
 system:
   description:
@@ -30,62 +32,35 @@ system:
       be moved once placed; any attempt to move it results in it detonating
       unless the caster that set it disarms it with an action.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: minute
-    cost: 1
     condition: ''
+    value: 1
   duration:
-    value: 8
+    value: '8'
     units: hour
-  cover: null
-  crewed: false
   target:
-    value: 20
-    width: null
-    units: ft
-    type: sphere
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: sphere
+      size: '20'
+      contiguous: false
   range:
-    value: null
-    long: null
     units: touch
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical: null
-  damage:
-    parts:
-      - - 5d8
-        - fire
-    versatile: ''
-  formula: ''
-  save:
-    ability: dex
-    dc: null
-    scaling: spell
   level: 3
   school: abj
-  components:
-    vocal: true
-    somatic: true
-    material: true
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: >-
       Any tiny nonmagical item, which is destroyed by the activation of the
@@ -93,12 +68,6 @@ system:
     consumed: true
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
@@ -126,6 +95,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -160,16 +130,25 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: fireburst-mine
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.liGvNLTRjWz67e7Y
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610819676
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!SvOp331tPU7c4g4P'

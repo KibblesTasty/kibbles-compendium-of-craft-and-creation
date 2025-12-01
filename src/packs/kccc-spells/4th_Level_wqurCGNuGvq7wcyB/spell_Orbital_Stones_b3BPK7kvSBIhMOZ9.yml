@@ -7,9 +7,11 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 3
+    migratedProperties:
+      - vocal
+      - somatic
+      - concentration
 _id: b3BPK7kvSBIhMOZ9
 system:
   description:
@@ -24,75 +26,39 @@ system:
       attack roll. On hit, the target takes [[/damage 3d10 bludgeoning]] damage
       and is knocked backward 5 feet.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
-    value: null
-    units: ''
-  cover: null
-  crewed: false
+    units: inst
   target:
-    value: null
-    width: null
-    units: ''
-    type: self
+    affects:
+      type: self
+      choice: false
+    template:
+      units: ft
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
   uses:
-    value: 3
     max: '3'
-    per: charges
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: rsak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 3d10
-        - bludgeoning
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 4
   school: trs
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: true
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
@@ -120,6 +86,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -159,16 +126,25 @@ system:
               number: null
               formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: orbital-stones
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.C05PnMUfe46ypjxM
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610820090
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!b3BPK7kvSBIhMOZ9'

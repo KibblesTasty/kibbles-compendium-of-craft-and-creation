@@ -17,6 +17,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 1
       proficient: 0
@@ -24,6 +34,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 1
       proficient: 0
@@ -31,6 +51,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 15
       proficient: 1
@@ -38,6 +68,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 15
       proficient: 0
@@ -45,6 +85,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 15
       proficient: 0
@@ -52,6 +102,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   bonuses:
     mwak:
       attack: ''
@@ -303,13 +363,14 @@ system:
         mode: 0
       bonus: ''
     movement:
-      burrow: 0
-      climb: 0
-      fly: 30
-      swim: 0
-      walk: 0
+      burrow: '0'
+      climb: '0'
+      fly: '30'
+      swim: '0'
+      walk: '0'
       units: null
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -342,13 +403,20 @@ system:
       tempmax: 0
       formula: '0'
     death:
-      ability: ''
       roll:
         min: null
         max: null
         mode: 0
       success: 0
       failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    loyalty: {}
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: ''
@@ -360,24 +428,23 @@ system:
     race: null
     type:
       value: aberration
-    environment: ''
     cr: 1
-    spellLevel: 0
-    source:
-      book: KCCC
-      page: ''
-      custom: XP
-      license: ''
+    habitat:
+      custom: ''
+      value: []
+    treasure:
+      value: []
   resources:
     legact:
-      value: 0
       max: 0
+      spent: 0
     legres:
-      value: 0
       max: 0
+      spent: 0
     lair:
       value: false
       initiative: null
+      inside: false
   traits:
     size: tiny
     di:
@@ -417,8 +484,15 @@ system:
     languages:
       value: []
       custom: Telepathy 60 ft.
+      communication: {}
+    important: false
   source:
     rules: '2014'
+    book: KCCC
+    page: ''
+    custom: XP
+    license: ''
+    revision: 1
 prototypeToken:
   name: Flickering Madness
   displayName: 0
@@ -510,66 +584,28 @@ items:
           The flickering madness can pass through a narrow gap in a surface, as
           if becoming two-dimensional along the surface.
         chat: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       cover: null
       crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      summons: null
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities: {}
+      advancement: []
+      identifier: folding-space
+      enchant: {}
     _id: xIZDWEq5FG1RRlet
     effects: []
     folder: null
@@ -579,15 +615,14 @@ items:
       pJeIW7qCa0HkURWq: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.1
-      coreVersion: '13.344'
-      createdTime: 1721840734720
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!EdQWoxy1XNs2Stn7.xIZDWEq5FG1RRlet'
   - name: Spider Climb
     type: feat
@@ -598,66 +633,28 @@ items:
           The flickering madness can climb difficult surfaces, including upside
           down on ceilings, without needing to make an ability check.
         chat: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       cover: null
       crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      summons: null
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities: {}
+      advancement: []
+      identifier: spider-climb
+      enchant: {}
     _id: 1FfIISjeBMux1Qgv
     effects: []
     folder: null
@@ -667,15 +664,14 @@ items:
       pJeIW7qCa0HkURWq: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.1
-      coreVersion: '13.344'
-      createdTime: 1721840734796
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!EdQWoxy1XNs2Stn7.1FfIISjeBMux1Qgv'
   - name: Innate Psionics
     type: feat
@@ -688,66 +684,28 @@ items:
           following spells, requiring no components: At will: message, vicious
           mockery.
         chat: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       cover: null
       crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      summons: null
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities: {}
+      advancement: []
+      identifier: innate-psionics
+      enchant: {}
     _id: gAXgibynUEcvq5w3
     effects: []
     folder: null
@@ -757,15 +715,14 @@ items:
       pJeIW7qCa0HkURWq: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.1
-      coreVersion: '13.344'
-      createdTime: 1721840734846
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!EdQWoxy1XNs2Stn7.gAXgibynUEcvq5w3'
   - name: Abstract Existence
     type: feat
@@ -787,65 +744,90 @@ items:
         page: ''
         custom: ''
         license: ''
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
+        revision: 1
+        rules: '2014'
       cover: null
       crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: ''
-      actionType: save
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: wis
-        dc: null
-        scaling: spell
-      summons: null
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: ''
+            value: null
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      advancement: []
+      identifier: abstract-existence
+      enchant: {}
     effects: []
     folder: null
     sort: 0
@@ -854,15 +836,14 @@ items:
       pJeIW7qCa0HkURWq: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.1
-      coreVersion: '13.344'
-      createdTime: 1721840784290
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!EdQWoxy1XNs2Stn7.suPr52GgmL8bIw4L'
   - name: Arcane Vulnerability
     type: feat
@@ -879,65 +860,27 @@ items:
         page: ''
         custom: ''
         license: ''
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
+        revision: 1
+        rules: '2014'
       cover: null
       crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: ''
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      summons: null
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities: {}
+      advancement: []
+      identifier: arcane-vulnerability
+      enchant: {}
     effects: []
     folder: null
     sort: 0
@@ -946,15 +889,14 @@ items:
       pJeIW7qCa0HkURWq: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.1
-      coreVersion: '13.344'
-      createdTime: 1721840846504
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!EdQWoxy1XNs2Stn7.GpCImL9K2cXFA83v'
 effects: []
 ownership:
@@ -964,15 +906,15 @@ flags:
     showTokenPortrait: false
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: 1721840734641
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: null
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610834061
+  modifiedTime: null
+  lastModifiedBy: null
 _id: EdQWoxy1XNs2Stn7
 sort: 0
 _key: '!actors!EdQWoxy1XNs2Stn7'

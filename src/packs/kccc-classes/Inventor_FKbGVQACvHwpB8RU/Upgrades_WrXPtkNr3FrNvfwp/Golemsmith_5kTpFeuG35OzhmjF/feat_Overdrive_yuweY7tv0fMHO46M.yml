@@ -21,64 +21,25 @@ system:
       rounds equal to your Intelligence modifier. Once you overcharge your golem
       in this way, you can’t do so again until you finish a long rest.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     revision: 1
     rules: '2014'
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: spec
   cover: null
   crewed: false
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: ''
     recovery: []
     spent: 0
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   type:
     value: class
     subtype: upgrade
   requirements: Golemsmith 9
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 9
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -103,7 +64,7 @@ system:
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -114,7 +75,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -132,19 +93,26 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: overdrive
   enchant: {}
   properties: []
+  advancement: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.YQCo90g5toTrHZQo
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610813010
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!yuweY7tv0fMHO46M'

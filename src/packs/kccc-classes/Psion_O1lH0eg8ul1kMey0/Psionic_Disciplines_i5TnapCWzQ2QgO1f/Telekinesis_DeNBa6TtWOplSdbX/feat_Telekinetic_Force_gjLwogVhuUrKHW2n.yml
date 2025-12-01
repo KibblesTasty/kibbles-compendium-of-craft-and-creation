@@ -32,13 +32,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: 1727212926023
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!gjLwogVhuUrKHW2n.qb86jj71udGdUBMP'
 folder: DeNBa6TtWOplSdbX
 sort: 200000
@@ -97,6 +96,7 @@ system:
       effects:
         - _id: qb86jj71udGdUBMP
           onSave: false
+          level: {}
       range:
         value: '60'
         units: ft
@@ -110,7 +110,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creatureOrObject
@@ -138,15 +138,19 @@ system:
               number: 1
               formula: ''
       save:
-        ability: str
+        ability:
+          - str
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
       name: ''
-      img: ''
-      appliedEffects:
-        - qb86jj71udGdUBMP
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     1eixnFrkgOvORsZf:
       type: save
       activation:
@@ -177,6 +181,7 @@ system:
       effects:
         - _id: qb86jj71udGdUBMP
           onSave: false
+          level: {}
       range:
         value: '60'
         units: self
@@ -217,31 +222,39 @@ system:
               mode: ''
               number: 1
       save:
-        ability: str
+        ability:
+          - str
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
       name: Zone of Telekinetic Force
       _id: 1eixnFrkgOvORsZf
-      img: ''
-      appliedEffects:
-        - qb86jj71udGdUBMP
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: telekinetic-force
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.LjTkmiapHLdymDwd
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1726385707178
+  systemVersion: 5.2.0
+  createdTime: 1764610802885
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!gjLwogVhuUrKHW2n'

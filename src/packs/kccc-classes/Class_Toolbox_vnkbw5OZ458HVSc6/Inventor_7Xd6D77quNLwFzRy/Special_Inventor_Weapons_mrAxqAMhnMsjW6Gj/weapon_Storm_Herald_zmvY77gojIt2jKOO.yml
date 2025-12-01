@@ -40,48 +40,17 @@ system:
   equipped: false
   rarity: rare
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: ''
-    units: inst
   cover: null
-  crewed: false
-  target:
-    value: '1'
-    width: null
-    units: ''
-    type: creature
-    prompt: true
   range:
     value: null
     long: 180
     units: ft
     reach: 60
   uses:
-    value: null
     max: ''
-    per: null
     recovery: []
-    prompt: true
     spent: 0
-  consume:
-    type: ''
-    target: ''
-    amount: null
-    scale: false
-  ability: ''
-  actionType: rwak
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
   damage:
-    parts:
-      - - 1d12 + @mod
-        - piercing
     versatile:
       number: null
       denomination: null
@@ -107,11 +76,6 @@ system:
         mode: ''
         number: null
         formula: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   armor:
     value: 10
   hp:
@@ -131,13 +95,8 @@ system:
   type:
     value: simpleM
     baseItem: ''
-  attack:
-    bonus: ''
-    flat: false
   container: null
   attuned: false
-  enchantment: null
-  summons: null
   magicalBonus: 1
   activities:
     dnd5eactivity000:
@@ -176,7 +135,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -203,20 +162,28 @@ system:
         includeBase: true
         parts: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: storm-herald
   ammunition: {}
+  crew:
+    value: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: 1721844037868
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: null
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610813543
+  modifiedTime: null
+  lastModifiedBy: null
 _id: zmvY77gojIt2jKOO
 sort: 0
 _key: '!items!zmvY77gojIt2jKOO'

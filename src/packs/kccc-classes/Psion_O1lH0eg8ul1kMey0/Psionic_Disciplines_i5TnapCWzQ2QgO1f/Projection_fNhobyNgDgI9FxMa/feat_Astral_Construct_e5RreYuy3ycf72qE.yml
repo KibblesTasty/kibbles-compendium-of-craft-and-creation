@@ -36,13 +36,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: 1727212148275
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!e5RreYuy3ycf72qE.HfKFOIqWGEiI1SRX'
 folder: fNhobyNgDgI9FxMa
 sort: 150000
@@ -161,7 +160,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -199,8 +198,12 @@ system:
               number: 1
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     O4lkpuXz6c2Qgg9w:
       type: summon
       _id: O4lkpuXz6c2Qgg9w
@@ -254,6 +257,7 @@ system:
         attacks: true
         proficiency: false
         saves: true
+        disposition: false
       profiles:
         - count: ''
           name: ''
@@ -267,10 +271,14 @@ system:
       summon:
         prompt: true
         mode: ''
-        identifier: psion
       name: ''
-      img: ''
-      appliedEffects: []
+      visibility:
+        identifier: psion
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      flags: {}
     WpLHprwQG1lL0jGd:
       type: save
       name: Grab
@@ -300,6 +308,7 @@ system:
       effects:
         - _id: HfKFOIqWGEiI1SRX
           onSave: false
+          level: {}
       range:
         override: false
         units: ft
@@ -325,27 +334,36 @@ system:
         parts: []
         onSave: half
       save:
-        ability: str
+        ability:
+          - str
         dc:
           calculation: int
           formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: astral-construct
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.6sHj9JlUWziFnsZD
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1726385705478
+  systemVersion: 5.2.0
+  createdTime: 1764610801525
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!e5RreYuy3ycf72qE'

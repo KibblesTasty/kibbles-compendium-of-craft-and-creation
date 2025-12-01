@@ -22,6 +22,7 @@ system:
           - type: material
             value: '1'
             target: ''
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -57,8 +58,12 @@ system:
           calculation: ''
           formula: '12'
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -117,11 +122,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1737920523986
+  systemVersion: 5.2.0
+  createdTime: 1764610823135
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!g7By14ocBmZKwLMM'

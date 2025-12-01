@@ -16,71 +16,62 @@ system:
       with the thrown (20/60) property, dealing [[/damage 3d10 fire]] damage on
       hit. You do not add your modifier to the damage roll.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0.1
-  price: 140
-  attunement: 0
+  weight:
+    value: 0.1
+    units: lb
+  price:
+    value: 140
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: uncommon
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-  range:
-    value: 20
-    long: 60
-    units: ft
   uses:
-    value: null
     max: ''
-    per: ''
     autoDestroy: true
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: rwak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts:
-      - - 3d10
+    base:
+      number: 3
+      denomination: 10
+      bonus: ''
+      types:
         - fire
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  consumableType: potion
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    replace: false
+  unidentified:
+    description: ''
+  type:
+    value: potion
+    subtype: ''
+  activities: {}
+  identifier: alchemical-fire-potent
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.hKmvn7Mi6G89AVDd
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822528
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!IcaGPLOyo6WCZAUd'

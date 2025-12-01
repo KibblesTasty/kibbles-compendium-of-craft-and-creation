@@ -32,6 +32,7 @@ system:
     level: 2
     items:
       - telekinesis-discipline
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -68,7 +69,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -107,19 +108,27 @@ system:
               number: null
               formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: kinetic-slam
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.D02kkFzz11FWtJ5c
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1726385708955
+  systemVersion: 5.2.0
+  createdTime: 1764610804295
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!k0MAuUXrJbLv1Z16'

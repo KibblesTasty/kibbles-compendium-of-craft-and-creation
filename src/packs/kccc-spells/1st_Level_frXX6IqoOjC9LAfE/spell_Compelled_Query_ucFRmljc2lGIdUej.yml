@@ -7,9 +7,8 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedProperties:
+      - somatic
 _id: ucFRmljc2lGIdUej
 system:
   description:
@@ -21,78 +20,42 @@ system:
       the saving throw against this spell for each time it has been used on them
       in the past 24 hours.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
     value: 1
-    width: null
-    units: ''
-    type: creature
+  duration:
+    units: inst
+  target:
     affects:
       special: ''
+      type: creature
+      count: '1'
+      choice: false
     template:
       type: ''
+      units: ft
+      contiguous: false
   range:
-    value: 30
-    long: null
+    value: '30'
     units: ft
     special: ''
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: null
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 1
   school: psi
-  components:
-    vocal: false
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - somatic
   activities:
@@ -118,6 +81,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -140,8 +104,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: utility
@@ -164,6 +132,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -182,16 +151,25 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: compelled-query
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.5XnwpQz8nrYbMVAr
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610821148
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!ucFRmljc2lGIdUej'

@@ -27,69 +27,55 @@ system:
       control of it. If this damage kills you, your soul is dragged to the realm
       of the fiends by the malignant will of the fiend.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0.1
-  price: 680
-  attunement: 0
+  weight:
+    value: 0.1
+    units: lb
+  price:
+    value: 680
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: rare
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: 1
-    units: hour
-  target:
-    value: null
-    width: null
-    units: ''
-    type: self
-  range:
-    value: null
-    long: null
-    units: self
   uses:
-    value: null
     max: ''
-    per: ''
     autoDestroy: true
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  consumableType: potion
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  unidentified:
+    description: ''
+  type:
+    value: potion
+    subtype: ''
+  activities: {}
+  identifier: draught-of-damnation
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.SbXlvDln6T1z3NSK
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822174
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!73QwF3yMGhxH9w7Y'

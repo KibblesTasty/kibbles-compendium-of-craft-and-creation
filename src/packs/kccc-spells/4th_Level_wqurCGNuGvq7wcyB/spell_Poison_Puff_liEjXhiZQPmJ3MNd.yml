@@ -7,9 +7,10 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
 _id: liEjXhiZQPmJ3MNd
 system:
   description:
@@ -22,80 +23,43 @@ system:
       lightly obscured until the start of your turn, and any creature that ends
       its turn within the area takes 2d4 poison damage.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
     value: 1
+  duration:
+    value: '1'
     units: round
-  cover: null
-  crewed: false
   target:
-    value: 30
-    width: null
-    units: ft
-    type: cone
     affects:
       type: ''
+      choice: false
     template:
       count: ''
+      units: ft
+      type: cone
+      size: '30'
+      contiguous: false
   range:
-    value: null
-    long: null
     units: self
     special: ''
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical: null
-  damage:
-    parts:
-      - - 4d12
-        - poison
-      - - 2d4
-        - poison
-    versatile: ''
-  formula: ''
-  save:
-    ability: con
-    dc: null
-    scaling: spell
   level: 4
   school: trs
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
@@ -121,6 +85,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -155,6 +120,12 @@ system:
           formula: ''
       name: ''
       _id: KNMVxEdF7IQL2Pnx
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     mbwU7GgGD2yRwD3r:
       type: damage
       sort: 0
@@ -177,6 +148,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -206,16 +178,25 @@ system:
               number: 1
       name: ''
       _id: mbwU7GgGD2yRwD3r
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: poison-puff
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.FbKPVxzfcWPZdp9y
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610820881
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!liEjXhiZQPmJ3MNd'

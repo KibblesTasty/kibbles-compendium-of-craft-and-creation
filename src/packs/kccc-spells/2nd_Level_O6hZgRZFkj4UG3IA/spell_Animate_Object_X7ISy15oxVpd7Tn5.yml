@@ -7,9 +7,11 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
+      - concentration
 _id: X7ISy15oxVpd7Tn5
 system:
   description:
@@ -41,80 +43,44 @@ system:
       object drops to 0 hit points, it reverts to its original object form, and
       any remaining damage carries over to its original object form.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
-    value: 1
+    value: '1'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: 1
-    width: null
-    units: ''
-    type: object
     affects:
       special: ''
+      type: object
+      count: '1'
+      choice: false
     template:
       type: ''
+      units: ft
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
     special: ''
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: msak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d4 +@mod
-        - bludgeoning
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 2
   school: abj
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: true
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
@@ -142,6 +108,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -168,25 +135,36 @@ system:
         proficiency: false
         saves: false
         ability: ''
+        disposition: false
       profiles:
         - uuid: >-
             Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.WQYVtkePinwZxzwF
+          _id: H4Lq0RXr7LX9DSCT
+          level: {}
+          types: []
       summon:
         prompt: true
         mode: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: animate-object
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.CTAMDVwf0gjibAir
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610819932
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!X7ISy15oxVpd7Tn5'

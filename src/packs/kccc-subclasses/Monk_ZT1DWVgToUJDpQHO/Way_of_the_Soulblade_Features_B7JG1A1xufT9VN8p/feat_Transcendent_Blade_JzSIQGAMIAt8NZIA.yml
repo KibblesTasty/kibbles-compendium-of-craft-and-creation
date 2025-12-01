@@ -43,12 +43,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: dnd5e
-      systemVersion: 5.1.9
-      createdTime: 1761096341826
-      modifiedTime: null
+      systemVersion: 5.2.0
       lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!JzSIQGAMIAt8NZIA.bDbFcVzDo2GVmcuD'
 folder: B7JG1A1xufT9VN8p
 sort: 112500
@@ -58,13 +57,13 @@ _id: JzSIQGAMIAt8NZIA
 _stats:
   compendiumSource: Item.0ztF6QtGu7GtusGH
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1726385614563
+  systemVersion: 5.2.0
+  createdTime: 1764610774575
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -147,8 +146,12 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     TRcpO9JhBa6pihoP:
       type: enchant
       _id: TRcpO9JhBa6pihoP
@@ -170,6 +173,11 @@ system:
         override: false
       effects:
         - _id: bDbFcVzDo2GVmcuD
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
       range:
         units: self
         override: false
@@ -190,17 +198,24 @@ system:
         max: ''
       enchant:
         self: false
-        identifier: ''
       restrictions:
         allowMagical: false
         categories: []
         properties: []
         type: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _key: '!items!JzSIQGAMIAt8NZIA'

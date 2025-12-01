@@ -32,6 +32,8 @@ system:
     subtype: psionicTalent
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Psionic Synthesis, Consumption Discipline, Telepathy Discipline
   activities:
@@ -54,12 +56,12 @@ system:
       duration:
         concentration: false
         value: ''
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -70,7 +72,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -88,8 +90,16 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: parasitic-nightmare
   enchant: {}
+  advancement: []
+  crewed: false
 effects: []
 sort: 0
 ownership:
@@ -102,11 +112,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385675981
+  systemVersion: 5.2.0
+  createdTime: 1764610787141
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!CvbLBn0vx6xzJyuk'

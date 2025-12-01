@@ -8,75 +8,32 @@ sort: -781
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 2
 system:
   description:
     value: "<p>After dealing thunder damage on your turn, you can create a burst of thunderous sound that can be heard up to 100 feet away as a bonus action. Each creature within 5 feet, other than you, must make a Constitution saving throw or take [[/damage 3d6 thunder]] damage You can do this a number of times equal to your Intelligence modifier, regaining all uses after a long rest. This damage increases by 1d6 when you reach 17th level to a total of [[/r 4d6]].\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     revision: 1
     rules: '2014'
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
   cover: null
   crewed: false
-  target:
-    value: 5
-    width: null
-    units: ft
-    type: radius
-  range:
-    value: null
-    long: null
-    units: self
   uses:
-    value: 2
     max: '2'
-    per: lr
     recovery:
       - period: lr
         type: recoverAll
     spent: 0
-  consume:
-    type: charges
-    target: ''
-    amount: null
-  ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 3d6
-        - thunder
-    versatile: ''
-  formula: ''
-  save:
-    ability: con
-    dc: null
-    scaling: spell
   type:
     value: class
     subtype: upgrade
   requirements: Thundersmith 11
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 11
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -146,24 +103,32 @@ system:
               number: null
               formula: ''
       save:
-        ability: con
+        ability:
+          - con
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: backblast
   enchant: {}
   properties: []
+  advancement: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.t3x6toPpIcPYBQ37
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610813186
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!zGNx3usjLzNCNc9k'

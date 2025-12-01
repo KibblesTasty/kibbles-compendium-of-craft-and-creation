@@ -7,9 +7,10 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
 _id: 2ZWwxaD6X8F8r2TW
 system:
   description:
@@ -27,80 +28,43 @@ system:
       using a spell slot of 2nd level or higher, the damage increases by [[/r
       1d10]] for each slot level above 1st.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
     value: 1
+  duration:
+    value: '1'
     units: round
-  cover: null
-  crewed: false
   target:
-    value: null
-    width: null
-    units: ''
-    type: self
     affects:
       special: ''
+      type: self
+      choice: false
     template:
       type: ''
+      units: ft
+      contiguous: false
   range:
-    value: 5
-    long: null
+    value: '5'
     units: ft
     special: ''
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: msak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 2d10
-        - bludgeoning
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 1
   school: trs
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: level
-    formula: 1d10
   properties:
     - vocal
     - somatic
@@ -127,6 +91,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -166,16 +131,25 @@ system:
               number: 1
               formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: stone-fist
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.wreCSIfMpc0kIJHa
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610818184
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!2ZWwxaD6X8F8r2TW'

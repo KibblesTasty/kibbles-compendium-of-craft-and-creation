@@ -43,13 +43,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1744838285195
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!ap3cOcCkDoRFMfEh.L1JiGp0ALfqwAqRx'
 folder: kkK138bcC9Kc8xfX
 sort: 112500
@@ -88,59 +87,35 @@ system:
       <p>You can eat a number of pieces of this jerky equal to your Constitution
       modifier per day.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: uncommon
   identified: true
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
     autoDestroy: false
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  consumableType: food
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
   activities:
     pqQpqsrKxDveAyIB:
       type: save
@@ -190,10 +165,12 @@ system:
               enabled: false
               formula: ''
             number: 2
-            denomination: '6'
+            denomination: 6
             bonus: ''
             types:
               - fire
+            scaling:
+              number: 1
         onSave: half
       save:
         ability: []
@@ -201,8 +178,12 @@ system:
           calculation: dex
           formula: '13'
       name: Exhale Fire
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     wYYAm79nwLxXAIui:
       type: utility
       _id: wYYAm79nwLxXAIui
@@ -219,6 +200,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -227,6 +209,7 @@ system:
         override: false
       effects:
         - _id: L1JiGp0ALfqwAqRx
+          level: {}
       range:
         override: false
         units: self
@@ -251,18 +234,31 @@ system:
         name: ''
         formula: ''
       name: Consume
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  unidentified:
+    description: ''
+  type:
+    value: food
+    subtype: ''
+  identifier: flame-breathing-jerky
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.3.8
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.7nablrcHCtzu5B3b
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822975
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!ap3cOcCkDoRFMfEh'

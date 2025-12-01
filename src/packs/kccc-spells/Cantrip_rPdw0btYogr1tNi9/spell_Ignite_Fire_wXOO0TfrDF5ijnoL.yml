@@ -7,9 +7,10 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedProperties:
+      - vocal
+      - somatic
+      - concentration
 _id: wXOO0TfrDF5ijnoL
 system:
   description:
@@ -23,80 +24,44 @@ system:
       damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8),
       and 17th level (4d8)</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
     value: 1
+  duration:
+    value: '1'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: 5
-    width: null
-    units: ft
-    type: cube
     affects:
       type: ''
+      choice: false
     template:
       count: ''
+      units: ft
+      type: cube
+      size: '5'
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
     special: ''
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d8
-        - fire
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 0
   school: con
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: true
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: cantrip
-    formula: 1d8
   properties:
     - vocal
     - somatic
@@ -124,6 +89,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -142,12 +108,13 @@ system:
               enabled: false
               formula: ''
             number: 1
-            denomination: '8'
+            denomination: 8
             bonus: ''
             types:
               - fire
             scaling:
               mode: whole
+              number: 1
         onSave: none
       save:
         ability:
@@ -156,18 +123,25 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: ignite-fire
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.pLNNEwyUjciZsa5D
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610821276
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!wXOO0TfrDF5ijnoL'

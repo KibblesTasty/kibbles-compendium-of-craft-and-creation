@@ -37,12 +37,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.347'
+      coreVersion: '13.351'
       systemId: dnd5e
-      systemVersion: 5.1.0
-      createdTime: 1755110135945
-      modifiedTime: null
+      systemVersion: 5.2.0
       lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!wmdaw0hE1VphACyj.PDelCovBA2vhvwf9'
 folder: AwSL62DIuhAN5g2c
 sort: 46875
@@ -55,71 +54,39 @@ system:
       that you ignore all class requirements on the use of magic items.
       Additionally, you can now attune to up to four magic items at once.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Inventor 7
-  recharge:
-    value: null
-    charged: false
   identifier: wondrous-item-proficiency
+  activities: {}
+  advancement: []
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.hxeWG8EWVZ2mbHyO
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610811600
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!wmdaw0hE1VphACyj'

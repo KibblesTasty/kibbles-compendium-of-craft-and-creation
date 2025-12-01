@@ -25,15 +25,14 @@ system:
   school: con
   activation:
     condition: ''
-    cost: 1
     type: bonus
+    value: 1
   duration:
     units: minute
     value: '1'
   range:
     units: ft
-    value: 5
-    long: null
+    value: '5'
     special: ''
   source:
     custom: ''
@@ -41,56 +40,21 @@ system:
     page: ''
     license: ''
     rules: '2014'
-  cover: null
-  crewed: false
+    revision: 1
   target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
     affects:
       type: ''
+      choice: false
     template:
       type: ''
+      units: ft
+      contiguous: false
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    recovery: []
+    spent: 0
   properties:
     - somatic
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   activities:
     J0oCSnyq2MnYgGA5:
       type: utility
@@ -113,6 +77,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -128,27 +93,31 @@ system:
         prompt: false
         visible: false
       _id: J0oCSnyq2MnYgGA5
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: glyph-of-translocation
 folder: W6XLqLAP7CJCppah
 flags:
-  dnd5e:
-    migratedProperties:
-      - somatic
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 _id: wEtDu0SCyarmhmnx
 effects: []
 sort: 0
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: 1721845408822
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: null
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610821252
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!wEtDu0SCyarmhmnx'

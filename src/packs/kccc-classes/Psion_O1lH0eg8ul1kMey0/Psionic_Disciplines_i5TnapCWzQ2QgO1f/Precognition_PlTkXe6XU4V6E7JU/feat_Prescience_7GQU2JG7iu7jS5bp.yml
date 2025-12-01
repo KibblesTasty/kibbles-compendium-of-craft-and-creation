@@ -35,13 +35,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.347'
-      systemId: dnd5e
-      systemVersion: 5.1.0
-      createdTime: 1727210025025
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!7GQU2JG7iu7jS5bp.XUyAja6XAuK0DDJN'
   - name: Prescience
     img: icons/magic/perception/eye-slit-orange.webp
@@ -77,13 +76,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: 1727211534834
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!7GQU2JG7iu7jS5bp.PuDzZ4FeII5jA3vU'
 folder: PlTkXe6XU4V6E7JU
 sort: 0
@@ -145,6 +143,7 @@ system:
         override: false
       effects:
         - _id: PuDzZ4FeII5jA3vU
+          level: {}
       range:
         override: false
         units: self
@@ -169,11 +168,17 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   advancement:
     - type: Trait
@@ -188,16 +193,17 @@ system:
       title: ''
       hint: ''
       value: {}
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.TwvwUvyIR1eepFG6
   duplicateSource: null
-  coreVersion: '13.347'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.0
-  createdTime: 1726385669686
+  systemVersion: 5.2.0
+  createdTime: 1764610783971
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!7GQU2JG7iu7jS5bp'

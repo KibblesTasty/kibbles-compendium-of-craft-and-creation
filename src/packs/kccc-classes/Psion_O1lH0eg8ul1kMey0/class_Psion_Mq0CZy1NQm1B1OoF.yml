@@ -18,8 +18,6 @@ system:
     revision: 1
   identifier: psion
   levels: 1
-  hitDice: d6
-  hitDiceUsed: 0
   advancement:
     - _id: 3q7f78ztc3lpoo88
       type: HitPoints
@@ -735,16 +733,21 @@ system:
   primaryAbility:
     value: []
     all: true
+  hd:
+    denomination: d6
+    spent: 0
+    additional: ''
+  properties: []
 ownership:
   default: 0
 _stats:
   compendiumSource: Compendium.dnd5e.classes.6VoZrWxhOEKGYhnq
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1726385694628
+  systemVersion: 5.2.0
+  createdTime: 1764610792978
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!Mq0CZy1NQm1B1OoF'

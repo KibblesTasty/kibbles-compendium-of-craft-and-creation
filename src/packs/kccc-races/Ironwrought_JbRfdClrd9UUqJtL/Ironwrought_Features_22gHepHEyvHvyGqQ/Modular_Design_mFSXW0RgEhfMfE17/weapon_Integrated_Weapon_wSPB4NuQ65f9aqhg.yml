@@ -11,56 +11,48 @@ system:
   description:
     value: ''
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
   range:
     value: null
     long: null
-    units: ''
+    units: ft
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
   armor:
     value: 10
   hp:
@@ -68,37 +60,76 @@ system:
     max: 0
     dt: null
     conditions: ''
-  weaponType: simpleM
-  baseItem: ''
-  properties:
-    ada: false
-    amm: false
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: false
-    lod: false
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: false
-    thr: false
-    two: false
-    ver: false
-  proficient: true
+  properties: []
+  proficient: 1
+  unidentified:
+    description: ''
+  type:
+    value: simpleM
+    baseItem: ''
+  activities:
+    bP4BGRnvu0d4n0pu:
+      _id: bP4BGRnvu0d4n0pu
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  identifier: integrated-weapon
+  container: null
+  attuned: false
+  crew:
+    value: []
+  ammunition: {}
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.350'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.fDvSl9vAyPLEqB5h
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610824377
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!wSPB4NuQ65f9aqhg'

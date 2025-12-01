@@ -5,13 +5,13 @@ effects:
   - name: Arcane Weapon
     flags:
       dnd5e:
-        type: enchantment
         enchantment:
           level:
             min: null
             max: null
           riders:
             effect: []
+        persistSourceMigration: true
     _id: dovPyBC9SoaiStR0
     changes:
       - key: system.properties
@@ -41,17 +41,16 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     img: icons/magic/symbols/runes-etched-steel-blade.webp
-    type: base
+    type: enchantment
     system: {}
     sort: 0
     _key: '!items.effects!Kp0HrTkC2BnT6Dzc.dovPyBC9SoaiStR0'
@@ -84,22 +83,22 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.2.2
-      createdTime: 1737758759140
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!Kp0HrTkC2BnT6Dzc.6Rg7z8UiBi2xCjIb'
 folder: frXX6IqoOjC9LAfE
 sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
 _id: Kp0HrTkC2BnT6Dzc
 system:
   description:
@@ -114,80 +113,43 @@ system:
       you use a spell slot of 5th level or higher, the duration becomes 24
       hours.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
-    value: 1
+    value: '1'
     units: hour
-  cover: null
-  crewed: false
   target:
-    value: 1
-    width: null
-    units: ''
-    type: object
     affects:
       special: ''
+      type: object
+      count: '1'
+      choice: false
     template:
       type: ''
+      units: ft
+      contiguous: false
   range:
-    value: null
-    long: null
     units: touch
     special: ''
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: ench
-  attackBonus: 0
-  chatFlavor: ''
-  critical: null
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 1
   school: trs
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
-  enchantment:
-    restrictions:
-      allowMagical: true
-      type: ''
   properties:
     - vocal
     - somatic
@@ -213,8 +175,14 @@ system:
         override: false
       effects:
         - _id: 6Rg7z8UiBi2xCjIb
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -227,16 +195,20 @@ system:
         spent: 0
         recovery: []
         max: ''
-      enchant: {}
+      enchant:
+        self: false
       restrictions:
         allowMagical: true
         categories: []
         properties: []
         type: weapon
       name: ''
-      img: ''
-      appliedEffects:
-        - 6Rg7z8UiBi2xCjIb
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: enchant
@@ -267,6 +239,7 @@ system:
             item: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -280,23 +253,32 @@ system:
         max: ''
         recovery: []
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: true
         type: ''
         categories: []
         properties: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: arcane-weapon
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: 1721351127405
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.VrGvTT3z4qMnjwRQ
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610819120
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!Kp0HrTkC2BnT6Dzc'

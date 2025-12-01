@@ -37,6 +37,8 @@ system:
   requirements: Potionsmith 3
   prerequisites:
     level: 3
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -73,7 +75,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: object
@@ -91,19 +93,27 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: weapon-coating
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.8EcW8SEtywaCGnVs
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385696372
+  systemVersion: 5.2.0
+  createdTime: 1764610794401
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!P4YbL4a0CM8GoTzG'

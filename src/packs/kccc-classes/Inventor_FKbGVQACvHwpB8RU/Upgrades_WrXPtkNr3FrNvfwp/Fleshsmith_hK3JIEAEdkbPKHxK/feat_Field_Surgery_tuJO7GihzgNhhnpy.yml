@@ -37,6 +37,8 @@ system:
   requirements: Fleshsmith 3
   prerequisites:
     level: 3
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -72,7 +74,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -97,6 +99,12 @@ system:
           number: null
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     dnd5eactivity300:
       _id: dnd5eactivity300
       type: utility
@@ -131,7 +139,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -149,19 +157,27 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: field-surgery
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.h9a4zXrNdwnblp9J
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385715823
+  systemVersion: 5.2.0
+  createdTime: 1764610810053
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!tuJO7GihzgNhhnpy'

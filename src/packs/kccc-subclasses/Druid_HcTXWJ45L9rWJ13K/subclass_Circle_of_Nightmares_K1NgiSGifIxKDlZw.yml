@@ -10,13 +10,13 @@ _id: K1NgiSGifIxKDlZw
 _stats:
   compendiumSource: Item.0PB5PXCxWsW3A3DB
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.1
-  createdTime: 1726385614585
+  systemVersion: 5.2.0
+  createdTime: 1764610774598
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -80,12 +80,13 @@ system:
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.q4y6ERr3SBxm6zWt
         optional: false
         spell:
-          preparation: innate
           uses:
             max: '@prof'
             per: lr
             requireSlot: false
           ability: []
+          method: innate
+          prepared: 0
       value: {}
       level: 6
       title: Features

@@ -25,13 +25,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     name: 'Upgrade: Reinforced Armor'
     img: icons/equipment/chest/breastplate-gorget-steel.webp
     type: base
@@ -67,20 +66,24 @@ system:
   requirements: Warsmith 3
   prerequisites:
     level: 3
+    items: []
+    repeatable: false
   identifier: reinforced-armor
   activities: {}
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.bkjJN3pWRy1OtMOK
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385705316
+  systemVersion: 5.2.0
+  createdTime: 1764610801430
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!dzNKHqpJVH6M1Jhp'

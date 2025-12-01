@@ -17,6 +17,7 @@ system:
     custom: ''
     license: ''
     rules: '2014'
+    revision: 1
   identified: true
   unidentified:
     description: ''
@@ -32,76 +33,37 @@ system:
   attunement: ''
   attuned: false
   equipped: false
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
+    recovery: []
     autoDestroy: false
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ench
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
   damage:
-    parts: []
-    versatile: ''
-  enchantment:
-    classIdentifier: ''
-    restrictions:
-      allowMagical: false
-      type: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
   type:
     value: potion
     subtype: ''
   magicalBonus: null
   properties: []
+  activities: {}
+  identifier: silver-oil
 effects:
   - name: Silver Oil
     flags:
       dnd5e:
-        type: enchantment
         enchantment:
           level:
             min: null
             max: null
           riders:
             effect: []
+        persistSourceMigration: true
     _id: V3xI9dX1gnJtNM1D
     changes:
       - key: system.properties
@@ -131,17 +93,16 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     img: icons/consumables/potions/vial-ornet-silver-black.webp
-    type: base
+    type: enchantment
     system: {}
     sort: 0
     _key: '!items.effects!CUJMatRPq1cetx4r.V3xI9dX1gnJtNM1D'
@@ -150,13 +111,13 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: 1721349016905
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: null
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822409
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!CUJMatRPq1cetx4r'

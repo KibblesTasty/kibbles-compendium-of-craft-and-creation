@@ -14,67 +14,38 @@ system:
       light, and in darkness as if it were dim light. You can’t discern color in
       darkness, only shades of gray.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: Ironwrought
-  recharge:
-    value: null
-    charged: false
   type:
     value: race
+    subtype: ''
   prerequisites:
     level: null
+    items: []
+    repeatable: false
+  activities: {}
+  advancement: []
+  identifier: night-mode
+  crewed: false
+  enchant: {}
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 5.1.0
-  coreVersion: '13.350'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.aZNufbQQLwOXwkbK
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610824052
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!ThfdbhRovHIZUyr8'

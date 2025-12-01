@@ -25,59 +25,56 @@ system:
       <p><strong>Loud.</strong> Your weapon rings with thunder that is audible
       within 300 feet of you whenever it makes an attack.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: uncommon
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
   range:
     value: 60
     long: 180
     units: ft
   uses:
-    value: null
     max: ''
-    per: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: rwak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts:
-      - - 1d12
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 12
+      bonus: ''
+      types:
         - piercing
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   armor:
     value: 10
   hp:
@@ -85,37 +82,79 @@ system:
     max: 0
     dt: null
     conditions: ''
-  weaponType: martialR
-  baseItem: ''
   properties:
-    ada: false
-    amm: true
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: false
-    lod: true
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: false
-    thr: false
-    two: true
-    ver: false
-  proficient: true
+    - amm
+    - lod
+    - two
+  proficient: 1
+  unidentified:
+    description: ''
+  type:
+    value: martialR
+    baseItem: ''
+  activities:
+    tX4u7sop1zp6Pamv:
+      _id: tX4u7sop1zp6Pamv
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  identifier: thunder-cannon
+  container: null
+  attuned: false
+  crew:
+    value: []
+  ammunition: {}
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.kT3HgqzwZvySbVdC
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610823435
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!sGKLTmYpcvzhQOsJ'

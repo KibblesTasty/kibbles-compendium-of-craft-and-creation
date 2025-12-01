@@ -38,13 +38,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     img: icons/magic/control/silhouette-hold-change-blue.webp
     type: base
     system: {}
@@ -62,13 +61,13 @@ _id: BhvGIHdgGBwRDMVN
 _stats:
   compendiumSource: Item.CvlgqhlyZsCO1qpX
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.3.8
-  createdTime: 1726385614130
+  systemVersion: 5.2.0
+  createdTime: 1764610774152
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -135,7 +134,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -153,9 +152,19 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: clarity-of-purpose
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _key: '!items!BhvGIHdgGBwRDMVN'

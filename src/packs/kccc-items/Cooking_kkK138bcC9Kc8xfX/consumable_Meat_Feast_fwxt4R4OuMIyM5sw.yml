@@ -11,69 +11,55 @@ system:
   description:
     value: "<p><em>Meat/Hearty/Superb/Legendary</em></p>\n<p><em>Food (feast), uncommon/rare/very rare/legendary</em></p>\n<p>Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. Consuming the essence of a properly prepared creature of great power\_confers some of its power to you while satiated by the feast.</p>\n<p>You can add +1/+2/+3/+4 to ability checks and saving throws of the prepared creatures highest stat (if multiple stats are tied, the cook chooses which when preparing the meal). Alternatively, the cook can bring forth exotic properties of the creature, conferring one trait of the cooked animal to those that consume it as per the following table (this replaces the benefit to ability checks and saves):</p>\n<table style=\"width:100%;height:85px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:29.9427%;height:17px;text-align:center\"><strong>Minimum Rarity</strong></td>\n<td style=\"width:70.0573%;height:17px;text-align:center\"><strong>Creature Boon</strong></td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:29.9427%;height:17px;text-align:center\">uncommon</td>\n<td style=\"width:70.0573%;height:17px;text-align:center\">Hold Breath, Keen Senses, Pounce, Stone Camouflage</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:29.9427%;height:17px;text-align:center\">rare</td>\n<td style=\"width:70.0573%;height:17px;text-align:center\">Amphibious/Water Breathing, Web Walker</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:29.9427%;height:17px;text-align:center\">very rare</td>\n<td style=\"width:70.0573%;height:17px;text-align:center\">Pack Tactics, Spider Climb</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:29.9427%;height:17px;text-align:center\">legendary</td>\n<td style=\"width:70.0573%;height:17px;text-align:center\">Magic Resistance, Regeneration, Shapechanger(Mimic)</td>\n</tr>\n</tbody>\n</table>\n<p>The details from the creature boon can be found on the creature stat block. The cook must be aware of the creature’s property to make the meal imbue that property, and the GM may adjust the property in cases where it would not work for players or be too powerful as written. At the GM’s discretion, any ability can be added to this list.</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: uncommon
   identified: true
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
     autoDestroy: false
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  consumableType: food
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  unidentified:
+    description: ''
+  type:
+    value: food
+    subtype: ''
+  activities: {}
+  identifier: meat-feast
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.mlfEiZvFzkYTz4Fc
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610823120
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!fwxt4R4OuMIyM5sw'

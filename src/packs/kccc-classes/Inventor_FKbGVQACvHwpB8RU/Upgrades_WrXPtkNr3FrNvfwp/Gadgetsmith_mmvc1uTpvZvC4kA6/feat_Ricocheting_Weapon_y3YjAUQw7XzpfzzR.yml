@@ -26,52 +26,13 @@ system:
     book: KCCC
     custom: ''
     rules: '2014'
-  activation:
-    type: ''
-    cost: 1
-    condition: ''
-  duration:
-    value: ''
-    units: inst
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: '2'
-    width: null
-    units: ''
-    type: creature
-    prompt: true
-  range:
-    value: 30
-    long: 90
-    units: ft
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: ''
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d8 + @mod
-        - slashing
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   properties:
     - fin
     - ret
@@ -79,29 +40,26 @@ system:
   type:
     value: class
     subtype: upgrade
-  attack:
-    bonus: ''
-    flat: false
-  enchantment: null
-  summons: null
   prerequisites:
     level: 1
+    items: []
+    repeatable: false
   requirements: Gadgetsmith 1
-  recharge:
-    value: null
-    charged: false
   identifier: ricocheting-weapon
+  activities: {}
+  advancement: []
+  enchant: {}
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: 1721837383546
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.zJETR4oJfKO2cl6L
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610812315
+  modifiedTime: null
+  lastModifiedBy: null
 _id: y3YjAUQw7XzpfzzR
 _key: '!items!y3YjAUQw7XzpfzzR'

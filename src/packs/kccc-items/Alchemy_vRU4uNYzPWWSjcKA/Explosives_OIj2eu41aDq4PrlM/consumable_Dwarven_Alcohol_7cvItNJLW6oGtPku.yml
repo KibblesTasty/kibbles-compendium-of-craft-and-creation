@@ -18,71 +18,62 @@ system:
       [[/damage 2d4 fire]] damage to all creatures within 5 feet of the
       container, or within a square that has been soaked with it.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: special
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  target:
-    value: 5
-    width: null
-    units: ft
-    type: cube
-  range:
-    value: 5
-    long: null
-    units: ft
   uses:
-    value: null
     max: ''
-    per: ''
     autoDestroy: false
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: other
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts:
-      - - 2d4
+    base:
+      number: 2
+      denomination: 4
+      bonus: ''
+      types:
         - fire
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  consumableType: potion
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    replace: false
+  unidentified:
+    description: ''
+  type:
+    value: potion
+    subtype: ''
+  activities: {}
+  identifier: dwarven-alcohol
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.1Q3TgYz5lnp9eNmw
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822238
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!7cvItNJLW6oGtPku'

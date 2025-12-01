@@ -7,9 +7,10 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
 _id: UONMjAYFak72x81C
 system:
   description:
@@ -23,75 +24,40 @@ system:
       using a spell slot of 3rd level or higher, the damage increases by [[/r
       1d12]] for each slot level above 2nd.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
     value: 1
-    width: null
-    units: ''
-    type: creature
+  duration:
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ft
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: rsak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 3d12
-        - poison
-    versatile: ''
-  formula: ''
-  save:
-    ability: con
-    dc: null
-    scaling: spell
   level: 2
   school: trs
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: level
-    formula: +1d12
   properties:
     - vocal
     - somatic
@@ -118,6 +84,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -157,6 +124,12 @@ system:
               number: null
               formula: +1d12
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     dnd5eactivity100:
       _id: dnd5eactivity100
       type: save
@@ -179,6 +152,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -213,16 +187,25 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: poison-dart
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.WlBdSchlkQyKGH0T
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610819755
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!UONMjAYFak72x81C'

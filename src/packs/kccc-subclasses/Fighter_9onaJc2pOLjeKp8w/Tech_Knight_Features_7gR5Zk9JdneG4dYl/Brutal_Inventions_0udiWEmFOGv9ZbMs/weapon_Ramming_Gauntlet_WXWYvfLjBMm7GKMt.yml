@@ -14,13 +14,13 @@ _id: WXWYvfLjBMm7GKMt
 _stats:
   compendiumSource: Item.rhdxLhwlHk8b2xj5
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1726385615492
+  systemVersion: 5.2.0
+  createdTime: 1764610775566
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -123,6 +123,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -143,6 +144,12 @@ system:
         critical: {}
         includeBase: true
         parts: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     UOLHt1cxmuepAsyI:
       type: attack
       name: Power Attack
@@ -167,6 +174,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -206,13 +214,18 @@ system:
               - bludgeoning
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   container: null
   attuned: false
   cover: null
-  crewed: false
   ammunition: {}
   magicalBonus: null
   mastery: ''
+  crew:
+    value: []
 _key: '!items!WXWYvfLjBMm7GKMt'

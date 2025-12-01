@@ -92,11 +92,11 @@ system:
       style="font-size:14px">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.vKzmv3fAM8VIVlzl]{Upgrades:
       Titan Slayer}</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   identifier: golemsmith
   classIdentifier: inventor
   advancement:
@@ -285,6 +285,7 @@ system:
         restriction:
           type: class
           subtype: upgrade
+          list: []
       value:
         added: {}
         replaced: {}
@@ -298,16 +299,17 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.KDVS2jD2eCDn42QY
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610813810
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!zz6QIeEAtrbWfiOY'

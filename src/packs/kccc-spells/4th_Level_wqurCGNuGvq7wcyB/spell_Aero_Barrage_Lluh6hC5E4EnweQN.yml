@@ -7,83 +7,49 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
 _id: Lluh6hC5E4EnweQN
 system:
   description:
     value: "<p>You create four lances of rapidly spinning condensed wind and hurl them at targets within range. You can hurl them at one target or several.</p>\n<p>Make a ranged spell attack for each lance. On a hit, the target takes [[/damage 2d8 slashing]] damage and is knocked 10 feet backwards.</p>\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 5th level or higher, you create one additional lance for each slot level above 4th.</p>\n<p>\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
     value: 1
-    width: null
-    units: ''
-    type: creature
+  duration:
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ft
+      contiguous: false
   range:
-    value: 120
-    long: null
+    value: '120'
     units: ft
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: rwak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 2d8
-        - slashing
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 4
   school: trs
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: true
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
@@ -110,6 +76,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -149,16 +116,25 @@ system:
               number: null
               formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 1
+  identifier: aero-barrage
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.JcoTb1knLkg96109
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610819322
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!Lluh6hC5E4EnweQN'

@@ -14,13 +14,13 @@ _id: jFSBq9RJyKB6w0Wb
 _stats:
   compendiumSource: Item.LQgpqvfQfBASYKnN
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385616038
+  systemVersion: 5.2.0
+  createdTime: 1764610776105
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -79,12 +79,12 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -95,7 +95,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -111,14 +111,25 @@ system:
         onSave: half
         parts: []
       save:
-        ability: dex
+        ability:
+          - dex
         dc:
           calculation: int
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: pyrotechnic-gadgets
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _key: '!items!jFSBq9RJyKB6w0Wb'

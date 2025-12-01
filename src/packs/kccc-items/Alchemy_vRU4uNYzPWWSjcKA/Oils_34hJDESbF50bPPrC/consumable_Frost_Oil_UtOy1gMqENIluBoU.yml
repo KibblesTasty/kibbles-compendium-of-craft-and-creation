@@ -6,13 +6,13 @@ effects:
   - name: Frost Oil
     flags:
       dnd5e:
-        type: enchantment
         enchantment:
           level:
             min: null
             max: null
           riders:
             effect: []
+        persistSourceMigration: true
     _id: z7tIMAyUNQQktaBq
     changes:
       - key: system.damage.parts
@@ -41,18 +41,17 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     img: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%204.png
-    type: base
+    type: enchantment
     system: {}
     sort: 0
     _key: '!items.effects!UtOy1gMqENIluBoU.z7tIMAyUNQQktaBq'
@@ -68,74 +67,55 @@ system:
       over, covered in icy crystals. For 1 minute, the weapon deals an extra
       [[/damage 1d6 cold]] damage on hit.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: 1
-    units: minute
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: object
-  range:
-    value: null
-    long: null
-    units: touch
   uses:
-    value: null
     max: ''
-    per: ''
     autoDestroy: true
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: ench
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  consumableType: potion
-  enchantment:
-    classIdentifier: ''
-    restrictions:
-      allowMagical: false
-      type: weapon
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  unidentified:
+    description: ''
+  type:
+    value: potion
+    subtype: ''
+  activities: {}
+  identifier: frost-oil
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: 1721349801607
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.7c3PkepFyxMQdBYK
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822885
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!UtOy1gMqENIluBoU'

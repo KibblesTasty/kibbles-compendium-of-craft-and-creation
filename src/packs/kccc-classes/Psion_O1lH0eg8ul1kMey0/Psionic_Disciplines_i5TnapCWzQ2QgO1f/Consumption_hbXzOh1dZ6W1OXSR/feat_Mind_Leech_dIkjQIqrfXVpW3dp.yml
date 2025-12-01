@@ -31,13 +31,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: 1727206896746
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!dIkjQIqrfXVpW3dp.JuRW1UrtLIUY3oGN'
 folder: hbXzOh1dZ6W1OXSR
 sort: -100000
@@ -107,7 +106,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -134,14 +133,19 @@ system:
               mode: whole
               number: 1
       save:
-        ability: cha
+        ability:
+          - cha
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
       name: Base
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ajoR5cv2J9gdQLXP:
       type: save
       activation:
@@ -183,7 +187,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -211,15 +215,20 @@ system:
               number: 1
               formula: ''
       save:
-        ability: cha
+        ability:
+          - cha
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
       _id: ajoR5cv2J9gdQLXP
       name: Disabled Target
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     2uf7YXUrkjfsIIRc:
       type: save
       activation:
@@ -275,15 +284,20 @@ system:
         onSave: none
         parts: []
       save:
-        ability: cha
+        ability:
+          - cha
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
       name: Devouring
       _id: 2uf7YXUrkjfsIIRc
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     qDePDsw1jvCWfquY:
       type: damage
       name: Psionic Charge
@@ -342,8 +356,12 @@ system:
             types: []
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     HBqF1UxClqbCpuO1:
       type: heal
       name: Psionic Charge
@@ -390,7 +408,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types:
           - temphp
         custom:
@@ -399,8 +417,12 @@ system:
         scaling:
           number: 1
         bonus: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     wT8kYKALK7q8Ey9C:
       type: utility
       name: Gain Charge
@@ -456,8 +478,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     zwYd7TwfpsRzntWc:
       type: utility
       name: Stunning
@@ -486,6 +512,7 @@ system:
         override: false
       effects:
         - _id: JuRW1UrtLIUY3oGN
+          level: {}
       range:
         override: false
         units: self
@@ -510,9 +537,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects:
-        - JuRW1UrtLIUY3oGN
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     MkhUlRegvP8Tlgxe:
       type: utility
       name: Thieving
@@ -565,23 +595,31 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: mind-leech
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.ueDw4MzjudMXO8pG
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1726385704778
+  systemVersion: 5.2.0
+  createdTime: 1764610801133
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!dIkjQIqrfXVpW3dp'

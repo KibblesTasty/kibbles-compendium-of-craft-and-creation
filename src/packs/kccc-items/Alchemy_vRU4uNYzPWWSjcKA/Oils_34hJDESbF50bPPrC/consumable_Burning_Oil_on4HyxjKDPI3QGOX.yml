@@ -5,13 +5,13 @@ effects:
   - name: Burning Oil
     flags:
       dnd5e:
-        type: enchantment
         enchantment:
           level:
             min: null
             max: null
           riders:
             effect: []
+        persistSourceMigration: true
       core: {}
     _id: 9TpZG5dVcws0blw5
     changes:
@@ -42,18 +42,17 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: >-
         Compendium.kibbles-compendium-of-craft-and-creation.kccc-items.Item.tjlvDDNSoXRRKtQU.ActiveEffect.5XlFNzkAM338DC9y
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     img: icons/magic/fire/flame-burning-earth-yellow.webp
-    type: base
+    type: enchantment
     system: {}
     sort: 0
     _key: '!items.effects!on4HyxjKDPI3QGOX.9TpZG5dVcws0blw5'
@@ -70,69 +69,55 @@ system:
       attacks made with it, and providing bright light in a 20-foot radius and
       dim light for an additional 20 feet.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: 1
-    units: minute
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: object
-  range:
-    value: null
-    long: null
-    units: touch
   uses:
-    value: null
     max: ''
-    per: ''
     autoDestroy: true
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: ench
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  consumableType: potion
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  unidentified:
+    description: ''
+  type:
+    value: potion
+    subtype: ''
+  activities: {}
+  identifier: burning-oil
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: 1721349989525
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.XoBtw4yo6e6N9ufk
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610823317
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!on4HyxjKDPI3QGOX'

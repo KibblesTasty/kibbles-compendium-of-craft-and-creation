@@ -29,6 +29,8 @@ system:
   requirements: Warsmith 3
   prerequisites:
     level: 3
+    items: []
+    repeatable: false
   identifier: martial-grip
   activities: {}
   enchant: {}
@@ -46,16 +48,17 @@ system:
       title: ''
       hint: ''
       value: {}
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.gFiTlfCLdhoI4YE0
   duplicateSource: null
-  coreVersion: '13.347'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.0
-  createdTime: 1726385706943
+  systemVersion: 5.2.0
+  createdTime: 1764610802647
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!gNUK3PSDTLDJ0CjT'

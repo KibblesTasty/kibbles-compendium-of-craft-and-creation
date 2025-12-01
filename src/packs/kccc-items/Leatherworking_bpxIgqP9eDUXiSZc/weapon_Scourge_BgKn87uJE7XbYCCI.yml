@@ -15,59 +15,56 @@ system:
       nature, you have disadvantage when you use a scourge to attack a target
       within 5 feet of you.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 3
-  price: 40
-  attunement: 0
+  weight:
+    value: 3
+    units: lb
+  price:
+    value: 40
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
   range:
-    value: 10
+    value: null
     long: null
     units: ft
   uses:
-    value: null
     max: ''
-    per: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: mwak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts:
-      - - 2d4 + @mod
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 2
+      denomination: 4
+      bonus: ''
+      types:
         - slashing
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   armor:
     value: 10
   hp:
@@ -75,37 +72,78 @@ system:
     max: 0
     dt: null
     conditions: ''
-  weaponType: martialM
-  baseItem: ''
   properties:
-    ada: false
-    amm: false
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: false
-    lod: false
-    mgc: false
-    rch: true
-    rel: false
-    ret: false
-    sil: false
-    spc: true
-    thr: false
-    two: false
-    ver: false
-  proficient: true
+    - rch
+    - spc
+  proficient: 1
+  unidentified:
+    description: ''
+  type:
+    value: martialM
+    baseItem: ''
+  activities:
+    QbFzdjajDNoBFBCx:
+      _id: QbFzdjajDNoBFBCx
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  identifier: scourge
+  container: null
+  attuned: false
+  crew:
+    value: []
+  ammunition: {}
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.s6SXT9KtlSUpAU9U
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822361
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!BgKn87uJE7XbYCCI'

@@ -1,0 +1,224 @@
+folder: XOXqKR8JXHvnNngH
+name: 'Gather Reagents: Shore'
+_id: ROdGYaE3PwS3YEWm
+img: icons/environment/wilderness/cave-entrance-island.webp
+description: >-
+  <p>Reagents are harvested by making a Wisdom check. If you have an Herbalism
+  kit and are proficient with it, you can add your proficiency bonus to the
+  roll. [[/check ability=wis tool=herb dc=12]]</p>
+results:
+  - type: text
+    weight: 10
+    range:
+      - 1
+      - 10
+    drawn: false
+    _id: EK9Ljhb2BQ4qWHy0
+    img: icons/svg/cancel.svg
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    description: —
+    name: ''
+    _key: '!tables.results!ROdGYaE3PwS3YEWm.EK9Ljhb2BQ4qWHy0'
+  - type: document
+    weight: 20
+    range:
+      - 11
+      - 30
+    drawn: false
+    _id: Fx1VcOw7ZdcBqcbm
+    img: icons/commodities/materials/bowl-powder-teal.webp
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    name: Common Curative Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.nyuK97UnYxELFy2n
+    description: ''
+    _key: '!tables.results!ROdGYaE3PwS3YEWm.Fx1VcOw7ZdcBqcbm'
+  - type: document
+    weight: 20
+    range:
+      - 31
+      - 50
+    drawn: false
+    _id: JLeA2twcITN0dGrs
+    img: icons/commodities/materials/bowl-powder-pink.webp
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    name: Common Poisonous Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.9vVyV3bTBjAvktqD
+    description: ''
+    _key: '!tables.results!ROdGYaE3PwS3YEWm.JLeA2twcITN0dGrs'
+  - type: text
+    weight: 10
+    range:
+      - 51
+      - 60
+    drawn: false
+    _id: 5xrey896cEBmDjdy
+    img: icons/commodities/materials/bowl-powder-teal.webp
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    description: >-
+      [[1d4]]
+      @UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.nyuK97UnYxELFy2n]{Common
+      Curative Reagent}
+    name: ''
+    _key: '!tables.results!ROdGYaE3PwS3YEWm.5xrey896cEBmDjdy'
+  - type: document
+    weight: 10
+    range:
+      - 61
+      - 70
+    drawn: false
+    _id: ZxKnWTlzewbaavkH
+    img: icons/commodities/materials/bowl-powder-gold.webp
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    name: Uncommon Reactive Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.QR3VyyUnHKMua0Lr
+    description: ''
+    _key: '!tables.results!ROdGYaE3PwS3YEWm.ZxKnWTlzewbaavkH'
+  - type: document
+    weight: 10
+    range:
+      - 71
+      - 80
+    drawn: false
+    _id: HI72hDec5pImr4YT
+    img: icons/commodities/materials/bowl-powder-gold.webp
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    name: Uncommon Reactive Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.QR3VyyUnHKMua0Lr
+    description: ''
+    _key: '!tables.results!ROdGYaE3PwS3YEWm.HI72hDec5pImr4YT'
+  - type: document
+    weight: 10
+    range:
+      - 81
+      - 90
+    drawn: false
+    _id: k227PrNSYvxnY5fT
+    img: icons/commodities/materials/slime-thick-orange.webp
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    name: Common Primal Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.6AjdA2wDMBQ2Y6Mk
+    description: ''
+    _key: '!tables.results!ROdGYaE3PwS3YEWm.k227PrNSYvxnY5fT'
+  - type: document
+    weight: 5
+    range:
+      - 91
+      - 95
+    drawn: false
+    _id: sKucwz3PynQiYaae
+    img: icons/commodities/materials/bowl-powder-gold.webp
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    name: Uncommon Reactive Reagent
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.QR3VyyUnHKMua0Lr
+    description: ''
+    _key: '!tables.results!ROdGYaE3PwS3YEWm.sKucwz3PynQiYaae'
+  - type: document
+    weight: 5
+    range:
+      - 96
+      - 100
+    drawn: false
+    _id: fmpre1OHpkUV7nt5
+    img: icons/commodities/gems/gem-oval-red.webp
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    name: Uncommon Primal Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.tVxOYNqfvlHNsGlZ
+    description: ''
+    _key: '!tables.results!ROdGYaE3PwS3YEWm.fmpre1OHpkUV7nt5'
+replacement: true
+displayRoll: true
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610838591
+  modifiedTime: null
+  lastModifiedBy: null
+formula: 1d100
+_key: '!tables!ROdGYaE3PwS3YEWm'

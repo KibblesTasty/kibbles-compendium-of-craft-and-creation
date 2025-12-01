@@ -7,9 +7,10 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedProperties:
+      - vocal
+      - somatic
+      - ritual
 _id: J2thHKyU0JTBsb5R
 system:
   description:
@@ -32,61 +33,32 @@ system:
       damage to anything else. If the bag is broken, the key used as a material
       in casting the spell breaks.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     rules: '2014'
+    revision: 1
   activation:
     type: minute
-    cost: 10
     condition: ''
-  duration:
-    value: null
-    units: inst
-  cover: null
-  crewed: false
-  target:
     value: 10
-    width: null
-    units: ft
-    type: sphere
+  duration:
+    units: inst
+  target:
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: sphere
+      size: '10'
+      contiguous: false
   range:
-    value: null
-    long: null
     units: self
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 3
   school: con
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: true
-    concentration: false
-    value: ''
   materials:
     value: >-
       an ornate brass key worth at least 100 gp, and a satchel or bag worth at
@@ -94,16 +66,11 @@ system:
     consumed: false
     cost: 100
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
     - material
+    - ritual
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -127,6 +94,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -145,16 +113,25 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: trarys-terrific-transposition
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.rRRdUgpT5KLsjDoS
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610819047
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!J2thHKyU0JTBsb5R'

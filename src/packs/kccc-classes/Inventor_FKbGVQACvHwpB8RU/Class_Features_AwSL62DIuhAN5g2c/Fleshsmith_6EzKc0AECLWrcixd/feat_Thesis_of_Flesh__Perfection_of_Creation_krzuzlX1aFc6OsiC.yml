@@ -7,11 +7,7 @@ folder: 6EzKc0AECLWrcixd
 sort: -100000
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -72,12 +68,12 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -88,7 +84,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -126,21 +122,31 @@ system:
               number: null
               formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: thesis-of-flesh-perfection-of-creation
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.WTQkLHMncujOtR63
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385709463
+  systemVersion: 5.2.0
+  createdTime: 1764610804708
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!krzuzlX1aFc6OsiC'

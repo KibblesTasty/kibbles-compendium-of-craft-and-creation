@@ -32,13 +32,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: 1727215648516
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!F2n6Vo1Ie0MkeCtL.YKVYFM9h9LnhsTmB'
   - name: Terrifying
     img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
@@ -69,13 +68,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: 1727215761848
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!F2n6Vo1Ie0MkeCtL.YcM6KoI5ecRUxmVk'
 folder: yBMc7tnwZ8a7OMCu
 sort: 400000
@@ -158,8 +156,10 @@ system:
       effects:
         - _id: YKVYFM9h9LnhsTmB
           onSave: false
+          level: {}
         - _id: YcM6KoI5ecRUxmVk
           onSave: false
+          level: {}
       range:
         value: '60'
         units: ft
@@ -173,7 +173,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -200,29 +200,38 @@ system:
               mode: whole
               number: 1
       save:
-        ability: wis
+        ability:
+          - wis
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: telepathic-intrusion
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.OuIO6xFBnhxpYM0F
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1726385677857
+  systemVersion: 5.2.0
+  createdTime: 1764610788510
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!F2n6Vo1Ie0MkeCtL'

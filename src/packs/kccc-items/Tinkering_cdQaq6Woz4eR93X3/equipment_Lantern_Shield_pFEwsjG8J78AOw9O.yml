@@ -55,13 +55,19 @@ system:
               enabled: false
               formula: ''
             number: 1
-            denomination: '4'
+            denomination: 4
             bonus: ''
             types:
               - piercing
+            scaling:
+              number: 1
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -111,7 +117,6 @@ system:
   attuned: false
   equipped: false
   cover: null
-  crewed: false
   type:
     value: shield
     baseItem: shield
@@ -122,6 +127,8 @@ system:
   properties: []
   strength: null
   proficient: null
+  crew:
+    value: []
 effects: []
 sort: 0
 ownership:
@@ -134,11 +141,11 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1737921933256
+  systemVersion: 5.2.0
+  createdTime: 1764610823336
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!pFEwsjG8J78AOw9O'

@@ -30,6 +30,8 @@ system:
   requirements: Cursesmith 3
   prerequisites:
     level: 3
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -49,7 +51,7 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
@@ -65,7 +67,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: self
@@ -95,19 +97,27 @@ system:
               number: null
               formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: helm-of-omniscience
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.mt1qqLhnvXrp4Rv6
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385700644
+  systemVersion: 5.2.0
+  createdTime: 1764610798073
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!VpMOMdeB1f1lqHUP'

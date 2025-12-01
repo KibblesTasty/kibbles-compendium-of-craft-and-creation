@@ -17,6 +17,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 12
       proficient: 0
@@ -24,6 +34,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 14
       proficient: 0
@@ -31,6 +51,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 14
       proficient: 1
@@ -38,6 +68,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 16
       proficient: 0
@@ -45,6 +85,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 1
       proficient: 0
@@ -52,6 +102,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   bonuses:
     mwak:
       attack: ''
@@ -303,13 +363,14 @@ system:
         mode: 0
       bonus: ''
     movement:
-      burrow: 0
-      climb: 0
-      fly: 30
-      swim: 0
-      walk: 0
+      burrow: '0'
+      climb: '0'
+      fly: '30'
+      swim: '0'
+      walk: '0'
       units: null
       hover: true
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -342,13 +403,20 @@ system:
       tempmax: 0
       formula: 3d4 + 6
     death:
-      ability: ''
       roll:
         min: null
         max: null
         mode: 0
       success: 0
       failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    loyalty: {}
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: ''
@@ -361,24 +429,23 @@ system:
     type:
       value: construct
       swarm: tiny
-    environment: ''
     cr: 1
-    spellLevel: 0
-    source:
-      book: KCCC
+    habitat:
       custom: ''
-      page: ''
-      license: ''
+      value: []
+    treasure:
+      value: []
   resources:
     legact:
-      value: 0
       max: 0
+      spent: 0
     legres:
-      value: 0
       max: 0
+      spent: 0
     lair:
       value: false
       initiative: null
+      inside: false
   traits:
     size: tiny
     di:
@@ -419,8 +486,15 @@ system:
       value:
         - common
       custom: ''
+      communication: {}
+    important: false
   source:
     rules: '2014'
+    book: KCCC
+    custom: ''
+    page: ''
+    license: ''
+    revision: 1
 prototypeToken:
   name: Drone Swarm
   displayName: 0
@@ -512,31 +586,48 @@ items:
           Melee Spell Attack: +4 to hit, reach 10 ft. , one target. Hit: 7 (2d4
           + 3) lightning damage.
         chat: ''
-      activation:
-        type: action
-        cost: 1
-        condition: ''
       identified: true
       equipped: true
       attunement: required
       proficient: 1
       quantity: 1
-      ability: dex
       damage:
-        parts:
-          - - 2d4 + @mod
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 2
+          denomination: 4
+          bonus: ''
+          types:
             - lightning
-        versatile: ''
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
       range:
         value: 10
         units: ft
         long: null
-      actionType: msak
       type:
         value: natural
         baseItem: ''
       attuned: true
-      source: {}
+      source:
+        revision: 1
+        rules: '2014'
       unidentified:
         description: ''
       container: null
@@ -547,42 +638,11 @@ items:
         value: 0
         denomination: gp
       rarity: ''
-      duration:
-        value: ''
-        units: ''
       cover: null
-      crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      summons: null
+        recovery: []
+        spent: 0
       armor:
         value: null
       hp:
@@ -592,6 +652,80 @@ items:
         conditions: ''
       magicalBonus: null
       properties: []
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '10'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: dex
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: spell
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: zap
+      crew:
+        value: []
+      ammunition: {}
     _id: oz21KMic073M31Er
     effects: []
     folder: null
@@ -601,15 +735,14 @@ items:
       pJeIW7qCa0HkURWq: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.1
-      coreVersion: '13.344'
-      createdTime: 1721840637630
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!7ixTabrUXBiM5xge.oz21KMic073M31Er'
   - name: Swarm
     type: feat
@@ -620,66 +753,28 @@ items:
           The swarm can occupy another creature’s space and vice versa, and the
           swarm can move through any opening large enough for a Tiny drone.
         chat: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       cover: null
       crewed: false
-      target:
-        value: ''
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attack:
-        bonus: ''
-        flat: false
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      enchantment: null
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
-      summons: null
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities: {}
+      advancement: []
+      identifier: swarm
+      enchant: {}
     _id: wXXDkkhOCSuQW2l9
     effects: []
     folder: null
@@ -689,15 +784,14 @@ items:
       pJeIW7qCa0HkURWq: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.1
-      coreVersion: '13.344'
-      createdTime: 1721840637692
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!7ixTabrUXBiM5xge.wXXDkkhOCSuQW2l9'
   - _id: 013JGvs366kpNeci
     name: Mending
@@ -720,49 +814,30 @@ items:
         book: SRD 5.1
         page: ''
         license: CC-BY-4.0
+        revision: 1
+        rules: '2014'
       activation:
         type: minute
-        cost: 1
         condition: ''
+        value: 1
       duration:
         value: ''
         units: inst
-      cover: null
       target:
-        value: '1'
-        width: null
-        units: ''
-        type: object
-        prompt: true
+        affects:
+          type: object
+          count: '1'
+          choice: false
+        template:
+          units: ft
+          contiguous: false
       range:
-        value: null
-        long: null
         units: touch
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
+        recovery: []
+        spent: 0
       ability: ''
-      actionType: util
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
       level: 0
       school: trs
       materials:
@@ -770,37 +845,74 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: atwill
-        prepared: false
-      scaling:
-        mode: none
-        formula: ''
       properties:
         - vocal
         - somatic
         - material
-      crewed: false
-      attack:
-        bonus: ''
-        flat: false
-      enchantment: null
-      summons: null
+      method: atwill
+      prepared: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: mending
     sort: 0
     flags: {}
     img: icons/magic/air/wind-stream-purple-blue.webp
     effects: []
     folder: Z8kZlnggh1PtuF3Y
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.1
-      coreVersion: '13.344'
-      createdTime: 1661787234215
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!7ixTabrUXBiM5xge.013JGvs366kpNeci'
   - _id: 9PG3TwKeOVIB78AK
     name: Minor Illusion
@@ -834,49 +946,31 @@ items:
         book: SRD 5.1
         page: ''
         license: CC-BY-4.0
+        revision: 1
+        rules: '2014'
       activation:
         type: action
-        cost: 1
         condition: ''
+        value: 1
       duration:
         value: '1'
         units: minute
-      cover: null
       target:
-        value: '5'
-        width: null
-        units: ft
-        type: cube
-        prompt: true
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: cube
+          size: '5'
+          contiguous: false
       range:
-        value: 30
-        long: null
+        value: '30'
         units: ft
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
+        recovery: []
+        spent: 0
       ability: ''
-      actionType: util
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
       level: 0
       school: ill
       materials:
@@ -884,36 +978,73 @@ items:
         consumed: false
         cost: 0
         supply: 0
-      preparation:
-        mode: atwill
-        prepared: false
-      scaling:
-        mode: none
-        formula: ''
       properties:
         - somatic
         - material
-      crewed: false
-      attack:
-        bonus: ''
-        flat: false
-      enchantment: null
-      summons: null
+      method: atwill
+      prepared: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: minor-illusion
     sort: 0
     flags: {}
     img: icons/magic/control/hypnosis-mesmerism-eye.webp
     effects: []
     folder: Z8kZlnggh1PtuF3Y
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.3.1
-      coreVersion: '13.344'
-      createdTime: 1661787234224
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!7ixTabrUXBiM5xge.9PG3TwKeOVIB78AK'
 effects: []
 ownership:
@@ -923,15 +1054,15 @@ flags:
     showTokenPortrait: false
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: 1721840637585
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: null
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610833280
+  modifiedTime: null
+  lastModifiedBy: null
 _id: 7ixTabrUXBiM5xge
 sort: 0
 _key: '!actors!7ixTabrUXBiM5xge'

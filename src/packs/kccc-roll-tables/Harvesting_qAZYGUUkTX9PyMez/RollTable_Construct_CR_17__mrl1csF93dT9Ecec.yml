@@ -1,0 +1,138 @@
+name: Construct CR 17+
+img: icons/creatures/magical/construct-stone-earth-gray.webp
+description: >-
+  <p>If a material is found, to successfully harvest it, you will need to roll a
+  [[/check arcana dc=15]] ability check.</p>
+results:
+  - _id: SyGt6bWuZa1QXhI9
+    type: text
+    weight: 1
+    range:
+      - 1
+      - 30
+    drawn: false
+    flags: {}
+    img: icons/commodities/tech/coil-steel-grey.webp
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    description: >-
+      [[/r 1d4]]
+      @Compendium[kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.V249bkKTTvMoyjCn]{Esoteric
+      Parts}
+    name: ''
+    _key: '!tables.results!mrl1csF93dT9Ecec.SyGt6bWuZa1QXhI9'
+  - _id: kGlYZPKwSAcJvZSV
+    type: document
+    img: icons/commodities/biological/organ-heart-black.webp
+    weight: 1
+    range:
+      - 31
+      - 50
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    name: Rare Arcane Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.S1IlBZUhshluk9TA
+    description: ''
+    _key: '!tables.results!mrl1csF93dT9Ecec.kGlYZPKwSAcJvZSV'
+  - _id: PFqtCogEoZjNbg9u
+    type: document
+    img: icons/commodities/gems/gem-faceted-rough-blue.webp
+    weight: 1
+    range:
+      - 51
+      - 89
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    name: Very Rare Arcane Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.lArgF71EYaBV5oQe
+    description: ''
+    _key: '!tables.results!mrl1csF93dT9Ecec.PFqtCogEoZjNbg9u'
+  - _id: OiKXzPu7XjhSzhlB
+    type: document
+    img: icons/magic/light/explosion-star-large-pink.webp
+    weight: 1
+    range:
+      - 90
+      - 94
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    name: Legendary Arcane Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.cmqAAsT3MvGXRIhG
+    description: ''
+    _key: '!tables.results!mrl1csF93dT9Ecec.OiKXzPu7XjhSzhlB'
+  - _id: sYKeCMNSCa4YkuBk
+    type: document
+    img: icons/magic/light/explosion-star-large-pink.webp
+    weight: 1
+    range:
+      - 95
+      - 100
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+    name: Legendary Arcane Essence
+    documentUuid: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-crafting-materials.Item.cmqAAsT3MvGXRIhG
+    description: ''
+    _key: '!tables.results!mrl1csF93dT9Ecec.sYKeCMNSCa4YkuBk'
+formula: 1d100
+replacement: true
+displayRoll: true
+folder: qAZYGUUkTX9PyMez
+sort: 1100000
+flags:
+  core: {}
+_id: mrl1csF93dT9Ecec
+ownership:
+  default: 0
+_stats:
+  compendiumSource: RollTable.rlyqGgLYtIWBzvKi
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610839343
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!tables!mrl1csF93dT9Ecec'

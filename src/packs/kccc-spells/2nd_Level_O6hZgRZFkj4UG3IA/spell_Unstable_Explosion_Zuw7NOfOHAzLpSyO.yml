@@ -24,81 +24,44 @@ system:
       this spell using a spell slot of 3rd level or higher, the damage increases
       by 1d6 for each slot level above 2nd.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
-    value: null
     units: inst
-  cover: null
-  crewed: false
   target:
-    value: 10
-    width: null
-    units: ft
-    type: radius
     affects:
       count: ''
       type: ''
+      choice: false
     template:
       count: ''
+      units: ft
+      type: radius
+      size: '10'
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
     special: ''
   uses:
-    value: null
     max: ''
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    spent: 0
+    recovery: []
   ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 3d6x
-        - fire
-    versatile: ''
-  formula: ''
-  save:
-    ability: dex
-    dc: null
-    scaling: spell
   level: 2
   school: evo
-  components:
-    vocal: false
-    somatic: false
-    material: false
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: level
-    formula: 1d6
   activities:
     dnd5eactivity000:
       name: ''
@@ -140,6 +103,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -173,16 +137,26 @@ system:
           calculation: spellcasting
           formula: ''
       name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: unstable-explosion
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.T2XhGJKFBo9sUArh
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610820064
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!Zuw7NOfOHAzLpSyO'

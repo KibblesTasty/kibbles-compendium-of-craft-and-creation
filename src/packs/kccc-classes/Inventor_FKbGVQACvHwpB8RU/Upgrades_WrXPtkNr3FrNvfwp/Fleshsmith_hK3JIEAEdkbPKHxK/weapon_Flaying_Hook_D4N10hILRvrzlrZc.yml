@@ -42,7 +42,6 @@ system:
   rarity: ''
   identified: true
   cover: null
-  crewed: false
   range:
     value: null
     long: null
@@ -116,6 +115,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -136,20 +136,28 @@ system:
         critical: {}
         includeBase: true
         parts: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   container: null
   attuned: false
   ammunition: {}
   magicalBonus: null
+  crew:
+    value: []
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.lFMH4snyuEzRakZ7
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385676104
+  systemVersion: 5.2.0
+  createdTime: 1764610787229
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!D4N10hILRvrzlrZc'

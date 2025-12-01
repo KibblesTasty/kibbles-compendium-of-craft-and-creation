@@ -16,83 +16,62 @@ system:
       making an attack with them without using an object interaction to draw
       them as long as you have a free hand to draw them.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 2
-  price: 20
-  attunement: 0
+  weight:
+    value: 2
+    units: lb
+  price:
+    value: 20
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   armor:
     value: null
-    type: trinket
     dex: null
   hp:
     value: 0
     max: 0
     dt: null
     conditions: ''
-  baseItem: ''
   speed:
     value: null
     conditions: ''
+    units: ft
   strength: 0
-  stealth: false
-  proficient: true
+  proficient: 1
+  unidentified:
+    description: ''
+  type:
+    value: trinket
+    baseItem: ''
+  activities: {}
+  identifier: throwing-bandolier
+  container: null
+  attuned: false
+  crew:
+    value: []
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.tv1e6syr4KFHXiPa
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822723
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!QIi6WENOADg9rulI'

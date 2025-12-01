@@ -11,29 +11,36 @@ system:
   description:
     value: ''
     chat: ''
-    unidentified: ''
   source:
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 2
-  price: 2
-  attunement: 0
-  equipped: false
+  weight:
+    value: 2
+    units: lb
+  price:
+    value: 2
+    denomination: gp
   rarity: common
   identified: true
-  critical:
-    threshold: null
-    damage: null
+  unidentified:
+    description: ''
+  identifier: steel-ingot
+  container: null
+  properties: []
+  type:
+    value: ''
+    subtype: ''
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.sO75seGu8EoUMVQS
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610824729
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!0qW9howpu3gIdQTE'

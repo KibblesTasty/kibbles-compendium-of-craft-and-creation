@@ -14,13 +14,13 @@ _id: HWCuxDLIvMA0uqf6
 _stats:
   compendiumSource: Item.AIeerviBGtQwpGqA
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385614479
+  systemVersion: 5.2.0
+  createdTime: 1764610774484
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -99,7 +99,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -127,11 +127,18 @@ system:
               number: null
               formula: ''
       save:
-        ability: str
+        ability:
+          - str
         dc:
           calculation: str
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     dnd5eactivity200:
       _id: dnd5eactivity200
       type: damage
@@ -167,7 +174,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -196,9 +203,19 @@ system:
               number: null
               formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: forceful-mind
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _key: '!items!HWCuxDLIvMA0uqf6'

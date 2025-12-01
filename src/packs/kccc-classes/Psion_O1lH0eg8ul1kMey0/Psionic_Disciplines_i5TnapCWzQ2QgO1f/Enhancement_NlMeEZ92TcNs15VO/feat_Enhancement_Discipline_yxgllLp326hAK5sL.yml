@@ -49,60 +49,21 @@ system:
       Power}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.krQowGLvR65XGekP]{Talent:
       Transcendent Life}</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: psionicDiscipline
   requirements: Psion 1
-  recharge:
-    value: null
-    charged: false
   identifier: enhancement-discipline
   activities:
     oPrxWw4jWxQgTOGr:
@@ -113,7 +74,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - material
@@ -145,6 +106,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -158,7 +120,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     c7dPCk8hO5GI4p4B:
       type: cast
       spell:
@@ -167,7 +134,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - material
@@ -199,6 +166,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -212,7 +180,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     ZIHlQ0MgaSP647nX:
       type: cast
       spell:
@@ -222,7 +195,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '1'
+        level: 1
         properties:
           - vocal
           - material
@@ -254,6 +227,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -267,7 +241,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     8ggnF1q9WNCVsJPm:
       type: cast
       spell:
@@ -276,7 +255,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - material
@@ -308,6 +287,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -321,7 +301,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     OgOSTmiu9GBaqyYP:
       type: cast
       spell:
@@ -330,7 +315,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - material
@@ -362,6 +347,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -375,7 +361,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     cHrZvMdHAkD3FXI5:
       type: cast
       spell:
@@ -384,7 +375,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '2'
+        level: 2
         properties:
           - vocal
           - material
@@ -416,6 +407,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -429,7 +421,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     vVXCj2PqI5XPFFFX:
       type: cast
       spell:
@@ -438,7 +435,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - material
@@ -470,6 +467,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -483,7 +481,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     itlCbv43HWHLNvYI:
       type: cast
       spell:
@@ -492,7 +495,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '3'
+        level: 3
         properties:
           - vocal
           - somatic
@@ -525,6 +528,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -538,7 +542,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     h0c3bLgCN5AKkVkO:
       type: cast
       spell:
@@ -547,7 +556,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties:
           - vocal
           - material
@@ -579,6 +588,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -592,7 +602,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     j5Ge5fxaciMEWeFk:
       type: cast
       spell:
@@ -601,7 +616,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '4'
+        level: 4
         properties:
           - vocal
           - material
@@ -633,6 +648,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -646,7 +662,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     PvnAybrZQNTnMsOy:
       type: cast
       spell:
@@ -655,7 +676,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '5'
+        level: 5
         properties:
           - vocal
           - material
@@ -687,6 +708,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -700,7 +722,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     M082bUMjzZv8j3VR:
       type: cast
       spell:
@@ -710,7 +737,7 @@ system:
           attack: null
           save: null
           override: false
-        level: '5'
+        level: 5
         properties:
           - vocal
           - material
@@ -742,6 +769,7 @@ system:
         override: false
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -755,7 +783,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   advancement:
     - type: ItemGrant
       _id: bcQRPPrGogIp7ZNc
@@ -771,16 +804,21 @@ system:
         spell: null
       value: {}
       level: 0
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 5.1.9
-  coreVersion: '13.350'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.bchVLxuUTuxKJHub
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610813120
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!yxgllLp326hAK5sL'

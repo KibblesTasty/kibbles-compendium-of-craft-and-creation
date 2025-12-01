@@ -18,79 +18,39 @@ system:
     custom: ''
     license: ''
     rules: '2014'
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: upgrade
   prerequisites:
     level: 19
+    items: []
+    repeatable: false
   properties: []
   requirements: Infusionsmith 19
-  recharge:
-    value: null
-    charged: false
   identifier: size-matters-not
+  activities: {}
+  advancement: []
+  enchant: {}
 effects: []
 sort: 0
 ownership:
   default: 0
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: 1721842284990
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: null
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610812038
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!xazbhJfCYGo9Y5Iv'

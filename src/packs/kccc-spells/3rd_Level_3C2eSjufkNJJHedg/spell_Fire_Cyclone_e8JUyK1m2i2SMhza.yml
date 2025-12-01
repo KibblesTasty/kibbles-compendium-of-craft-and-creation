@@ -7,9 +7,12 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
+      - material
+      - concentration
 _id: e8JUyK1m2i2SMhza
 system:
   description:
@@ -38,73 +41,41 @@ system:
       the height of the cyclone as well as the distance a creature is thrown
       upward increases by 5 feet for each level above 3rd.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
     value: 1
+  duration:
+    value: '1'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: 5
-    width: null
-    units: ft
-    type: cylinder
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: cylinder
+      size: '5'
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attackBonus: 0
-  chatFlavor: ''
-  critical: null
-  damage:
-    parts:
-      - - 3d6
-        - fire
-    versatile: ''
-  formula: ''
-  save:
-    ability: str
-    dc: null
-    scaling: spell
   level: 3
   school: con
-  components:
-    vocal: true
-    somatic: true
-    material: true
-    ritual: false
-    concentration: true
-    value: ''
   materials:
     value: a pinch of ashes from a forest fire
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
@@ -133,6 +104,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -167,16 +139,25 @@ system:
           calculation: spellcasting
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: fire-cyclone
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.ht8bJRGurWnuvYfz
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610820223
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!e8JUyK1m2i2SMhza'

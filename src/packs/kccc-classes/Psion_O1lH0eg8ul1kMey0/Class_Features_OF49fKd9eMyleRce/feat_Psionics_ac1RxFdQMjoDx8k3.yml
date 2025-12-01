@@ -7,11 +7,7 @@ folder: OF49fKd9eMyleRce
 sort: 200000
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 system:
   description:
     value: "<h2>Psionic Disciplines</h2><p>You are granted access to a psionic discipline (such as Telepathy or Telekinesis) by your chosen archetype. A psionic discipline comes with a passive feature that expands your character’s capabilities and an active psionic power that can be modified and empowered with psi points. Additionally you can use your discipline in more detailed applications to recreate the effect of certain spells, listed at the end of the discipline description. At 3rd level you can select a second discipline, and 18th level you can select a 3rd discipline.</p><p>Psionic powers are suppressed by antimagic fields and can be dispelled with dispel magic, but are only affected by counterspell if recreating the effect of a spell. Any check required to dispel magic, counterspell or to identify a spell being cast with psionics is made with disadvantage unless the caster also has the Psionics feature. The detect magic spell will detect the usage of psionics, but not their nature: it will show up as a mysterious untyped power, even if being used to generate the effect of a spell.</p><p>When recreating a spell through a psionic effect (using a psionic discipline to cast the spell) the spell has no material or verbal components, but using any psionic ability requires somatic components and causes the psion to vibrantly glow with the otherworldly psionic energies they are controlling.</p><h2>Psi Points</h2><p>Starting at 1st level, you gain access to psi points used to fuel psionic discipline powers and effects. You have a number of psi points equal to your psion level, and you regain all spent points when you finish a short or long rest. You can spend a number of psi points equal to half your Psion level (rounded up) at a time. For example, if you’re a 5th-level Psion, you can spend 3 psi points on a psionic power or cast a spell with a cost of 3 psi points.</p><h2>Psionic Ability</h2><p>Psionic powers, Psionic Talents, and spells gained through this class use your psionic ability.</p><p style=\"text-align:center\"><strong>Psionic ability save DC</strong> = 8 + your proficiency bonus\_+ your Intelligence modifier</p><p style=\"text-align:center\"><strong>Psionic ability attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p><h2>Psionic Talents</h2><p>Starting at 2nd level, you gain access to a psionic talent allowing you to further specialize. Pick two talents from the list of psionic talents presented at the end of the class description. You can pick a new psionic talent at 5th, 7th, 9th, 12th, 15th, and 18th level. When you level up, you can replace a psionic talent you have previously selected with a different option.</p>"
@@ -36,17 +32,21 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.L2UaFpRVINi9m6X6
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.1.2
-  createdTime: 1726385703613
+  systemVersion: 5.2.0
+  createdTime: 1764610800278
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!ac1RxFdQMjoDx8k3'

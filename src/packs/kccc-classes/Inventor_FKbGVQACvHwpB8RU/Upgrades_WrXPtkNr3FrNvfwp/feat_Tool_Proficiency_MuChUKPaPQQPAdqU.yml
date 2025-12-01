@@ -26,6 +26,8 @@ system:
   requirements: Inventor 3
   prerequisites:
     level: 3
+    items: []
+    repeatable: false
   identifier: tool-proficiency
   activities: {}
   enchant: {}
@@ -45,16 +47,17 @@ system:
       title: ''
       hint: ''
       value: {}
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.5kQ8oOEbAbWRXN7k
   duplicateSource: null
-  coreVersion: '13.347'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.0
-  createdTime: 1726385694797
+  systemVersion: 5.2.0
+  createdTime: 1764610793106
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!MuChUKPaPQQPAdqU'

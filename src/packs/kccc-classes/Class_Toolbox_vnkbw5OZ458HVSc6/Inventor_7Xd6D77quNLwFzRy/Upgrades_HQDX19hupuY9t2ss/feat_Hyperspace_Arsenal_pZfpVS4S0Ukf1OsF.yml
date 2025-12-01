@@ -36,6 +36,7 @@ system:
     level: 19
     items:
       - recall
+    repeatable: false
   properties: []
   requirements: Warsmith 19, Recall
   activities:
@@ -64,12 +65,12 @@ system:
       duration:
         concentration: false
         value: ''
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -80,7 +81,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -98,26 +99,30 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: hyperspace-arsenal
   enchant: {}
+  advancement: []
+  crewed: false
 effects: []
 sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1726385712666
+  systemVersion: 5.2.0
+  createdTime: 1764610807642
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!pZfpVS4S0Ukf1OsF'

@@ -33,7 +33,6 @@ system:
   attuned: false
   equipped: false
   cover: null
-  crewed: false
   uses:
     max: '1'
     recovery:
@@ -56,6 +55,7 @@ system:
   speed:
     value: null
     conditions: ''
+    units: ft
   strength: null
   proficient: null
   activities:
@@ -84,12 +84,12 @@ system:
       duration:
         concentration: false
         value: ''
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -100,7 +100,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -118,25 +118,29 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: shifting-belt
+  crew:
+    value: []
 effects: []
 sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385613958
+  systemVersion: 5.2.0
+  createdTime: 1764610773983
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!7hr5mMdPKdQrAPIp'

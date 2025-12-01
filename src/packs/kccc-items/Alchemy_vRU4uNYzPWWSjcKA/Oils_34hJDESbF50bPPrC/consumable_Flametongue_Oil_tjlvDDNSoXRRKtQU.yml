@@ -6,13 +6,13 @@ effects:
   - name: Flametongue Oil
     flags:
       dnd5e:
-        type: enchantment
         enchantment:
           level:
             min: null
             max: null
           riders:
             effect: []
+        persistSourceMigration: true
     _id: 5XlFNzkAM338DC9y
     changes:
       - key: system.damage.parts
@@ -38,18 +38,17 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     img: >-
       https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%209.png
-    type: base
+    type: enchantment
     system: {}
     sort: 0
     _key: '!items.effects!tjlvDDNSoXRRKtQU.5XlFNzkAM338DC9y'
@@ -66,74 +65,55 @@ system:
       attacks made with it, and providing bright light in a 20-foot radius and
       dim light for an additional 20 feet.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: uncommon
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: 1
-    units: minute
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: object
-  range:
-    value: null
-    long: null
-    units: touch
   uses:
-    value: null
     max: ''
-    per: ''
     autoDestroy: true
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: ench
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  consumableType: potion
-  enchantment:
-    classIdentifier: ''
-    restrictions:
-      allowMagical: false
-      type: ''
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  unidentified:
+    description: ''
+  type:
+    value: potion
+    subtype: ''
+  activities: {}
+  identifier: flametongue-oil
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: 1721349916802
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.d8R78Av3XVyfmPyU
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610823496
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!tjlvDDNSoXRRKtQU'

@@ -26,6 +26,8 @@ system:
   requirements: Inventor 3
   prerequisites:
     level: 3
+    items: []
+    repeatable: false
   identifier: shield-proficiency
   activities: {}
   enchant: {}
@@ -43,16 +45,17 @@ system:
       title: ''
       hint: ''
       value: {}
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.8YgTNNf33q3QaXUP
   duplicateSource: null
-  coreVersion: '13.347'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.0
-  createdTime: 1726385715632
+  systemVersion: 5.2.0
+  createdTime: 1764610809909
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!te61fHUl19wp18S9'

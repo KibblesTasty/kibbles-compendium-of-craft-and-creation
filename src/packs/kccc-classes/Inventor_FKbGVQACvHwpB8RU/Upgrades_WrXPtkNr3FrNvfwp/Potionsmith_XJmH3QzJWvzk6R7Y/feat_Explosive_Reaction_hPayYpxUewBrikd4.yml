@@ -45,6 +45,8 @@ system:
   requirements: Potionsmith 3
   prerequisites:
     level: 3
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -109,24 +111,33 @@ system:
               number: null
               formula: ''
       save:
-        ability: con
+        ability:
+          - con
         dc:
           calculation: int
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: explosive-reaction
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.jtVmQKSK9eLtO4kM
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385707351
+  systemVersion: 5.2.0
+  createdTime: 1764610803024
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!hPayYpxUewBrikd4'

@@ -40,30 +40,28 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: dnd5e
-      systemVersion: 5.1.9
-      createdTime: 1761095087936
-      modifiedTime: null
+      systemVersion: 5.2.0
       lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!xPXZbOMTyRcbkcHq.HKMTRQ5zZz7ZgjsG'
 folder: YNNWOIjlENyM7ctA
 sort: 300000
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 1
+  dnd5e: {}
 _id: xPXZbOMTyRcbkcHq
 _stats:
   compendiumSource: Item.k72o0MYHZlHnAJNN
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1726385616763
+  systemVersion: 5.2.0
+  createdTime: 1764610776847
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -108,6 +106,7 @@ system:
           - type: itemUses
             value: '1'
             target: channel-divinity
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -122,6 +121,8 @@ system:
         override: false
       effects:
         - _id: HKMTRQ5zZz7ZgjsG
+          level: {}
+          onSave: false
       range:
         units: self
         special: ''
@@ -150,17 +151,26 @@ system:
         onSave: half
         parts: []
       save:
-        ability: wis
+        ability:
+          - wis
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: channel-divinity-turn-the-aberrant
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _key: '!items!xPXZbOMTyRcbkcHq'

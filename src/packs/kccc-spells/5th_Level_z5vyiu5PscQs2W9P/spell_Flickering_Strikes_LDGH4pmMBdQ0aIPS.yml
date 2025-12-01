@@ -7,9 +7,11 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
+      - material
 _id: LDGH4pmMBdQ0aIPS
 system:
   description:
@@ -23,75 +25,39 @@ system:
       <p>You can then teleport to an unoccupied space you can see within 5 feet
       of one of the targets you hit or missed.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
-    value: null
     units: inst
-  cover: null
-  crewed: false
   target:
-    value: 30
-    width: null
-    units: ft
-    type: radius
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: radius
+      size: '30'
+      contiguous: false
   range:
-    value: null
-    long: null
     units: self
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: mwak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d8 + @mod + 6d6
-        - piercing
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 5
   school: con
-  components:
-    vocal: true
-    somatic: true
-    material: true
-    ritual: false
-    concentration: false
-    value: ''
   materials:
     value: a melee weapon you are proficient with worth at least 1 sp
     consumed: false
     cost: 0.1
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
@@ -119,6 +85,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -158,16 +125,25 @@ system:
               number: null
               formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: flickering-strikes
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.RtVNspWfhXH9nRwk
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610819221
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!LDGH4pmMBdQ0aIPS'

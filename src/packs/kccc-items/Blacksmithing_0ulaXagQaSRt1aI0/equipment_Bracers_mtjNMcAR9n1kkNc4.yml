@@ -14,83 +14,62 @@ system:
       hit by an attack, you can attempt to parry the attack with your bracer,
       adding +2 AC bonus against the triggering attack.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: common
   identified: true
-  activation:
-    type: reaction
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  target:
-    value: null
-    width: null
-    units: ''
-    type: self
-  range:
-    value: null
-    long: null
-    units: self
   uses:
-    value: null
     max: ''
-    per: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: util
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: '2'
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   armor:
     value: null
-    type: light
     dex: null
   hp:
     value: 0
     max: 0
     dt: null
     conditions: ''
-  baseItem: ''
   speed:
     value: null
     conditions: ''
+    units: ft
   strength: 0
-  stealth: false
-  proficient: true
+  proficient: 1
+  unidentified:
+    description: ''
+  type:
+    value: light
+    baseItem: ''
+  activities: {}
+  identifier: bracers
+  container: null
+  attuned: false
+  crew:
+    value: []
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.MUQIctJIzt0sPbCd
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610823238
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!mtjNMcAR9n1kkNc4'

@@ -35,13 +35,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.3.8
-      createdTime: 1744838452810
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!U2MkaHu6AfoWF17x.U8qgEI96nwv0Ccil'
 folder: kkK138bcC9Kc8xfX
 sort: 100098
@@ -70,59 +69,35 @@ system:
       maintain your concentration against spitting them out; this increases the
       DC of the recipe by 1.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
-  price: 0
-  attunement: 0
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
   equipped: false
   rarity: uncommon
   identified: true
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
     autoDestroy: false
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  consumableType: food
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
   activities:
     G1e4fH454nAd8syz:
       type: utility
@@ -141,6 +116,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -149,6 +125,7 @@ system:
         override: false
       effects:
         - _id: U8qgEI96nwv0Ccil
+          level: {}
       range:
         override: false
         units: self
@@ -172,19 +149,31 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: ''
-      appliedEffects:
-        - U8qgEI96nwv0Ccil
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  unidentified:
+    description: ''
+  type:
+    value: food
+    subtype: ''
+  identifier: seeing-sticks
+  container: null
+  attuned: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.3.8
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.Dnk6PyldFwCPGWYn
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610822806
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!U2MkaHu6AfoWF17x'

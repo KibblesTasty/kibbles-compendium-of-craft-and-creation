@@ -44,6 +44,8 @@ system:
   requirements: Potionsmith 1
   prerequisites:
     level: 1
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -79,7 +81,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -105,19 +107,27 @@ system:
           number: null
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: healing-draught
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.rxwyauVokAtDJ8TP
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385675341
+  systemVersion: 5.2.0
+  createdTime: 1764610786699
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!C4grZlhFeDhpyIyw'

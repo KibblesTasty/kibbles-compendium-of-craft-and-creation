@@ -7,11 +7,7 @@ folder: 1FEFTA5H9DfdQVYG
 sort: 187500
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 2
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -157,7 +153,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -173,26 +169,37 @@ system:
         onSave: half
         parts: []
       save:
-        ability: cha
+        ability:
+          - cha
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: curse-bringer
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.bYjP8TyhFyawlVJr
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385676238
+  systemVersion: 5.2.0
+  createdTime: 1764610787323
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!D9iiOQKWGwgU2iQM'

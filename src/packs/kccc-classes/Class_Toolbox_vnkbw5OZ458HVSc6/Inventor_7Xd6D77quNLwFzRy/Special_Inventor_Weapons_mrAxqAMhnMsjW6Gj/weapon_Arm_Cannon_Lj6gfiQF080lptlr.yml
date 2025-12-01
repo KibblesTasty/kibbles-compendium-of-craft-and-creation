@@ -38,7 +38,6 @@ system:
   rarity: common
   identified: true
   cover: null
-  crewed: false
   range:
     value: 60
     long: 180
@@ -131,7 +130,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -158,20 +157,28 @@ system:
         includeBase: true
         parts: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: arm-cannon
   ammunition: {}
+  crew:
+    value: []
 ownership:
   default: 0
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385693648
+  systemVersion: 5.2.0
+  createdTime: 1764610792202
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: Lj6gfiQF080lptlr
 sort: 300000
 _key: '!items!Lj6gfiQF080lptlr'

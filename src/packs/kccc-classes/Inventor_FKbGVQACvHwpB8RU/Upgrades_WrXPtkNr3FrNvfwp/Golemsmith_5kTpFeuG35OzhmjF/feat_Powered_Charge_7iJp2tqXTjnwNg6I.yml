@@ -39,6 +39,8 @@ system:
   requirements: Golemsmith 9
   prerequisites:
     level: 9
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -77,7 +79,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -93,24 +95,33 @@ system:
         onSave: half
         parts: []
       save:
-        ability: str
+        ability:
+          - str
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: powered-charge
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.K1GPIqrVJEmReG3i
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385670033
+  systemVersion: 5.2.0
+  createdTime: 1764610784286
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!7iJp2tqXTjnwNg6I'

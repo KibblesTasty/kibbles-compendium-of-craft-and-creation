@@ -26,80 +26,38 @@ system:
     book: KCCC
     custom: ''
     rules: '2014'
-  activation:
-    type: ''
-    cost: 1
-    condition: ''
-  duration:
-    value: ''
-    units: inst
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: '1'
-    width: null
-    units: ''
-    type: creature
-    prompt: true
-  range:
-    value: 30
-    long: 120
-    units: ft
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: ''
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d6
-        - piercing
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   properties:
     - amm
   type:
     value: class
     subtype: upgrade
-  attack:
-    bonus: ''
-    flat: false
-  enchantment: null
-  summons: null
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   requirements: Gadgetsmith 1
-  recharge:
-    value: null
-    charged: false
   identifier: repeating-hand-crossbow
+  activities: {}
+  advancement: []
+  enchant: {}
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: 1721837322596
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.9BIly96xRJnFSpu8
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610812779
+  modifiedTime: null
+  lastModifiedBy: null
 _id: yTcqXvXNyoOzCYPq
 _key: '!items!yTcqXvXNyoOzCYPq'

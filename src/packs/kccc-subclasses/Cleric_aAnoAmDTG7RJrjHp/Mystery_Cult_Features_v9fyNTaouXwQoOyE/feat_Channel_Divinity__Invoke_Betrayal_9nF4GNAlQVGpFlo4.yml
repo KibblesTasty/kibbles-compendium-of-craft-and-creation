@@ -11,13 +11,13 @@ flags:
 _stats:
   compendiumSource: Item.a7tBZP8pKjkAbiQS
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1726385614042
+  systemVersion: 5.2.0
+  createdTime: 1764610774069
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -56,6 +56,7 @@ system:
           - type: itemUses
             value: '1'
             target: channel-divinity
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -81,7 +82,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -97,17 +98,26 @@ system:
         onSave: half
         parts: []
       save:
-        ability: wis
+        ability:
+          - wis
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: channel-divinity-invoke-betrayal
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _key: '!items!9nF4GNAlQVGpFlo4'

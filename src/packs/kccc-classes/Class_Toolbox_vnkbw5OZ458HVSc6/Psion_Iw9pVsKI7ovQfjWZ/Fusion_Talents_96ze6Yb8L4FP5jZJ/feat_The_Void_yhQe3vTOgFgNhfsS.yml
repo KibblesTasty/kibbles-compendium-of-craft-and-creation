@@ -22,66 +22,21 @@ system:
     license: ''
     revision: 1
     rules: '2014'
-  activation:
-    type: reaction
-    cost: 1
-    condition: A creature within 5 feet takes damage from a magical source
-  duration:
-    value: ''
-    units: ''
   cover: null
   crewed: false
-  target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
     recovery: []
-    prompt: true
     spent: 0
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
   type:
     value: class
     subtype: psionicTalent
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   requirements: Consumption Discipline, Nullification Discipline
-  recharge:
-    value: null
-    charged: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -102,12 +57,12 @@ system:
       duration:
         concentration: false
         value: ''
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -118,7 +73,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: ''
           type: ''
@@ -136,8 +91,15 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: the-void
   enchant: {}
+  advancement: []
 effects: []
 sort: 0
 ownership:
@@ -148,13 +110,13 @@ flags:
       activity: []
       effect: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: 1721843767710
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: null
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610812867
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!yhQe3vTOgFgNhfsS'

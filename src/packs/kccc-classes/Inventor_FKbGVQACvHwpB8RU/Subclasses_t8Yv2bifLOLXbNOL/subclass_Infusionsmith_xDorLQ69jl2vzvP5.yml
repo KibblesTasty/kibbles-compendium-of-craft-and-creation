@@ -99,11 +99,11 @@ system:
       Animation}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.q3zthAH5YwAT5GkB]{Upgrade:
       Third Animated Weapon}</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   identifier: infusionsmith
   classIdentifier: inventor
   advancement:
@@ -292,6 +292,7 @@ system:
         restriction:
           type: class
           subtype: upgrade
+          list: []
       value:
         added: {}
         replaced: {}
@@ -305,16 +306,17 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.0.0
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.tGH5UYSbkxwfMWP8
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610811823
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!xDorLQ69jl2vzvP5'

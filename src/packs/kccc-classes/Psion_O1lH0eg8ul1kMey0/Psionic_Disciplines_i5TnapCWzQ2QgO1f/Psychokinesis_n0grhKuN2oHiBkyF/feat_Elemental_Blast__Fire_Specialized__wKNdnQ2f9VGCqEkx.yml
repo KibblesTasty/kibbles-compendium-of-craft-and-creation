@@ -33,13 +33,12 @@ effects:
       compendiumSource: >-
         Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.QBHLfLXYSARewI0E.ActiveEffect.4jDkvVU3ATAUvBPJ
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: 1727217817618
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!wKNdnQ2f9VGCqEkx.mZXBC2GVDSWGEQik'
 folder: n0grhKuN2oHiBkyF
 sort: -50000
@@ -97,6 +96,7 @@ system:
         override: false
       effects:
         - _id: mZXBC2GVDSWGEQik
+          level: {}
       range:
         value: '60'
         units: ft
@@ -110,7 +110,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -150,9 +150,12 @@ system:
               formula: ''
       sort: -100000
       name: ''
-      img: ''
-      appliedEffects:
-        - mZXBC2GVDSWGEQik
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     YNfyWU1H4ZgqHUzO:
       type: save
       name: Massive
@@ -207,11 +210,18 @@ system:
         parts: []
         onSave: none
       save:
-        ability: dex
+        ability:
+          - dex
         dc:
           calculation: int
           formula: ''
       _id: YNfyWU1H4ZgqHUzO
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     89fXZ5nTNrAUn7oM:
       type: attack
       activation:
@@ -254,7 +264,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -295,8 +305,12 @@ system:
       sort: 400000
       name: Overcharged
       _id: 89fXZ5nTNrAUn7oM
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     iR9MHoBWos3pkE1n:
       type: damage
       name: Burn
@@ -355,23 +369,31 @@ system:
               number: 1
               formula: ''
       _id: iR9MHoBWos3pkE1n
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: elemental-blast-fire-specialized
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.MJOStXXPA76e1Gej
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1726385717289
+  systemVersion: 5.2.0
+  createdTime: 1764610811127
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!wKNdnQ2f9VGCqEkx'

@@ -70,56 +70,16 @@ system:
       @Compendium[kibbles-compendium-of-craft-and-creation.kccc-races.h3LCIiH4MBiJxRi3]{Warped
       Gift: Warped Form}</li></ul>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
-  uses:
-    value: null
-    max: ''
-    per: null
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  requirements: ''
-  recharge:
-    value: null
-    charged: false
-  identifier: ''
+    revision: 1
+  identifier: warped
   movement:
-    walk: 30
+    walk: '30'
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
   advancement:
     - _id: UmdEtIsZMAqa0dbN
       type: Trait
@@ -129,14 +89,14 @@ system:
         grants:
           - languages:exotic:deep
         choices: []
-        hint: |-
-          You have learned to understanding
-          the whispering voices you hear. You learn Deep Speech.
       value:
         chosen: []
       level: 0
       title: Whispers of Madness
       icon: null
+      hint: |-
+        You have learned to understanding
+        the whispering voices you hear. You learn Deep Speech.
     - _id: ATvKG5Ekth3d8Xol
       type: AbilityScoreImprovement
       configuration:
@@ -149,6 +109,8 @@ system:
           wis: 0
           cha: 0
         cap: 2
+        locked: []
+        recommendation: null
       value:
         type: asi
       level: 0
@@ -162,7 +124,6 @@ system:
         grants:
           - dr:psychic
         choices: []
-        hint: ''
       value:
         chosen: []
       level: 0
@@ -203,27 +164,37 @@ system:
           - uuid: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.cZryr9maEVNq3P2D
         spell: null
-        hint: |-
-          Your condition grants you one special trait.
-          Some may view it as a curse or burden, but you’ve adapted to
-          using it to your advantage. Select one of the following options:
         restriction:
           type: ''
+          list: []
       value:
         added: {}
         replaced: {}
       title: Warped Gift
       icon: null
+      hint: |-
+        Your condition grants you one special trait.
+        Some may view it as a curse or burden, but you’ve adapted to
+        using it to your advantage. Select one of the following options:
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.344'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.CJ0u53k2YusNzHaA
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610824106
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!ZCTDNDdSL0cLt85t'

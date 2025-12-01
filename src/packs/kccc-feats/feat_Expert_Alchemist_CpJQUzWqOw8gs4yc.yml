@@ -36,6 +36,8 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   advancement:
     - _id: 4psUHCbnHbeDEAlO
@@ -55,21 +57,23 @@ system:
           - con
           - cha
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.y7frhPCOfPLuQRNK
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1726385609056
+  systemVersion: 5.2.0
+  createdTime: 1764610772461
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!CpJQUzWqOw8gs4yc'

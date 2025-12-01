@@ -15,60 +15,21 @@ system:
   description:
     value: "<p>Psychokinesis is the mental art of spontaneously creating and controlling energy; sapping energy to freeze or spontaneously creating bursts of fire or arcs of lightning. Dangerous and destructive, it provides devastating power.</p><h3>Specializations</h3><p>When you take this Discipline, you may (but do not have to) select a specialization from the following list. You may only select a specialization at the time of gaining the Discipline, and can’t change or remove a specialization once selected.</p><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.gRvxcuil7J7H82N5]{Cryokinetic Specialization}</p><p>@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.RtdUln9G1v2UREGU]{Electrokinetic Specialization}</p><p>\_@UUID[Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.qmXLT4XcdyUFoTcS]{Pyrokinetic Specialization}</p><h3>Available Talents</h3><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.mAtiHoNPUHok5kkM]{Talent: Elemental Aegis}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.GDFsUy9IhIdpp47y]{Talent: Elemental Emotions}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.yQWTIcyBU7sOCu3k]{Talent: Elemental Shield}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.LmlROV8RF2GmnX0U]{Talent: Manifested Emotions}</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: psionicDiscipline
   requirements: Psion 1
-  recharge:
-    value: null
-    charged: false
   identifier: psychokinesis-discipline
   activities: {}
   advancement:
@@ -109,16 +70,21 @@ system:
         spell: null
       value: {}
       level: 0
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 5.1.9
-  coreVersion: '13.350'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.DeKXaghDQalWkPVJ
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610813633
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!zpI5hOKg2ENrOe4C'

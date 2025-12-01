@@ -38,7 +38,6 @@ system:
   rarity: rare
   identified: true
   cover: null
-  crewed: false
   range:
     value: 30
     long: 90
@@ -132,7 +131,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -159,20 +158,28 @@ system:
         includeBase: true
         parts: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: adravark
   ammunition: {}
+  crew:
+    value: []
 ownership:
   default: 0
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385668490
+  systemVersion: 5.2.0
+  createdTime: 1764610782975
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: 5Reffkfxlq5rHUhi
 sort: 100000
 _key: '!items!5Reffkfxlq5rHUhi'

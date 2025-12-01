@@ -105,7 +105,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '2'
           type: creature
@@ -144,8 +144,12 @@ system:
               number: 1
       sort: 0
       name: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     E633nDmYAARm3tBM:
       type: damage
       name: Arc
@@ -203,8 +207,12 @@ system:
             scaling:
               number: 1
       _id: E633nDmYAARm3tBM
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     zfvwnQQoL7M6KSv8:
       type: save
       name: Massive
@@ -259,11 +267,18 @@ system:
         parts: []
         onSave: none
       save:
-        ability: dex
+        ability:
+          - dex
         dc:
           calculation: int
           formula: ''
       _id: zfvwnQQoL7M6KSv8
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     6cmelzYzsM0vDkaS:
       type: attack
       activation:
@@ -306,7 +321,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -347,23 +362,31 @@ system:
       sort: 600000
       name: Overcharged
       _id: 6cmelzYzsM0vDkaS
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: elemental-blast-lightning-specialized
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.GeUpuEddOy9vZMsq
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1726385695163
+  systemVersion: 5.2.0
+  createdTime: 1764610793426
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!NVm8DLVlC4NIK34X'

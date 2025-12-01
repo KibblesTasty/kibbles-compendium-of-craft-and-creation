@@ -42,6 +42,8 @@ system:
   requirements: Potionsmith 1
   prerequisites:
     level: 1
+    items: []
+    repeatable: false
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -105,24 +107,32 @@ system:
               number: null
               formula: ''
       save:
-        ability: ''
+        ability: []
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: dragon-draught
   enchant: {}
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.ww4JmEJgS0YDUDaq
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385709916
+  systemVersion: 5.2.0
+  createdTime: 1764610805074
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!lmfWCWcM9P5ovloZ'

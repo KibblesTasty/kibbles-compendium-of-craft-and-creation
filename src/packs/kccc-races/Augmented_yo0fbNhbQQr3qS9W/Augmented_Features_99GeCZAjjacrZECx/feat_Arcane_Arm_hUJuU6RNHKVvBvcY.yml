@@ -15,67 +15,37 @@ system:
       it can serve as a natural weapon. It deals 1d6 bludgeoning damage on hit,
       and counts as a simple weapon with the light property.</span></p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     rules: '2014'
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: null
-    units: inst
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-  range:
-    value: null
-    long: null
-    units: touch
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
-  ability: ''
-  actionType: mwak
-  attackBonus: '0'
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d6 + @mod
-        - bludgeoning
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   requirements: Augmented
-  recharge:
-    value: null
-    charged: false
   type:
     value: race
+    subtype: ''
+  activities: {}
+  advancement: []
+  identifier: arcane-arm
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.1.2
-  coreVersion: '13.350'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.xWq56n06OSqriMVS
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610824231
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!hUJuU6RNHKVvBvcY'

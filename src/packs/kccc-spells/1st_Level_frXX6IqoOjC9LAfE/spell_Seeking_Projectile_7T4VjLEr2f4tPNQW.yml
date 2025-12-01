@@ -5,13 +5,13 @@ effects:
   - name: Seeking Projectile
     flags:
       dnd5e:
-        type: enchantment
         enchantment:
           level:
             min: null
             max: null
           riders:
             effect: []
+        persistSourceMigration: true
     _id: CX87MF8dLQPHDYdg
     changes: []
     disabled: false
@@ -36,17 +36,16 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '13.344'
-      systemId: null
-      systemVersion: null
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     img: icons/skills/ranged/target-bullseye-arrow-glowing.webp
-    type: base
+    type: enchantment
     system: {}
     sort: 0
     _key: '!items.effects!7T4VjLEr2f4tPNQW.CX87MF8dLQPHDYdg'
@@ -55,9 +54,11 @@ sort: 0
 flags:
   core: {}
   dnd5e:
-    riders:
-      activity: []
-      effect: []
+    migratedUses: 0
+    migratedProperties:
+      - vocal
+      - somatic
+      - concentration
 _id: 7T4VjLEr2f4tPNQW
 system:
   description:
@@ -69,80 +70,45 @@ system:
       or more, the attack is a critical hit as if a 20 was rolled. After making
       the attack roll, the spell ends.</p>
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
+    revision: 1
   activation:
     type: action
-    cost: 1
     condition: ''
-  duration:
-    value: 10
-    units: minute
-  cover: null
-  crewed: false
-  target:
     value: 1
-    width: null
-    units: ''
-    type: object
+  duration:
+    value: '10'
+    units: minute
+  target:
+    affects:
+      type: object
+      count: '1'
+      choice: false
+    template:
+      units: ft
+      contiguous: false
   range:
-    value: null
-    long: null
     units: touch
   uses:
-    value: 0
     max: '0'
-    per: ''
-    recovery: ''
-  consume:
-    type: ''
-    target: ''
-    amount: null
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: ench
-  attackBonus: 0
-  chatFlavor: ''
-  critical: null
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 1
   school: trs
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: true
-    value: ''
   materials:
     value: ''
     consumed: false
     cost: 0
     supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - vocal
     - somatic
     - material
     - concentration
-  enchantment:
-    restrictions:
-      allowMagical: true
-      type: ''
   activities:
     dnd5eactivity000:
       _id: dnd5eactivity000
@@ -174,6 +140,7 @@ system:
             item: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
@@ -187,23 +154,32 @@ system:
         max: ''
         recovery: []
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: true
         type: ''
         categories: []
         properties: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  method: spell
+  prepared: 0
+  identifier: seeking-projectile
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 4.2.2
-  coreVersion: '13.344'
-  createdTime: 1721363787783
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.daYBOMOhPLqrXBoW
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610818406
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!7T4VjLEr2f4tPNQW'

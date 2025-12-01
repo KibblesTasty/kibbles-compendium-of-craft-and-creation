@@ -35,12 +35,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '13.351'
       systemId: dnd5e
-      systemVersion: 5.1.9
-      createdTime: 1761096033056
-      modifiedTime: null
+      systemVersion: 5.2.0
       lastModifiedBy: null
+      modifiedTime: null
     _key: '!items.effects!v4dlqA2sX1IrkovP.gAYIFv7uWTur1wWS'
 folder: B7JG1A1xufT9VN8p
 sort: 150000
@@ -50,13 +49,13 @@ _id: v4dlqA2sX1IrkovP
 _stats:
   compendiumSource: Item.N4g09mo1V0ifnzW5
   duplicateSource: null
-  coreVersion: '13.350'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1726385616523
+  systemVersion: 5.2.0
+  createdTime: 1764610776619
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -114,6 +113,7 @@ system:
           - type: itemUses
             value: '1'
             target: monks-focus
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -151,18 +151,24 @@ system:
         max: ''
       enchant:
         self: false
-        identifier: ''
       restrictions:
         allowMagical: true
         categories: []
         properties: []
         type: weapon
       name: Extended Blade
-      img: ''
-      appliedEffects:
-        - gAYIFv7uWTur1wWS
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 _key: '!items!v4dlqA2sX1IrkovP'

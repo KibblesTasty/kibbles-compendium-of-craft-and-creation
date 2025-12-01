@@ -42,7 +42,6 @@ system:
   rarity: uncommon
   identified: true
   cover: null
-  crewed: false
   range:
     value: null
     long: 90
@@ -136,7 +135,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -163,20 +162,28 @@ system:
         includeBase: true
         parts: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: thunder-shotgun
   ammunition: {}
+  crew:
+    value: []
 ownership:
   default: 0
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385715159
+  systemVersion: 5.2.0
+  createdTime: 1764610809591
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _id: smpKe5Jpe0RuzmD4
 sort: 0
 _key: '!items!smpKe5Jpe0RuzmD4'

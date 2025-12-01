@@ -7,11 +7,7 @@ folder: 6EzKc0AECLWrcixd
 sort: 75000
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 system:
   description:
     value: "<p>Nature had its chance to make your form, now it’s your turn to improve it. When you take this path, you gain the Fleshcrafted Mutation upgrade, and it doesn’t count against your upgrade total. Additionally, when an upgrade calls to use your spell save DC, you can instead use 8 + your Constitution modifier + your proficiency bonus.</p>\n<p>When you take the Attack action, you can use your bonus action to make a single additional attack with this upgrade. You can make this additional attack a number of times equal to your Inventor level. You regain all uses at the end of a long rest.</p>\n<p>\_</p>"
@@ -61,7 +57,7 @@ system:
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -72,7 +68,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: creature
@@ -90,21 +86,31 @@ system:
         prompt: false
         visible: false
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: thesis-of-flesh-perfection-of-form
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: []
+  crewed: false
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.mHGW7D8iSARpxmZo
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385703555
+  systemVersion: 5.2.0
+  createdTime: 1764610800231
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!aZsI4nFemQKtpjQi'

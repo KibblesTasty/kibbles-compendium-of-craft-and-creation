@@ -35,6 +35,8 @@ system:
     subtype: upgrade
   prerequisites:
     level: 19
+    items: []
+    repeatable: false
   properties: []
   requirements: Relicsmith 19
   activities:
@@ -87,7 +89,7 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
         affects:
           count: '1'
           type: object
@@ -100,15 +102,23 @@ system:
         max: ''
         recovery: []
       enchant:
-        identifier: ''
+        self: false
       restrictions:
         allowMagical: false
         type: weapon
         categories: []
         properties: []
       sort: 0
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: consecrated-weapon
   enchant: {}
+  advancement: []
+  crewed: false
 effects:
   - name: Consecrated Weapon
     flags:
@@ -148,13 +158,12 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.344'
-      systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
       exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.0
+      lastModifiedBy: null
+      modifiedTime: null
     img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
     type: enchantment
     system: {}
@@ -164,19 +173,15 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726385694560
+  systemVersion: 5.2.0
+  createdTime: 1764610792897
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 _key: '!items!MmT4pK0zNI0OURwQ'

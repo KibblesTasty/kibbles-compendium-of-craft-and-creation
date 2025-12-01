@@ -11,75 +11,41 @@ system:
   description:
     value: "<p><em>(Prerequisite: Curse Eater)</em></p>\n<p>You gain twice as many temporary hit points at the start of your turn from Curse Eater (or recover twice as many hit points when recovering hit points with it). You gain temporary hit points from the feature even when incapacitated.</p>\n<p>\_</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: upgrade
   requirements: Cursesmith 15
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 15
     items:
       - curse-eater
+    repeatable: false
   identifier: undying-creature
+  activities: {}
+  advancement: []
+  enchant: {}
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 5.1.9
-  coreVersion: '13.350'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.K6APtWfDrACSOZjp
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610812736
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!yTRchN7aCDBl1n40'

@@ -11,75 +11,41 @@ system:
   description:
     value: "<p>\_</p>\n<p><em>(Prerequisite: Warplate)</em></p>\n<p>Your armor partially deflects incoming blows. You can use your reaction when hit by an attack that deals bludgeoning, piercing, or slashing damage to reduce the damage of that attack by an amount equal to your proficiency bonus.</p>"
     chat: ''
-    unidentified: ''
   source:
     book: KCCC
     custom: ''
     rules: '2014'
-  activation:
-    type: ''
-    cost: 0
-    condition: ''
-  duration:
-    value: null
-    units: ''
+    revision: 1
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-  consume:
-    type: ''
-    target: null
-    amount: null
-  ability: null
-  actionType: ''
-  attackBonus: 0
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: upgrade
   requirements: Warsmith 5
-  recharge:
-    value: null
-    charged: false
   prerequisites:
     level: 5
     items:
       - warplate
+    repeatable: false
   identifier: reactive-plating
+  activities: {}
+  advancement: []
+  enchant: {}
+  properties: []
 ownership:
   default: 0
 _stats:
-  systemId: dnd5e
-  systemVersion: 5.1.9
-  coreVersion: '13.350'
-  createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
   compendiumSource: Item.0I5Dpr4z9mJ1ghWo
   duplicateSource: null
   exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.0
+  createdTime: 1764610813326
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!zPDqPqoDDH1yUWOR'

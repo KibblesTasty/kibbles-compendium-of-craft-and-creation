@@ -57,7 +57,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     MbgCvxmMQoF72Sbi:
       type: cast
       spell:
@@ -86,6 +91,7 @@ system:
             value: '1'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -108,7 +114,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     NFU8B466PYnABpGd:
       type: cast
       spell:
@@ -161,7 +172,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     9iMTbNJScxQ7Vmjx:
       type: cast
       spell:
@@ -214,7 +230,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     vkVGBmVc0ifI1Or8:
       type: cast
       spell:
@@ -269,7 +290,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     3SoHK0NB3k3MBrCq:
       type: cast
       spell:
@@ -322,7 +348,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     jBLyg1zJmUmqmCjX:
       type: cast
       spell:
@@ -351,6 +382,7 @@ system:
             value: '4'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -373,7 +405,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     mHXxKTzlk3lRfoEO:
       type: cast
       spell:
@@ -427,7 +464,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     WRHFTkquXaDpaDlJ:
       type: cast
       spell:
@@ -456,6 +498,7 @@ system:
             value: '1'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -478,7 +521,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     hucfYnZgSxqVJoAm:
       type: cast
       spell:
@@ -531,7 +579,12 @@ system:
         recovery: []
         max: ''
       name: ''
-      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -575,10 +628,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.350'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1761245946566
+  systemVersion: 5.2.0
+  createdTime: 1764610812914
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!yjqhEGDylP8RVmvz'

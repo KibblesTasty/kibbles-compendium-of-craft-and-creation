@@ -14,13 +14,13 @@ _id: 6eLNMx1qYguYEaH9
 _stats:
   compendiumSource: Item.VKlW69vSPPoWkbQz
   duplicateSource: null
-  coreVersion: '13.344'
+  exportSource: null
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1726385613934
+  systemVersion: 5.2.0
+  createdTime: 1764610773958
   modifiedTime: null
   lastModifiedBy: null
-  exportSource: null
 ownership:
   default: 0
 system:
@@ -45,7 +45,7 @@ system:
   range:
     value: null
     long: null
-    units: ''
+    units: ft
     reach: null
   uses:
     max: ''
@@ -110,6 +110,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -130,6 +131,12 @@ system:
         critical: {}
         includeBase: true
         parts: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     9mVXqdnzaEi8wun8:
       type: damage
       name: Transform
@@ -155,6 +162,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -184,8 +192,12 @@ system:
               - lightning
             scaling:
               number: 1
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     NcmytnsQ7uOpHy8m:
       type: damage
       name: Overcharge
@@ -215,6 +227,7 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         template:
           contiguous: false
@@ -245,13 +258,18 @@ system:
             scaling:
               number: 1
       _id: NcmytnsQ7uOpHy8m
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   container: null
   attuned: false
   cover: null
-  crewed: false
   ammunition: {}
   magicalBonus: null
   mastery: ''
+  crew:
+    value: []
 _key: '!items!6eLNMx1qYguYEaH9'
