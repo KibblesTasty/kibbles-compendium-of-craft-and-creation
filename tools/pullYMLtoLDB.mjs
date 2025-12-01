@@ -7,7 +7,7 @@ const folders = true;
 
 const packs = await fs.readdir('./src/packs');
 for (const pack of packs) {
-  if (pack === '.gitattributes') continue;
+  if (pack.startsWith(".")) continue;
   console.log('Packing ' + pack);
   await compilePack(
     `${MODULE_ID}/src/packs/${pack}`,
