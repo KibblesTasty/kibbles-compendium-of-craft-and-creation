@@ -7,10 +7,7 @@ folder: NlMeEZ92TcNs15VO
 sort: 100000
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -122,10 +119,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 1
     c7dPCk8hO5GI4p4B:
       type: cast
       spell:
@@ -182,10 +181,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 1
     ZIHlQ0MgaSP647nX:
       type: cast
       spell:
@@ -243,10 +244,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 1
     8ggnF1q9WNCVsJPm:
       type: cast
       spell:
@@ -303,10 +306,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 3
     OgOSTmiu9GBaqyYP:
       type: cast
       spell:
@@ -363,10 +368,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 3
     cHrZvMdHAkD3FXI5:
       type: cast
       spell:
@@ -423,10 +430,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 3
     vVXCj2PqI5XPFFFX:
       type: cast
       spell:
@@ -483,10 +492,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 5
     itlCbv43HWHLNvYI:
       type: cast
       spell:
@@ -544,10 +555,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 5
     h0c3bLgCN5AKkVkO:
       type: cast
       spell:
@@ -604,10 +617,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 7
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 7
     j5Ge5fxaciMEWeFk:
       type: cast
       spell:
@@ -664,10 +679,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 7
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 7
     PvnAybrZQNTnMsOy:
       type: cast
       spell:
@@ -724,10 +741,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 9
     M082bUMjzZv8j3VR:
       type: cast
       spell:
@@ -785,10 +804,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 9
   advancement:
     - type: ItemGrant
       _id: bcQRPPrGogIp7ZNc

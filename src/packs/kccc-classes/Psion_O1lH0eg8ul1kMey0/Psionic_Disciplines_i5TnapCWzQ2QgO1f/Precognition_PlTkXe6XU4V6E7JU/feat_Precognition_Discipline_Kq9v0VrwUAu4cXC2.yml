@@ -7,10 +7,7 @@ folder: PlTkXe6XU4V6E7JU
 sort: 100000
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 system:
   description:
     value: "<p>Precognition is the ability to see what lies ahead, piercing the veil of the future. Seeing things that most people cannot a Psion with Precognitive abilites can, to a limited extent, know the future; such a future is known by tracing its roots from the present, and grows more mysterious and cloudy as such roots grow distant.</p><p>Such a future can be changed by the actions of the present, particularly by knowledge of said future and action to prevent or change it. This is the function most often leveraged by Precognitive Psions, peering into the future to steer around courses they seek to prevent or steer toward a possible outcome they seek.</p><h3>Features</h3><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.7GQU2JG7iu7jS5bp]{Prescience}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.GvoZBz0DzdhC0TVz]{Seeing}</p><h3>Alternate Effects</h3><p>Additionally, when you learn the Precognition psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:</p><table><thead><tr><th><p><strong>Point Cost</strong></p></th><th><p><strong>Alternate Effects</strong></p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@Compendium[dnd5e.spells.Mzh95utKDPIrjiH8]{Detect Evil and Good}, @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.kMtGAzfBTuZJUlZZ]{Future Insight}</p></td></tr><tr><td><p>2</p></td><td><p>@Compendium[dnd5e.spells.4v2H3hHb3Ph9XLNd]{Augury}, @Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.hpYYLrY7pXzdqnrs]{Glimpse the Future}</p></td></tr><tr><td><p>3</p></td><td><p>@Compendium[dnd5e.spells.cg50KpBkBdPK6vPL]{Clairvoyance}</p></td></tr><tr><td><p>4</p></td><td><p>@Compendium[dnd5e.spells.VtCXMdyM6mAdIJZb]{Death Ward}, @Compendium[dnd5e.spells.XqzXSKNR75ZdYTA9]{Divination}</p></td></tr><tr><td><p>5</p></td><td><p>@Compendium[dnd5e.spells.fVbCxFRaORalHB20]{Scrying}</p></td></tr></tbody></table><h3>Available Talents</h3><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.3JHeW2OYC8Bb2dMB]{Talent: Glimpsed Future}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.Xz1uNN5aV1d5HpiS]{Talent: One Step Ahead}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.wfvzwOc5Fh2W1FJ2]{Talent: Precognitive Dreams}</p><p>\_</p>"
@@ -86,10 +83,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 1
     EBKMY1bTWrxYB3ox:
       type: cast
       spell:
@@ -147,10 +146,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 1
     2fEgul9XhdHBPPxZ:
       type: cast
       spell:
@@ -207,10 +208,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 3
     YsPKuvKF1xcm4Pi2:
       type: cast
       spell:
@@ -269,10 +272,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 3
     Oxp7W7NahUZH4nm1:
       type: cast
       spell:
@@ -329,10 +334,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 5
     AGojnezj6nptNUaN:
       type: cast
       spell:
@@ -389,10 +396,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 7
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 7
     OOSyyg03Ujn8u2OY:
       type: cast
       spell:
@@ -449,10 +458,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 7
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 7
     rrwv4n0RrbfuFPPl:
       type: cast
       spell:
@@ -509,10 +520,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 9
   enchant: {}
   prerequisites:
     level: null

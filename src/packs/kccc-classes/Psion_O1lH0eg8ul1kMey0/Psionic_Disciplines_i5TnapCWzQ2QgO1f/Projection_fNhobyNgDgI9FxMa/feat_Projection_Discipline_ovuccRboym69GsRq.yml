@@ -7,10 +7,7 @@ folder: fNhobyNgDgI9FxMa
 sort: 100000
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -115,10 +112,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 1
     rnRZ4J0nf8nScjx0:
       type: cast
       spell:
@@ -175,10 +174,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 1
     MduTHaG8Yf0PjVOe:
       type: cast
       spell:
@@ -235,10 +236,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 3
     vfqae5uy8rKGKMCO:
       type: cast
       spell:
@@ -295,10 +298,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 5
     MDa9vo0e7C6btl1Z:
       type: cast
       spell:
@@ -355,10 +360,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 7
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 7
     FZycwhLTsNSpW5Xo:
       type: cast
       spell:
@@ -415,10 +422,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 9
   enchant: {}
   prerequisites:
     level: null

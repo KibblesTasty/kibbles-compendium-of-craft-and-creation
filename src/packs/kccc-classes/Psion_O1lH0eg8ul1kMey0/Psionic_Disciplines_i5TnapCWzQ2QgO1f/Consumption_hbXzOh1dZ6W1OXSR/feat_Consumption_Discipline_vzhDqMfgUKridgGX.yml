@@ -7,10 +7,7 @@ folder: hbXzOh1dZ6W1OXSR
 sort: 100000
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 system:
   description:
     value: "<p>Your psychic powers are those of a predator, and your prey is the minds of others. Their thoughts, their feelings, their vital psionic energies are your food.</p><h3>Features</h3><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.cJCUyt6oR2sR1Mfl]{Adaptive Hunter}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.dIkjQIqrfXVpW3dp]{Mind Leech}</p><h3>Alternate Effects</h3><p>Additionally, when you learn the Consumption psionic discipline you can use your Psionics feature to cast the following spells as per the rules defined in the feature:</p><table border=\"1\"><thead><tr><th><p><strong>Point Cost</strong></p></th><th><p><strong>Alternate Effects</strong></p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@Compendium[dnd5e.spells.ksaaTxIbKx2sJfia]{Inflict Wounds}</p></td></tr><tr><td><p>2</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.WwGEJqANVTHASfIB]{Psychic Drain}</p></td></tr><tr><td><p>3</p></td><td><p>@Compendium[dnd5e.spells.UfHQhA54M4323gVO]{Vampiric Touch}</p></td></tr><tr><td><p>4</p></td><td><p>@Compendium[dnd5e.spells.pybg5MNc3lkerH4Y]{Blight}</p></td></tr><tr><td><p>5</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.DULroJrfyUiDGRny]{Devouring Darkness}</p></td></tr></tbody></table><p>\_</p><h3>Available Talents</h3><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.ZYH3vWHY9umXV9zv]{Talent: Consumed Strength}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.d8LzNsF67izKy7FE]{Talent: Consuming Link}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.56RPI9lmjtbz1wZH]{Talent: Skill Thief}</p><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-classes.cETvMLh1FT9j1zbB]{Talent: Unlife Wielder}</p>"
@@ -86,10 +83,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 1
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 1
     4d0QAyn7g7JGBsa9:
       type: cast
       spell:
@@ -147,10 +146,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 3
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 3
     vq1a2dN1qbtE6arI:
       type: cast
       spell:
@@ -208,10 +209,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 5
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 5
     xZuttt157AGwWnKe:
       type: cast
       spell:
@@ -268,10 +271,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 7
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 7
     UPVDD9HAM0SYNr0V:
       type: cast
       spell:
@@ -329,10 +334,12 @@ system:
       name: ''
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: 9
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        min: 9
   enchant: {}
   prerequisites:
     level: null
