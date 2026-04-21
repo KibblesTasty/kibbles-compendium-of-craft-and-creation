@@ -11,34 +11,24 @@ system:
   description:
     value: >-
       <p>You specialize in developing poisons, granting you proficiency with
-      poisoner’s kits and the following benefits:</p>
-
-      <ul>
-
-      <li>When you create a poison, you can specify a creature type that poison
-      is specifically made for. That poison ignores resistance and immunity to
-      poison damage for that creature.</li>
-
-      <li>You can apply poison to a weapon or piece of ammunition as a bonus
-      action, instead of an action.</li>
-
-      <li>During a long rest, you can perform 1 hour of work using a poisoner’s
-      kit to create a number of doses of potent poison equal to your proficiency
-      bonus, which last until you apply them to a weapon or finish your next
-      long rest. Once applied to a weapon or piece of ammunition, the poison
-      retains its potency for 1 minute or until you hit with the weapon or
-      ammunition. When a creature takes damage from the coated weapon or
-      ammunition, that creature must succeed on a Constitution saving throw (DC
-      equal to 8 + twice your proficiency bonus) or take 1d8 poison damage and
-      become poisoned until the end of your next turn. On success, they take
-      half as much damage and aren’t poisoned.</li>
-
-      </ul>
-
-      <p>When you use this feature to create poison, you can expend 15 gp per
-      dose of poison to create a more deadly poison. When you do so, creatures
-      that fail their Constitution saving throw against it take an extra 1d8
-      poison damage.</p>
+      poisoner’s kits and the following benefits:</p><ul><li>When you create a
+      poison, you can specify a creature type that poison is specifically made
+      for. That poison ignores resistance and immunity to poison damage for that
+      creature.</li><li>You can apply poison to a weapon or piece of ammunition
+      as a bonus action, instead of an action.</li><li>During a long rest, you
+      can perform 1 hour of work using a poisoner’s kit to create a number of
+      doses of potent poison equal to your proficiency bonus, which last until
+      you apply them to a weapon or finish your next long rest. Once applied to
+      a weapon or piece of ammunition, the poison retains its potency for 1
+      minute or until you hit with the weapon or ammunition. When a creature
+      takes damage from the coated weapon or ammunition, that creature must
+      succeed on a Constitution saving throw (DC equal to 8 + twice your
+      proficiency bonus) or take 1d8 poison damage and become
+      &amp;Reference[poisoned] until the end of your next turn. On success, they
+      take half as much damage and aren’t poisoned.</li></ul><p>When you use
+      this feature to create poison, you can expend 15 gp per dose of poison to
+      create a more deadly poison. When you do so, creatures that fail their
+      Constitution saving throw against it take an extra 1d8 poison damage.</p>
     chat: ''
   source:
     book: KCCC
@@ -54,7 +44,74 @@ system:
     value: feat
     subtype: ''
   identifier: adept-poisoner
-  activities: {}
+  activities:
+    VFhIeMpRsNiQXTot:
+      type: save
+      name: Potent Poison
+      _id: VFhIeMpRsNiQXTot
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - poison
+      save:
+        ability:
+          - con
+        dc:
+          calculation: ''
+          formula: 8 + 2*@prof
   enchant: {}
   prerequisites:
     level: null
@@ -83,7 +140,7 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 5.3.0
   createdTime: 1764610772685
   modifiedTime: null
   lastModifiedBy: null

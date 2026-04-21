@@ -14,7 +14,7 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 5.3.0
   createdTime: 1764610776342
   modifiedTime: null
   lastModifiedBy: null
@@ -38,7 +38,9 @@ system:
   uses:
     max: '@prof'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   requirements: Mystery Cult 1
   type:
     value: class

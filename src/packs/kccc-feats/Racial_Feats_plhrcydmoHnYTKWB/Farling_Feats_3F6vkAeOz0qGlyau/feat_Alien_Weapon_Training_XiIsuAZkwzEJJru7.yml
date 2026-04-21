@@ -29,7 +29,8 @@ system:
   enchant: {}
   prerequisites:
     level: null
-    items: []
+    items:
+      - farling
     repeatable: false
   properties: []
   advancement:
@@ -56,7 +57,7 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 5.3.0
   createdTime: 1764610772546
   modifiedTime: null
   lastModifiedBy: null

@@ -463,11 +463,12 @@ system:
         spellSlot: true
         targets:
           - type: itemUses
-            value: '1'
+            value: '3'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
+              formula: ''
       description:
         chatFlavor: ''
       duration:
@@ -494,10 +495,13 @@ system:
       visibility:
         level:
           min: 5
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
         min: 5
+        identifier: ''
+      img: ''
     y1SBp2aQWjxeehtI:
       type: cast
       spell:
@@ -713,11 +717,12 @@ system:
         spellSlot: true
         targets:
           - type: itemUses
-            value: '1'
+            value: '5'
             target: >-
               Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
+              formula: ''
       description:
         chatFlavor: ''
       duration:
@@ -744,10 +749,13 @@ system:
       visibility:
         level:
           min: 9
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
         min: 9
+        identifier: ''
+      img: ''
     lpqfO0aT1HaDZC5J:
       type: cast
       spell:
@@ -841,7 +849,7 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 5.3.0
   createdTime: 1764610781312
   modifiedTime: null
   lastModifiedBy: null

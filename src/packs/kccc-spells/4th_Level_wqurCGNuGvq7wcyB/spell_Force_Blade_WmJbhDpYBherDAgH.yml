@@ -2,8 +2,8 @@ name: Force Blade
 type: spell
 img: icons/weapons/swords/sword-flanged-lightning.webp
 effects: []
-folder: O6hZgRZFkj4UG3IA
-sort: 0
+folder: wqurCGNuGvq7wcyB
+sort: 200000
 flags:
   core: {}
   dnd5e:
@@ -42,18 +42,21 @@ system:
     affects:
       type: self
       choice: false
+      special: ''
     template:
       units: ft
       contiguous: false
+      type: ''
   range:
     value: '10'
     units: ft
+    special: ''
   uses:
     max: '0'
     recovery: []
     spent: 0
   ability: ''
-  level: 2
+  level: 4
   school: evo
   materials:
     value: ''
@@ -135,7 +138,7 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 5.3.0
   createdTime: 1764610819860
   modifiedTime: null
   lastModifiedBy: null

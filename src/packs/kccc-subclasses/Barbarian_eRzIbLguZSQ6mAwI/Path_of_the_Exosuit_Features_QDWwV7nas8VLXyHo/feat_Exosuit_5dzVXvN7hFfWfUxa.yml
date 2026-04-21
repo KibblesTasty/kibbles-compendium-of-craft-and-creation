@@ -1,7 +1,50 @@
 name: Exosuit
 type: feat
 img: icons/equipment/chest/breastplate-banded-steel-grey.webp
-effects: []
+effects:
+  - name: Regenerating Armor
+    img: icons/equipment/chest/breastplate-banded-steel-grey.webp
+    origin: >-
+      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.5dzVXvN7hFfWfUxa
+    type: base
+    _id: XloM4jrl91YWwRYs
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.ALL
+        mode: 2
+        value: '-@prof'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Your exosuit protects you from blows, reducing the damage you take by
+      your proficiency bonus.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      createdTime: 1776807228880
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!5dzVXvN7hFfWfUxa.XloM4jrl91YWwRYs'
 folder: QDWwV7nas8VLXyHo
 sort: 100000
 flags:
@@ -13,7 +56,7 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 5.3.0
   createdTime: 1764610773897
   modifiedTime: null
   lastModifiedBy: null
@@ -25,29 +68,21 @@ system:
       <p>Starting when you choose this path at 3rd level, you become bonded to
       the exosuit, though you need not necessarily always be wearing it. You are
       permanently connected to it in some way, and even if it is lost or
-      destroyed, it recovers itself through its bond to you.</p>
-
-      <p>In its dormant state, it has a small collapsed form, recedes into your
-      body, or has no form at all (based on its nature). When you enter a rage,
-      it is activated, becoming a complete suit of armor. It subsumes whatever
-      armor you are wearing when it activates, adopting the AC of that armor (if
-      you are not wearing armor, it has the AC of your Unarmored Defense). In
-      addition, it grants you the following properties:</p>
-
-      <ul>
-
-      <li><strong>Regenerating Armor.</strong> Your exosuit protects you from
-      blows, reducing the damage you take by your proficiency bonus.</li>
-
-      <li><strong>Iron Fists.</strong> If you are not carrying anything in your
-      hand, that hand is treated as a weapon that deals 1d8 bludgeoning damage
-      with the light property.</li>
-
-      <li><strong>Smashing Force.</strong> Whenever you succeed on an Athletics
-      (Strength) check to shove or grapple a creature, you can deal 1d4 + your
-      Strength modifier bludgeoning damage to the target creature.</li>
-
-      </ul>
+      destroyed, it recovers itself through its bond to you.</p><p>In its
+      dormant state, it has a small collapsed form, recedes into your body, or
+      has no form at all (based on its nature). When you enter a rage, it is
+      activated, becoming a complete suit of armor. It subsumes whatever armor
+      you are wearing when it activates, adopting the AC of that armor (if you
+      are not wearing armor, it has the AC of your Unarmored Defense). In
+      addition, it grants you the following
+      properties:</p><ul><li><strong>Regenerating Armor.</strong> Your exosuit
+      protects you from blows, reducing the damage you take by your proficiency
+      bonus.</li><li><strong>Iron Fists.</strong> If you are not carrying
+      anything in your hand, that hand is treated as a weapon that deals 1d8
+      bludgeoning damage with the light property.</li><li><strong>Smashing
+      Force.</strong> Whenever you succeed on an Athletics (Strength) check to
+      shove or grapple a creature, you can deal [[/damage 1d4 +
+      @abilities.str.mod bludgeoning]] damage to the target creature.</li></ul>
     chat: ''
   source:
     book: KCCC
@@ -70,6 +105,21 @@ system:
     items: []
     repeatable: false
   properties: []
-  advancement: []
+  advancement:
+    tQ1c1pnfCk9Vkjpz:
+      type: ItemGrant
+      _id: tQ1c1pnfCk9Vkjpz
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.4KJfpEi1TzTYFeoO
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+      title: ''
   crewed: false
 _key: '!items!5dzVXvN7hFfWfUxa'
