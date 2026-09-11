@@ -18,7 +18,7 @@
 		{ "src": "kccc.css", "layer": "modules" }
 	],
   "compatibility": {
-    "minimum": "13",
+    "minimum": "14",
     "verified": "14"
   },
   "relationships": {
@@ -26,15 +26,15 @@
       "id": "dnd5e",
       "type": "system",
       "compatibility": {
-        "minimum": "5.3",
-        "verified": "5.3"
+        "minimum": "6.0",
+        "verified": "6.0"
       }
     }]
   },
   "url": "https://kthomebrew.com",
   "bugs": "https://docs.google.com/spreadsheets/d/1sXm14XZPt8cpuuMOoRwtveuaZvuTHGV_q57ktdduT6U/edit?gid=1755804638#gid=1755804638",
   "manifest": "https://github.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/releases/latest/download/module.json",
-  "download": "AUTOMATIC",
+  "download": "",
   "packs": [
     {
       "name": "kccc-backgrounds",
@@ -101,7 +101,13 @@
       "label": "KCCC Journals",
       "system": "dnd5e",
       "type": "JournalEntry"
-    }
+    },
+		{
+			"name": "kccc-effects",
+			"label": "KCCC Effects",
+			"system": "dnd5e",
+			"type": "ActiveEffect"
+		}
   ],
   "packFolders": [{
     "name": "KibblesTasty",
@@ -111,7 +117,7 @@
       "name": "KCCC",
       "sorting": "a",
       "color": "#663399",
-      "packs": ["kccc-roll-tables", "kccc-journals"],
+      "packs": ["kccc-roll-tables", "kccc-journals", "kccc-effects"],
       "folders": [{
           "name": "Character Features",
           "sorting": "a",
