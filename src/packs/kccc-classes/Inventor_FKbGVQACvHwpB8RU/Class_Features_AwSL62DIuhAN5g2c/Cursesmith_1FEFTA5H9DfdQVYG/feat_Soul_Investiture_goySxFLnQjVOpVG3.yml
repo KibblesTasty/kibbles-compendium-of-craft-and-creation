@@ -4,40 +4,12 @@ type: feat
 img: icons/magic/unholy/hands-cloud-light-pink.webp
 effects:
   - _id: tqthYH6GOtm1jEwn
-    changes:
-      - key: system.bonuses.abilities.save
-        mode: 2
-        value: '-1d4'
-        priority: 20
-      - key: system.bonuses.mwak.attack
-        mode: 2
-        value: '-1d4'
-        priority: 20
-      - key: system.bonuses.msak.attack
-        mode: 2
-        value: '-1d4'
-        priority: 20
-      - key: system.bonuses.rsak.attack
-        mode: 2
-        value: '-1d4'
-        priority: 20
-      - key: system.bonuses.rwak.attack
-        mode: 2
-        value: '-1d4'
-        priority: 20
-      - key: system.bonuses.mwak.damage
-        mode: 2
-        value: +1d6
-        priority: 20
     disabled: true
     duration:
-      startTime: null
-      rounds: 1
-      seconds: null
-      combat: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
     origin: Compendium.world.kccc-classes.goySxFLnQjVOpVG3
     transfer: true
     flags: {}
@@ -46,18 +18,71 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140615521
     name: Soul Investiture
     img: icons/magic/unholy/hands-cloud-light-pink.webp
     type: base
-    system: {}
+    system:
+      changes:
+        - key: system.bonuses.abilities.save
+          value: -1d4
+          priority: 20
+          type: add
+          phase: initial
+          _id: syQVjuXbgD8c1PoL
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.mwak.attack
+          value: -1d4
+          priority: 20
+          type: add
+          phase: initial
+          _id: SyOaCtmk5ZwV5Lr8
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.msak.attack
+          value: -1d4
+          priority: 20
+          type: add
+          phase: initial
+          _id: wRjt12uyWgGjOqZC
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.rsak.attack
+          value: -1d4
+          priority: 20
+          type: add
+          phase: initial
+          _id: xZ0mZSxEadXhqLUn
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.rwak.attack
+          value: -1d4
+          priority: 20
+          type: add
+          phase: initial
+          _id: hPtRqnTCdohN20gc
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.mwak.damage
+          value: +1d6
+          priority: 20
+          type: add
+          phase: initial
+          _id: zrQB0bZibojSh2bj
+          conditions: '{}'
+          replacement: ''
     description: ''
     statuses: []
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!goySxFLnQjVOpVG3.tqthYH6GOtm1jEwn'
 folder: 1FEFTA5H9DfdQVYG
 sort: -100000
@@ -168,7 +193,7 @@ _stats:
   compendiumSource: Item.zkY54eYQjM8jDgC1
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610802932

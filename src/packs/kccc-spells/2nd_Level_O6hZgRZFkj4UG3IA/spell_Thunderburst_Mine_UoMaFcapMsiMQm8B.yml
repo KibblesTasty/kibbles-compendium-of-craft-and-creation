@@ -6,11 +6,7 @@ folder: O6hZgRZFkj4UG3IA
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedProperties:
-      - vocal
-      - somatic
-      - material
+  dnd5e: {}
 _id: UoMaFcapMsiMQm8B
 system:
   description:
@@ -43,6 +39,7 @@ system:
   duration:
     value: '8'
     units: hour
+    expiry: null
   target:
     affects:
       type: object
@@ -51,6 +48,7 @@ system:
     template:
       units: ft
       contiguous: false
+      stationary: false
   range:
     units: touch
   uses:
@@ -87,10 +85,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -100,6 +100,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -122,12 +123,14 @@ system:
               mode: ''
               number: null
               formula: ''
+            modifiers: []
       save:
         ability:
           - con
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -135,6 +138,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: thunderburst-mine
@@ -144,10 +149,10 @@ _stats:
   compendiumSource: Item.rr60WpCPVCjDGLVQ
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819781
+  systemVersion: 6.0.0
+  createdTime: 1789140655359
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!UoMaFcapMsiMQm8B'

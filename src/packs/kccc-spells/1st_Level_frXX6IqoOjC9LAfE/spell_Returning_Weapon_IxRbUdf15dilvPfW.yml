@@ -11,80 +11,99 @@ effects:
             max: null
           riders:
             effect: []
-        persistSourceMigration: true
     _id: mhKPVwYEdOdjFTpD
-    changes:
-      - key: system.properties
-        mode: 2
-        value: ret
-        priority: null
-      - key: system.properties
-        mode: 2
-        value: thr
-        priority: null
-      - key: system.properties
-        mode: 2
-        value: mgc
-        priority: null
-      - key: system.range.value
-        mode: 2
-        value: '20'
-        priority: null
-      - key: system.range.long
-        mode: 2
-        value: '60'
-        priority: null
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>You touch a weapon granting it the throwing 20/60 property. If it
       already has the thrown property, it's range increases by 20/60. It also
       gains the "returning" property. After being thrown it automatically
       reappears in the throwers hand.</p>
     origin: null
-    transfer: true
+    transfer: false
     statuses: []
     tint: '#ffffff'
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140651298
     img: icons/weapons/thrown/shuriken-triple-purple.webp
     type: enchantment
-    system: {}
+    system:
+      changes:
+        - key: system.properties
+          value: ret
+          priority: null
+          type: add
+          phase: initial
+          _id: LllaMimbAe7nQsc4
+          conditions: '{}'
+          replacement: ''
+        - key: system.properties
+          value: thr
+          priority: null
+          type: add
+          phase: initial
+          _id: 46rlhipWm8FuGhan
+          conditions: '{}'
+          replacement: ''
+        - key: system.properties
+          value: mgc
+          priority: null
+          type: add
+          phase: initial
+          _id: XRAoljEP2B3JOl0v
+          conditions: '{}'
+          replacement: ''
+        - key: system.range.value
+          value: 20
+          priority: null
+          type: add
+          phase: initial
+          _id: ymGIO5zTWkBkqCKV
+          conditions: '{}'
+          replacement: ''
+        - key: system.range.long
+          value: 60
+          priority: null
+          type: add
+          phase: initial
+          _id: IlLDXiVIWaGV1gA0
+          conditions: '{}'
+          replacement: ''
+      magical: true
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!IxRbUdf15dilvPfW.mhKPVwYEdOdjFTpD'
   - type: enchantment
     name: Returning Weapon
     img: icons/weapons/thrown/shuriken-triple-purple.webp
     disabled: true
     _id: NQkihX6l3YNuN4c0
-    system: {}
-    changes: []
+    system:
+      changes: []
+      magical: true
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     origin: null
     tint: '#ffffff'
-    transfer: true
+    transfer: false
     statuses: []
     sort: 0
     flags: {}
@@ -92,20 +111,21 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140651301
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!IxRbUdf15dilvPfW.NQkihX6l3YNuN4c0'
 folder: frXX6IqoOjC9LAfE
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: IxRbUdf15dilvPfW
 system:
   description:
@@ -126,6 +146,7 @@ system:
   duration:
     value: '24'
     units: hour
+    expiry: null
   target:
     affects:
       special: ''
@@ -136,6 +157,7 @@ system:
       type: ''
       units: ft
       contiguous: false
+      stationary: false
   range:
     units: touch
     special: ''
@@ -170,10 +192,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects:
         - _id: NQkihX6l3YNuN4c0
           level: {}
@@ -181,6 +205,7 @@ system:
             activity: []
             effect: []
             item: []
+          uuid: null
       range:
         override: false
         units: self
@@ -188,6 +213,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -210,6 +236,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: enchant
@@ -225,10 +253,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects:
         - _id: mhKPVwYEdOdjFTpD
           level:
@@ -238,6 +268,7 @@ system:
             effect: []
             activity: []
             item: []
+          uuid: null
       range:
         override: false
         units: self
@@ -246,6 +277,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -267,6 +299,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: returning-weapon
@@ -276,10 +310,10 @@ _stats:
   compendiumSource: Item.4SZAods2ts8OCJDe
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819021
+  systemVersion: 6.0.0
+  createdTime: 1789140651295
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!IxRbUdf15dilvPfW'

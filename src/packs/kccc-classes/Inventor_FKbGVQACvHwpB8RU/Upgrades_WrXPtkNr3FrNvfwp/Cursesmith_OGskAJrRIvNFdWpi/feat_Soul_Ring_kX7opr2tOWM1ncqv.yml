@@ -4,25 +4,27 @@ img: icons/equipment/finger/ring-band-engraved-teal.webp
 effects:
   - name: Soul Ring
     img: icons/equipment/finger/ring-band-engraved-teal.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.kX7opr2tOWM1ncqv
+    origin: null
     _id: SiG9rSr8gSjdZcSL
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.death.roll.mode
-        mode: 2
-        value: '1'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.death.roll.mode
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: dCSY1BxbAycrLcqU
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.kX7opr2tOWM1ncqv
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     tint: '#ffffff'
     transfer: true
@@ -36,11 +38,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140620137
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!kX7opr2tOWM1ncqv.SiG9rSr8gSjdZcSL'
 folder: OGskAJrRIvNFdWpi
 sort: 2400000
@@ -96,7 +102,7 @@ _stats:
   compendiumSource: Item.i99PaPJTmfk1ppTb
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610804481

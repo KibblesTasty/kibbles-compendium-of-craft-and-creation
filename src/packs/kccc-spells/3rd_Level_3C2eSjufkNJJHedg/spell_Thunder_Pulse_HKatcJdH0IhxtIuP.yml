@@ -6,12 +6,7 @@ folder: 3C2eSjufkNJJHedg
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
-      - concentration
+  dnd5e: {}
 _id: HKatcJdH0IhxtIuP
 system:
   description:
@@ -41,6 +36,7 @@ system:
   duration:
     value: '1'
     units: minute
+    expiry: null
   target:
     affects:
       choice: false
@@ -49,6 +45,7 @@ system:
       type: cone
       size: '15'
       contiguous: false
+      stationary: false
   range:
     units: self
   uses:
@@ -83,10 +80,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -96,6 +95,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -117,12 +117,14 @@ system:
               mode: whole
               number: 1
               formula: ''
+            modifiers: []
       save:
         ability:
           - con
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -130,6 +132,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: thunder-pulse
@@ -139,10 +143,10 @@ _stats:
   compendiumSource: Item.DCJH6BjJAeba3ICz
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610818891
+  systemVersion: 6.0.0
+  createdTime: 1789140650615
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!HKatcJdH0IhxtIuP'

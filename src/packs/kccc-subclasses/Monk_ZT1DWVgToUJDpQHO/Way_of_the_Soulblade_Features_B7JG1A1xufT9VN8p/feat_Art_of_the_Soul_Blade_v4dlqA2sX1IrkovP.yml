@@ -7,24 +7,25 @@ effects:
     img: icons/skills/melee/strike-dagger-arcane-pink.webp
     disabled: true
     _id: gAYIFv7uWTur1wWS
-    system: {}
-    changes:
-      - key: system.properties
-        mode: 2
-        value: reach
-        priority: null
+    system:
+      changes:
+        - key: system.properties
+          value: reach
+          priority: null
+          type: add
+          phase: initial
+          _id: vB9NwS8rlXZ1VHx5
+          conditions: '{}'
+          replacement: ''
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: 1
-      startRound: null
-      startTurn: null
+      value: 1
+      units: turns
+      expiry: turnStart
+      expired: false
     description: <p>Your Soul Blade gains the Reach property</p>
     origin: null
     tint: '#ffffff'
-    transfer: true
+    transfer: false
     statuses: []
     sort: 0
     flags:
@@ -35,11 +36,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140549229
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!v4dlqA2sX1IrkovP.gAYIFv7uWTur1wWS'
 folder: B7JG1A1xufT9VN8p
 sort: 150000
@@ -50,7 +55,7 @@ _stats:
   compendiumSource: Item.N4g09mo1V0ifnzW5
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610776619

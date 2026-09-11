@@ -4,22 +4,20 @@ img: icons/magic/control/silhouette-aura-energy.webp
 effects:
   - name: 'Channel Divinity: Deny the Supernatural'
     img: icons/magic/control/silhouette-aura-energy.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.W1OZ08F9WZT4usbV
+    origin: null
     transfer: false
     _id: tfj82soh7HZh3bEk
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.W1OZ08F9WZT4usbV
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: 1
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>The target cannot cast spells or use psionic abilities until the end of
       its next turn.</p>
@@ -34,11 +32,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140546955
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!W1OZ08F9WZT4usbV.tfj82soh7HZh3bEk'
 folder: YNNWOIjlENyM7ctA
 sort: 200000
@@ -49,7 +51,7 @@ _stats:
   compendiumSource: Item.ReVQ7aEQ3p3HZWnP
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610775496

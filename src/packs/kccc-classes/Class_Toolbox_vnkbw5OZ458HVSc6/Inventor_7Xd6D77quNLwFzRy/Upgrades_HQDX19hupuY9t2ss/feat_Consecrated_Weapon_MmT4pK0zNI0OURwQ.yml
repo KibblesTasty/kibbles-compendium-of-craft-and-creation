@@ -130,20 +130,12 @@ effects:
           riders:
             effect: []
     _id: EJbK3Wr0sbWb8VIv
-    changes:
-      - key: system.damage.parts
-        mode: 2
-        value: '[["1d8", "radiant"]]'
-        priority: null
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 100
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 100
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>For 10 minutes, the weapon emits bright light in a 30-foot radius and
       dim light for an additional 30 feet. It deals an extra 1d8 radiant damage
@@ -152,22 +144,37 @@ effects:
       the wielder of the weapon is under the effect of the spell protection from
       evil and good.</p>
     origin: null
-    transfer: true
+    transfer: false
     statuses: []
     tint: '#ffffff'
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140587145
     img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
     type: enchantment
-    system: {}
+    system:
+      changes:
+        - key: system.damage.parts
+          value:
+            - - 1d8
+              - radiant
+          priority: null
+          type: add
+          phase: initial
+          _id: hj4W76SsCoaxvwAk
+          conditions: '{}'
+          replacement: ''
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!MmT4pK0zNI0OURwQ.EJbK3Wr0sbWb8VIv'
 sort: 0
 ownership:
@@ -178,7 +185,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610792897

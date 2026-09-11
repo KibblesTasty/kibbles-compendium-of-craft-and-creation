@@ -4,42 +4,61 @@ img: icons/magic/defensive/shield-barrier-blue.webp
 effects:
   - name: Nullify Effect
     img: icons/magic/defensive/shield-barrier-blue.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.dP9QVBIRW6t5zF92
+    origin: null
     transfer: false
     _id: 0Hs0RKUYGJ1U6zXo
     type: base
-    system: {}
-    changes:
-      - key: system.abilities.int.save.roll.mode
-        mode: 2
-        value: '1'
-        priority: null
-      - key: system.abilities.wis.save.roll.mode
-        mode: 2
-        value: '1'
-        priority: null
-      - key: system.abilities.cha.save.roll.mode
-        mode: 2
-        value: '1'
-        priority: null
-      - key: system.traits.dr.value
-        mode: 2
-        value: psychic
-        priority: null
-      - key: system.traits.dr.value
-        mode: 2
-        value: force
-        priority: null
+    system:
+      changes:
+        - key: system.abilities.int.save.roll.mode
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: A5rT4LogsAZFcXGS
+          conditions: '{}'
+          replacement: ''
+        - key: system.abilities.wis.save.roll.mode
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: YGZqOdAqARYsUUoj
+          conditions: '{}'
+          replacement: ''
+        - key: system.abilities.cha.save.roll.mode
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: nQ05AZIv93Q4d917
+          conditions: '{}'
+          replacement: ''
+        - key: system.traits.dr.value
+          value: psychic
+          priority: null
+          type: add
+          phase: initial
+          _id: SvOl7r9yyGdFTiO7
+          conditions: '{}'
+          replacement: ''
+        - key: system.traits.dr.value
+          value: force
+          priority: null
+          type: add
+          phase: initial
+          _id: X1Q80ODfflWLNlv1
+          conditions: '{}'
+          replacement: ''
+      magical: true
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.dP9QVBIRW6t5zF92
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 1
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: ''
     tint: '#ffffff'
     statuses: []
@@ -49,24 +68,24 @@ effects:
         riders:
           statuses: []
     _stats:
-      compendiumSource: >-
-        Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.dP9QVBIRW6t5zF92.ActiveEffect.opk7jUOJAzdxK0Fg
+      compendiumSource: Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-1.Item.dP9QVBIRW6t5zF92.ActiveEffect.opk7jUOJAzdxK0Fg
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140657129
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!dP9QVBIRW6t5zF92.0Hs0RKUYGJ1U6zXo'
 folder: O6hZgRZFkj4UG3IA
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - somatic
+  dnd5e: {}
 _id: dP9QVBIRW6t5zF92
 system:
   description:
@@ -86,6 +105,7 @@ system:
   duration:
     value: '1'
     units: round
+    expiry: null
   target:
     affects:
       special: ''
@@ -95,6 +115,7 @@ system:
       type: ''
       units: ft
       contiguous: false
+      stationary: false
   range:
     units: self
     special: ''
@@ -127,13 +148,16 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects:
         - _id: 0Hs0RKUYGJ1U6zXo
           level: {}
+          uuid: null
       range:
         override: false
         units: self
@@ -142,6 +166,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -162,6 +187,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: nullify-effect
@@ -171,10 +198,10 @@ _stats:
   compendiumSource: Item.ivTV4dN6v30uaf2v
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610820174
+  systemVersion: 6.0.0
+  createdTime: 1789140657120
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!dP9QVBIRW6t5zF92'

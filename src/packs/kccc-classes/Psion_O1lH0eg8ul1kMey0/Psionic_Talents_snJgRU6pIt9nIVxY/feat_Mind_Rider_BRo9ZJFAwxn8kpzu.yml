@@ -5,33 +5,43 @@ img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
 effects:
   - name: Mind Rider
     img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.BRo9ZJFAwxn8kpzu
+    origin: null
     _id: H0RCbU8M8ipOqMvK
     type: base
-    system: {}
-    changes:
-      - key: system.abilities.int.save.roll.mode
-        mode: 2
-        value: '1'
-        priority: null
-      - key: system.abilities.wis.save.roll.mode
-        mode: 2
-        value: '1'
-        priority: null
-      - key: system.abilities.cha.save.roll.mode
-        mode: 2
-        value: '1'
-        priority: null
+    system:
+      changes:
+        - key: system.abilities.int.save.roll.mode
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: aQ74Pp6iK7OcHtiw
+          conditions: '{}'
+          replacement: ''
+        - key: system.abilities.wis.save.roll.mode
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: p5xYxG1dKHxmok23
+          conditions: '{}'
+          replacement: ''
+        - key: system.abilities.cha.save.roll.mode
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: ziVwIHyOmktUjKPt
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.BRo9ZJFAwxn8kpzu
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     tint: '#ffffff'
     transfer: true
@@ -45,11 +55,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140569529
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!BRo9ZJFAwxn8kpzu.H0RCbU8M8ipOqMvK'
 folder: snJgRU6pIt9nIVxY
 sort: 146875
@@ -96,7 +110,7 @@ _stats:
   compendiumSource: Item.7q516QeS4vqzelO1
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610786329

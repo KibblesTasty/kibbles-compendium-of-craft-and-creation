@@ -6,11 +6,7 @@ folder: frXX6IqoOjC9LAfE
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedProperties:
-      - vocal
-      - somatic
-      - concentration
+  dnd5e: {}
 _id: JzVBJjjwz8ij0xgU
 system:
   description:
@@ -34,6 +30,7 @@ system:
   duration:
     value: '1'
     units: minute
+    expiry: null
   target:
     affects:
       special: ''
@@ -44,6 +41,7 @@ system:
       type: ''
       units: ft
       contiguous: false
+      stationary: false
   range:
     value: '60'
     units: ft
@@ -80,10 +78,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -92,6 +92,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -109,6 +110,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       name: ''
       flags: {}
       visibility:
@@ -116,6 +118,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: frighten
@@ -125,10 +129,10 @@ _stats:
   compendiumSource: Item.1T9mITbTC0Qdgom3
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819072
+  systemVersion: 6.0.0
+  createdTime: 1789140651551
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!JzVBJjjwz8ij0xgU'

@@ -1,8 +1,7 @@
 _id: LZUywg40AQlpjuLn
 name: Ironwrought Golem
 type: npc
-img: >-
-  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Golem.png
+img: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Golem.png
 items:
   - _id: bglU66wTNhAwKvWq
     name: Protective Bond
@@ -29,11 +28,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -93,11 +93,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -217,11 +218,12 @@ items:
       compendiumSource: Item.094090din8bu19vk
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -346,17 +348,17 @@ items:
             charge: true
           altValue:
             charge: true
-      dnd5e:
-        migratedUses: null
+      dnd5e: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140671879
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -507,11 +509,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -663,11 +666,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -861,11 +865,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1532,14 +1537,10 @@ prototypeToken:
       bloodColor: ''
   randomImg: false
   texture:
-    src: >-
-      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Golem.png
+    src: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Golem.png
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -1556,7 +1557,7 @@ prototypeToken:
     color: null
   appendNumber: false
   prependAdjective: false
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -1574,14 +1575,15 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 2
 _stats:
   compendiumSource: Actor.s9fmBwzg57MPiimP
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610834664
+  systemVersion: 6.0.0
+  createdTime: 1789140671874
   modifiedTime: null
   lastModifiedBy: null
 _key: '!actors!LZUywg40AQlpjuLn'

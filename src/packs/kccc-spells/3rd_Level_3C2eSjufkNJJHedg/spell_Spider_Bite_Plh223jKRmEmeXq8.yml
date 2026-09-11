@@ -6,11 +6,7 @@ folder: 3C2eSjufkNJJHedg
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: Plh223jKRmEmeXq8
 system:
   description:
@@ -27,6 +23,7 @@ system:
     value: 1
   duration:
     units: inst
+    expiry: null
   target:
     affects:
       type: creature
@@ -35,6 +32,7 @@ system:
     template:
       units: ft
       contiguous: false
+      stationary: false
   range:
     units: touch
   uses:
@@ -68,10 +66,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -81,6 +81,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -114,6 +115,7 @@ system:
               mode: whole
               number: null
               formula: +1d12
+            modifiers: []
       sort: 0
       flags: {}
       visibility:
@@ -121,6 +123,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     dnd5eactivity100:
       _id: dnd5eactivity100
       type: save
@@ -136,10 +140,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -149,6 +155,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -171,12 +178,14 @@ system:
               mode: whole
               number: null
               formula: +1d12
+            modifiers: []
       save:
         ability:
           - con
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -184,6 +193,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: spider-bite
@@ -193,10 +204,10 @@ _stats:
   compendiumSource: Item.jZxnjEVx4EYOHYqj
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819516
+  systemVersion: 6.0.0
+  createdTime: 1789140654076
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!Plh223jKRmEmeXq8'

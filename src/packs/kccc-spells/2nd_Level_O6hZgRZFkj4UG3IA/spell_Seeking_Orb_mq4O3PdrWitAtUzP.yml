@@ -6,12 +6,7 @@ folder: O6hZgRZFkj4UG3IA
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
-      - concentration
+  dnd5e: {}
 _id: mq4O3PdrWitAtUzP
 system:
   description:
@@ -37,6 +32,7 @@ system:
   duration:
     value: '1'
     units: minute
+    expiry: null
   target:
     affects:
       type: creature
@@ -45,6 +41,7 @@ system:
     template:
       units: ft
       contiguous: false
+      stationary: false
   range:
     value: '5'
     units: ft
@@ -80,10 +77,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -93,6 +92,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -117,6 +117,7 @@ system:
               mode: ''
               number: null
               formula: ''
+            modifiers: []
       sort: 0
       flags: {}
       visibility:
@@ -124,6 +125,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     dnd5eactivity300:
       _id: dnd5eactivity300
       type: utility
@@ -139,10 +142,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -152,6 +157,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -171,6 +177,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: seeking-orb
@@ -180,10 +188,10 @@ _stats:
   compendiumSource: Item.rarItzE2AbemIcxS
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610820982
+  systemVersion: 6.0.0
+  createdTime: 1789140660040
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!mq4O3PdrWitAtUzP'

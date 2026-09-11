@@ -5,25 +5,27 @@ img: icons/weapons/wands/wand-gem-green.webp
 effects:
   - name: Wondrous Item Proficiency
     img: icons/weapons/wands/wand-gem-green.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.wmdaw0hE1VphACyj
+    origin: null
     _id: PDelCovBA2vhvwf9
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.attunement.max
-        mode: 2
-        value: '1'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.attunement.max
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: xc6rf66X4iUfwW0N
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.wmdaw0hE1VphACyj
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     tint: '#ffffff'
     transfer: true
@@ -37,11 +39,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140638995
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!wmdaw0hE1VphACyj.PDelCovBA2vhvwf9'
 folder: AwSL62DIuhAN5g2c
 sort: 46875
@@ -83,7 +89,7 @@ _stats:
   compendiumSource: Item.hxeWG8EWVZ2mbHyO
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610811600

@@ -4,25 +4,27 @@ img: icons/equipment/chest/breastplate-banded-steel-grey.webp
 effects:
   - name: Regenerating Armor
     img: icons/equipment/chest/breastplate-banded-steel-grey.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.5dzVXvN7hFfWfUxa
+    origin: null
     type: base
     _id: XloM4jrl91YWwRYs
-    system: {}
-    changes:
-      - key: system.traits.dm.amount.ALL
-        mode: 2
-        value: '-@prof'
-        priority: null
+    system:
+      changes:
+        - key: system.traits.dm.amount.ALL
+          value: -@prof
+          priority: null
+          type: add
+          phase: initial
+          _id: Gka4qhuIxyGXv8f0
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.5dzVXvN7hFfWfUxa
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>Your exosuit protects you from blows, reducing the damage you take by
       your proficiency bonus.</p>
@@ -38,12 +40,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.3.0
+      systemVersion: 6.0.0
       createdTime: 1776807228880
       modifiedTime: null
       lastModifiedBy: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!5dzVXvN7hFfWfUxa.XloM4jrl91YWwRYs'
 folder: QDWwV7nas8VLXyHo
 sort: 100000
@@ -54,7 +59,7 @@ _stats:
   compendiumSource: Item.YribvBkW32KjSXVk
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1764610773897
@@ -111,8 +116,7 @@ system:
       _id: tQ1c1pnfCk9Vkjpz
       configuration:
         items:
-          - uuid: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.4KJfpEi1TzTYFeoO
+          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.4KJfpEi1TzTYFeoO
             optional: false
         optional: false
         spell: null

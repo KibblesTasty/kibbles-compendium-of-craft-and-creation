@@ -1,8 +1,7 @@
 _id: 7WO6xjqlcMaVHRWu
 name: Animator
 type: npc
-img: >-
-  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Animator.png
+img: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Animator.png
 items:
   - _id: 2Zn6cu9qpLDoP7M3
     name: Shield
@@ -82,7 +81,8 @@ items:
       attuned: false
       crew:
         value: []
-      properties: []
+      properties:
+        - gear
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -90,11 +90,12 @@ items:
       compendiumSource: Compendium.dnd5e.items.sSs3hSzkKBMNBgTs
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140668250
     _key: '!actors.items!7WO6xjqlcMaVHRWu.2Zn6cu9qpLDoP7M3'
   - _id: GHbKoAX164YJQzxy
     name: Animated Shield
@@ -152,11 +153,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.GHbKoAX164YJQzxy'
   - _id: vgBHtMx1urfdyMJc
     name: Skilled Animator
@@ -214,11 +216,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.vgBHtMx1urfdyMJc'
   - _id: OxjNc6uzlGj6VxqP
     name: Multiattack
@@ -335,11 +338,12 @@ items:
       compendiumSource: Item.094090din8bu19vk
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.OxjNc6uzlGj6VxqP'
   - _id: k5FN5yv0cRv2hFkn
     name: Animated Dagger
@@ -533,11 +537,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.k5FN5yv0cRv2hFkn'
   - _id: Zgk2l8CMdJoNvFDN
     name: Animated Sword
@@ -732,11 +737,12 @@ items:
       compendiumSource: Item.k5FN5yv0cRv2hFkn
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.Zgk2l8CMdJoNvFDN'
   - _id: GGAv5OC0WKBKTz0z
     name: Animated Chain
@@ -933,11 +939,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.GGAv5OC0WKBKTz0z'
   - _id: twshVh0COedlo5wJ
     name: Animated Shield
@@ -1055,11 +1062,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.twshVh0COedlo5wJ'
   - _id: 3usQyirqfUGqElWc
     name: Retaliating Sword
@@ -1176,11 +1184,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!7WO6xjqlcMaVHRWu.3usQyirqfUGqElWc'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -1698,14 +1707,10 @@ prototypeToken:
       bloodColor: ''
   randomImg: false
   texture:
-    src: >-
-      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Animator.png
+    src: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Animator.png
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -1720,7 +1725,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -1740,14 +1745,15 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 _stats:
   compendiumSource: Actor.ApG3TimDzMNTXMfj
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610833188
+  systemVersion: 6.0.0
+  createdTime: 1789140668249
   modifiedTime: null
   lastModifiedBy: null
 _key: '!actors!7WO6xjqlcMaVHRWu'

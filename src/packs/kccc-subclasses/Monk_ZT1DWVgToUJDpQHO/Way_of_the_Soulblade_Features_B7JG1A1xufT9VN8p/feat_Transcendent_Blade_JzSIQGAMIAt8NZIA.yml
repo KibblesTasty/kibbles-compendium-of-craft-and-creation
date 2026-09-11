@@ -7,32 +7,41 @@ effects:
     img: icons/skills/melee/strike-blade-scimitar-green-purple.webp
     disabled: true
     _id: bDbFcVzDo2GVmcuD
-    system: {}
-    changes:
-      - key: system.properties
-        mode: 2
-        value: mgc
-        priority: null
-      - key: system.magicalBonus
-        mode: 2
-        value: '1'
-        priority: null
-      - key: system.properties
-        mode: 2
-        value: siege
-        priority: null
+    system:
+      changes:
+        - key: system.properties
+          value: mgc
+          priority: null
+          type: add
+          phase: initial
+          _id: wcwQ29e4YkcLZH74
+          conditions: '{}'
+          replacement: ''
+        - key: system.magicalBonus
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: UziaKANo4kTwsak6
+          conditions: '{}'
+          replacement: ''
+        - key: system.properties
+          value: siege
+          priority: null
+          type: add
+          phase: initial
+          _id: CV65wgZdwEU7hQ8W
+          conditions: '{}'
+          replacement: ''
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     origin: null
     tint: '#ffffff'
-    transfer: true
+    transfer: false
     statuses: []
     sort: 0
     flags:
@@ -43,11 +52,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140544981
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!JzSIQGAMIAt8NZIA.bDbFcVzDo2GVmcuD'
 folder: B7JG1A1xufT9VN8p
 sort: 112500
@@ -58,7 +71,7 @@ _stats:
   compendiumSource: Item.0ztF6QtGu7GtusGH
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610774575

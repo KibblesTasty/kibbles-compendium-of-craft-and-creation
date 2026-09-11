@@ -11,50 +11,59 @@ effects:
             max: null
           riders:
             effect: []
-        persistSourceMigration: true
       core: {}
     _id: 9TpZG5dVcws0blw5
-    changes:
-      - key: system.damage.parts
-        mode: 2
-        value: '[["1d4", "fire"]]'
-        priority: null
-      - key: name
-        mode: 5
-        value: Burning {}
-        priority: null
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 10
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 10
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>As an action, you can coat a weapon in this oil and ignite it. For 1
       minute, the ignited weapon burns, dealing an extra [[/damage 1d4 fire]] to
       attacks made with it, and providing bright light in a 20-foot radius and
       dim light for an additional 20 feet.</p>
     origin: null
-    transfer: true
+    transfer: false
     statuses: []
     tint: '#ffffff'
     _stats:
-      compendiumSource: >-
-        Compendium.kibbles-compendium-of-craft-and-creation.kccc-items.Item.tjlvDDNSoXRRKtQU.ActiveEffect.5XlFNzkAM338DC9y
+      compendiumSource: Compendium.kibbles-compendium-of-craft-and-creation.kccc-items.Item.tjlvDDNSoXRRKtQU.ActiveEffect.5XlFNzkAM338DC9y
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140663315
     img: icons/magic/fire/flame-burning-earth-yellow.webp
     type: enchantment
-    system: {}
+    system:
+      changes:
+        - key: system.damage.parts
+          value:
+            - - 1d4
+              - fire
+          priority: null
+          type: add
+          phase: initial
+          _id: ZRRbm1ekuPAN9XEx
+          conditions: '{}'
+          replacement: ''
+        - key: name
+          value: Burning {}
+          priority: null
+          type: override
+          phase: initial
+          _id: sOSKFV6n5fsZoxX8
+          conditions: '{}'
+          replacement: ''
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!on4HyxjKDPI3QGOX.9TpZG5dVcws0blw5'
 folder: 34hJDESbF50bPPrC
 sort: 100000
@@ -97,6 +106,7 @@ system:
         enabled: false
       scaling:
         number: 1
+      modifiers: []
     replace: false
   unidentified:
     description: ''
@@ -108,16 +118,18 @@ system:
   container: null
   attuned: false
   properties: []
+  rarities:
+    - common
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.XoBtw4yo6e6N9ufk
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610823317
+  systemVersion: 6.0.0
+  createdTime: 1789140663314
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!on4HyxjKDPI3QGOX'

@@ -6,12 +6,7 @@ folder: O6hZgRZFkj4UG3IA
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
-      - concentration
+  dnd5e: {}
 _id: X7ISy15oxVpd7Tn5
 system:
   description:
@@ -55,6 +50,7 @@ system:
   duration:
     value: '1'
     units: minute
+    expiry: null
   target:
     affects:
       special: ''
@@ -65,6 +61,7 @@ system:
       type: ''
       units: ft
       contiguous: false
+      stationary: false
   range:
     value: '60'
     units: ft
@@ -101,10 +98,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -113,6 +112,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -137,8 +137,7 @@ system:
         ability: ''
         disposition: false
       profiles:
-        - uuid: >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.WQYVtkePinwZxzwF
+        - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.WQYVtkePinwZxzwF
           _id: H4Lq0RXr7LX9DSCT
           level: {}
           types: []
@@ -152,6 +151,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: animate-object
@@ -161,10 +162,10 @@ _stats:
   compendiumSource: Item.CTAMDVwf0gjibAir
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819932
+  systemVersion: 6.0.0
+  createdTime: 1789140656132
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!X7ISy15oxVpd7Tn5'

@@ -4,25 +4,27 @@ img: icons/creatures/eyes/icy-cluster-blue.webp
 effects:
   - name: Extra Eyes
     img: icons/creatures/eyes/icy-cluster-blue.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.zxfXdGcB3c92PA27
+    origin: null
     _id: mi1GpnTSflUmhvwX
     type: base
-    system: {}
-    changes:
-      - key: system.skills.prc.roll.mode
-        mode: 2
-        value: '1'
-        priority: null
+    system:
+      changes:
+        - key: system.skills.prc.roll.mode
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: xnpYbPXycrXOYelm
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.zxfXdGcB3c92PA27
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     tint: '#ffffff'
     transfer: true
@@ -36,11 +38,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140645226
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!zxfXdGcB3c92PA27.mi1GpnTSflUmhvwX'
 folder: hK3JIEAEdkbPKHxK
 sort: 600000
@@ -97,7 +103,7 @@ _stats:
   compendiumSource: Item.5tIOWYIhCFw3W7q3
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610813766

@@ -11,22 +11,13 @@ effects:
             max: null
           riders:
             effect: []
-        persistSourceMigration: true
     _id: 8d5hEpO0DlrKcoIM
-    changes:
-      - key: system.magicalBonus
-        mode: 4
-        value: '3'
-        priority: null
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>You touch a weapon and imbue it with power. Until the spell ends, the
       weapon becomes indescribably sharp, ignoring resistance to slashing
@@ -37,34 +28,42 @@ effects:
       strike of this weapon would leave a creature with less than 50 hit points,
       the target creature is decapitated, killing it.</p>
     origin: null
-    transfer: true
+    transfer: false
     statuses: []
     tint: '#ffffff'
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140646768
     img: icons/skills/melee/sword-stuck-glowing-pink.webp
     type: enchantment
-    system: {}
+    system:
+      changes:
+        - key: system.magicalBonus
+          value: 3
+          priority: null
+          type: upgrade
+          phase: initial
+          _id: dPOnm39aGPl9zmoK
+          conditions: '{}'
+          replacement: ''
+      magical: true
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!0J6UPqVYUHlPMEGU.8d5hEpO0DlrKcoIM'
 folder: z5vyiu5PscQs2W9P
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
-      - material
-      - concentration
+  dnd5e: {}
 _id: 0J6UPqVYUHlPMEGU
 system:
   description:
@@ -92,6 +91,7 @@ system:
   duration:
     value: '1'
     units: minute
+    expiry: null
   target:
     affects:
       type: object
@@ -100,6 +100,7 @@ system:
     template:
       units: ft
       contiguous: false
+      stationary: false
   range:
     units: touch
   uses:
@@ -135,10 +136,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects:
         - _id: 8d5hEpO0DlrKcoIM
           level:
@@ -148,6 +151,7 @@ system:
             effect: []
             activity: []
             item: []
+          uuid: null
       range:
         override: false
         units: self
@@ -156,6 +160,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -177,6 +182,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: vorpal-weapon
@@ -186,10 +193,10 @@ _stats:
   compendiumSource: Item.wnAXSTE0arf5YLJs
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610818093
+  systemVersion: 6.0.0
+  createdTime: 1789140646764
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!0J6UPqVYUHlPMEGU'

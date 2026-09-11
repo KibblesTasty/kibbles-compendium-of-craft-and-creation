@@ -6,12 +6,7 @@ folder: O6hZgRZFkj4UG3IA
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
-      - concentration
+  dnd5e: {}
 _id: sOn2CzDiolR202dP
 system:
   description:
@@ -40,6 +35,7 @@ system:
   duration:
     value: '1'
     units: minute
+    expiry: null
   target:
     affects:
       choice: false
@@ -48,6 +44,7 @@ system:
       type: radius
       size: '5'
       contiguous: false
+      stationary: false
   range:
     value: '30'
     units: ft
@@ -83,10 +80,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -96,6 +95,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -118,12 +118,14 @@ system:
               mode: ''
               number: null
               formula: ''
+            modifiers: []
       save:
         ability:
           - str
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -131,6 +133,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: dancing-wave
@@ -140,10 +144,10 @@ _stats:
   compendiumSource: Item.wR7NUvFY4rk8LkDu
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610821125
+  systemVersion: 6.0.0
+  createdTime: 1789140660779
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!sOn2CzDiolR202dP'

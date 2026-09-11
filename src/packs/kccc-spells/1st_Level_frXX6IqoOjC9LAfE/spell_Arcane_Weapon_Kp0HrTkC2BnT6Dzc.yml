@@ -11,72 +11,83 @@ effects:
             max: null
           riders:
             effect: []
-        persistSourceMigration: true
     _id: dovPyBC9SoaiStR0
-    changes:
-      - key: system.properties
-        mode: 2
-        value: mgc
-        priority: null
-      - key: ''
-        mode: 2
-        value: ''
-        priority: null
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>You touch a weapon and imbue it with magic. For the duration the weapon
       counts as a magical weapon and any damage dealt by it is Force damage.
       When casting this one a weapon with the ammunition property, it no longer
       consumes ammunition when fired, and does not need to be reloaded.</p>
     origin: null
-    transfer: true
+    transfer: false
     statuses: []
     tint: '#ffffff'
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140651829
     img: icons/magic/symbols/runes-etched-steel-blade.webp
     type: enchantment
-    system: {}
+    system:
+      changes:
+        - key: system.properties
+          value: mgc
+          priority: null
+          type: add
+          phase: initial
+          _id: ujqss0uUC0NJiAsx
+          conditions: '{}'
+          replacement: ''
+        - key: ''
+          value: ''
+          priority: null
+          type: add
+          phase: initial
+          _id: gyK6zlJULVMe41bn
+          conditions: '{}'
+          replacement: ''
+      magical: true
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!Kp0HrTkC2BnT6Dzc.dovPyBC9SoaiStR0'
   - type: enchantment
     name: Arcane Weapon
     img: icons/magic/symbols/runes-etched-steel-blade.webp
     disabled: true
     _id: 6Rg7z8UiBi2xCjIb
-    system: {}
-    changes:
-      - key: system.properties
-        mode: 2
-        value: mgc
-        priority: null
+    system:
+      changes:
+        - key: system.properties
+          value: mgc
+          priority: null
+          type: add
+          phase: initial
+          _id: 7z5N4Z0UXr1f9aH8
+          conditions: '{}'
+          replacement: ''
+      magical: true
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     origin: null
     tint: '#ffffff'
-    transfer: true
+    transfer: false
     statuses: []
     sort: 0
     flags: {}
@@ -84,21 +95,21 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140651830
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!Kp0HrTkC2BnT6Dzc.6Rg7z8UiBi2xCjIb'
 folder: frXX6IqoOjC9LAfE
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: Kp0HrTkC2BnT6Dzc
 system:
   description:
@@ -125,6 +136,7 @@ system:
   duration:
     value: '1'
     units: hour
+    expiry: null
   target:
     affects:
       special: ''
@@ -135,6 +147,7 @@ system:
       type: ''
       units: ft
       contiguous: false
+      stationary: false
   range:
     units: touch
     special: ''
@@ -169,10 +182,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects:
         - _id: 6Rg7z8UiBi2xCjIb
           level: {}
@@ -180,6 +195,7 @@ system:
             activity: []
             effect: []
             item: []
+          uuid: null
       range:
         override: false
         units: self
@@ -187,6 +203,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -209,6 +226,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: enchant
@@ -224,10 +243,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects:
         - _id: dovPyBC9SoaiStR0
           level:
@@ -237,6 +258,7 @@ system:
             effect: []
             activity: []
             item: []
+          uuid: null
       range:
         override: false
         units: self
@@ -245,6 +267,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -266,6 +289,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: arcane-weapon
@@ -275,10 +300,10 @@ _stats:
   compendiumSource: Item.VrGvTT3z4qMnjwRQ
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819120
+  systemVersion: 6.0.0
+  createdTime: 1789140651826
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!Kp0HrTkC2BnT6Dzc'

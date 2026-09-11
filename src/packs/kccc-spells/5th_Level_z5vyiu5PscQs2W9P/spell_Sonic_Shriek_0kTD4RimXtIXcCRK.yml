@@ -6,11 +6,7 @@ folder: z5vyiu5PscQs2W9P
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: 0kTD4RimXtIXcCRK
 system:
   description:
@@ -36,6 +32,7 @@ system:
     value: 1
   duration:
     units: inst
+    expiry: null
   target:
     affects:
       choice: false
@@ -44,6 +41,7 @@ system:
       type: cone
       size: '120'
       contiguous: false
+      stationary: false
   range:
     units: self
   uses:
@@ -77,10 +75,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -90,6 +90,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -112,6 +113,7 @@ system:
               mode: whole
               number: 1
               formula: ''
+            modifiers: []
           - number: 3
             denomination: 8
             bonus: ''
@@ -124,12 +126,14 @@ system:
               mode: whole
               number: 1
               formula: ''
+            modifiers: []
       save:
         ability:
           - con
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -137,6 +141,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: sonic-shriek
@@ -146,10 +152,10 @@ _stats:
   compendiumSource: Item.p8LietkxUvLT1FYn
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610818118
+  systemVersion: 6.0.0
+  createdTime: 1789140646947
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!0kTD4RimXtIXcCRK'

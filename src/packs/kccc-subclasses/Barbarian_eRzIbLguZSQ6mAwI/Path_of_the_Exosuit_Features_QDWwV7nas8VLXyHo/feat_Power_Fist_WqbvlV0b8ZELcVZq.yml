@@ -7,24 +7,25 @@ effects:
     img: icons/equipment/hand/gauntelet-tooled-blue.webp
     disabled: true
     _id: qE07YAuWTXoGf9jS
-    system: {}
-    changes:
-      - key: system.properties
-        mode: 2
-        value: mgc
-        priority: null
+    system:
+      changes:
+        - key: system.properties
+          value: mgc
+          priority: null
+          type: add
+          phase: initial
+          _id: PARoFXaMld5EqXKN
+          conditions: '{}'
+          replacement: ''
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     origin: null
     tint: '#ffffff'
-    transfer: true
+    transfer: false
     statuses: []
     sort: 0
     flags:
@@ -35,12 +36,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.3.0
+      systemVersion: 6.0.0
       createdTime: 1776811499720
       modifiedTime: null
       lastModifiedBy: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!WqbvlV0b8ZELcVZq.qE07YAuWTXoGf9jS'
 folder: QDWwV7nas8VLXyHo
 sort: 150000
@@ -55,7 +59,7 @@ _stats:
   compendiumSource: Item.EYMYoE1cDzIDKTPh
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1764610775626

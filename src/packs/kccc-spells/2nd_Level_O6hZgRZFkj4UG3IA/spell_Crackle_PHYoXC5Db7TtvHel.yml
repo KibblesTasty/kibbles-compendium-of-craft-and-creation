@@ -6,11 +6,7 @@ folder: O6hZgRZFkj4UG3IA
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: PHYoXC5Db7TtvHel
 system:
   description:
@@ -38,6 +34,7 @@ system:
     value: 1
   duration:
     units: inst
+    expiry: null
   target:
     affects:
       type: creature
@@ -46,6 +43,7 @@ system:
     template:
       units: ft
       contiguous: false
+      stationary: false
   range:
     value: '60'
     units: ft
@@ -80,10 +78,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -93,6 +93,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -126,6 +127,7 @@ system:
               mode: whole
               number: null
               formula: ''
+            modifiers: []
       sort: 0
       flags: {}
       visibility:
@@ -133,6 +135,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: crackle
@@ -142,10 +146,10 @@ _stats:
   compendiumSource: Item.MxYox8g83HnZR337
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819428
+  systemVersion: 6.0.0
+  createdTime: 1789140653563
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!PHYoXC5Db7TtvHel'

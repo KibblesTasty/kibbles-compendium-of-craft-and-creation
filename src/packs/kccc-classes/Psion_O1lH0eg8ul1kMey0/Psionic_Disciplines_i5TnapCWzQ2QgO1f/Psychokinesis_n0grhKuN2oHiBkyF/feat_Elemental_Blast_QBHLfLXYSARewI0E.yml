@@ -5,26 +5,28 @@ img: icons/magic/light/beam-rays-magenta-large.webp
 effects:
   - name: Slow
     img: icons/magic/water/projectile-ice-chunk-blue.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.QBHLfLXYSARewI0E
+    origin: null
     transfer: false
     _id: eS8sul6VgZx0ZSIo
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.movement.walk
-        mode: 2
-        value: '-5'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.movement.walk
+          value: -5
+          priority: null
+          type: add
+          phase: initial
+          _id: SxqwhXsYvhP5rROT
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.QBHLfLXYSARewI0E
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 1
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>For each die of cold damage dealt, the creature's speed is reduced by 5
       feet until the end of their next turn.</p>
@@ -36,30 +38,32 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140592780
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!QBHLfLXYSARewI0E.eS8sul6VgZx0ZSIo'
   - name: Burn
     img: icons/magic/fire/explosion-flame-lightning-strike.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.QBHLfLXYSARewI0E
+    origin: null
     transfer: false
     _id: 4jDkvVU3ATAUvBPJ
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.QBHLfLXYSARewI0E
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>For each die of fire damage dealt by the original attack, the creature
       takes 1d4 fire damage at the start of its next turn</p>
@@ -72,11 +76,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140592782
+    showIcon: 2
+    start: null
+    folder: null
     _key: '!items.effects!QBHLfLXYSARewI0E.4jDkvVU3ATAUvBPJ'
 folder: n0grhKuN2oHiBkyF
 sort: 100000
@@ -146,8 +154,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
               formula: ''
@@ -233,8 +240,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
               formula: ''
@@ -323,8 +329,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
               formula: ''
@@ -413,8 +418,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
               formula: ''
@@ -637,8 +641,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
               formula: ''
@@ -760,7 +763,7 @@ _stats:
   compendiumSource: Item.xE5Z9TUQCBDTwK3c
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610794884

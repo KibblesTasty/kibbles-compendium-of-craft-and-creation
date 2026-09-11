@@ -1,8 +1,7 @@
 _id: XVLvV5fP6NpV6ZcZ
 name: Thunderer
 type: npc
-img: >-
-  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Thundersmith.png
+img: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Thundersmith.png
 items:
   - _id: 65aGjmqdSqBDfXUl
     name: Scale Mail
@@ -20,11 +19,12 @@ items:
       compendiumSource: Compendium.dnd5e.items.XmnlF5fgIO3tg6TG
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140673783
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -81,6 +81,9 @@ items:
         value: []
       properties:
         - stealthDisadvantage
+        - gear
+      rarities:
+        - common
     _key: '!actors.items!XVLvV5fP6NpV6ZcZ.65aGjmqdSqBDfXUl'
   - _id: M64zsApbgVHiYgZQ
     name: Devastating Blasts
@@ -107,11 +110,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140673785
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -132,7 +136,7 @@ items:
         recovery: []
       requirements: ''
       activities: {}
-      advancement: []
+      advancement: {}
       identifier: ''
       crewed: false
       enchant: {}
@@ -169,11 +173,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140673787
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -194,7 +199,7 @@ items:
         recovery: []
       requirements: ''
       activities: {}
-      advancement: []
+      advancement: {}
       identifier: ''
       crewed: false
       enchant: {}
@@ -256,11 +261,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140673791
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -308,6 +314,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
         base:
           number: 1
           denomination: 12
@@ -321,6 +328,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
       armor:
         value: 10
       hp:
@@ -352,11 +360,13 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             concentration: false
             units: inst
             special: ''
             override: false
+            expiry: null
           effects: []
           range:
             value: '60'
@@ -372,6 +382,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: '1'
               type: creature
@@ -409,6 +420,7 @@ items:
                   mode: whole
                   number: null
                   formula: ''
+                modifiers: []
               - number: 1
                 denomination: 6
                 bonus: ''
@@ -421,6 +433,7 @@ items:
                   mode: whole
                   number: null
                   formula: ''
+                modifiers: []
           sort: 0
           flags: {}
           visibility:
@@ -428,12 +441,15 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       container: null
       attuned: false
       crew:
         value: []
       ammunition: {}
+      rarities: []
     _key: '!actors.items!XVLvV5fP6NpV6ZcZ.KXcA4XBfJTtp8h9N'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -459,6 +475,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 18
       proficient: 0
@@ -472,6 +493,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -493,6 +519,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 16
       proficient: 1
@@ -506,6 +537,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -527,6 +563,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 10
       proficient: 0
@@ -544,11 +585,21 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
   attributes:
     ac:
       flat: null
       calc: default
       formula: ''
+      calcs:
+        - unarmored
+        - armored
+      formulas: []
+      override: null
     hp:
       value: 55
       max: 55
@@ -562,6 +613,7 @@ system:
         min: null
         max: null
         mode: 0
+        bonus: '0'
     movement:
       burrow: '0'
       climb: '0'
@@ -571,6 +623,12 @@ system:
       units: ft
       hover: false
       ignoredDifficultTerrain: []
+      speeds:
+        walk: '30'
+        burrow: '0'
+        climb: '0'
+        fly: '0'
+        swim: '0'
     attunement:
       max: 3
     senses:
@@ -580,6 +638,11 @@ system:
       truesight: 0
       units: ft
       special: ''
+      ranges:
+        darkvision: 0
+        blindsight: 0
+        tremorsense: 0
+        truesight: 0
     spellcasting: int
     spell:
       level: 0
@@ -907,6 +970,8 @@ system:
     custom: ''
     revision: 1
   tools: {}
+  identifier: ''
+  rolls: {}
 ownership:
   default: 0
 prototypeToken:
@@ -951,14 +1016,10 @@ prototypeToken:
       bloodColor: ''
   randomImg: false
   texture:
-    src: >-
-      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Thundersmith.png
+    src: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Thundersmith.png
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -975,7 +1036,7 @@ prototypeToken:
     color: null
   appendNumber: false
   prependAdjective: false
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -993,14 +1054,15 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 _stats:
   compendiumSource: Actor.svGtLP0eqWbCzkkV
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610835720
+  systemVersion: 6.0.0
+  createdTime: 1789140673781
   modifiedTime: null
   lastModifiedBy: null
 _key: '!actors!XVLvV5fP6NpV6ZcZ'

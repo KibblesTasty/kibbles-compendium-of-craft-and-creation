@@ -4,20 +4,12 @@ type: feat
 img: icons/magic/holy/barrier-shield-winged-cross.webp
 effects:
   - _id: SyWf6S251Uoq0Cyw
-    changes:
-      - key: system.attributes.ac.bonus
-        mode: 2
-        value: '+2'
-        priority: 20
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     origin: Compendium.world.kccc-classes.BtAuoNkAJfuCqBWz
     transfer: true
     flags: {}
@@ -26,18 +18,31 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140570213
     name: Salvation's Shield
     img: icons/magic/holy/barrier-shield-winged-cross.webp
     type: base
-    system: {}
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: '+2'
+          priority: 20
+          type: add
+          phase: initial
+          _id: 7O4ggLFcKhoxtxNM
+          conditions: '{}'
+          replacement: ''
     description: ''
     statuses: []
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!BtAuoNkAJfuCqBWz.SyWf6S251Uoq0Cyw'
 folder: 6RbJFAVpFkze0lLy
 sort: 43750
@@ -82,7 +87,7 @@ _stats:
   compendiumSource: Item.mKa6RH02KzMIcf59
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610786512

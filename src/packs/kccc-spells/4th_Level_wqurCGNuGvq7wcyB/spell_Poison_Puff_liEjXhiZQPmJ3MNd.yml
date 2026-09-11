@@ -6,11 +6,7 @@ folder: wqurCGNuGvq7wcyB
 sort: 1200000
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: liEjXhiZQPmJ3MNd
 system:
   description:
@@ -35,6 +31,7 @@ system:
   duration:
     value: '1'
     units: round
+    expiry: null
   target:
     affects:
       type: ''
@@ -45,6 +42,7 @@ system:
       type: cone
       size: '30'
       contiguous: false
+      stationary: false
   range:
     units: self
     special: ''
@@ -78,10 +76,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -90,6 +90,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -111,6 +112,7 @@ system:
             scaling:
               mode: ''
               number: 1
+            modifiers: []
         onSave: half
       save:
         ability:
@@ -118,6 +120,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       name: ''
       _id: KNMVxEdF7IQL2Pnx
       flags: {}
@@ -126,6 +129,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     mbwU7GgGD2yRwD3r:
       type: damage
       sort: 0
@@ -141,10 +146,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: true
+        expiry: null
       effects: []
       range:
         override: false
@@ -153,6 +160,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -176,6 +184,7 @@ system:
             scaling:
               mode: ''
               number: 1
+            modifiers: []
       name: ''
       _id: mbwU7GgGD2yRwD3r
       flags: {}
@@ -184,6 +193,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: poison-puff
@@ -193,10 +204,10 @@ _stats:
   compendiumSource: Item.FbKPVxzfcWPZdp9y
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610820881
+  systemVersion: 6.0.0
+  createdTime: 1789140659629
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!liEjXhiZQPmJ3MNd'

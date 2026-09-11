@@ -1,7 +1,6 @@
 name: Flametongue Oil
 type: consumable
-img: >-
-  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%209.png
+img: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%209.png
 effects:
   - name: Flametongue Oil
     flags:
@@ -12,45 +11,54 @@ effects:
             max: null
           riders:
             effect: []
-        persistSourceMigration: true
     _id: 5XlFNzkAM338DC9y
-    changes:
-      - key: system.damage.parts
-        mode: 2
-        value: '[["2d6", "fire"]]'
-        priority: null
-      - key: name
-        mode: 5
-        value: Flametongue {}
-        priority: null
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 10
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 10
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: ''
     origin: null
-    transfer: true
+    transfer: false
     statuses: []
     tint: '#ffffff'
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
-    img: >-
-      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%209.png
+      createdTime: 1789140663412
+    img: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/ItemCollection/potion%209.png
     type: enchantment
-    system: {}
+    system:
+      changes:
+        - key: system.damage.parts
+          value:
+            - - 2d6
+              - fire
+          priority: null
+          type: add
+          phase: initial
+          _id: TxI0Su1POlqfl3ja
+          conditions: '{}'
+          replacement: ''
+        - key: name
+          value: Flametongue {}
+          priority: null
+          type: override
+          phase: initial
+          _id: qJrRSsZQQvogQXSl
+          conditions: '{}'
+          replacement: ''
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!tjlvDDNSoXRRKtQU.5XlFNzkAM338DC9y'
 folder: 34hJDESbF50bPPrC
 sort: 150000
@@ -93,6 +101,7 @@ system:
         enabled: false
       scaling:
         number: 1
+      modifiers: []
     replace: false
   unidentified:
     description: ''
@@ -104,16 +113,18 @@ system:
   container: null
   attuned: false
   properties: []
+  rarities:
+    - uncommon
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.d8R78Av3XVyfmPyU
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610823496
+  systemVersion: 6.0.0
+  createdTime: 1789140663408
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!tjlvDDNSoXRRKtQU'

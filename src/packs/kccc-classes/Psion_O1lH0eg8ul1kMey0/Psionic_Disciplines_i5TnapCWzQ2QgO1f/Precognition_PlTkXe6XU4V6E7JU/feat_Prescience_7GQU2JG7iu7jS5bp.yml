@@ -7,21 +7,22 @@ effects:
     img: icons/magic/perception/eye-slit-orange.webp
     _id: XUyAja6XAuK0DDJN
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.init.bonus
-        mode: 2
-        value: '@prof'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.init.bonus
+          value: '@prof'
+          priority: null
+          type: add
+          phase: initial
+          _id: kPrkIPgIjm1xFtii
+          conditions: '{}'
+          replacement: ''
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     origin: null
     tint: '#ffffff'
@@ -36,34 +37,40 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140563173
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!7GQU2JG7iu7jS5bp.XUyAja6XAuK0DDJN'
   - name: Prescience
     img: icons/magic/perception/eye-slit-orange.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.7GQU2JG7iu7jS5bp
+    origin: null
     transfer: false
     _id: PuDzZ4FeII5jA3vU
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.init.ability
-        mode: 5
-        value: int
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.init.ability
+          value: int
+          priority: null
+          type: override
+          phase: initial
+          _id: N6Z8S4feVTu4zlNf
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.7GQU2JG7iu7jS5bp
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>You can use your Intelligence modifier for Wisdom (Perception) checks
       (instead of Wisdom) and initiative rolls (instead of Dexterity), and you
@@ -77,11 +84,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140563175
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!7GQU2JG7iu7jS5bp.PuDzZ4FeII5jA3vU'
 folder: PlTkXe6XU4V6E7JU
 sort: 0
@@ -200,7 +211,7 @@ _stats:
   compendiumSource: Item.TwvwUvyIR1eepFG6
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610783971

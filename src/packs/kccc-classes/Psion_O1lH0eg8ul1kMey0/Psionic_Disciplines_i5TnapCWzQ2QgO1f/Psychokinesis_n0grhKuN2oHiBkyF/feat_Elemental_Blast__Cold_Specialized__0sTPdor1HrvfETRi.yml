@@ -5,26 +5,28 @@ img: icons/magic/water/projectile-ice-chunk-blue.webp
 effects:
   - name: Frozen
     img: icons/magic/water/projectile-ice-chunk-blue.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.0sTPdor1HrvfETRi
+    origin: null
     transfer: false
     _id: ZUGOYNiPxS5QnjLX
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.movement.walk
-        mode: 2
-        value: '-5'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.movement.walk
+          value: -5
+          priority: null
+          type: add
+          phase: initial
+          _id: AytGN1C3urPNDQcg
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.0sTPdor1HrvfETRi
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 1
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>For each die of cold damage dealt, the creature's speed is reduced by 5
       feet until the end of their next turn. When a creature is hit by an attack
@@ -39,15 +41,18 @@ effects:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: >-
-        Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.QBHLfLXYSARewI0E.ActiveEffect.eS8sul6VgZx0ZSIo
+      compendiumSource: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.QBHLfLXYSARewI0E.ActiveEffect.eS8sul6VgZx0ZSIo
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140553893
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!0sTPdor1HrvfETRi.ZUGOYNiPxS5QnjLX'
 folder: n0grhKuN2oHiBkyF
 sort: -150000
@@ -87,8 +92,7 @@ system:
         targets:
           - type: itemUses
             value: '0'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
         scaling:
@@ -182,8 +186,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
               formula: ''
@@ -242,8 +245,7 @@ system:
         targets:
           - type: itemUses
             value: '0'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
         scaling:
@@ -336,7 +338,7 @@ _stats:
   compendiumSource: Item.fDRrTOEi83J9SGPe
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610780093

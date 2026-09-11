@@ -48,37 +48,16 @@ system:
   crewed: false
 effects:
   - name: Armor Entombed
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.Ksqts3tmck4OCJQ8
+    origin: null
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     disabled: false
     flags:
       dnd5e: {}
     _id: hMMywiM4Bo3KBraB
-    changes:
-      - key: system.traits.type.value
-        mode: 5
-        value: construct
-        priority: null
-      - key: system.traits.ci.value
-        mode: 2
-        value: poisoned
-        priority: null
-      - key: system.traits.ci.value
-        mode: 2
-        value: diseased
-        priority: null
-      - key: system.traits.di.value
-        mode: 2
-        value: poison
-        priority: null
     description: ''
     transfer: true
     statuses: []
@@ -87,15 +66,54 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140583859
     img: icons/creatures/magical/construct-stone-earth-gray.webp
     type: base
-    system: {}
+    system:
+      changes:
+        - key: system.traits.type.value
+          value: construct
+          priority: null
+          type: override
+          phase: initial
+          _id: qjsCMmupDEvF3UwU
+          conditions: '{}'
+          replacement: ''
+        - key: system.traits.ci.value
+          value: poisoned
+          priority: null
+          type: add
+          phase: initial
+          _id: rOORojbRpjToee0B
+          conditions: '{}'
+          replacement: ''
+        - key: system.traits.ci.value
+          value: diseased
+          priority: null
+          type: add
+          phase: initial
+          _id: loVXQUr5KtzKdUxp
+          conditions: '{}'
+          replacement: ''
+        - key: system.traits.di.value
+          value: poison
+          priority: null
+          type: add
+          phase: initial
+          _id: 4L118FE6aMUkVsVY
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.Ksqts3tmck4OCJQ8
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!Ksqts3tmck4OCJQ8.hMMywiM4Bo3KBraB'
 sort: 0
 ownership:
@@ -105,7 +123,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610791691

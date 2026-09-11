@@ -6,13 +6,7 @@ folder: 3C2eSjufkNJJHedg
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
-      - material
-      - concentration
+  dnd5e: {}
 _id: S7g2Zpx2bCmYJDt3
 system:
   description:
@@ -30,6 +24,7 @@ system:
   duration:
     value: '1'
     units: minute
+    expiry: null
   target:
     affects:
       choice: false
@@ -38,6 +33,7 @@ system:
       type: cylinder
       size: '20'
       contiguous: false
+      stationary: false
   range:
     value: '60'
     units: ft
@@ -74,10 +70,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -87,6 +85,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -120,6 +119,7 @@ system:
               mode: ''
               number: null
               formula: ''
+            modifiers: []
       sort: 0
       flags: {}
       visibility:
@@ -127,6 +127,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: rain-of-spiders
@@ -136,10 +138,10 @@ _stats:
   compendiumSource: Item.Ug35idghRWKSXQ3d
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819649
+  systemVersion: 6.0.0
+  createdTime: 1789140654719
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!S7g2Zpx2bCmYJDt3'

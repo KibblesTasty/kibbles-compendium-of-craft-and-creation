@@ -4,26 +4,28 @@ img: icons/consumables/grains/breadsticks-crackers-wrapped-ration-brown.webp
 effects:
   - name: Seeing Sticks
     img: icons/consumables/grains/breadsticks-crackers-wrapped-ration-brown.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-items.Item.U2MkaHu6AfoWF17x
+    origin: null
     transfer: false
     _id: U8qgEI96nwv0Ccil
     type: base
-    system: {}
-    changes:
-      - key: system.skills.prc.roll.mode
-        mode: 2
-        value: '1'
-        priority: null
+    system:
+      changes:
+        - key: system.skills.prc.roll.mode
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: DibSz2nc9ZKhpbcr
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-items.Item.U2MkaHu6AfoWF17x
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     tint: '#ffffff'
     statuses: []
@@ -36,11 +38,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140662784
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!U2MkaHu6AfoWF17x.U8qgEI96nwv0Ccil'
 folder: kkK138bcC9Kc8xfX
 sort: 100098
@@ -170,7 +176,7 @@ _stats:
   compendiumSource: Item.Dnk6PyldFwCPGWYn
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610822806

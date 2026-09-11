@@ -5,22 +5,20 @@ img: icons/magic/air/air-wave-gust-blue.webp
 effects:
   - name: Crushing
     img: icons/magic/air/air-wave-gust-blue.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.gjLwogVhuUrKHW2n
+    origin: null
     transfer: false
     _id: qb86jj71udGdUBMP
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.gjLwogVhuUrKHW2n
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 1
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>The target is &amp;Reference[restrained] until the end of its next turn
       if it fails its saving throw</p>
@@ -33,11 +31,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140615179
+    showIcon: 2
+    start: null
+    folder: null
     _key: '!items.effects!gjLwogVhuUrKHW2n.qb86jj71udGdUBMP'
 folder: DeNBa6TtWOplSdbX
 sort: 200000
@@ -77,8 +79,7 @@ system:
         targets:
           - type: itemUses
             value: '0'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
               formula: ''
@@ -162,8 +163,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
               formula: ''
@@ -251,7 +251,7 @@ _stats:
   compendiumSource: Item.LjTkmiapHLdymDwd
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610802885

@@ -6,11 +6,7 @@ folder: frXX6IqoOjC9LAfE
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: hJhqF63LIPLsrR4Z
 system:
   description:
@@ -37,6 +33,7 @@ system:
   duration:
     value: '1'
     units: hour
+    expiry: null
   target:
     affects:
       special: ''
@@ -47,6 +44,7 @@ system:
       type: ''
       units: ft
       contiguous: false
+      stationary: false
   range:
     units: touch
     special: ''
@@ -81,10 +79,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -93,6 +93,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -112,6 +113,7 @@ system:
           number: 1
           mode: ''
         bonus: ''
+        modifiers: []
       name: ''
       flags: {}
       visibility:
@@ -119,6 +121,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: damage
@@ -134,10 +138,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -147,6 +153,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -171,6 +178,7 @@ system:
               mode: whole
               number: null
               formula: '1'
+            modifiers: []
       sort: 0
       flags: {}
       visibility:
@@ -178,6 +186,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: arcane-ablation
@@ -187,10 +197,10 @@ _stats:
   compendiumSource: Item.RDMtkJD198IEl9En
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610820412
+  systemVersion: 6.0.0
+  createdTime: 1789140658021
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!hJhqF63LIPLsrR4Z'

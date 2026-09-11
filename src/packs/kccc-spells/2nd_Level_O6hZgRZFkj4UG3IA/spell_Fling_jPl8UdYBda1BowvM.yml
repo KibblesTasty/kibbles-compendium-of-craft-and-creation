@@ -6,11 +6,7 @@ folder: O6hZgRZFkj4UG3IA
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: jPl8UdYBda1BowvM
 system:
   description:
@@ -36,6 +32,7 @@ system:
     value: 1
   duration:
     units: inst
+    expiry: null
   target:
     affects:
       type: creature
@@ -44,6 +41,7 @@ system:
     template:
       units: ft
       contiguous: false
+      stationary: false
   range:
     value: '30'
     units: ft
@@ -78,10 +76,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -91,6 +91,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -113,6 +114,7 @@ system:
               mode: ''
               number: null
               formula: ''
+            modifiers: []
           - number: 2
             denomination: 6
             bonus: ''
@@ -125,6 +127,7 @@ system:
               mode: ''
               number: null
               formula: ''
+            modifiers: []
           - number: 3
             denomination: 6
             bonus: ''
@@ -137,12 +140,14 @@ system:
               mode: ''
               number: null
               formula: ''
+            modifiers: []
       save:
         ability:
           - str
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -150,6 +155,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: fling
@@ -159,10 +166,10 @@ _stats:
   compendiumSource: Item.Mye18hqn0WMjJXbo
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610820603
+  systemVersion: 6.0.0
+  createdTime: 1789140658587
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!jPl8UdYBda1BowvM'

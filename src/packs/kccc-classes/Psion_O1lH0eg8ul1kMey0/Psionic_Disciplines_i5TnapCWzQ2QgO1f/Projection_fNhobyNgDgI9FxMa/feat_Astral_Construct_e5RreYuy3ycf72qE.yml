@@ -5,22 +5,20 @@ img: icons/creatures/magical/spirit-undead-ghost-purple.webp
 effects:
   - name: Grab
     img: icons/creatures/magical/spirit-undead-ghost-purple.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.e5RreYuy3ycf72qE
+    origin: null
     transfer: false
     _id: HfKFOIqWGEiI1SRX
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.e5RreYuy3ycf72qE
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>A target creature within 5 feet of your construct that is no more than
       one size larger than the construct must make a Strength saving throw or
@@ -37,11 +35,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140611144
+    showIcon: 2
+    start: null
+    folder: null
     _key: '!items.effects!e5RreYuy3ycf72qE.HfKFOIqWGEiI1SRX'
 folder: fNhobyNgDgI9FxMa
 sort: 150000
@@ -262,8 +264,7 @@ system:
         - count: ''
           name: ''
           _id: fNQ2tEL3pGmXJkib
-          uuid: >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.NRGyeCxoUqW33wh5
+          uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.NRGyeCxoUqW33wh5
           level:
             min: null
             max: null
@@ -296,8 +297,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling: {}
       description:
         chatFlavor: ''
@@ -360,7 +360,7 @@ _stats:
   compendiumSource: Item.6sHj9JlUWziFnsZD
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610801525

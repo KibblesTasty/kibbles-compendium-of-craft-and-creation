@@ -487,12 +487,9 @@ prototypeToken:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -536,7 +533,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -556,6 +553,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 0.5
 items:
   - name: Attack
     type: feat
@@ -674,11 +672,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!WQYVtkePinwZxzwF.3GbfvhwEVJcP7oXw'
 effects: []
 sort: 0
@@ -691,10 +690,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610835674
+  systemVersion: 6.0.0
+  createdTime: 1789140673591
   modifiedTime: null
   lastModifiedBy: null
 _key: '!actors!WQYVtkePinwZxzwF'

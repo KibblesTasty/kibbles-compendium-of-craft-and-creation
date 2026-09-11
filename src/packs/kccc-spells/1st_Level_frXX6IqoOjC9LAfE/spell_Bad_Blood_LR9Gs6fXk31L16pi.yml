@@ -6,12 +6,7 @@ folder: frXX6IqoOjC9LAfE
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
-      - concentration
+  dnd5e: {}
 _id: LR9Gs6fXk31L16pi
 system:
   description:
@@ -40,6 +35,7 @@ system:
   duration:
     value: '1'
     units: minute
+    expiry: null
   target:
     affects:
       special: ''
@@ -50,6 +46,7 @@ system:
       type: ''
       units: ft
       contiguous: false
+      stationary: false
   range:
     value: '60'
     units: ft
@@ -87,10 +84,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -99,6 +98,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -121,6 +121,7 @@ system:
               mode: ''
               number: 1
               formula: ''
+            modifiers: []
         onSave: half
       save:
         ability:
@@ -128,6 +129,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       name: ''
       flags: {}
       visibility:
@@ -135,6 +137,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: save
@@ -150,10 +154,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -163,6 +169,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -185,6 +192,7 @@ system:
               mode: whole
               number: null
               formula: ''
+            modifiers: []
           - number: 1
             denomination: 4
             bonus: ''
@@ -197,12 +205,14 @@ system:
               mode: whole
               number: null
               formula: ''
+            modifiers: []
       save:
         ability:
           - con
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -210,6 +220,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: bad-blood
@@ -219,10 +231,10 @@ _stats:
   compendiumSource: Item.2ytxTTP0IOiE6y03
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819272
+  systemVersion: 6.0.0
+  createdTime: 1789140652867
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!LR9Gs6fXk31L16pi'

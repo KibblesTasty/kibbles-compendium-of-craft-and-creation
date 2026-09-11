@@ -1,8 +1,7 @@
 _id: b7O0EE74EFSsRtmt
 name: Doctor
 type: npc
-img: >-
-  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Engineer.png
+img: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Engineer.png
 items:
   - _id: nipl2Mqo8otZ6RUq
     name: Leather Armor
@@ -17,11 +16,12 @@ items:
       compendiumSource: Compendium.dnd5e.items.WwdpHLXGX5r8uZu5
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140675021
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -76,7 +76,10 @@ items:
       attuned: false
       crew:
         value: []
-      properties: []
+      properties:
+        - gear
+      rarities:
+        - common
     _key: '!actors.items!b7O0EE74EFSsRtmt.nipl2Mqo8otZ6RUq'
   - _id: lIclGZbW47Pmmc1y
     name: Evisceration
@@ -103,11 +106,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140675022
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -128,7 +132,7 @@ items:
         recovery: []
       requirements: ''
       activities: {}
-      advancement: []
+      advancement: {}
       identifier: ''
       crewed: false
       enchant: {}
@@ -165,11 +169,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140675023
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -189,7 +194,7 @@ items:
         recovery: []
       requirements: ''
       activities: {}
-      advancement: []
+      advancement: {}
       identifier: ''
       crewed: false
       enchant: {}
@@ -243,11 +248,12 @@ items:
       compendiumSource: Compendium.dnd5e.spells.F0GsG0SJzsIOacwV
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140675024
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -268,6 +274,7 @@ items:
         value: 1
       duration:
         units: inst
+        expiry: null
       target:
         affects:
           type: creature
@@ -276,6 +283,7 @@ items:
         template:
           units: ft
           contiguous: false
+          stationary: false
       range:
         units: touch
       uses:
@@ -313,10 +321,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -326,6 +336,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -345,6 +356,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -365,11 +378,12 @@ items:
       compendiumSource: Compendium.dnd5e.items.6rocoBx5jdzG1QQH
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140675029
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -408,6 +422,7 @@ items:
             enabled: false
           scaling:
             number: 1
+          modifiers: []
         replace: false
       unidentified:
         description: ''
@@ -437,11 +452,13 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             concentration: false
             units: inst
             special: ''
             override: false
+            expiry: null
           effects: []
           range:
             units: touch
@@ -456,6 +473,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: '1'
               type: creature
@@ -479,10 +497,15 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       container: null
       attuned: false
-      properties: []
+      properties:
+        - gear
+      rarities:
+        - common
     _key: '!actors.items!b7O0EE74EFSsRtmt.AaKOBnYPBqAT2Q4t'
   - _id: 2876Ac2KuFUsSFNW
     name: Field Medicine
@@ -517,11 +540,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140675032
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -560,11 +584,13 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             concentration: false
             units: inst
             special: ''
             override: false
+            expiry: null
           effects: []
           range:
             value: '5'
@@ -580,6 +606,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: '1'
               type: creature
@@ -604,6 +631,7 @@ items:
               mode: whole
               number: null
               formula: ''
+            modifiers: []
           sort: 0
           flags: {}
           visibility:
@@ -611,7 +639,9 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
-      advancement: []
+          img: null
+          behaviors: []
+      advancement: {}
       identifier: ''
       crewed: false
       enchant: {}
@@ -667,11 +697,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140675035
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -718,6 +749,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
         base:
           number: 1
           denomination: 4
@@ -731,6 +763,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
       armor:
         value: 10
       hp:
@@ -763,11 +796,13 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             concentration: false
             units: inst
             special: ''
             override: false
+            expiry: null
           effects: []
           range:
             value: '5'
@@ -783,6 +818,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: '1'
               type: creature
@@ -815,12 +851,15 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       container: null
       attuned: false
       crew:
         value: []
       ammunition: {}
+      rarities: []
     _key: '!actors.items!b7O0EE74EFSsRtmt.bjjNCvwrcj8ICP0X'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -846,6 +885,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 16
       proficient: 0
@@ -859,6 +903,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -880,6 +929,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 18
       proficient: 1
@@ -893,6 +947,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -914,6 +973,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 10
       proficient: 0
@@ -931,11 +995,21 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
   attributes:
     ac:
       flat: null
       calc: default
       formula: ''
+      calcs:
+        - unarmored
+        - armored
+      formulas: []
+      override: null
     hp:
       value: 33
       max: 33
@@ -949,6 +1023,7 @@ system:
         min: null
         max: null
         mode: 0
+        bonus: '0'
     movement:
       burrow: '0'
       climb: '0'
@@ -958,6 +1033,12 @@ system:
       units: ft
       hover: false
       ignoredDifficultTerrain: []
+      speeds:
+        walk: '30'
+        burrow: '0'
+        climb: '0'
+        fly: '0'
+        swim: '0'
     attunement:
       max: 3
     senses:
@@ -967,6 +1048,11 @@ system:
       truesight: 0
       units: ft
       special: ''
+      ranges:
+        darkvision: 0
+        blindsight: 0
+        tremorsense: 0
+        truesight: 0
     spellcasting: int
     spell:
       level: 0
@@ -1295,6 +1381,8 @@ system:
     custom: ''
     revision: 1
   tools: {}
+  identifier: ''
+  rolls: {}
 ownership:
   default: 0
 prototypeToken:
@@ -1339,14 +1427,10 @@ prototypeToken:
       bloodColor: ''
   randomImg: false
   texture:
-    src: >-
-      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Engineer.png
+    src: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Engineer.png
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -1363,7 +1447,7 @@ prototypeToken:
     color: null
   appendNumber: false
   prependAdjective: false
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -1381,14 +1465,15 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 _stats:
   compendiumSource: Actor.vfWO8hFmsMw2Wg7Z
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610836150
+  systemVersion: 6.0.0
+  createdTime: 1789140675020
   modifiedTime: null
   lastModifiedBy: null
 _key: '!actors!b7O0EE74EFSsRtmt'

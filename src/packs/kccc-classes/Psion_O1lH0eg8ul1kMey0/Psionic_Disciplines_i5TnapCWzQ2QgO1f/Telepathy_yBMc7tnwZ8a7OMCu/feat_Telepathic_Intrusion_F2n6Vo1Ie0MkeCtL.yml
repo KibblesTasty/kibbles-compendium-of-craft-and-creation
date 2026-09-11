@@ -5,22 +5,20 @@ img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
 effects:
   - name: Overwhelming
     img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2n6Vo1Ie0MkeCtL
+    origin: null
     transfer: false
     _id: YKVYFM9h9LnhsTmB
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2n6Vo1Ie0MkeCtL
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 1
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>The target is stunned until the end of its next turn if it fails its
       saving throw</p>
@@ -33,30 +31,32 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140575608
+    showIcon: 2
+    start: null
+    folder: null
     _key: '!items.effects!F2n6Vo1Ie0MkeCtL.YKVYFM9h9LnhsTmB'
   - name: Terrifying
     img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2n6Vo1Ie0MkeCtL
+    origin: null
     transfer: false
     _id: YcM6KoI5ecRUxmVk
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2n6Vo1Ie0MkeCtL
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 1
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>The target is frightened of you until the end of your next turn if it
       fails its saving throw</p>
@@ -69,11 +69,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140575610
+    showIcon: 2
+    start: null
+    folder: null
     _key: '!items.effects!F2n6Vo1Ie0MkeCtL.YcM6KoI5ecRUxmVk'
 folder: yBMc7tnwZ8a7OMCu
 sort: 400000
@@ -136,8 +140,7 @@ system:
         targets:
           - type: itemUses
             value: '0'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
               formula: ''
@@ -228,7 +231,7 @@ _stats:
   compendiumSource: Item.OuIO6xFBnhxpYM0F
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610788510

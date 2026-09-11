@@ -7,8 +7,7 @@ folder: 7xT11hbxWC5JQhzu
 sort: -781
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 2
+  dnd5e: {}
 system:
   description:
     value: "<p>After dealing thunder damage on your turn, you can create a burst of thunderous sound that can be heard up to 100 feet away as a bonus action. Each creature within 5 feet, other than you, must make a Constitution saving throw or take [[/damage 3d6 thunder]] damage You can do this a number of times equal to your Intelligence modifier, regaining all uses after a long rest. This damage increases by 1d6 when you reach 17th level to a total of [[/r 4d6]].\_</p>"
@@ -57,11 +56,13 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         concentration: false
         units: inst
         special: ''
         override: false
+        expiry: null
       effects: []
       range:
         units: self
@@ -76,6 +77,7 @@ system:
           width: ''
           height: ''
           units: ft
+          stationary: false
         affects:
           count: ''
           type: ''
@@ -102,12 +104,14 @@ system:
               mode: whole
               number: null
               formula: ''
+            modifiers: []
       save:
         ability:
           - con
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -115,20 +119,22 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   identifier: backblast
   enchant: {}
   properties: []
-  advancement: []
+  advancement: {}
 ownership:
   default: 0
 _stats:
   compendiumSource: Item.t3x6toPpIcPYBQ37
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610813186
+  systemVersion: 6.0.0
+  createdTime: 1789140643589
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!zGNx3usjLzNCNc9k'

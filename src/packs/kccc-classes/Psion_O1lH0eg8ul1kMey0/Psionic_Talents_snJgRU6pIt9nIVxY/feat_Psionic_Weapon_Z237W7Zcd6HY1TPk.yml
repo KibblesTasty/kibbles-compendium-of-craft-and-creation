@@ -8,20 +8,23 @@ effects:
     img: icons/weapons/polearms/spear-flared-silver-pink.webp
     disabled: true
     _id: mWxAZ799JgWqMn75
-    system: {}
-    changes:
-      - key: system.damage.parts
-        mode: 2
-        value: '[["1d6", "psychic"]]'
-        priority: null
+    system:
+      changes:
+        - key: system.damage.parts
+          value:
+            - - 1d6
+              - psychic
+          priority: null
+          type: add
+          phase: initial
+          _id: Wphu5vJimj7v7iUW
+          conditions: '{}'
+          replacement: ''
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>&lt;p&gt;As a bonus action, you can expend 1 psi point to imbue a
       weapon you are holding with psionic energy. For 1 minute, once per turn
@@ -33,7 +36,7 @@ effects:
       [[/damage 4d6 psychic]] at 17th level.&lt;/p&gt;</p>
     origin: null
     tint: '#ffffff'
-    transfer: true
+    transfer: false
     statuses: []
     sort: 0
     flags: {}
@@ -41,30 +44,37 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140605065
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!Z237W7Zcd6HY1TPk.mWxAZ799JgWqMn75'
   - type: enchantment
     name: Psionic Weapon (2d6)
     img: icons/weapons/polearms/spear-flared-silver-pink.webp
     disabled: true
-    system: {}
-    changes:
-      - key: system.damage.parts
-        mode: 2
-        value: '[["2d6", "psychic"]]'
-        priority: null
+    system:
+      changes:
+        - key: system.damage.parts
+          value:
+            - - 2d6
+              - psychic
+          priority: null
+          type: add
+          phase: initial
+          _id: CJigt8SznLK0TjHb
+          conditions: '{}'
+          replacement: ''
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>&lt;p&gt;As a bonus action, you can expend 1 psi point to imbue a
       weapon you are holding with psionic energy. For 1 minute, once per turn
@@ -76,7 +86,7 @@ effects:
       [[/damage 4d6 psychic]] at 17th level.&lt;/p&gt;</p>
     origin: null
     tint: '#ffffff'
-    transfer: true
+    transfer: false
     statuses: []
     sort: 0
     flags: {}
@@ -84,31 +94,38 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140605069
     _id: w8ynUDR0QDuQjeF7
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!Z237W7Zcd6HY1TPk.w8ynUDR0QDuQjeF7'
   - type: enchantment
     name: Psionic Weapon (3d6)
     img: icons/weapons/polearms/spear-flared-silver-pink.webp
     disabled: true
-    system: {}
-    changes:
-      - key: system.damage.parts
-        mode: 2
-        value: '[["3d6", "psychic"]]'
-        priority: null
+    system:
+      changes:
+        - key: system.damage.parts
+          value:
+            - - 3d6
+              - psychic
+          priority: null
+          type: add
+          phase: initial
+          _id: 7V1fc1tvcRz8dXvj
+          conditions: '{}'
+          replacement: ''
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>&lt;p&gt;As a bonus action, you can expend 1 psi point to imbue a
       weapon you are holding with psionic energy. For 1 minute, once per turn
@@ -120,7 +137,7 @@ effects:
       [[/damage 4d6 psychic]] at 17th level.&lt;/p&gt;</p>
     origin: null
     tint: '#ffffff'
-    transfer: true
+    transfer: false
     statuses: []
     sort: 0
     flags: {}
@@ -128,31 +145,38 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140605073
     _id: LFIHBpXZfSPVsxNi
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!Z237W7Zcd6HY1TPk.LFIHBpXZfSPVsxNi'
   - type: enchantment
     name: Psionic Weapon (4d6)
     img: icons/weapons/polearms/spear-flared-silver-pink.webp
     disabled: true
-    system: {}
-    changes:
-      - key: system.damage.parts
-        mode: 2
-        value: '[["4d6", "psychic"]]'
-        priority: null
+    system:
+      changes:
+        - key: system.damage.parts
+          value:
+            - - 4d6
+              - psychic
+          priority: null
+          type: add
+          phase: initial
+          _id: Tf2zV8PpBQ2HmHYP
+          conditions: '{}'
+          replacement: ''
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>&lt;p&gt;As a bonus action, you can expend 1 psi point to imbue a
       weapon you are holding with psionic energy. For 1 minute, once per turn
@@ -164,7 +188,7 @@ effects:
       [[/damage 4d6 psychic]] at 17th level.&lt;/p&gt;</p>
     origin: null
     tint: '#ffffff'
-    transfer: true
+    transfer: false
     statuses: []
     sort: 0
     flags: {}
@@ -172,12 +196,16 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140605076
     _id: huxyOgUACizCUFDM
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!Z237W7Zcd6HY1TPk.huxyOgUACizCUFDM'
 folder: snJgRU6pIt9nIVxY
 sort: 174610
@@ -230,8 +258,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: amount
               formula: ''
@@ -324,7 +351,7 @@ _stats:
   compendiumSource: Item.OeqeGJ5ljb8katx9
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610799557

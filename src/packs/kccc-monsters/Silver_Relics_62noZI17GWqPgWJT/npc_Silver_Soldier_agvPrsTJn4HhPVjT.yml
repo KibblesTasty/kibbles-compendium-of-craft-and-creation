@@ -28,11 +28,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -90,11 +91,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -150,11 +152,12 @@ items:
       compendiumSource: Item.094090din8bu19vk
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -289,11 +292,12 @@ items:
       compendiumSource: Item.MyRD2lyesKbFVaBX
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -487,11 +491,12 @@ items:
       compendiumSource: Item.MyRD2lyesKbFVaBX
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -663,11 +668,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -760,21 +766,13 @@ items:
     _key: '!actors.items!agvPrsTJn4HhPVjT.hxxJlwQ1vr4xeDql'
 effects:
   - _id: 1rnk8PoeYHn6ZZJf
-    changes:
-      - key: system.attributes.prof
-        mode: 1
-        value: '2'
-        priority: null
     disabled: false
     duration:
-      startTime: 1368
-      startRound: 4
-      startTurn: 0
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-    origin: Actor.NOhE7Cun9UM0hJuX
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    origin: null
     transfer: false
     flags: {}
     tint: '#ffffff'
@@ -782,18 +780,39 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140674805
     name: Advanced Technology
     img: icons/commodities/tech/cog-brass.webp
     type: base
-    system: {}
+    system:
+      changes:
+        - key: system.attributes.prof
+          value: 2
+          priority: null
+          type: multiply
+          phase: initial
+          _id: VynpeRIyIQKWj02o
+          conditions: '{}'
+          replacement: ''
+      origin:
+        actor: Actor.NOhE7Cun9UM0hJuX
     description: ''
     statuses: []
     sort: 0
+    start:
+      combat: null
+      round: 4
+      time: 1368
+      turn: 0
+      combatant: null
+      initiative: null
+    showIcon: 1
+    folder: null
     _key: '!actors.effects!agvPrsTJn4HhPVjT.1rnk8PoeYHn6ZZJf'
 folder: 62noZI17GWqPgWJT
 sort: 150000
@@ -1323,9 +1342,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -1342,7 +1358,7 @@ prototypeToken:
     color: null
   appendNumber: false
   prependAdjective: false
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -1360,14 +1376,15 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 _stats:
   compendiumSource: Actor.NOhE7Cun9UM0hJuX
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610836088
+  systemVersion: 6.0.0
+  createdTime: 1789140674802
   modifiedTime: null
   lastModifiedBy: null
 _key: '!actors!agvPrsTJn4HhPVjT'

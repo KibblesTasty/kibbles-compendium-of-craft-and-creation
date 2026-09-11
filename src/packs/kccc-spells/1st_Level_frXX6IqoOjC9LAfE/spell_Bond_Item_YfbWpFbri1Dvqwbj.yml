@@ -6,11 +6,7 @@ folder: frXX6IqoOjC9LAfE
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: YfbWpFbri1Dvqwbj
 system:
   description:
@@ -34,6 +30,7 @@ system:
   duration:
     value: '8'
     units: hour
+    expiry: null
   target:
     affects:
       special: ''
@@ -44,6 +41,7 @@ system:
       type: ''
       units: ft
       contiguous: false
+      stationary: false
   range:
     units: touch
     special: ''
@@ -77,11 +75,13 @@ system:
           allowed: false
         spellSlot: true
         targets: []
-      description: {}
+      description:
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -90,6 +90,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -106,6 +107,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     bTpoR2awgVxtVN4K:
       type: save
       _id: bTpoR2awgVxtVN4K
@@ -121,10 +124,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -133,6 +138,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -150,6 +156,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       name: ''
       flags: {}
       visibility:
@@ -157,6 +164,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: utility
@@ -172,10 +181,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -185,6 +196,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -204,6 +216,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     dnd5eactivity100:
       _id: dnd5eactivity100
       type: save
@@ -219,10 +233,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -232,6 +248,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -248,6 +265,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -255,6 +273,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: bond-item
@@ -264,10 +284,10 @@ _stats:
   compendiumSource: Item.H7TfJIzUUQufIBdh
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819983
+  systemVersion: 6.0.0
+  createdTime: 1789140656352
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!YfbWpFbri1Dvqwbj'

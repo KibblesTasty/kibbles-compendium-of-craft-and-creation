@@ -6,11 +6,7 @@ folder: frXX6IqoOjC9LAfE
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: cW57tJ7BzSO7y3C6
 system:
   description:
@@ -33,6 +29,7 @@ system:
     value: 1
   duration:
     units: inst
+    expiry: null
   target:
     affects:
       special: ''
@@ -43,6 +40,7 @@ system:
       type: ''
       units: ft
       contiguous: false
+      stationary: false
   range:
     value: '120'
     units: ft
@@ -78,10 +76,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -90,6 +90,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -124,6 +125,7 @@ system:
               mode: whole
               number: 1
               formula: ''
+            modifiers: []
       name: ''
       flags: {}
       visibility:
@@ -131,6 +133,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: attack
@@ -146,10 +150,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -159,6 +165,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -192,6 +199,7 @@ system:
               mode: whole
               number: 1
               formula: ''
+            modifiers: []
       sort: 0
       flags: {}
       visibility:
@@ -199,6 +207,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: gale-bolt
@@ -208,10 +218,10 @@ _stats:
   compendiumSource: Item.kVboV184zcsmUcjy
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610820120
+  systemVersion: 6.0.0
+  createdTime: 1789140656871
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!cW57tJ7BzSO7y3C6'

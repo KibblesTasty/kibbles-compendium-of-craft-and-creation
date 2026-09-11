@@ -1,8 +1,7 @@
 _id: IlwStrQ874TyJR3y
 name: Flesh Abomination
 type: npc
-img: >-
-  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Fleshsmith.png
+img: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Fleshsmith.png
 items:
   - _id: 5gj85qiCYebeRrvv
     name: Unnatural Fortitude
@@ -120,11 +119,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!IlwStrQ874TyJR3y.5gj85qiCYebeRrvv'
   - _id: 9xJXGE1VJAI3w1J1
     name: Unnatural Health
@@ -256,11 +256,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!IlwStrQ874TyJR3y.9xJXGE1VJAI3w1J1'
   - _id: QR9KuuTk2qkfte14
     name: Multiattack
@@ -376,11 +377,12 @@ items:
       compendiumSource: Item.094090din8bu19vk
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!IlwStrQ874TyJR3y.QR9KuuTk2qkfte14'
   - _id: f3CvqLxFQchp5zhM
     name: Bite
@@ -574,11 +576,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!IlwStrQ874TyJR3y.f3CvqLxFQchp5zhM'
   - _id: 25FZVJSZuvxkQOSG
     name: Claws
@@ -772,11 +775,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!IlwStrQ874TyJR3y.25FZVJSZuvxkQOSG'
   - _id: GMhmTAQ3NDZyUmqt
     name: Tentacle
@@ -1037,11 +1041,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!IlwStrQ874TyJR3y.GMhmTAQ3NDZyUmqt'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -1559,14 +1564,10 @@ prototypeToken:
       bloodColor: ''
   randomImg: false
   texture:
-    src: >-
-      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Fleshsmith.png
+    src: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Fleshsmith.png
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -1581,7 +1582,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -1601,14 +1602,15 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 2
 _stats:
   compendiumSource: Actor.gpINm9X2ZXjendDQ
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610834365
+  systemVersion: 6.0.0
+  createdTime: 1789140671107
   modifiedTime: null
   lastModifiedBy: null
 _key: '!actors!IlwStrQ874TyJR3y'

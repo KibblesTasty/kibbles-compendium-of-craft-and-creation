@@ -484,9 +484,6 @@ prototypeToken:
     src: icons/creatures/magical/spirit-undead-ghost-purple.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -535,7 +532,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
     color: null
-  detectionModes: []
+  detectionModes: {}
   flags: {}
   randomImg: false
   occludable:
@@ -555,6 +552,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 items:
   - name: Multiattack
     type: feat
@@ -659,11 +657,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!EFePonnzYj6bXjYB.ZpDdYvQ65ij2jqUH'
   - name: Tentacle
     type: feat
@@ -790,11 +789,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!EFePonnzYj6bXjYB.C9YxgcCVwJCAULcT'
   - name: Fatal Destiny (Star Only)
     type: feat
@@ -906,11 +906,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!EFePonnzYj6bXjYB.gBv70SUgXJDINmBw'
 effects: []
 ownership:
@@ -923,10 +924,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610833825
+  systemVersion: 6.0.0
+  createdTime: 1789140669635
   modifiedTime: null
   lastModifiedBy: null
 _id: EFePonnzYj6bXjYB

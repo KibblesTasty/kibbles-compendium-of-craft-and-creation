@@ -1,8 +1,7 @@
 _id: 93KDQqgXrWPjap0p
 name: Fear Eater
 type: npc
-img: >-
-  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/FearEater.png
+img: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/FearEater.png
 items:
   - _id: wtSe3bL0YgFbxf0P
     name: Bite
@@ -212,11 +211,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!93KDQqgXrWPjap0p.wtSe3bL0YgFbxf0P'
   - _id: NBt4KiRDKiXFuVN6
     name: Twisted Visions
@@ -342,11 +342,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!93KDQqgXrWPjap0p.NBt4KiRDKiXFuVN6'
 effects: []
 folder: UAjbuif60qyLYM29
@@ -868,14 +869,10 @@ prototypeToken:
       bloodColor: ''
   randomImg: false
   texture:
-    src: >-
-      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/FearEater.png
+    src: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/FearEater.png
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -890,7 +887,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -910,14 +907,15 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 _stats:
   compendiumSource: Actor.y3IdZ29iL9pDwzwm
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610833667
+  systemVersion: 6.0.0
+  createdTime: 1789140669123
   modifiedTime: null
   lastModifiedBy: null
 _key: '!actors!93KDQqgXrWPjap0p'

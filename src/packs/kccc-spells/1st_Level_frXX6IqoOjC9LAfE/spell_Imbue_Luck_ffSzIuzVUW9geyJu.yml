@@ -6,12 +6,7 @@ folder: frXX6IqoOjC9LAfE
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
-      - material
+  dnd5e: {}
 _id: ffSzIuzVUW9geyJu
 system:
   description:
@@ -40,6 +35,7 @@ system:
   duration:
     value: '1'
     units: hour
+    expiry: null
   target:
     affects:
       special: ''
@@ -50,6 +46,7 @@ system:
       type: ''
       units: ft
       contiguous: false
+      stationary: false
   range:
     units: touch
     special: ''
@@ -84,10 +81,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -96,6 +95,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -116,6 +116,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: utility
@@ -131,10 +133,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -144,6 +148,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -163,6 +168,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: imbue-luck
@@ -172,10 +179,10 @@ _stats:
   compendiumSource: Item.7Q32w6LZsDEkwkgI
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610820280
+  systemVersion: 6.0.0
+  createdTime: 1789140657501
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!ffSzIuzVUW9geyJu'

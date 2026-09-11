@@ -5,46 +5,68 @@ img: icons/magic/perception/eye-ringed-green.webp
 effects:
   - name: Seeing
     img: icons/magic/perception/eye-ringed-green.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.GvoZBz0DzdhC0TVz
+    origin: null
     transfer: false
     _id: PwwDU2Z1LX1n9tCx
     type: base
-    system: {}
-    changes:
-      - key: system.bonuses.abilities.save
-        mode: 2
-        value: 1d4
-        priority: null
-      - key: system.bonuses.mwak.attack
-        mode: 2
-        value: 1d4
-        priority: null
-      - key: system.bonuses.msak.attack
-        mode: 2
-        value: 1d4
-        priority: null
-      - key: system.bonuses.rsak.attack
-        mode: 2
-        value: 1d4
-        priority: null
-      - key: system.bonuses.rwak.attack
-        mode: 2
-        value: 1d4
-        priority: null
-      - key: system.bonuses.abilities.skill
-        mode: 2
-        value: 1d4
-        priority: null
+    system:
+      changes:
+        - key: system.bonuses.abilities.save
+          value: 1d4
+          priority: null
+          type: add
+          phase: initial
+          _id: nUFYUV8xwXNMixFN
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.mwak.attack
+          value: 1d4
+          priority: null
+          type: add
+          phase: initial
+          _id: biCbrDaCfUV5akHw
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.msak.attack
+          value: 1d4
+          priority: null
+          type: add
+          phase: initial
+          _id: ar2d4OW8pkiqbffn
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.rsak.attack
+          value: 1d4
+          priority: null
+          type: add
+          phase: initial
+          _id: oENI80VNV6z0XXo1
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.rwak.attack
+          value: 1d4
+          priority: null
+          type: add
+          phase: initial
+          _id: toiaKs721txvdHXA
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.abilities.skill
+          value: 1d4
+          priority: null
+          type: add
+          phase: initial
+          _id: 8P69pOcYL0swTLsq
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.GvoZBz0DzdhC0TVz
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     tint: '#ffffff'
     statuses: []
@@ -54,11 +76,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140578235
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!GvoZBz0DzdhC0TVz.PwwDU2Z1LX1n9tCx'
 folder: PlTkXe6XU4V6E7JU
 sort: 50000
@@ -130,8 +156,7 @@ system:
         targets:
           - type: itemUses
             value: '0'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: ''
       description:
@@ -200,8 +225,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling: {}
       description:
         chatFlavor: ''
@@ -257,7 +281,7 @@ _stats:
   compendiumSource: Item.eVXJHujOpU2bdanR
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610789610

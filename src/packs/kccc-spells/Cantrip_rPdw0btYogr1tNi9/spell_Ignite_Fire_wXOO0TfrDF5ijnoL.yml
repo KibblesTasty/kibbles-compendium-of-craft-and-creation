@@ -6,11 +6,7 @@ folder: rPdw0btYogr1tNi9
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedProperties:
-      - vocal
-      - somatic
-      - concentration
+  dnd5e: {}
 _id: wXOO0TfrDF5ijnoL
 system:
   description:
@@ -36,6 +32,7 @@ system:
   duration:
     value: '1'
     units: minute
+    expiry: null
   target:
     affects:
       type: ''
@@ -46,6 +43,7 @@ system:
       type: cube
       size: '5'
       contiguous: false
+      stationary: false
   range:
     value: '60'
     units: ft
@@ -82,10 +80,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -94,6 +94,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -115,6 +116,7 @@ system:
             scaling:
               mode: whole
               number: 1
+            modifiers: []
         onSave: none
       save:
         ability:
@@ -122,6 +124,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       name: ''
       flags: {}
       visibility:
@@ -129,6 +132,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: ignite-fire
@@ -138,10 +143,10 @@ _stats:
   compendiumSource: Item.pLNNEwyUjciZsa5D
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610821276
+  systemVersion: 6.0.0
+  createdTime: 1789140661473
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!wXOO0TfrDF5ijnoL'

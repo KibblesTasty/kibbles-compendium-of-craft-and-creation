@@ -5,46 +5,68 @@ img: icons/magic/perception/hand-eye-black.webp
 effects:
   - name: Denial
     img: icons/magic/perception/hand-eye-black.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.2JnFK7481wDODDI9
+    origin: null
     transfer: false
     _id: EdL3feuRSLjZ1OQH
     type: base
-    system: {}
-    changes:
-      - key: system.bonuses.abilities.skill
-        mode: 2
-        value: '-1d4'
-        priority: null
-      - key: system.bonuses.mwak.attack
-        mode: 2
-        value: '-1d4'
-        priority: null
-      - key: system.bonuses.msak.attack
-        mode: 2
-        value: '-1d4'
-        priority: null
-      - key: system.bonuses.rwak.attack
-        mode: 2
-        value: '-1d4'
-        priority: null
-      - key: system.bonuses.rsak.attack
-        mode: 2
-        value: '-1d4'
-        priority: null
-      - key: system.attributes.concentration.bonuses.save
-        mode: 2
-        value: '-1d4'
-        priority: null
+    system:
+      changes:
+        - key: system.bonuses.abilities.skill
+          value: -1d4
+          priority: null
+          type: add
+          phase: initial
+          _id: gXIUKrDNTieh7Xqu
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.mwak.attack
+          value: -1d4
+          priority: null
+          type: add
+          phase: initial
+          _id: oNYFRJJKq2VUSRR4
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.msak.attack
+          value: -1d4
+          priority: null
+          type: add
+          phase: initial
+          _id: 98TyumyQP4ZunwEm
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.rwak.attack
+          value: -1d4
+          priority: null
+          type: add
+          phase: initial
+          _id: 4F35lcsKHVUfeWn7
+          conditions: '{}'
+          replacement: ''
+        - key: system.bonuses.rsak.attack
+          value: -1d4
+          priority: null
+          type: add
+          phase: initial
+          _id: QFg7X8Sqxlbf3u9K
+          conditions: '{}'
+          replacement: ''
+        - key: system.attributes.concentration.bonuses.save
+          value: -1d4
+          priority: null
+          type: add
+          phase: initial
+          _id: pq18fcLwQE90hEPE
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.2JnFK7481wDODDI9
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 1
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>If the target is an aberration, celestial, construct, elemental, fey,
       fiend, undead, or a creature with the ability to cast spells or use
@@ -61,11 +83,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140555151
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!2JnFK7481wDODDI9.EdL3feuRSLjZ1OQH'
 folder: xP1Z3pCpKSnny5cq
 sort: 150000
@@ -138,8 +164,7 @@ system:
         targets:
           - type: itemUses
             value: '0'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling:
               mode: ''
         scaling:
@@ -225,7 +250,7 @@ _stats:
   compendiumSource: Item.DVdsOiibEtSz3IgJ
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610780552

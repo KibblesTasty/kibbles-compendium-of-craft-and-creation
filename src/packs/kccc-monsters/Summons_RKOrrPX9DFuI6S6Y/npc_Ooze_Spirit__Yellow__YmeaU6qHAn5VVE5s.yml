@@ -483,9 +483,6 @@ prototypeToken:
     src: icons/creatures/slimes/bubbling-purple.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -534,8 +531,10 @@ prototypeToken:
     saturation: 0
     contrast: 0
     color: null
-  detectionModes: []
-  flags: {}
+  detectionModes: {}
+  flags:
+    dnd5e:
+      lockScale: true
   randomImg: false
   occludable:
     radius: 0
@@ -554,6 +553,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 items:
   - name: Multiattack
     type: feat
@@ -657,11 +657,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!YmeaU6qHAn5VVE5s.nrV8OM9zhecG7OTA'
   - name: Pseudopod
     type: feat
@@ -788,11 +789,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!YmeaU6qHAn5VVE5s.GgGRlkmJsUtJ2EiA'
 effects: []
 ownership:
@@ -805,10 +807,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610835773
+  systemVersion: 6.0.0
+  createdTime: 1789140673967
   modifiedTime: null
   lastModifiedBy: null
 _id: YmeaU6qHAn5VVE5s

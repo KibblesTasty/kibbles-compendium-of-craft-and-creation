@@ -1,8 +1,7 @@
 _id: NlYZzWpDYmGBCnty
 name: Elemental Adept
 type: npc
-img: >-
-  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Electrokinetic.png
+img: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Electrokinetic.png
 items:
   - _id: 4iknFuY0dzUC7iWu
     name: Innate Spellcasting (Psionics)
@@ -47,7 +46,7 @@ items:
         spent: 0
       requirements: ''
       activities: {}
-      advancement: []
+      advancement: {}
       identifier: ''
       crewed: false
       enchant: {}
@@ -65,11 +64,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140672585
     _key: '!actors.items!NlYZzWpDYmGBCnty.4iknFuY0dzUC7iWu'
   - _id: ptkPyoO4n8nGkEol
     name: Light
@@ -128,6 +128,7 @@ items:
       duration:
         value: '1'
         units: hour
+        expiry: null
       target:
         affects:
           type: object
@@ -136,6 +137,7 @@ items:
         template:
           units: ft
           contiguous: false
+          stationary: false
       range:
         units: touch
       uses:
@@ -173,10 +175,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -186,6 +190,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -202,6 +207,7 @@ items:
             dc:
               calculation: spellcasting
               formula: '0'
+            visible: true
           sort: 0
           flags: {}
           visibility:
@@ -209,6 +215,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -220,11 +228,12 @@ items:
       compendiumSource: Compendium.dnd5e.spells.Bnn9Nzajixvow9xi
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140672587
     _key: '!actors.items!NlYZzWpDYmGBCnty.ptkPyoO4n8nGkEol'
   - _id: ZJALPSV6MZxoiH5V
     name: Thunderwave
@@ -302,6 +311,7 @@ items:
         value: 1
       duration:
         units: inst
+        expiry: null
       target:
         affects:
           choice: false
@@ -310,6 +320,7 @@ items:
           type: cube
           size: '15'
           contiguous: false
+          stationary: false
       range:
         units: self
       uses:
@@ -349,10 +360,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -362,6 +375,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -384,12 +398,14 @@ items:
                   mode: whole
                   number: 1
                   formula: ''
+                modifiers: []
           save:
             ability:
               - con
             dc:
               calculation: spellcasting
               formula: '0'
+            visible: true
           sort: 0
           flags: {}
           visibility:
@@ -397,6 +413,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -408,11 +426,12 @@ items:
       compendiumSource: Compendium.dnd5e.spells.WTbOQBsarsL1LuXJ
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140672589
     _key: '!actors.items!NlYZzWpDYmGBCnty.ZJALPSV6MZxoiH5V'
   - _id: 9fbM7BR9eypWrSOZ
     name: Burning Hands
@@ -488,6 +507,7 @@ items:
         value: 1
       duration:
         units: inst
+        expiry: null
       target:
         affects:
           choice: false
@@ -496,6 +516,7 @@ items:
           type: cone
           size: '15'
           contiguous: false
+          stationary: false
       range:
         units: self
       uses:
@@ -535,10 +556,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -548,6 +571,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -570,12 +594,14 @@ items:
                   mode: whole
                   number: 1
                   formula: ''
+                modifiers: []
           save:
             ability:
               - dex
             dc:
               calculation: spellcasting
               formula: '0'
+            visible: true
           sort: 0
           flags: {}
           visibility:
@@ -583,6 +609,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -594,11 +622,12 @@ items:
       compendiumSource: Compendium.dnd5e.spells.5SuJewoa1CRWaj1F
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140672593
     _key: '!actors.items!NlYZzWpDYmGBCnty.9fbM7BR9eypWrSOZ'
   - _id: C1nDig3tHfr6GTOf
     name: Lightning Tendril
@@ -702,6 +731,7 @@ items:
       duration:
         value: '1'
         units: minute
+        expiry: null
       target:
         affects:
           type: creature
@@ -710,6 +740,7 @@ items:
         template:
           units: ft
           contiguous: false
+          stationary: false
       range:
         value: '20'
         units: ft
@@ -750,10 +781,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -763,6 +796,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -787,6 +821,7 @@ items:
                   mode: whole
                   number: null
                   formula: ''
+                modifiers: []
           sort: 0
           flags: {}
           visibility:
@@ -794,6 +829,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -806,11 +843,12 @@ items:
       compendiumSource: Item.KTVeSCdbRT5qsQBI
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140672601
     _key: '!actors.items!NlYZzWpDYmGBCnty.C1nDig3tHfr6GTOf'
   - _id: WdC6Wo7OZYnBMEmi
     name: Elemental Blast
@@ -895,6 +933,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
         base:
           number: 1
           denomination: 8
@@ -907,6 +946,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
       armor:
         value: 10
       hp:
@@ -938,11 +978,13 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             concentration: false
             units: inst
             special: ''
             override: false
+            expiry: null
           effects: []
           range:
             value: '60'
@@ -958,6 +1000,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: '1'
               type: creature
@@ -990,12 +1033,15 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       container: null
       attuned: false
       crew:
         value: []
       ammunition: {}
+      rarities: []
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1003,11 +1049,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140672609
     _key: '!actors.items!NlYZzWpDYmGBCnty.WdC6Wo7OZYnBMEmi'
   - _id: VzGiUSeCXPkp0ETf
     name: Elemental Touch
@@ -1094,6 +1141,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
         base:
           number: 1
           denomination: 8
@@ -1106,6 +1154,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
       armor:
         value: 10
       hp:
@@ -1137,11 +1186,13 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             concentration: false
             units: inst
             special: ''
             override: false
+            expiry: null
           effects: []
           range:
             value: '5'
@@ -1157,6 +1208,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: '1'
               type: creature
@@ -1189,12 +1241,15 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       container: null
       attuned: false
       crew:
         value: []
       ammunition: {}
+      rarities: []
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1202,11 +1257,12 @@ items:
       compendiumSource: Item.WdC6Wo7OZYnBMEmi
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140672612
     _key: '!actors.items!NlYZzWpDYmGBCnty.VzGiUSeCXPkp0ETf'
 effects: []
 folder: gKpC4bKnr6iv33Iv
@@ -1232,6 +1288,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 14
       proficient: 0
@@ -1245,6 +1306,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -1266,6 +1332,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 16
       proficient: 1
@@ -1279,6 +1350,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -1300,6 +1376,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 10
       proficient: 0
@@ -1317,11 +1398,21 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
   attributes:
     ac:
       flat: null
       calc: default
       formula: ''
+      calcs:
+        - unarmored
+        - armored
+      formulas: []
+      override: null
     hp:
       value: 10
       max: 10
@@ -1335,6 +1426,7 @@ system:
         min: null
         max: null
         mode: 0
+        bonus: '0'
     movement:
       burrow: '0'
       climb: '0'
@@ -1344,6 +1436,12 @@ system:
       units: ft
       hover: false
       ignoredDifficultTerrain: []
+      speeds:
+        walk: '30'
+        burrow: '0'
+        climb: '0'
+        fly: '0'
+        swim: '0'
     attunement:
       max: 3
     senses:
@@ -1353,6 +1451,11 @@ system:
       truesight: 0
       units: ft
       special: ''
+      ranges:
+        darkvision: 0
+        blindsight: 0
+        tremorsense: 0
+        truesight: 0
     spellcasting: int
     spell:
       level: 0
@@ -1680,6 +1783,8 @@ system:
     custom: ''
     revision: 1
   tools: {}
+  identifier: ''
+  rolls: {}
 ownership:
   default: 0
 prototypeToken:
@@ -1724,14 +1829,10 @@ prototypeToken:
       bloodColor: ''
   randomImg: false
   texture:
-    src: >-
-      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Electrokinetic.png
+    src: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Electrokinetic.png
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -1746,7 +1847,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -1766,14 +1867,15 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 _stats:
   compendiumSource: Actor.gQee1xpcVm2Bnuvy
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610835332
+  systemVersion: 6.0.0
+  createdTime: 1789140672579
   modifiedTime: null
   lastModifiedBy: null
 _key: '!actors!NlYZzWpDYmGBCnty'

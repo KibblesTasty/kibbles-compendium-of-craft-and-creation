@@ -4,22 +4,20 @@ img: icons/magic/control/silhouette-hold-change-green.webp
 effects:
   - name: Turned
     img: icons/magic/control/silhouette-hold-change-green.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.xPXZbOMTyRcbkcHq
+    origin: null
     transfer: false
     _id: HKMTRQ5zZz7ZgjsG
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-subclasses.Item.xPXZbOMTyRcbkcHq
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: 10
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 10
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>A turned creature must spend its turns trying to move as far away from
       you as it can, and it can’t willingly move to a space within 30 feet of
@@ -40,11 +38,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140549806
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!xPXZbOMTyRcbkcHq.HKMTRQ5zZz7ZgjsG'
 folder: YNNWOIjlENyM7ctA
 sort: 300000
@@ -56,7 +58,7 @@ _stats:
   compendiumSource: Item.k72o0MYHZlHnAJNN
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610776847

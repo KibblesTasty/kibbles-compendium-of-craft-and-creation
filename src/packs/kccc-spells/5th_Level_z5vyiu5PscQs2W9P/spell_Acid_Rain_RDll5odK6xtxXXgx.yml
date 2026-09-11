@@ -6,12 +6,7 @@ folder: z5vyiu5PscQs2W9P
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
-      - concentration
+  dnd5e: {}
 _id: RDll5odK6xtxXXgx
 system:
   description:
@@ -39,6 +34,7 @@ system:
   duration:
     value: '1'
     units: minute
+    expiry: null
   target:
     affects:
       count: ''
@@ -51,6 +47,7 @@ system:
       type: cylinder
       size: '40'
       contiguous: false
+      stationary: false
   range:
     value: '300'
     units: ft
@@ -87,10 +84,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -99,6 +98,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -120,6 +120,7 @@ system:
             scaling:
               mode: ''
               number: 1
+            modifiers: []
         onSave: half
       save:
         ability:
@@ -127,6 +128,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       name: ''
       flags: {}
       visibility:
@@ -134,6 +136,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     6VDkY8N0WQuXinSq:
       type: damage
       _id: 6VDkY8N0WQuXinSq
@@ -149,10 +153,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -161,6 +167,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -184,6 +191,7 @@ system:
             scaling:
               mode: ''
               number: 1
+            modifiers: []
       name: ''
       flags: {}
       visibility:
@@ -191,6 +199,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: acid-rain
@@ -200,10 +210,10 @@ _stats:
   compendiumSource: Item.Usog9YxzT1vGQMbT
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819618
+  systemVersion: 6.0.0
+  createdTime: 1789140654567
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!RDll5odK6xtxXXgx'

@@ -50,33 +50,43 @@ system:
 effects:
   - name: Basic Leg Prosthetics
     img: icons/equipment/feet/boots-plate-steel.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-items.Item.gAcZgEHRdJJigREn
+    origin: null
     _id: t7tsgQ5fMLpTXJ7L
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.movement.walk
-        mode: 2
-        value: '-10'
-        priority: null
-      - key: system.abilities.dex.save.roll.mode
-        mode: 2
-        value: '-1'
-        priority: null
-      - key: system.skills.acr.roll.mode
-        mode: 2
-        value: '-1'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.movement.walk
+          value: -10
+          priority: null
+          type: add
+          phase: initial
+          _id: zbW5O3g1WbWgVn8j
+          conditions: '{}'
+          replacement: ''
+        - key: system.abilities.dex.save.roll.mode
+          value: -1
+          priority: null
+          type: add
+          phase: initial
+          _id: h8YdhoIYmbIIl9qw
+          conditions: '{}'
+          replacement: ''
+        - key: system.skills.acr.roll.mode
+          value: -1
+          priority: null
+          type: add
+          phase: initial
+          _id: XYjhCKDkZsMHgorE
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-items.Item.gAcZgEHRdJJigREn
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     tint: '#ffffff'
     transfer: true
@@ -90,11 +100,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140663134
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!gAcZgEHRdJJigREn.t7tsgQ5fMLpTXJ7L'
 sort: 0
 ownership:
@@ -104,7 +118,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610823150

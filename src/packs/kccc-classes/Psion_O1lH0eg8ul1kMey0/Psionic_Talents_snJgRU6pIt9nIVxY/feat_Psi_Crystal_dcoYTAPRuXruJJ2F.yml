@@ -5,22 +5,20 @@ img: icons/commodities/gems/pearl-water.webp
 effects:
   - name: Psi Crystal
     img: icons/commodities/gems/pearl-water.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.dcoYTAPRuXruJJ2F
+    origin: null
     transfer: false
     _id: ArQdPzj7cUJf9Zm4
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.dcoYTAPRuXruJJ2F
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     tint: '#ffffff'
     statuses: []
@@ -30,11 +28,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140610045
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!dcoYTAPRuXruJJ2F.ArQdPzj7cUJf9Zm4'
 folder: snJgRU6pIt9nIVxY
 sort: 173438
@@ -113,8 +115,7 @@ system:
         targets:
           - type: itemUses
             value: '2'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling: {}
       description:
         chatFlavor: ''
@@ -164,8 +165,7 @@ system:
         - count: ''
           name: ''
           _id: NFXx9NDBYgXSntcR
-          uuid: >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.h8vm2LDlq6pbJ23Z
+          uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.h8vm2LDlq6pbJ23Z
           level:
             min: null
             max: null
@@ -196,8 +196,7 @@ system:
         targets:
           - type: itemUses
             value: '-2'
-            target: >-
-              Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
+            target: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ac1RxFdQMjoDx8k3
             scaling: {}
       description:
         chatFlavor: ''
@@ -247,7 +246,7 @@ _stats:
   compendiumSource: Item.hX0WCNueLATAnwE4
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.2.0
   createdTime: 1764610801287

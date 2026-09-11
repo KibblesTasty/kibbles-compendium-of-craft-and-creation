@@ -6,11 +6,7 @@ folder: 3C2eSjufkNJJHedg
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: ZaJeBD5zcPPfd3Lj
 system:
   description:
@@ -34,6 +30,7 @@ system:
     value: 1
   duration:
     units: inst
+    expiry: null
   target:
     affects:
       type: creature
@@ -42,6 +39,7 @@ system:
     template:
       units: ft
       contiguous: false
+      stationary: false
   range:
     value: '60'
     units: ft
@@ -76,10 +74,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -89,6 +89,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -111,12 +112,14 @@ system:
               mode: ''
               number: null
               formula: ''
+            modifiers: []
       save:
         ability:
           - con
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -124,6 +127,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: dispel-construct
@@ -133,10 +138,10 @@ _stats:
   compendiumSource: Item.nEoDg4tNlDYRLFHv
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610820039
+  systemVersion: 6.0.0
+  createdTime: 1789140656629
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!ZaJeBD5zcPPfd3Lj'

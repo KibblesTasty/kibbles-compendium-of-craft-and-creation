@@ -6,11 +6,7 @@ folder: wqurCGNuGvq7wcyB
 sort: 1100000
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: dZPVQ0mLpEjsaVFj
 system:
   description:
@@ -36,6 +32,7 @@ system:
     value: 1
   duration:
     units: inst
+    expiry: null
   target:
     affects:
       special: ''
@@ -46,6 +43,7 @@ system:
       type: ''
       units: ft
       contiguous: false
+      stationary: false
   range:
     value: '60'
     units: ft
@@ -80,10 +78,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -92,6 +92,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -113,6 +114,7 @@ system:
             scaling:
               mode: ''
               number: 1
+            modifiers: []
           - custom:
               enabled: false
               formula: ''
@@ -124,6 +126,7 @@ system:
             scaling:
               mode: ''
               number: 1
+            modifiers: []
         onSave: full
       save:
         ability:
@@ -131,6 +134,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       name: ''
       _id: RYVBqd8EG9ZG8sKE
       flags: {}
@@ -139,6 +143,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: ice-spikes
@@ -148,10 +154,10 @@ _stats:
   compendiumSource: Item.u17brVm2byskVvQ0
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610820198
+  systemVersion: 6.0.0
+  createdTime: 1789140657240
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!dZPVQ0mLpEjsaVFj'

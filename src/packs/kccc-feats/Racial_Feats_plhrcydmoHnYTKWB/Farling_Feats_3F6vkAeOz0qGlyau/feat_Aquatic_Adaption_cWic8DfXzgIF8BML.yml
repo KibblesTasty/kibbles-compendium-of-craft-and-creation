@@ -4,25 +4,27 @@ img: icons/magic/water/bubbles-air-water-blue.webp
 effects:
   - name: Aquatic Adaption
     img: icons/magic/water/bubbles-air-water-blue.webp
-    origin: >-
-      Compendium.kibbles-compendium-of-craft-and-creation.kccc-feats.Item.cWic8DfXzgIF8BML
+    origin: null
     type: base
     _id: Ek0ATCS6y6p0wKb4
-    system: {}
-    changes:
-      - key: system.attributes.movement.swim
-        mode: 4
-        value: '40'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.movement.swim
+          value: 40
+          priority: null
+          type: upgrade
+          phase: initial
+          _id: WYlVaO3hV2rtwACt
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-feats.Item.cWic8DfXzgIF8BML
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: <p>You gain a swimming speed of 40 feet.</p>
     tint: '#ffffff'
     transfer: true
@@ -36,12 +38,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.3.0
+      systemVersion: 6.0.0
       createdTime: 1776730171807
       modifiedTime: null
       lastModifiedBy: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!cWic8DfXzgIF8BML.Ek0ATCS6y6p0wKb4'
 folder: 3F6vkAeOz0qGlyau
 sort: 200000
@@ -125,7 +130,7 @@ _stats:
   compendiumSource: Item.b8jimMewi1g7pQb0
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1764610772607

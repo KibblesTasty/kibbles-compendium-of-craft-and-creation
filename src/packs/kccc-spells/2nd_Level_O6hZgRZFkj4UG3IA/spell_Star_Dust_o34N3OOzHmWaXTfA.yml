@@ -6,11 +6,7 @@ folder: O6hZgRZFkj4UG3IA
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: o34N3OOzHmWaXTfA
 system:
   description:
@@ -31,6 +27,7 @@ system:
     value: 1
   duration:
     units: inst
+    expiry: null
   target:
     affects:
       choice: false
@@ -39,6 +36,7 @@ system:
       type: cone
       size: '30'
       contiguous: false
+      stationary: false
   range:
     units: self
   uses:
@@ -72,10 +70,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -85,6 +85,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -109,6 +110,7 @@ system:
               mode: ''
               number: null
               formula: ''
+            modifiers: []
       sort: 0
       flags: {}
       visibility:
@@ -116,6 +118,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: star-dust
@@ -125,10 +129,10 @@ _stats:
   compendiumSource: Item.k5QwXwSYKLmLJakF
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610821008
+  systemVersion: 6.0.0
+  createdTime: 1789140660139
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!o34N3OOzHmWaXTfA'

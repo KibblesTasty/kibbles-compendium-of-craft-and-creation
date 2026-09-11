@@ -1,8 +1,7 @@
 _id: f5qehVvJUngjnn5n
 name: Shaper
 type: npc
-img: >-
-  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/ShapersMind.png
+img: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/ShapersMind.png
 items:
   - _id: 5HQiDIuYnsT1DFvN
     name: Innate Spellcasting (Psionics)
@@ -29,11 +28,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676200
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -61,7 +61,7 @@ items:
         recovery: []
       requirements: ''
       activities: {}
-      advancement: []
+      advancement: {}
       identifier: ''
       crewed: false
       enchant: {}
@@ -110,11 +110,12 @@ items:
       compendiumSource: Compendium.dnd5e.spells.bnjXlk13ZRJuf5d0
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676205
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -147,6 +148,7 @@ items:
       duration:
         value: '1'
         units: hour
+        expiry: null
       target:
         affects:
           type: space
@@ -155,6 +157,7 @@ items:
         template:
           units: ft
           contiguous: false
+          stationary: false
       range:
         value: '30'
         units: ft
@@ -193,10 +196,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -206,6 +211,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -225,6 +231,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -267,11 +275,12 @@ items:
       compendiumSource: Compendium.dnd5e.spells.Utk1OQRwYkMkFRD3
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676213
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -299,6 +308,7 @@ items:
       duration:
         value: '1'
         units: minute
+        expiry: null
       target:
         affects:
           type: space
@@ -307,6 +317,7 @@ items:
         template:
           units: ft
           contiguous: false
+          stationary: false
       range:
         value: '30'
         units: ft
@@ -345,10 +356,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -358,6 +371,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -377,6 +391,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -419,11 +435,12 @@ items:
       compendiumSource: Compendium.dnd5e.spells.ccduLIvutyNqvkgv
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676218
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -456,6 +473,7 @@ items:
       duration:
         value: '1'
         units: hour
+        expiry: null
       target:
         affects:
           type: space
@@ -464,6 +482,7 @@ items:
         template:
           units: ft
           contiguous: false
+          stationary: false
       range:
         value: '60'
         units: ft
@@ -502,10 +521,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -515,6 +536,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -534,6 +556,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -583,11 +607,12 @@ items:
       compendiumSource: Compendium.dnd5e.spells.X4c8xCkmF8U9HUMz
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676219
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -628,6 +653,7 @@ items:
       duration:
         value: '1'
         units: minute
+        expiry: null
       target:
         affects:
           type: self
@@ -635,6 +661,7 @@ items:
         template:
           units: ft
           contiguous: false
+          stationary: false
       range:
         units: self
       uses:
@@ -672,10 +699,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -685,6 +714,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -704,6 +734,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -752,11 +784,12 @@ items:
       compendiumSource: Compendium.dnd5e.spells.wpx42mtoZ5BmXRs1
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676221
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -786,6 +819,7 @@ items:
       duration:
         value: '1'
         units: hour
+        expiry: null
       target:
         affects:
           type: space
@@ -793,6 +827,7 @@ items:
         template:
           units: any
           contiguous: false
+          stationary: false
       range:
         value: '30'
         units: ft
@@ -831,10 +866,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -844,6 +881,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -863,6 +901,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -916,11 +956,12 @@ items:
       compendiumSource: Compendium.dnd5e.spells.nslx2nT3p4lNkmdp
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676223
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -964,6 +1005,7 @@ items:
       duration:
         value: '10'
         units: minute
+        expiry: null
       target:
         affects:
           choice: false
@@ -972,6 +1014,7 @@ items:
           type: cube
           size: '20'
           contiguous: false
+          stationary: false
       range:
         value: '120'
         units: ft
@@ -1010,10 +1053,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -1023,6 +1068,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1042,6 +1088,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -1099,11 +1147,12 @@ items:
       compendiumSource: Compendium.dnd5e.spells.NmoRmM1mhuM3pqnY
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676226
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1147,6 +1196,7 @@ items:
       duration:
         value: '10'
         units: minute
+        expiry: null
       target:
         affects:
           choice: false
@@ -1155,6 +1205,7 @@ items:
           type: wall
           size: '100'
           contiguous: false
+          stationary: false
       range:
         value: '120'
         units: ft
@@ -1193,10 +1244,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -1206,6 +1259,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1222,6 +1276,7 @@ items:
             dc:
               calculation: spellcasting
               formula: '0'
+            visible: true
           sort: 0
           flags: {}
           visibility:
@@ -1229,6 +1284,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -1282,11 +1339,12 @@ items:
       compendiumSource: Compendium.dnd5e.spells.lnaGnxMzpYnbw1uU
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676228
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1304,6 +1362,7 @@ items:
         value: 1
       duration:
         units: spec
+        expiry: null
       target:
         affects:
           choice: false
@@ -1312,6 +1371,7 @@ items:
           type: cube
           size: '5'
           contiguous: false
+          stationary: false
       range:
         value: '30'
         units: ft
@@ -1352,10 +1412,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -1365,6 +1427,7 @@ items:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1384,6 +1447,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       properties:
         - vocal
@@ -1416,11 +1481,12 @@ items:
       compendiumSource: Item.094090din8bu19vk
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676234
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1458,11 +1524,13 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             concentration: false
             units: inst
             special: ''
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -1477,6 +1545,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: ''
               type: ''
@@ -1500,7 +1569,9 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
-      advancement: []
+          img: null
+          behaviors: []
+      advancement: {}
       identifier: ''
       crewed: false
       enchant: {}
@@ -1556,11 +1627,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676237
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1607,6 +1679,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
         base:
           number: 1
           denomination: 12
@@ -1620,6 +1693,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
       armor:
         value: 10
       hp:
@@ -1651,11 +1725,13 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             concentration: false
             units: inst
             special: ''
             override: false
+            expiry: null
           effects: []
           range:
             value: '5'
@@ -1671,6 +1747,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: '1'
               type: creature
@@ -1703,12 +1780,15 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          img: null
+          behaviors: []
       identifier: ''
       container: null
       attuned: false
       crew:
         value: []
       ammunition: {}
+      rarities: []
     _key: '!actors.items!f5qehVvJUngjnn5n.dcJtjaWE5Xtau8z3'
   - _id: 92a3FKWsnQ7TeVUA
     name: Create Astral Construct
@@ -1738,11 +1818,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676240
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1783,12 +1864,14 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             concentration: false
             value: '1'
             units: minute
             special: ''
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -1803,6 +1886,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: ''
               type: ''
@@ -1826,7 +1910,9 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
-      advancement: []
+          img: null
+          behaviors: []
+      advancement: {}
       identifier: ''
       crewed: false
       enchant: {}
@@ -1870,11 +1956,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676242
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -1920,11 +2007,13 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             concentration: false
             units: inst
             special: ''
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -1939,6 +2028,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: ''
               type: ''
@@ -1962,7 +2052,9 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
-      advancement: []
+          img: null
+          behaviors: []
+      advancement: {}
       identifier: ''
       crewed: false
       enchant: {}
@@ -1999,11 +2091,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140676244
     ownership:
       default: 0
       ZltBRX3qCs8ZDdsL: 3
@@ -2044,11 +2137,13 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             concentration: false
             units: inst
             special: ''
             override: false
+            expiry: null
           effects: []
           range:
             units: self
@@ -2063,6 +2158,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: ''
               type: self
@@ -2086,7 +2182,9 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
-      advancement: []
+          img: null
+          behaviors: []
+      advancement: {}
       identifier: ''
       crewed: false
       enchant: {}
@@ -2122,6 +2220,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 14
       proficient: 0
@@ -2135,6 +2238,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -2156,6 +2264,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 20
       proficient: 1
@@ -2169,6 +2282,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -2190,6 +2308,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 14
       proficient: 0
@@ -2207,11 +2330,24 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
   attributes:
     ac:
       flat: null
       calc: custom
       formula: '16'
+      formulas:
+        - formula: '16'
+          armored: null
+          shielded: null
+      calcs:
+        - unarmored
+        - armored
+      override: null
     hp:
       value: 136
       max: 136
@@ -2225,6 +2361,7 @@ system:
         min: null
         max: null
         mode: 0
+        bonus: '0'
     movement:
       burrow: '0'
       climb: '0'
@@ -2234,6 +2371,12 @@ system:
       units: ft
       hover: false
       ignoredDifficultTerrain: []
+      speeds:
+        walk: '30'
+        burrow: '0'
+        climb: '0'
+        fly: '0'
+        swim: '0'
     attunement:
       max: 3
     senses:
@@ -2243,6 +2386,11 @@ system:
       truesight: 0
       units: ft
       special: ''
+      ranges:
+        darkvision: 0
+        blindsight: 0
+        tremorsense: 0
+        truesight: 0
     spellcasting: int
     spell:
       level: 0
@@ -2571,6 +2719,8 @@ system:
     custom: ''
     revision: 1
   tools: {}
+  identifier: ''
+  rolls: {}
 ownership:
   default: 0
 prototypeToken:
@@ -2615,14 +2765,10 @@ prototypeToken:
       bloodColor: ''
   randomImg: false
   texture:
-    src: >-
-      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/ShapersMind.png
+    src: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/ShapersMind.png
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -2639,7 +2785,7 @@ prototypeToken:
     color: null
   appendNumber: false
   prependAdjective: false
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -2657,14 +2803,15 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 _stats:
   compendiumSource: Actor.UwY4lD9f13Nv2Y6i
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610836533
+  systemVersion: 6.0.0
+  createdTime: 1789140676196
   modifiedTime: null
   lastModifiedBy: null
 _key: '!actors!f5qehVvJUngjnn5n'

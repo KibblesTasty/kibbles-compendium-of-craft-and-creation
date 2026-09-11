@@ -6,12 +6,7 @@ folder: wqurCGNuGvq7wcyB
 sort: 500000
 flags:
   core: {}
-  dnd5e:
-    migratedProperties:
-      - vocal
-      - somatic
-      - material
-      - concentration
+  dnd5e: {}
 _id: KyoydLy98W80sZMJ
 system:
   description:
@@ -28,6 +23,7 @@ system:
   duration:
     value: '1'
     units: hour
+    expiry: null
   target:
     affects:
       count: ''
@@ -39,6 +35,7 @@ system:
       type: cube
       size: '5'
       contiguous: false
+      stationary: false
   range:
     value: '90'
     units: ft
@@ -77,10 +74,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -89,6 +88,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -116,8 +116,7 @@ system:
         - count: ''
           name: ''
           _id: MPMMb6aWiOrujfIf
-          uuid: >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.O8fFPXg0Q9TR9wkG
+          uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.O8fFPXg0Q9TR9wkG
           level:
             min: null
             max: null
@@ -125,8 +124,7 @@ system:
         - count: ''
           name: ''
           _id: qWRROprAkAORda1D
-          uuid: >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.9cLoheQArVue6G2g
+          uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.9cLoheQArVue6G2g
           level:
             min: null
             max: null
@@ -134,8 +132,7 @@ system:
         - count: ''
           name: ''
           _id: 8B8mjIjeiOr8GkdJ
-          uuid: >-
-            Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.EFePonnzYj6bXjYB
+          uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.EFePonnzYj6bXjYB
           level:
             min: null
             max: null
@@ -151,6 +148,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: summon-horror
@@ -160,10 +159,10 @@ _stats:
   compendiumSource: Item.QmSWJ7THQ46XwECD
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819170
+  systemVersion: 6.0.0
+  createdTime: 1789140652084
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!KyoydLy98W80sZMJ'

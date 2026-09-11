@@ -6,11 +6,7 @@ folder: frXX6IqoOjC9LAfE
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: gr7FEFNxpA0WC7kd
 system:
   description:
@@ -38,6 +34,7 @@ system:
     value: 1
   duration:
     units: inst
+    expiry: null
   target:
     affects:
       type: ''
@@ -48,6 +45,7 @@ system:
       type: cone
       size: '15'
       contiguous: false
+      stationary: false
   range:
     units: self
     special: ''
@@ -82,10 +80,12 @@ system:
         targets: []
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -94,6 +94,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -115,6 +116,7 @@ system:
             scaling:
               mode: whole
               number: 1
+            modifiers: []
         onSave: half
       save:
         ability:
@@ -122,6 +124,7 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       name: ''
       flags: {}
       visibility:
@@ -129,6 +132,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     dnd5eactivity000:
       _id: dnd5eactivity000
       type: save
@@ -144,10 +149,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -157,6 +164,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -179,12 +187,14 @@ system:
               mode: whole
               number: null
               formula: 1d8
+            modifiers: []
       save:
         ability:
           - str
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -192,6 +202,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: crashing-wave
@@ -201,10 +213,10 @@ _stats:
   compendiumSource: Item.KKbjVcbOs7p31IY2
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610820347
+  systemVersion: 6.0.0
+  createdTime: 1789140657766
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!gr7FEFNxpA0WC7kd'

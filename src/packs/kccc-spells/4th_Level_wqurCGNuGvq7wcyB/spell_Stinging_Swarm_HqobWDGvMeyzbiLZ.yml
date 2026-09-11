@@ -6,12 +6,7 @@ folder: wqurCGNuGvq7wcyB
 sort: 400000
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
-      - concentration
+  dnd5e: {}
 _id: HqobWDGvMeyzbiLZ
 system:
   description:
@@ -36,6 +31,7 @@ system:
   duration:
     value: '1'
     units: minute
+    expiry: null
   target:
     affects:
       choice: false
@@ -44,6 +40,7 @@ system:
       type: cube
       size: '5'
       contiguous: false
+      stationary: false
   range:
     value: '60'
     units: ft
@@ -79,10 +76,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -92,6 +91,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -114,6 +114,7 @@ system:
               mode: ''
               number: null
               formula: ''
+            modifiers: []
           - number: 2
             denomination: 12
             bonus: ''
@@ -126,12 +127,14 @@ system:
               mode: ''
               number: null
               formula: ''
+            modifiers: []
       save:
         ability:
           - con
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -139,6 +142,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: stinging-swarm
@@ -148,10 +153,10 @@ _stats:
   compendiumSource: Item.kFUvqWWyYzkCB1M4
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610818917
+  systemVersion: 6.0.0
+  createdTime: 1789140650766
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!HqobWDGvMeyzbiLZ'

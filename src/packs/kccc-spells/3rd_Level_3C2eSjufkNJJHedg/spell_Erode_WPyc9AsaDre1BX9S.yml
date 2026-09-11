@@ -6,11 +6,7 @@ folder: 3C2eSjufkNJJHedg
 sort: 0
 flags:
   core: {}
-  dnd5e:
-    migratedUses: 0
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _id: WPyc9AsaDre1BX9S
 system:
   description:
@@ -38,6 +34,7 @@ system:
     value: 1
   duration:
     units: inst
+    expiry: null
   target:
     affects:
       type: creature
@@ -46,6 +43,7 @@ system:
     template:
       units: ft
       contiguous: false
+      stationary: false
   range:
     value: '20'
     units: ft
@@ -80,10 +78,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -93,6 +93,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -115,12 +116,14 @@ system:
               mode: whole
               number: 1
               formula: ''
+            modifiers: []
       save:
         ability:
           - dex
         dc:
           calculation: spellcasting
           formula: ''
+        visible: true
       sort: 0
       flags: {}
       visibility:
@@ -128,6 +131,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
     dnd5eactivity300:
       _id: dnd5eactivity300
       type: utility
@@ -143,10 +148,12 @@ system:
         spellSlot: true
       description:
         chatFlavor: ''
+        value: ''
       duration:
         units: inst
         concentration: false
         override: false
+        expiry: null
       effects: []
       range:
         override: false
@@ -156,6 +163,7 @@ system:
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -175,6 +183,8 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      img: null
+      behaviors: []
   method: spell
   prepared: 0
   identifier: erode
@@ -184,10 +194,10 @@ _stats:
   compendiumSource: Item.CWtFJqNKUm7WGz1N
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610819834
+  systemVersion: 6.0.0
+  createdTime: 1789140655632
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!WPyc9AsaDre1BX9S'

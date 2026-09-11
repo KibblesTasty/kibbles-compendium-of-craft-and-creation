@@ -505,9 +505,6 @@ prototypeToken:
     src: icons/commodities/tech/fan-ventilator-copper.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -556,7 +553,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
     color: null
-  detectionModes: []
+  detectionModes: {}
   flags: {}
   randomImg: false
   occludable:
@@ -576,6 +573,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 0.5
 items:
   - name: Zap
     type: weapon
@@ -738,11 +736,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!7ixTabrUXBiM5xge.oz21KMic073M31Er'
   - name: Swarm
     type: feat
@@ -787,11 +786,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!7ixTabrUXBiM5xge.wXXDkkhOCSuQW2l9'
   - _id: 013JGvs366kpNeci
     name: Mending
@@ -908,11 +908,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!7ixTabrUXBiM5xge.013JGvs366kpNeci'
   - _id: 9PG3TwKeOVIB78AK
     name: Minor Illusion
@@ -1040,11 +1041,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!7ixTabrUXBiM5xge.9PG3TwKeOVIB78AK'
 effects: []
 ownership:
@@ -1057,10 +1059,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610833280
+  systemVersion: 6.0.0
+  createdTime: 1789140668416
   modifiedTime: null
   lastModifiedBy: null
 _id: 7ixTabrUXBiM5xge

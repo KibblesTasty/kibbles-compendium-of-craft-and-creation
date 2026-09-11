@@ -45,6 +45,7 @@ system:
         enabled: false
       scaling:
         number: 1
+      modifiers: []
     replace: false
   type:
     value: potion
@@ -53,6 +54,8 @@ system:
   properties: []
   activities: {}
   identifier: silver-oil
+  rarities:
+    - common
 effects:
   - name: Silver Oil
     flags:
@@ -63,48 +66,56 @@ effects:
             max: null
           riders:
             effect: []
-        persistSourceMigration: true
     _id: V3xI9dX1gnJtNM1D
-    changes:
-      - key: system.properties
-        mode: 2
-        value: sil
-        priority: null
-      - key: name
-        mode: 5
-        value: Silvered {}
-        priority: null
     disabled: false
     duration:
-      startTime: null
-      seconds: 3600
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 3600
+      units: seconds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>A sparkling chromatic oil. The oil can coat one slashing or piercing
       weapon or up to 5 pieces of slashing or piercing ammunition. Applying the
       oil takes 1 minute. For 1 hour, the coated item is considered
       silvered.</p>
     origin: null
-    transfer: true
+    transfer: false
     statuses: []
     tint: '#ffffff'
     _stats:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140662664
     img: icons/consumables/potions/vial-ornet-silver-black.webp
     type: enchantment
-    system: {}
+    system:
+      changes:
+        - key: system.properties
+          value: sil
+          priority: null
+          type: add
+          phase: initial
+          _id: 99Ws11lbUT6hi9zx
+          conditions: '{}'
+          replacement: ''
+        - key: name
+          value: Silvered {}
+          priority: null
+          type: override
+          phase: initial
+          _id: 4GZYavOCfwc30nMh
+          conditions: '{}'
+          replacement: ''
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!CUJMatRPq1cetx4r.V3xI9dX1gnJtNM1D'
 sort: 0
 ownership:
@@ -114,10 +125,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610822409
+  systemVersion: 6.0.0
+  createdTime: 1789140662659
   modifiedTime: null
   lastModifiedBy: null
 _key: '!items!CUJMatRPq1cetx4r'

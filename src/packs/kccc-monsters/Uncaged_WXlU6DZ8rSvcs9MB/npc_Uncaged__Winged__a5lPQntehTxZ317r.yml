@@ -1,8 +1,7 @@
 _id: a5lPQntehTxZ317r
 name: Uncaged (Winged)
 type: npc
-img: >-
-  https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Uncaged2.png
+img: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Uncaged2.png
 items:
   - _id: x3OjUM04rirY35q2
     name: Multiattack
@@ -116,11 +115,12 @@ items:
       compendiumSource: Item.094090din8bu19vk
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!a5lPQntehTxZ317r.x3OjUM04rirY35q2'
   - _id: tOVW5D1QgaOstHwo
     name: Claws
@@ -333,11 +333,12 @@ items:
       compendiumSource: Compendium.dnd5e.items.osLzOwQdPtrK3rQH
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!a5lPQntehTxZ317r.tOVW5D1QgaOstHwo'
   - _id: PkAOQc7HmSVzSDtZ
     name: Necrotic Bolt
@@ -566,11 +567,12 @@ items:
       compendiumSource: Compendium.dnd5e.items.GJv6WkD7D2J6rP6M
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!a5lPQntehTxZ317r.PkAOQc7HmSVzSDtZ'
   - _id: LhrB7bHXJwR7Pr51
     name: Turn Resistance
@@ -627,28 +629,21 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
       systemVersion: 5.2.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!a5lPQntehTxZ317r.LhrB7bHXJwR7Pr51'
 effects:
   - _id: yhOxQphVRNiWa5HX
-    changes:
-      - key: system.attributes.ac.flat
-        mode: 5
-        value: '17'
-        priority: 50
     disabled: false
     duration:
-      startTime: 4434
-      startRound: 2
-      startTurn: 2
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     origin: Compendium.world.kccc-monsters.gQpu49NHcmr9apFB
     tint: '#ffffff'
     transfer: false
@@ -657,18 +652,37 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: dnd5e
-      systemVersion: 5.2.0
+      systemVersion: 6.0.0
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: 1789140674299
     name: Natural Armor
     img: icons/magic/defensive/shield-barrier-blue.webp
     type: base
-    system: {}
+    system:
+      changes:
+        - key: system.attributes.ac.flat
+          value: 17
+          priority: 50
+          type: override
+          phase: initial
+          _id: Er0AyWiC2zUh57AD
+          conditions: '{}'
+          replacement: ''
     description: ''
     statuses: []
     sort: 0
+    start:
+      combat: null
+      round: 2
+      time: 4434
+      turn: 2
+      combatant: null
+      initiative: null
+    showIcon: 1
+    folder: null
     _key: '!actors.effects!a5lPQntehTxZ317r.yhOxQphVRNiWa5HX'
 folder: WXlU6DZ8rSvcs9MB
 sort: 200000
@@ -1195,14 +1209,10 @@ prototypeToken:
       bloodColor: ''
   randomImg: false
   texture:
-    src: >-
-      https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Uncaged2.png
+    src: https://raw.githubusercontent.com/KibblesTasty/kibbles-compendium-of-craft-and-creation/archive/VTTTokens/Uncaged2.png
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -1217,7 +1227,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -1237,14 +1247,15 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 _stats:
   compendiumSource: Actor.qu06mLMRyBNLZNMO
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
-  createdTime: 1764610835947
+  systemVersion: 6.0.0
+  createdTime: 1789140674296
   modifiedTime: null
   lastModifiedBy: null
 _key: '!actors!a5lPQntehTxZ317r'
