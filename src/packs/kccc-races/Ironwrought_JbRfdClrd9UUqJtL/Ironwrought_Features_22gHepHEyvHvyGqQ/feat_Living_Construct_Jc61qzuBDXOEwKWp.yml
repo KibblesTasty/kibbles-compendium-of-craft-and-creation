@@ -26,7 +26,23 @@ system:
     value: race
     subtype: ''
   activities: {}
-  advancement: []
+  advancement:
+    7Yiq5j95rqLlkcRX:
+      name: ''
+      type: Trait
+      _id: 7Yiq5j95rqLlkcRX
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - ci:dehydration
+          - ci:malnutrition
+          - ci:suffocation
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
   identifier: living-construct
   crewed: false
   enchant: {}
@@ -40,9 +56,9 @@ _stats:
   compendiumSource: Item.nhlArYK2A42WpFfi
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610823977
   modifiedTime: null
   lastModifiedBy: null
