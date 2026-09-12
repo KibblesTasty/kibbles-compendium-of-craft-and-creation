@@ -10,16 +10,11 @@ _id: l3M5C9cqaNS30Uku
 system:
   description:
     value: >-
-      <p
-      style="box-sizing:border-box;user-select:text;color:#191813;font-size:13px">When
-      you learn or experience something, you can fix that memory, making it a
-      permanent memory you can always remember with crystal clarity. This memory
-      can be anything that occurs within a 1 hour span (it can be as short as a
-      fleeting sensation, or as long as 1 hour of events).</p>
-
-      <p
-      style="box-sizing:border-box;user-select:text;color:#191813;font-size:13px">Once
-      you do this, you can’t do so again until you finish a long rest. Absorbing
+      <p>When you learn or experience something, you can fix that memory, making
+      it a permanent memory you can always remember with crystal clarity. This
+      memory can be anything that occurs within a 1 hour span (it can be as
+      short as a fleeting sensation, or as long as 1 hour of events). Once you
+      do this, you can’t do so again until you finish a long rest. Absorbing
       these memories is how a Farling ages, and you age one day for each memory
       you absorb in this way. You can absorb a memory from a willing creature
       via your telepathy in this way.</p>
@@ -29,14 +24,77 @@ system:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   requirements: Farling
   type:
     value: race
     subtype: ''
-  activities: {}
+  activities:
+    uRKbkpQjKrnEqqMS:
+      type: utility
+      name: ''
+      _id: uRKbkpQjKrnEqqMS
+      img: ''
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
   advancement: []
   identifier: crystalized-memory
   crewed: false
@@ -44,6 +102,7 @@ system:
   prerequisites:
     items: []
     repeatable: false
+    level: null
   properties: []
 ownership:
   default: 0
@@ -51,9 +110,9 @@ _stats:
   compendiumSource: Item.0rVxMoMiclrYZirl
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610824262
   modifiedTime: null
   lastModifiedBy: null

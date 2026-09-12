@@ -1,7 +1,109 @@
 name: Terrain Adaptation
 type: feat
 img: icons/creatures/fish/fish-shark-swimming.webp
-effects: []
+effects:
+  - name: Swim Speed
+    img: icons/creatures/fish/fish-shark-swimming.webp
+    system:
+      magical: false
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.gFaSkBBesTfnJndj
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes:
+        - key: system.attributes.movement.speeds.swim
+          type: upgrade
+          value: '@attributes.movement.speed'
+          phase: initial
+          _id: St4CmY5IHLlpkobb
+          conditions: '{}'
+          replacement: ''
+          priority: 0
+      conditions: '{}'
+      rider:
+        statuses: []
+    type: base
+    _id: ZpEwiCzzLqkx0bYK
+    disabled: true
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: <p>You gain a swimming speed equal to your walking speed.</p>
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789157031414
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!gFaSkBBesTfnJndj.ZpEwiCzzLqkx0bYK'
+  - name: Climb Speed
+    img: icons/creatures/fish/fish-shark-swimming.webp
+    system:
+      magical: false
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.gFaSkBBesTfnJndj
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes:
+        - key: system.attributes.movement.speeds.climb
+          type: upgrade
+          value: '@attributes.movement.speed'
+          phase: initial
+          conditions: '{}'
+          replacement: ''
+          priority: 0
+          _id: lgKedbKD9w6INpVM
+      conditions: '{}'
+      rider:
+        statuses: []
+    type: base
+    disabled: true
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: <p>You gain a climb speed equal to your walking speed.</p>
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789157128411
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: IxSj8ZabBbqjdIZs
+    _key: '!items.effects!gFaSkBBesTfnJndj.IxSj8ZabBbqjdIZs'
 folder: mFSXW0RgEhfMfE17
 sort: 1000000
 flags:
@@ -24,7 +126,7 @@ system:
     value: race
     subtype: ''
   activities: {}
-  advancement: []
+  advancement: {}
   identifier: terrain-adaptation
   crewed: false
   enchant: {}
@@ -38,9 +140,9 @@ _stats:
   compendiumSource: Item.JaUpAamN1zSA1NrY
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610824173
   modifiedTime: null
   lastModifiedBy: null

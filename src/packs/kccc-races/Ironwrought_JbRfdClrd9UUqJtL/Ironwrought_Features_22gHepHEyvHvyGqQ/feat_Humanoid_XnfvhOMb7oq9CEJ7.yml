@@ -28,7 +28,51 @@ system:
     items: []
     repeatable: false
   activities: {}
-  advancement: []
+  advancement:
+    xI0XlvYvmp2ZRgf2:
+      _id: xI0XlvYvmp2ZRgf2
+      type: ItemChoice
+      configuration:
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: null
+        pool:
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.gocceYCeqxNDNdVn
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.wSPB4NuQ65f9aqhg
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.JW5O1ynuAe6134Xy
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.2Ki1o5Fyh8I3CbO1
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.ThfdbhRovHIZUyr8
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.YppNadvYGMMWlatP
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.a8hIgrCH3Ii21NzK
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.w1XhFe9lbTt0gyP4
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.Uwscupfdk5RrYJB1
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.gFaSkBBesTfnJndj
+        spell: null
+        restriction:
+          list: []
+          school: []
+        sorting: a
+      value:
+        added: {}
+        replaced: {}
+      hint: >-
+        <p>You can select two of the following specialized traits representing
+        the functionality built into your chassis.</p>
+      name: Modular Design
+      flags: {}
   identifier: humanoid
   crewed: false
   enchant: {}
@@ -39,9 +83,9 @@ _stats:
   compendiumSource: Item.JKNhjg34PWVyaLtn
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610824077
   modifiedTime: null
   lastModifiedBy: null

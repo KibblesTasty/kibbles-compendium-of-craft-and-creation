@@ -16,9 +16,11 @@ system:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '@prof'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   requirements: Warped
   type:
     value: race
@@ -31,6 +33,7 @@ system:
   prerequisites:
     items: []
     repeatable: false
+    level: null
   properties: []
 ownership:
   default: 0
@@ -38,9 +41,9 @@ _stats:
   compendiumSource: Item.IYzObhPfhEwNN9eE
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610824040
   modifiedTime: null
   lastModifiedBy: null

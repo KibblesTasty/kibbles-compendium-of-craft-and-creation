@@ -1,7 +1,61 @@
 name: Night Mode
 type: feat
 img: icons/creatures/eyes/icy-cluster-blue.webp
-effects: []
+effects:
+  - name: Night Mode
+    img: icons/creatures/eyes/icy-cluster-blue.webp
+    system:
+      magical: false
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-races.Item.ThfdbhRovHIZUyr8
+        actor: null
+        behavior: null
+        effect: null
+        message: null
+      changes:
+        - key: system.attributes.senses.ranges.darkvision
+          type: upgrade
+          value: 60
+          phase: initial
+          _id: qsH63FAmNvppdvMQ
+          conditions: '{}'
+          replacement: ''
+          priority: null
+      conditions: '{}'
+      rider:
+        statuses: []
+    type: base
+    _id: OGJO4lcn1sdqnuGg
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>You can see in dim light within 60 feet of you as if it were bright
+      light, and in darkness as if it were dim light. You can’t discern color in
+      darkness, only shades of gray.</p>
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      createdTime: 1789155702613
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!ThfdbhRovHIZUyr8.OGJO4lcn1sdqnuGg'
 folder: mFSXW0RgEhfMfE17
 sort: 500000
 flags:

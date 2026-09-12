@@ -27,8 +27,88 @@ system:
   type:
     value: race
     subtype: ''
-  activities: {}
-  advancement: []
+  activities:
+    b53cLLPpLKgRWuVT:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.4dSvfvTy2ZIJ3K4k
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        ability: ''
+        level: 1
+      _id: b53cLLPpLKgRWuVT
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+  advancement:
+    nBpYr8FyY1cdFjpR:
+      name: ''
+      type: Trait
+      _id: nBpYr8FyY1cdFjpR
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:*
+        grants: []
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
   identifier: language-module
   crewed: false
   enchant: {}
@@ -42,9 +122,9 @@ _stats:
   compendiumSource: Item.juTSliwrfQCuc2Wq
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610823964
   modifiedTime: null
   lastModifiedBy: null

@@ -19,21 +19,38 @@ system:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: lr
+        type: recoverAll
   requirements: Farling
   type:
     value: race
     subtype: ''
   activities: {}
-  advancement: []
+  advancement:
+    cZKMLZ5hXNh3uO1Y:
+      name: ''
+      type: Trait
+      _id: cZKMLZ5hXNh3uO1Y
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - dr:psychic
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
   identifier: broad-horizons
   crewed: false
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
+    level: null
   properties: []
 ownership:
   default: 0
@@ -41,9 +58,9 @@ _stats:
   compendiumSource: Item.NyzOr8077UAjcPoo
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610824028
   modifiedTime: null
   lastModifiedBy: null

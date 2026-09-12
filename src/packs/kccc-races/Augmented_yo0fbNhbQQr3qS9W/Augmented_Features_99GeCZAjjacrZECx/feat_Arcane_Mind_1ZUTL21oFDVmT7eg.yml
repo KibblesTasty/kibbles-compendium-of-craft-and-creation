@@ -28,7 +28,28 @@ system:
     value: race
     subtype: ''
   activities: {}
-  advancement: []
+  advancement:
+    GmLzyu2uDJfwRlfR:
+      name: ''
+      type: AbilityScoreImprovement
+      _id: GmLzyu2uDJfwRlfR
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 1
+          wis: 0
+          cha: 0
+        locked: []
+        points: 0
+        recommendation: null
+        max: null
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
   identifier: arcane-mind
   crewed: false
   enchant: {}
@@ -42,9 +63,9 @@ _stats:
   compendiumSource: Item.c1JCvK8IhawVBA8R
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610823824
   modifiedTime: null
   lastModifiedBy: null

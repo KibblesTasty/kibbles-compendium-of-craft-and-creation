@@ -27,8 +27,107 @@ system:
   type:
     value: race
     subtype: ''
-  activities: {}
-  advancement: []
+  activities:
+    3wMDntpJmUhEQqrW:
+      type: attack
+      name: ''
+      _id: 3wMDntpJmUhEQqrW
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            modifiers: []
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+  advancement:
+    ESf9uACUTfyV4cRp:
+      name: ''
+      type: AbilityScoreImprovement
+      _id: ESf9uACUTfyV4cRp
+      configuration:
+        cap: 2
+        fixed:
+          str: 1
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 0
+        recommendation: null
+        max: null
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
   identifier: arcane-arm
   crewed: false
   enchant: {}
@@ -42,9 +141,9 @@ _stats:
   compendiumSource: Item.xWq56n06OSqriMVS
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610824231
   modifiedTime: null
   lastModifiedBy: null
