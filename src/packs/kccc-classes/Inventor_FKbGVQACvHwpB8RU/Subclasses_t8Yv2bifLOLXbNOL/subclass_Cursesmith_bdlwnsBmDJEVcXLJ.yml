@@ -116,98 +116,84 @@ system:
   identifier: cursesmith
   classIdentifier: inventor
   advancement:
-    - _id: fhlhv4ks62kgx4s6
+    fhlhv4ks62kgx4s6:
+      _id: fhlhv4ks62kgx4s6
       type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.hZcsesmd9ZpNZR4A
             optional: false
+            sort: 0
           - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.GGD0N8Naeb6iFpvQ
             optional: false
+            sort: 0
         optional: false
         spell: null
+        sorting: m
       value: {}
       level: 1
-      title: Features
-    - _id: g09umwwwpe51v9px
-      type: ItemGrant
-      configuration:
-        items:
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.CprKwHypmauEIngO
-            optional: false
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.VdBroSKg5Nxx5pOC
-            optional: false
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.MaoBte7T0yp0aX0J
-            optional: false
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.EBTIEVxM4xablhGa
-            optional: false
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.WmkzW3bAhPcHTNQy
-            optional: false
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.DIypzlV6NbPsIsjA
-            optional: false
-        optional: true
-        spell: null
-      value: {}
-      level: 1
-      title: Forbidden Artifact
+      name: Features
+      flags: {}
       hint: ''
-    - _id: xdgxc4pqpgwi2849
+    xdgxc4pqpgwi2849:
+      _id: xdgxc4pqpgwi2849
       type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.goySxFLnQjVOpVG3
             optional: false
+            sort: 0
           - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.XKcLRPvyXmnNuxXJ
             optional: false
+            sort: 0
           - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.afAZz85I4cDXZkdP
             optional: false
+            sort: 0
         optional: false
         spell: null
+        sorting: m
       value: {}
       level: 3
-      title: Features
-      icon: null
-    - _id: 4l52mhi6zcgko3xy
-      type: ItemGrant
-      configuration:
-        items:
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.H6z3N5do5jbGNjZI
-            optional: false
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.D9iiOQKWGwgU2iQM
-            optional: false
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.7J3BmfBTpuBpQ0Zv
-            optional: false
-        optional: true
-        spell: null
-      value: {}
-      level: 3
-      title: Features
-      icon: null
-    - _id: c6z2u8tie15n9ihw
+      name: Features
+      img: null
+      flags: {}
+      hint: ''
+    c6z2u8tie15n9ihw:
+      _id: c6z2u8tie15n9ihw
       type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.4YK9BWk1ih0c4kJZ
             optional: false
+            sort: 0
         optional: false
         spell: null
+        sorting: m
       value: {}
       level: 5
-      title: Features
-      icon: null
-    - _id: ikpercu017fxs96h
+      name: Features
+      img: null
+      flags: {}
+      hint: ''
+    ikpercu017fxs96h:
+      _id: ikpercu017fxs96h
       type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.hioxnRX6LDOPGOb8
             optional: false
+            sort: 0
         optional: false
         spell: null
+        sorting: m
       value: {}
       level: 14
-      title: Features
-      icon: null
-    - _id: 7qU13uxIw60POdob
+      name: Features
+      img: null
+      flags: {}
+      hint: ''
+    7qU13uxIw60POdob:
+      _id: 7qU13uxIw60POdob
       type: ItemChoice
       configuration:
         choices:
@@ -268,62 +254,108 @@ system:
         allowDrops: true
         type: feat
         pool:
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.te61fHUl19wp18S9
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.MuChUKPaPQQPAdqU
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.CprKwHypmauEIngO
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.6QMsCvY5XFwO5BlO
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.mMqQBP5hylgMkbC3
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.1IzLFSqlUbbk1Mpn
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.46BrZ08JT2EWvZx8
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.I6gYYu6TaEzwXwib
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.QxMner9YYrlhWGAu
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.00FwXdHyWwVqDLnZ
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.q91daejRCUqdZR5y
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.FmP7SDZSGgwWtDnq
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.VdBroSKg5Nxx5pOC
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.yvvB2LiStZya3t4P
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.MaoBte7T0yp0aX0J
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.A15M5gmjBHjeZSdt
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.LWG8gNC0jsuqwwJq
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.b3JySShZBnEz6MAc
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.u25CjCpmNwaegSyP
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.EBTIEVxM4xablhGa
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.LMJcrPFYj2RajQib
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.OakJreNoEvlLFDNI
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.VpMOMdeB1f1lqHUP
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.J3YcRwpv6d8plCa0
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.WmkzW3bAhPcHTNQy
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.evXscDIjftaz3ldN
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.xffrTHfHX92hQECD
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.RqfQ6Cl90wNarerE
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.iIkBAbArlSW0pgxU
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.Gs3sxNsCKT37upVe
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.pTmuNDjV6kCYEgbl
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.gCxQBrkUUhyz82Zr
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.kX7opr2tOWM1ncqv
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ketQIbWkyQCr3fbO
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ZPoyDmfPS2z2GVuK
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.DIypzlV6NbPsIsjA
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.yTRchN7aCDBl1n40
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.MkCLJuobqsrRZ8Ve
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.hkMwPR7yRJ3WLyuy
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.KyzkNr8fdT4dlgdY
-          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.jRdbny6UCb2M6lHx
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.CprKwHypmauEIngO
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.6QMsCvY5XFwO5BlO
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.mMqQBP5hylgMkbC3
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.1IzLFSqlUbbk1Mpn
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.46BrZ08JT2EWvZx8
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.I6gYYu6TaEzwXwib
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.QxMner9YYrlhWGAu
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.00FwXdHyWwVqDLnZ
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.q91daejRCUqdZR5y
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.FmP7SDZSGgwWtDnq
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.VdBroSKg5Nxx5pOC
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.yvvB2LiStZya3t4P
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.MaoBte7T0yp0aX0J
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.A15M5gmjBHjeZSdt
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.LWG8gNC0jsuqwwJq
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.b3JySShZBnEz6MAc
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.u25CjCpmNwaegSyP
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.EBTIEVxM4xablhGa
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.LMJcrPFYj2RajQib
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.OakJreNoEvlLFDNI
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.VpMOMdeB1f1lqHUP
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.J3YcRwpv6d8plCa0
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.WmkzW3bAhPcHTNQy
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.evXscDIjftaz3ldN
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.xffrTHfHX92hQECD
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.RqfQ6Cl90wNarerE
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.iIkBAbArlSW0pgxU
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.Gs3sxNsCKT37upVe
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.pTmuNDjV6kCYEgbl
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.te61fHUl19wp18S9
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.gCxQBrkUUhyz82Zr
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.kX7opr2tOWM1ncqv
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ketQIbWkyQCr3fbO
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.MuChUKPaPQQPAdqU
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.ZPoyDmfPS2z2GVuK
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.DIypzlV6NbPsIsjA
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.yTRchN7aCDBl1n40
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.MkCLJuobqsrRZ8Ve
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.hkMwPR7yRJ3WLyuy
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.KyzkNr8fdT4dlgdY
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.jRdbny6UCb2M6lHx
         spell: null
         restriction:
           type: class
           subtype: upgrade
           list: []
+          school: []
+        sorting: a
       value:
         added: {}
         replaced: {}
-      title: Upgrades
       hint: >-
-        At 3rd level, choose an upgrade from the list at the end of your
-        specialization, gaining the benefits listed in its description.
-                                                                                                                                                                                                                                                                        
-                                                                                                                                                                                                                                                                        You select an additional upgrade at 5th, 7th, 9th, 11th, 13th, 15th, 17th, and 19th level. You can’t select an upgrade more than once, unless the upgrade’s description says otherwise. Whenever you gain a level in this class, you can exchange one of your existing upgrades with another upgrade of the same level requirement as the replaced upgrade.
-      icon: null
+        <p>At 3rd level, choose an upgrade from the list at the end of your
+        specialization, gaining the benefits listed in its description. You
+        select an additional upgrade at 5th, 7th, 9th, 11th, 13th, 15th, 17th,
+        and 19th level. You can’t select an upgrade more than once, unless the
+        upgrade’s description says otherwise. Whenever you gain a level in this
+        class, you can exchange one of your existing upgrades with another
+        upgrade of the same level requirement as the replaced upgrade.</p>
+      name: Upgrades
+      flags: {}
   spellcasting:
     progression: none
     ability: ''
@@ -335,9 +367,9 @@ _stats:
   compendiumSource: Item.eZ6E5vwFeUa9ctzO
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610800645
   modifiedTime: null
   lastModifiedBy: null

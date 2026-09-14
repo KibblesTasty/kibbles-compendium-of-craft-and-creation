@@ -46,7 +46,7 @@ system:
     recovery: []
     spent: 0
   ability: ''
-  level: 3
+  level: 1
   school: con
   materials:
     value: a statuette carved from a monster bone or fang worth at least 100 gp
@@ -100,7 +100,7 @@ system:
         ac: '@item.level'
         hd: ''
         hp: 10 * (@item.level - 1)
-        attackDamage: ''
+        attackDamage: '@item.level'
         saveDamage: '@item.level'
         healing: ''
       creatureSizes: []
@@ -112,24 +112,30 @@ system:
         saves: false
         disposition: false
       profiles:
-        - uuid: Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.bQMeZb9oTSEeKwRv
+        - count: ''
+          name: ''
           _id: 9WX4lY7sSRD05ESb
-          level:
-            min: null
-            max: null
-          types: []
-        - _id: tULaUMA0xrlhmals
-          level:
-            min: null
-            max: null
-          types: []
           uuid: Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.bQMeZb9oTSEeKwRv
-        - _id: FPOlBqKItlrln9to
           level:
             min: null
             max: null
           types: []
+        - count: ''
+          name: ''
+          _id: FPOlBqKItlrln9to
           uuid: Compendium.kibbles-compendium-of-legends-and-legacies.kcll-monsters.Actor.aXK7B17lMcVFqT2s
+          level:
+            min: null
+            max: null
+          types: []
+        - count: ''
+          name: ''
+          _id: NtlvfZLwDxZxDOXL
+          uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.JT6L3A4VP4BPmDhS
+          level:
+            min: null
+            max: null
+          types: []
       summon:
         mode: ''
         prompt: false
@@ -137,12 +143,16 @@ system:
       _id: Y2XI4KN0mxqztCZE
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+      img: ''
       behaviors: []
+      name: ''
+      tempHP: ''
   method: spell
   prepared: 0
   identifier: summon-ooze
@@ -154,7 +164,7 @@ _stats:
   exportSource: null
   coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 6.0.0
+  systemVersion: 6.0.1
   createdTime: 1789140650330
   modifiedTime: null
   lastModifiedBy: null

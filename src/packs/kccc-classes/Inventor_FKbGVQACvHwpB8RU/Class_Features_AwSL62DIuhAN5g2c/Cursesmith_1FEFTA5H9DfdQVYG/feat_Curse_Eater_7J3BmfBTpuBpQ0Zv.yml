@@ -9,7 +9,7 @@ flags:
 _id: 7J3BmfBTpuBpQ0Zv
 system:
   description:
-    value: "<p>You consume your Forbidden Artifact, destroying it and afflicting yourself with a terrible curse. You gain a melee natural weapon as the manifestation of this cursed power. On hit, this weapon deals 1d8 damage of your choice of bludgeoning, piercing, or slashing damage (selected when you gain this feature), and 1d4 necrotic damage. All effects that apply to a Forbidden Artifact apply to this natural weapon. You can apply Soul Investiture to this natural weapon.\_</p>\n<p>Additionally, you can absorb any item you create with this specialization, innately gaining its effect and curse. At the start of your turn while you are not incapacitated you gain temporary hit points equal to 1 + the number of cursed items you have consumed with this ability. If you are under the effect of bane, this becomes 1d4 + the number of cursed items you have consumed with this ability.</p>\n<p>Additionally, when you gain temporary hit points from this feature, you can instead regain hit points equal to the temporary hit points you would have gained. You can regain hit points this way a number of times equal to your proficiency bonus, regaining all uses on a long rest.</p>\n<p>When you select this path, you learn the following spells at the following levels. These spells do not count against your spells known, and are Inventor spells for you.</p>\n<table style=\"width:403px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary)\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"text-align:center;width:129.047px\"><strong>Inventor Level</strong></td>\n<td style=\"text-align:center;width:268.953px\"><strong>Spell</strong></td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\">3rd</td>\n<td style=\"text-align:center;width:268.953px\">@Compendium[dnd5e.spells.ksaaTxIbKx2sJfia]{Inflict Wounds}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\">5th</td>\n<td style=\"text-align:center;width:268.953px\">@Compendium[dnd5e.spells.S7VbUetIfVT7B6Eq]{Darkness}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\">9th</td>\n<td style=\"text-align:center;width:268.953px\">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.q4y6ERr3SBxm6zWt]{Mutate}</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\">13th</td>\n<td style=\"text-align:center;width:268.953px\">\_</td>\n</tr>\n<tr>\n<td style=\"text-align:center;width:129.047px\">17th</td>\n<td style=\"text-align:center;width:268.953px\">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.DULroJrfyUiDGRny]{Devouring Darkness}</td>\n</tr>\n</tbody>\n</table>"
+    value: "<p>You consume your Forbidden Artifact, destroying it and afflicting yourself with a terrible curse. You gain a melee natural weapon as the manifestation of this cursed power. On hit, this weapon deals 1d8 damage of your choice of bludgeoning, piercing, or slashing damage (selected when you gain this feature), and 1d4 necrotic damage. All effects that apply to a Forbidden Artifact apply to this natural weapon. You can apply Soul Investiture to this natural weapon.\_</p><p>Additionally, you can absorb any item you create with this specialization, innately gaining its effect and curse. At the start of your turn while you are not incapacitated you gain temporary hit points equal to 1 + the number of cursed items you have consumed with this ability. If you are under the effect of bane, this becomes 1d4 + the number of cursed items you have consumed with this ability.</p><p>Additionally, when you gain temporary hit points from this feature, you can instead regain hit points equal to the temporary hit points you would have gained. You can regain hit points this way a number of times equal to your proficiency bonus, regaining all uses on a long rest.</p><p>When you select this path, you learn the following spells at the following levels. These spells do not count against your spells known, and are Inventor spells for you.</p><table><thead><tr><th><p><strong>Inventor Level</strong></p></th><th><p><strong>Spell</strong></p></th></tr></thead><tbody><tr><td><p>3rd</p></td><td><p>@Compendium[dnd5e.spells.ksaaTxIbKx2sJfia]{Inflict Wounds}</p></td></tr><tr><td><p>5th</p></td><td><p>@Compendium[dnd5e.spells.S7VbUetIfVT7B6Eq]{Darkness}</p></td></tr><tr><td><p>9th</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.q4y6ERr3SBxm6zWt]{Mutate}</p></td></tr><tr><td><p>13th</p></td><td><p>@UUID[Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.XYlNm2hWK5pNq2sz]{Ichorous Blood}</p></td></tr><tr><td><p>17th</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.DULroJrfyUiDGRny]{Devouring Darkness}</p></td></tr></tbody></table>"
     chat: ''
   source:
     book: KCCC
@@ -25,14 +25,258 @@ system:
     subtype: ''
   requirements: Cursesmith 3
   identifier: curse-eater
-  activities: {}
+  activities:
+    MRTyjQ9P21I2PPkx:
+      type: heal
+      name: ''
+      _id: MRTyjQ9P21I2PPkx
+      img: ''
+      sort: 0
+      activation:
+        type: turnStart
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: false
+        modifiers: []
+        scaling:
+          number: 1
+          mode: ''
+        number: 1
+        denomination: null
+        bonus: '@scaling'
+    W2NUiMWW3yhDPgVs:
+      type: heal
+      name: ''
+      img: ''
+      sort: 100000
+      activation:
+        type: turnStart
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling:
+              mode: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: '@prof'
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: false
+        modifiers: []
+        scaling:
+          number: 1
+          mode: ''
+        number: 1
+        denomination: null
+        bonus: '@scaling'
+      _id: W2NUiMWW3yhDPgVs
   enchant: {}
   prerequisites:
     level: null
     items: []
     repeatable: false
   properties: []
-  advancement: []
+  advancement:
+    QfvAlmrymncY99oX:
+      name: ''
+      type: ItemGrant
+      _id: QfvAlmrymncY99oX
+      configuration:
+        items:
+          - optional: false
+            sort: 0
+            uuid: Compendium.dnd5e.spells.Item.ksaaTxIbKx2sJfia
+        optional: false
+        sorting: m
+        spell:
+          ability: []
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      flags: {}
+      value: {}
+      level: 3
+      hint: ''
+    RNqxasS7XuBOXgSa:
+      name: ''
+      type: ItemGrant
+      _id: RNqxasS7XuBOXgSa
+      configuration:
+        items:
+          - optional: false
+            sort: 0
+            uuid: Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq
+        optional: false
+        sorting: m
+        spell:
+          ability: []
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      flags: {}
+      value: {}
+      level: 5
+      hint: ''
+    hcL6hoRQAvAjbxPc:
+      name: ''
+      type: ItemGrant
+      _id: hcL6hoRQAvAjbxPc
+      configuration:
+        items:
+          - optional: false
+            sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.q4y6ERr3SBxm6zWt
+        optional: false
+        sorting: m
+        spell:
+          ability: []
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      flags: {}
+      value: {}
+      level: 9
+      hint: ''
+    bdMCNRgVKoOXy6g6:
+      name: ''
+      type: ItemGrant
+      _id: bdMCNRgVKoOXy6g6
+      configuration:
+        items:
+          - optional: false
+            sort: 0
+            uuid: Compendium.kibbles-compendium-of-legends-and-legacies.kcll-spells-vol-2.Item.XYlNm2hWK5pNq2sz
+        optional: false
+        sorting: m
+        spell:
+          ability: []
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      flags: {}
+      value: {}
+      level: 13
+      hint: ''
+    yirVpVWFDxBAbbD1:
+      name: ''
+      type: ItemGrant
+      _id: yirVpVWFDxBAbbD1
+      configuration:
+        items:
+          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.DULroJrfyUiDGRny
+            optional: false
+            sort: 0
+        optional: false
+        sorting: m
+        spell: null
+      flags: {}
+      value: {}
+      level: 17
+      hint: ''
   crewed: false
 ownership:
   default: 0
@@ -40,9 +284,9 @@ _stats:
   compendiumSource: Item.ryHZn4MoSvPn3F5x
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610784017
   modifiedTime: null
   lastModifiedBy: null

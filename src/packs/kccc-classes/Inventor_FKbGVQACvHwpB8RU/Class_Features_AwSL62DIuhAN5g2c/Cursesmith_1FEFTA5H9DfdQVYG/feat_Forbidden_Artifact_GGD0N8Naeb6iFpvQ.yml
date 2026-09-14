@@ -47,7 +47,41 @@ system:
     items: []
     repeatable: false
   properties: []
-  advancement: []
+  advancement:
+    W8yodkawfHfvmU41:
+      name: Forbidden Artifact
+      type: ItemChoice
+      _id: W8yodkawfHfvmU41
+      configuration:
+        allowDrops: true
+        choices:
+          '1':
+            count: 2
+            replacement: false
+        pool:
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.CprKwHypmauEIngO
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.VdBroSKg5Nxx5pOC
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.MaoBte7T0yp0aX0J
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.EBTIEVxM4xablhGa
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.WmkzW3bAhPcHTNQy
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.DIypzlV6NbPsIsjA
+        restriction:
+          list: []
+          school: []
+        sorting: a
+        spell: null
+        type: null
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
   crewed: false
 ownership:
   default: 0
@@ -55,9 +89,9 @@ _stats:
   compendiumSource: Item.WBCoOeHA7rHtYPNC
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610789244
   modifiedTime: null
   lastModifiedBy: null

@@ -16,84 +16,19 @@ system:
       a 3 or 4 on the d4 from bane, the target suffers the effect of bane until
       the end of your next turn. This effect is extended to the end of your
       subsequent next turn if you hit them your Forbidden Artifact again while
-      they are afflicted (regardless of the roll of the bane die)</p>
-
-      <p>Additionally, when you suffer the effect of any curse of one of the
-      upgrades granted by this class, as a reaction, you can force another
+      they are afflicted (regardless of the roll of the bane
+      die)</p><p>Additionally, when you suffer the effect of any curse of one of
+      the upgrades granted by this class, as a reaction, you can force another
       creature within 30 feet to make a Charisma saving throw against your spell
       save DC or suffer the same effect. You can do this a number of times equal
-      to your proficiency bonus, regaining all uses on a long rest.</p>
-
-      <p>When you select this path, you learn the following spells at the
-      following levels. These spells do not count against your spells known, and
-      are Inventor spells for you.</p>
-
-      <table style="width:403px;border-top:1px solid
-      var(--color-border-light-tertiary);border-bottom:1px solid
-      var(--color-border-light-tertiary)" border="1">
-
-      <tbody>
-
-      <tr>
-
-      <td style="text-align:center;width:129.047px"><strong>Inventor
-      Level</strong></td>
-
-      <td style="text-align:center;width:268.953px"><strong>Spell</strong></td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center;width:129.047px">3rd</td>
-
-      <td
-      style="text-align:center;width:268.953px">@Compendium[dnd5e.spells.95K2aUhAGV9qXjnf]{Bane}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center;width:129.047px">5th</td>
-
-      <td
-      style="text-align:center;width:268.953px">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.6cFfHnF9WfDGESQV]{Disorient}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center;width:129.047px">9th</td>
-
-      <td
-      style="text-align:center;width:268.953px">@Compendium[dnd5e.spells.pO4zGe5LmFIYqJiL]{Bestow
-      Curse}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center;width:129.047px">13th</td>
-
-      <td
-      style="text-align:center;width:268.953px">@Compendium[dnd5e.spells.BYNvBJzHcF5VJhXw]{Phantasmal
-      Killer}</td>
-
-      </tr>
-
-      <tr>
-
-      <td style="text-align:center;width:129.047px">17th</td>
-
-      <td
-      style="text-align:center;width:268.953px">@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.Y1JG6RgBaHe6t1XV]{Killing
-      Curse}</td>
-
-      </tr>
-
-      </tbody>
-
-      </table>
+      to your proficiency bonus, regaining all uses on a long rest.</p><p>When
+      you select this path, you learn the following spells at the following
+      levels. These spells do not count against your spells known, and are
+      Inventor spells for you.</p><table><thead><tr><th><p><strong>Inventor
+      Level</strong></p></th><th><p><strong>Spell</strong></p></th></tr></thead><tbody><tr><td><p>3rd</p></td><td><p>@Compendium[dnd5e.spells.95K2aUhAGV9qXjnf]{Bane}</p></td></tr><tr><td><p>5th</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.6cFfHnF9WfDGESQV]{Disorient}</p></td></tr><tr><td><p>9th</p></td><td><p>@Compendium[dnd5e.spells.pO4zGe5LmFIYqJiL]{Bestow
+      Curse}</p></td></tr><tr><td><p>13th</p></td><td><p>@Compendium[dnd5e.spells.BYNvBJzHcF5VJhXw]{Phantasmal
+      Killer}</p></td></tr><tr><td><p>17th</p></td><td><p>@Compendium[kibbles-compendium-of-craft-and-creation.kccc-spells.Y1JG6RgBaHe6t1XV]{Killing
+      Curse}</p></td></tr></tbody></table>
     chat: ''
   source:
     book: KCCC
@@ -188,7 +123,108 @@ system:
     items: []
     repeatable: false
   properties: []
-  advancement: []
+  advancement:
+    kmZuYID8wFwc0chl:
+      name: ''
+      type: ItemGrant
+      _id: kmZuYID8wFwc0chl
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.95K2aUhAGV9qXjnf
+            optional: false
+            sort: 0
+        optional: false
+        sorting: m
+        spell: null
+      flags: {}
+      value: {}
+      level: 3
+      hint: ''
+    eREaZ6liv9zbCLAH:
+      name: ''
+      type: ItemGrant
+      _id: eREaZ6liv9zbCLAH
+      configuration:
+        items:
+          - optional: false
+            sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.6cFfHnF9WfDGESQV
+        optional: false
+        sorting: m
+        spell:
+          ability: []
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      flags: {}
+      value: {}
+      level: 5
+      hint: ''
+    2wUvlOdF5awhZobN:
+      name: ''
+      type: ItemGrant
+      _id: 2wUvlOdF5awhZobN
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL
+            optional: false
+            sort: 0
+        optional: false
+        sorting: m
+        spell: null
+      flags: {}
+      value: {}
+      level: 9
+      hint: ''
+    E9PvrGNN5Sfljv24:
+      name: ''
+      type: ItemGrant
+      _id: E9PvrGNN5Sfljv24
+      configuration:
+        items:
+          - optional: false
+            sort: 0
+            uuid: Compendium.dnd5e.spells.Item.BYNvBJzHcF5VJhXw
+        optional: false
+        sorting: m
+        spell:
+          ability: []
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      flags: {}
+      value: {}
+      level: 13
+      hint: ''
+    KvuY2dPTutM5rbog:
+      name: ''
+      type: ItemGrant
+      _id: KvuY2dPTutM5rbog
+      configuration:
+        items:
+          - optional: false
+            sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-spells.Item.Y1JG6RgBaHe6t1XV
+        optional: false
+        sorting: m
+        spell:
+          ability: []
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      flags: {}
+      value: {}
+      level: 17
+      hint: ''
   crewed: false
 ownership:
   default: 0
@@ -196,9 +232,9 @@ _stats:
   compendiumSource: Item.bYjP8TyhFyawlVJr
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610787323
   modifiedTime: null
   lastModifiedBy: null

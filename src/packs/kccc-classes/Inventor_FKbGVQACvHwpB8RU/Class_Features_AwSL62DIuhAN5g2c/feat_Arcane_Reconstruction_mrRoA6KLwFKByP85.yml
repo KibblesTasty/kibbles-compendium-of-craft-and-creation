@@ -40,7 +40,23 @@ system:
     items: []
     repeatable: false
   properties: []
-  advancement: []
+  advancement:
+    v7gv2Y1rNx2aKCby:
+      name: ''
+      type: ItemGrant
+      _id: v7gv2Y1rNx2aKCby
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP
+            optional: false
+            sort: 0
+        optional: false
+        sorting: m
+        spell: null
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
   crewed: false
 ownership:
   default: 0
@@ -48,9 +64,9 @@ _stats:
   compendiumSource: Item.A5B2QdNqxoOxjIc4
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610805887
   modifiedTime: null
   lastModifiedBy: null

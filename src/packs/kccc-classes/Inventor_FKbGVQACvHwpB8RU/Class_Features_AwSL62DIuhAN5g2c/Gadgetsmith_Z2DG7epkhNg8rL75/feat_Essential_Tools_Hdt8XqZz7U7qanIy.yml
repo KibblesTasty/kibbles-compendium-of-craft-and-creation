@@ -32,7 +32,36 @@ system:
     items: []
     repeatable: false
   properties: []
-  advancement: []
+  advancement:
+    NUyJbswvM5Qf7lVw:
+      name: Gadgetsmith Weapons
+      type: ItemChoice
+      _id: NUyJbswvM5Qf7lVw
+      configuration:
+        allowDrops: true
+        choices: {}
+        pool:
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.B7n099FicuOcJUrB
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.pzPC9MyNhTnIOVd4
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.snM4Q7LleBWihrHZ
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.RbTNVi6F2PRU4Dta
+          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.Szkoo4wWoubwuliN
+            sort: 0
+        restriction:
+          list: []
+          school: []
+        sorting: a
+        spell: null
+        type: null
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
   crewed: false
 ownership:
   default: 0
@@ -40,9 +69,9 @@ _stats:
   compendiumSource: Item.y5WsmOGajZhpBFYV
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610789965
   modifiedTime: null
   lastModifiedBy: null

@@ -35,7 +35,35 @@ system:
     items: []
     repeatable: false
   properties: []
-  advancement: []
+  advancement:
+    i6AaR82BaVg9HgKK:
+      name: Cursed Path
+      type: ItemChoice
+      _id: i6AaR82BaVg9HgKK
+      configuration:
+        allowDrops: true
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        pool:
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.H6z3N5do5jbGNjZI
+          - sort: 0
+            uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.D9iiOQKWGwgU2iQM
+          - uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.7J3BmfBTpuBpQ0Zv
+            sort: 0
+        restriction:
+          list: []
+          school: []
+        sorting: a
+        spell: null
+        type: null
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
   crewed: false
 ownership:
   default: 0
@@ -43,9 +71,9 @@ _stats:
   compendiumSource: Item.KuNik80CG6CKM0kA
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.1
   createdTime: 1764610798745
   modifiedTime: null
   lastModifiedBy: null

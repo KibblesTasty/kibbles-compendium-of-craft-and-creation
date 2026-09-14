@@ -11,15 +11,16 @@ _id: zVljMfo391OMhXGr
 system:
   description:
     value: >-
-      <p>You fill the air with poisonous vapors in a cube 5 feet on each side. A
-      creature must make a Constitution saving throw when it enters the spell's
-      area for the first time on their turn or starts its turn there. On a
-      failed save, they take [[/damage 1d12 poison]] damage and become poisoned
-      until the end of their next turn. On a successful save, they take half as
-      much damage and do not become poisoned.</p>
-
-      <p>You can move the cloud of vapors up to 20 feet as a bonus action during
-      your turn.</p>
+      <p>You conjure a swirling poisonous miasma around yourself. For the
+      duration of the spell, you are lightly obscured. When you cast the spell,
+      and as a bonus action on each subsequent turn, you can cause the vapors to
+      surge out and swirl around up to three creatures of your choice within
+      range. Each creature must make a Constitution saving throw. On a failed
+      save, it takes 1d12 poison damage and becomes &amp;Reference[poisoned]
+      until the start of your next turn. On a successful save, it takes half as
+      much poison damage and is not poisoned.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 3rd level
+      or higher, the damage increases by 1d12 for each slot level above 2nd.</p>
     chat: ''
   source:
     book: KCCC
@@ -104,19 +105,18 @@ system:
       damage:
         onSave: half
         parts:
-          - number: 1
-            denomination: 12
-            bonus: ''
-            types:
-              - poison
-            custom:
+          - custom:
               enabled: false
               formula: ''
-            scaling:
-              mode: ''
-              number: null
-              formula: ''
+            number: 1
+            denomination: 12
+            bonus: ''
             modifiers: []
+            types:
+              - poison
+            scaling:
+              mode: whole
+              number: 1
       save:
         ability:
           - con
@@ -124,15 +124,19 @@ system:
           calculation: spellcasting
           formula: ''
         visible: true
+        bonus: ''
       sort: 0
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      img: null
+      img: ''
       behaviors: []
+      name: ''
   method: spell
   prepared: 0
   identifier: vicious-vapors
@@ -144,7 +148,7 @@ _stats:
   exportSource: null
   coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 6.0.0
+  systemVersion: 6.0.1
   createdTime: 1789140662015
   modifiedTime: null
   lastModifiedBy: null

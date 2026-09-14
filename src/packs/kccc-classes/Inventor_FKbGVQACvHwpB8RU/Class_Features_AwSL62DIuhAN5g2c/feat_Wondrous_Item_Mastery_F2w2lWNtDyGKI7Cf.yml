@@ -2,7 +2,58 @@ _id: F2w2lWNtDyGKI7Cf
 name: Wondrous Item Mastery
 type: feat
 img: icons/weapons/wands/wand-gem-violet.webp
-effects: []
+effects:
+  - name: Wondrous Item Mastery
+    img: icons/weapons/wands/wand-gem-violet.webp
+    origin: null
+    _id: IB02Nye6mvIqmRPO
+    type: base
+    system:
+      changes:
+        - key: system.attributes.attunement.max
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+          _id: xc6rf66X4iUfwW0N
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.F2w2lWNtDyGKI7Cf
+        behavior: null
+        message: null
+      rider:
+        statuses: []
+      conditions: '{}'
+      magical: false
+    disabled: false
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders: {}
+    _stats:
+      compendiumSource: Compendium.kibbles-compendium-of-craft-and-creation.kccc-classes.Item.wmdaw0hE1VphACyj.ActiveEffect.PDelCovBA2vhvwf9
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.1
+      lastModifiedBy: null
+      modifiedTime: null
+      createdTime: 1789352643803
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!F2w2lWNtDyGKI7Cf.IB02Nye6mvIqmRPO'
 folder: AwSL62DIuhAN5g2c
 sort: 75000
 flags:
