@@ -1,0 +1,858 @@
+folder: RKOrrPX9DFuI6S6Y
+name: Specialized Golem
+type: npc
+img: systems/dnd5e/icons/svg/actors/npc.svg
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  identifier: golem
+  abilities:
+    str:
+      value: 14
+      proficient: 0
+      max: null
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 12
+      proficient: 0
+      max: null
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 12
+      proficient: 0
+      max: null
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 4
+      proficient: 0
+      max: null
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 5
+      proficient: 0
+      max: null
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 1
+      proficient: 0
+      max: null
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  bonuses:
+    spell:
+      dc: ''
+  rolls:
+    ability:
+      check:
+        bonus: ''
+        min: null
+        max: null
+        mode: 0
+      save:
+        bonus: ''
+        min: null
+        max: null
+        mode: 0
+      skill:
+        bonus: ''
+        min: null
+        max: null
+        mode: 0
+      tool:
+        bonus: ''
+        min: null
+        max: null
+        mode: 0
+    attack:
+      bonus: ''
+      msak:
+        bonus: ''
+        min: null
+        max: null
+        mode: 0
+      mwak:
+        bonus: ''
+        min: null
+        max: null
+        mode: 0
+      rsak:
+        bonus: ''
+        min: null
+        max: null
+        mode: 0
+      rwak:
+        bonus: ''
+        min: null
+        max: null
+        mode: 0
+      min: null
+      max: null
+      mode: 0
+    damage:
+      msak:
+        bonus: ''
+      mwak:
+        bonus: ''
+      rsak:
+        bonus: ''
+      rwak:
+        bonus: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+    psi:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        passive: ''
+      value: 0
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    ac:
+      calcs:
+        - natural
+      flat: 14
+      formulas: []
+      override: null
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+    movement:
+      speeds:
+        walk: '30'
+        burrow: ''
+        climb: ''
+        fly: ''
+        jump: ''
+        swim: ''
+      units: ft
+      hover: false
+      ignoredDifficultTerrain: []
+      bonus: ''
+      special: ''
+    attunement:
+      max: 3
+    senses:
+      ranges:
+        blindsight: null
+        darkvision: null
+        tremorsense: null
+        truesight: null
+      units: null
+      special: ''
+    spell:
+      level: 0
+    spellcasting: ''
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      limit: 1
+    loyalty: {}
+    hd:
+      spent: 0
+    hp:
+      max: 5
+      temp: null
+      tempmax: null
+      value: 5
+      formula: ''
+      dt: null
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+    price:
+      value: null
+      denomination: gp
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: unaligned
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: construct
+      custom: ''
+      subtype: ''
+      swarm: ''
+    habitat:
+      value: []
+      custom: ''
+    cr: null
+    treasure:
+      value: []
+  resources:
+    legact:
+      max: 0
+      spent: 0
+    legres:
+      max: 0
+      spent: 0
+    lair:
+      value: false
+      initiative: null
+      inside: false
+  source:
+    revision: 1
+    rules: '2014'
+  traits:
+    size: med
+    di:
+      value:
+        - poison
+        - psychic
+      custom: ''
+      bypasses: []
+    dr:
+      value: []
+      custom: ''
+      bypasses: []
+    dv:
+      value: []
+      custom: ''
+      bypasses: []
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value:
+        - charmed
+        - exhaustion
+        - frightened
+        - poisoned
+      custom: ''
+    languages:
+      value: []
+      custom: understands the languages of its creator but can't speak
+      communication:
+        telepathy:
+          value: null
+          units: ft
+    important: false
+prototypeToken:
+  name: Golem
+  displayName: 0
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: systems/dnd5e/icons/svg/actors/npc.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - name: Bound
+    type: feat
+    _id: BZOhseOboBUHdNAJ
+    img: icons/magic/symbols/ring-circle-smoke-blue.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>The golem is magically bound to its creator. As long as the creator
+          and it are on the same plane of existence, the creator can
+          telepathically call the golem to travel to it, and the golem knows the
+          distance and direction to its creator.</p>
+        chat: ''
+      identifier: bound
+      source:
+        revision: 1
+        rules: '2014'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      ngsU1a0qaps0T6Pk: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.2
+      createdTime: 1789606587112
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!tIoJ4O1FhkbcIDRL.BZOhseOboBUHdNAJ'
+  - name: Slam
+    type: weapon
+    _id: eCi5s3i8Pxobh7dH
+    img: icons/weapons/fist/fist-knuckles-stone.webp
+    system:
+      activities:
+        0enQGTYq3wqZFQIa:
+          _id: 0enQGTYq3wqZFQIa
+          type: attack
+          img: null
+          sort: 0
+          activation:
+            type: action
+            override: false
+          behaviors: []
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            value: ''
+          duration:
+            units: inst
+            expiry: null
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+          attack:
+            critical: {}
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      damage:
+        base:
+          types:
+            - bludgeoning
+          custom:
+            enabled: false
+          modifiers: []
+          scaling:
+            number: 1
+          number: 1
+          denomination: 8
+          bonus: ''
+        versatile:
+          types: []
+          custom:
+            enabled: false
+          modifiers: []
+          scaling:
+            number: 1
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: <p>[[/attack extended]]</p>
+        chat: ''
+      identifier: slam
+      source:
+        revision: 1
+        rules: '2014'
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarities: []
+      attunement: ''
+      attuned: false
+      equipped: true
+      crew:
+        value: []
+      ammunition: {}
+      armor: {}
+      properties:
+        - gear
+      proficient: null
+      range:
+        units: ft
+        value: null
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      mastery: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      ngsU1a0qaps0T6Pk: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.2
+      createdTime: 1789607496541
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!tIoJ4O1FhkbcIDRL.eCi5s3i8Pxobh7dH'
+  - name: Specialization
+    type: feat
+    _id: krqjbslUAYicDmbv
+    img: icons/magic/symbols/cog-orange-red.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>Your golem starts with two free upgrades that don't count against
+          your upgrade total.</p>
+        chat: ''
+      identifier: specialization
+      source:
+        revision: 1
+        rules: '2014'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      ngsU1a0qaps0T6Pk: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dnd5e
+      systemVersion: 6.0.2
+      createdTime: 1789607565005
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!tIoJ4O1FhkbcIDRL.krqjbslUAYicDmbv'
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.367'
+  systemId: dnd5e
+  systemVersion: 6.0.2
+  createdTime: 1789606587112
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_id: tIoJ4O1FhkbcIDRL
+_key: '!actors!tIoJ4O1FhkbcIDRL'

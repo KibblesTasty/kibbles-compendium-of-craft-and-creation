@@ -9,7 +9,7 @@ flags:
   core: {}
 system:
   description:
-    value: "<p>Starting at 1st level, you forge a mechanical golem to carry out your orders and protect you. The golem is under your control and understands the languages you speak, but it can’t speak.</p>\n<p>The golem obeys your commands as best it can. On your turn, you can verbally command it where to move (no action required by you), and you can use your action to command it to take an action. Additionally, whenever it would be able to take a reaction, you must use your reaction to command it to take that reaction. The golem acts on your commands during your turn. If you issue no commands to your golem, it takes no actions.</p>\n<p>Your golem’s proficiency bonus increases when yours does. If the golem is killed, it can be returned to life by normal means, such as the revivify spell, or you can repair it during a long rest if you have access to its body. At the end of the long rest, it returns to life with half its hit points (rounded down).\_</p>\n<p>If the golem is beyond recovery, you can recreate it exactly as it was, with four days of work (8 hours each day) and 100 gp of raw materials.</p>\n<p>Over the course of a short rest, you can restore hit points to your golem equal to your Intelligence modifier + your inventor level, or you can fully repair it to during a long rest, causing it to regain all its hit points. Any spells you cast that cause the target to regain hit points ignore any restrictions against constructs for your golem.</p>\n<p>The base statistics of your golem are as follows:\_</p>\n<p>\_</p>"
+    value: "<p>Starting at 1st level, you forge a mechanical golem to carry out your orders and protect you. The golem is under your control and understands the languages you speak, but it can’t speak.</p><p>The golem obeys your commands as best it can. On your turn, you can verbally command it where to move (no action required by you), and you can use your action to command it to take an action. Additionally, whenever it would be able to take a reaction, you must use your reaction to command it to take that reaction. The golem acts on your commands during your turn. If you issue no commands to your golem, it takes no actions.</p><p>Your golem’s proficiency bonus increases when yours does. If the golem is killed, it can be returned to life by normal means, such as the revivify spell, or you can repair it during a long rest if you have access to its body. At the end of the long rest, it returns to life with half its hit points (rounded down).\_</p><p>If the golem is beyond recovery, you can recreate it exactly as it was, with four days of work (8 hours each day) and 100 gp of raw materials.</p><p>Over the course of a short rest, you can restore hit points to your golem equal to your Intelligence modifier + your inventor level, or you can fully repair it to during a long rest, causing it to regain all its hit points. Any spells you cast that cause the target to regain hit points ignore any restrictions against constructs for your golem.</p><p>The base statistics of your golem are as follows:\_</p><p>\_@Embed[Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.gbd2Vg6OSS1owrlR statblock caption=false]</p>"
     chat: ''
   source:
     book: KCCC
@@ -30,11 +30,12 @@ system:
       type: summon
       name: ''
       _id: qYOTE452L5DYyx4h
-      img: null
+      img: ''
       sort: 0
       activation:
         type: action
         override: false
+        condition: ''
       behaviors: []
       consumption:
         scaling:
@@ -43,6 +44,7 @@ system:
         targets: []
       description:
         value: ''
+        chatFlavor: ''
       duration:
         units: inst
         expiry: null
@@ -53,24 +55,37 @@ system:
       range:
         units: self
         override: false
+        special: ''
       target:
         template:
           contiguous: false
           stationary: false
           units: ft
+          type: ''
         affects:
           choice: false
+          type: ''
         override: false
         prompt: true
       uses:
         spent: 0
         recovery: []
+        max: ''
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-      bonuses: {}
+        identifier: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: '@abilities.con.modifier * @classes.inventor.levels'
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
       creatureSizes: []
       creatureTypes: []
       match:
@@ -78,9 +93,96 @@ system:
         disposition: false
         proficiency: false
         saves: false
-      profiles: []
+        ability: ''
+      profiles:
+        - _id: YGTTlT7N2o7LIsIL
+          level: {}
+          types: []
+          uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.z4qsx7sbTNlXW4Ci
+        - _id: klo7Js08V9j1YuSe
+          level: {}
+          types: []
+          uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.8UFclqWW0kgl9wsx
+        - _id: LI0Hjw7xJyxgAu3c
+          level: {}
+          types: []
+          uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.PyS19tQnWHBY7TiX
+        - _id: 4CFgemJRJuOo1U56
+          level: {}
+          types: []
+          uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.tIoJ4O1FhkbcIDRL
+        - _id: EFLZFJyyFw5oL9sB
+          level: {}
+          types: []
+          uuid: Compendium.kibbles-compendium-of-craft-and-creation.kccc-monsters.Actor.R4LUEd1XFYCUbRAG
       summon:
         prompt: true
+        mode: ''
+      tempHP: ''
+    WvydPSvQHfDSFrKl:
+      type: heal
+      name: ''
+      _id: WvydPSvQHfDSFrKl
+      img: ''
+      sort: 100000
+      activation:
+        type: shortRest
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: spec
+        override: false
+        special: Your golem
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      healing:
+        types: []
+        custom:
+          enabled: true
+          formula: '@abilities.int.modifier + @classes.inventor.levels'
+        modifiers: []
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
   enchant: {}
   prerequisites:
     level: null
@@ -97,7 +199,7 @@ _stats:
   exportSource: null
   coreVersion: '14.367'
   systemId: dnd5e
-  systemVersion: 6.0.1
+  systemVersion: 6.0.2
   createdTime: 1764610807206
   modifiedTime: null
   lastModifiedBy: null
