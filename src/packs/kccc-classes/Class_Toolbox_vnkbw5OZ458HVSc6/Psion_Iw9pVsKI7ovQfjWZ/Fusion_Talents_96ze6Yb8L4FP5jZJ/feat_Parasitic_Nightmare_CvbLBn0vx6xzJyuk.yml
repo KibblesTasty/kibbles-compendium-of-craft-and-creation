@@ -37,65 +37,62 @@ system:
   properties: []
   requirements: Psionic Synthesis, Consumption Discipline, Telepathy Discipline
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    HYZDUE4yZEaCaeaR:
+      type: teleport
+      name: ''
+      _id: HYZDUE4yZEaCaeaR
+      img: ''
+      sort: 100000
       activation:
         type: reaction
-        value: 1
-        condition: A create that is frightened of you moves
         override: false
+        condition: A create that is frightened of you moves
+      behaviors: []
       consumption:
-        targets: []
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets: []
       description:
+        value: ''
         chatFlavor: ''
       duration:
-        concentration: false
-        value: ''
         units: inst
-        special: ''
+        expiry: null
+        concentration: false
         override: false
       effects: []
+      flags: {}
       range:
         units: self
-        special: ''
         override: false
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
+          stationary: false
           units: ft
-        affects:
-          count: ''
           type: ''
+        affects:
           choice: false
-          special: ''
-        prompt: true
+          type: ''
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
-      flags: {}
+        max: ''
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
+      teleport:
+        override: true
+        units: ft
   identifier: parasitic-nightmare
   enchant: {}
   advancement: []
@@ -105,17 +102,14 @@ sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.2
   createdTime: 1764610787141
   modifiedTime: null
   lastModifiedBy: null

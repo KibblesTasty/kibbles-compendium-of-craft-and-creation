@@ -99,6 +99,64 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+    4fQuCA7K5hMp8OIt:
+      type: teleport
+      name: ''
+      _id: 4fQuCA7K5hMp8OIt
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: true
+        special: ''
+        value: '120'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: willing
+          count: '@level'
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      teleport:
+        override: true
+        units: ft
+        value: ''
   method: spell
   prepared: 0
   identifier: glyph-of-translocation
@@ -114,9 +172,9 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.2
   createdTime: 1764610821252
   modifiedTime: null
   lastModifiedBy: null

@@ -6,10 +6,7 @@ folder: kY0D0Z1qCBLbpTTK
 sort: 300000
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 _id: Oax95gWonoLUEFdk
 system:
   description:
@@ -35,65 +32,63 @@ system:
     subtype: ''
   requirements: Transposition 1
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    w3UTa6SeUq7TCzzI:
+      type: teleport
+      name: ''
+      _id: w3UTa6SeUq7TCzzI
+      img: ''
+      sort: 100000
       activation:
         type: special
-        value: 1
-        condition: ''
         override: false
+        condition: ''
+      behaviors: []
       consumption:
-        targets: []
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets: []
       description:
+        value: ''
         chatFlavor: ''
       duration:
-        concentration: false
         units: inst
-        special: ''
+        expiry: null
+        concentration: false
         override: false
       effects: []
+      flags: {}
       range:
-        value: '5'
         units: ft
-        special: ''
         override: false
+        special: ''
+        value: 5 * @details.tier
       target:
         template:
-          count: ''
           contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
+          stationary: false
           units: ft
+          type: ''
         affects:
-          count: ''
-          type: self
           choice: false
-          special: ''
-        prompt: true
+          type: ''
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
-      flags: {}
+        max: ''
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
+      teleport:
+        override: false
+        units: ft
   identifier: flicker-step
   enchant: {}
   prerequisites:
@@ -109,9 +104,9 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.2
   createdTime: 1764610794086
   modifiedTime: null
   lastModifiedBy: null

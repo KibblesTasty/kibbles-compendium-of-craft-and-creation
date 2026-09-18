@@ -7,10 +7,7 @@ folder: qdxFDNciGzMz3Uzf
 sort: -25000
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+  dnd5e: {}
 system:
   description:
     value: >-
@@ -38,64 +35,70 @@ system:
     items: []
     repeatable: false
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    OkXFyuMUW3oGSwNG:
+      type: teleport
+      name: ''
+      _id: OkXFyuMUW3oGSwNG
+      img: ''
+      sort: 100000
       activation:
         type: bonus
-        value: 1
-        condition: ''
         override: false
+        condition: ''
+      behaviors: []
       consumption:
-        targets: []
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: ''
       description:
+        value: ''
         chatFlavor: ''
       duration:
-        concentration: false
         units: inst
-        special: ''
+        expiry: null
+        concentration: false
         override: false
       effects: []
+      flags: {}
       range:
         units: self
-        special: ''
         override: false
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
+          stationary: false
           units: ft
-        affects:
-          count: ''
           type: ''
+        affects:
           choice: false
-          special: ''
-        prompt: true
+          type: ''
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
-      flags: {}
+        max: ''
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+        identifier: ''
+      teleport:
+        override: true
+        units: ft
+        value: ''
   identifier: translocation-binding
   enchant: {}
   properties: []
@@ -107,9 +110,9 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.2
   createdTime: 1764610797284
   modifiedTime: null
   lastModifiedBy: null

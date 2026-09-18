@@ -38,7 +38,71 @@ system:
       - lightning-burst
     repeatable: false
   identifier: ride-the-lightning
-  activities: {}
+  activities:
+    uWalsnkPTLxhJVPN:
+      type: teleport
+      name: ''
+      _id: uWalsnkPTLxhJVPN
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: spellSlots
+            value: '1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: ''
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      teleport:
+        override: false
+        units: ft
   enchant: {}
   properties: []
   advancement: []
@@ -49,9 +113,9 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.368'
   systemId: dnd5e
-  systemVersion: 5.2.0
+  systemVersion: 6.0.2
   createdTime: 1764610806844
   modifiedTime: null
   lastModifiedBy: null
